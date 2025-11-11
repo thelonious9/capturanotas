@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Captura de notas</title>
+  <style>
+    input, select { width: 200px; margin: 5px; }
+    .sugerencias { border: 1px solid #ccc; display: none; position: absolute; background: #fff; z-index: 10; }
+    .sugerencias div { padding: 4px; cursor: pointer; }
+    .sugerencias div:hover { background: #eee; }
+  </style>
+</head>
+<body>
+
+<h2>Formulario de captura</h2>
+<form id="formulario">
+  <input id="fecha" type="date" placeholder="Fecha">
+  <input id="medio" placeholder="Medio"><div id="sugMedio" class="sugerencias"></div>
+  <input id="canal" placeholder="Canal" readonly>
+  <input id="titular" placeholder="Titular">
+  <input id="firma" placeholder="Firma">
+  <input id="pagina" placeholder="Página">
+  <input id="dependencia" placeholder="Dependencia"><div id="sugDep" class="sugerencias"></div>
+  <input id="organismo" placeholder="Organismo"><div id="sugOrg" class="sugerencias"></div>
+  <input id="genero" placeholder="Género">
+  <input id="tema" placeholder="Tema"><div id="sugTema" class="sugerencias"></div>
+  <input id="estatus" placeholder="Estatus">
+  <input id="municipio" placeholder="Municipio"><div id="sugMpio" class="sugerencias"></div>
+  <button type="submit">Agregar nota</button>
+</form>
+
+<h3>Notas capturadas</h3>
+<table id="tabla">
+  <thead>
+    <tr>
+      <th>#</th><th>Fecha</th><th>Medio</th><th>Canal</th><th>Titular</th><th>Firma</th><th>Página</th>
+      <th>Dependencia</th><th>Organismo</th><th>Género</th><th>Tema</th><th>Estatus</th><th>Municipio</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<button onclick="exportarExcel()">Exportar a Excel</button>
+<script>
+const urls = {
+  medios: "https://thelonious9.github.io/capturanotas/Medio.csv",
+  dependencias: "https://thelonious9.github.io/capturanotas/Dependencia.csv",
+  municipios: "https://thelonious9.github.io/capturanotas/Municipio.csv",
+  temas: "https://thelonious9.github.io/capturanotas/Tema.csv"
+};
+
+let medios = {};
+let dependencias = {};
+let temas = [];
+let municipios = [];
+
+async function cargarCSV(url) {
+  const response = await fetch(url);
+  const texto = await response.text();
+  const lineas = texto.trim().split('\n');
+  return lineas.map(linea => linea.split(','));
+}
+
+document.addEventListener("DOMContentLoaded", async () => {
+  // Medios
+  const mediosData = await cargarCSV(urls.medios);
+  mediosData.forEach(([medio, canal]) => {
+    if (medio && canal) medios[medio] = canal;
+  });
+  autocompletar("medio", "sugMedio", Object.keys(medios), medio => {
+    document.getElementById("canal").value = medios[medio] || "";
+  });
+
+  // Dependencias
+  const deps = await cargarCSV(urls.dependencias);
+  let actual = null;
+  deps.forEach(fila => {
+    const celda = fila[0]?.trim();
+    if (!celda) return;
+    if (fila.length === 1 || (fila.length === 2 && !fila[1])) {
+      actual = celda;
+      dependencias[actual] = [];
+    } else if (actual) {
+      dependencias[actual].push(celda);
+    }
+  });
+  autocompletar("dependencia", "sugDep", Object.keys(dependencias), dep => {
+    autocompletar("organismo", "sugOrg", dependencias[dep] || []);
+  });
+
+  // Temas
+  const temasData = await cargarCSV(urls.temas);
+  temas = temasData.map(f => f[0]).filter(Boolean);
+  autocompletar("tema", "sugTema", temas);
+
+  // Municipios
+  const mpios = await cargarCSV(urls.municipios);
+  municipios = mpios.map(f => f[0]).filter(Boolean);
+  autocompletar("municipio", "sugMpio", municipios);
+});
+</script>
+<script>
+function autocompletar(idCampo, idSugerencias, lista, callback) {
+  const campo = document.getElementById(idCampo);
+  const contenedor = document.getElementById(idSugerencias);
+
+  campo.addEventListener("input", () => {
+    const valor = campo.value.toLowerCase();
+    contenedor.innerHTML = "";
+    if (!valor) return contenedor.style.display = "none";
+
+    const sugerencias = lista.filter(e => e.toLowerCase().includes(valor)).slice(0, 10);
+    sugerencias.forEach(s => {
+      const div = document.createElement("div");
+      div.textContent = s;
+      div.onclick = () => {
+        campo.value = s;
+        contenedor.style.display = "none";
+        if (callback) callback(s);
+      };
+      contenedor.appendChild(div);
+    });
+    contenedor.style.display = "block";
+  });
+
+  campo.addEventListener("blur", () => setTimeout(() => contenedor.style.display = "none", 200));
+}
+
+document.getElementById("formulario").addEventListener("submit", e => {
+  e.preventDefault();
+  const campos = ["fecha","medio","canal","titular","firma","pagina","dependencia","organismo","genero","tema","estatus","municipio"];
+  const fila = document.createElement("tr");
+  fila.innerHTML = `<td>${document.querySelectorAll("#tabla tbody tr").length + 1}</td>` +
+    campos.map(id => `<td>${document.getElementById(id).value}</td>`).join("");
+  document.querySelector("#tabla tbody").appendChild(fila);
+  document.getElementById("formulario").reset();
+});
+
+function exportarExcel() {
+  const tabla = document.getElementById("tabla");
+  const filas = Array.from(tabla.rows).map(row =>
+    Array.from(row.cells).map(cell => cell.innerText)
+  );
+  let csv = filas.map(f => f.join(",")).join("\n");
+  let blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+  let url = URL.createObjectURL(blob);
+  let a = document.createElement("a");
+  a.href = url;
+  a.download = "notas.csv";
+  a.click();
+}
+</script>
+</body>
+</html>
