@@ -184,11 +184,3 @@
       items[i].classList.add("resaltado");
     }
   }
-
-  document.addEventListener('DOMContentLoaded', async () => {
-    const { claves: dependencias, map: orgMap } = await cargarMapa(urls.dependencias);
-    autocompletar('dependencia','sugDep', dependencias, dep => {
-      autocompletar('organismo','sugOrg', orgMap[dep] || []);
-    });
-
-    const { claves: medios, map: canalMap } = await cargarMapa
