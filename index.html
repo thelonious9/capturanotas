@@ -199,4 +199,48 @@ function autocompletar(idCampo, idSugerencias, lista, callback) {
 document.addEventListener("DOMContentLoaded", async () => {
   const { claves: dependencias, map: orgMap } = await cargarMapa(urls.dependencias);
   autocompletar("dependencia", "sugDep", dependencias, dep => {
-    autocompletar("organismo", "sugOrg", orgMap[
+        autocompletar("organismo", "sugOrg", orgMap[dep] || []);
+  });
+
+  const { claves: medios, map: canalMap } = await cargarMapa(urls.medios);
+  autocompletar("medio", "sugMedio", medios, medio => {
+    autocompletar("canal", "sugCanal", canalMap[medio] || []);
+  });
+
+  autocompletar("genero", "sugGenero", await cargarLista(urls.generos));
+  autocompletar("estatus", "sugEstatus", await cargarLista(urls.estatus));
+  autocompletar("tema", "sugTema", await cargarLista(urls.temas));
+  autocompletar("municipio", "sugMunicipio", await cargarLista(urls.municipios));
+});
+document.querySelector("form").addEventListener("submit", e => {
+  e.preventDefault();
+  const campos = ["fecha","medio","titular","firma","pagina","dependencia","organismo","genero","canal","tema","estatus","municipio"];
+  const fila = campos.map(id => document.getElementById(id).value.trim());
+  const tabla = document.getElementById("tablaNotas").querySelector("tbody");
+  const tr = document.createElement("tr");
+  fila.forEach(valor => {
+    const td = document.createElement("td");
+    td.textContent = valor;
+    tr.appendChild(td);
+  });
+  tabla.appendChild(tr);
+  e.target.reset();
+});
+
+function exportarCSV() {
+  const filas = [["Fecha","Medio","Titular","Firma","Página","Dependencia","Organismo","Género","Canal","Tema","Estatus","Municipio"]];
+  document.querySelectorAll("#tablaNotas tbody tr").forEach(tr => {
+    const fila = Array.from(tr.children).map(td => `"${td.textContent}"`);
+    filas.push(fila);
+  });
+  const blob = new Blob([filas.map(f => f.join(",")).join("\n")], { type: "text/csv" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "notas_capturadas.csv";
+  a.click();
+  URL.revokeObjectURL(url);
+}
+</script>
+</body>
+</html>
