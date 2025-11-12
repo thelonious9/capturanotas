@@ -95,107 +95,108 @@
 <div id="erroresCarga" class="error-carga"></div>
 
 <script>
-  const urls = {
-    dependencias: "https://thelonious9.github.io/capturanotas/Dependencia.csv",
-    medios: "https://thelonious9.github.io/capturanotas/Medio.csv",
-    generos: "https://thelonious9.github.io/capturanotas/Genero.csv",
-    estatus: "https://thelonious9.github.io/capturanotas/Estatus.csv",
-    temas: "https://thelonious9.github.io/capturanotas/Tema.csv",
-    municipios: "https://thelonious9.github.io/capturanotas/Municipio.csv"
-  };
+const urls = {
+  dependencias: "https://thelonious9.github.io/capturanotas/Dependencia.csv",
+  medios: "https://thelonious9.github.io/capturanotas/Medio.csv",
+  generos: "https://thelonious9.github.io/capturanotas/Genero.csv",
+  estatus: "https://thelonious9.github.io/capturanotas/Estatus.csv",
+  temas: "https://thelonious9.github.io/capturanotas/Tema.csv",
+  municipios: "https://thelonious9.github.io/capturanotas/Municipio.csv"
+};
 
-  async function cargarCSV(url) {
-    try {
-      const res = await fetch(url);
-      const texto = await res.text();
-      return texto.split('\n').map(linea => linea.split(','));
-    } catch (e) {
-      document.getElementById("erroresCarga").innerText += `Error al cargar ${url}\n`;
-      return [];
-    }
+async function cargarCSV(url) {
+  try {
+    const res = await fetch(url);
+    const texto = await res.text();
+    return texto.split('\n').map(linea => linea.split(','));
+  } catch (e) {
+    document.getElementById("erroresCarga").innerText += `Error al cargar ${url}\n`;
+    return [];
   }
+}
 
-  function limpiarFilasCSV(filas) {
-    if (!filas || filas.length === 0) return [];
-    filas[0][0] = filas[0][0].replace(/^\uFEFF/, "");
-    const encabezado = filas[0].map(c => (c||"").toLowerCase()).join(",");
-    const tieneEncabezado = encabezado.includes("dependencia") || encabezado.includes("medio") || encabezado.includes("género");
-    if (tieneEncabezado) filas = filas.slice(1);
-    return filas.map(r => r.map(c => (c||"").replace(/<[^>]+>/g,"").trim())).filter(r => r[0]);
-  }
+function limpiarFilasCSV(filas) {
+  if (!filas || filas.length === 0) return [];
+  filas[0][0] = filas[0][0].replace(/^\uFEFF/, "");
+  const encabezado = filas[0].map(c => (c||"").toLowerCase()).join(",");
+  const tieneEncabezado = encabezado.includes("dependencia") || encabezado.includes("medio") || encabezado.includes("género");
+  if (tieneEncabezado) filas = filas.slice(1);
+  return filas.map(r => r.map(c => (c||"").replace(/<[^>]+>/g,"").trim())).filter(r => r[0]);
+}
 
-  async function cargarMapa(url) {
-    const filas = limpiarFilasCSV(await cargarCSV(url));
-    const map = {};
-    filas.forEach(([clave, valor]) => {
-      if (!clave) return;
-      map[clave] = map[clave] || new Set();
-      if (valor) map[clave].add(valor);
+async function cargarMapa(url) {
+  const filas = limpiarFilasCSV(await cargarCSV(url));
+  const map = {};
+  filas.forEach(([clave, valor]) => {
+    if (!clave) return;
+    map[clave] = map[clave] || new Set();
+    if (valor) map[clave].add(valor);
+  });
+  const claves = Object.keys(map).sort((a,b) => a.localeCompare(b,'es'));
+  const mapArrays = {};
+  claves.forEach(k => mapArrays[k] = Array.from(map[k]).sort((a,b) => a.localeCompare(b,'es')));
+  return { claves, map: mapArrays };
+}
+
+async function cargarLista(url) {
+  const filas = limpiarFilasCSV(await cargarCSV(url));
+  return Array.from(new Set(filas.map(r => r[0]))).sort((a,b) => a.localeCompare(b,'es'));
+}
+
+function autocompletar(idCampo, idSugerencias, lista, callback) {
+  const campo = document.getElementById(idCampo);
+  const contenedor = document.getElementById(idSugerencias);
+  let indice = -1;
+
+  campo.addEventListener("input", () => {
+    const valor = campo.value.toLowerCase().trim();
+    contenedor.innerHTML = "";
+    indice = -1;
+    if (!valor) return;
+    const sugerencias = lista.filter(item => item.toLowerCase().includes(valor));
+    sugerencias.forEach((s, i) => {
+      const div = document.createElement("div");
+      div.textContent = s;
+      div.className = "sugerencia";
+      div.dataset.index = i;
+      div.onclick = () => {
+        campo.value = s;
+        contenedor.innerHTML = "";
+        if (callback) callback(s);
+      };
+      contenedor.appendChild(div);
     });
-    const claves = Object.keys(map).sort((a,b) => a.localeCompare(b,'es'));
-    const mapArrays = {};
-    claves.forEach(k => mapArrays[k] = Array.from(map[k]).sort((a,b) => a.localeCompare(b,'es')));
-    return { claves, map: mapArrays };
-  }
+  });
 
-  async function cargarLista(url) {
-    const filas = limpiarFilasCSV(await cargarCSV(url));
-    return Array.from(new Set(filas.map(r => r[0]))).sort((a,b) => a.localeCompare(b,'es'));
-  }
+  campo.addEventListener("keydown", e => {
+    const items = contenedor.querySelectorAll(".sugerencia");
+    if (items.length === 0) return;
 
-  function autocompletar(idCampo, idSugerencias, lista, callback) {
-    const campo = document.getElementById(idCampo);
-    const contenedor = document.getElementById(idSugerencias);
-    let indice = -1;
-
-    campo.addEventListener("input", () => {
-      const valor = campo.value.toLowerCase().trim();
-      contenedor.innerHTML = "";
-      indice = -1;
-      if (!valor) return;
-      const sugerencias = lista.filter(item => item.toLowerCase().includes(valor));
-      sugerencias.forEach((s, i) => {
-        const div = document.createElement("div");
-        div.textContent = s;
-        div.className = "sugerencia";
-        div.dataset.index = i;
-        div.onclick = () => {
-          campo.value = s;
-          contenedor.innerHTML = "";
-          if (callback) callback(s);
-        };
-        contenedor.appendChild(div);
-      });
-    });
-
-    campo.addEventListener("keydown", e => {
-      const items = contenedor.querySelectorAll(".sugerencia");
-      if (items.length === 0) return;
-
-      if (e.key === "ArrowDown") {
-        e.preventDefault();
-        indice = (indice + 1) % items.length;
-        resaltar(items, indice);
-      } else if (e.key === "ArrowUp") {
-        e.preventDefault();
-        indice = (indice - 1 + items.length) % items.length;
-        resaltar(items, indice);
-      } else if (e.key === "Enter") {
-        e.preventDefault();
-        if (indice >= 0 && items[indice]) {
-          campo.value = items[indice].textContent;
-          contenedor.innerHTML = "";
-          if (callback) callback(campo.value);
-        }
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      indice = (indice + 1) % items.length;
+      resaltar(items, indice);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      indice = (indice - 1 + items.length) % items.length;
+      resaltar(items, indice);
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      if (indice >= 0 && items[indice]) {
+        campo.value = items[indice].textContent;
+        contenedor.innerHTML = "";
+        if (callback) callback(campo.value);
       }
-    });
-
-    function resaltar(items, i) {
-      items.forEach(el => el.classList.remove("resaltado"));
-      items[i].classList.add("resaltado");
     }
-  }
+  });
 
-  document.querySelector("form").addEventListener("submit", e => {
-    e.preventDefault();
-    const campos = ["fecha","medio","titular","firma","pagina","dependencia","
+  function resaltar(items, i) {
+    items.forEach(el => el.classList.remove("resaltado"));
+    items[i].classList.add("resaltado");
+  }
+}
+
+document.addEventListener("DOMContentLoaded", async () => {
+  const { claves: dependencias, map: orgMap } = await cargarMapa(urls.dependencias);
+  autocompletar("dependencia", "sugDep", dependencias, dep => {
+    autocompletar("organismo", "sugOrg", orgMap[
