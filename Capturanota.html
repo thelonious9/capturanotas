@@ -1,105 +1,47 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Plataforma de Captura</title>
-  <style>
-    .sugerencias {
-      border: 1px solid #ccc;
-      max-height: 150px;
-      overflow-y: auto;
-      position: absolute;
-      background: white;
-      z-index: 10;
-    }
-    .sugerencia {
-      padding: 5px;
-      cursor: pointer;
-    }
-    .sugerencia:hover {
-      background-color: #eee;
-    }
-  </style>
-</head>
-<body>
-  <h1>Formulario de Captura</h1>
+function autocompletar(idCampo, idSugerencias, lista, callback) {
+  const campo = document.getElementById(idCampo);
+  const contenedor = document.getElementById(idSugerencias);
+  let indice = -1;
 
-  <form>
-    <label for="dependencia">Dependencia:</label><br>
-    <input type="text" id="dependencia" name="dependencia"><br>
-    <div id="sugDep" class="sugerencias"></div><br>
-
-    <label for="organismo">Organismo:</label><br>
-    <input type="text" id="organismo" name="organismo"><br>
-    <div id="sugOrg" class="sugerencias"></div><br>
-
-    <!-- Puedes agregar más campos aquí -->
-
-    <button type="submit">Guardar</button>
-  </form>
-
-  <script>
-    const urls = {
-      dependencias: "https://thelonious9.github.io/capturanotas/Dependencia.csv"
-    };
-
-    async function cargarCSV(url) {
-      const res = await fetch(url);
-      const texto = await res.text();
-      return texto.split('\n').map(linea => linea.split(','));
-    }
-
-    function limpiarFilasCSV(filas) {
-      if (!filas || filas.length === 0) return [];
-      filas[0][0] = filas[0][0].replace(/^\uFEFF/, "");
-      const primer = filas[0].map(c => (c||"").toLowerCase()).join(",");
-      if (primer.includes("dependencia") && primer.includes("organismo")) filas = filas.slice(1);
-      return filas.map(r => r.map(c => (c||"").trim())).filter(r => r[0]);
-    }
-
-    async function cargarDependencias(url) {
-      const filasRaw = await cargarCSV(url);
-      const filas = limpiarFilasCSV(filasRaw);
-      const map = {};
-      filas.forEach(([dep, org]) => {
-        if (!dep) return;
-        map[dep] = map[dep] || new Set();
-        if (org) map[dep].add(org);
-      });
-      const dependencias = Object.keys(map).sort((a,b) => a.localeCompare(b,'es'));
-      const mapArrays = {};
-      dependencias.forEach(d => mapArrays[d] = Array.from(map[d]).sort((a,b) => a.localeCompare(b,'es')));
-      return { dependencias, map: mapArrays };
-    }
-
-    function autocompletar(idCampo, idSugerencias, lista, callback) {
-      const campo = document.getElementById(idCampo);
-      const contenedor = document.getElementById(idSugerencias);
-      campo.addEventListener("input", () => {
-        const valor = campo.value.toLowerCase().trim();
-        contenedor.innerHTML = "";
-        if (!valor) return;
-        const sugerencias = lista.filter(item => item.toLowerCase().includes(valor));
-        sugerencias.forEach(s => {
-          const div = document.createElement("div");
-          div.textContent = s;
-          div.className = "sugerencia";
-          div.onclick = () => {
-            campo.value = s;
-            contenedor.innerHTML = "";
-            if (callback) callback(s);
-          };
-          contenedor.appendChild(div);
-        });
-      });
-    }
-
-    document.addEventListener('DOMContentLoaded', async () => {
-      const { dependencias, map } = await cargarDependencias(urls.dependencias);
-      autocompletar('dependencia','sugDep', dependencias, dep => {
-        autocompletar('organismo','sugOrg', map[dep] || []);
-      });
+  campo.addEventListener("input", () => {
+    const valor = campo.value.toLowerCase().trim();
+    contenedor.innerHTML = "";
+    indice = -1;
+    if (!valor) return;
+    const sugerencias = lista.filter(item => item.toLowerCase().includes(valor));
+    sugerencias.forEach((s, i) => {
+      const div = document.createElement("div");
+      div.textContent = s;
+      div.className = "sugerencia";
+      div.dataset.index = i;
+      contenedor.appendChild(div);
     });
-  </script>
-</body>
-</html>
+  });
+
+  campo.addEventListener("keydown", e => {
+    const items = contenedor.querySelectorAll(".sugerencia");
+    if (items.length === 0) return;
+
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      indice = (indice + 1) % items.length;
+      resaltar(items, indice);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      indice = (indice - 1 + items.length) % items.length;
+      resaltar(items, indice);
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      if (indice >= 0 && items[indice]) {
+        campo.value = items[indice].textContent;
+        contenedor.innerHTML = "";
+        if (callback) callback(campo.value);
+      }
+    }
+  });
+
+  function resaltar(items, i) {
+    items.forEach(el => el.classList.remove("resaltado"));
+    items[i].classList.add("resaltado");
+  }
+}
