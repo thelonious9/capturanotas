@@ -27,6 +27,22 @@
 <h1>Formulario de Captura</h1>
 
 <form>
+  <label for="fecha">Fecha:</label><br>
+  <input type="date" id="fecha" name="fecha"><br><br>
+
+  <label for="medio">Medio:</label><br>
+  <input type="text" id="medio" name="medio" autocomplete="off"><br>
+  <div id="sugMedio" class="sugerencias"></div><br>
+
+  <label for="titular">Titular:</label><br>
+  <input type="text" id="titular" name="titular"><br><br>
+
+  <label for="firma">Firma:</label><br>
+  <input type="text" id="firma" name="firma"><br><br>
+
+  <label for="pagina">Página:</label><br>
+  <input type="text" id="pagina" name="pagina"><br><br>
+
   <label for="dependencia">Dependencia:</label><br>
   <input type="text" id="dependencia" name="dependencia" autocomplete="off"><br>
   <div id="sugDep" class="sugerencias"></div><br>
@@ -35,25 +51,21 @@
   <input type="text" id="organismo" name="organismo" autocomplete="off"><br>
   <div id="sugOrg" class="sugerencias"></div><br>
 
-  <label for="medio">Medio:</label><br>
-  <input type="text" id="medio" name="medio" autocomplete="off"><br>
-  <div id="sugMedio" class="sugerencias"></div><br>
+  <label for="genero">Género:</label><br>
+  <input type="text" id="genero" name="genero" autocomplete="off"><br>
+  <div id="sugGenero" class="sugerencias"></div><br>
 
   <label for="canal">Canal:</label><br>
   <input type="text" id="canal" name="canal" autocomplete="off"><br>
   <div id="sugCanal" class="sugerencias"></div><br>
 
-  <label for="genero">Género:</label><br>
-  <input type="text" id="genero" name="genero" autocomplete="off"><br>
-  <div id="sugGenero" class="sugerencias"></div><br>
+  <label for="tema">Tema:</label><br>
+  <input type="text" id="tema" name="tema" autocomplete="off"><br>
+  <div id="sugTema" class="sugerencias"></div><br>
 
   <label for="estatus">Estatus:</label><br>
   <input type="text" id="estatus" name="estatus" autocomplete="off"><br>
   <div id="sugEstatus" class="sugerencias"></div><br>
-
-  <label for="tema">Tema:</label><br>
-  <input type="text" id="tema" name="tema" autocomplete="off"><br>
-  <div id="sugTema" class="sugerencias"></div><br>
 
   <label for="municipio">Municipio:</label><br>
   <input type="text" id="municipio" name="municipio" autocomplete="off"><br>
@@ -61,6 +73,21 @@
 
   <button type="submit">Guardar</button>
 </form>
+
+<h2>Notas capturadas</h2>
+<table id="tablaNotas" border="1">
+  <thead>
+    <tr>
+      <th>Fecha</th><th>Medio</th><th>Titular</th><th>Firma</th><th>Página</th>
+      <th>Dependencia</th><th>Organismo</th><th>Género</th><th>Canal</th>
+      <th>Tema</th><th>Estatus</th><th>Municipio</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+<br>
+<button onclick="exportarCSV()">Exportar a hoja de cálculo</button>
+
 <script>
   const urls = {
     dependencias: "https://thelonious9.github.io/capturanotas/Dependencia.csv",
@@ -83,7 +110,7 @@
     const encabezado = filas[0].map(c => (c||"").toLowerCase()).join(",");
     const tieneEncabezado = encabezado.includes("dependencia") || encabezado.includes("medio") || encabezado.includes("género");
     if (tieneEncabezado) filas = filas.slice(1);
-    return filas.map(r => r.map(c => (c||"").trim())).filter(r => r[0]);
+    return filas.map(r => r.map(c => (c||"").replace(/<[^>]+>/g,"").trim())).filter(r => r[0]);
   }
 
   async function cargarMapa(url) {
@@ -121,6 +148,11 @@
         div.textContent = s;
         div.className = "sugerencia";
         div.dataset.index = i;
+        div.onclick = () => {
+          campo.value = s;
+          contenedor.innerHTML = "";
+          if (callback) callback(s);
+        };
         contenedor.appendChild(div);
       });
     });
@@ -159,16 +191,4 @@
       autocompletar('organismo','sugOrg', orgMap[dep] || []);
     });
 
-    const { claves: medios, map: canalMap } = await cargarMapa(urls.medios);
-    autocompletar('medio','sugMedio', medios, medio => {
-      autocompletar('canal','sugCanal', canalMap[medio] || []);
-    });
-
-    autocompletar('genero','sugGenero', await cargarLista(urls.generos));
-    autocompletar('estatus','sugEstatus', await cargarLista(urls.estatus));
-    autocompletar('tema','sugTema', await cargarLista(urls.temas));
-    autocompletar('municipio','sugMunicipio', await cargarLista(urls.municipios));
-  });
-</script>
-</body>
-</html>
+    const { claves: medios, map: canalMap } = await cargarMapa
