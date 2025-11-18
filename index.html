@@ -2,16 +2,51 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Plataforma de Captura</title>
+  <title>Sistema de Captura de Notas</title>
   <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    header img {
+      height: 60px;
+    }
+    form {
+      /* Diseño de 4 columnas para 2 campos por fila (Label, Input, Label, Input) */
+      display: grid;
+      grid-template-columns: auto 1fr auto 1fr;
+      gap: 10px 20px;
+      max-width: 900px;
+    }
+    .campo {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    /* Asegura que los inputs llenen su columna, dejando espacio para el checkbox */
+    .campo > input[type="text"], 
+    .campo > input[type="date"] {
+      flex-grow: 1;
+      margin-right: 10px; /* Espacio para el checkbox */
+    }
     .sugerencias {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
       border: 1px solid #ccc;
+      background: white;
       max-height: 150px;
       overflow-y: auto;
-      position: absolute;
-      background: white;
       z-index: 10;
-      width: 300px;
     }
     .sugerencia {
       padding: 5px;
@@ -21,226 +56,497 @@
     .sugerencia.resaltado {
       background-color: #cce5ff;
     }
+    /* Clase de solo lectura para campos bloqueados */
+    .bloqueado {
+      background-color: #f0f0f0;
+      border: 1px solid #999;
+    }
+    input:required:invalid {
+      border-left: 5px solid #FF0000;
+    }
+    input:required:valid {
+      border-left: 5px solid #00AA00;
+    }
     .error-carga {
       color: red;
       font-weight: bold;
     }
+    footer {
+      margin-top: 40px;
+      border-top: 1px solid #ccc;
+      padding-top: 10px;
+      font-size: 0.9em;
+      color: #666;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      padding: 6px 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    .editando {
+        background-color: #fffacd;
+    }
   </style>
 </head>
 <body>
-<h1>Formulario de Captura</h1>
+  <header>
+    <img src="https://thelonious9.github.io/capturanotas/logo.png" alt="Logotipo institucional">
+    <h1>Sistema de Captura de Notas</h1>
+  </header>
 
-<form>
-  <label for="fecha">Fecha:</label><br>
-  <input type="date" id="fecha" name="fecha"><br><br>
+  <form>
+    <label for="usuario">Usuario:</label>
+    <div class="campo" style="grid-column: span 4;">
+      <input type="text" id="usuario" name="usuario" required>
+      <input type="checkbox" id="checkUsuario" onchange="alternarBloqueo('usuario')">
+      <label for="checkUsuario">🔒</label>
+    </div>
+    
+    <label for="fecha">Fecha:</label>
+    <div class="campo">
+      <input type="date" id="fecha" name="fecha" required>
+      <input type="checkbox" id="checkFecha" onchange="alternarBloqueo('fecha')">
+      <label for="checkFecha">🔒</label>
+    </div>
 
-  <label for="medio">Medio:</label><br>
-  <input type="text" id="medio" name="medio" autocomplete="off"><br>
-  <div id="sugMedio" class="sugerencias"></div><br>
+    <label for="medio">Medio:</label>
+    <div class="campo">
+      <input type="text" id="medio" name="medio" autocomplete="off" required>
+      <button type="button" onclick="mostrarSugerencias('medio','sugMedio')">🔽</button>
+      <input type="checkbox" id="checkMedio" onchange="alternarBloqueo('medio')">
+      <label for="checkMedio">🔒</label>
+      <div id="sugMedio" class="sugerencias"></div>
+    </div>
 
-  <label for="titular">Titular:</label><br>
-  <input type="text" id="titular" name="titular"><br><br>
+    <label for="titular">Titular:</label>
+    <div class="campo" style="grid-column: span 4;">
+      <input type="text" id="titular" name="titular" required>
+      <input type="checkbox" id="checkTitular" onchange="alternarBloqueo('titular')">
+      <label for="checkTitular">🔒</label>
+    </div>
 
-  <label for="firma">Firma:</label><br>
-  <input type="text" id="firma" name="firma"><br><br>
+    <label for="firma">Firma:</label>
+    <div class="campo">
+      <input type="text" id="firma" name="firma">
+      <input type="checkbox" id="checkFirma" onchange="alternarBloqueo('firma')">
+      <label for="checkFirma">🔒</label>
+    </div>
 
-  <label for="pagina">Página:</label><br>
-  <input type="text" id="pagina" name="pagina"><br><br>
+    <label for="pagina">Página:</label>
+    <div class="campo">
+      <input type="text" id="pagina" name="pagina">
+      <input type="checkbox" id="checkPagina" onchange="alternarBloqueo('pagina')">
+      <label for="checkPagina">🔒</label>
+    </div>
 
-  <label for="dependencia">Dependencia:</label><br>
-  <input type="text" id="dependencia" name="dependencia" autocomplete="off"><br>
-  <div id="sugDep" class="sugerencias"></div><br>
+    <label for="dependencia">Dependencia:</label>
+    <div class="campo">
+      <input type="text" id="dependencia" name="dependencia" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('dependencia','sugDep')">🔽</button>
+      <input type="checkbox" id="checkDependencia" onchange="alternarBloqueo('dependencia')">
+      <label for="checkDependencia">🔒</label>
+      <div id="sugDep" class="sugerencias"></div>
+    </div>
 
-  <label for="organismo">Organismo:</label><br>
-  <input type="text" id="organismo" name="organismo" autocomplete="off"><br>
-  <div id="sugOrg" class="sugerencias"></div><br>
+    <label for="organismo">Organismo:</label>
+    <div class="campo">
+      <input type="text" id="organismo" name="organismo" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('organismo','sugOrg')">🔽</button>
+      <input type="checkbox" id="checkOrganismo" onchange="alternarBloqueo('organismo')">
+      <label for="checkOrganismo">🔒</label>
+      <div id="sugOrg" class="sugerencias"></div>
+    </div>
 
-  <label for="genero">Género:</label><br>
-  <input type="text" id="genero" name="genero" autocomplete="off"><br>
-  <div id="sugGenero" class="sugerencias"></div><br>
+    <label for="genero">Género:</label>
+    <div class="campo">
+      <input type="text" id="genero" name="genero" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('genero','sugGenero')">🔽</button>
+      <input type="checkbox" id="checkGenero" onchange="alternarBloqueo('genero')">
+      <label for="checkGenero">🔒</label>
+      <div id="sugGenero" class="sugerencias"></div>
+    </div>
 
-  <label for="canal">Canal:</label><br>
-  <input type="text" id="canal" name="canal" autocomplete="off"><br>
-  <div id="sugCanal" class="sugerencias"></div><br>
+    <label for="canal">Canal:</label>
+    <div class="campo">
+      <input type="text" id="canal" name="canal" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('canal','sugCanal')">🔽</button>
+      <input type="checkbox" id="checkCanal" onchange="alternarBloqueo('canal')">
+      <label for="checkCanal">🔒</label>
+      <div id="sugCanal" class="sugerencias"></div>
+    </div>
 
-  <label for="tema">Tema:</label><br>
-  <input type="text" id="tema" name="tema" autocomplete="off"><br>
-  <div id="sugTema" class="sugerencias"></div><br>
+    <label for="tema">Tema:</label>
+    <div class="campo">
+      <input type="text" id="tema" name="tema" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('tema','sugTema')">🔽</button>
+      <input type="checkbox" id="checkTema" onchange="alternarBloqueo('tema')">
+      <label for="checkTema">🔒</label>
+      <div id="sugTema" class="sugerencias"></div>
+    </div>
 
-  <label for="estatus">Estatus:</label><br>
-  <input type="text" id="estatus" name="estatus" autocomplete="off"><br>
-  <div id="sugEstatus" class="sugerencias"></div><br>
+    <label for="estatus">Estatus:</label>
+    <div class="campo">
+      <input type="text" id="estatus" name="estatus" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('estatus','sugEstatus')">🔽</button>
+      <input type="checkbox" id="checkEstatus" onchange="alternarBloqueo('estatus')">
+      <label for="checkEstatus">🔒</label>
+      <div id="sugEstatus" class="sugerencias"></div>
+    </div>
 
-  <label for="municipio">Municipio:</label><br>
-  <input type="text" id="municipio" name="municipio" autocomplete="off"><br>
-  <div id="sugMunicipio" class="sugerencias"></div><br>
+    <label for="municipio">Municipio:</label>
+    <div class="campo">
+      <input type="text" id="municipio" name="municipio" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('municipio','sugMunicipio')">🔽</button>
+      <input type="checkbox" id="checkMunicipio" onchange="alternarBloqueo('municipio')">
+      <label for="checkMunicipio">🔒</label>
+      <div id="sugMunicipio" class="sugerencias"></div>
+    </div>
 
-  <button type="submit">Guardar</button>
-</form>
+    <div style="grid-column: span 4; margin-top: 10px;">
+      <button type="submit" id="btnGuardar">Guardar</button>
+    </div>
+  </form>
 
-<h2>Notas capturadas</h2>
-<table id="tablaNotas" border="1">
-  <thead>
-    <tr>
-      <th>Fecha</th><th>Medio</th><th>Titular</th><th>Firma</th><th>Página</th>
-      <th>Dependencia</th><th>Organismo</th><th>Género</th><th>Canal</th>
-      <th>Tema</th><th>Estatus</th><th>Municipio</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
-<br>
-<button onclick="exportarCSV()">Exportar a hoja de cálculo</button>
+  <h2>Notas capturadas</h2>
+  <table id="tablaNotas">
+    <thead>
+      <tr>
+        <th>Usuario</th><th>Fecha</th><th>Medio</th><th>Titular</th><th>Firma</th><th>Página</th>
+        <th>Dependencia</th><th>Organismo</th><th>Género</th><th>Canal</th>
+        <th>Tema</th><th>Estatus</th><th>Municipio</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <br>
+  <button onclick="exportarCSV()">Exportar a hoja de cálculo</button>
+  <div id="erroresCarga" class="error-carga"></div>
 
-<div id="erroresCarga" class="error-carga"></div>
-
-<script>
-const urls = {
-  dependencias: "https://thelonious9.github.io/capturanotas/Dependencia.csv",
-  medios: "https://thelonious9.github.io/capturanotas/Medio.csv",
-  generos: "https://thelonious9.github.io/capturanotas/Genero.csv",
-  estatus: "https://thelonious9.github.io/capturanotas/Estatus.csv",
-  temas: "https://thelonious9.github.io/capturanotas/Tema.csv",
-  municipios: "https://thelonious9.github.io/capturanotas/Municipio.csv"
-};
-
-async function cargarCSV(url) {
-  try {
-    const res = await fetch(url);
-    const texto = await res.text();
-    return texto.split('\n').map(linea => linea.split(','));
-  } catch (e) {
-    document.getElementById("erroresCarga").innerText += `Error al cargar ${url}\n`;
-    return [];
-  }
-}
-
-function limpiarFilasCSV(filas) {
-  if (!filas || filas.length === 0) return [];
-  filas[0][0] = filas[0][0].replace(/^\uFEFF/, "");
-  const encabezado = filas[0].map(c => (c||"").toLowerCase()).join(",");
-  const tieneEncabezado = encabezado.includes("dependencia") || encabezado.includes("medio") || encabezado.includes("género");
-  if (tieneEncabezado) filas = filas.slice(1);
-  return filas.map(r => r.map(c => (c||"").replace(/<[^>]+>/g,"").trim())).filter(r => r[0]);
-}
-
-async function cargarMapa(url) {
-  const filas = limpiarFilasCSV(await cargarCSV(url));
-  const map = {};
-  filas.forEach(([clave, valor]) => {
-    if (!clave) return;
-    map[clave] = map[clave] || new Set();
-    if (valor) map[clave].add(valor);
-  });
-  const claves = Object.keys(map).sort((a,b) => a.localeCompare(b,'es'));
-  const mapArrays = {};
-  claves.forEach(k => mapArrays[k] = Array.from(map[k]).sort((a,b) => a.localeCompare(b,'es')));
-  return { claves, map: mapArrays };
-}
-
-async function cargarLista(url) {
-  const filas = limpiarFilasCSV(await cargarCSV(url));
-  return Array.from(new Set(filas.map(r => r[0]))).sort((a,b) => a.localeCompare(b,'es'));
-}
-
-function autocompletar(idCampo, idSugerencias, lista, callback) {
-  const campo = document.getElementById(idCampo);
-  const contenedor = document.getElementById(idSugerencias);
-  let indice = -1;
-
-  campo.addEventListener("input", () => {
-    const valor = campo.value.toLowerCase().trim();
-    contenedor.innerHTML = "";
-    indice = -1;
-    if (!valor) return;
-    const sugerencias = lista.filter(item => item.toLowerCase().includes(valor));
-    sugerencias.forEach((s, i) => {
-      const div = document.createElement("div");
-      div.textContent = s;
-      div.className = "sugerencia";
-      div.dataset.index = i;
-      div.onclick = () => {
-        campo.value = s;
-        contenedor.innerHTML = "";
-        if (callback) callback(s);
-      };
-      contenedor.appendChild(div);
-    });
-  });
-
-  campo.addEventListener("keydown", e => {
-    const items = contenedor.querySelectorAll(".sugerencia");
-    if (items.length === 0) return;
-
-    if (e.key === "ArrowDown") {
-      e.preventDefault();
-      indice = (indice + 1) % items.length;
-      resaltar(items, indice);
-    } else if (e.key === "ArrowUp") {
-      e.preventDefault();
-      indice = (indice - 1 + items.length) % items.length;
-      resaltar(items, indice);
-    } else if (e.key === "Enter") {
-      e.preventDefault();
-      if (indice >= 0 && items[indice]) {
-        campo.value = items[indice].textContent;
-        contenedor.innerHTML = "";
-        if (callback) callback(campo.value);
+  <script>
+    let notas = [];
+    let filaEnEdicion = null;
+    const camposDeDatos = ["usuario", "fecha", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
+    
+    const urls = {
+      dependencias: "https://thelonious9.github.io/capturanotas/Dependencia.csv",
+      medios: "https://thelonious9.github.io/capturanotas/Medio.csv",
+      generos: "https://thelonious9.github.io/capturanotas/Genero.csv",
+      estatus: "https://thelonious9.github.io/capturanotas/Estatus.csv",
+      temas: "https://thelonious9.github.io/capturanotas/Tema.csv",
+      municipios: "https://thelonious9.github.io/capturanotas/Municipio.csv"
+    };
+    
+    // --- FUNCIÓN DE CARGA CSV CORREGIDA PARA MANEJAR ACENTOS (APLICA A TODOS) ---
+    async function cargarCSV(url) {
+      try {
+        const res = await fetch(url);
+        // 1. Obtener el buffer de bytes (datos binarios)
+        const buffer = await res.arrayBuffer(); 
+        // 2. Decodificar explícitamente usando ISO-8859-1 (Latin-1), que es compatible con la mayoría de los acentos en CSVs
+        const decoder = new TextDecoder('iso-8859-1'); 
+        const texto = decoder.decode(buffer); 
+        
+        return texto.split('\n').map(linea => linea.split(','));
+      } catch (e) {
+        document.getElementById("erroresCarga").innerText += `Error al cargar ${url} (problema de codificación o red).\n`;
+        return [];
       }
     }
-  });
+    // -------------------------------------------------------------------
 
-  function resaltar(items, i) {
-    items.forEach(el => el.classList.remove("resaltado"));
-    items[i].classList.add("resaltado");
-  }
-}
+    function limpiarFilasCSV(filas) {
+      if (!filas || filas.length === 0) return [];
+      filas[0][0] = filas[0][0].replace(/^\uFEFF/, "");
+      const encabezado = filas[0].map(c => (c || "").toLowerCase()).join(",");
+      const tieneEncabezado = encabezado.includes("dependencia") || encabezado.includes("medio") || encabezado.includes("género");
+      if (tieneEncabezado) filas = filas.slice(1);
+      return filas.map(r => r.map(c => (c || "").replace(/<[^>]+>/g, "").trim())).filter(r => r[0]);
+    }
 
-document.addEventListener("DOMContentLoaded", async () => {
-  const { claves: dependencias, map: orgMap } = await cargarMapa(urls.dependencias);
-  autocompletar("dependencia", "sugDep", dependencias, dep => {
+    async function cargarMapa(url) {
+      const filas = limpiarFilasCSV(await cargarCSV(url));
+      const map = {};
+      filas.forEach(([clave, valor]) => {
+        if (!clave) return;
+        map[clave] = map[clave] || new Set();
+        if (valor) map[clave].add(valor);
+      });
+      const claves = Object.keys(map).sort((a, b) => a.localeCompare(b, 'es'));
+      const mapArrays = {};
+      claves.forEach(k => mapArrays[k] = Array.from(map[k]).sort((a, b) => a.localeCompare(b, 'es')));
+      return { claves, map: mapArrays };
+    }
+
+    async function cargarLista(url) {
+      const filas = limpiarFilasCSV(await cargarCSV(url));
+      return Array.from(new Set(filas.map(r => r[0]))).sort((a, b) => a.localeCompare(b, 'es'));
+    }
+
+    function autocompletar(idCampo, idSugerencias, lista, callback) {
+      const campo = document.getElementById(idCampo);
+      const contenedor = document.getElementById(idSugerencias);
+      campo.dataset.lista = JSON.stringify(lista);
+      let indice = -1;
+
+      campo.addEventListener("input", () => {
+        const valor = campo.value.toLowerCase().trim();
+        contenedor.innerHTML = "";
+        indice = -1;
+        if (!valor) return;
+        const sugerencias = lista.filter(item => item.toLowerCase().includes(valor));
+        sugerencias.forEach((s, i) => {
+          const div = document.createElement("div");
+          div.textContent = s;
+          div.className = "sugerencia";
+          div.dataset.index = i;
+          div.onclick = () => {
+            campo.value = s;
+            contenedor.innerHTML = "";
+            if (callback) callback(s);
+          };
+          contenedor.appendChild(div);
+        });
+      });
+
+      campo.addEventListener("keydown", e => {
+        const items = contenedor.querySelectorAll(".sugerencia");
+        if (items.length === 0) return;
+        if (e.key === "ArrowDown") {
+          e.preventDefault();
+          indice = (indice + 1) % items.length;
+          resaltar(items, indice);
+        } else if (e.key === "ArrowUp") {
+          e.preventDefault();
+          indice = (indice - 1 + items.length) % items.length;
+          resaltar(items, indice);
+        } else if (e.key === "Enter") {
+          e.preventDefault();
+          if (indice >= 0 && items[indice]) {
+            campo.value = items[indice].textContent;
+            contenedor.innerHTML = "";
+            if (callback) callback(campo.value);
+          }
+        }
+      });
+
+      function resaltar(items, i) {
+        items.forEach(el => el.classList.remove("resaltado"));
+        items[i].classList.add("resaltado");
+      }
+    }
+
+    function mostrarSugerencias(idCampo, idSugerencias) {
+      const campo = document.getElementById(idCampo);
+      const contenedor = document.getElementById(idSugerencias);
+      document.querySelectorAll('.sugerencias').forEach(sug => sug.innerHTML = "");
+
+      const lista = campo.dataset.lista ? JSON.parse(campo.dataset.lista) : [];
+      contenedor.innerHTML = "";
+      lista.forEach((s, i) => {
+        const div = document.createElement("div");
+        div.textContent = s;
+        div.className = "sugerencia";
+        div.dataset.index = i;
+        div.onclick = () => {
+          campo.value = s;
+          contenedor.innerHTML = "";
+        };
+        contenedor.appendChild(div);
+      });
+    }
+
+    // --- Funciones de Persistencia y Renderizado ---
+    
+    function guardarNotas() {
+        localStorage.setItem('notasCapturadas', JSON.stringify(notas));
+    }
+
+    function renderizarTabla() {
+        const tablaBody = document.getElementById("tablaNotas").querySelector("tbody");
+        tablaBody.innerHTML = '';
+        
+        notas.forEach((nota, indice) => {
+            const tr = document.createElement("tr");
+            tr.dataset.index = indice;
+
+            camposDeDatos.forEach(campo => {
+                const td = document.createElement("td");
+                td.textContent = nota[campo];
+                tr.appendChild(td);
+            });
+            
+            const tdAcciones = document.createElement("td");
+            const btnEditar = document.createElement("button");
+            btnEditar.textContent = "Editar";
+            btnEditar.onclick = function() { editarNota(tr); };
+            tdAcciones.appendChild(btnEditar);
+            tr.appendChild(tdAcciones);
+
+            tablaBody.appendChild(tr);
+        });
+    }
+
+    function cargarNotasGuardadas() {
+        const datosJSON = localStorage.getItem('notasCapturadas');
+        if (datosJSON) {
+            try {
+                notas = JSON.parse(datosJSON);
+                renderizarTabla();
+            } catch (e) {
+                console.error("Error al cargar notas de localStorage:", e);
+                notas = [];
+            }
+        }
+    }
+
+    // --- Funciones de Bloqueo y Edición ---
+
+    function alternarBloqueo(idCampo) {
+        const campo = document.getElementById(idCampo);
+        const checkboxId = `check${idCampo.charAt(0).toUpperCase() + idCampo.slice(1)}`;
+        const checkbox = document.getElementById(checkboxId);
+        
+        campo.readOnly = checkbox.checked;
+        campo.classList.toggle("bloqueado", checkbox.checked);
+        
+        localStorage.setItem(`bloqueado_${idCampo}`, checkbox.checked);
+    }
+
+    function editarNota(tr) {
+        const indice = parseInt(tr.dataset.index);
+        const nota = notas[indice];
+
+        camposDeDatos.forEach(id => {
+            document.getElementById(id).value = nota[id];
+        });
+
+        filaEnEdicion = indice; 
+        document.getElementById('btnGuardar').textContent = 'Actualizar Nota';
+        
+        document.querySelectorAll('#tablaNotas tbody tr').forEach(row => row.classList.remove('editando'));
+        tr.classList.add('editando');
+        
+        window.scrollTo(0, 0);
+    }
+
+    function exportarCSV() {
+      const cabeceras = ["Usuario", "Fecha", "Medio", "Titular", "Firma", "Página", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"];
+      const filas = [cabeceras];
+      
+      notas.forEach(nota => {
+        const fila = cabeceras.slice(0, -1).map(key => `"${nota[key.toLowerCase()] || ''}"`); 
+        filas.push(fila);
+      });
+      
+      const contenido = "\uFEFF" + filas.map(f => f.join(",")).join("\n");
+      const blob = new Blob([contenido], { type: "text/csv;charset=utf-8;" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "notas_capturadas.csv";
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    // --- Eventos ---
+
+    document.addEventListener("DOMContentLoaded", async () => {
+      // Carga de listas de autocompletado (Todas usan la función corregida)
+      const { claves: dependencias, map: orgMap } = await cargarMapa(urls.dependencias);
+      autocompletar("dependencia", "sugDep", dependencias, dep => {
         autocompletar("organismo", "sugOrg", orgMap[dep] || []);
-  });
+      });
 
-  const { claves: medios, map: canalMap } = await cargarMapa(urls.medios);
-  autocompletar("medio", "sugMedio", medios, medio => {
-    autocompletar("canal", "sugCanal", canalMap[medio] || []);
-  });
+      const { claves: medios, map: canalMap } = await cargarMapa(urls.medios);
+      autocompletar("medio", "sugMedio", medios, medio => {
+        const canales = canalMap[medio] || [];
+        autocompletar("canal", "sugCanal", canales);
+        if (canales.length === 1) {
+          document.getElementById("canal").value = canales[0];
+        }
+      });
+      // Inicializar Organismo y Canal con listas vacías (serán pobladas por los callbacks)
+      autocompletar("organismo", "sugOrg", []);
+      autocompletar("canal", "sugCanal", []);
 
-  autocompletar("genero", "sugGenero", await cargarLista(urls.generos));
-  autocompletar("estatus", "sugEstatus", await cargarLista(urls.estatus));
-  autocompletar("tema", "sugTema", await cargarLista(urls.temas));
-  autocompletar("municipio", "sugMunicipio", await cargarLista(urls.municipios));
-});
-document.querySelector("form").addEventListener("submit", e => {
-  e.preventDefault();
-  const campos = ["fecha","medio","titular","firma","pagina","dependencia","organismo","genero","canal","tema","estatus","municipio"];
-  const fila = campos.map(id => document.getElementById(id).value.trim());
-  const tabla = document.getElementById("tablaNotas").querySelector("tbody");
-  const tr = document.createElement("tr");
-  fila.forEach(valor => {
-    const td = document.createElement("td");
-    td.textContent = valor;
-    tr.appendChild(td);
-  });
-  tabla.appendChild(tr);
-  e.target.reset();
-});
 
-function exportarCSV() {
-  const filas = [["Fecha","Medio","Titular","Firma","Página","Dependencia","Organismo","Género","Canal","Tema","Estatus","Municipio"]];
-  document.querySelectorAll("#tablaNotas tbody tr").forEach(tr => {
-    const fila = Array.from(tr.children).map(td => `"${td.textContent}"`);
-    filas.push(fila);
-  });
-  const blob = new Blob([filas.map(f => f.join(",")).join("\n")], { type: "text/csv" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "notas_capturadas.csv";
-  a.click();
-  URL.revokeObjectURL(url);
-}
-</script>
+      autocompletar("genero", "sugGenero", await cargarLista(urls.generos));
+      autocompletar("estatus", "sugEstatus", await cargarLista(urls.estatus));
+      autocompletar("tema", "sugTema", await cargarLista(urls.temas));
+      autocompletar("municipio", "sugMunicipio", await cargarLista(urls.municipios));
+
+      // Persistencia de Valores y Bloqueo
+      camposDeDatos.forEach(id => {
+        const campo = document.getElementById(id);
+        
+        if (localStorage.getItem(id)) campo.value = localStorage.getItem(id);
+        
+        campo.addEventListener("input", () => {
+          localStorage.setItem(id, campo.value);
+        });
+
+        const checkboxId = `check${id.charAt(0).toUpperCase() + id.slice(1)}`;
+        const checkbox = document.getElementById(checkboxId);
+        const isBlocked = localStorage.getItem(`bloqueado_${id}`) === 'true';
+
+        if (checkbox) {
+            checkbox.checked = isBlocked;
+            alternarBloqueo(id);
+        }
+      });
+      
+      cargarNotasGuardadas();
+
+      document.addEventListener('click', (e) => {
+        if (!e.target.closest('.campo')) {
+            document.querySelectorAll('.sugerencias').forEach(sug => sug.innerHTML = "");
+        }
+      });
+    });
+
+    document.querySelector("form").addEventListener("submit", e => {
+      e.preventDefault();
+      
+      const nuevaNota = {};
+      camposDeDatos.forEach(id => {
+        nuevaNota[id] = document.getElementById(id).value.trim();
+      });
+
+      if (filaEnEdicion !== null) {
+          notas[filaEnEdicion] = nuevaNota;
+          
+          document.querySelector(`tr[data-index="${filaEnEdicion}"]`).classList.remove('editando');
+          filaEnEdicion = null;
+          document.getElementById('btnGuardar').textContent = 'Guardar';
+          
+      } else {
+          notas.push(nuevaNota);
+      }
+      
+      guardarNotas();
+      renderizarTabla();
+      
+      camposDeDatos.forEach(id => {
+          const campo = document.getElementById(id);
+          const isBlocked = localStorage.getItem(`bloqueado_${id}`) === 'true';
+          
+          if (!isBlocked) {
+              campo.value = '';
+              localStorage.removeItem(id); 
+          } else {
+              localStorage.setItem(id, campo.value);
+          }
+      });
+    });
+  </script>
+
+  <footer>
+    © 2025 Institución Pública. Todos los derechos reservados.
+  </footer>
 </body>
 </html>
