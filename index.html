@@ -230,6 +230,7 @@
   <script>
     let notas = [];
     let filaEnEdicion = null;
+    // Claves exactas usadas para guardar los datos en el objeto `nota`
     const camposDeDatos = ["usuario", "fecha", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
     
     const urls = {
@@ -241,13 +242,11 @@
       municipios: "https://thelonious9.github.io/capturanotas/Municipio.csv"
     };
     
-    // --- FUNCIÓN DE CARGA CSV CORREGIDA PARA MANEJAR ACENTOS (APLICA A TODOS) ---
+    // Función de Carga CSV (Corregida para acentos y codificación)
     async function cargarCSV(url) {
       try {
         const res = await fetch(url);
-        // 1. Obtener el buffer de bytes (datos binarios)
         const buffer = await res.arrayBuffer(); 
-        // 2. Decodificar explícitamente usando ISO-8859-1 (Latin-1), que es compatible con la mayoría de los acentos en CSVs
         const decoder = new TextDecoder('iso-8859-1'); 
         const texto = decoder.decode(buffer); 
         
@@ -257,8 +256,7 @@
         return [];
       }
     }
-    // -------------------------------------------------------------------
-
+    
     function limpiarFilasCSV(filas) {
       if (!filas || filas.length === 0) return [];
       filas[0][0] = filas[0][0].replace(/^\uFEFF/, "");
@@ -434,15 +432,24 @@
         window.scrollTo(0, 0);
     }
 
+    // --- FUNCIÓN DE EXPORTACIÓN CORREGIDA ---
     function exportarCSV() {
+      // Cabeceras (nombres de columna para el CSV)
       const cabeceras = ["Usuario", "Fecha", "Medio", "Titular", "Firma", "Página", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"];
       const filas = [cabeceras];
       
+      // Iterar sobre las notas y usar `camposDeDatos` (las claves reales sin acento) para obtener los valores
       notas.forEach(nota => {
-        const fila = cabeceras.slice(0, -1).map(key => `"${nota[key.toLowerCase()] || ''}"`); 
+        const fila = camposDeDatos.map(key => {
+            // Obtener el valor de la nota usando la clave interna (e.g., 'pagina', 'genero')
+            let valor = nota[key] || '';
+            // Limpiar comillas para evitar errores en el CSV y asegurar que el valor esté entre comillas
+            return `"${valor.replace(/"/g, '""')}"`; 
+        });
         filas.push(fila);
       });
       
+      // Generar y descargar el archivo CSV
       const contenido = "\uFEFF" + filas.map(f => f.join(",")).join("\n");
       const blob = new Blob([contenido], { type: "text/csv;charset=utf-8;" });
       const url = URL.createObjectURL(blob);
@@ -452,11 +459,12 @@
       a.click();
       URL.revokeObjectURL(url);
     }
+    // ----------------------------------------
 
     // --- Eventos ---
 
     document.addEventListener("DOMContentLoaded", async () => {
-      // Carga de listas de autocompletado (Todas usan la función corregida)
+      // Carga de listas de autocompletado 
       const { claves: dependencias, map: orgMap } = await cargarMapa(urls.dependencias);
       autocompletar("dependencia", "sugDep", dependencias, dep => {
         autocompletar("organismo", "sugOrg", orgMap[dep] || []);
@@ -470,7 +478,6 @@
           document.getElementById("canal").value = canales[0];
         }
       });
-      // Inicializar Organismo y Canal con listas vacías (serán pobladas por los callbacks)
       autocompletar("organismo", "sugOrg", []);
       autocompletar("canal", "sugCanal", []);
 
