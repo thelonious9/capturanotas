@@ -250,7 +250,7 @@
         
         const res = await fetch(urlConCacheBuster);
         const buffer = await res.arrayBuffer(); 
-        const decoder = new TextDecoder('iso-8859-1'); 
+        const decoder = new TextDecoder('utf-8'); // <-- CORRECCIÓN APLICADA AQUÍ: 'iso-8859-1' -> 'utf-8'
         const texto = decoder.decode(buffer); 
         
         return texto.split('\n').map(linea => linea.split(','));
