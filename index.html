@@ -242,10 +242,13 @@
       municipios: "https://thelonious9.github.io/capturanotas/Municipio.csv"
     };
     
-    // Función de Carga CSV (Corregida para acentos y codificación)
+    // --- FUNCIÓN DE CARGA CSV CORREGIDA PARA CACHÉ Y ACENTOS ---
     async function cargarCSV(url) {
       try {
-        const res = await fetch(url);
+        // Añadir un parámetro de caché para forzar la recarga del archivo
+        const urlConCacheBuster = `${url}?t=${new Date().getTime()}`;
+        
+        const res = await fetch(urlConCacheBuster);
         const buffer = await res.arrayBuffer(); 
         const decoder = new TextDecoder('iso-8859-1'); 
         const texto = decoder.decode(buffer); 
@@ -256,6 +259,7 @@
         return [];
       }
     }
+    // -----------------------------------------------------------
     
     function limpiarFilasCSV(filas) {
       if (!filas || filas.length === 0) return [];
@@ -432,7 +436,7 @@
         window.scrollTo(0, 0);
     }
 
-    // --- FUNCIÓN DE EXPORTACIÓN CORREGIDA ---
+    // --- FUNCIÓN DE EXPORTACIÓN CORREGIDA (MÁS ROBUSTA) ---
     function exportarCSV() {
       // Cabeceras (nombres de columna para el CSV)
       const cabeceras = ["Usuario", "Fecha", "Medio", "Titular", "Firma", "Página", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"];
@@ -441,15 +445,14 @@
       // Iterar sobre las notas y usar `camposDeDatos` (las claves reales sin acento) para obtener los valores
       notas.forEach(nota => {
         const fila = camposDeDatos.map(key => {
-            // Obtener el valor de la nota usando la clave interna (e.g., 'pagina', 'genero')
             let valor = nota[key] || '';
-            // Limpiar comillas para evitar errores en el CSV y asegurar que el valor esté entre comillas
+            // Asegurar que el valor esté entre comillas y escape las comillas internas (doble comilla)
             return `"${valor.replace(/"/g, '""')}"`; 
         });
         filas.push(fila);
       });
       
-      // Generar y descargar el archivo CSV
+      // Generar y descargar el archivo CSV (incluyendo BOM para UTF-8)
       const contenido = "\uFEFF" + filas.map(f => f.join(",")).join("\n");
       const blob = new Blob([contenido], { type: "text/csv;charset=utf-8;" });
       const url = URL.createObjectURL(blob);
@@ -459,7 +462,7 @@
       a.click();
       URL.revokeObjectURL(url);
     }
-    // ----------------------------------------
+    // --------------------------------------------------------
 
     // --- Eventos ---
 
