@@ -242,15 +242,27 @@
       municipios: "https://thelonious9.github.io/capturanotas/Municipio.csv"
     };
     
-    // --- FUNCIÓN DE CARGA CSV CORREGIDA PARA CACHÉ Y ACENTOS ---
+    // --- FUNCIÓN DE BÚSQUEDA INSENSIBLE A MAYÚSCULAS/MINÚSCULAS ---
+    function findKeyCaseInsensitive(map, value) {
+        if (!value) return null;
+        const lowerValue = value.toLowerCase();
+        for (const key in map) {
+            if (key.toLowerCase() === lowerValue) {
+                return key; // Devuelve la clave en el formato original (con mayúsculas)
+            }
+        }
+        return null;
+    }
+    // -------------------------------------------------------------
+
+    // --- FUNCIÓN DE CARGA CSV (CORRECTA PARA ACENTOS) ---
     async function cargarCSV(url) {
       try {
-        // Añadir un parámetro de caché para forzar la recarga del archivo
         const urlConCacheBuster = `${url}?t=${new Date().getTime()}`;
         
         const res = await fetch(urlConCacheBuster);
         const buffer = await res.arrayBuffer(); 
-        const decoder = new TextDecoder('utf-8'); // <-- CORRECCIÓN APLICADA AQUÍ: 'iso-8859-1' -> 'utf-8'
+        const decoder = new TextDecoder('utf-8'); 
         const texto = decoder.decode(buffer); 
         
         return texto.split('\n').map(linea => linea.split(','));
@@ -334,6 +346,14 @@
             if (callback) callback(campo.value);
           }
         }
+      });
+
+      campo.addEventListener("focus", () => {
+        document.querySelectorAll('.sugerencias').forEach(sug => {
+            if (sug.id !== idSugerencias) {
+                sug.innerHTML = "";
+            }
+        });
       });
 
       function resaltar(items, i) {
@@ -427,6 +447,12 @@
             document.getElementById(id).value = nota[id];
         });
 
+        filaEnEdicion = null; 
+        
+        // Dispara el evento 'blur' manualmente para actualizar listas dependientes al editar
+        document.getElementById("dependencia").dispatchEvent(new Event('blur'));
+        document.getElementById("medio").dispatchEvent(new Event('blur'));
+        
         filaEnEdicion = indice; 
         document.getElementById('btnGuardar').textContent = 'Actualizar Nota';
         
@@ -436,23 +462,19 @@
         window.scrollTo(0, 0);
     }
 
-    // --- FUNCIÓN DE EXPORTACIÓN CORREGIDA (MÁS ROBUSTA) ---
+    // --- FUNCIÓN DE EXPORTACIÓN ---
     function exportarCSV() {
-      // Cabeceras (nombres de columna para el CSV)
       const cabeceras = ["Usuario", "Fecha", "Medio", "Titular", "Firma", "Página", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"];
       const filas = [cabeceras];
       
-      // Iterar sobre las notas y usar `camposDeDatos` (las claves reales sin acento) para obtener los valores
       notas.forEach(nota => {
         const fila = camposDeDatos.map(key => {
             let valor = nota[key] || '';
-            // Asegurar que el valor esté entre comillas y escape las comillas internas (doble comilla)
             return `"${valor.replace(/"/g, '""')}"`; 
         });
         filas.push(fila);
       });
       
-      // Generar y descargar el archivo CSV (incluyendo BOM para UTF-8)
       const contenido = "\uFEFF" + filas.map(f => f.join(",")).join("\n");
       const blob = new Blob([contenido], { type: "text/csv;charset=utf-8;" });
       const url = URL.createObjectURL(blob);
@@ -470,18 +492,50 @@
       // Carga de listas de autocompletado 
       const { claves: dependencias, map: orgMap } = await cargarMapa(urls.dependencias);
       autocompletar("dependencia", "sugDep", dependencias, dep => {
+        // Se ejecuta al SELECCIONAR una sugerencia de Dependencia (garantiza el case correcto)
         autocompletar("organismo", "sugOrg", orgMap[dep] || []);
       });
 
       const { claves: medios, map: canalMap } = await cargarMapa(urls.medios);
       autocompletar("medio", "sugMedio", medios, medio => {
+        // Se ejecuta al SELECCIONAR una sugerencia de Medio
         const canales = canalMap[medio] || [];
         autocompletar("canal", "sugCanal", canales);
         if (canales.length === 1) {
           document.getElementById("canal").value = canales[0];
         }
       });
-      autocompletar("organismo", "sugOrg", []);
+      
+      // 🚨 CORRECCIÓN DE CASCADA (DEPENDENCIAS/ORGANISMO): Búsqueda insensible a mayúsculas
+      document.getElementById("dependencia").addEventListener("blur", (e) => {
+          const depValue = e.target.value.trim();
+          const foundKey = findKeyCaseInsensitive(orgMap, depValue); // Usa la nueva función
+
+          if (foundKey) {
+              autocompletar("organismo", "sugOrg", orgMap[foundKey] || []);
+          } else {
+              autocompletar("organismo", "sugOrg", []);
+          }
+      });
+      
+      // 🚨 CORRECCIÓN DE CASCADA (MEDIO/CANAL): Aplicar búsqueda insensible para robustez
+      document.getElementById("medio").addEventListener("blur", (e) => {
+          const medioValue = e.target.value.trim();
+          const foundKey = findKeyCaseInsensitive(canalMap, medioValue); // Usa la nueva función
+
+          if (foundKey) {
+              const canales = canalMap[foundKey] || [];
+              autocompletar("canal", "sugCanal", canales);
+              if (canales.length === 1) {
+                document.getElementById("canal").value = canales[0];
+              }
+          } else {
+              autocompletar("canal", "sugCanal", []);
+          }
+      });
+      
+      // Inicialización de listas dependientes con una lista vacía
+      autocompletar("organismo", "sugOrg", []); 
       autocompletar("canal", "sugCanal", []);
 
 
