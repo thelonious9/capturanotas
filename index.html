@@ -230,7 +230,6 @@
   <script>
     let notas = [];
     let filaEnEdicion = null;
-    // Claves exactas usadas para guardar los datos en el objeto `nota`
     const camposDeDatos = ["usuario", "fecha", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
     
     const urls = {
@@ -247,6 +246,7 @@
         if (!value) return null;
         const lowerValue = value.toLowerCase();
         for (const key in map) {
+            // Se asume que las claves del mapa (Dependencias, Medios) no tienen espacios iniciales/finales
             if (key.toLowerCase() === lowerValue) {
                 return key; // Devuelve la clave en el formato original (con mayúsculas)
             }
@@ -275,6 +275,7 @@
     
     function limpiarFilasCSV(filas) {
       if (!filas || filas.length === 0) return [];
+      // Limpia el BOM y recorta todos los campos
       filas[0][0] = filas[0][0].replace(/^\uFEFF/, "");
       const encabezado = filas[0].map(c => (c || "").toLowerCase()).join(",");
       const tieneEncabezado = encabezado.includes("dependencia") || encabezado.includes("medio") || encabezado.includes("género");
@@ -492,13 +493,11 @@
       // Carga de listas de autocompletado 
       const { claves: dependencias, map: orgMap } = await cargarMapa(urls.dependencias);
       autocompletar("dependencia", "sugDep", dependencias, dep => {
-        // Se ejecuta al SELECCIONAR una sugerencia de Dependencia (garantiza el case correcto)
         autocompletar("organismo", "sugOrg", orgMap[dep] || []);
       });
 
       const { claves: medios, map: canalMap } = await cargarMapa(urls.medios);
       autocompletar("medio", "sugMedio", medios, medio => {
-        // Se ejecuta al SELECCIONAR una sugerencia de Medio
         const canales = canalMap[medio] || [];
         autocompletar("canal", "sugCanal", canales);
         if (canales.length === 1) {
@@ -506,24 +505,28 @@
         }
       });
       
-      // 🚨 CORRECCIÓN DE CASCADA (DEPENDENCIAS/ORGANISMO): Búsqueda insensible a mayúsculas
+      // 🚨 CORRECCIÓN FINAL (DEPENDENCIAS/ORGANISMO): Búsqueda insensible y corrección de case en el campo
       document.getElementById("dependencia").addEventListener("blur", (e) => {
-          const depValue = e.target.value.trim();
-          const foundKey = findKeyCaseInsensitive(orgMap, depValue); // Usa la nueva función
+          const campo = e.target;
+          const depValue = campo.value.trim();
+          const foundKey = findKeyCaseInsensitive(orgMap, depValue);
 
           if (foundKey) {
+              campo.value = foundKey; // ✅ Auto-corrección de mayúsculas/minúsculas
               autocompletar("organismo", "sugOrg", orgMap[foundKey] || []);
           } else {
               autocompletar("organismo", "sugOrg", []);
           }
       });
       
-      // 🚨 CORRECCIÓN DE CASCADA (MEDIO/CANAL): Aplicar búsqueda insensible para robustez
+      // 🚨 CORRECCIÓN FINAL (MEDIO/CANAL): Búsqueda insensible y corrección de case en el campo
       document.getElementById("medio").addEventListener("blur", (e) => {
-          const medioValue = e.target.value.trim();
-          const foundKey = findKeyCaseInsensitive(canalMap, medioValue); // Usa la nueva función
+          const campo = e.target;
+          const medioValue = campo.value.trim();
+          const foundKey = findKeyCaseInsensitive(canalMap, medioValue);
 
           if (foundKey) {
+              campo.value = foundKey; // ✅ Auto-corrección de mayúsculas/minúsculas
               const canales = canalMap[foundKey] || [];
               autocompletar("canal", "sugCanal", canales);
               if (canales.length === 1) {
