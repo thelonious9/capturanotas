@@ -17,7 +17,7 @@
       --color-fondo-form: #52504E;         /* Gris Cálido (Fondo del Formulario) */
       --color-primary: #6F0909;            /* Rojo Intenso (Guardar/Borrar Todo) */
       --color-primary-hover: #792929;      /* Rojo Suave */
-      --color-secondary: #792929;          /* Rojo Suave (Botón Limpiar) */
+      --color-secondary: #792929;          /* Rojo Suave (Botón Limpiar/Hover) */
       --color-secondary-hover: #6F0909;    /* Rojo Intenso */
       --color-dark-text: #31302F;          /* Texto para inputs (fondo claro) */
       --color-light-text: #F0EAD1;         /* Texto principal (fondo oscuro) */
@@ -252,9 +252,17 @@
         justify-content: flex-start;
     }
     
+    /* Estilo CORREGIDO: Botón Exportar */
+    #btnExportar {
+        background-color: var(--color-fondo-form); /* Usamos el gris cálido para buen contraste */
+    }
+    #btnExportar:hover {
+        background-color: var(--color-secondary); /* Rojo Suave al pasar el ratón */
+    }
+
     /* Botón Borrar Todo */
     #btnBorrarTodo {
-        background-color: var(--color-primary); /* Rojo Intenso para destacar la acción */
+        background-color: var(--color-primary);
     }
     #btnBorrarTodo:hover {
         background-color: var(--color-primary-hover);
@@ -267,7 +275,7 @@
         form { grid-template-columns: 1fr; gap: 10px; padding: 15px; }
         form > label, form > div, .button-group-form { grid-column: span 1 !important; justify-content: space-around; }
         .button-group-form button { width: 48%; }
-        .actions-group { flex-direction: column; } /* Botones de acción uno sobre otro en móvil */
+        .actions-group { flex-direction: column; }
         
         table, thead, tbody, th, td, tr { display: block; }
         thead tr { position: absolute; top: -9999px; left: -9999px; }
@@ -438,7 +446,7 @@
   <br>
 
   <div class="actions-group">
-    <button onclick="exportarCSV()">
+    <button id="btnExportar" onclick="exportarCSV()">
       <i class="fa-solid fa-file-csv"></i> Exportar a hoja de cálculo
     </button>
     
@@ -646,7 +654,6 @@
         }
     }
     
-    // --- NUEVA FUNCIÓN PARA BORRAR TODOS LOS DATOS ---
     function borrarTodasLasNotas() {
         if (confirm("ADVERTENCIA: ¿Está seguro que desea BORRAR PERMANENTEMENTE TODAS las notas capturadas?\nEsta acción eliminará todos los datos guardados y no se puede deshacer.")) {
             notas = [];
@@ -655,7 +662,6 @@
             alert("Todos los datos capturados han sido eliminados correctamente.");
         }
     }
-    // ------------------------------------------------
 
     function alternarBloqueo(idCampo) {
         const campo = document.getElementById(idCampo);
