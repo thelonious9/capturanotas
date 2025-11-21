@@ -181,6 +181,16 @@
         background-color: var(--color-primary-hover);
         transform: translateY(-1px);
     }
+    
+    /* NUEVO: Botón de Eliminar (color destructivo) */
+    #btnEliminar {
+        background-color: #dc3545; 
+        transition: background-color 0.2s ease, transform 0.1s;
+    }
+    #btnEliminar:hover {
+        background-color: #c82333;
+        transform: translateY(-1px);
+    }
 
     /* Botón Limpiar (Secundario) */
     #btnLimpiar {
@@ -244,7 +254,7 @@
     .editando td {
         color: var(--color-light-text);
     }
-    /* NUEVO ESTILO DE ALERTA PARA FILAS CON CAMPOS VACÍOS */
+    /* ESTILO DE ALERTA PARA FILAS CON CAMPOS VACÍOS */
     .alerta-vacio {
         background-color: var(--color-alerta-vacio) !important;
         color: var(--color-dark-text) !important;
@@ -290,21 +300,31 @@
         color: var(--color-dark-text); /* Asegurar contraste en la alerta */
     }
     
-    /* --- GRUPO DE ACCIONES BAJO LA TABLA (AHORA ANTES) --- */
+    /* --- GRUPO DE ACCIONES BAJO LA TABLA --- */
     .actions-group {
         display: flex;
         gap: 15px;
         margin-top: 15px;
         margin-bottom: 25px; /* Separación de las notas capturadas */
         justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap; /* Para responsive */
     }
     
-    /* Botón Exportar */
+    /* Botón Exportar (Email) */
     #btnExportar {
         background-color: var(--color-fondo-form);
     }
     #btnExportar:hover {
-        background-color: var(--color-secondary); /* Usa Rojo Suave para hover */
+        background-color: var(--color-secondary);
+    }
+    
+    /* Botón Telegram */
+    #btnTelegram {
+        background-color: #0088cc; /* Color Telegram */
+    }
+    #btnTelegram:hover {
+        background-color: #0077b3; 
     }
     
     /* Botón Borrar Todo (Destructivo) */
@@ -320,7 +340,7 @@
     .btn-accion-tabla {
         padding: 8px 12px;
         background-color: var(--color-secondary); 
-        color: var(--color-light-text); /* Asegura texto claro */
+        color: var(--color-light-text); 
     }
     .btn-accion-tabla:hover {
         background-color: var(--color-secondary-hover);
@@ -331,9 +351,11 @@
         body { padding: 10px; }
         header { flex-direction: column; align-items: flex-start; padding: 10px; }
         form { grid-template-columns: 1fr; gap: 10px; padding: 15px; }
-        form > label, form > div, .button-group-form, .form-logo-container { grid-column: span 1 !important; justify-content: space-around; }
-        .button-group-form button { width: 48%; }
-        .actions-group { flex-direction: column; }
+        form > label, form > div, .form-logo-container { grid-column: span 1 !important; }
+        .button-group-form { justify-content: space-around; }
+        .button-group-form button { width: 32%; margin-right: 0; }
+        .actions-group { flex-direction: column; align-items: stretch; }
+        .actions-group input, .actions-group button { width: 100%; margin-bottom: 10px; }
         
         table, thead, tbody, th, td, tr { display: block; }
         thead tr { position: absolute; top: -9999px; left: -9999px; }
@@ -490,6 +512,9 @@
         <i class="fa-solid fa-floppy-disk"></i> Guardar
       </button>
 
+      <button type="button" id="btnEliminar" style="display: none;" onclick="eliminarNotaEnEdicion()">
+        <i class="fa-solid fa-trash-can"></i> Eliminar
+      </button>
       <button type="reset" id="btnLimpiar">
         <i class="fa-solid fa-broom"></i> Limpiar
       </button>
@@ -497,9 +522,13 @@
   </form>
 
   <div class="actions-group">
-    <button id="btnExportar" onclick="exportarCSV()">
-      <i class="fa-solid fa-file-csv"></i> Exportar a hoja de cálculo
+    <input type="email" id="emailDestino" placeholder="Correo de destino (ej: usuario@ejemplo.com)" style="padding: 10px; border-radius: var(--radius); border: 1px solid var(--color-primary-hover); width: 250px; background-color: var(--color-input-bg); color: var(--color-dark-text);">
+    <button id="btnExportar" onclick="enviarEmailAutomatico()">
+      <i class="fa-solid fa-envelope"></i> Enviar por Email (CSV)
     </button>
+    <button id="btnTelegram" onclick="enviarTelegram()">
+      <i class="fa-brands fa-telegram"></i> Enviar por Telegram
+    </button> 
     <button id="btnBorrarTodo" onclick="borrarTodo()">
       <i class="fa-solid fa-trash-can"></i> Borrar Todas
     </button>
@@ -544,7 +573,7 @@
         "canal": "Canal", "tema": "Tema", "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
     };
     
-    // 💡 ACTUALIZADO: Ordenamiento por defecto a 'ordenCaptura' descendente (más reciente primero)
+    // Ordenamiento por defecto a 'ordenCaptura' descendente (más reciente primero)
     let ordenActual = { columna: 'ordenCaptura', direccion: 'desc' }; 
 
     const urls = {
@@ -693,21 +722,56 @@
     function guardarNotas() {
         localStorage.setItem('notasCapturadas', JSON.stringify(notas));
     }
+    
+    // NUEVA FUNCIÓN: Resetea el estado visual de edición
+    function resetearEstadoEdicion() {
+        const btnGuardar = document.getElementById('btnGuardar');
+        const btnEliminar = document.getElementById('btnEliminar');
+
+        if (btnGuardar) btnGuardar.innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Guardar';
+        if (btnEliminar) btnEliminar.style.display = 'none'; // Ocultar botón de eliminar
+
+        document.querySelectorAll('#tablaNotas tbody tr').forEach(row => row.classList.remove('editando'));
+        filaEnEdicion = null;
+    }
 
     function borrarTodo() {
         if (confirm("¿Estás seguro de que quieres BORRAR TODAS las notas capturadas? Esta acción es irreversible.")) {
             notas = []; 
             nextOrdenCaptura = 1; // Reiniciar el contador de orden
             localStorage.removeItem('notasCapturadas'); 
+            
+            resetearEstadoEdicion(); // Resetear estado de edición
+            
             renderizarTabla(); 
-            // Limpiar indicadores de edición y formulario
-            document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Guardar';
-            filaEnEdicion = null;
-            document.querySelectorAll('#tablaNotas tbody tr').forEach(row => row.classList.remove('editando'));
         }
     }
 
-    // 💡 FUNCIÓN: Verifica si una nota tiene campos vacíos (excepto ordenCaptura)
+    // NUEVA FUNCIÓN: Elimina la nota que está actualmente en edición
+    function eliminarNotaEnEdicion() {
+        if (filaEnEdicion === null || filaEnEdicion >= notas.length) return;
+
+        const notaAEliminar = notas[filaEnEdicion];
+
+        if (confirm(`¿Estás seguro de que deseas ELIMINAR la nota N°${notaAEliminar.ordenCaptura} (Titular: ${notaAEliminar.titular || 'sin titular'})? Esta acción es irreversible.`)) {
+            // Eliminar la nota del array
+            notas.splice(filaEnEdicion, 1);
+            
+            // Guardar cambios
+            guardarNotas();
+            
+            // Limpiar formulario y resetear estado de edición
+            document.querySelector("form").reset(); 
+            resetearEstadoEdicion();
+
+            // Re-renderizar la tabla (mantiene el orden actual)
+            ordenarTabla(ordenActual.columna, true); 
+            
+            alert("La nota ha sido eliminada con éxito.");
+        }
+    }
+
+    // FUNCIÓN: Verifica si una nota tiene campos vacíos (excepto ordenCaptura)
     function contieneCamposVacios(nota) {
         // Excluimos el campo de orden de captura de la verificación
         const camposARevisar = camposDeDatos.filter(campo => campo !== 'ordenCaptura'); 
@@ -811,44 +875,139 @@
         camposDeDatos.forEach(id => {
             document.getElementById(id).value = nota[id];
         });
-
-        filaEnEdicion = null; 
         
+        // Simular blur para actualizar sugerencias de Organismo/Canal
         document.getElementById("dependencia").dispatchEvent(new Event('blur'));
         document.getElementById("medio").dispatchEvent(new Event('blur'));
         
         filaEnEdicion = indice; 
         document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Actualizar Nota';
+        document.getElementById('btnEliminar').style.display = 'inline-block'; // MOSTRAR botón de eliminar
         
         document.querySelectorAll('#tablaNotas tbody tr').forEach(row => row.classList.remove('editando'));
         tr.classList.add('editando');
         
         window.scrollTo(0, 0);
     }
-
-    function exportarCSV() {
+    
+    function generarCSVContenido() {
       const cabeceras = ["No.", "Usuario", "Fecha", "Medio", "Titular", "Firma", "Página", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"]; 
       const filas = [cabeceras];
       
       notas.forEach(nota => {
         const fila = [nota.ordenCaptura || ''].concat(camposDeDatos.map(key => {
             let valor = nota[key] || '';
+            // Asegura que las comas internas no rompan el CSV y escapa las comillas
             return `"${valor.replace(/"/g, '""')}"`; 
         }));
         filas.push(fila);
       });
       
-      const contenido = "\uFEFF" + filas.map(f => f.join(",")).join("\n");
-      const blob = new Blob([contenido], { type: "text/csv;charset=utf-8;" });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = "notas_capturadas.csv";
-      a.click();
-      URL.revokeObjectURL(url);
+      // Retorna el contenido CSV como una cadena de texto (incluye BOM para UTF-8)
+      return "\uFEFF" + filas.map(f => f.join(",")).join("\n");
     }
 
-    // 💡 FUNCIÓN: Ordena el array de notas
+
+    /**
+     * Intenta enviar el contenido CSV a un servicio externo (Apps Script) para que envíe el email.
+     */
+    async function enviarEmailAutomatico() {
+        const emailDestino = document.getElementById('emailDestino').value.trim();
+        const csvContenido = generarCSVContenido();
+        
+        if (!emailDestino || !emailDestino.includes('@')) {
+            alert("Por favor, introduce un correo electrónico de destino válido.");
+            return;
+        }
+
+        if (notas.length === 0) {
+             alert("No hay notas para enviar.");
+             return;
+        }
+        
+        // 🚨 IMPORTANTE: Reemplaza esta URL con la URL de tu Google Apps Script desplegado.
+        const URL_DE_TU_SCRIPT = "https://script.google.com/macros/s/TUCÓDIGOAPPSCRIPT/exec"; 
+        
+        try {
+            document.getElementById('btnExportar').disabled = true;
+            document.getElementById('btnExportar').innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
+
+            const response = await fetch(URL_DE_TU_SCRIPT, {
+                method: 'POST',
+                mode: 'no-cors', 
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    email: emailDestino,
+                    asunto: `Reporte de Notas Capturadas - ${new Date().toLocaleDateString()}`,
+                    csv: btoa(unescape(encodeURIComponent(csvContenido))) 
+                })
+            });
+
+            alert("Solicitud de envío enviada. El correo electrónico debería llegar pronto si la configuración del script es correcta.");
+            
+        } catch (error) {
+            console.error("Error al enviar la solicitud:", error);
+            alert("Error al intentar comunicarse con el servicio de envío. Por favor, revisa la consola para más detalles.");
+        } finally {
+            document.getElementById('btnExportar').disabled = false;
+            document.getElementById('btnExportar').innerHTML = '<i class="fa-solid fa-envelope"></i> Enviar por Email (CSV)';
+        }
+    }
+
+    /**
+     * Envía el contenido CSV directamente a la API de Telegram como documento.
+     */
+    async function enviarTelegram() {
+        if (notas.length === 0) {
+             alert("No hay notas para enviar por Telegram.");
+             return;
+        }
+
+        // 🚨 CONFIGURACIÓN NECESARIA: Reemplaza con tus credenciales
+        const TELEGRAM_BOT_TOKEN = "TU_TOKEN_DE_BOTFATHER"; 
+        const TELEGRAM_CHAT_ID = "ID_DEL_CHAT_O_CANAL"; 
+
+        const URL_TELEGRAM = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument`; 
+        
+        try {
+            document.getElementById('btnTelegram').disabled = true;
+            document.getElementById('btnTelegram').innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
+
+            const csvContenido = generarCSVContenido();
+            const blobCSV = new Blob([csvContenido], { type: "text/csv;charset=utf-8;" });
+            
+            const formData = new FormData();
+            formData.append('chat_id', TELEGRAM_CHAT_ID);
+            formData.append('document', blobCSV, `reporte_notas_${new Date().toISOString().slice(0, 10)}.csv`);
+            formData.append('caption', '📋 Reporte de notas capturadas enviado automáticamente.');
+
+            const response = await fetch(URL_TELEGRAM, {
+                method: 'POST',
+                body: formData 
+            });
+
+            const result = await response.json();
+
+            if (response.ok && result.ok) {
+                alert("¡CSV enviado con éxito a Telegram!");
+            } else {
+                console.error("Error de la API de Telegram:", result);
+                alert(`Error al enviar el archivo a Telegram: ${result.description || 'Consulta la consola.'}`);
+            }
+
+        } catch (error) {
+            console.error("Error de conexión:", error);
+            alert("Error al intentar comunicarse con Telegram. Revisa la consola y las credenciales.");
+        } finally {
+            document.getElementById('btnTelegram').disabled = false;
+            document.getElementById('btnTelegram').innerHTML = '<i class="fa-brands fa-telegram"></i> Enviar por Telegram';
+        }
+    }
+
+
+    // FUNCIÓN: Ordena el array de notas
     function ordenarTabla(columna, esInicial = false) {
         if (!columna) return;
 
@@ -857,14 +1016,10 @@
         // Si se hace clic en la misma columna y no es la carga inicial, se invierte la dirección
         if (ordenActual.columna === columna && !esInicial) {
             direccion = ordenActual.direccion === 'asc' ? 'desc' : 'asc';
-        } else if (esInicial && columna === 'ordenCaptura') {
-             // Si es la carga inicial y se pide 'ordenCaptura', usa 'desc'
+        } else if (esInicial) {
+             // Si es la carga inicial, se usa 'desc' para ordenCaptura
              direccion = 'desc'; 
-        } else if (esInicial && columna === 'fecha') {
-             // Si es la carga inicial y se pide 'fecha', usa 'desc'
-             direccion = 'desc';
         }
-        // Si no es inicial y se cambia de columna, o si es inicial y se pide otra columna, usa 'asc' (el valor predeterminado de 'direccion')
 
         notas.sort((a, b) => {
             const valA = a[columna] || '';
@@ -878,7 +1033,7 @@
                 if (dateA < dateB) comparacion = -1;
                 if (dateA > dateB) comparacion = 1;
             } else if (columna === 'pagina' || columna === 'ordenCaptura') { 
-                 // Comparación de números (incluye el nuevo campo ordenCaptura)
+                 // Comparación de números
                 const numA = parseInt(valA) || 0;
                 const numB = parseInt(valB) || 0;
                 if (numA < numB) comparacion = -1;
@@ -896,7 +1051,7 @@
         renderizarTabla();
     }
 
-    // 💡 FUNCIÓN: Actualiza los iconos de la cabecera de la tabla
+    // FUNCIÓN: Actualiza los iconos de la cabecera de la tabla
     function actualizarIndicadoresOrden() {
         document.querySelectorAll('#tablaNotas th[data-col]').forEach(th => {
             const headerDiv = th.querySelector('.sortable-header');
@@ -1001,20 +1156,18 @@
       
       cargarNotasGuardadas();
 
-      // 💡 Listener para ordenar al hacer clic en las cabeceras
+      // Listener para ordenar al hacer clic en las cabeceras
       document.querySelectorAll('#tablaNotas th[data-col]').forEach(th => {
           th.addEventListener('click', () => {
               ordenarTabla(th.dataset.col);
           });
       });
 
-      // Foco al titular después de limpiar
+      // Foco al titular y reseteo de estado al limpiar el formulario
       document.querySelector("form").addEventListener('reset', () => {
           setTimeout(() => {
               document.getElementById('titular').focus();
-              document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Guardar';
-              filaEnEdicion = null;
-              document.querySelectorAll('#tablaNotas tbody tr').forEach(row => row.classList.remove('editando'));
+              resetearEstadoEdicion(); // Resetear estado de edición
           }, 10);
       });
 
@@ -1037,18 +1190,20 @@
           // Actualiza la nota: mantiene el ordenCaptura original
           notas[filaEnEdicion] = {...nuevaNota, ordenCaptura: notas[filaEnEdicion].ordenCaptura};
           
-          document.querySelector(`tr[data-index="${filaEnEdicion}"]`).classList.remove('editando');
-          filaEnEdicion = null;
-          document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Guardar';
+          // Resetear el estado de edición al terminar la actualización
+          resetearEstadoEdicion();
           
       } else {
           // Agrega la nueva nota: asigna e incrementa el contador
           nuevaNota.ordenCaptura = nextOrdenCaptura++; 
           notas.push(nuevaNota);
+          
+          // Asegurar que el botón de eliminar esté oculto si se agrega una nota nueva
+          document.getElementById('btnEliminar').style.display = 'none';
       }
       
       guardarNotas();
-      // 💡 Se mantiene el orden actual (que ahora por defecto es 'ordenCaptura' descendente)
+      // Se mantiene el orden actual (que por defecto es 'ordenCaptura' descendente)
       ordenarTabla(ordenActual.columna, true); 
       
       camposDeDatos.forEach(id => {
