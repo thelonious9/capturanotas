@@ -205,7 +205,7 @@
         margin-right: 8px;
         font-size: 1.1em;
     }
-
+    
     /* --- TABLA --- */
     h2 {
         margin-top: 40px;
@@ -278,11 +278,12 @@
       color: var(--color-light-text);
     }
     
-    /* --- GRUPO DE ACCIONES BAJO LA TABLA --- */
+    /* --- GRUPO DE ACCIONES BAJO LA TABLA (AHORA ANTES) --- */
     .actions-group {
         display: flex;
         gap: 15px;
         margin-top: 15px;
+        margin-bottom: 25px; /* Separación de las notas capturadas */
         justify-content: flex-start;
     }
     
@@ -291,9 +292,28 @@
         background-color: var(--color-fondo-form);
     }
     #btnExportar:hover {
-        background-color: var(--color-secondary);
+        background-color: var(--color-secondary); /* Usa Rojo Suave para hover */
     }
     
+    /* Botón Borrar Todo (Destructivo) */
+    #btnBorrarTodo {
+        background-color: var(--color-primary); 
+    }
+    #btnBorrarTodo:hover {
+        background-color: var(--color-primary-hover); 
+        transform: translateY(-1px);
+    }
+    
+    /* Ajuste para el botón Editar */
+    .btn-accion-tabla {
+        padding: 8px 12px;
+        background-color: var(--color-secondary); 
+        color: var(--color-light-text); /* Asegura texto claro */
+    }
+    .btn-accion-tabla:hover {
+        background-color: var(--color-secondary-hover);
+    }
+
     /* --- ESTILOS RESPONSIVE (MÓVIL) --- */
     @media (max-width: 768px) {
         body { padding: 10px; }
@@ -461,10 +481,22 @@
     </div>
   </form>
 
+  <div class="actions-group">
+    <button id="btnExportar" onclick="exportarCSV()">
+      <i class="fa-solid fa-file-csv"></i> Exportar a hoja de cálculo
+    </button>
+    <button id="btnBorrarTodo" onclick="borrarTodo()">
+      <i class="fa-solid fa-trash-can"></i> Borrar Todas
+    </button>
+  </div>
+  
+  <div id="erroresCarga" class="error-carga"></div>
+
   <h2>Notas capturadas</h2>
   <table id="tablaNotas">
     <thead>
       <tr>
+        <th data-col="ordenCaptura"><div class="sortable-header">No. <span class="sort-icon"></span></div></th>
         <th data-col="usuario"><div class="sortable-header">Usuario <span class="sort-icon"></span></div></th>
         <th data-col="fecha"><div class="sortable-header">Fecha <span class="sort-icon"></span></div></th>
         <th data-col="medio"><div class="sortable-header">Medio <span class="sort-icon"></span></div></th>
@@ -485,26 +517,20 @@
   </table>
   <br>
 
-  <div class="actions-group">
-    <button id="btnExportar" onclick="exportarCSV()">
-      <i class="fa-solid fa-file-csv"></i> Exportar a hoja de cálculo
-    </button>
-  </div>
-  
-  <div id="erroresCarga" class="error-carga"></div>
-
   <script>
     let notas = [];
     let filaEnEdicion = null;
+    let nextOrdenCaptura = 1; // Contador para el nuevo número de orden
     const camposDeDatos = ["usuario", "fecha", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
     const encabezadosTabla = {
+        "ordenCaptura": "No.", // Nuevo encabezado
         "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio", "titular": "Titular", "firma": "Firma", 
         "pagina": "Página", "dependencia": "Dependencia", "organismo": "Organismo", "genero": "Género", 
         "canal": "Canal", "tema": "Tema", "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
     };
     
-    // 💡 NUEVO: Estado global de ordenamiento
-    let ordenActual = { columna: 'fecha', direccion: 'desc' }; 
+    // 💡 Estado global de ordenamiento: Cambiado a ordenar por el nuevo campo 'ordenCaptura' ascendente por defecto
+    let ordenActual = { columna: 'ordenCaptura', direccion: 'asc' }; 
 
     const urls = {
       dependencias: "https://thelonious9.github.io/capturanotas/Dependencia.csv",
@@ -653,13 +679,33 @@
         localStorage.setItem('notasCapturadas', JSON.stringify(notas));
     }
 
+    function borrarTodo() {
+        if (confirm("¿Estás seguro de que quieres BORRAR TODAS las notas capturadas? Esta acción es irreversible.")) {
+            notas = []; 
+            nextOrdenCaptura = 1; // Reiniciar el contador de orden
+            localStorage.removeItem('notasCapturadas'); 
+            renderizarTabla(); 
+            // Limpiar indicadores de edición y formulario
+            document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Guardar';
+            filaEnEdicion = null;
+            document.querySelectorAll('#tablaNotas tbody tr').forEach(row => row.classList.remove('editando'));
+        }
+    }
+
     function renderizarTabla() {
         const tablaBody = document.getElementById("tablaNotas").querySelector("tbody");
         tablaBody.innerHTML = '';
         
         notas.forEach((nota, indice) => {
             const tr = document.createElement("tr");
-            tr.dataset.index = notas.indexOf(nota); // Usamos indexOf para obtener el índice real después de ordenar
+            tr.dataset.index = notas.indexOf(nota); 
+
+            // ** NUEVA COLUMNA: Orden de Captura **
+            const tdOrden = document.createElement("td");
+            tdOrden.textContent = nota.ordenCaptura;
+            tdOrden.setAttribute('data-label', encabezadosTabla['ordenCaptura']);
+            tr.appendChild(tdOrden);
+            // ** FIN NUEVA COLUMNA **
 
             camposDeDatos.forEach(campo => {
                 const td = document.createElement("td");
@@ -672,6 +718,7 @@
             tdAcciones.setAttribute('data-label', encabezadosTabla['acciones']);
             const btnEditar = document.createElement("button");
             btnEditar.textContent = "Editar";
+            btnEditar.classList.add('btn-accion-tabla'); // Clase para estilos de botón de tabla
             btnEditar.onclick = function() { editarNota(tr); };
             tdAcciones.appendChild(btnEditar);
             tr.appendChild(tdAcciones);
@@ -685,14 +732,31 @@
         if (datosJSON) {
             try {
                 notas = JSON.parse(datosJSON);
-                // 💡 Aplicar orden por defecto (Fecha Descendente = Más reciente primero)
-                ordenarTabla(ordenActual.columna, true); // True para forzar el orden inicial si es necesario
+                let maxOrden = 0;
+                // Asignar ordenCaptura a notas antiguas y encontrar el máximo
+                notas.forEach(nota => {
+                    if (nota.ordenCaptura === undefined || nota.ordenCaptura === null) {
+                        // Asignar un número ascendente basado en la posición actual del array (compatibilidad)
+                        nota.ordenCaptura = ++maxOrden; 
+                    } else {
+                         if (nota.ordenCaptura > maxOrden) {
+                            maxOrden = nota.ordenCaptura;
+                        }
+                    }
+                });
+                
+                // Si se hicieron actualizaciones para compatibilidad, guardar para persistir el campo
+                if (maxOrden > 0) guardarNotas(); 
+                
+                nextOrdenCaptura = maxOrden + 1; // Establecer el siguiente ID disponible
+                
+                // Aplicar orden por defecto (ordenCaptura Ascendente)
+                ordenarTabla(ordenActual.columna, true); 
             } catch (e) {
                 console.error("Error al cargar notas de localStorage:", e);
                 notas = [];
             }
         } else {
-            // Si no hay notas, aún debemos actualizar los indicadores de orden
             actualizarIndicadoresOrden();
         }
     }
@@ -709,7 +773,6 @@
     }
 
     function editarNota(tr) {
-        // Obtenemos el índice real del array `notas` usando el data-index
         const indice = parseInt(tr.dataset.index);
         const nota = notas[indice];
 
@@ -732,14 +795,15 @@
     }
 
     function exportarCSV() {
-      const cabeceras = ["Usuario", "Fecha", "Medio", "Titular", "Firma", "Página", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"];
+      // ** ACTUALIZADO: Se incluye el nuevo campo "No." **
+      const cabeceras = ["No.", "Usuario", "Fecha", "Medio", "Titular", "Firma", "Página", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"]; 
       const filas = [cabeceras];
       
       notas.forEach(nota => {
-        const fila = camposDeDatos.map(key => {
+        const fila = [nota.ordenCaptura || ''].concat(camposDeDatos.map(key => {
             let valor = nota[key] || '';
             return `"${valor.replace(/"/g, '""')}"`; 
-        });
+        }));
         filas.push(fila);
       });
       
@@ -753,7 +817,7 @@
       URL.revokeObjectURL(url);
     }
 
-    // 💡 NUEVA FUNCIÓN: Ordena el array de notas y actualiza los indicadores
+    // 💡 FUNCIÓN: Ordena el array de notas
     function ordenarTabla(columna, esInicial = false) {
         if (!columna) return;
 
@@ -762,9 +826,9 @@
         // Si se hace clic en la misma columna y no es la carga inicial, se invierte la dirección
         if (ordenActual.columna === columna && !esInicial) {
             direccion = ordenActual.direccion === 'asc' ? 'desc' : 'asc';
-        } else if (esInicial && columna === 'fecha') {
-            // Asegurar que el orden inicial de 'fecha' sea 'desc' (más reciente primero)
-            direccion = 'desc';
+        } else if (esInicial && columna === 'ordenCaptura') {
+            // Mantener el orden de captura ascendente en la carga inicial
+            direccion = 'asc';
         }
 
         notas.sort((a, b) => {
@@ -778,8 +842,8 @@
                 const dateB = new Date(valB + 'T00:00:00');
                 if (dateA < dateB) comparacion = -1;
                 if (dateA > dateB) comparacion = 1;
-            } else if (columna === 'pagina') {
-                 // Comparación de números para la página
+            } else if (columna === 'pagina' || columna === 'ordenCaptura') { // ** ACTUALIZADO: Incluye ordenCaptura **
+                 // Comparación de números
                 const numA = parseInt(valA) || 0;
                 const numB = parseInt(valB) || 0;
                 if (numA < numB) comparacion = -1;
@@ -797,7 +861,7 @@
         renderizarTabla();
     }
 
-    // 💡 NUEVA FUNCIÓN: Actualiza los iconos de la cabecera de la tabla
+    // 💡 FUNCIÓN: Actualiza los iconos de la cabecera de la tabla
     function actualizarIndicadoresOrden() {
         document.querySelectorAll('#tablaNotas th[data-col]').forEach(th => {
             const headerDiv = th.querySelector('.sortable-header');
@@ -935,21 +999,22 @@
       });
 
       if (filaEnEdicion !== null) {
-          // Actualiza la nota
-          notas[filaEnEdicion] = nuevaNota;
+          // Actualiza la nota: mantiene el ordenCaptura original
+          notas[filaEnEdicion] = {...nuevaNota, ordenCaptura: notas[filaEnEdicion].ordenCaptura};
           
           document.querySelector(`tr[data-index="${filaEnEdicion}"]`).classList.remove('editando');
           filaEnEdicion = null;
           document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Guardar';
           
       } else {
-          // Agrega la nueva nota
+          // Agrega la nueva nota: asigna e incrementa el contador
+          nuevaNota.ordenCaptura = nextOrdenCaptura++; 
           notas.push(nuevaNota);
       }
       
       guardarNotas();
-      // 💡 Re-ordenar por fecha descendente al agregar/actualizar para que el nuevo dato esté arriba
-      ordenarTabla('fecha', true); 
+      // Re-ordenar por el orden actual para mantener la vista, o por el nuevo campo si es una inserción nueva y no se está ordenando por ese campo.
+      ordenarTabla(ordenActual.columna, true); 
       
       camposDeDatos.forEach(id => {
           const campo = document.getElementById(id);
@@ -971,4 +1036,4 @@
     © 2025 Institución Pública. Todos los derechos reservados.
   </footer>
 </body>
-</html>S
+</html>
