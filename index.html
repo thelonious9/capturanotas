@@ -693,6 +693,16 @@
         });
       });
 
+      campo.addEventListener("blur", () => {
+          // Pequeño retardo para permitir el clic en la sugerencia
+          setTimeout(() => {
+              // Si el contenedor no tiene foco ni se hizo clic en una sugerencia, se cierra.
+              if (!contenedor.contains(document.activeElement)) {
+                  contenedor.innerHTML = "";
+              }
+          }, 150); 
+      });
+
       function resaltar(items, i) {
         items.forEach(el => el.classList.remove("resaltado"));
         items[i].classList.add("resaltado");
@@ -791,6 +801,7 @@
         
         notas.forEach((nota, indice) => {
             const tr = document.createElement("tr");
+            // Se usa el índice real para que las funciones de edición/borrado encuentren el objeto correcto
             tr.dataset.index = notas.indexOf(nota); 
 
             // ** RESALTAR SI HAY CAMPOS VACÍOS **
@@ -876,7 +887,7 @@
             document.getElementById(id).value = nota[id];
         });
         
-        // Simular blur para actualizar sugerencias de Organismo/Canal
+        // Disparar eventos para actualizar sugerencias de Organismo/Canal
         document.getElementById("dependencia").dispatchEvent(new Event('blur'));
         document.getElementById("medio").dispatchEvent(new Event('blur'));
         
@@ -908,6 +919,16 @@
     }
 
     /**
+     * Genera el nombre de archivo basado en el usuario y la fecha actual.
+     */
+    function generarNombreArchivoCSV() {
+        const usuario = document.getElementById('usuario').value.trim() || 'Desconocido';
+        const usuarioLimpio = usuario.replace(/\s/g, '_').replace(/[^a-zA-Z0-9_]/g, ''); 
+        const fechaHoy = new Date().toISOString().slice(0, 10); 
+        return `${usuarioLimpio}_${fechaHoy}.csv`;
+    }
+
+    /**
      * Descarga el archivo CSV localmente con el nombre personalizado.
      */
     function exportarCSV() {
@@ -917,17 +938,8 @@
         }
 
         const csvContenido = generarCSVContenido();
+        const nombreArchivo = generarNombreArchivoCSV();
         
-        // Obtiene el usuario y limpia espacios para el nombre de archivo
-        const usuario = document.getElementById('usuario').value.trim() || 'Desconocido';
-        const usuarioLimpio = usuario.replace(/\s/g, '_').replace(/[^a-zA-Z0-9_]/g, ''); 
-        
-        // Obtiene la fecha de hoy en formato YYYY-MM-DD
-        const fechaHoy = new Date().toISOString().slice(0, 10); 
-        
-        // Formato de nombre de archivo solicitado: [Usuario]_[Fecha].csv
-        const nombreArchivo = `${usuarioLimpio}_${fechaHoy}.csv`;
-
         const blob = new Blob([csvContenido], { type: "text/csv;charset=utf-8;" });
         const url = URL.createObjectURL(blob);
         const a = document.createElement("a");
@@ -940,12 +952,8 @@
         URL.revokeObjectURL(url);
     }
 
-    // La función enviarEmailAutomatico() fue eliminada a petición del usuario.
-
-
     /**
-     * Envía el contenido CSV directamente a la API de Telegram como documento.
-     * (Esta función permanece sin cambios, incluyendo las credenciales, para que el usuario pueda probarla)
+     * Envía el contenido CSV directamente a la API de Telegram como documento al canal @capsmonitoreo.
      */
     async function enviarTelegram() {
         if (notas.length === 0) {
@@ -953,9 +961,9 @@
              return;
         }
 
-        // 🚨 CREDENCIALES DE PRUEBA DEL USUARIO (Bot Token y Chat ID)
+        // 🚨 CONFIGURACIÓN - ¡CONFIGURADO PARA TU CANAL!
         const TELEGRAM_BOT_TOKEN = "8428524335:AAFeKrvKrUxrI9NAkL_G1-X6LdL4Fv6fkV4"; 
-        const TELEGRAM_CHAT_ID = "250340980"; 
+        const TELEGRAM_CHAT_ID = "@capsmonitoreo"; // <-- CANAL CONFIGURADO
         // -----------------------------------------------------------
 
         const URL_TELEGRAM = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument`; 
@@ -967,10 +975,13 @@
             const csvContenido = generarCSVContenido();
             const blobCSV = new Blob([csvContenido], { type: "text/csv;charset=utf-8;" });
             
+            // USANDO EL NOMBRE DE ARCHIVO PERSONALIZADO
+            const nombreArchivoTelegram = generarNombreArchivoCSV();
+
             const formData = new FormData();
             formData.append('chat_id', TELEGRAM_CHAT_ID);
-            formData.append('document', blobCSV, `reporte_notas_${new Date().toISOString().slice(0, 10)}.csv`);
-            formData.append('caption', '📋 Reporte de notas capturadas enviado automáticamente.');
+            formData.append('document', blobCSV, nombreArchivoTelegram); 
+            formData.append('caption', `📋 Reporte de notas (${nombreArchivoTelegram}) enviado automáticamente.`);
 
             const response = await fetch(URL_TELEGRAM, {
                 method: 'POST',
@@ -980,15 +991,19 @@
             const result = await response.json();
 
             if (response.ok && result.ok) {
-                alert("¡CSV enviado con éxito a Telegram!");
+                alert(`¡CSV '${nombreArchivoTelegram}' enviado con éxito al canal ${TELEGRAM_CHAT_ID}!`);
             } else {
                 console.error("Error de la API de Telegram:", result);
-                alert(`Error al enviar el archivo a Telegram: ${result.description || 'Consulta la consola.'}`);
+                let mensajeError = `Error al enviar el archivo a Telegram: ${result.description || 'Consulta la consola.'}`;
+                if (result.description.includes('chat not found') || result.description.includes('bot is not a member')) {
+                    mensajeError += "\n\n⚠️ Verifica: ¿Agregaste el bot al canal como ADMINISTRADOR con permiso de envío?";
+                }
+                alert(mensajeError);
             }
 
         } catch (error) {
             console.error("Error de conexión:", error);
-            alert("Error al intentar comunicarse con Telegram. Revisa la consola y las credenciales.");
+            alert("Error al intentar comunicarse con Telegram. Revisa la consola (net::ERR_CONNECTION_TIMED_OUT) y las credenciales.");
         } finally {
             document.getElementById('btnTelegram').disabled = false;
             document.getElementById('btnTelegram').innerHTML = '<i class="fa-brands fa-telegram"></i> Enviar por Telegram';
