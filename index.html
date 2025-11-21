@@ -22,6 +22,7 @@
       --color-dark-text: #31302F;          /* Texto para inputs (fondo claro) */
       --color-light-text: #F0EAD1;         /* Texto principal (fondo oscuro) */
       --color-input-bg: #F0EAD1;           /* Fondo de inputs */
+      --color-alerta-vacio: #FFD700;       /* Amarillo/Oro llamativo para alertas */
       --radius: 0.25rem;
     }
     body {
@@ -243,6 +244,14 @@
     .editando td {
         color: var(--color-light-text);
     }
+    /* NUEVO ESTILO DE ALERTA PARA FILAS CON CAMPOS VACÍOS */
+    .alerta-vacio {
+        background-color: var(--color-alerta-vacio) !important;
+        color: var(--color-dark-text) !important;
+    }
+    .alerta-vacio td {
+        color: var(--color-dark-text) !important;
+    }
     .error-carga {
       color: #dc3545;
       font-weight: bold;
@@ -276,6 +285,9 @@
     .sorted .sort-icon {
       opacity: 1;
       color: var(--color-light-text);
+    }
+    .sorted.alerta-vacio .sort-icon {
+        color: var(--color-dark-text); /* Asegurar contraste en la alerta */
     }
     
     /* --- GRUPO DE ACCIONES BAJO LA TABLA (AHORA ANTES) --- */
@@ -348,6 +360,9 @@
         td:last-child {
             text-align: center;
             padding-left: 10px;
+        }
+        .alerta-vacio td {
+             color: var(--color-dark-text) !important;
         }
     }
   </style>
@@ -523,14 +538,14 @@
     let nextOrdenCaptura = 1; // Contador para el nuevo número de orden
     const camposDeDatos = ["usuario", "fecha", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
     const encabezadosTabla = {
-        "ordenCaptura": "No.", // Nuevo encabezado
+        "ordenCaptura": "No.", 
         "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio", "titular": "Titular", "firma": "Firma", 
         "pagina": "Página", "dependencia": "Dependencia", "organismo": "Organismo", "genero": "Género", 
         "canal": "Canal", "tema": "Tema", "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
     };
     
-    // 💡 Estado global de ordenamiento: Cambiado a ordenar por el nuevo campo 'ordenCaptura' ascendente por defecto
-    let ordenActual = { columna: 'ordenCaptura', direccion: 'asc' }; 
+    // 💡 ACTUALIZADO: Ordenamiento por defecto a 'ordenCaptura' descendente (más reciente primero)
+    let ordenActual = { columna: 'ordenCaptura', direccion: 'desc' }; 
 
     const urls = {
       dependencias: "https://thelonious9.github.io/capturanotas/Dependencia.csv",
@@ -692,6 +707,20 @@
         }
     }
 
+    // 💡 FUNCIÓN: Verifica si una nota tiene campos vacíos (excepto ordenCaptura)
+    function contieneCamposVacios(nota) {
+        // Excluimos el campo de orden de captura de la verificación
+        const camposARevisar = camposDeDatos.filter(campo => campo !== 'ordenCaptura'); 
+        
+        for (const campo of camposARevisar) {
+            // Si el valor es nulo, indefinido o solo espacios en blanco, retornamos true
+            if (!nota[campo] || (typeof nota[campo] === 'string' && nota[campo].trim() === '')) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     function renderizarTabla() {
         const tablaBody = document.getElementById("tablaNotas").querySelector("tbody");
         tablaBody.innerHTML = '';
@@ -700,12 +729,17 @@
             const tr = document.createElement("tr");
             tr.dataset.index = notas.indexOf(nota); 
 
-            // ** NUEVA COLUMNA: Orden de Captura **
+            // ** RESALTAR SI HAY CAMPOS VACÍOS **
+            if (contieneCamposVacios(nota)) {
+                tr.classList.add('alerta-vacio');
+            }
+            // ** FIN RESALTADO **
+
+            // Columna No. (ordenCaptura)
             const tdOrden = document.createElement("td");
             tdOrden.textContent = nota.ordenCaptura;
             tdOrden.setAttribute('data-label', encabezadosTabla['ordenCaptura']);
             tr.appendChild(tdOrden);
-            // ** FIN NUEVA COLUMNA **
 
             camposDeDatos.forEach(campo => {
                 const td = document.createElement("td");
@@ -718,7 +752,7 @@
             tdAcciones.setAttribute('data-label', encabezadosTabla['acciones']);
             const btnEditar = document.createElement("button");
             btnEditar.textContent = "Editar";
-            btnEditar.classList.add('btn-accion-tabla'); // Clase para estilos de botón de tabla
+            btnEditar.classList.add('btn-accion-tabla'); 
             btnEditar.onclick = function() { editarNota(tr); };
             tdAcciones.appendChild(btnEditar);
             tr.appendChild(tdAcciones);
@@ -736,7 +770,6 @@
                 // Asignar ordenCaptura a notas antiguas y encontrar el máximo
                 notas.forEach(nota => {
                     if (nota.ordenCaptura === undefined || nota.ordenCaptura === null) {
-                        // Asignar un número ascendente basado en la posición actual del array (compatibilidad)
                         nota.ordenCaptura = ++maxOrden; 
                     } else {
                          if (nota.ordenCaptura > maxOrden) {
@@ -745,12 +778,11 @@
                     }
                 });
                 
-                // Si se hicieron actualizaciones para compatibilidad, guardar para persistir el campo
                 if (maxOrden > 0) guardarNotas(); 
                 
-                nextOrdenCaptura = maxOrden + 1; // Establecer el siguiente ID disponible
+                nextOrdenCaptura = maxOrden + 1; 
                 
-                // Aplicar orden por defecto (ordenCaptura Ascendente)
+                // Aplicar orden por defecto: ordenCaptura descendente
                 ordenarTabla(ordenActual.columna, true); 
             } catch (e) {
                 console.error("Error al cargar notas de localStorage:", e);
@@ -795,7 +827,6 @@
     }
 
     function exportarCSV() {
-      // ** ACTUALIZADO: Se incluye el nuevo campo "No." **
       const cabeceras = ["No.", "Usuario", "Fecha", "Medio", "Titular", "Firma", "Página", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"]; 
       const filas = [cabeceras];
       
@@ -827,9 +858,13 @@
         if (ordenActual.columna === columna && !esInicial) {
             direccion = ordenActual.direccion === 'asc' ? 'desc' : 'asc';
         } else if (esInicial && columna === 'ordenCaptura') {
-            // Mantener el orden de captura ascendente en la carga inicial
-            direccion = 'asc';
+             // Si es la carga inicial y se pide 'ordenCaptura', usa 'desc'
+             direccion = 'desc'; 
+        } else if (esInicial && columna === 'fecha') {
+             // Si es la carga inicial y se pide 'fecha', usa 'desc'
+             direccion = 'desc';
         }
+        // Si no es inicial y se cambia de columna, o si es inicial y se pide otra columna, usa 'asc' (el valor predeterminado de 'direccion')
 
         notas.sort((a, b) => {
             const valA = a[columna] || '';
@@ -842,8 +877,8 @@
                 const dateB = new Date(valB + 'T00:00:00');
                 if (dateA < dateB) comparacion = -1;
                 if (dateA > dateB) comparacion = 1;
-            } else if (columna === 'pagina' || columna === 'ordenCaptura') { // ** ACTUALIZADO: Incluye ordenCaptura **
-                 // Comparación de números
+            } else if (columna === 'pagina' || columna === 'ordenCaptura') { 
+                 // Comparación de números (incluye el nuevo campo ordenCaptura)
                 const numA = parseInt(valA) || 0;
                 const numB = parseInt(valB) || 0;
                 if (numA < numB) comparacion = -1;
@@ -1013,7 +1048,7 @@
       }
       
       guardarNotas();
-      // Re-ordenar por el orden actual para mantener la vista, o por el nuevo campo si es una inserción nueva y no se está ordenando por ese campo.
+      // 💡 Se mantiene el orden actual (que ahora por defecto es 'ordenCaptura' descendente)
       ordenarTabla(ordenActual.columna, true); 
       
       camposDeDatos.forEach(id => {
