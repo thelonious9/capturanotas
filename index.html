@@ -311,7 +311,7 @@
         flex-wrap: wrap; /* Para responsive */
     }
     
-    /* Botón Exportar (Email) */
+    /* Botón Exportar (Ahora es el Exportar CSV local) */
     #btnExportar {
         background-color: var(--color-fondo-form);
     }
@@ -355,7 +355,7 @@
         .button-group-form { justify-content: space-around; }
         .button-group-form button { width: 32%; margin-right: 0; }
         .actions-group { flex-direction: column; align-items: stretch; }
-        .actions-group input, .actions-group button { width: 100%; margin-bottom: 10px; }
+        .actions-group button { width: 100%; margin-bottom: 10px; }
         
         table, thead, tbody, th, td, tr { display: block; }
         thead tr { position: absolute; top: -9999px; left: -9999px; }
@@ -397,7 +397,7 @@
 
   <form>
     <div class="form-logo-container">
-        <img src="./logo.png" alt="Logotipo del Formulario">
+        <img src="./logo.png" alt="Logotipo del Formulario"> 
     </div>
 
     <label for="usuario">Usuario:</label>
@@ -515,6 +515,7 @@
       <button type="button" id="btnEliminar" style="display: none;" onclick="eliminarNotaEnEdicion()">
         <i class="fa-solid fa-trash-can"></i> Eliminar
       </button>
+
       <button type="reset" id="btnLimpiar">
         <i class="fa-solid fa-broom"></i> Limpiar
       </button>
@@ -522,9 +523,8 @@
   </form>
 
   <div class="actions-group">
-    <input type="email" id="emailDestino" placeholder="Correo de destino (ej: usuario@ejemplo.com)" style="padding: 10px; border-radius: var(--radius); border: 1px solid var(--color-primary-hover); width: 250px; background-color: var(--color-input-bg); color: var(--color-dark-text);">
-    <button id="btnExportar" onclick="enviarEmailAutomatico()">
-      <i class="fa-solid fa-envelope"></i> Enviar por Email (CSV)
+    <button id="btnExportar" onclick="exportarCSV()">
+      <i class="fa-solid fa-file-csv"></i> Exportar Hoja de Cálculo (CSV)
     </button>
     <button id="btnTelegram" onclick="enviarTelegram()">
       <i class="fa-brands fa-telegram"></i> Enviar por Telegram
@@ -747,7 +747,7 @@
         }
     }
 
-    // NUEVA FUNCIÓN: Elimina la nota que está actualmente en edición
+    // FUNCIÓN DE BORRADO CONTEXTUAL
     function eliminarNotaEnEdicion() {
         if (filaEnEdicion === null || filaEnEdicion >= notas.length) return;
 
@@ -907,57 +907,45 @@
       return "\uFEFF" + filas.map(f => f.join(",")).join("\n");
     }
 
-
     /**
-     * Intenta enviar el contenido CSV a un servicio externo (Apps Script) para que envíe el email.
+     * Descarga el archivo CSV localmente con el nombre personalizado.
      */
-    async function enviarEmailAutomatico() {
-        const emailDestino = document.getElementById('emailDestino').value.trim();
-        const csvContenido = generarCSVContenido();
-        
-        if (!emailDestino || !emailDestino.includes('@')) {
-            alert("Por favor, introduce un correo electrónico de destino válido.");
+    function exportarCSV() {
+        if (notas.length === 0) {
+            alert("No hay notas para exportar.");
             return;
         }
 
-        if (notas.length === 0) {
-             alert("No hay notas para enviar.");
-             return;
-        }
+        const csvContenido = generarCSVContenido();
         
-        // 🚨 IMPORTANTE: Reemplaza esta URL con la URL de tu Google Apps Script desplegado.
-        const URL_DE_TU_SCRIPT = "https://script.google.com/macros/s/TUCÓDIGOAPPSCRIPT/exec"; 
+        // Obtiene el usuario y limpia espacios para el nombre de archivo
+        const usuario = document.getElementById('usuario').value.trim() || 'Desconocido';
+        const usuarioLimpio = usuario.replace(/\s/g, '_').replace(/[^a-zA-Z0-9_]/g, ''); 
         
-        try {
-            document.getElementById('btnExportar').disabled = true;
-            document.getElementById('btnExportar').innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
+        // Obtiene la fecha de hoy en formato YYYY-MM-DD
+        const fechaHoy = new Date().toISOString().slice(0, 10); 
+        
+        // Formato de nombre de archivo solicitado: [Usuario]_[Fecha].csv
+        const nombreArchivo = `${usuarioLimpio}_${fechaHoy}.csv`;
 
-            const response = await fetch(URL_DE_TU_SCRIPT, {
-                method: 'POST',
-                mode: 'no-cors', 
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    email: emailDestino,
-                    asunto: `Reporte de Notas Capturadas - ${new Date().toLocaleDateString()}`,
-                    csv: btoa(unescape(encodeURIComponent(csvContenido))) 
-                })
-            });
-
-            alert("Solicitud de envío enviada. El correo electrónico debería llegar pronto si la configuración del script es correcta.");
-            
-        } catch (error) {
-            console.error("Error al enviar la solicitud:", error);
-            alert("Error al intentar comunicarse con el servicio de envío. Por favor, revisa la consola para más detalles.");
-        } finally {
-            document.getElementById('btnExportar').disabled = false;
-            document.getElementById('btnExportar').innerHTML = '<i class="fa-solid fa-envelope"></i> Enviar por Email (CSV)';
-        }
+        const blob = new Blob([csvContenido], { type: "text/csv;charset=utf-8;" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        
+        a.href = url;
+        a.download = nombreArchivo;
+        document.body.appendChild(a); 
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
     }
+
+    // La función enviarEmailAutomatico() fue eliminada a petición del usuario.
+
 
     /**
      * Envía el contenido CSV directamente a la API de Telegram como documento.
+     * (Esta función permanece sin cambios, incluyendo las credenciales, para que el usuario pueda probarla)
      */
     async function enviarTelegram() {
         if (notas.length === 0) {
@@ -965,9 +953,10 @@
              return;
         }
 
-        // 🚨 CONFIGURACIÓN NECESARIA: Reemplaza con tus credenciales
-        const TELEGRAM_BOT_TOKEN = "TU_TOKEN_DE_BOTFATHER"; 
-        const TELEGRAM_CHAT_ID = "ID_DEL_CHAT_O_CANAL"; 
+        // 🚨 CREDENCIALES DE PRUEBA DEL USUARIO (Bot Token y Chat ID)
+        const TELEGRAM_BOT_TOKEN = "8428524335:AAFeKrvKrUxrI9NAkL_G1-X6LdL4Fv6fkV4"; 
+        const TELEGRAM_CHAT_ID = "250340980"; 
+        // -----------------------------------------------------------
 
         const URL_TELEGRAM = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument`; 
         
@@ -1016,7 +1005,7 @@
         // Si se hace clic en la misma columna y no es la carga inicial, se invierte la dirección
         if (ordenActual.columna === columna && !esInicial) {
             direccion = ordenActual.direccion === 'asc' ? 'desc' : 'asc';
-        } else if (esInicial) {
+        } else if (esInicial && columna === 'ordenCaptura') {
              // Si es la carga inicial, se usa 'desc' para ordenCaptura
              direccion = 'desc'; 
         }
