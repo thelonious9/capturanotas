@@ -217,6 +217,40 @@
         font-size: 1.1em;
     }
     
+    /* --- ESTILOS DEL BUSCADOR (NUEVO) --- */
+    .buscador-container {
+      position: relative;
+      margin-bottom: 15px;
+      max-width: 400px; /* Ancho máximo para que no ocupe toda la pantalla en PC */
+    }
+    
+    #buscador {
+      width: 100%;
+      padding: 10px 10px 10px 40px; /* Padding izquierdo extra para el icono */
+      border: 1px solid var(--color-primary-hover);
+      border-radius: var(--radius);
+      background-color: var(--color-input-bg);
+      color: var(--color-dark-text);
+      font-size: 1rem;
+      box-sizing: border-box; 
+      transition: all 0.2s ease;
+    }
+
+    #buscador:focus {
+      outline: none;
+      border-color: var(--color-primary);
+      box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25);
+    }
+
+    .buscador-icon {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--color-secondary);
+      font-size: 1.1rem;
+    }
+
     /* --- TABLA --- */
     h2 {
         margin-top: 40px;
@@ -432,9 +466,11 @@
 
     <label for="firma">Firma:</label>
     <div class="campo">
-      <input type="text" id="firma" name="firma">
+      <input type="text" id="firma" name="firma" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('firma','sugFirma')">🔽</button>
       <input type="checkbox" id="checkFirma" onchange="alternarBloqueo('firma')">
       <label for="checkFirma">🔒</label>
+      <div id="sugFirma" class="sugerencias"></div>
     </div>
 
     <label for="pagina">Página:</label>
@@ -537,6 +573,12 @@
   <div id="erroresCarga" class="error-carga"></div>
 
   <h2>Notas capturadas</h2>
+
+  <div class="buscador-container">
+    <i class="fa-solid fa-magnifying-glass buscador-icon"></i>
+    <input type="text" id="buscador" placeholder="Buscar por titular, medio, municipio...">
+  </div>
+
   <table id="tablaNotas">
     <thead>
       <tr>
@@ -576,13 +618,15 @@
     // Ordenamiento por defecto a 'ordenCaptura' descendente (más reciente primero)
     let ordenActual = { columna: 'ordenCaptura', direccion: 'desc' }; 
 
+    // MODIFICADO: Agregada la URL para Firmas
     const urls = {
       dependencias: "https://thelonious9.github.io/capturanotas/Dependencia.csv",
       medios: "https://thelonious9.github.io/capturanotas/Medio.csv",
       generos: "https://thelonious9.github.io/capturanotas/Genero.csv",
       estatus: "https://thelonious9.github.io/capturanotas/Estatus.csv",
       temas: "https://thelonious9.github.io/capturanotas/Tema.csv",
-      municipios: "https://thelonious9.github.io/capturanotas/Municipio.csv"
+      municipios: "https://thelonious9.github.io/capturanotas/Municipio.csv",
+      firmas: "https://thelonious9.github.io/capturanotas/Firma.csv" // Nueva URL
     };
     
     function findKeyCaseInsensitive(map, value) {
@@ -614,7 +658,8 @@
       if (!filas || filas.length === 0) return [];
       filas[0][0] = filas[0][0].replace(/^\uFEFF/, "");
       const encabezado = filas[0].map(c => (c || "").toLowerCase()).join(",");
-      const tieneEncabezado = encabezado.includes("dependencia") || encabezado.includes("medio") || encabezado.includes("género");
+      // MODIFICADO: Agregado "firma" a los encabezados reconocidos para ignorar la primera fila
+      const tieneEncabezado = encabezado.includes("dependencia") || encabezado.includes("medio") || encabezado.includes("género") || encabezado.includes("firma");
       if (tieneEncabezado) filas = filas.slice(1);
       return filas.map(r => r.map(c => (c || "").replace(/<[^>]+>/g, "").trim())).filter(r => r[0]);
     }
@@ -799,16 +844,17 @@
         const tablaBody = document.getElementById("tablaNotas").querySelector("tbody");
         tablaBody.innerHTML = '';
         
+        // Filtro previo si hay búsqueda activa
+        const terminoBusqueda = document.getElementById('buscador').value.toLowerCase();
+
         notas.forEach((nota, indice) => {
             const tr = document.createElement("tr");
-            // Se usa el índice real para que las funciones de edición/borrado encuentren el objeto correcto
             tr.dataset.index = notas.indexOf(nota); 
 
             // ** RESALTAR SI HAY CAMPOS VACÍOS **
             if (contieneCamposVacios(nota)) {
                 tr.classList.add('alerta-vacio');
             }
-            // ** FIN RESALTADO **
 
             // Columna No. (ordenCaptura)
             const tdOrden = document.createElement("td");
@@ -833,6 +879,14 @@
             tr.appendChild(tdAcciones);
 
             tablaBody.appendChild(tr);
+
+            // APLICAR FILTRO DE BÚSQUEDA AL RENDERIZAR
+            if (terminoBusqueda) {
+                const textoFila = tr.textContent.toLowerCase();
+                if (!textoFila.includes(terminoBusqueda)) {
+                    tr.style.display = 'none';
+                }
+            }
         });
     }
 
@@ -887,10 +941,15 @@
             document.getElementById(id).value = nota[id];
         });
         
-        // Disparar eventos para actualizar sugerencias de Organismo/Canal
+        // Disparar eventos para actualizar sugerencias de Organismo/Canal/Firma
         document.getElementById("dependencia").dispatchEvent(new Event('blur'));
         document.getElementById("medio").dispatchEvent(new Event('blur'));
         
+        // Pequeño hack para asegurar que el valor de firma se rellene después de cargar las sugerencias
+        setTimeout(() => {
+             document.getElementById("firma").value = nota["firma"];
+        }, 100);
+
         filaEnEdicion = indice; 
         document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Actualizar Nota';
         document.getElementById('btnEliminar').style.display = 'inline-block'; // MOSTRAR botón de eliminar
@@ -1081,22 +1140,37 @@
     // --- Eventos ---
 
     document.addEventListener("DOMContentLoaded", async () => {
-      let orgMap, canalMap;
+      let orgMap, canalMap, firmaMap;
 
+      // 1. Cargar Dependencias y Organismos
       const depData = await cargarMapa(urls.dependencias);
       orgMap = depData.map;
       autocompletar("dependencia", "sugDep", depData.claves, dep => {
         autocompletar("organismo", "sugOrg", orgMap[dep] || []);
       });
 
+      // 2. Cargar Firmas (NUEVO BLOQUE)
+      const firmaData = await cargarMapa(urls.firmas);
+      firmaMap = firmaData.map;
+      autocompletar("firma", "sugFirma", []); // Inicializar vacío
+
+      // 3. Cargar Medios y vincular con Canal y Firma
       const medioData = await cargarMapa(urls.medios);
       canalMap = medioData.map;
+
       autocompletar("medio", "sugMedio", medioData.claves, medio => {
+        // A) Actualizar Canales
         const canales = canalMap[medio] || [];
         autocompletar("canal", "sugCanal", canales);
         if (canales.length === 1) {
           document.getElementById("canal").value = canales[0];
         }
+
+        // B) Actualizar Firmas
+        const firmas = firmaMap[medio] || [];
+        autocompletar("firma", "sugFirma", firmas);
+        // Limpiamos el campo firma si cambiamos de medio para evitar inconsistencias
+        document.getElementById("firma").value = ""; 
       });
       
       document.getElementById("dependencia").addEventListener("blur", (e) => {
@@ -1112,6 +1186,7 @@
           }
       });
       
+      // Evento Blur para Medio (ACTUALIZADO)
       document.getElementById("medio").addEventListener("blur", (e) => {
           const campo = e.target;
           const medioValue = campo.value.trim();
@@ -1119,19 +1194,47 @@
 
           if (foundKey) {
               campo.value = foundKey;
+              
+              // Actualizar Canales
               const canales = canalMap[foundKey] || [];
               autocompletar("canal", "sugCanal", canales);
               if (canales.length === 1) {
                 document.getElementById("canal").value = canales[0];
               }
+
+              // Actualizar Firmas
+              const firmas = firmaMap[foundKey] || []; 
+              autocompletar("firma", "sugFirma", firmas);
+
           } else {
+              // Si no hay match, limpiar sugerencias de ambos
               autocompletar("canal", "sugCanal", []);
+              autocompletar("firma", "sugFirma", []);
           }
+      });
+      
+      // --- LÓGICA DEL BUSCADOR EN TIEMPO REAL (NUEVO) ---
+      const inputBuscador = document.getElementById('buscador');
+      
+      inputBuscador.addEventListener('keyup', function() {
+          const termino = this.value.toLowerCase();
+          const filas = document.querySelectorAll('#tablaNotas tbody tr');
+
+          filas.forEach(fila => {
+              // Obtenemos todo el texto de la fila y lo pasamos a minúsculas
+              const textoFila = fila.textContent.toLowerCase();
+              
+              // Si el texto de la fila incluye el término, la mostramos, si no, la ocultamos
+              if(textoFila.includes(termino)) {
+                  fila.style.display = '';
+              } else {
+                  fila.style.display = 'none';
+              }
+          });
       });
       
       autocompletar("organismo", "sugOrg", []); 
       autocompletar("canal", "sugCanal", []);
-
 
       autocompletar("genero", "sugGenero", await cargarLista(urls.generos));
       autocompletar("estatus", "sugEstatus", await cargarLista(urls.estatus));
