@@ -116,7 +116,7 @@
         grid-column: 1 / span 4; 
     }
     
-    /* Titular (Label: 8vo elemento, Input: 9no elemento) -> Ocupan 4 columnas (AJUSTADO POR ORDEN) */
+    /* Titular (Label: 8vo elemento, Input: 9no elemento) -> Ocupan 4 columnas */
     form > label:nth-child(8), 
     form > div:nth-child(9) {
         grid-column: 1 / span 4; 
@@ -205,22 +205,23 @@
       max-width: none !important; 
     }
 
-    /* 🌟 DEFINICIÓN DE ANCHOS PROPORCIONALES (14 columnas: Total 100%) - ORDEN ACTUALIZADO */
-    /* Nuevo orden: #, Usuario, Fecha, Medio, Titular, Firma, Dependencia, Organismo, Género, Canal, Tema, Estatus, Municipio, Acciones */
+    /* 🌟 DEFINICIÓN DE ANCHOS PROPORCIONALES (15 columnas: Total 100%) - ORDEN ACTUALIZADO 🌟 */
+    /* Nuevo orden: #, Usuario, Fecha, Medio, Titular, Firma, Página, Dependencia, Organismo, Género, Canal, Tema, Estatus, Municipio, Acciones */
     #tablaNotas th:nth-child(1), #tablaNotas td:nth-child(1) { width: 3%; }    /* # (ordenCaptura) */
     #tablaNotas th:nth-child(2), #tablaNotas td:nth-child(2) { width: 7%; }    /* Usuario */
     #tablaNotas th:nth-child(3), #tablaNotas td:nth-child(3) { width: 7%; }    /* Fecha */
     #tablaNotas th:nth-child(4), #tablaNotas td:nth-child(4) { width: 8%; }    /* Medio */
-    #tablaNotas th:nth-child(5), #tablaNotas td:nth-child(5) { width: 16%; }   /* Titular (16%) */
-    #tablaNotas th:nth-child(6), #tablaNotas td:nth-child(6) { width: 7%; }    /* Firma (7%) */
-    #tablaNotas th:nth-child(7), #tablaNotas td:nth-child(7) { width: 8%; }    /* Dependencia (8%) */
-    #tablaNotas th:nth-child(8), #tablaNotas td:nth-child(8) { width: 8%; }    /* Organismo (8%) */
-    #tablaNotas th:nth-child(9), #tablaNotas td:nth-child(9) { width: 5%; }    /* Género (5%) */
-    #tablaNotas th:nth-child(10), #tablaNotas td:nth-child(10) { width: 6%; }  /* Canal (6%) */
-    #tablaNotas th:nth-child(11), #tablaNotas td:nth-child(11) { width: 8%; }  /* Tema (8%) */
-    #tablaNotas th:nth-child(12), #tablaNotas td:nth-child(12) { width: 5%; }  /* Estatus (5%) */
-    #tablaNotas th:nth-child(13), #tablaNotas td:nth-child(13) { width: 6%; }  /* Municipio (6%) */
-    #tablaNotas th:nth-child(14), #tablaNotas td:nth-child(14) { width: 6%; }  /* Acciones (6%) */
+    #tablaNotas th:nth-child(5), #tablaNotas td:nth-child(5) { width: 15%; }   /* Titular (15%) */
+    #tablaNotas th:nth-child(6), #tablaNotas td:nth-child(6) { width: 6%; }    /* Firma (6%) */
+    #tablaNotas th:nth-child(7), #tablaNotas td:nth-child(7) { width: 5%; }    /* Página (5%) */
+    #tablaNotas th:nth-child(8), #tablaNotas td:nth-child(8) { width: 7%; }    /* Dependencia (7%) */
+    #tablaNotas th:nth-child(9), #tablaNotas td:nth-child(9) { width: 7%; }    /* Organismo (7%) */
+    #tablaNotas th:nth-child(10), #tablaNotas td:nth-child(10) { width: 5%; }  /* Género (5%) */
+    #tablaNotas th:nth-child(11), #tablaNotas td:nth-child(11) { width: 5%; }  /* Canal (5%) */
+    #tablaNotas th:nth-child(12), #tablaNotas td:nth-child(12) { width: 7%; }  /* Tema (7%) */
+    #tablaNotas th:nth-child(13), #tablaNotas td:nth-child(13) { width: 5%; }  /* Estatus (5%) */
+    #tablaNotas th:nth-child(14), #tablaNotas td:nth-child(14) { width: 6%; }  /* Municipio (6%) */
+    #tablaNotas th:nth-child(15), #tablaNotas td:nth-child(15) { width: 6%; }  /* Acciones (6%) */
 
     th {
       background-color: var(--color-primary);
@@ -400,19 +401,28 @@
       <label for="checkMedio">🔒</label>
       <div id="sugMedio" class="sugerencias"></div>
     </div>
+    
     <label for="titular">Titular:</label>
     <div class="campo">
       <input type="text" id="titular" name="titular" required>
       <input type="checkbox" id="checkTitular" onchange="alternarBloqueo('titular')" tabindex="-1">
       <label for="checkTitular">🔒</label>
     </div>
-    <label for="firma">Firma:</label>
+
+    <label for="firma">Firma (Opcional):</label>
     <div class="campo">
       <input type="text" id="firma" name="firma" autocomplete="off">
       <button type="button" onclick="mostrarSugerencias('firma','sugFirma')" tabindex="-1">🔽</button>
       <input type="checkbox" id="checkFirma" onchange="alternarBloqueo('firma')" tabindex="-1">
       <label for="checkFirma">🔒</label>
       <div id="sugFirma" class="sugerencias"></div>
+    </div>
+    
+    <label for="pagina">Página:</label>
+    <div class="campo">
+      <input type="text" id="pagina" name="pagina" required> 
+      <input type="checkbox" id="checkPagina" onchange="alternarBloqueo('pagina')" tabindex="-1">
+      <label for="checkPagina">🔒</label>
     </div>
 
     <label for="dependencia">Dependencia:</label>
@@ -524,6 +534,7 @@
         <th data-col="medio"><div class="sortable-header">Medio <span class="sort-icon"></span></div></th>
         <th data-col="titular"><div class="sortable-header">Titular <span class="sort-icon"></span></div></th>
         <th data-col="firma"><div class="sortable-header">Firma <span class="sort-icon"></span></div></th>
+        <th data-col="pagina"><div class="sortable-header">Página <span class="sort-icon"></span></div></th>
         <th data-col="dependencia"><div class="sortable-header">Dependencia <span class="sort-icon"></span></div></th>
         <th data-col="organismo"><div class="sortable-header">Organismo <span class="sort-icon"></span></div></th>
         <th data-col="genero"><div class="sortable-header">Género <span class="sort-icon"></span></div></th>
@@ -543,12 +554,12 @@
     let filaEnEdicion = null;
     let nextOrdenCaptura = 1;
     
-    // 🌟 ORDEN DE CAMPOS ACTUALIZADO 🌟
-    const camposDeDatos = ["ordenCaptura", "usuario", "fecha", "medio", "titular", "firma", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
+    // 🌟 ORDEN DE CAMPOS ACTUALIZADO (PÁGINA es requerida y movida) 🌟
+    const camposDeDatos = ["ordenCaptura", "usuario", "fecha", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
     
     const encabezadosTabla = {
-        "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio", "titular": "Titular", "firma": "Firma", 
-        "dependencia": "Dependencia", "organismo": "Organismo", "genero": "Género", "canal": "Canal",
+        "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio", "titular": "Titular", "firma": "Firma (Opcional)", 
+        "pagina": "Página", "dependencia": "Dependencia", "organismo": "Organismo", "genero": "Género", "canal": "Canal",
         "tema": "Tema (Opcional)", "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
     };
     
@@ -812,12 +823,13 @@
     // Esta función sólo verifica CAMPOS OBLIGATORIOS (excluye Tema y Firma)
     function contieneCamposVacios(nota) {
         // Solo revisamos los campos de datos, excluyendo ordenCaptura, Tema y Firma
+        // Página ya NO está excluida, por lo tanto es obligatoria.
         const camposARevisar = camposDeDatos.filter(c => c !== 'ordenCaptura' && c !== 'tema' && c !== 'firma'); 
         let camposFaltantes = [];
         
         for (const campo of camposARevisar) {
             if (!nota[campo] || (typeof nota[campo] === 'string' && nota[campo].trim() === '')) {
-                camposFaltantes.push(encabezadosTabla[campo]); // Guarda el nombre legible
+                camposFaltantes.push(encabezadosTabla[campo].replace(' (Opcional)', '')); // Guarda el nombre legible
             }
         }
         return camposFaltantes; // Devuelve la lista de campos faltantes
@@ -903,6 +915,8 @@
                         nota.ordenCaptura = nextOrdenCaptura++; 
                     }
                     if (nota.canal === undefined) nota.canal = ''; 
+                    // Asegura que Página exista para notas viejas
+                    if (nota.pagina === undefined) nota.pagina = '';
                     
                     if (nota.ordenCaptura > maxOrden) {
                         maxOrden = nota.ordenCaptura;
@@ -974,7 +988,7 @@
 
     function generarCSVContenido() {
       // 🌟 CABECERAS EN EL ORDEN CORRECTO 🌟
-      const cabeceras = ["#", "Usuario", "Fecha", "Medio", "Titular", "Firma", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"];
+      const cabeceras = ["#", "Usuario", "Fecha", "Medio", "Titular", "Firma", "Página", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"];
       const filas = [cabeceras];
       
       notas.forEach(nota => {
@@ -1319,7 +1333,7 @@
         }
       });
 
-      // 🚨 VALIDACIÓN: No guarda si faltan campos obligatorios (Tema y Firma son opcionales)
+      // 🚨 VALIDACIÓN: No guarda si faltan campos obligatorios 
       const camposFaltantes = contieneCamposVacios(nuevaNota);
 
       if (camposFaltantes.length > 0) {
