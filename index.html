@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <title>Sistema de Captura de Notas</title>
+  <title>Sistema de Captura de Notas de Radio</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   
@@ -11,20 +11,20 @@
     /* Importación de Google Fonts para Roboto */
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-    /* --- PALETA DE COLORES FINAL --- */
+    /* --- PALETA DE COLORES ACTUALIZADA (Rojo, Blanco, Negro) --- */
     :root {
-      --color-fondo-pagina: #31302F;       /* Oscuro Suave */
-      --color-fondo-form: #52504E;         /* Gris Cálido (Fondo del Formulario) */
-      --color-primary: #6F0909;            /* Rojo Intenso (Guardar/Borrar Todo) */
-      --color-primary-hover: #792929;      /* Rojo Suave */
-      --color-secondary: #792929;          /* Rojo Suave (Botón Limpiar/Hover) */
-      --color-secondary-hover: #6F0909;    /* Rojo Intenso */
-      --color-danger: #dc3545;             /* Rojo estándar para peligro */
-      --color-danger-hover: #c82333;       /* Rojo oscuro */
+      --color-fondo-pagina: #1E1E1E;       /* Negro Oscuro (Fondo Principal) */
+      --color-fondo-form: #2C2C2C;         /* Gris Oscuro (Fondo del Formulario/Tabla) */
+      --color-primary: #D20A11;            /* Rojo Vivo (Botón Guardar/Encabezado Tabla) */
+      --color-primary-hover: #AA080C;      /* Rojo Oscuro (Hover) */
+      --color-secondary: #D20A11;          /* Rojo Vivo (Botón Limpiar/Iconos) */
+      --color-secondary-hover: #AA080C;    /* Rojo Oscuro (Hover) */
+      --color-danger: #AA080C;             /* Rojo para advertencias/eliminar */
+      --color-danger-hover: #D20A11;       /* Rojo Vivo */
       --color-telegram: #0088cc;           
       --color-telegram-hover: #0077b3;     
-      --color-dark-text: #31302F;          /* Texto para inputs (fondo claro) */
-      --color-light-text: #F0EAD1;         /* Texto principal (fondo oscuro) */
+      --color-dark-text: #1E1E1E;          /* Texto para inputs (fondo claro) */
+      --color-light-text: #FFFFFF;         /* Texto principal (fondo oscuro) */
       --color-input-bg: #FFFFFF;           /* Fondo de los campos de texto: Blanco */
       --color-alerta-vacio: #FFD700;       
       --radius: 0.25rem;
@@ -105,14 +105,14 @@
     .campo > input[type="text"]:focus,
     .campo > input[type="date"]:focus {
         border-color: var(--color-primary);
-        box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25);
+        box-shadow: 0 0 0 0.2rem rgba(210, 10, 17, 0.25);
         outline: none;
     }
-    /* Estas reglas ya no son necesarias al reducir el número de campos */
-    /* form > label:nth-child(8), 
+    /* El campo Titular (tercer par) pasa a ocupar todo el ancho */
+    form > label:nth-child(8), 
     form > div:nth-child(9) { 
         grid-column: span 4;
-    } */
+    }
     
     /* --- SUGERENCIAS --- */
     .sugerencias {
@@ -180,36 +180,34 @@
       margin-top: 20px;
       background-color: var(--color-fondo-form);
     }
+    
+    /* REGLAS PARA EVITAR DEFORMACIÓN DE LA TABLA */
     th, td {
       padding: 12px 15px;
-      border: 1px solid #7D7C79;
+      border: 1px solid #3A3A3A;
       text-align: left;
       color: var(--color-light-text);
       font-size: 0.85rem;
-      /* Ajuste para evitar deformación, aplicado a todas las celdas */
-      max-width: 250px; 
+      /* Aplica truncamiento por defecto a todas las celdas (excepto en responsive) */
+      max-width: 180px; 
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis; 
     }
-
-    /* Ajuste para la columna Titular para que se vea bien el truncamiento */
+    
+    /* Ajuste para la columna Titular para que tenga un ancho visible, pero truncado */
     #tablaNotas th[data-col="titular"], #tablaNotas td:nth-child(5) {
-        max-width: 150px; /* Ancho específico para el titular */
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        max-width: 250px; 
     }
-    /* Ajuste para la columna de acciones */
+    /* Ajuste para la columna de acciones (última) */
     #tablaNotas th:last-child, #tablaNotas td:last-child {
         max-width: 100px;
         min-width: 100px;
         white-space: nowrap;
         overflow: visible;
-        text-overflow: clip;
+        text-overflow: clip; /* Permite que el botón se muestre */
     }
-
-
+    
     th {
       background-color: var(--color-primary);
       color: var(--color-light-text);
@@ -217,7 +215,7 @@
       position: sticky;
       top: 0;
     }
-    tbody tr:nth-child(even) { background-color: #5D5C5A; } 
+    tbody tr:nth-child(even) { background-color: #353535; } 
     .editando { background-color: var(--color-primary-hover) !important; color: var(--color-light-text); }
     .editando td { color: var(--color-light-text); }
     .alerta-vacio { background-color: var(--color-alerta-vacio) !important; color: var(--color-dark-text) !important; }
@@ -294,7 +292,7 @@
     #buscador:focus {
       outline: none;
       border-color: var(--color-primary);
-      box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25);
+      box-shadow: 0 0 0 0.2rem rgba(210, 10, 17, 0.25);
     }
 
     .buscador-icon {
@@ -319,19 +317,20 @@
         
         table, thead, tbody, th, td, tr { display: block; }
         thead tr { position: absolute; top: -9999px; left: -9999px; }
-        tr { border: 1px solid #7D7C79; margin-bottom: 10px; }
+        tr { border: 1px solid #3A3A3A; margin-bottom: 10px; }
         td { 
             border: none;
-            border-bottom: 1px solid #8D8C8A;
+            border-bottom: 1px solid #4A4A4A;
             position: relative;
             padding-left: 50%;
             text-align: right;
             font-size: 0.9em;
             color: var(--color-light-text);
-            /* Resetear para responsive */
-            max-width: 100%; 
-            white-space: normal;
-            text-overflow: clip; 
+            /* Resetear la deformación en responsive para que el texto se ajuste */
+            max-width: 100% !important; 
+            white-space: normal !important;
+            overflow: visible !important;
+            text-overflow: clip !important;
         }
         td:before { 
             content: attr(data-label);
@@ -351,7 +350,7 @@
 <body>
   <header>
     <img src="./logo.png" alt="Logotipo institucional">
-    <h1>Sistema de Captura de Notas de Prensa</h1>
+    <h1>Sistema de Captura de Notas de Radio</h1>
   </header>
 
   <form>
@@ -373,13 +372,13 @@
       <label for="checkFecha">🔒</label>
     </div>
 
-    <label for="medio">Medio:</label>
+    <label for="radiodifusora">Radiodifusora:</label>
     <div class="campo">
-      <input type="text" id="medio" name="medio" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('medio','sugMedio')">🔽</button>
-      <input type="checkbox" id="checkMedio" onchange="alternarBloqueo('medio')">
-      <label for="checkMedio">🔒</label>
-      <div id="sugMedio" class="sugerencias"></div>
+      <input type="text" id="radiodifusora" name="radiodifusora" autocomplete="off" required>
+      <button type="button" onclick="mostrarSugerencias('radiodifusora','sugRadiodifusora')">🔽</button>
+      <input type="checkbox" id="checkRadiodifusora" onchange="alternarBloqueo('radiodifusora')">
+      <label for="checkRadiodifusora">🔒</label>
+      <div id="sugRadiodifusora" class="sugerencias"></div>
     </div>
 
     <label for="titular">Titular:</label>
@@ -389,13 +388,22 @@
       <label for="checkTitular">🔒</label>
     </div>
 
-    <label for="firma">Firma:</label>
+    <label for="autor">Autor:</label>
     <div class="campo">
-      <input type="text" id="firma" name="firma" autocomplete="off">
-      <button type="button" onclick="mostrarSugerencias('firma','sugFirma')">🔽</button>
-      <input type="checkbox" id="checkFirma" onchange="alternarBloqueo('firma')">
-      <label for="checkFirma">🔒</label>
-      <div id="sugFirma" class="sugerencias"></div>
+      <input type="text" id="autor" name="autor" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('autor','sugAutor')">🔽</button>
+      <input type="checkbox" id="checkAutor" onchange="alternarBloqueo('autor')">
+      <label for="checkAutor">🔒</label>
+      <div id="sugAutor" class="sugerencias"></div>
+    </div>
+
+    <label for="programa">Programa:</label>
+    <div class="campo">
+      <input type="text" id="programa" name="programa" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('programa','sugPrograma')">🔽</button>
+      <input type="checkbox" id="checkPrograma" onchange="alternarBloqueo('programa')">
+      <label for="checkPrograma">🔒</label>
+      <div id="sugPrograma" class="sugerencias"></div>
     </div>
 
     <label for="dependencia">Dependencia:</label>
@@ -425,6 +433,15 @@
       <div id="sugGenero" class="sugerencias"></div>
     </div>
 
+    <label for="canal">Canal:</label>
+    <div class="campo">
+      <input type="text" id="canal" name="canal" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('canal','sugCanal')">🔽</button>
+      <input type="checkbox" id="checkCanal" onchange="alternarBloqueo('canal')">
+      <label for="checkCanal">🔒</label>
+      <div id="sugCanal" class="sugerencias"></div>
+    </div>
+
     <label for="tema">Tema:</label>
     <div class="campo">
       <input type="text" id="tema" name="tema" autocomplete="off">
@@ -451,10 +468,6 @@
       <label for="checkMunicipio">🔒</label>
       <div id="sugMunicipio" class="sugerencias"></div>
     </div>
-    
-    <label></label>
-    <div class="campo"></div>
-
 
     <div class="button-group-form">
       <button type="submit" id="btnGuardar">
@@ -489,7 +502,7 @@
   
   <div class="buscador-container">
       <i class="fas fa-search buscador-icon"></i>
-      <input type="text" id="buscador" placeholder="Buscar en la tabla (Titular, Medio, etc.)">
+      <input type="text" id="buscador" placeholder="Buscar en la tabla (Titular, Autor, etc.)">
   </div>
   
   <h2>Notas capturadas</h2>
@@ -499,12 +512,14 @@
         <th data-col="ordenCaptura"><div class="sortable-header"># <span class="sort-icon"></span></div></th>
         <th data-col="usuario"><div class="sortable-header">Usuario <span class="sort-icon"></span></div></th>
         <th data-col="fecha"><div class="sortable-header">Fecha <span class="sort-icon"></span></div></th>
-        <th data-col="medio"><div class="sortable-header">Medio <span class="sort-icon"></span></div></th>
+        <th data-col="radiodifusora"><div class="sortable-header">Radiodifusora <span class="sort-icon"></span></div></th>
         <th data-col="titular"><div class="sortable-header">Titular <span class="sort-icon"></span></div></th>
-        <th data-col="firma"><div class="sortable-header">Firma <span class="sort-icon"></span></div></th>
+        <th data-col="autor"><div class="sortable-header">Autor <span class="sort-icon"></span></div></th>
+        <th data-col="programa"><div class="sortable-header">Programa <span class="sort-icon"></span></div></th>
         <th data-col="dependencia"><div class="sortable-header">Dependencia <span class="sort-icon"></span></div></th>
         <th data-col="organismo"><div class="sortable-header">Organismo <span class="sort-icon"></span></div></th>
         <th data-col="genero"><div class="sortable-header">Género <span class="sort-icon"></span></div></th>
+        <th data-col="canal"><div class="sortable-header">Canal <span class="sort-icon"></span></div></th>
         <th data-col="tema"><div class="sortable-header">Tema <span class="sort-icon"></span></div></th>
         <th data-col="estatus"><div class="sortable-header">Estatus <span class="sort-icon"></span></div></th>
         <th data-col="municipio"><div class="sortable-header">Municipio <span class="sort-icon"></span></div></th>
@@ -520,27 +535,27 @@
     let filaEnEdicion = null;
     let nextOrdenCaptura = 1;
     
-    // CAMPOS DE DATOS CORREGIDOS (sin 'seccion' ni 'canal')
-    const camposDeDatos = ["ordenCaptura", "usuario", "fecha", "medio", "titular", "firma", "dependencia", "organismo", "genero", "tema", "estatus", "municipio"];
+    // CAMPOS PARA RADIO
+    const camposDeDatos = ["ordenCaptura", "usuario", "fecha", "radiodifusora", "titular", "autor", "programa", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
     
-    // ENCABEZADOS DE TABLA CORREGIDOS (sin 'seccion' ni 'canal')
+    // ENCABEZADOS (Sin columna Telegram individual)
     const encabezadosTabla = {
-        "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio", "titular": "Titular", "firma": "Firma", 
-        "dependencia": "Dependencia", "organismo": "Organismo", "genero": "Género", 
-        "tema": "Tema", "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
+        "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "radiodifusora": "Radiodifusora", "titular": "Titular", "autor": "Autor", 
+        "programa": "Programa", "dependencia": "Dependencia", "organismo": "Organismo", "genero": "Género", 
+        "canal": "Canal", "tema": "Tema", "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
     };
     
     let ordenActual = { columna: 'ordenCaptura', direccion: 'desc' }; 
 
-    // RUTAS RELATIVAS (corregidas, solo quedan las solicitadas)
+    // RUTAS RELATIVAS
     const urls = {
       dependencias: "./Dependencia.csv",
-      medios: "./Medio.csv", 
+      radiodifusoras: "./Radiodifusora.csv", 
       generos: "./Genero.csv",
       estatus: "./Estatus.csv",
       temas: "./Tema.csv",
       municipios: "./Municipio.csv",
-      firmas: "./Firma.csv"
+      autores: "./Autor.csv" 
     };
     
     function findKeyCaseInsensitive(map, value) {
@@ -561,11 +576,8 @@
         
         const contentType = res.headers.get("content-type");
         if (contentType && !contentType.includes("text/csv") && !contentType.includes("text/plain")) {
-            // Se lanza un error específico para evitar el mensaje de 'Contenido HTML inesperado' si es un 404
-            if (res.status === 404) {
-                 throw new Error(`Archivo no encontrado. Revise la ruta: ${url}`);
-            } else {
-                 throw new Error(`Contenido inesperado (${contentType}). Revise ruta: ${url}`);
+            if (contentType.includes("text/html")) {
+                throw new Error(`Contenido HTML inesperado. Revise ruta: ${url}`);
             }
         }
         
@@ -583,7 +595,7 @@
       if (!filas || filas.length === 0) return [];
       filas[0][0] = filas[0][0].replace(/^\uFEFF/, "");
       const encabezado = filas[0].map(c => (c || "").toLowerCase()).join(",");
-      const tieneEncabezado = encabezado.includes("dependencia") || encabezado.includes("medio") || encabezado.includes("género");
+      const tieneEncabezado = encabezado.includes("dependencia") || encabezado.includes("radiodifusora") || encabezado.includes("género");
       if (tieneEncabezado) filas = filas.slice(1);
       return filas.map(r => r.map(c => (c || "").replace(/<[^>]+>/g, "").trim())).filter(r => r[0]);
     }
@@ -691,8 +703,8 @@
         div.onclick = () => {
           campo.value = s;
           contenedor.innerHTML = "";
-          if (idCampo === 'medio') {
-              document.getElementById("medio").dispatchEvent(new Event('blur'));
+          if (idCampo === 'radiodifusora') {
+              document.getElementById("radiodifusora").dispatchEvent(new Event('blur'));
           }
           if (idCampo === 'dependencia') {
               document.getElementById("dependencia").dispatchEvent(new Event('blur'));
@@ -723,14 +735,12 @@
             nextOrdenCaptura = 1;
             localStorage.removeItem('notasCapturadas'); 
             renderizarTabla(); 
-            document.querySelector("form").reset(); 
             resetearEstadoEdicion();
         }
     }
     
     function borrarNota() {
         if (filaEnEdicion !== null) {
-            // filaEnEdicion contiene el índice en el array notas
             const confirmar = confirm(`¿Eliminar nota #${notas[filaEnEdicion].ordenCaptura}?`);
             if (confirmar) {
                 notas.splice(filaEnEdicion, 1);
@@ -752,25 +762,13 @@
         return false;
     }
 
-    // --- FUNCIÓN DE TRUNCAMIENTO ---
-    function truncarTexto(texto, limite) {
-        if (!texto) return '';
-        if (texto.length > limite) {
-            return texto.substring(0, limite) + '...';
-        }
-        return texto;
-    }
-    // --- FIN FUNCIÓN TRUNCAMIENTO ---
-    const LIMITE_CARACTERES_TITULAR = 50; 
-
     function renderizarTabla() {
         const tablaBody = document.getElementById("tablaNotas").querySelector("tbody");
         tablaBody.innerHTML = '';
         
         notas.forEach((nota, indice) => {
             const tr = document.createElement("tr");
-            // **CLAVE:** Usamos el ID permanente de la nota para la edición/filtrado
-            tr.dataset.id = nota.ordenCaptura; 
+            tr.dataset.index = notas.indexOf(nota);
 
             if (contieneCamposVacios(nota)) {
                 tr.classList.add('alerta-vacio');
@@ -778,14 +776,7 @@
 
             camposDeDatos.forEach(campo => {
                 const td = document.createElement("td");
-                let textoADisplay = nota[campo];
-                
-                // Aplicar truncamiento al titular
-                if (campo === 'titular') {
-                    textoADisplay = truncarTexto(nota[campo], LIMITE_CARACTERES_TITULAR);
-                }
-
-                td.textContent = textoADisplay;
+                td.textContent = nota[campo];
                 td.setAttribute('data-label', encabezadosTabla[campo]);
                 tr.appendChild(td);
             });
@@ -795,7 +786,6 @@
             const btnEditar = document.createElement("button");
             btnEditar.textContent = "Editar";
             btnEditar.classList.add('btn-accion-tabla'); 
-            // Pasamos la fila (tr) para encontrar la nota por ID
             btnEditar.onclick = function() { editarNota(tr); };
             tdAcciones.appendChild(btnEditar);
             tr.appendChild(tdAcciones);
@@ -803,7 +793,7 @@
             tablaBody.appendChild(tr);
         });
         
-        // El renderizado siempre debe ser seguido por el filtrado actual
+        // Vuelve a aplicar el filtro después de renderizar (útil para cuando se edita/guarda)
         filtrarTabla();
     }
 
@@ -838,18 +828,11 @@
         campo.classList.toggle("bloqueado", checkbox.checked);
         
         localStorage.setItem(`bloqueado_${idCampo}`, checkbox.checked);
-        
-        // Si se bloquea o desbloquea, guarda el valor actual para mantener la persistencia
-        localStorage.setItem(idCampo, campo.value);
     }
 
     function editarNota(tr) {
-        const notaId = parseInt(tr.dataset.id); 
-        // Encontrar el índice (en el array ORDENADO) y la nota
-        const indice = notas.findIndex(n => n.ordenCaptura === notaId);
+        const indice = parseInt(tr.dataset.index);
         const nota = notas[indice];
-
-        if (indice === -1 || !nota) return;
 
         camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
             document.getElementById(id).value = nota[id];
@@ -857,11 +840,10 @@
 
         resetearEstadoEdicion();
         
-        // Disparar blur para cargar sugerencias dependientes (Organismo, Firma)
         document.getElementById("dependencia").dispatchEvent(new Event('blur'));
-        document.getElementById("medio").dispatchEvent(new Event('blur')); 
+        document.getElementById("radiodifusora").dispatchEvent(new Event('blur')); 
         
-        filaEnEdicion = indice; // Guardamos el índice actual en el array notas
+        filaEnEdicion = indice; 
         document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Actualizar Nota';
         document.getElementById('btnEliminar').style.display = 'inline-block';
         
@@ -874,18 +856,16 @@
         const usuario = document.getElementById('usuario').value.trim() || 'Desconocido';
         const usuarioLimpio = usuario.replace(/\s/g, '_').replace(/[^a-zA-Z0-9_]/g, ''); 
         const fechaHoy = new Date().toISOString().slice(0, 10); 
-        return `${usuarioLimpio}_${fechaHoy}_Prensa.csv`;
+        return `${usuarioLimpio}_${fechaHoy}.csv`;
     }
 
     function generarCSVContenido() {
-      // Cabeceras corregidas (sin Sección ni Canal)
-      const cabeceras = ["#", "Usuario", "Fecha", "Medio", "Titular", "Firma", "Dependencia", "Organismo", "Género", "Tema", "Estatus", "Municipio"];
+      const cabeceras = ["#", "Usuario", "Fecha", "Radiodifusora", "Titular", "Autor", "Programa", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"];
       const filas = [cabeceras];
       
       notas.forEach(nota => {
         const fila = camposDeDatos.map(key => {
             let valor = nota[key] || '';
-            // El valor no está truncado, esto es correcto para el CSV.
             return `"${valor.toString().replace(/"/g, '""')}"`; 
         });
         filas.push(fila);
@@ -934,7 +914,7 @@
             const formData = new FormData();
             formData.append('chat_id', TELEGRAM_CHAT_ID);
             formData.append('document', blobCSV, nombreArchivoTelegram); 
-            formData.append('caption', `📋 Reporte de notas de Prensa (${nombreArchivoTelegram}) enviado automáticamente.`);
+            formData.append('caption', `📋 Reporte de notas de Radio (${nombreArchivoTelegram}) enviado automáticamente.`);
 
             const response = await fetch(URL_TELEGRAM, {
                 method: 'POST',
@@ -1006,48 +986,30 @@
         });
     }
 
+    // --- FUNCIÓN DE BÚSQUEDA EN TIEMPO REAL ---
     function filtrarTabla() {
         const input = document.getElementById('buscador');
-        const filtro = input.value.toLowerCase().trim();
+        const filtro = input.value.toLowerCase();
         const filas = document.getElementById('tablaNotas').querySelectorAll('tbody tr');
         
-        // Si el filtro está vacío, mostramos todas las filas y terminamos
-        if (filtro === '') {
-            filas.forEach(tr => tr.style.display = "");
-            return;
-        }
-
         filas.forEach(tr => {
             let encontrado = false;
-            
-            // 1. Obtenemos el ID permanente de la nota desde el dataset de la fila
-            const notaId = parseInt(tr.dataset.id);
-            // 2. Buscamos la nota COMPLETA en el array original (notas) usando el ID
-            const nota = notas.find(n => n.ordenCaptura === notaId); 
-
-            if (!nota) {
-                tr.style.display = "none";
-                return;
-            }
-            
-            // 3. Iteramos sobre los campos de datos completos de la nota para buscar coincidencias
-            for (let i = 0; i < camposDeDatos.length; i++) { 
-                const colKey = camposDeDatos[i];
-                // Usamos el valor completo (no truncado)
-                const textoCompleto = (nota[colKey] || '').toLowerCase();
-                
-                if (textoCompleto.includes(filtro)) {
+            // Itera sobre las celdas (excepto la última, que es la de Acciones)
+            for (let i = 0; i < tr.cells.length - 1; i++) {
+                const textoCelda = tr.cells[i].textContent || tr.cells[i].innerText;
+                if (textoCelda.toLowerCase().includes(filtro)) {
                     encontrado = true;
                     break;
                 }
             }
+            // Muestra u oculta la fila según el resultado del filtro
             tr.style.display = encontrado ? "" : "none";
         });
     }
 
     // --- Eventos ---
     document.addEventListener("DOMContentLoaded", async () => {
-      let orgMap, firmaMap; 
+      let orgMap, programaMap; 
 
       const depData = await cargarMapa(urls.dependencias);
       orgMap = depData.map;
@@ -1055,16 +1017,15 @@
         autocompletar("organismo", "sugOrg", orgMap[dep] || []);
       });
       
-      // La lógica de Medio -> Firma se mantiene
-      const medioData = await cargarMapa(urls.firmas); // Asumo que Firma.csv contiene la relación Medio,Firma
-      firmaMap = medioData.map;
-      autocompletar("medio", "sugMedio", medioData.claves, medio => {
-        const firmas = firmaMap[medio] || [];
-        autocompletar("firma", "sugFirma", firmas); 
-        if (firmas.length === 1) document.getElementById("firma").value = firmas[0];
+      const radioData = await cargarMapa(urls.radiodifusoras);
+      programaMap = radioData.map;
+      autocompletar("radiodifusora", "sugRadiodifusora", radioData.claves, radio => {
+        const programas = programaMap[radio] || [];
+        autocompletar("programa", "sugPrograma", programas); 
+        if (programas.length === 1) document.getElementById("programa").value = programas[0];
       });
       
-      // Blur events para dependencia y medio
+      // Blur events
       document.getElementById("dependencia").addEventListener("blur", (e) => {
           const val = e.target.value.trim();
           const key = findKeyCaseInsensitive(orgMap, val);
@@ -1072,30 +1033,31 @@
           else autocompletar("organismo", "sugOrg", []);
       });
       
-      document.getElementById("medio").addEventListener("blur", (e) => {
+      document.getElementById("radiodifusora").addEventListener("blur", (e) => {
           const val = e.target.value.trim();
-          const key = findKeyCaseInsensitive(firmaMap, val);
+          const key = findKeyCaseInsensitive(programaMap, val);
           if (key) { 
               e.target.value = key; 
-              const firmas = firmaMap[key] || [];
-              autocompletar("firma", "sugFirma", firmas);
-              if (firmas.length === 1) document.getElementById("firma").value = firmas[0];
+              const progs = programaMap[key] || [];
+              autocompletar("programa", "sugPrograma", progs);
+              if (progs.length === 1) document.getElementById("programa").value = progs[0];
           } else {
-              autocompletar("firma", "sugFirma", []);
+              autocompletar("programa", "sugPrograma", []);
           }
       });
       
       // Initialize dependent empty
       autocompletar("organismo", "sugOrg", []); 
-      autocompletar("firma", "sugFirma", []); 
+      autocompletar("programa", "sugPrograma", []); 
 
-      // Carga de listas simples
       autocompletar("genero", "sugGenero", await cargarLista(urls.generos));
       autocompletar("estatus", "sugEstatus", await cargarLista(urls.estatus));
       autocompletar("tema", "sugTema", await cargarLista(urls.temas));
       autocompletar("municipio", "sugMunicipio", await cargarLista(urls.municipios));
+      autocompletar("autor", "sugAutor", await cargarLista(urls.autores)); 
+      autocompletar("canal", "sugCanal", await cargarLista("./Canal.csv")); 
       
-      // Listener para el buscador en tiempo real
+      // --- Listener para el buscador en tiempo real (Restablecido) ---
       document.getElementById('buscador').addEventListener('input', filtrarTabla); 
 
       // Persistence & Locks
@@ -1134,18 +1096,10 @@
     document.querySelector("form").addEventListener("submit", e => {
       e.preventDefault();
       const nuevaNota = {};
-      
-      // 1. Recolectar datos y persistir campos bloqueados
       camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
-        const campo = document.getElementById(id);
-        nuevaNota[id] = campo.value.trim();
-        
-        if (localStorage.getItem(`bloqueado_${id}`) === 'true') {
-             localStorage.setItem(id, nuevaNota[id]);
-        }
+        nuevaNota[id] = document.getElementById(id).value.trim();
       });
 
-      // 2. Guardar/Actualizar nota
       if (filaEnEdicion !== null) {
           notas[filaEnEdicion] = {...nuevaNota, ordenCaptura: notas[filaEnEdicion].ordenCaptura};
           resetearEstadoEdicion();
@@ -1157,21 +1111,18 @@
       guardarNotas();
       ordenarTabla(ordenActual.columna, true); 
       
-      // 3. Limpiar campos NO bloqueados y eliminar su persistencia
       camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
           if (localStorage.getItem(`bloqueado_${id}`) !== 'true') {
               document.getElementById(id).value = '';
               localStorage.removeItem(id); 
           }
       });
-      
-      // 4. Devolver el foco al campo Titular
       document.getElementById('titular').focus();
     });
   </script>
 
   <footer>
-    © 2025 Institución Pública. Todos los derechos reservados.
+    © 2025 Francisco, El Bizcocho de Montecristo Villeda. Todos los derechos reservados.
   </footer>
 </body>
 </html>
