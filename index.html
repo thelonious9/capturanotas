@@ -1257,6 +1257,47 @@
             document.querySelectorAll('.sugerencias').forEach(s => s.innerHTML = "");
         }
       });
+      
+      // ----------------------------------------------------------------------
+      // 🌟 CAMBIOS DE ATAJOS DE TECLADO 🌟
+      // ----------------------------------------------------------------------
+
+      // 1. Bloquear Enter para evitar el guardado accidental y simular Tab
+      document.addEventListener("keydown", (e) => {
+        // Verifica si la tecla es Enter y si el foco está en un input de texto
+        if (e.key === "Enter" && e.target.tagName === 'INPUT' && (e.target.type === 'text' || e.target.type === 'date')) {
+            e.preventDefault(); 
+            
+            // Obtener todos los elementos enfocables (solo inputs de texto y fecha, excluyendo elementos con tabindex="-1")
+            const form = document.querySelector('form');
+            const focusable = Array.from(form.querySelectorAll('input[type="text"]:not([tabindex="-1"]), input[type="date"]:not([tabindex="-1"])'));
+            
+            const index = focusable.indexOf(e.target);
+            
+            if (index > -1 && index < focusable.length - 1) {
+                // Mueve el foco al siguiente campo
+                focusable[index + 1].focus();
+            } else if (index === focusable.length - 1) {
+                // Si es el último campo, regresa al inicio (Titular)
+                document.getElementById('titular').focus();
+            }
+        }
+      });
+      
+      // 2. Activar Guardado con Ctrl + Q
+      document.addEventListener("keydown", (e) => {
+          // Verifica Ctrl (o Cmd en Mac) + Q
+          if (e.ctrlKey || e.metaKey) {
+              if (e.key.toLowerCase() === 'q') {
+                  e.preventDefault(); // Evita la acción predeterminada del navegador
+                  document.querySelector("form").dispatchEvent(new Event('submit'));
+              }
+          }
+      });
+      
+      // ----------------------------------------------------------------------
+      // 🌟 FIN CAMBIOS DE ATAJOS DE TECLADO 🌟
+      // ----------------------------------------------------------------------
     });
 
     document.querySelector("form").addEventListener("submit", e => {
