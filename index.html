@@ -417,7 +417,7 @@
 
     <label for="dependencia">Dependencia:</label>
     <div class="campo">
-      <input type="text" id="dependencia" name="dependencia" autocomplete="off">
+      <input type="text" id="dependencia" name="dependencia" autocomplete="off" required>
       <button type="button" onclick="mostrarSugerencias('dependencia','sugDep')">🔽</button>
       <input type="checkbox" id="checkDependencia" onchange="alternarBloqueo('dependencia')">
       <label for="checkDependencia">🔒</label>
@@ -425,7 +425,7 @@
     </div>
     <label for="organismo">Organismo:</label>
     <div class="campo">
-      <input type="text" id="organismo" name="organismo" autocomplete="off">
+      <input type="text" id="organismo" name="organismo" autocomplete="off" required>
       <button type="button" onclick="mostrarSugerencias('organismo','sugOrg')">🔽</button>
       <input type="checkbox" id="checkOrganismo" onchange="alternarBloqueo('organismo')">
       <label for="checkOrganismo">🔒</label>
@@ -434,7 +434,7 @@
     
     <label for="genero">Género:</label>
     <div class="campo">
-      <input type="text" id="genero" name="genero" autocomplete="off">
+      <input type="text" id="genero" name="genero" autocomplete="off" required>
       <button type="button" onclick="mostrarSugerencias('genero','sugGenero')">🔽</button>
       <input type="checkbox" id="checkGenero" onchange="alternarBloqueo('genero')">
       <label for="checkGenero">🔒</label>
@@ -442,14 +442,14 @@
     </div>
     <label for="canal">Canal:</label>
     <div class="campo">
-      <input type="text" id="canal" name="canal" autocomplete="off">
+      <input type="text" id="canal" name="canal" autocomplete="off" required>
       <button type="button" onclick="mostrarSugerencias('canal','sugCanal')">🔽</button>
       <input type="checkbox" id="checkCanal" onchange="alternarBloqueo('canal')">
       <label for="checkCanal">🔒</label>
       <div id="sugCanal" class="sugerencias"></div>
     </div>
     
-    <label for="tema">Tema:</label>
+    <label for="tema">Tema (Opcional):</label>
     <div class="campo">
       <input type="text" id="tema" name="tema" autocomplete="off">
       <button type="button" onclick="mostrarSugerencias('tema','sugTema')">🔽</button>
@@ -459,7 +459,7 @@
     </div>
     <label for="estatus">Estatus:</label>
     <div class="campo">
-      <input type="text" id="estatus" name="estatus" autocomplete="off">
+      <input type="text" id="estatus" name="estatus" autocomplete="off" required>
       <button type="button" onclick="mostrarSugerencias('estatus','sugEstatus')">🔽</button>
       <input type="checkbox" id="checkEstatus" onchange="alternarBloqueo('estatus')">
       <label for="checkEstatus">🔒</label>
@@ -468,7 +468,7 @@
 
     <label for="municipio">Municipio:</label>
     <div class="campo">
-      <input type="text" id="municipio" name="municipio" autocomplete="off">
+      <input type="text" id="municipio" name="municipio" autocomplete="off" required>
       <button type="button" onclick="mostrarSugerencias('municipio','sugMunicipio')">🔽</button>
       <input type="checkbox" id="checkMunicipio" onchange="alternarBloqueo('municipio')">
       <label for="checkMunicipio">🔒</label>
@@ -549,7 +549,7 @@
     const encabezadosTabla = {
         "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio", "titular": "Titular", "firma": "Firma", 
         "dependencia": "Dependencia", "organismo": "Organismo", "genero": "Género", "canal": "Canal",
-        "tema": "Tema", "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
+        "tema": "Tema (Opcional)", "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
     };
     
     let ordenActual = { columna: 'ordenCaptura', direccion: 'desc' }; 
@@ -562,7 +562,7 @@
       estatus: "./Estatus.csv",
       temas: "./Tema.csv",
       municipios: "./Municipio.csv",
-      firmas: "./Firma.csv" // Usado para la dependencia Medio -> Firma y la lista de Medios
+      firmas: "./Firma.csv" // Usado para la lista de Firmas por Medio
     };
     
     function findKeyCaseInsensitive(map, value) {
@@ -810,14 +810,17 @@
     }
 
     function contieneCamposVacios(nota) {
-        // Solo revisamos los campos de datos, excluyendo ordenCaptura
-        const camposARevisar = camposDeDatos.filter(c => c !== 'ordenCaptura'); 
+        // Solo revisamos los campos de datos, excluyendo ordenCaptura y TEMA
+        const camposARevisar = camposDeDatos.filter(c => c !== 'ordenCaptura' && c !== 'tema' && c !== 'firma'); 
+        let camposFaltantes = [];
+        
         for (const campo of camposARevisar) {
+            // Se asume que solo la 'Firma' y 'Tema' son opcionales
             if (!nota[campo] || (typeof nota[campo] === 'string' && nota[campo].trim() === '')) {
-                return true;
+                camposFaltantes.push(encabezadosTabla[campo]); // Guarda el nombre legible
             }
         }
-        return false;
+        return camposFaltantes; // Devuelve la lista de campos faltantes
     }
 
     // --- FUNCIÓN DE TRUNCAMIENTO ---
@@ -841,7 +844,8 @@
             const tr = document.createElement("tr");
             tr.dataset.id = nota.ordenCaptura; 
 
-            if (contieneCamposVacios(nota)) {
+            // ALERTA SI HAY CAMPOS VACÍOS (excluyendo Tema y Firma)
+            if (contieneCamposVacios(nota).length > 0) {
                 tr.classList.add('alerta-vacio');
             }
 
@@ -1150,12 +1154,12 @@
       const canalData = await cargarMapa(urls.medios); 
       medioToCanalMap = canalData.map; 
 
-      // Lógica de autocompletar para Medio (ejecuta la dependencia Firma y Canal)
-      autocompletar("medio", "sugMedio", firmaData.claves, medio => {
+      // Lógica de autocompletar para Medio (usa la lista de Medios que tienen un Canal asociado)
+      autocompletar("medio", "sugMedio", canalData.claves, medio => { // 👈 Fuente de Medios: Medio.csv
         // LLAMADA A LA DEPENDENCIA CANAL
         setCanalFromMedio(medio, medioToCanalMap); 
         
-        // LLAMADA A LA DEPENDENCIA FIRMA
+        // LLAMADA A LA DEPENDENCIA FIRMA (Si el medio tiene firmas, las carga)
         const firmas = firmaMap[medio] || [];
         autocompletar("firma", "sugFirma", firmas); 
         if (firmas.length === 1) document.getElementById("firma").value = firmas[0];
@@ -1171,7 +1175,7 @@
       
       document.getElementById("medio").addEventListener("blur", (e) => {
           const val = e.target.value.trim();
-          // Primero, busca el Medio para la Firma
+          // Primero, busca el Medio para la Firma (usando el valor escrito)
           const firmaKey = findKeyCaseInsensitive(firmaMap, val); 
           
           if (firmaKey) { 
@@ -1184,12 +1188,23 @@
               autocompletar("firma", "sugFirma", firmas);
               if (firmas.length === 1) document.getElementById("firma").value = firmas[0];
           } else {
-              // 1. DEPENDENCIA CANAL (usa el valor que escribió el usuario, aunque no haya match)
-              setCanalFromMedio(val, medioToCanalMap); 
-              
-              // 2. DEPENDENCIA FIRMA (limpia si no hay match)
-              e.target.value = val;
-              autocompletar("firma", "sugFirma", []);
+              // Si no hay match con Firma, busca con Canal
+              const canalKey = findKeyCaseInsensitive(medioToCanalMap, val);
+
+              if (canalKey) {
+                  e.target.value = canalKey;
+                  // 1. DEPENDENCIA CANAL
+                  setCanalFromMedio(canalKey, medioToCanalMap); 
+                  
+                  // 2. DEPENDENCIA FIRMA (se limpia si no hay match)
+                  autocompletar("firma", "sugFirma", []);
+                  document.getElementById("firma").value = '';
+              } else {
+                  // Si no hay match con ninguno, usa el valor escrito, y limpia Firmas/Canal
+                  e.target.value = val;
+                  setCanalFromMedio(val, medioToCanalMap); // Esto limpiará el Canal si no hay match
+                  autocompletar("firma", "sugFirma", []);
+              }
           }
       });
       
@@ -1258,6 +1273,14 @@
         }
       });
 
+      // 🚨 VALIDACIÓN: No guarda si faltan campos obligatorios (Tema y Firma son opcionales)
+      const camposFaltantes = contieneCamposVacios(nuevaNota);
+
+      if (camposFaltantes.length > 0) {
+          alert(`🚨 Por favor, llene los siguientes campos obligatorios: \n\n${camposFaltantes.join(', ')}\n\n(Los campos Firma y Tema son opcionales.)`);
+          return; // Detiene el proceso de guardado/actualización
+      }
+      
       // 2. Guardar/Actualizar nota
       if (filaEnEdicion !== null) {
           nuevaNota.ordenCaptura = notas[filaEnEdicion].ordenCaptura;
@@ -1274,7 +1297,9 @@
       // 3. Limpiar campos NO bloqueados y eliminar su persistencia
       camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
           if (localStorage.getItem(`bloqueado_${id}`) !== 'true') {
-              document.getElementById(id).value = '';
+              // Limpia el valor en el formulario
+              document.getElementById(id).value = ''; 
+              // Remueve la persistencia en localStorage
               localStorage.removeItem(id); 
           }
       });
@@ -1285,7 +1310,7 @@
   </script>
 
   <footer>
-    © 2025 Francisco Villeda. Todos los derechos reservados.
+    © 2025 Francisco, el bizocho de Montecristo Villeda. Todos los derechos reservados.
   </footer>
 </body>
 </html>
