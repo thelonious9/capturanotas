@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <title>Sistema de Captura de Notas de Radio</title>
+  <title>Sistema de Captura de Notas</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   
@@ -11,22 +11,22 @@
     /* Importación de Google Fonts para Roboto */
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-    /* --- PALETA DE COLORES ACTUALIZADA (Rojo, Blanco, Negro) --- */
+    /* --- PALETA DE COLORES FINAL --- */
     :root {
-      --color-fondo-pagina: #1E1E1E;       /* Negro Oscuro (Fondo Principal) */
-      --color-fondo-form: #2C2C2C;         /* Gris Oscuro (Fondo del Formulario/Tabla) */
-      --color-primary: #D20A11;            /* Rojo Vivo (Botón Guardar/Encabezado Tabla) */
-      --color-primary-hover: #AA080C;      /* Rojo Oscuro (Hover) */
-      --color-secondary: #D20A11;          /* Rojo Vivo (Botón Limpiar/Iconos) */
-      --color-secondary-hover: #AA080C;    /* Rojo Oscuro (Hover) */
+      --color-fondo-pagina: #31302F;       /* Oscuro Suave */
+      --color-fondo-form: #52504E;         /* Gris Cálido (Fondo del Formulario) */
+      --color-primary: #6F0909;            /* Rojo Intenso (Guardar/Borrar Todo) */
+      --color-primary-hover: #792929;      /* Rojo Suave */
+      --color-secondary: #792929;          /* Rojo Suave (Botón Limpiar/Hover) */
+      --color-secondary-hover: #6F0909;    /* Rojo Intenso */
       --color-danger: #dc3545;             /* Rojo estándar para peligro */
-      --color-danger-hover: #c82333;       /* Hover de peligro */
-      --color-telegram: #0088cc;           /* Color Telegram */
-      --color-telegram-hover: #0077b3;     /* Hover Telegram */
-      --color-dark-text: #1E1E1E;          /* Texto para inputs (fondo claro) */
-      --color-light-text: #F0F0F0;         /* Texto principal (fondo oscuro) */
-      --color-input-bg: #F0F0F0;           /* Fondo de inputs */
-      --color-alerta-vacio: #FFD700;       /* Amarillo/Oro llamativo para alertas */
+      --color-danger-hover: #c82333;       /* Rojo oscuro */
+      --color-telegram: #0088cc;           
+      --color-telegram-hover: #0077b3;     
+      --color-dark-text: #31302F;          /* Texto para inputs (fondo claro) */
+      --color-light-text: #F0EAD1;         /* Texto principal (fondo oscuro) */
+      --color-input-bg: #FFFFFF;           /* Fondo de los campos de texto: Blanco */
+      --color-alerta-vacio: #FFD700;       
       --radius: 0.25rem;
     }
     body {
@@ -56,7 +56,8 @@
       height: 50px;
       width: auto;
     }
-    /* --- FORMULARIO Y GRIDS --- */
+    
+    /* --- FORMULARIO --- */
     form {
       display: grid;
       grid-template-columns: auto 1fr auto 1fr;
@@ -68,7 +69,6 @@
       border-radius: var(--radius);
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    /* ESTILOS PARA EL LOGOTIPO DENTRO DEL FORMULARIO */
     .form-logo-container {
         grid-column: span 4; 
         text-align: center;
@@ -81,8 +81,6 @@
         width: auto; 
         opacity: 0.9;
     }
-    /* FIN ESTILOS LOGOTIPO */
-
     label {
         font-weight: 700;
         align-self: center;
@@ -94,8 +92,7 @@
       align-items: center;
     }
     .campo > input[type="text"], 
-    .campo > input[type="date"],
-    .campo > input[type="time"] { /* AÑADIDO: input[type="time"] */
+    .campo > input[type="date"] {
       flex-grow: 1;
       padding: 8px 10px;
       border: 1px solid var(--color-primary-hover);
@@ -106,21 +103,21 @@
       transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     }
     .campo > input[type="text"]:focus,
-    .campo > input[type="date"]:focus,
-    .campo > input[type="time"]:focus { /* AÑADIDO: input[type="time"] */
+    .campo > input[type="date"]:focus {
         border-color: var(--color-primary);
-        box-shadow: 0 0 0 0.2rem rgba(210, 10, 17, 0.25);
+        box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25);
         outline: none;
     }
-    /* Campos de span 4 (Usuario, Titular, Autor) */
-    form > label:nth-child(2),
-    form > div:nth-child(3), 
+    /* Campos de span 4 (Titular, Dependencia, Organismo) */
     form > label:nth-child(8),
-    form > div:nth-child(9),
+    form > div:nth-child(9), 
     form > label:nth-child(12),
-    form > div:nth-child(13) {
-        grid-column: span 4;
+    form > div:nth-child(13),
+    form > label:nth-child(14),
+    form > div:nth-child(15) {
+        /* Aunque no son span 4, mantengo el layout original para estas filas de 2 columnas */
     }
+    
     /* --- SUGERENCIAS --- */
     .sugerencias {
       position: absolute;
@@ -136,27 +133,14 @@
       box-shadow: 0 4px 6px rgba(0,0,0,0.1);
       color: var(--color-dark-text);
     }
-    .sugerencia {
-      padding: 8px 10px;
-      cursor: pointer;
-    }
-    .sugerencia:hover,
-    .sugerencia.resaltado {
-      background-color: #d0d0d0;
-      color: var(--color-dark-text);
-    }
-    /* --- BLOQUEO Y VALIDACIÓN --- */
-    .bloqueado {
-      background-color: #d0d0d0 !important;
-      border: 1px solid var(--color-primary-hover) !important;
-      cursor: not-allowed;
-    }
-    input:required:invalid {
-      border-left: 5px solid var(--color-danger);
-    }
-    input:required:valid {
-      border-left: 5px solid #28a745;
-    }
+    .sugerencia { padding: 8px 10px; cursor: pointer; }
+    .sugerencia:hover, .sugerencia.resaltado { background-color: #f0f0f0; color: var(--color-dark-text); }
+    
+    /* --- BLOQUEO --- */
+    .bloqueado { background-color: #e9e9e9 !important; border: 1px solid var(--color-primary-hover) !important; cursor: not-allowed; }
+    input:required:invalid { border-left: 5px solid var(--color-danger); }
+    input:required:valid { border-left: 5px solid #28a745; }
+    
     /* --- BOTONES --- */
     .button-group-form {
         grid-column: span 4;
@@ -165,11 +149,6 @@
         margin-top: 10px;
         justify-content: flex-end;
     }
-    .button-group-form button {
-        flex-grow: 0;
-        width: auto;
-    }
-
     button {
       padding: 10px 15px;
       border: none;
@@ -180,85 +159,17 @@
       color: var(--color-light-text);
       margin-right: 5px;
     }
+    #btnGuardar { background-color: var(--color-primary); }
+    #btnGuardar:hover { background-color: var(--color-primary-hover); transform: translateY(-1px); }
+    #btnLimpiar { background-color: var(--color-secondary); }
+    #btnLimpiar:hover { background-color: var(--color-secondary-hover); transform: translateY(-1px); }
+    #btnEliminar { background-color: var(--color-danger); }
+    #btnEliminar:hover { background-color: var(--color-danger-hover); transform: translateY(-1px); }
     
-    /* Botón Guardar/Actualizar (Principal) */
-    #btnGuardar {
-        background-color: var(--color-primary);
-    }
-    #btnGuardar:hover {
-        background-color: var(--color-primary-hover);
-        transform: translateY(-1px);
-    }
+    .campo button[type="button"] { background-color: var(--color-secondary); padding: 8px; margin-right: 0; }
+    .campo button[type="button"]:hover { background-color: var(--color-secondary-hover); }
+    button i { margin-right: 8px; font-size: 1.1em; }
     
-    /* Botón de Eliminar (color destructivo) */
-    #btnEliminar {
-        background-color: var(--color-danger); 
-        transition: background-color 0.2s ease, transform 0.1s;
-    }
-    #btnEliminar:hover {
-        background-color: var(--color-danger-hover);
-        transform: translateY(-1px);
-    }
-
-    /* Botón Limpiar (Secundario) */
-    #btnLimpiar {
-        background-color: var(--color-secondary);
-    }
-    #btnLimpiar:hover {
-        background-color: var(--color-secondary-hover);
-        transform: translateY(-1px);
-    }
-    
-    /* Botón desplegable (🔽) */
-    .campo button[type="button"] {
-        background-color: var(--color-secondary);
-        padding: 8px;
-        margin-right: 0;
-    }
-    .campo button[type="button"]:hover {
-        background-color: var(--color-secondary-hover);
-    }
-
-    /* Iconos dentro de botones */
-    button i {
-        margin-right: 8px;
-        font-size: 1.1em;
-    }
-    
-    /* --- ESTILOS DEL BUSCADOR --- */
-    .buscador-container {
-      position: relative;
-      margin-bottom: 15px;
-      max-width: 500px; 
-    }
-    
-    #buscador {
-      width: 100%;
-      padding: 10px 10px 10px 40px; 
-      border: 1px solid var(--color-primary-hover);
-      border-radius: var(--radius);
-      background-color: var(--color-input-bg);
-      color: var(--color-dark-text);
-      font-size: 1rem;
-      box-sizing: border-box; 
-      transition: all 0.2s ease;
-    }
-
-    #buscador:focus {
-      outline: none;
-      border-color: var(--color-primary);
-      box-shadow: 0 0 0 0.2rem rgba(210, 10, 17, 0.25);
-    }
-
-    .buscador-icon {
-      position: absolute;
-      left: 12px;
-      top: 50%;
-      transform: translateY(-50%);
-      color: var(--color-secondary);
-      font-size: 1.1rem;
-    }
-
     /* --- TABLA (CORRECCIÓN DE DEFORMACIÓN) --- */
     h2 {
         margin-top: 40px;
@@ -272,35 +183,36 @@
       box-shadow: 0 0 10px rgba(0,0,0,0.15);
       margin-top: 20px;
       background-color: var(--color-fondo-form);
-      /* 🌟 CORRECCIÓN DE DEFORMACIÓN 1/3 */
+      /* 🌟 CORRECCIÓN CLAVE: Fija el layout de la tabla */
       table-layout: fixed; 
     }
     th, td {
       padding: 12px 15px;
-      border: 1px solid var(--color-secondary);
+      border: 1px solid #7D7C79;
       text-align: left;
       color: var(--color-light-text);
-      /* 🌟 CORRECCIÓN DE DEFORMACIÓN 2/3 */
+      font-size: 0.85rem;
+      /* Asegura que el contenido se ajuste al ancho fijo */
       word-wrap: break-word; 
-      overflow: hidden; 
+      overflow: hidden;
+      /* Se eliminan las propiedades de truncamiento que estaban en las reglas generales */
     }
-    /* 🌟 CORRECCIÓN DE DEFORMACIÓN 3/3: Definición de anchos */
-    #tablaNotas th:nth-child(1) { width: 3%; }  /* No. */
-    #tablaNotas th:nth-child(2) { width: 6%; }  /* Usuario */
-    #tablaNotas th:nth-child(3) { width: 6%; }  /* Fecha */
-    #tablaNotas th:nth-child(4) { width: 8%; }  /* Radiodifusora */
-    #tablaNotas th:nth-child(5) { width: 14%; } /* Titular */
-    #tablaNotas th:nth-child(6) { width: 10%; } /* Autor */
-    #tablaNotas th:nth-child(7) { width: 4%; }  /* Hora */
-    #tablaNotas th:nth-child(8) { width: 7%; }  /* Dependencia */
-    #tablaNotas th:nth-child(9) { width: 7%; }  /* Organismo */
-    #tablaNotas th:nth-child(10) { width: 5%; } /* Género */
-    #tablaNotas th:nth-child(11) { width: 4%; } /* Canal */
-    #tablaNotas th:nth-child(12) { width: 7%; } /* Tema */
-    #tablaNotas th:nth-child(13) { width: 5%; } /* Estatus */
-    #tablaNotas th:nth-child(14) { width: 7%; } /* Municipio */
-    #tablaNotas th:nth-child(15) { width: 7%; } /* Acciones */
-    /* FIN DE CORRECCIÓN DE DEFORMACIÓN */
+
+    /* 🌟 DEFINICIÓN DE ANCHOS PROPORCIONALES (13 columnas) */
+    #tablaNotas th:nth-child(1), #tablaNotas td:nth-child(1) { width: 3%; }   /* # (ordenCaptura) */
+    #tablaNotas th:nth-child(2), #tablaNotas td:nth-child(2) { width: 7%; }   /* Usuario */
+    #tablaNotas th:nth-child(3), #tablaNotas td:nth-child(3) { width: 7%; }   /* Fecha */
+    #tablaNotas th:nth-child(4), #tablaNotas td:nth-child(4) { width: 10%; }  /* Medio */
+    #tablaNotas th:nth-child(5), #tablaNotas td:nth-child(5) { width: 18%; }  /* Titular */
+    #tablaNotas th:nth-child(6), #tablaNotas td:nth-child(6) { width: 8%; }   /* Firma */
+    #tablaNotas th:nth-child(7), #tablaNotas td:nth-child(7) { width: 8%; }   /* Dependencia */
+    #tablaNotas th:nth-child(8), #tablaNotas td:nth-child(8) { width: 8%; }   /* Organismo */
+    #tablaNotas th:nth-child(9), #tablaNotas td:nth-child(9) { width: 5%; }   /* Género */
+    #tablaNotas th:nth-child(10), #tablaNotas td:nth-child(10) { width: 8%; } /* Tema */
+    #tablaNotas th:nth-child(11), #tablaNotas td:nth-child(11) { width: 5%; } /* Estatus */
+    #tablaNotas th:nth-child(12), #tablaNotas td:nth-child(12) { width: 7%; } /* Municipio */
+    #tablaNotas th:nth-child(13), #tablaNotas td:nth-child(13) { width: 6%; } /* Acciones */
+    /* FIN DEFINICIÓN DE ANCHOS */
 
     th {
       background-color: var(--color-primary);
@@ -309,24 +221,12 @@
       position: sticky;
       top: 0;
     }
-    tbody tr:nth-child(even) {
-        background-color: #383838;
-    }
-    .editando {
-        background-color: var(--color-primary-hover) !important;
-        color: var(--color-light-text);
-    }
-    .editando td {
-        color: var(--color-light-text);
-    }
-    /* ESTILO DE ALERTA PARA FILAS CON CAMPOS VACÍOS */
-    .alerta-vacio {
-        background-color: var(--color-alerta-vacio) !important;
-        color: var(--color-dark-text) !important;
-    }
-    .alerta-vacio td {
-        color: var(--color-dark-text) !important;
-    }
+    tbody tr:nth-child(even) { background-color: #5D5C5A; } 
+    .editando { background-color: var(--color-primary-hover) !important; color: var(--color-light-text); }
+    .editando td { color: var(--color-light-text); }
+    .alerta-vacio { background-color: var(--color-alerta-vacio) !important; color: var(--color-dark-text) !important; }
+    .alerta-vacio td { color: var(--color-dark-text) !important; }
+    
     .error-carga {
       color: var(--color-danger);
       font-weight: bold;
@@ -344,7 +244,73 @@
       text-align: center;
     }
 
-    /* --- ESTILOS RESPONSIVE (MÓVIL) --- */
+    /* --- SORTING --- */
+    .sortable-header { cursor: pointer; display: flex; align-items: center; justify-content: space-between; width: 100%; }
+    .sort-icon { margin-left: 5px; font-size: 0.8em; opacity: 0.5; }
+    .sorted .sort-icon { opacity: 1; color: var(--color-light-text); }
+    .sorted.alerta-vacio .sort-icon { color: var(--color-dark-text); }
+    
+    /* --- GRUPO DE ACCIONES (Globales) --- */
+    .actions-group {
+        display: flex;
+        gap: 15px;
+        margin-top: 15px;
+        margin-bottom: 25px; 
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #btnExportar { background-color: #4A4A4A; } 
+    #btnExportar:hover { background-color: #616161; }
+    
+    #btnTelegram { background-color: #0088cc; }
+    #btnTelegram:hover { background-color: #0077b3; }
+
+    #btnBorrarTodo { background-color: var(--color-primary); }
+    #btnBorrarTodo:hover { background-color: var(--color-primary-hover); transform: translateY(-1px); }
+
+    /* Botón Editar en Tabla */
+    .btn-accion-tabla {
+        padding: 8px 12px;
+        background-color: var(--color-secondary); 
+        color: var(--color-light-text); 
+    }
+    .btn-accion-tabla:hover { background-color: var(--color-secondary-hover); }
+
+    /* --- ESTILOS DEL BUSCADOR --- */
+    .buscador-container {
+      position: relative;
+      margin-bottom: 15px;
+      max-width: 400px;
+    }
+    
+    #buscador {
+      width: 100%;
+      padding: 10px 10px 10px 40px; 
+      border: 1px solid var(--color-primary-hover);
+      border-radius: var(--radius);
+      background-color: var(--color-input-bg);
+      color: var(--color-dark-text);
+      font-size: 1rem;
+      box-sizing: border-box; 
+      transition: all 0.2s ease;
+    }
+
+    #buscador:focus {
+      outline: none;
+      border-color: var(--color-primary);
+      box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25);
+    }
+
+    .buscador-icon {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--color-primary);
+      font-size: 1.1rem;
+    }
+
+    /* --- RESPONSIVE --- */
     @media (max-width: 768px) {
         body { padding: 10px; }
         header { flex-direction: column; align-items: flex-start; padding: 10px; }
@@ -355,18 +321,22 @@
         .actions-group { flex-direction: column; align-items: stretch; }
         .actions-group button { width: 100%; margin-bottom: 10px; }
         
-        /* Ocultar encabezados en móvil y mostrar como bloques */
         table, thead, tbody, th, td, tr { display: block; }
         thead tr { position: absolute; top: -9999px; left: -9999px; }
-        tr { border: 1px solid var(--color-secondary); margin-bottom: 10px; }
+        tr { border: 1px solid #7D7C79; margin-bottom: 10px; }
         td { 
             border: none;
-            border-bottom: 1px solid #7c7774;
+            border-bottom: 1px solid #8D8C8A;
             position: relative;
             padding-left: 50%;
             text-align: right;
             font-size: 0.9em;
             color: var(--color-light-text);
+            /* Resetear anchos fijos para responsive */
+            width: auto;
+            max-width: 100%; 
+            white-space: normal;
+            text-overflow: clip; 
         }
         td:before { 
             content: attr(data-label);
@@ -378,25 +348,20 @@
             text-align: left;
             font-weight: 600;
         }
-        td:last-child {
-            text-align: center;
-            padding-left: 10px;
-        }
-        .alerta-vacio td {
-             color: var(--color-dark-text) !important;
-        }
+        td:last-child { text-align: center; padding-left: 10px; }
+        .alerta-vacio td { color: var(--color-dark-text) !important; }
     }
   </style>
 </head>
 <body>
   <header>
     <img src="./logo.png" alt="Logotipo institucional">
-    <h1>Sistema de Captura de Notas de Radio</h1>
+    <h1>Sistema de Captura de Notas de Prensa</h1>
   </header>
 
   <form>
     <div class="form-logo-container">
-        <img src="./logo.png" alt="Logotipo del Formulario"> 
+        <img src="./logo.png" alt="Logotipo del Formulario">
     </div>
 
     <label for="usuario">Usuario:</label>
@@ -413,13 +378,13 @@
       <label for="checkFecha">🔒</label>
     </div>
 
-    <label for="radiodifusora">Radiodifusora:</label>
+    <label for="medio">Medio:</label>
     <div class="campo">
-      <input type="text" id="radiodifusora" name="radiodifusora" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('radiodifusora','sugRadiodifusora')">🔽</button>
-      <input type="checkbox" id="checkRadiodifusora" onchange="alternarBloqueo('radiodifusora')">
-      <label for="checkRadiodifusora">🔒</label>
-      <div id="sugRadiodifusora" class="sugerencias"></div>
+      <input type="text" id="medio" name="medio" autocomplete="off" required>
+      <button type="button" onclick="mostrarSugerencias('medio','sugMedio')">🔽</button>
+      <input type="checkbox" id="checkMedio" onchange="alternarBloqueo('medio')">
+      <label for="checkMedio">🔒</label>
+      <div id="sugMedio" class="sugerencias"></div>
     </div>
 
     <label for="titular">Titular:</label>
@@ -429,20 +394,13 @@
       <label for="checkTitular">🔒</label>
     </div>
 
-    <label for="autor">Autor:</label>
+    <label for="firma">Firma:</label>
     <div class="campo">
-      <input type="text" id="autor" name="autor" autocomplete="off">
-      <button type="button" onclick="mostrarSugerencias('autor','sugAutor')">🔽</button>
-      <input type="checkbox" id="checkAutor" onchange="alternarBloqueo('autor')">
-      <label for="checkAutor">🔒</label>
-      <div id="sugAutor" class="sugerencias"></div>
-    </div>
-
-    <label for="hora">Hora:</label>
-    <div class="campo">
-      <input type="time" id="hora" name="hora">
-      <input type="checkbox" id="checkHora" onchange="alternarBloqueo('hora')">
-      <label for="checkHora">🔒</label>
+      <input type="text" id="firma" name="firma" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('firma','sugFirma')">🔽</button>
+      <input type="checkbox" id="checkFirma" onchange="alternarBloqueo('firma')">
+      <label for="checkFirma">🔒</label>
+      <div id="sugFirma" class="sugerencias"></div>
     </div>
 
     <label for="dependencia">Dependencia:</label>
@@ -472,15 +430,6 @@
       <div id="sugGenero" class="sugerencias"></div>
     </div>
 
-    <label for="canal">Canal:</label>
-    <div class="campo">
-      <input type="text" id="canal" name="canal" autocomplete="off">
-      <button type="button" onclick="mostrarSugerencias('canal','sugCanal')">🔽</button>
-      <input type="checkbox" id="checkCanal" onchange="alternarBloqueo('canal')">
-      <label for="checkCanal">🔒</label>
-      <div id="sugCanal" class="sugerencias"></div>
-    </div>
-
     <label for="tema">Tema:</label>
     <div class="campo">
       <input type="text" id="tema" name="tema" autocomplete="off">
@@ -507,14 +456,18 @@
       <label for="checkMunicipio">🔒</label>
       <div id="sugMunicipio" class="sugerencias"></div>
     </div>
+    
+    <label></label>
+    <div class="campo"></div>
+
 
     <div class="button-group-form">
       <button type="submit" id="btnGuardar">
         <i class="fa-solid fa-floppy-disk"></i> Guardar
       </button>
 
-      <button type="button" id="btnEliminar" style="display: none;" onclick="eliminarNotaEnEdicion()">
-        <i class="fa-solid fa-trash-can"></i> Eliminar
+      <button type="button" id="btnEliminar" style="display: none;" onclick="borrarNota()">
+        <i class="fa-solid fa-trash-can"></i> Borrar Nota
       </button>
 
       <button type="reset" id="btnLimpiar">
@@ -525,39 +478,38 @@
 
   <div class="actions-group">
     <button id="btnExportar" onclick="exportarCSV()">
-      <i class="fa-solid fa-file-csv"></i> Exportar Hoja de Cálculo (CSV)
+      <i class="fa-solid fa-file-csv"></i> Exportar a hoja de cálculo
     </button>
+    
     <button id="btnTelegram" onclick="enviarTelegram()">
       <i class="fa-brands fa-telegram"></i> Enviar por Telegram
     </button> 
+    
     <button id="btnBorrarTodo" onclick="borrarTodo()">
       <i class="fa-solid fa-trash-can"></i> Borrar Todas
     </button>
   </div>
   
   <div id="erroresCarga" class="error-carga"></div>
-
-  <h2>Notas capturadas</h2>
-
+  
   <div class="buscador-container">
-    <i class="fa-solid fa-magnifying-glass buscador-icon"></i>
-    <input type="text" id="buscador" placeholder="Buscar por titular, radiodifusora, autor, municipio...">
+      <i class="fas fa-search buscador-icon"></i>
+      <input type="text" id="buscador" placeholder="Buscar en la tabla (Titular, Medio, etc.)">
   </div>
-
+  
+  <h2>Notas capturadas</h2>
   <table id="tablaNotas">
     <thead>
       <tr>
-        <th data-col="ordenCaptura"><div class="sortable-header">No. <span class="sort-icon"></span></div></th>
+        <th data-col="ordenCaptura"><div class="sortable-header"># <span class="sort-icon"></span></div></th>
         <th data-col="usuario"><div class="sortable-header">Usuario <span class="sort-icon"></span></div></th>
         <th data-col="fecha"><div class="sortable-header">Fecha <span class="sort-icon"></span></div></th>
-        <th data-col="radiodifusora"><div class="sortable-header">Radiodifusora <span class="sort-icon"></span></div></th>
+        <th data-col="medio"><div class="sortable-header">Medio <span class="sort-icon"></span></div></th>
         <th data-col="titular"><div class="sortable-header">Titular <span class="sort-icon"></span></div></th>
-        <th data-col="autor"><div class="sortable-header">Autor <span class="sort-icon"></span></div></th>
-        <th data-col="hora"><div class="sortable-header">Hora <span class="sort-icon"></span></div></th>
+        <th data-col="firma"><div class="sortable-header">Firma <span class="sort-icon"></span></div></th>
         <th data-col="dependencia"><div class="sortable-header">Dependencia <span class="sort-icon"></span></div></th>
         <th data-col="organismo"><div class="sortable-header">Organismo <span class="sort-icon"></span></div></th>
         <th data-col="genero"><div class="sortable-header">Género <span class="sort-icon"></span></div></th>
-        <th data-col="canal"><div class="sortable-header">Canal <span class="sort-icon"></span></div></th>
         <th data-col="tema"><div class="sortable-header">Tema <span class="sort-icon"></span></div></th>
         <th data-col="estatus"><div class="sortable-header">Estatus <span class="sort-icon"></span></div></th>
         <th data-col="municipio"><div class="sortable-header">Municipio <span class="sort-icon"></span></div></th>
@@ -571,33 +523,31 @@
   <script>
     let notas = [];
     let filaEnEdicion = null;
-    let nextOrdenCaptura = 1; 
-    const camposDeDatos = ["usuario", "fecha", "radiodifusora", "titular", "autor", "hora", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
+    let nextOrdenCaptura = 1;
+    
+    // CAMPOS DE DATOS
+    const camposDeDatos = ["ordenCaptura", "usuario", "fecha", "medio", "titular", "firma", "dependencia", "organismo", "genero", "tema", "estatus", "municipio"];
+    
+    // ENCABEZADOS DE TABLA
     const encabezadosTabla = {
-        "ordenCaptura": "No.", 
-        "usuario": "Usuario", "fecha": "Fecha", "radiodifusora": "Radiodifusora", "titular": "Titular", 
-        "autor": "Autor", "hora": "Hora", "dependencia": "Dependencia", "organismo": "Organismo", 
-        "genero": "Género", "canal": "Canal", "tema": "Tema", "estatus": "Estatus", 
-        "municipio": "Municipio", "acciones": "Acciones"
+        "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio", "titular": "Titular", "firma": "Firma", 
+        "dependencia": "Dependencia", "organismo": "Organismo", "genero": "Género", 
+        "tema": "Tema", "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
     };
     
     let ordenActual = { columna: 'ordenCaptura', direccion: 'desc' }; 
 
-    // 🌟 CORRECCIÓN DE URLs - USO DE RUTA ABSOLUTA PARA GITHUB PAGES
-    const BASE_URL = "https://thelonious9.github.io/capturanotas/";
-
+    // RUTAS RELATIVAS
     const urls = {
-      dependencias: BASE_URL + "Dependencia.csv",
-      radiodifusoras: BASE_URL + "Radiodifusora.csv", 
-      generos: BASE_URL + "Genero.csv",
-      estatus: BASE_URL + "Estatus.csv",
-      temas: BASE_URL + "Tema.csv",
-      municipios: BASE_URL + "Municipio.csv",
-      autores: BASE_URL + "Autor.csv",
-      canales: BASE_URL + "Canal.csv" // Asegurar que Canal.csv esté aquí
+      dependencias: "./Dependencia.csv",
+      medios: "./Medio.csv", 
+      generos: "./Genero.csv",
+      estatus: "./Estatus.csv",
+      temas: "./Tema.csv",
+      municipios: "./Municipio.csv",
+      firmas: "./Firma.csv"
     };
-    // -----------------------------------------------------------------
-
+    
     function findKeyCaseInsensitive(map, value) {
         if (!value) return null;
         const lowerValue = value.toLowerCase();
@@ -613,12 +563,22 @@
       try {
         const urlConCacheBuster = `${url}?t=${new Date().getTime()}`;
         const res = await fetch(urlConCacheBuster);
+        
+        const contentType = res.headers.get("content-type");
+        if (contentType && !contentType.includes("text/csv") && !contentType.includes("text/plain")) {
+            if (res.status === 404) {
+                 throw new Error(`Archivo no encontrado. Revise la ruta: ${url}`);
+            } else {
+                 throw new Error(`Contenido inesperado (${contentType}). Revise ruta: ${url}`);
+            }
+        }
+        
         const buffer = await res.arrayBuffer(); 
         const decoder = new TextDecoder('utf-8'); 
         const texto = decoder.decode(buffer); 
         return texto.split('\n').map(linea => linea.split(','));
       } catch (e) {
-        document.getElementById("erroresCarga").innerText += `Error al cargar ${url} (problema de codificación o red).\n`;
+        document.getElementById("erroresCarga").innerText += `Error al cargar ${url}: ${e.message}\n`;
         return [];
       }
     }
@@ -627,8 +587,7 @@
       if (!filas || filas.length === 0) return [];
       filas[0][0] = filas[0][0].replace(/^\uFEFF/, "");
       const encabezado = filas[0].map(c => (c || "").toLowerCase()).join(",");
-      // Agregado "radiodifusora", "autor" a los encabezados
-      const tieneEncabezado = encabezado.includes("dependencia") || encabezado.includes("radiodifusora") || encabezado.includes("género") || encabezado.includes("autor");
+      const tieneEncabezado = encabezado.includes("dependencia") || encabezado.includes("medio") || encabezado.includes("género");
       if (tieneEncabezado) filas = filas.slice(1);
       return filas.map(r => r.map(c => (c || "").replace(/<[^>]+>/g, "").trim())).filter(r => r[0]);
     }
@@ -706,7 +665,7 @@
             }
         });
       });
-
+      
       campo.addEventListener("blur", () => {
           setTimeout(() => {
               if (!contenedor.contains(document.activeElement)) {
@@ -720,7 +679,7 @@
         items[i].classList.add("resaltado");
       }
     }
-
+    
     function mostrarSugerencias(idCampo, idSugerencias) {
       const campo = document.getElementById(idCampo);
       const contenedor = document.getElementById(idSugerencias);
@@ -736,60 +695,60 @@
         div.onclick = () => {
           campo.value = s;
           contenedor.innerHTML = "";
+          if (idCampo === 'medio') {
+              document.getElementById("medio").dispatchEvent(new Event('blur'));
+          }
+          if (idCampo === 'dependencia') {
+              document.getElementById("dependencia").dispatchEvent(new Event('blur'));
+          }
         };
         contenedor.appendChild(div);
       });
+      if (lista.length > 0) {
+        contenedor.style.display = 'block';
+      }
+    }
+
+    function resetearEstadoEdicion() {
+        filaEnEdicion = null;
+        document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Guardar';
+        document.getElementById('btnEliminar').style.display = 'none';
+        document.querySelectorAll('#tablaNotas tbody tr').forEach(row => row.classList.remove('editando'));
     }
 
     function guardarNotas() {
         localStorage.setItem('notasCapturadas', JSON.stringify(notas));
-    }
-    
-    function resetearEstadoEdicion() {
-        const btnGuardar = document.getElementById('btnGuardar');
-        const btnEliminar = document.getElementById('btnEliminar');
-
-        if (btnGuardar) btnGuardar.innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Guardar';
-        if (btnEliminar) btnEliminar.style.display = 'none'; 
-
-        document.querySelectorAll('#tablaNotas tbody tr').forEach(row => row.classList.remove('editando'));
-        filaEnEdicion = null;
+        localStorage.setItem('nextOrdenCaptura', nextOrdenCaptura);
     }
 
     function borrarTodo() {
         if (confirm("¿Estás seguro de que quieres BORRAR TODAS las notas capturadas? Esta acción es irreversible.")) {
             notas = []; 
-            nextOrdenCaptura = 1; 
+            nextOrdenCaptura = 1;
             localStorage.removeItem('notasCapturadas'); 
-            
-            resetearEstadoEdicion(); 
-            
+            localStorage.removeItem('nextOrdenCaptura'); 
             renderizarTabla(); 
-        }
-    }
-
-    function eliminarNotaEnEdicion() {
-        if (filaEnEdicion === null || filaEnEdicion >= notas.length) return;
-
-        const notaAEliminar = notas[filaEnEdicion];
-
-        if (confirm(`¿Estás seguro de que deseas ELIMINAR la nota N°${notaAEliminar.ordenCaptura} (Titular: ${notaAEliminar.titular || 'sin titular'})? Esta acción es irreversible.`)) {
-            notas.splice(filaEnEdicion, 1);
-            
-            guardarNotas();
-            
             document.querySelector("form").reset(); 
             resetearEstadoEdicion();
-
-            ordenarTabla(ordenActual.columna, true); 
-            
-            alert("La nota ha sido eliminada con éxito.");
+        }
+    }
+    
+    function borrarNota() {
+        if (filaEnEdicion !== null) {
+            const confirmar = confirm(`¿Eliminar nota #${notas[filaEnEdicion].ordenCaptura}?`);
+            if (confirmar) {
+                notas.splice(filaEnEdicion, 1);
+                guardarNotas();
+                ordenarTabla(ordenActual.columna, true); 
+                document.querySelector("form").reset(); 
+                resetearEstadoEdicion(); 
+            }
         }
     }
 
     function contieneCamposVacios(nota) {
-        const camposARevisar = camposDeDatos.filter(campo => campo !== 'ordenCaptura'); 
-        
+        // Solo revisamos los campos de datos, excluyendo ordenCaptura
+        const camposARevisar = camposDeDatos.filter(c => c !== 'ordenCaptura'); 
         for (const campo of camposARevisar) {
             if (!nota[campo] || (typeof nota[campo] === 'string' && nota[campo].trim() === '')) {
                 return true;
@@ -798,29 +757,39 @@
         return false;
     }
 
+    // --- FUNCIÓN DE TRUNCAMIENTO ---
+    function truncarTexto(texto, limite) {
+        if (!texto) return '';
+        if (texto.length > limite) {
+            return texto.substring(0, limite) + '...';
+        }
+        return texto;
+    }
+    const LIMITE_CARACTERES_TITULAR = 50; 
+
     function renderizarTabla() {
         const tablaBody = document.getElementById("tablaNotas").querySelector("tbody");
         tablaBody.innerHTML = '';
         
-        const terminoBusqueda = document.getElementById('buscador').value.toLowerCase();
-
         notas.forEach((nota, indice) => {
             const tr = document.createElement("tr");
-            tr.dataset.index = notas.indexOf(nota); 
+            // Usamos ordenCaptura como ID permanente
+            tr.dataset.id = nota.ordenCaptura; 
 
             if (contieneCamposVacios(nota)) {
                 tr.classList.add('alerta-vacio');
             }
 
-            // Columna No. (ordenCaptura)
-            const tdOrden = document.createElement("td");
-            tdOrden.textContent = nota.ordenCaptura;
-            tdOrden.setAttribute('data-label', encabezadosTabla['ordenCaptura']);
-            tr.appendChild(tdOrden);
-
             camposDeDatos.forEach(campo => {
                 const td = document.createElement("td");
-                td.textContent = nota[campo];
+                let textoADisplay = nota[campo];
+                
+                // Aplicar truncamiento al titular para la vista en tabla
+                if (campo === 'titular') {
+                    textoADisplay = truncarTexto(nota[campo], LIMITE_CARACTERES_TITULAR);
+                }
+
+                td.textContent = textoADisplay;
                 td.setAttribute('data-label', encabezadosTabla[campo]);
                 tr.appendChild(td);
             });
@@ -835,40 +804,38 @@
             tr.appendChild(tdAcciones);
 
             tablaBody.appendChild(tr);
-
-            // APLICAR FILTRO DE BÚSQUEDA AL RENDERIZAR
-            if (terminoBusqueda) {
-                const textoFila = tr.textContent.toLowerCase();
-                if (!textoFila.includes(terminoBusqueda)) {
-                    tr.style.display = 'none';
-                }
-            }
         });
+        
+        // Ejecutar el filtro después de renderizar
+        filtrarTabla();
     }
 
     function cargarNotasGuardadas() {
         const datosJSON = localStorage.getItem('notasCapturadas');
+        const ordenJSON = localStorage.getItem('nextOrdenCaptura');
+        
+        if (ordenJSON) nextOrdenCaptura = parseInt(ordenJSON, 10);
+
         if (datosJSON) {
             try {
                 notas = JSON.parse(datosJSON);
                 let maxOrden = 0;
                 notas.forEach(nota => {
+                    // Asegura que todas tengan ordenCaptura y actualiza el contador
                     if (nota.ordenCaptura === undefined || nota.ordenCaptura === null) {
-                        nota.ordenCaptura = ++maxOrden; 
-                    } else {
-                         if (nota.ordenCaptura > maxOrden) {
-                            maxOrden = nota.ordenCaptura;
-                        }
+                        nota.ordenCaptura = nextOrdenCaptura++; 
+                    }
+                    if (nota.ordenCaptura > maxOrden) {
+                        maxOrden = nota.ordenCaptura;
                     }
                 });
                 
-                if (maxOrden > 0) guardarNotas(); 
+                nextOrdenCaptura = maxOrden + 1;
+                guardarNotas(); // Resguarda los valores actualizados
                 
-                nextOrdenCaptura = maxOrden + 1; 
-                
-                ordenarTabla(ordenActual.columna, true); 
+                ordenarTabla(ordenActual.columna, true);
             } catch (e) {
-                console.error("Error al cargar notas de localStorage:", e);
+                console.error("Error al cargar notas:", e);
                 notas = [];
             }
         } else {
@@ -885,45 +852,57 @@
         campo.classList.toggle("bloqueado", checkbox.checked);
         
         localStorage.setItem(`bloqueado_${idCampo}`, checkbox.checked);
+        
+        // Si se bloquea o desbloquea, guarda el valor actual para mantener la persistencia
+        localStorage.setItem(idCampo, campo.value);
     }
 
     function editarNota(tr) {
-        const indice = parseInt(tr.dataset.index);
+        const notaId = parseInt(tr.dataset.id); 
+        // Encontrar el índice (en el array ORDENADO) y la nota
+        const indice = notas.findIndex(n => n.ordenCaptura === notaId);
         const nota = notas[indice];
 
-        camposDeDatos.forEach(id => {
+        if (indice === -1 || !nota) return;
+
+        camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
             document.getElementById(id).value = nota[id];
         });
+
+        resetearEstadoEdicion();
         
-        // Disparar eventos para actualizar sugerencias de Organismo/Autor/Canal
+        // Disparar blur para cargar sugerencias dependientes (Organismo, Firma)
         document.getElementById("dependencia").dispatchEvent(new Event('blur'));
-        document.getElementById("radiodifusora").dispatchEvent(new Event('blur'));
+        document.getElementById("medio").dispatchEvent(new Event('blur')); 
         
-        // Pequeño hack para asegurar que el valor de autor/canal se rellene
-        setTimeout(() => {
-             document.getElementById("autor").value = nota["autor"];
-             document.getElementById("canal").value = nota["canal"];
-        }, 100);
-
-
-        filaEnEdicion = indice; 
+        filaEnEdicion = indice; // Guardamos el índice actual en el array notas
         document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Actualizar Nota';
-        document.getElementById('btnEliminar').style.display = 'inline-block'; 
+        document.getElementById('btnEliminar').style.display = 'inline-block';
         
         document.querySelectorAll('#tablaNotas tbody tr').forEach(row => row.classList.remove('editando'));
         tr.classList.add('editando');
-        
         window.scrollTo(0, 0);
     }
-    
+
+    function generarNombreArchivoCSV() {
+        const usuario = document.getElementById('usuario').value.trim() || 'Desconocido';
+        const usuarioLimpio = usuario.replace(/\s/g, '_').replace(/[^a-zA-Z0-9_]/g, ''); 
+        const fechaHoy = new Date().toISOString().slice(0, 10); 
+        return `${usuarioLimpio}_${fechaHoy}_Prensa.csv`;
+    }
+
     function generarCSVContenido() {
-      const cabeceras = ["No.", "Usuario", "Fecha", "Radiodifusora", "Titular", "Autor", "Hora", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"]; 
+      // Cabeceras correctas
+      const cabeceras = ["#", "Usuario", "Fecha", "Medio", "Titular", "Firma", "Dependencia", "Organismo", "Género", "Tema", "Estatus", "Municipio"];
+      const camposExportar = camposDeDatos.filter(c => c !== 'ordenCaptura'); // Excluir ordenCaptura
+
       const filas = [cabeceras];
       
       notas.forEach(nota => {
-        const fila = [nota.ordenCaptura || ''].concat(camposDeDatos.map(key => {
+        // La primera columna es # (ordenCaptura)
+        const fila = [nota.ordenCaptura || ''].concat(camposExportar.map(key => {
             let valor = nota[key] || '';
-            return `"${valor.replace(/"/g, '""')}"`; 
+            return `"${valor.toString().replace(/"/g, '""')}"`; 
         }));
         filas.push(fila);
       });
@@ -931,26 +910,15 @@
       return "\uFEFF" + filas.map(f => f.join(",")).join("\n");
     }
 
-    function generarNombreArchivoCSV() {
-        const usuario = document.getElementById('usuario').value.trim() || 'Desconocido';
-        const usuarioLimpio = usuario.replace(/\s/g, '_').replace(/[^a-zA-Z0-9_]/g, ''); 
-        const fechaHoy = new Date().toISOString().slice(0, 10); 
-        return `RADIO_${usuarioLimpio}_${fechaHoy}.csv`;
-    }
-
     function exportarCSV() {
-        if (notas.length === 0) {
-            alert("No hay notas para exportar.");
-            return;
-        }
-
+        if (notas.length === 0) { alert("No hay notas para exportar."); return; }
+        
         const csvContenido = generarCSVContenido();
         const nombreArchivo = generarNombreArchivoCSV();
         
         const blob = new Blob([csvContenido], { type: "text/csv;charset=utf-8;" });
         const url = URL.createObjectURL(blob);
         const a = document.createElement("a");
-        
         a.href = url;
         a.download = nombreArchivo;
         document.body.appendChild(a); 
@@ -965,8 +933,10 @@
              return;
         }
 
+        // CONFIGURACIÓN TELEGRAM
         const TELEGRAM_BOT_TOKEN = "8428524335:AAFeKrvKrUxrI9NAkL_G1-X6LdL4Fv6fkV4"; 
-        const TELEGRAM_CHAT_ID = "@capsmonitoreo";
+        const TELEGRAM_CHAT_ID = "@capsmonitoreo"; 
+
         const URL_TELEGRAM = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument`; 
         
         try {
@@ -975,13 +945,12 @@
 
             const csvContenido = generarCSVContenido();
             const blobCSV = new Blob([csvContenido], { type: "text/csv;charset=utf-8;" });
-            
             const nombreArchivoTelegram = generarNombreArchivoCSV();
 
             const formData = new FormData();
             formData.append('chat_id', TELEGRAM_CHAT_ID);
             formData.append('document', blobCSV, nombreArchivoTelegram); 
-            formData.append('caption', `📋 Reporte de notas de radio (${nombreArchivoTelegram}) enviado automáticamente.`);
+            formData.append('caption', `📋 Reporte de notas de Prensa (${nombreArchivoTelegram}) enviado automáticamente.`);
 
             const response = await fetch(URL_TELEGRAM, {
                 method: 'POST',
@@ -993,17 +962,13 @@
             if (response.ok && result.ok) {
                 alert(`¡CSV '${nombreArchivoTelegram}' enviado con éxito al canal ${TELEGRAM_CHAT_ID}!`);
             } else {
-                console.error("Error de la API de Telegram:", result);
-                let mensajeError = `Error al enviar el archivo a Telegram: ${result.description || 'Consulta la consola.'}`;
-                if (result.description.includes('chat not found') || result.description.includes('bot is not a member')) {
-                    mensajeError += "\n\n⚠️ Verifica: ¿Agregaste el bot al canal como ADMINISTRADOR con permiso de envío?";
-                }
-                alert(mensajeError);
+                console.error("Error Telegram:", result);
+                alert(`Error Telegram: ${result.description}`);
             }
 
         } catch (error) {
-            console.error("Error de conexión:", error);
-            alert("Error al intentar comunicarse con Telegram. Revisa la consola (net::ERR_CONNECTION_TIMED_OUT) y las credenciales.");
+            console.error("Error conexión:", error);
+            alert("Error al intentar comunicarse con Telegram. Revisa la consola.");
         } finally {
             document.getElementById('btnTelegram').disabled = false;
             document.getElementById('btnTelegram').innerHTML = '<i class="fa-brands fa-telegram"></i> Enviar por Telegram';
@@ -1012,37 +977,27 @@
 
     function ordenarTabla(columna, esInicial = false) {
         if (!columna) return;
-
         let direccion = 'asc';
-        
         if (ordenActual.columna === columna && !esInicial) {
             direccion = ordenActual.direccion === 'asc' ? 'desc' : 'asc';
         } else if (esInicial && columna === 'ordenCaptura') {
-             direccion = 'desc'; 
+            direccion = 'desc';
         }
 
         notas.sort((a, b) => {
             const valA = a[columna] || '';
             const valB = b[columna] || '';
             let comparacion = 0;
-
-            if (columna === 'fecha') {
+            
+            if (columna === 'ordenCaptura') comparacion = valA - valB;
+            else if (columna === 'fecha') {
                 const dateA = new Date(valA + 'T00:00:00');
                 const dateB = new Date(valB + 'T00:00:00');
                 if (dateA < dateB) comparacion = -1;
                 if (dateA > dateB) comparacion = 1;
-            } else if (columna === 'hora') { 
-                // Comparación de horas (cadenas de texto H:MM o H:MM:SS)
-                comparacion = valA.localeCompare(valB);
-            } else if (columna === 'ordenCaptura') { 
-                const numA = parseInt(valA) || 0;
-                const numB = parseInt(valB) || 0;
-                if (numA < numB) comparacion = -1;
-                if (numA > numB) comparacion = 1;
             } else {
-                comparacion = valA.localeCompare(valB, 'es', { sensitivity: 'base' });
+                comparacion = valA.toString().localeCompare(valB.toString(), 'es', { sensitivity: 'base' });
             }
-
             return direccion === 'asc' ? comparacion : -comparacion;
         });
 
@@ -1056,161 +1011,122 @@
             const headerDiv = th.querySelector('.sortable-header');
             const iconSpan = th.querySelector('.sort-icon');
             const col = th.dataset.col;
-
             headerDiv.classList.remove('sorted');
             iconSpan.innerHTML = ''; 
-
             if (col === ordenActual.columna) {
                 headerDiv.classList.add('sorted');
-                iconSpan.innerHTML = ordenActual.direccion === 'asc' 
-                    ? '<i class="fas fa-sort-up"></i>'
-                    : '<i class="fas fa-sort-down"></i>';
+                iconSpan.innerHTML = ordenActual.direccion === 'asc' ? '<i class="fas fa-sort-up"></i>' : '<i class="fas fa-sort-down"></i>';
             } else {
                 iconSpan.innerHTML = '<i class="fas fa-sort"></i>';
             }
         });
     }
 
-    // ⭐⭐ FUNCIÓN DE BUSCADOR CORREGIDA Y ACTIVA ⭐⭐
+    // ⭐ FUNCIÓN DEL BUSCADOR CONFIRMADA COMO ROBUSTA ⭐
     function filtrarTabla() {
         const input = document.getElementById('buscador');
-        const filtro = input.value.toLowerCase();
+        const filtro = input.value.toLowerCase().trim();
         const filas = document.getElementById('tablaNotas').querySelectorAll('tbody tr');
         
+        if (filtro === '') {
+            filas.forEach(tr => tr.style.display = "");
+            return;
+        }
+
         filas.forEach(tr => {
             let encontrado = false;
-            // Itera sobre todas las celdas de la fila
-            for (let i = 0; i < tr.cells.length; i++) {
-                const textoCelda = tr.cells[i].textContent || tr.cells[i].innerText;
-                // Excluir la columna de Acciones del filtro
-                if (tr.cells[i].getAttribute('data-label') === 'Acciones') continue; 
+            
+            const notaId = parseInt(tr.dataset.id);
+            const nota = notas.find(n => n.ordenCaptura === notaId); 
+
+            if (!nota) {
+                tr.style.display = "none";
+                return;
+            }
+            
+            for (let i = 0; i < camposDeDatos.length; i++) { 
+                const colKey = camposDeDatos[i];
+                // Se busca en el valor COMPLETO (no truncado) de la nota.
+                const textoCompleto = (nota[colKey] || '').toString().toLowerCase();
                 
-                if (textoCelda.toLowerCase().includes(filtro)) {
+                if (textoCompleto.includes(filtro)) {
                     encontrado = true;
                     break;
                 }
             }
-            // Muestra u oculta la fila
             tr.style.display = encontrado ? "" : "none";
         });
     }
 
     // --- Eventos ---
-
     document.addEventListener("DOMContentLoaded", async () => {
-      let orgMap, autorMap, canalMap;
+      let orgMap, firmaMap; 
 
-      // 1. Cargar Dependencias y Organismos
       const depData = await cargarMapa(urls.dependencias);
       orgMap = depData.map;
       autocompletar("dependencia", "sugDep", depData.claves, dep => {
         autocompletar("organismo", "sugOrg", orgMap[dep] || []);
       });
-
-      // 2. Cargar Autores (reemplaza a Firmas)
-      const autorData = await cargarMapa(urls.autores);
-      autorMap = autorData.map;
-      autocompletar("autor", "sugAutor", []); 
-
-      // 3. Cargar Radiodifusoras y vincular con Canal y Autor
-      const radioData = await cargarMapa(urls.radiodifusoras);
-      canalMap = radioData.map;
-
-      autocompletar("radiodifusora", "sugRadiodifusora", radioData.claves, radio => {
-        // A) Actualizar Canales
-        const canales = canalMap[radio] || [];
-        autocompletar("canal", "sugCanal", canales);
-        if (canales.length === 1) {
-          document.getElementById("canal").value = canales[0];
-        }
-
-        // B) Actualizar Autores
-        const autores = autorMap[radio] || [];
-        autocompletar("autor", "sugAutor", autores);
-        document.getElementById("autor").value = ""; 
+      
+      const medioData = await cargarMapa(urls.firmas); 
+      firmaMap = medioData.map;
+      autocompletar("medio", "sugMedio", medioData.claves, medio => {
+        const firmas = firmaMap[medio] || [];
+        autocompletar("firma", "sugFirma", firmas); 
+        if (firmas.length === 1) document.getElementById("firma").value = firmas[0];
       });
       
-      // Evento Blur para Dependencia
+      // Blur events para dependencia y medio
       document.getElementById("dependencia").addEventListener("blur", (e) => {
-          const campo = e.target;
-          const depValue = campo.value.trim();
-          const foundKey = findKeyCaseInsensitive(orgMap, depValue);
-
-          if (foundKey) {
-              campo.value = foundKey;
-              autocompletar("organismo", "sugOrg", orgMap[foundKey] || []);
+          const val = e.target.value.trim();
+          const key = findKeyCaseInsensitive(orgMap, val);
+          if (key) { e.target.value = key; autocompletar("organismo", "sugOrg", orgMap[key] || []); }
+          else autocompletar("organismo", "sugOrg", []);
+      });
+      
+      document.getElementById("medio").addEventListener("blur", (e) => {
+          const val = e.target.value.trim();
+          const key = findKeyCaseInsensitive(firmaMap, val);
+          if (key) { 
+              e.target.value = key; 
+              const firmas = firmaMap[key] || [];
+              autocompletar("firma", "sugFirma", firmas);
+              if (firmas.length === 1) document.getElementById("firma").value = firmas[0];
           } else {
-              autocompletar("organismo", "sugOrg", []);
+              autocompletar("firma", "sugFirma", []);
           }
       });
       
-      // Evento Blur para Radiodifusora (ACTUALIZADO)
-      document.getElementById("radiodifusora").addEventListener("blur", (e) => {
-          const campo = e.target;
-          const radioValue = campo.value.trim();
-          const foundKey = findKeyCaseInsensitive(canalMap, radioValue);
-
-          if (foundKey) {
-              campo.value = foundKey;
-              
-              // Actualizar Canales
-              const canales = canalMap[foundKey] || [];
-              autocompletar("canal", "sugCanal", canales);
-              if (canales.length === 1) {
-                document.getElementById("canal").value = canales[0];
-              }
-
-              // Actualizar Autores
-              const autores = autorMap[foundKey] || []; 
-              autocompletar("autor", "sugAutor", autores);
-
-          } else {
-              // Si no hay match, limpiar sugerencias de ambos
-              autocompletar("canal", "sugCanal", []);
-              autocompletar("autor", "sugAutor", []);
-          }
-      });
-      
-      // ⭐⭐ VINCULACIÓN DEL BUSCADOR (CORREGIDA) ⭐⭐
-      document.getElementById('buscador').addEventListener('input', filtrarTabla); 
-      
+      // Initialize dependent empty
       autocompletar("organismo", "sugOrg", []); 
-      
-      // 🌟 CORRECCIÓN FINAL DE CARGA DE CANAL.CSV
-      autocompletar("canal", "sugCanal", await cargarLista(urls.canales)); 
-      
+      autocompletar("firma", "sugFirma", []); 
+
+      // Carga de listas simples
       autocompletar("genero", "sugGenero", await cargarLista(urls.generos));
       autocompletar("estatus", "sugEstatus", await cargarLista(urls.estatus));
       autocompletar("tema", "sugTema", await cargarLista(urls.temas));
       autocompletar("municipio", "sugMunicipio", await cargarLista(urls.municipios));
+      
+      // Listener para el buscador en tiempo real
+      document.getElementById('buscador').addEventListener('input', filtrarTabla); 
 
-      // Persistencia
-      camposDeDatos.forEach(id => {
+      // Persistence & Locks
+      camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
         const campo = document.getElementById(id);
-        
         if (localStorage.getItem(id)) campo.value = localStorage.getItem(id);
+        campo.addEventListener("input", () => localStorage.setItem(id, campo.value));
         
-        campo.addEventListener("input", () => {
-          localStorage.setItem(id, campo.value);
-        });
-
-        const checkboxId = `check${id.charAt(0).toUpperCase() + id.slice(1)}`;
-        const checkbox = document.getElementById(checkboxId);
-        const isBlocked = localStorage.getItem(`bloqueado_${id}`) === 'true';
-
-        if (checkbox) {
-            checkbox.checked = isBlocked;
+        const chk = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
+        if (chk) {
+            chk.checked = localStorage.getItem(`bloqueado_${id}`) === 'true';
             alternarBloqueo(id);
         }
       });
       
       cargarNotasGuardadas();
 
-      // Listener para ordenar al hacer clic en las cabeceras
       document.querySelectorAll('#tablaNotas th[data-col]').forEach(th => {
-          th.addEventListener('click', () => {
-              ordenarTabla(th.dataset.col);
-          });
+          th.addEventListener('click', () => ordenarTabla(th.dataset.col));
       });
 
       document.querySelector("form").addEventListener('reset', () => {
@@ -1222,7 +1138,7 @@
 
       document.addEventListener('click', (e) => {
         if (!e.target.closest('.campo')) {
-            document.querySelectorAll('.sugerencias').forEach(sug => sug.innerHTML = "");
+            document.querySelectorAll('.sugerencias').forEach(s => s.innerHTML = "");
         }
       });
     });
@@ -1248,7 +1164,6 @@
       } else {
           nuevaNota.ordenCaptura = nextOrdenCaptura++; 
           notas.push(nuevaNota);
-          document.getElementById('btnEliminar').style.display = 'none';
       }
       
       guardarNotas();
@@ -1262,7 +1177,7 @@
           }
       });
       
-      // 4. Enfocar
+      // 4. Devolver el foco al campo Titular
       document.getElementById('titular').focus();
     });
   </script>
