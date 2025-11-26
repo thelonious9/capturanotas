@@ -108,10 +108,11 @@
         box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25);
         outline: none;
     }
-    form > label:nth-child(8), 
+    /* Estas reglas ya no son necesarias al reducir el número de campos */
+    /* form > label:nth-child(8), 
     form > div:nth-child(9) { 
         grid-column: span 4;
-    }
+    } */
     
     /* --- SUGERENCIAS --- */
     .sugerencias {
@@ -185,7 +186,7 @@
       text-align: left;
       color: var(--color-light-text);
       font-size: 0.85rem;
-      /* Añadido: permite el truncamiento y evita saltos de línea excesivos */
+      /* Ajuste para evitar deformación, aplicado a todas las celdas */
       max-width: 250px; 
       overflow: hidden;
       white-space: nowrap;
@@ -199,6 +200,15 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
+    /* Ajuste para la columna de acciones */
+    #tablaNotas th:last-child, #tablaNotas td:last-child {
+        max-width: 100px;
+        min-width: 100px;
+        white-space: nowrap;
+        overflow: visible;
+        text-overflow: clip;
+    }
+
 
     th {
       background-color: var(--color-primary);
@@ -388,15 +398,6 @@
       <div id="sugFirma" class="sugerencias"></div>
     </div>
 
-    <label for="seccion">Sección:</label>
-    <div class="campo">
-      <input type="text" id="seccion" name="seccion" autocomplete="off">
-      <button type="button" onclick="mostrarSugerencias('seccion','sugSeccion')">🔽</button>
-      <input type="checkbox" id="checkSeccion" onchange="alternarBloqueo('seccion')">
-      <label for="checkSeccion">🔒</label>
-      <div id="sugSeccion" class="sugerencias"></div>
-    </div>
-
     <label for="dependencia">Dependencia:</label>
     <div class="campo">
       <input type="text" id="dependencia" name="dependencia" autocomplete="off">
@@ -422,15 +423,6 @@
       <input type="checkbox" id="checkGenero" onchange="alternarBloqueo('genero')">
       <label for="checkGenero">🔒</label>
       <div id="sugGenero" class="sugerencias"></div>
-    </div>
-
-    <label for="canal">Canal:</label>
-    <div class="campo">
-      <input type="text" id="canal" name="canal" autocomplete="off">
-      <button type="button" onclick="mostrarSugerencias('canal','sugCanal')">🔽</button>
-      <input type="checkbox" id="checkCanal" onchange="alternarBloqueo('canal')">
-      <label for="checkCanal">🔒</label>
-      <div id="sugCanal" class="sugerencias"></div>
     </div>
 
     <label for="tema">Tema:</label>
@@ -459,6 +451,10 @@
       <label for="checkMunicipio">🔒</label>
       <div id="sugMunicipio" class="sugerencias"></div>
     </div>
+    
+    <label></label>
+    <div class="campo"></div>
+
 
     <div class="button-group-form">
       <button type="submit" id="btnGuardar">
@@ -506,11 +502,9 @@
         <th data-col="medio"><div class="sortable-header">Medio <span class="sort-icon"></span></div></th>
         <th data-col="titular"><div class="sortable-header">Titular <span class="sort-icon"></span></div></th>
         <th data-col="firma"><div class="sortable-header">Firma <span class="sort-icon"></span></div></th>
-        <th data-col="seccion"><div class="sortable-header">Sección <span class="sort-icon"></span></div></th>
         <th data-col="dependencia"><div class="sortable-header">Dependencia <span class="sort-icon"></span></div></th>
         <th data-col="organismo"><div class="sortable-header">Organismo <span class="sort-icon"></span></div></th>
         <th data-col="genero"><div class="sortable-header">Género <span class="sort-icon"></span></div></th>
-        <th data-col="canal"><div class="sortable-header">Canal <span class="sort-icon"></span></div></th>
         <th data-col="tema"><div class="sortable-header">Tema <span class="sort-icon"></span></div></th>
         <th data-col="estatus"><div class="sortable-header">Estatus <span class="sort-icon"></span></div></th>
         <th data-col="municipio"><div class="sortable-header">Municipio <span class="sort-icon"></span></div></th>
@@ -526,29 +520,27 @@
     let filaEnEdicion = null;
     let nextOrdenCaptura = 1;
     
-    // CAMPOS PARA PRENSA
-    const camposDeDatos = ["ordenCaptura", "usuario", "fecha", "medio", "titular", "firma", "seccion", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
+    // CAMPOS DE DATOS CORREGIDOS (sin 'seccion' ni 'canal')
+    const camposDeDatos = ["ordenCaptura", "usuario", "fecha", "medio", "titular", "firma", "dependencia", "organismo", "genero", "tema", "estatus", "municipio"];
     
-    // ENCABEZADOS 
+    // ENCABEZADOS DE TABLA CORREGIDOS (sin 'seccion' ni 'canal')
     const encabezadosTabla = {
         "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio", "titular": "Titular", "firma": "Firma", 
-        "seccion": "Sección", "dependencia": "Dependencia", "organismo": "Organismo", "genero": "Género", 
-        "canal": "Canal", "tema": "Tema", "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
+        "dependencia": "Dependencia", "organismo": "Organismo", "genero": "Género", 
+        "tema": "Tema", "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
     };
     
     let ordenActual = { columna: 'ordenCaptura', direccion: 'desc' }; 
 
-    // RUTAS RELATIVAS (Asegúrate de tener estos archivos CSV en la misma carpeta)
+    // RUTAS RELATIVAS (corregidas, solo quedan las solicitadas)
     const urls = {
       dependencias: "./Dependencia.csv",
-      medios: "./Medio.csv", // Antes Radiodifusora.csv
+      medios: "./Medio.csv", 
       generos: "./Genero.csv",
       estatus: "./Estatus.csv",
       temas: "./Tema.csv",
       municipios: "./Municipio.csv",
-      firmas: "./Firma.csv", // Antes Autor.csv
-      secciones: "./Seccion.csv",
-      canales: "./Canal.csv"
+      firmas: "./Firma.csv"
     };
     
     function findKeyCaseInsensitive(map, value) {
@@ -569,8 +561,11 @@
         
         const contentType = res.headers.get("content-type");
         if (contentType && !contentType.includes("text/csv") && !contentType.includes("text/plain")) {
-            if (contentType.includes("text/html")) {
-                throw new Error(`Contenido HTML inesperado. Revise ruta: ${url}`);
+            // Se lanza un error específico para evitar el mensaje de 'Contenido HTML inesperado' si es un 404
+            if (res.status === 404) {
+                 throw new Error(`Archivo no encontrado. Revise la ruta: ${url}`);
+            } else {
+                 throw new Error(`Contenido inesperado (${contentType}). Revise ruta: ${url}`);
             }
         }
         
@@ -774,7 +769,7 @@
         
         notas.forEach((nota, indice) => {
             const tr = document.createElement("tr");
-            // **CORRECCIÓN CLAVE:** Usamos el ID permanente de la nota
+            // **CLAVE:** Usamos el ID permanente de la nota para la edición/filtrado
             tr.dataset.id = nota.ordenCaptura; 
 
             if (contieneCamposVacios(nota)) {
@@ -800,7 +795,7 @@
             const btnEditar = document.createElement("button");
             btnEditar.textContent = "Editar";
             btnEditar.classList.add('btn-accion-tabla'); 
-            // **CORRECCIÓN CLAVE:** Pasamos la fila (tr) para encontrar la nota por ID
+            // Pasamos la fila (tr) para encontrar la nota por ID
             btnEditar.onclick = function() { editarNota(tr); };
             tdAcciones.appendChild(btnEditar);
             tr.appendChild(tdAcciones);
@@ -883,7 +878,8 @@
     }
 
     function generarCSVContenido() {
-      const cabeceras = ["#", "Usuario", "Fecha", "Medio", "Titular", "Firma", "Sección", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"];
+      // Cabeceras corregidas (sin Sección ni Canal)
+      const cabeceras = ["#", "Usuario", "Fecha", "Medio", "Titular", "Firma", "Dependencia", "Organismo", "Género", "Tema", "Estatus", "Municipio"];
       const filas = [cabeceras];
       
       notas.forEach(nota => {
@@ -1059,7 +1055,8 @@
         autocompletar("organismo", "sugOrg", orgMap[dep] || []);
       });
       
-      const medioData = await cargarMapa(urls.medios);
+      // La lógica de Medio -> Firma se mantiene
+      const medioData = await cargarMapa(urls.firmas); // Asumo que Firma.csv contiene la relación Medio,Firma
       firmaMap = medioData.map;
       autocompletar("medio", "sugMedio", medioData.claves, medio => {
         const firmas = firmaMap[medio] || [];
@@ -1067,7 +1064,7 @@
         if (firmas.length === 1) document.getElementById("firma").value = firmas[0];
       });
       
-      // Blur events
+      // Blur events para dependencia y medio
       document.getElementById("dependencia").addEventListener("blur", (e) => {
           const val = e.target.value.trim();
           const key = findKeyCaseInsensitive(orgMap, val);
@@ -1092,12 +1089,11 @@
       autocompletar("organismo", "sugOrg", []); 
       autocompletar("firma", "sugFirma", []); 
 
+      // Carga de listas simples
       autocompletar("genero", "sugGenero", await cargarLista(urls.generos));
       autocompletar("estatus", "sugEstatus", await cargarLista(urls.estatus));
       autocompletar("tema", "sugTema", await cargarLista(urls.temas));
       autocompletar("municipio", "sugMunicipio", await cargarLista(urls.municipios));
-      autocompletar("seccion", "sugSeccion", await cargarLista(urls.secciones)); 
-      autocompletar("canal", "sugCanal", await cargarLista(urls.canales)); 
       
       // Listener para el buscador en tiempo real
       document.getElementById('buscador').addEventListener('input', filtrarTabla); 
@@ -1175,7 +1171,7 @@
   </script>
 
   <footer>
-    © 2025 Francisco, El Bizcocho de Montecristo, Villeda. Todos los derechos reservados.
+    © 2025 Institución Pública. Todos los derechos reservados.
   </footer>
 </body>
 </html>
