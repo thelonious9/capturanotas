@@ -170,7 +170,7 @@
     .campo button[type="button"]:hover { background-color: var(--color-secondary-hover); }
     button i { margin-right: 8px; font-size: 1.1em; }
     
-    /* --- TABLA (CORRECCIÓN DE DEFORMACIÓN) --- */
+    /* --- TABLA (CORRECCIÓN DE DEFORMACIÓN Y HOVER) --- */
     h2 {
         margin-top: 40px;
         color: var(--color-light-text);
@@ -222,6 +222,12 @@
       top: 0;
     }
     tbody tr:nth-child(even) { background-color: #5D5C5A; } 
+    /* 🌟 MEJORA 1: Resaltar fila al pasar el cursor */
+    tbody tr:hover { 
+      background-color: #6C6B69; 
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
     .editando { background-color: var(--color-primary-hover) !important; color: var(--color-light-text); }
     .editando td { color: var(--color-light-text); }
     .alerta-vacio { background-color: var(--color-alerta-vacio) !important; color: var(--color-dark-text) !important; }
@@ -783,6 +789,11 @@
             camposDeDatos.forEach(campo => {
                 const td = document.createElement("td");
                 let textoADisplay = nota[campo];
+                
+                // 🌟 MEJORA 2: Agregar el texto completo como título para Tooltip/Visualización
+                if (nota[campo]) {
+                    td.title = nota[campo]; 
+                }
                 
                 // Aplicar truncamiento al titular para la vista en tabla
                 if (campo === 'titular') {
