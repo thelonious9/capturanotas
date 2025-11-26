@@ -809,13 +809,13 @@
         }
     }
 
+    // Esta función sólo verifica CAMPOS OBLIGATORIOS (excluye Tema y Firma)
     function contieneCamposVacios(nota) {
         // Solo revisamos los campos de datos, excluyendo ordenCaptura, Tema y Firma
         const camposARevisar = camposDeDatos.filter(c => c !== 'ordenCaptura' && c !== 'tema' && c !== 'firma'); 
         let camposFaltantes = [];
         
         for (const campo of camposARevisar) {
-            // Se asume que solo la 'Firma' y 'Tema' son opcionales
             if (!nota[campo] || (typeof nota[campo] === 'string' && nota[campo].trim() === '')) {
                 camposFaltantes.push(encabezadosTabla[campo]); // Guarda el nombre legible
             }
@@ -844,8 +844,13 @@
             const tr = document.createElement("tr");
             tr.dataset.id = nota.ordenCaptura; 
 
-            // ALERTA SI HAY CAMPOS VACÍOS (excluyendo Tema y Firma)
-            if (contieneCamposVacios(nota).length > 0) {
+            // 1. Verificar si faltan campos obligatorios
+            const tieneCampoObligatorioVacio = contieneCamposVacios(nota).length > 0;
+            // 2. Verificar si el campo Tema (opcional) está vacío (según solicitud del usuario)
+            const tieneTemaVacio = !nota.tema || nota.tema.trim() === '';
+
+            // ALERTA SI HAY CAMPOS OBLIGATORIOS O EL CAMPO TEMA VACÍOS
+            if (tieneCampoObligatorioVacio || tieneTemaVacio) {
                 tr.classList.add('alerta-vacio');
             }
 
@@ -1259,7 +1264,7 @@
       });
       
       // ----------------------------------------------------------------------
-      // 🌟 CAMBIOS DE ATAJOS DE TECLADO 🌟
+      // 🌟 ATAJOS DE TECLADO 🌟
       // ----------------------------------------------------------------------
 
       // 1. Bloquear Enter para evitar el guardado accidental y simular Tab
@@ -1296,7 +1301,7 @@
       });
       
       // ----------------------------------------------------------------------
-      // 🌟 FIN CAMBIOS DE ATAJOS DE TECLADO 🌟
+      // 🌟 FIN ATAJOS DE TECLADO 🌟
       // ----------------------------------------------------------------------
     });
 
