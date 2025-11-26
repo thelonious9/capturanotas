@@ -381,36 +381,36 @@
     <label for="usuario">Usuario:</label>
     <div class="campo">
       <input type="text" id="usuario" name="usuario" required>
-      <input type="checkbox" id="checkUsuario" onchange="alternarBloqueo('usuario')">
+      <input type="checkbox" id="checkUsuario" onchange="alternarBloqueo('usuario')" tabindex="-1">
       <label for="checkUsuario">🔒</label>
     </div>
     
     <label for="fecha">Fecha:</label>
     <div class="campo">
       <input type="date" id="fecha" name="fecha" required>
-      <input type="checkbox" id="checkFecha" onchange="alternarBloqueo('fecha')">
+      <input type="checkbox" id="checkFecha" onchange="alternarBloqueo('fecha')" tabindex="-1">
       <label for="checkFecha">🔒</label>
     </div>
 
     <label for="medio">Medio:</label>
     <div class="campo">
       <input type="text" id="medio" name="medio" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('medio','sugMedio')">🔽</button>
-      <input type="checkbox" id="checkMedio" onchange="alternarBloqueo('medio')">
+      <button type="button" onclick="mostrarSugerencias('medio','sugMedio')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkMedio" onchange="alternarBloqueo('medio')" tabindex="-1">
       <label for="checkMedio">🔒</label>
       <div id="sugMedio" class="sugerencias"></div>
     </div>
     <label for="titular">Titular:</label>
     <div class="campo">
       <input type="text" id="titular" name="titular" required>
-      <input type="checkbox" id="checkTitular" onchange="alternarBloqueo('titular')">
+      <input type="checkbox" id="checkTitular" onchange="alternarBloqueo('titular')" tabindex="-1">
       <label for="checkTitular">🔒</label>
     </div>
     <label for="firma">Firma:</label>
     <div class="campo">
       <input type="text" id="firma" name="firma" autocomplete="off">
-      <button type="button" onclick="mostrarSugerencias('firma','sugFirma')">🔽</button>
-      <input type="checkbox" id="checkFirma" onchange="alternarBloqueo('firma')">
+      <button type="button" onclick="mostrarSugerencias('firma','sugFirma')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkFirma" onchange="alternarBloqueo('firma')" tabindex="-1">
       <label for="checkFirma">🔒</label>
       <div id="sugFirma" class="sugerencias"></div>
     </div>
@@ -418,16 +418,16 @@
     <label for="dependencia">Dependencia:</label>
     <div class="campo">
       <input type="text" id="dependencia" name="dependencia" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('dependencia','sugDep')">🔽</button>
-      <input type="checkbox" id="checkDependencia" onchange="alternarBloqueo('dependencia')">
+      <button type="button" onclick="mostrarSugerencias('dependencia','sugDep')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkDependencia" onchange="alternarBloqueo('dependencia')" tabindex="-1">
       <label for="checkDependencia">🔒</label>
       <div id="sugDep" class="sugerencias"></div>
     </div>
     <label for="organismo">Organismo:</label>
     <div class="campo">
       <input type="text" id="organismo" name="organismo" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('organismo','sugOrg')">🔽</button>
-      <input type="checkbox" id="checkOrganismo" onchange="alternarBloqueo('organismo')">
+      <button type="button" onclick="mostrarSugerencias('organismo','sugOrg')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkOrganismo" onchange="alternarBloqueo('organismo')" tabindex="-1">
       <label for="checkOrganismo">🔒</label>
       <div id="sugOrg" class="sugerencias"></div>
     </div>
@@ -435,16 +435,16 @@
     <label for="genero">Género:</label>
     <div class="campo">
       <input type="text" id="genero" name="genero" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('genero','sugGenero')">🔽</button>
-      <input type="checkbox" id="checkGenero" onchange="alternarBloqueo('genero')">
+      <button type="button" onclick="mostrarSugerencias('genero','sugGenero')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkGenero" onchange="alternarBloqueo('genero')" tabindex="-1">
       <label for="checkGenero">🔒</label>
       <div id="sugGenero" class="sugerencias"></div>
     </div>
     <label for="canal">Canal:</label>
     <div class="campo">
       <input type="text" id="canal" name="canal" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('canal','sugCanal')">🔽</button>
-      <input type="checkbox" id="checkCanal" onchange="alternarBloqueo('canal')">
+      <button type="button" onclick="mostrarSugerencias('canal','sugCanal')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkCanal" onchange="alternarBloqueo('canal')" tabindex="-1">
       <label for="checkCanal">🔒</label>
       <div id="sugCanal" class="sugerencias"></div>
     </div>
@@ -452,16 +452,16 @@
     <label for="tema">Tema (Opcional):</label>
     <div class="campo">
       <input type="text" id="tema" name="tema" autocomplete="off">
-      <button type="button" onclick="mostrarSugerencias('tema','sugTema')">🔽</button>
-      <input type="checkbox" id="checkTema" onchange="alternarBloqueo('tema')">
+      <button type="button" onclick="mostrarSugerencias('tema','sugTema')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkTema" onchange="alternarBloqueo('tema')" tabindex="-1">
       <label for="checkTema">🔒</label>
       <div id="sugTema" class="sugerencias"></div>
     </div>
     <label for="estatus">Estatus:</label>
     <div class="campo">
       <input type="text" id="estatus" name="estatus" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('estatus','sugEstatus')">🔽</button>
-      <input type="checkbox" id="checkEstatus" onchange="alternarBloqueo('estatus')">
+      <button type="button" onclick="mostrarSugerencias('estatus','sugEstatus')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkEstatus" onchange="alternarBloqueo('estatus')" tabindex="-1">
       <label for="checkEstatus">🔒</label>
       <div id="sugEstatus" class="sugerencias"></div>
     </div>
@@ -469,8 +469,8 @@
     <label for="municipio">Municipio:</label>
     <div class="campo">
       <input type="text" id="municipio" name="municipio" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('municipio','sugMunicipio')">🔽</button>
-      <input type="checkbox" id="checkMunicipio" onchange="alternarBloqueo('municipio')">
+      <button type="button" onclick="mostrarSugerencias('municipio','sugMunicipio')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkMunicipio" onchange="alternarBloqueo('municipio')" tabindex="-1">
       <label for="checkMunicipio">🔒</label>
       <div id="sugMunicipio" class="sugerencias"></div>
     </div>
@@ -810,7 +810,7 @@
     }
 
     function contieneCamposVacios(nota) {
-        // Solo revisamos los campos de datos, excluyendo ordenCaptura y TEMA
+        // Solo revisamos los campos de datos, excluyendo ordenCaptura, Tema y Firma
         const camposARevisar = camposDeDatos.filter(c => c !== 'ordenCaptura' && c !== 'tema' && c !== 'firma'); 
         let camposFaltantes = [];
         
@@ -1310,7 +1310,7 @@
   </script>
 
   <footer>
-    © 2025 Francisco, el bizocho de Montecristo Villeda. Todos los derechos reservados.
+    © 2025 Francisco Villeda. Todos los derechos reservados.
   </footer>
 </body>
 </html>
