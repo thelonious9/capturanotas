@@ -116,12 +116,12 @@
         grid-column: 1 / span 4; 
     }
     
-    /* Titular (Label: 8vo elemento, Input: 9no elemento) -> Ocupan 4 columnas */
-    form > label:nth-child(8), 
-    form > div:nth-child(9) {
+    /* Titular (Label: 12vo elemento, Input: 13vo elemento) -> Ocupan 4 columnas (AJUSTADO POR ORDEN) */
+    form > label:nth-child(12), 
+    form > div:nth-child(13) {
         grid-column: 1 / span 4; 
     }
-    /* El resto de campos (Fecha/Medio, Firma/Dependencia, etc.) quedan en 2x2 */
+    /* El resto de campos (Fecha/Medio, Canal/Firma, etc.) quedan en 2x2 */
     
     /* --- SUGERENCIAS --- */
     .sugerencias {
@@ -206,20 +206,22 @@
       max-width: none !important; 
     }
 
-    /* 🌟 DEFINICIÓN DE ANCHOS PROPORCIONALES (13 columnas: Total 100%) */
+    /* 🌟 DEFINICIÓN DE ANCHOS PROPORCIONALES (14 columnas: Total 100%) */
+    /* Se ajustaron los anchos para incluir Canal (5to elemento) */
     #tablaNotas th:nth-child(1), #tablaNotas td:nth-child(1) { width: 3%; }   /* # (ordenCaptura) */
     #tablaNotas th:nth-child(2), #tablaNotas td:nth-child(2) { width: 7%; }   /* Usuario */
     #tablaNotas th:nth-child(3), #tablaNotas td:nth-child(3) { width: 7%; }   /* Fecha */
-    #tablaNotas th:nth-child(4), #tablaNotas td:nth-child(4) { width: 10%; }  /* Medio */
-    #tablaNotas th:nth-child(5), #tablaNotas td:nth-child(5) { width: 18%; }  /* Titular */
-    #tablaNotas th:nth-child(6), #tablaNotas td:nth-child(6) { width: 8%; }   /* Firma */
-    #tablaNotas th:nth-child(7), #tablaNotas td:nth-child(7) { width: 8%; }   /* Dependencia */
-    #tablaNotas th:nth-child(8), #tablaNotas td:nth-child(8) { width: 8%; }   /* Organismo */
-    #tablaNotas th:nth-child(9), #tablaNotas td:nth-child(9) { width: 5%; }   /* Género */
-    #tablaNotas th:nth-child(10), #tablaNotas td:nth-child(10) { width: 8%; } /* Tema */
-    #tablaNotas th:nth-child(11), #tablaNotas td:nth-child(11) { width: 5%; } /* Estatus */
-    #tablaNotas th:nth-child(12), #tablaNotas td:nth-child(12) { width: 7%; } /* Municipio */
-    #tablaNotas th:nth-child(13), #tablaNotas td:nth-child(13) { width: 6%; } /* Acciones */
+    #tablaNotas th:nth-child(4), #tablaNotas td:nth-child(4) { width: 8%; }   /* Medio (reducido de 10% a 8%) */
+    #tablaNotas th:nth-child(5), #tablaNotas td:nth-child(5) { width: 6%; }   /* Canal (NUEVO) */
+    #tablaNotas th:nth-child(6), #tablaNotas td:nth-child(6) { width: 16%; }  /* Titular (reducido de 18% a 16%) */
+    #tablaNotas th:nth-child(7), #tablaNotas td:nth-child(7) { width: 7%; }   /* Firma (reducido de 8% a 7%) */
+    #tablaNotas th:nth-child(8), #tablaNotas td:nth-child(8) { width: 8%; }   /* Dependencia */
+    #tablaNotas th:nth-child(9), #tablaNotas td:nth-child(9) { width: 8%; }   /* Organismo */
+    #tablaNotas th:nth-child(10), #tablaNotas td:nth-child(10) { width: 5%; }  /* Género */
+    #tablaNotas th:nth-child(11), #tablaNotas td:nth-child(11) { width: 8%; } /* Tema */
+    #tablaNotas th:nth-child(12), #tablaNotas td:nth-child(12) { width: 5%; } /* Estatus */
+    #tablaNotas th:nth-child(13), #tablaNotas td:nth-child(13) { width: 6%; } /* Municipio (reducido de 7% a 6%) */
+    #tablaNotas th:nth-child(14), #tablaNotas td:nth-child(14) { width: 6%; } /* Acciones */
     /* FIN DEFINICIÓN DE ANCHOS */
 
     th {
@@ -400,12 +402,14 @@
       <label for="checkMedio">🔒</label>
       <div id="sugMedio" class="sugerencias"></div>
     </div>
-
-    <label for="titular">Titular:</label>
+    
+    <label for="canal">Canal:</label>
     <div class="campo">
-      <input type="text" id="titular" name="titular" required>
-      <input type="checkbox" id="checkTitular" onchange="alternarBloqueo('titular')">
-      <label for="checkTitular">🔒</label>
+      <input type="text" id="canal" name="canal" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('canal','sugCanal')">🔽</button>
+      <input type="checkbox" id="checkCanal" onchange="alternarBloqueo('canal')">
+      <label for="checkCanal">🔒</label>
+      <div id="sugCanal" class="sugerencias"></div>
     </div>
 
     <label for="firma">Firma:</label>
@@ -415,6 +419,12 @@
       <input type="checkbox" id="checkFirma" onchange="alternarBloqueo('firma')">
       <label for="checkFirma">🔒</label>
       <div id="sugFirma" class="sugerencias"></div>
+    </div>
+    <label for="titular">Titular:</label>
+    <div class="campo">
+      <input type="text" id="titular" name="titular" required>
+      <input type="checkbox" id="checkTitular" onchange="alternarBloqueo('titular')">
+      <label for="checkTitular">🔒</label>
     </div>
 
     <label for="dependencia">Dependencia:</label>
@@ -519,6 +529,7 @@
         <th data-col="usuario"><div class="sortable-header">Usuario <span class="sort-icon"></span></div></th>
         <th data-col="fecha"><div class="sortable-header">Fecha <span class="sort-icon"></span></div></th>
         <th data-col="medio"><div class="sortable-header">Medio <span class="sort-icon"></span></div></th>
+        <th data-col="canal"><div class="sortable-header">Canal <span class="sort-icon"></span></div></th>
         <th data-col="titular"><div class="sortable-header">Titular <span class="sort-icon"></span></div></th>
         <th data-col="firma"><div class="sortable-header">Firma <span class="sort-icon"></span></div></th>
         <th data-col="dependencia"><div class="sortable-header">Dependencia <span class="sort-icon"></span></div></th>
@@ -539,27 +550,25 @@
     let filaEnEdicion = null;
     let nextOrdenCaptura = 1;
     
-    // CAMPOS DE DATOS
-    const camposDeDatos = ["ordenCaptura", "usuario", "fecha", "medio", "titular", "firma", "dependencia", "organismo", "genero", "tema", "estatus", "municipio"];
+    const camposDeDatos = ["ordenCaptura", "usuario", "fecha", "medio", "canal", "titular", "firma", "dependencia", "organismo", "genero", "tema", "estatus", "municipio"];
     
-    // ENCABEZADOS DE TABLA
     const encabezadosTabla = {
-        "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio", "titular": "Titular", "firma": "Firma", 
+        "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio", "canal": "Canal", "titular": "Titular", "firma": "Firma", 
         "dependencia": "Dependencia", "organismo": "Organismo", "genero": "Género", 
         "tema": "Tema", "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
     };
     
     let ordenActual = { columna: 'ordenCaptura', direccion: 'desc' }; 
 
-    // RUTAS RELATIVAS
+    // RUTAS RELATIVAS (Asegúrese de que estos archivos estén en la misma carpeta)
     const urls = {
       dependencias: "./Dependencia.csv",
-      medios: "./Medio.csv", 
+      medios: "./Medio.csv", // Usado para la dependencia Medio -> Canal
       generos: "./Genero.csv",
       estatus: "./Estatus.csv",
       temas: "./Tema.csv",
       municipios: "./Municipio.csv",
-      firmas: "./Firma.csv"
+      firmas: "./Firma.csv" // Usado para la dependencia Medio -> Firma y la lista de Medios
     };
     
     function findKeyCaseInsensitive(map, value) {
@@ -599,27 +608,39 @@
     
     function limpiarFilasCSV(filas) {
       if (!filas || filas.length === 0) return [];
-      filas[0][0] = filas[0][0].replace(/^\uFEFF/, "");
-      const encabezado = filas[0].map(c => (c || "").toLowerCase()).join(",");
+      // Elimina el BOM (Byte Order Mark) si existe en el primer campo
+      if (filas[0] && filas[0][0]) {
+          filas[0][0] = filas[0][0].replace(/^\uFEFF/, "");
+      }
+      const encabezado = filas[0] ? filas[0].map(c => (c || "").toLowerCase()).join(",") : "";
+      // Intenta detectar si hay encabezado para saltar la primera fila
       const tieneEncabezado = encabezado.includes("dependencia") || encabezado.includes("medio") || encabezado.includes("género");
       if (tieneEncabezado) filas = filas.slice(1);
+      // Limpia y filtra filas vacías
       return filas.map(r => r.map(c => (c || "").replace(/<[^>]+>/g, "").trim())).filter(r => r[0]);
     }
 
+    // Carga un mapa de dependencia (e.g., Dependencia -> Organismos, o Medio -> Firmas, o Medio -> Canales)
     async function cargarMapa(url) {
       const filas = limpiarFilasCSV(await cargarCSV(url));
       const map = {};
       filas.forEach(([clave, valor]) => {
         if (!clave) return;
+        clave = clave.trim();
+        valor = valor ? valor.trim() : '';
+
         map[clave] = map[clave] || new Set();
         if (valor) map[clave].add(valor);
       });
+      // Convierte los Sets a Arrays ordenados
       const claves = Object.keys(map).sort((a, b) => a.localeCompare(b, 'es'));
       const mapArrays = {};
       claves.forEach(k => mapArrays[k] = Array.from(map[k]).sort((a, b) => a.localeCompare(b, 'es')));
+      
       return { claves, map: mapArrays };
     }
 
+    // Carga una lista simple (e.g., Géneros, Estatus)
     async function cargarLista(url) {
       const filas = limpiarFilasCSV(await cargarCSV(url));
       return Array.from(new Set(filas.map(r => r[0]))).sort((a, b) => a.localeCompare(b, 'es'));
@@ -658,21 +679,26 @@
           e.preventDefault();
           indice = (indice + 1) % items.length;
           resaltar(items, indice);
+          items[indice].scrollIntoView({ block: 'nearest' }); 
         } else if (e.key === "ArrowUp") {
           e.preventDefault();
           indice = (indice - 1 + items.length) % items.length;
           resaltar(items, indice);
+          items[indice].scrollIntoView({ block: 'nearest' });
         } else if (e.key === "Enter") {
           e.preventDefault();
           if (indice >= 0 && items[indice]) {
             campo.value = items[indice].textContent;
             contenedor.innerHTML = "";
             if (callback) callback(campo.value);
+            // Disparar blur para actualizar dependencias
+            campo.dispatchEvent(new Event('blur'));
           }
         }
       });
 
       campo.addEventListener("focus", () => {
+        // Cierra otras sugerencias
         document.querySelectorAll('.sugerencias').forEach(sug => {
             if (sug.id !== idSugerencias) {
                 sug.innerHTML = "";
@@ -681,6 +707,7 @@
       });
       
       campo.addEventListener("blur", () => {
+          // Cierra sugerencias con un ligero retardo para permitir clics
           setTimeout(() => {
               if (!contenedor.contains(document.activeElement)) {
                   contenedor.innerHTML = "";
@@ -697,6 +724,7 @@
     function mostrarSugerencias(idCampo, idSugerencias) {
       const campo = document.getElementById(idCampo);
       const contenedor = document.getElementById(idSugerencias);
+      // Cierra todas las sugerencias antes de abrir una
       document.querySelectorAll('.sugerencias').forEach(sug => sug.innerHTML = "");
 
       const lista = campo.dataset.lista ? JSON.parse(campo.dataset.lista) : [];
@@ -709,12 +737,8 @@
         div.onclick = () => {
           campo.value = s;
           contenedor.innerHTML = "";
-          if (idCampo === 'medio') {
-              document.getElementById("medio").dispatchEvent(new Event('blur'));
-          }
-          if (idCampo === 'dependencia') {
-              document.getElementById("dependencia").dispatchEvent(new Event('blur'));
-          }
+          // Dispara blur para actualizar dependencias (si aplica)
+          document.getElementById(idCampo).dispatchEvent(new Event('blur'));
         };
         contenedor.appendChild(div);
       });
@@ -722,6 +746,37 @@
         contenedor.style.display = 'block';
       }
     }
+    
+    // 🌟 FUNCIÓN DE DEPENDENCIA MEDIO -> CANAL 🌟
+    function setCanalFromMedio(medioValue, map) {
+        const canalInput = document.getElementById('canal');
+        const isLocked = localStorage.getItem('bloqueado_canal') === 'true';
+
+        if (isLocked) return; // No sobrescribir si el campo está bloqueado
+
+        const lowerMedio = medioValue.toLowerCase();
+        let suggestedCanales = [];
+
+        // Buscar coincidencia exacta (insensible a mayúsculas/minúsculas)
+        const key = findKeyCaseInsensitive(map, medioValue);
+        
+        if (key) {
+            suggestedCanales = map[key];
+        } 
+        
+        // Si se encuentra una sugerencia (el archivo Medio.csv solo debería tener 1 por Medio)
+        if (suggestedCanales.length > 0) {
+            // Toma el primer canal sugerido
+            const suggestedCanal = suggestedCanales[0]; 
+            canalInput.value = suggestedCanal;
+            localStorage.setItem('canal', suggestedCanal); 
+        } else if (!canalInput.value) {
+            // Si no se encuentra mapeo, limpia el campo si está vacío
+            canalInput.value = '';
+            localStorage.removeItem('canal');
+        }
+    }
+    // 🌟 FIN FUNCIÓN DE DEPENDENCIA 🌟
 
     function resetearEstadoEdicion() {
         filaEnEdicion = null;
@@ -765,6 +820,8 @@
         const camposARevisar = camposDeDatos.filter(c => c !== 'ordenCaptura'); 
         for (const campo of camposARevisar) {
             if (!nota[campo] || (typeof nota[campo] === 'string' && nota[campo].trim() === '')) {
+                // Estatus y Municipio pueden ser opcionales, si el requerimiento lo permite, se excluirían aquí.
+                // Asumo que todos son requeridos por ahora.
                 return true;
             }
         }
@@ -774,7 +831,6 @@
     // --- FUNCIÓN DE TRUNCAMIENTO ---
     function truncarTexto(texto, limite) {
         if (!texto) return '';
-        // Esta función solo se usa para pre-truncar el texto que se muestra en la tabla
         if (texto.length > limite) {
             return texto.substring(0, limite) + '...';
         }
@@ -786,9 +842,11 @@
         const tablaBody = document.getElementById("tablaNotas").querySelector("tbody");
         tablaBody.innerHTML = '';
         
-        notas.forEach((nota, indice) => {
+        // Creamos una copia de las notas para la tabla (las notas ya están ordenadas)
+        const notasParaRenderizar = notas; 
+
+        notasParaRenderizar.forEach((nota, indice) => {
             const tr = document.createElement("tr");
-            // Usamos ordenCaptura como ID permanente
             tr.dataset.id = nota.ordenCaptura; 
 
             if (contieneCamposVacios(nota)) {
@@ -799,12 +857,10 @@
                 const td = document.createElement("td");
                 let textoADisplay = nota[campo];
                 
-                // 🌟 Asignamos el texto COMPLETO como título para el Tooltip
                 if (nota[campo]) {
                     td.title = nota[campo]; 
                 }
                 
-                // Aplicar truncamiento al titular (solo el texto visible)
                 if (campo === 'titular') {
                     textoADisplay = truncarTexto(nota[campo], LIMITE_CARACTERES_TITULAR);
                 }
@@ -819,14 +875,14 @@
             const btnEditar = document.createElement("button");
             btnEditar.textContent = "Editar";
             btnEditar.classList.add('btn-accion-tabla'); 
-            btnEditar.onclick = function() { editarNota(tr); };
+            // La función de edición ahora busca por el ID permanente (ordenCaptura)
+            btnEditar.onclick = function() { editarNota(tr); }; 
             tdAcciones.appendChild(btnEditar);
             tr.appendChild(tdAcciones);
 
             tablaBody.appendChild(tr);
         });
         
-        // Ejecutar el filtro después de renderizar
         filtrarTabla();
     }
 
@@ -834,7 +890,7 @@
         const datosJSON = localStorage.getItem('notasCapturadas');
         const ordenJSON = localStorage.getItem('nextOrdenCaptura');
         
-        if (ordenJSON) nextOrdenCaptura = parseInt(ordenJSON, 10);
+        if (ordenJSON && !isNaN(parseInt(ordenJSON, 10))) nextOrdenCaptura = parseInt(ordenJSON, 10);
 
         if (datosJSON) {
             try {
@@ -845,13 +901,19 @@
                     if (nota.ordenCaptura === undefined || nota.ordenCaptura === null) {
                         nota.ordenCaptura = nextOrdenCaptura++; 
                     }
+                    if (nota.canal === undefined) nota.canal = ''; 
+                    
                     if (nota.ordenCaptura > maxOrden) {
                         maxOrden = nota.ordenCaptura;
                     }
                 });
                 
-                nextOrdenCaptura = maxOrden + 1;
-                guardarNotas(); // Resguarda los valores actualizados
+                // Si la nota más reciente es mayor al contador, actualiza el contador
+                if (maxOrden >= nextOrdenCaptura) {
+                    nextOrdenCaptura = maxOrden + 1;
+                }
+                
+                guardarNotas(); 
                 
                 ordenarTabla(ordenActual.columna, true);
             } catch (e) {
@@ -873,13 +935,11 @@
         
         localStorage.setItem(`bloqueado_${idCampo}`, checkbox.checked);
         
-        // Si se bloquea o desbloquea, guarda el valor actual para mantener la persistencia
         localStorage.setItem(idCampo, campo.value);
     }
 
     function editarNota(tr) {
         const notaId = parseInt(tr.dataset.id); 
-        // Encontrar el índice (en el array ORDENADO) y la nota
         const indice = notas.findIndex(n => n.ordenCaptura === notaId);
         const nota = notas[indice];
 
@@ -891,11 +951,12 @@
 
         resetearEstadoEdicion();
         
-        // Disparar blur para cargar sugerencias dependientes (Organismo, Firma)
+        // Disparar blur para cargar sugerencias dependientes (Organismo, Firma, Canal)
+        // Esto también carga las listas de autocompletado si están vacías.
         document.getElementById("dependencia").dispatchEvent(new Event('blur'));
         document.getElementById("medio").dispatchEvent(new Event('blur')); 
         
-        filaEnEdicion = indice; // Guardamos el índice actual en el array notas
+        filaEnEdicion = indice; 
         document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Actualizar Nota';
         document.getElementById('btnEliminar').style.display = 'inline-block';
         
@@ -912,20 +973,19 @@
     }
 
     function generarCSVContenido() {
-      // Cabeceras correctas
-      const cabeceras = ["#", "Usuario", "Fecha", "Medio", "Titular", "Firma", "Dependencia", "Organismo", "Género", "Tema", "Estatus", "Municipio"];
+      const cabeceras = ["#", "Usuario", "Fecha", "Medio", "Canal", "Titular", "Firma", "Dependencia", "Organismo", "Género", "Tema", "Estatus", "Municipio"];
       const filas = [cabeceras];
       
       notas.forEach(nota => {
-        // Mapeamos todos los campos de datos (incluyendo ordenCaptura)
         const fila = camposDeDatos.map(key => {
             let valor = nota[key] || '';
-            // El valor es el texto completo, no truncado
+            // Envuelve el valor en comillas y duplica las comillas internas (escape CSV)
             return `"${valor.toString().replace(/"/g, '""')}"`; 
         });
         filas.push(fila);
       });
       
+      // Agrega el BOM (\uFEFF) para forzar la codificación UTF-8 en Excel
       return "\uFEFF" + filas.map(f => f.join(",")).join("\n");
     }
 
@@ -952,9 +1012,15 @@
              return;
         }
 
-        // CONFIGURACIÓN TELEGRAM
-        const TELEGRAM_BOT_TOKEN = "8428524335:AAFeKrvKrUxrI9NAkL_G1-X6LdL4Fv6fkV4"; 
-        const TELEGRAM_CHAT_ID = "@capsmonitoreo"; 
+        // CONFIGURACIÓN TELEGRAM: REEMPLAZAR CON SUS VALORES REALES
+        const TELEGRAM_BOT_TOKEN = "TU_BOT_TOKEN"; 
+        const TELEGRAM_CHAT_ID = "TU_CHAT_ID_O_CANAL"; 
+
+        if (TELEGRAM_BOT_TOKEN === "TU_BOT_TOKEN") {
+             alert("Por favor, configure su token de bot de Telegram y ID de chat en el código JavaScript antes de usar esta función.");
+             return;
+        }
+
 
         const URL_TELEGRAM = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument`; 
         
@@ -979,10 +1045,10 @@
             const result = await response.json();
 
             if (response.ok && result.ok) {
-                alert(`¡CSV '${nombreArchivoTelegram}' enviado con éxito al canal ${TELEGRAM_CHAT_ID}!`);
+                alert(`¡CSV '${nombreArchivoTelegram}' enviado con éxito a ${TELEGRAM_CHAT_ID}!`);
             } else {
                 console.error("Error Telegram:", result);
-                alert(`Error Telegram: ${result.description}`);
+                alert(`Error Telegram: ${result.description || 'Fallo desconocido en la API de Telegram'}`);
             }
 
         } catch (error) {
@@ -1008,7 +1074,7 @@
             const valB = b[columna] || '';
             let comparacion = 0;
             
-            if (columna === 'ordenCaptura') comparacion = valA - valB;
+            if (columna === 'ordenCaptura') comparacion = (valA - valB);
             else if (columna === 'fecha') {
                 const dateA = new Date(valA + 'T00:00:00');
                 const dateB = new Date(valB + 'T00:00:00');
@@ -1041,7 +1107,6 @@
         });
     }
 
-    // ⭐ FUNCIÓN DEL BUSCADOR CONFIRMADA COMO ROBUSTA ⭐
     function filtrarTabla() {
         const input = document.getElementById('buscador');
         const filtro = input.value.toLowerCase().trim();
@@ -1054,7 +1119,6 @@
 
         filas.forEach(tr => {
             let encontrado = false;
-            
             const notaId = parseInt(tr.dataset.id);
             const nota = notas.find(n => n.ordenCaptura === notaId); 
 
@@ -1065,7 +1129,6 @@
             
             for (let i = 0; i < camposDeDatos.length; i++) { 
                 const colKey = camposDeDatos[i];
-                // Se busca en el valor COMPLETO (no truncado) de la nota.
                 const textoCompleto = (nota[colKey] || '').toString().toLowerCase();
                 
                 if (textoCompleto.includes(filtro)) {
@@ -1079,7 +1142,7 @@
 
     // --- Eventos ---
     document.addEventListener("DOMContentLoaded", async () => {
-      let orgMap, firmaMap; 
+      let orgMap, firmaMap, medioToCanalMap; 
 
       const depData = await cargarMapa(urls.dependencias);
       orgMap = depData.map;
@@ -1087,9 +1150,19 @@
         autocompletar("organismo", "sugOrg", orgMap[dep] || []);
       });
       
-      const medioData = await cargarMapa(urls.firmas); 
-      firmaMap = medioData.map;
-      autocompletar("medio", "sugMedio", medioData.claves, medio => {
+      const firmaData = await cargarMapa(urls.firmas); 
+      firmaMap = firmaData.map;
+      
+      // 🌟 CARGA DE DEPENDENCIA MEDIO -> CANAL 🌟
+      const canalData = await cargarMapa(urls.medios); 
+      medioToCanalMap = canalData.map; 
+
+      // Lógica de autocompletar para Medio (ejecuta la dependencia Firma y Canal)
+      autocompletar("medio", "sugMedio", firmaData.claves, medio => {
+        // LLAMADA A LA DEPENDENCIA CANAL
+        setCanalFromMedio(medio, medioToCanalMap); 
+        
+        // LLAMADA A LA DEPENDENCIA FIRMA
         const firmas = firmaMap[medio] || [];
         autocompletar("firma", "sugFirma", firmas); 
         if (firmas.length === 1) document.getElementById("firma").value = firmas[0];
@@ -1100,18 +1173,29 @@
           const val = e.target.value.trim();
           const key = findKeyCaseInsensitive(orgMap, val);
           if (key) { e.target.value = key; autocompletar("organismo", "sugOrg", orgMap[key] || []); }
-          else autocompletar("organismo", "sugOrg", []);
+          else { e.target.value = val; autocompletar("organismo", "sugOrg", []); }
       });
       
       document.getElementById("medio").addEventListener("blur", (e) => {
           const val = e.target.value.trim();
-          const key = findKeyCaseInsensitive(firmaMap, val);
-          if (key) { 
-              e.target.value = key; 
-              const firmas = firmaMap[key] || [];
+          // Primero, busca el Medio para la Firma
+          const firmaKey = findKeyCaseInsensitive(firmaMap, val); 
+          
+          if (firmaKey) { 
+              e.target.value = firmaKey; 
+              // 1. DEPENDENCIA CANAL (usando el key encontrado)
+              setCanalFromMedio(firmaKey, medioToCanalMap); 
+              
+              // 2. DEPENDENCIA FIRMA
+              const firmas = firmaMap[firmaKey] || [];
               autocompletar("firma", "sugFirma", firmas);
               if (firmas.length === 1) document.getElementById("firma").value = firmas[0];
           } else {
+              // 1. DEPENDENCIA CANAL (usa el valor que escribió el usuario, aunque no haya match)
+              setCanalFromMedio(val, medioToCanalMap); 
+              
+              // 2. DEPENDENCIA FIRMA (limpia si no hay match)
+              e.target.value = val;
               autocompletar("firma", "sugFirma", []);
           }
       });
@@ -1125,6 +1209,11 @@
       autocompletar("estatus", "sugEstatus", await cargarLista(urls.estatus));
       autocompletar("tema", "sugTema", await cargarLista(urls.temas));
       autocompletar("municipio", "sugMunicipio", await cargarLista(urls.municipios));
+      
+      // 🟢 SUGERENCIAS CANAL (Se genera a partir de los valores únicos del mapa Medio.csv) 🟢
+      // Se utiliza .flat() para aplanar el array de arrays de canales (ej: [['Web'], ['Radio']] -> ['Web', 'Radio'])
+      const canalesLista = Array.from(new Set(Object.values(medioToCanalMap).flat())).sort((a, b) => a.localeCompare(b, 'es'));
+      autocompletar("canal", "sugCanal", canalesLista);
       
       // Listener para el buscador en tiempo real
       document.getElementById('buscador').addEventListener('input', filtrarTabla); 
@@ -1178,7 +1267,8 @@
 
       // 2. Guardar/Actualizar nota
       if (filaEnEdicion !== null) {
-          notas[filaEnEdicion] = {...nuevaNota, ordenCaptura: notas[filaEnEdicion].ordenCaptura};
+          nuevaNota.ordenCaptura = notas[filaEnEdicion].ordenCaptura;
+          notas[filaEnEdicion] = nuevaNota;
           resetearEstadoEdicion();
       } else {
           nuevaNota.ordenCaptura = nextOrdenCaptura++; 
