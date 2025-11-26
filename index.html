@@ -109,19 +109,18 @@
         outline: none;
     }
     
-    /* 🌟 MEJORA: Disposición de campos */
+    /* 🌟 REGLAS PARA CAMPOS DE ANCHO COMPLETO 🌟 */
     /* Usuario (Label: 2do elemento, Input: 3er elemento) -> Ocupan 4 columnas */
     form > label:nth-child(2), 
     form > div:nth-child(3) {
         grid-column: 1 / span 4; 
     }
     
-    /* Titular (Label: 12vo elemento, Input: 13vo elemento) -> Ocupan 4 columnas (AJUSTADO POR ORDEN) */
-    form > label:nth-child(12), 
-    form > div:nth-child(13) {
+    /* Titular (Label: 8vo elemento, Input: 9no elemento) -> Ocupan 4 columnas (AJUSTADO POR ORDEN) */
+    form > label:nth-child(8), 
+    form > div:nth-child(9) {
         grid-column: 1 / span 4; 
     }
-    /* El resto de campos (Fecha/Medio, Canal/Firma, etc.) quedan en 2x2 */
     
     /* --- SUGERENCIAS --- */
     .sugerencias {
@@ -206,23 +205,22 @@
       max-width: none !important; 
     }
 
-    /* 🌟 DEFINICIÓN DE ANCHOS PROPORCIONALES (14 columnas: Total 100%) */
-    /* Se ajustaron los anchos para incluir Canal (5to elemento) */
-    #tablaNotas th:nth-child(1), #tablaNotas td:nth-child(1) { width: 3%; }   /* # (ordenCaptura) */
-    #tablaNotas th:nth-child(2), #tablaNotas td:nth-child(2) { width: 7%; }   /* Usuario */
-    #tablaNotas th:nth-child(3), #tablaNotas td:nth-child(3) { width: 7%; }   /* Fecha */
-    #tablaNotas th:nth-child(4), #tablaNotas td:nth-child(4) { width: 8%; }   /* Medio (reducido de 10% a 8%) */
-    #tablaNotas th:nth-child(5), #tablaNotas td:nth-child(5) { width: 6%; }   /* Canal (NUEVO) */
-    #tablaNotas th:nth-child(6), #tablaNotas td:nth-child(6) { width: 16%; }  /* Titular (reducido de 18% a 16%) */
-    #tablaNotas th:nth-child(7), #tablaNotas td:nth-child(7) { width: 7%; }   /* Firma (reducido de 8% a 7%) */
-    #tablaNotas th:nth-child(8), #tablaNotas td:nth-child(8) { width: 8%; }   /* Dependencia */
-    #tablaNotas th:nth-child(9), #tablaNotas td:nth-child(9) { width: 8%; }   /* Organismo */
-    #tablaNotas th:nth-child(10), #tablaNotas td:nth-child(10) { width: 5%; }  /* Género */
-    #tablaNotas th:nth-child(11), #tablaNotas td:nth-child(11) { width: 8%; } /* Tema */
-    #tablaNotas th:nth-child(12), #tablaNotas td:nth-child(12) { width: 5%; } /* Estatus */
-    #tablaNotas th:nth-child(13), #tablaNotas td:nth-child(13) { width: 6%; } /* Municipio (reducido de 7% a 6%) */
-    #tablaNotas th:nth-child(14), #tablaNotas td:nth-child(14) { width: 6%; } /* Acciones */
-    /* FIN DEFINICIÓN DE ANCHOS */
+    /* 🌟 DEFINICIÓN DE ANCHOS PROPORCIONALES (14 columnas: Total 100%) - ORDEN ACTUALIZADO */
+    /* Nuevo orden: #, Usuario, Fecha, Medio, Titular, Firma, Dependencia, Organismo, Género, Canal, Tema, Estatus, Municipio, Acciones */
+    #tablaNotas th:nth-child(1), #tablaNotas td:nth-child(1) { width: 3%; }    /* # (ordenCaptura) */
+    #tablaNotas th:nth-child(2), #tablaNotas td:nth-child(2) { width: 7%; }    /* Usuario */
+    #tablaNotas th:nth-child(3), #tablaNotas td:nth-child(3) { width: 7%; }    /* Fecha */
+    #tablaNotas th:nth-child(4), #tablaNotas td:nth-child(4) { width: 8%; }    /* Medio */
+    #tablaNotas th:nth-child(5), #tablaNotas td:nth-child(5) { width: 16%; }   /* Titular (16%) */
+    #tablaNotas th:nth-child(6), #tablaNotas td:nth-child(6) { width: 7%; }    /* Firma (7%) */
+    #tablaNotas th:nth-child(7), #tablaNotas td:nth-child(7) { width: 8%; }    /* Dependencia (8%) */
+    #tablaNotas th:nth-child(8), #tablaNotas td:nth-child(8) { width: 8%; }    /* Organismo (8%) */
+    #tablaNotas th:nth-child(9), #tablaNotas td:nth-child(9) { width: 5%; }    /* Género (5%) */
+    #tablaNotas th:nth-child(10), #tablaNotas td:nth-child(10) { width: 6%; }  /* Canal (6%) */
+    #tablaNotas th:nth-child(11), #tablaNotas td:nth-child(11) { width: 8%; }  /* Tema (8%) */
+    #tablaNotas th:nth-child(12), #tablaNotas td:nth-child(12) { width: 5%; }  /* Estatus (5%) */
+    #tablaNotas th:nth-child(13), #tablaNotas td:nth-child(13) { width: 6%; }  /* Municipio (6%) */
+    #tablaNotas th:nth-child(14), #tablaNotas td:nth-child(14) { width: 6%; }  /* Acciones (6%) */
 
     th {
       background-color: var(--color-primary);
@@ -402,16 +400,12 @@
       <label for="checkMedio">🔒</label>
       <div id="sugMedio" class="sugerencias"></div>
     </div>
-    
-    <label for="canal">Canal:</label>
+    <label for="titular">Titular:</label>
     <div class="campo">
-      <input type="text" id="canal" name="canal" autocomplete="off">
-      <button type="button" onclick="mostrarSugerencias('canal','sugCanal')">🔽</button>
-      <input type="checkbox" id="checkCanal" onchange="alternarBloqueo('canal')">
-      <label for="checkCanal">🔒</label>
-      <div id="sugCanal" class="sugerencias"></div>
+      <input type="text" id="titular" name="titular" required>
+      <input type="checkbox" id="checkTitular" onchange="alternarBloqueo('titular')">
+      <label for="checkTitular">🔒</label>
     </div>
-
     <label for="firma">Firma:</label>
     <div class="campo">
       <input type="text" id="firma" name="firma" autocomplete="off">
@@ -419,12 +413,6 @@
       <input type="checkbox" id="checkFirma" onchange="alternarBloqueo('firma')">
       <label for="checkFirma">🔒</label>
       <div id="sugFirma" class="sugerencias"></div>
-    </div>
-    <label for="titular">Titular:</label>
-    <div class="campo">
-      <input type="text" id="titular" name="titular" required>
-      <input type="checkbox" id="checkTitular" onchange="alternarBloqueo('titular')">
-      <label for="checkTitular">🔒</label>
     </div>
 
     <label for="dependencia">Dependencia:</label>
@@ -435,7 +423,6 @@
       <label for="checkDependencia">🔒</label>
       <div id="sugDep" class="sugerencias"></div>
     </div>
-
     <label for="organismo">Organismo:</label>
     <div class="campo">
       <input type="text" id="organismo" name="organismo" autocomplete="off">
@@ -444,7 +431,7 @@
       <label for="checkOrganismo">🔒</label>
       <div id="sugOrg" class="sugerencias"></div>
     </div>
-
+    
     <label for="genero">Género:</label>
     <div class="campo">
       <input type="text" id="genero" name="genero" autocomplete="off">
@@ -453,7 +440,15 @@
       <label for="checkGenero">🔒</label>
       <div id="sugGenero" class="sugerencias"></div>
     </div>
-
+    <label for="canal">Canal:</label>
+    <div class="campo">
+      <input type="text" id="canal" name="canal" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('canal','sugCanal')">🔽</button>
+      <input type="checkbox" id="checkCanal" onchange="alternarBloqueo('canal')">
+      <label for="checkCanal">🔒</label>
+      <div id="sugCanal" class="sugerencias"></div>
+    </div>
+    
     <label for="tema">Tema:</label>
     <div class="campo">
       <input type="text" id="tema" name="tema" autocomplete="off">
@@ -462,7 +457,6 @@
       <label for="checkTema">🔒</label>
       <div id="sugTema" class="sugerencias"></div>
     </div>
-
     <label for="estatus">Estatus:</label>
     <div class="campo">
       <input type="text" id="estatus" name="estatus" autocomplete="off">
@@ -480,7 +474,6 @@
       <label for="checkMunicipio">🔒</label>
       <div id="sugMunicipio" class="sugerencias"></div>
     </div>
-    
     <label></label>
     <div class="campo"></div>
 
@@ -529,12 +522,12 @@
         <th data-col="usuario"><div class="sortable-header">Usuario <span class="sort-icon"></span></div></th>
         <th data-col="fecha"><div class="sortable-header">Fecha <span class="sort-icon"></span></div></th>
         <th data-col="medio"><div class="sortable-header">Medio <span class="sort-icon"></span></div></th>
-        <th data-col="canal"><div class="sortable-header">Canal <span class="sort-icon"></span></div></th>
         <th data-col="titular"><div class="sortable-header">Titular <span class="sort-icon"></span></div></th>
         <th data-col="firma"><div class="sortable-header">Firma <span class="sort-icon"></span></div></th>
         <th data-col="dependencia"><div class="sortable-header">Dependencia <span class="sort-icon"></span></div></th>
         <th data-col="organismo"><div class="sortable-header">Organismo <span class="sort-icon"></span></div></th>
         <th data-col="genero"><div class="sortable-header">Género <span class="sort-icon"></span></div></th>
+        <th data-col="canal"><div class="sortable-header">Canal <span class="sort-icon"></span></div></th>
         <th data-col="tema"><div class="sortable-header">Tema <span class="sort-icon"></span></div></th>
         <th data-col="estatus"><div class="sortable-header">Estatus <span class="sort-icon"></span></div></th>
         <th data-col="municipio"><div class="sortable-header">Municipio <span class="sort-icon"></span></div></th>
@@ -550,11 +543,12 @@
     let filaEnEdicion = null;
     let nextOrdenCaptura = 1;
     
-    const camposDeDatos = ["ordenCaptura", "usuario", "fecha", "medio", "canal", "titular", "firma", "dependencia", "organismo", "genero", "tema", "estatus", "municipio"];
+    // 🌟 ORDEN DE CAMPOS ACTUALIZADO 🌟
+    const camposDeDatos = ["ordenCaptura", "usuario", "fecha", "medio", "titular", "firma", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
     
     const encabezadosTabla = {
-        "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio", "canal": "Canal", "titular": "Titular", "firma": "Firma", 
-        "dependencia": "Dependencia", "organismo": "Organismo", "genero": "Género", 
+        "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio", "titular": "Titular", "firma": "Firma", 
+        "dependencia": "Dependencia", "organismo": "Organismo", "genero": "Género", "canal": "Canal",
         "tema": "Tema", "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
     };
     
@@ -820,8 +814,6 @@
         const camposARevisar = camposDeDatos.filter(c => c !== 'ordenCaptura'); 
         for (const campo of camposARevisar) {
             if (!nota[campo] || (typeof nota[campo] === 'string' && nota[campo].trim() === '')) {
-                // Estatus y Municipio pueden ser opcionales, si el requerimiento lo permite, se excluirían aquí.
-                // Asumo que todos son requeridos por ahora.
                 return true;
             }
         }
@@ -952,7 +944,6 @@
         resetearEstadoEdicion();
         
         // Disparar blur para cargar sugerencias dependientes (Organismo, Firma, Canal)
-        // Esto también carga las listas de autocompletado si están vacías.
         document.getElementById("dependencia").dispatchEvent(new Event('blur'));
         document.getElementById("medio").dispatchEvent(new Event('blur')); 
         
@@ -973,10 +964,12 @@
     }
 
     function generarCSVContenido() {
-      const cabeceras = ["#", "Usuario", "Fecha", "Medio", "Canal", "Titular", "Firma", "Dependencia", "Organismo", "Género", "Tema", "Estatus", "Municipio"];
+      // 🌟 CABECERAS EN EL ORDEN CORRECTO 🌟
+      const cabeceras = ["#", "Usuario", "Fecha", "Medio", "Titular", "Firma", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"];
       const filas = [cabeceras];
       
       notas.forEach(nota => {
+        // 🌟 VALORES EN EL ORDEN CORRECTO 🌟
         const fila = camposDeDatos.map(key => {
             let valor = nota[key] || '';
             // Envuelve el valor en comillas y duplica las comillas internas (escape CSV)
@@ -1211,7 +1204,7 @@
       autocompletar("municipio", "sugMunicipio", await cargarLista(urls.municipios));
       
       // 🟢 SUGERENCIAS CANAL (Se genera a partir de los valores únicos del mapa Medio.csv) 🟢
-      // Se utiliza .flat() para aplanar el array de arrays de canales (ej: [['Web'], ['Radio']] -> ['Web', 'Radio'])
+      // Se utiliza .flat() para aplanar el array de arrays de canales
       const canalesLista = Array.from(new Set(Object.values(medioToCanalMap).flat())).sort((a, b) => a.localeCompare(b, 'es'));
       autocompletar("canal", "sugCanal", canalesLista);
       
