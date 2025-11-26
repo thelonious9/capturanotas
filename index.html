@@ -19,14 +19,14 @@
       --color-primary-hover: #AA080C;      /* Rojo Oscuro (Hover) */
       --color-secondary: #D20A11;          /* Rojo Vivo (Botón Limpiar/Iconos) */
       --color-secondary-hover: #AA080C;    /* Rojo Oscuro (Hover) */
-      --color-danger: #AA080C;             /* Rojo para advertencias/eliminar */
-      --color-danger-hover: #D20A11;       /* Rojo Vivo */
-      --color-telegram: #0088cc;           
-      --color-telegram-hover: #0077b3;     
+      --color-danger: #dc3545;             /* Rojo estándar para peligro */
+      --color-danger-hover: #c82333;       /* Hover de peligro */
+      --color-telegram: #0088cc;           /* Color Telegram */
+      --color-telegram-hover: #0077b3;     /* Hover Telegram */
       --color-dark-text: #1E1E1E;          /* Texto para inputs (fondo claro) */
-      --color-light-text: #FFFFFF;         /* Texto principal (fondo oscuro) */
-      --color-input-bg: #FFFFFF;           /* Fondo de los campos de texto: Blanco */
-      --color-alerta-vacio: #FFD700;       
+      --color-light-text: #F0F0F0;         /* Texto principal (fondo oscuro) */
+      --color-input-bg: #F0F0F0;           /* Fondo de inputs */
+      --color-alerta-vacio: #FFD700;       /* Amarillo/Oro llamativo para alertas */
       --radius: 0.25rem;
     }
     body {
@@ -56,8 +56,7 @@
       height: 50px;
       width: auto;
     }
-    
-    /* --- FORMULARIO --- */
+    /* --- FORMULARIO Y GRIDS --- */
     form {
       display: grid;
       grid-template-columns: auto 1fr auto 1fr;
@@ -69,6 +68,7 @@
       border-radius: var(--radius);
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
+    /* ESTILOS PARA EL LOGOTIPO DENTRO DEL FORMULARIO */
     .form-logo-container {
         grid-column: span 4; 
         text-align: center;
@@ -81,6 +81,8 @@
         width: auto; 
         opacity: 0.9;
     }
+    /* FIN ESTILOS LOGOTIPO */
+
     label {
         font-weight: 700;
         align-self: center;
@@ -92,7 +94,8 @@
       align-items: center;
     }
     .campo > input[type="text"], 
-    .campo > input[type="date"] {
+    .campo > input[type="date"],
+    .campo > input[type="time"] { /* AÑADIDO: input[type="time"] */
       flex-grow: 1;
       padding: 8px 10px;
       border: 1px solid var(--color-primary-hover);
@@ -103,17 +106,21 @@
       transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     }
     .campo > input[type="text"]:focus,
-    .campo > input[type="date"]:focus {
+    .campo > input[type="date"]:focus,
+    .campo > input[type="time"]:focus { /* AÑADIDO: input[type="time"] */
         border-color: var(--color-primary);
         box-shadow: 0 0 0 0.2rem rgba(210, 10, 17, 0.25);
         outline: none;
     }
-    /* El campo Titular (tercer par) pasa a ocupar todo el ancho */
-    form > label:nth-child(8), 
-    form > div:nth-child(9) { 
+    /* Campos de span 4 (Usuario, Titular, Autor) */
+    form > label:nth-child(2),
+    form > div:nth-child(3), 
+    form > label:nth-child(8),
+    form > div:nth-child(9),
+    form > label:nth-child(12),
+    form > div:nth-child(13) {
         grid-column: span 4;
     }
-    
     /* --- SUGERENCIAS --- */
     .sugerencias {
       position: absolute;
@@ -129,14 +136,27 @@
       box-shadow: 0 4px 6px rgba(0,0,0,0.1);
       color: var(--color-dark-text);
     }
-    .sugerencia { padding: 8px 10px; cursor: pointer; }
-    .sugerencia:hover, .sugerencia.resaltado { background-color: #f0f0f0; color: var(--color-dark-text); }
-    
-    /* --- BLOQUEO --- */
-    .bloqueado { background-color: #e9e9e9 !important; border: 1px solid var(--color-primary-hover) !important; cursor: not-allowed; }
-    input:required:invalid { border-left: 5px solid var(--color-danger); }
-    input:required:valid { border-left: 5px solid #28a745; }
-    
+    .sugerencia {
+      padding: 8px 10px;
+      cursor: pointer;
+    }
+    .sugerencia:hover,
+    .sugerencia.resaltado {
+      background-color: #d0d0d0;
+      color: var(--color-dark-text);
+    }
+    /* --- BLOQUEO Y VALIDACIÓN --- */
+    .bloqueado {
+      background-color: #d0d0d0 !important;
+      border: 1px solid var(--color-primary-hover) !important;
+      cursor: not-allowed;
+    }
+    input:required:invalid {
+      border-left: 5px solid var(--color-danger);
+    }
+    input:required:valid {
+      border-left: 5px solid #28a745;
+    }
     /* --- BOTONES --- */
     .button-group-form {
         grid-column: span 4;
@@ -145,6 +165,11 @@
         margin-top: 10px;
         justify-content: flex-end;
     }
+    .button-group-form button {
+        flex-grow: 0;
+        width: auto;
+    }
+
     button {
       padding: 10px 15px;
       border: none;
@@ -155,126 +180,56 @@
       color: var(--color-light-text);
       margin-right: 5px;
     }
-    #btnGuardar { background-color: var(--color-primary); }
-    #btnGuardar:hover { background-color: var(--color-primary-hover); transform: translateY(-1px); }
-    #btnLimpiar { background-color: var(--color-secondary); }
-    #btnLimpiar:hover { background-color: var(--color-secondary-hover); transform: translateY(-1px); }
-    #btnEliminar { background-color: var(--color-danger); }
-    #btnEliminar:hover { background-color: var(--color-danger-hover); transform: translateY(-1px); }
     
-    .campo button[type="button"] { background-color: var(--color-secondary); padding: 8px; margin-right: 0; }
-    .campo button[type="button"]:hover { background-color: var(--color-secondary-hover); }
-    button i { margin-right: 8px; font-size: 1.1em; }
-    
-    /* --- TABLA --- */
-    h2 {
-        margin-top: 40px;
-        color: var(--color-light-text);
-        border-bottom: 1px solid var(--color-secondary);
-        padding-bottom: 5px;
+    /* Botón Guardar/Actualizar (Principal) */
+    #btnGuardar {
+        background-color: var(--color-primary);
     }
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      box-shadow: 0 0 10px rgba(0,0,0,0.15);
-      margin-top: 20px;
-      background-color: var(--color-fondo-form);
+    #btnGuardar:hover {
+        background-color: var(--color-primary-hover);
+        transform: translateY(-1px);
     }
     
-    /* REGLAS PARA EVITAR DEFORMACIÓN DE LA TABLA */
-    th, td {
-      padding: 12px 15px;
-      border: 1px solid #3A3A3A;
-      text-align: left;
-      color: var(--color-light-text);
-      font-size: 0.85rem;
-      /* Aplica truncamiento por defecto a todas las celdas (excepto en responsive) */
-      max-width: 180px; 
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis; 
+    /* Botón de Eliminar (color destructivo) */
+    #btnEliminar {
+        background-color: var(--color-danger); 
+        transition: background-color 0.2s ease, transform 0.1s;
     }
-    
-    /* Ajuste para la columna Titular para que tenga un ancho visible, pero truncado */
-    #tablaNotas th[data-col="titular"], #tablaNotas td:nth-child(5) {
-        max-width: 250px; 
-    }
-    /* Ajuste para la columna de acciones (última) */
-    #tablaNotas th:last-child, #tablaNotas td:last-child {
-        max-width: 100px;
-        min-width: 100px;
-        white-space: nowrap;
-        overflow: visible;
-        text-overflow: clip; /* Permite que el botón se muestre */
-    }
-    
-    th {
-      background-color: var(--color-primary);
-      color: var(--color-light-text);
-      font-weight: 700;
-      position: sticky;
-      top: 0;
-    }
-    tbody tr:nth-child(even) { background-color: #353535; } 
-    .editando { background-color: var(--color-primary-hover) !important; color: var(--color-light-text); }
-    .editando td { color: var(--color-light-text); }
-    .alerta-vacio { background-color: var(--color-alerta-vacio) !important; color: var(--color-dark-text) !important; }
-    .alerta-vacio td { color: var(--color-dark-text) !important; }
-    
-    .error-carga {
-      color: var(--color-danger);
-      font-weight: bold;
-      margin-top: 15px;
-      background-color: var(--color-input-bg);
-      padding: 10px;
-      border-radius: var(--radius);
-    }
-    footer {
-      margin-top: 40px;
-      border-top: 1px solid var(--color-secondary);
-      padding-top: 10px;
-      font-size: 0.9em;
-      color: var(--color-light-text);
-      text-align: center;
+    #btnEliminar:hover {
+        background-color: var(--color-danger-hover);
+        transform: translateY(-1px);
     }
 
-    /* --- SORTING --- */
-    .sortable-header { cursor: pointer; display: flex; align-items: center; justify-content: space-between; width: 100%; }
-    .sort-icon { margin-left: 5px; font-size: 0.8em; opacity: 0.5; }
-    .sorted .sort-icon { opacity: 1; color: var(--color-light-text); }
-    .sorted.alerta-vacio .sort-icon { color: var(--color-dark-text); }
-    
-    /* --- GRUPO DE ACCIONES (Globales) --- */
-    .actions-group {
-        display: flex;
-        gap: 15px;
-        margin-top: 15px;
-        margin-bottom: 25px; 
-        justify-content: flex-start;
-        align-items: center;
+    /* Botón Limpiar (Secundario) */
+    #btnLimpiar {
+        background-color: var(--color-secondary);
     }
-    #btnExportar { background-color: #4A4A4A; } 
-    #btnExportar:hover { background-color: #616161; }
-    
-    #btnTelegram { background-color: #0088cc; }
-    #btnTelegram:hover { background-color: #0077b3; }
-
-    #btnBorrarTodo { background-color: var(--color-primary); }
-    #btnBorrarTodo:hover { background-color: var(--color-primary-hover); transform: translateY(-1px); }
-
-    /* Botón Editar en Tabla */
-    .btn-accion-tabla {
-        padding: 8px 12px;
-        background-color: var(--color-secondary); 
-        color: var(--color-light-text); 
+    #btnLimpiar:hover {
+        background-color: var(--color-secondary-hover);
+        transform: translateY(-1px);
     }
-    .btn-accion-tabla:hover { background-color: var(--color-secondary-hover); }
+    
+    /* Botón desplegable (🔽) */
+    .campo button[type="button"] {
+        background-color: var(--color-secondary);
+        padding: 8px;
+        margin-right: 0;
+    }
+    .campo button[type="button"]:hover {
+        background-color: var(--color-secondary-hover);
+    }
 
+    /* Iconos dentro de botones */
+    button i {
+        margin-right: 8px;
+        font-size: 1.1em;
+    }
+    
     /* --- ESTILOS DEL BUSCADOR --- */
     .buscador-container {
       position: relative;
       margin-bottom: 15px;
-      max-width: 400px;
+      max-width: 500px; 
     }
     
     #buscador {
@@ -300,11 +255,96 @@
       left: 12px;
       top: 50%;
       transform: translateY(-50%);
-      color: var(--color-primary);
+      color: var(--color-secondary);
       font-size: 1.1rem;
     }
 
-    /* --- RESPONSIVE --- */
+    /* --- TABLA (CORRECCIÓN DE DEFORMACIÓN) --- */
+    h2 {
+        margin-top: 40px;
+        color: var(--color-light-text);
+        border-bottom: 1px solid var(--color-secondary);
+        padding-bottom: 5px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15);
+      margin-top: 20px;
+      background-color: var(--color-fondo-form);
+      /* 🌟 CORRECCIÓN DE DEFORMACIÓN 1/3 */
+      table-layout: fixed; 
+    }
+    th, td {
+      padding: 12px 15px;
+      border: 1px solid var(--color-secondary);
+      text-align: left;
+      color: var(--color-light-text);
+      /* 🌟 CORRECCIÓN DE DEFORMACIÓN 2/3 */
+      word-wrap: break-word; 
+      overflow: hidden; 
+    }
+    /* 🌟 CORRECCIÓN DE DEFORMACIÓN 3/3: Definición de anchos */
+    #tablaNotas th:nth-child(1) { width: 3%; }  /* No. */
+    #tablaNotas th:nth-child(2) { width: 6%; }  /* Usuario */
+    #tablaNotas th:nth-child(3) { width: 6%; }  /* Fecha */
+    #tablaNotas th:nth-child(4) { width: 8%; }  /* Radiodifusora */
+    #tablaNotas th:nth-child(5) { width: 14%; } /* Titular */
+    #tablaNotas th:nth-child(6) { width: 10%; } /* Autor */
+    #tablaNotas th:nth-child(7) { width: 4%; }  /* Hora */
+    #tablaNotas th:nth-child(8) { width: 7%; }  /* Dependencia */
+    #tablaNotas th:nth-child(9) { width: 7%; }  /* Organismo */
+    #tablaNotas th:nth-child(10) { width: 5%; } /* Género */
+    #tablaNotas th:nth-child(11) { width: 4%; } /* Canal */
+    #tablaNotas th:nth-child(12) { width: 7%; } /* Tema */
+    #tablaNotas th:nth-child(13) { width: 5%; } /* Estatus */
+    #tablaNotas th:nth-child(14) { width: 7%; } /* Municipio */
+    #tablaNotas th:nth-child(15) { width: 7%; } /* Acciones */
+    /* FIN DE CORRECCIÓN DE DEFORMACIÓN */
+
+    th {
+      background-color: var(--color-primary);
+      color: var(--color-light-text);
+      font-weight: 700;
+      position: sticky;
+      top: 0;
+    }
+    tbody tr:nth-child(even) {
+        background-color: #383838;
+    }
+    .editando {
+        background-color: var(--color-primary-hover) !important;
+        color: var(--color-light-text);
+    }
+    .editando td {
+        color: var(--color-light-text);
+    }
+    /* ESTILO DE ALERTA PARA FILAS CON CAMPOS VACÍOS */
+    .alerta-vacio {
+        background-color: var(--color-alerta-vacio) !important;
+        color: var(--color-dark-text) !important;
+    }
+    .alerta-vacio td {
+        color: var(--color-dark-text) !important;
+    }
+    .error-carga {
+      color: var(--color-danger);
+      font-weight: bold;
+      margin-top: 15px;
+      background-color: var(--color-input-bg);
+      padding: 10px;
+      border-radius: var(--radius);
+    }
+    footer {
+      margin-top: 40px;
+      border-top: 1px solid var(--color-secondary);
+      padding-top: 10px;
+      font-size: 0.9em;
+      color: var(--color-light-text);
+      text-align: center;
+    }
+
+    /* --- ESTILOS RESPONSIVE (MÓVIL) --- */
     @media (max-width: 768px) {
         body { padding: 10px; }
         header { flex-direction: column; align-items: flex-start; padding: 10px; }
@@ -315,22 +355,18 @@
         .actions-group { flex-direction: column; align-items: stretch; }
         .actions-group button { width: 100%; margin-bottom: 10px; }
         
+        /* Ocultar encabezados en móvil y mostrar como bloques */
         table, thead, tbody, th, td, tr { display: block; }
         thead tr { position: absolute; top: -9999px; left: -9999px; }
-        tr { border: 1px solid #3A3A3A; margin-bottom: 10px; }
+        tr { border: 1px solid var(--color-secondary); margin-bottom: 10px; }
         td { 
             border: none;
-            border-bottom: 1px solid #4A4A4A;
+            border-bottom: 1px solid #7c7774;
             position: relative;
             padding-left: 50%;
             text-align: right;
             font-size: 0.9em;
             color: var(--color-light-text);
-            /* Resetear la deformación en responsive para que el texto se ajuste */
-            max-width: 100% !important; 
-            white-space: normal !important;
-            overflow: visible !important;
-            text-overflow: clip !important;
         }
         td:before { 
             content: attr(data-label);
@@ -342,8 +378,13 @@
             text-align: left;
             font-weight: 600;
         }
-        td:last-child { text-align: center; padding-left: 10px; }
-        .alerta-vacio td { color: var(--color-dark-text) !important; }
+        td:last-child {
+            text-align: center;
+            padding-left: 10px;
+        }
+        .alerta-vacio td {
+             color: var(--color-dark-text) !important;
+        }
     }
   </style>
 </head>
@@ -355,7 +396,7 @@
 
   <form>
     <div class="form-logo-container">
-        <img src="./logo.png" alt="Logotipo del Formulario">
+        <img src="./logo.png" alt="Logotipo del Formulario"> 
     </div>
 
     <label for="usuario">Usuario:</label>
@@ -397,13 +438,11 @@
       <div id="sugAutor" class="sugerencias"></div>
     </div>
 
-    <label for="programa">Programa:</label>
+    <label for="hora">Hora:</label>
     <div class="campo">
-      <input type="text" id="programa" name="programa" autocomplete="off">
-      <button type="button" onclick="mostrarSugerencias('programa','sugPrograma')">🔽</button>
-      <input type="checkbox" id="checkPrograma" onchange="alternarBloqueo('programa')">
-      <label for="checkPrograma">🔒</label>
-      <div id="sugPrograma" class="sugerencias"></div>
+      <input type="time" id="hora" name="hora">
+      <input type="checkbox" id="checkHora" onchange="alternarBloqueo('hora')">
+      <label for="checkHora">🔒</label>
     </div>
 
     <label for="dependencia">Dependencia:</label>
@@ -474,8 +513,8 @@
         <i class="fa-solid fa-floppy-disk"></i> Guardar
       </button>
 
-      <button type="button" id="btnEliminar" style="display: none;" onclick="borrarNota()">
-        <i class="fa-solid fa-trash-can"></i> Borrar Nota
+      <button type="button" id="btnEliminar" style="display: none;" onclick="eliminarNotaEnEdicion()">
+        <i class="fa-solid fa-trash-can"></i> Eliminar
       </button>
 
       <button type="reset" id="btnLimpiar">
@@ -486,36 +525,35 @@
 
   <div class="actions-group">
     <button id="btnExportar" onclick="exportarCSV()">
-      <i class="fa-solid fa-file-csv"></i> Exportar a hoja de cálculo
+      <i class="fa-solid fa-file-csv"></i> Exportar Hoja de Cálculo (CSV)
     </button>
-    
     <button id="btnTelegram" onclick="enviarTelegram()">
       <i class="fa-brands fa-telegram"></i> Enviar por Telegram
     </button> 
-    
     <button id="btnBorrarTodo" onclick="borrarTodo()">
       <i class="fa-solid fa-trash-can"></i> Borrar Todas
     </button>
   </div>
   
   <div id="erroresCarga" class="error-carga"></div>
-  
-  <div class="buscador-container">
-      <i class="fas fa-search buscador-icon"></i>
-      <input type="text" id="buscador" placeholder="Buscar en la tabla (Titular, Autor, etc.)">
-  </div>
-  
+
   <h2>Notas capturadas</h2>
+
+  <div class="buscador-container">
+    <i class="fa-solid fa-magnifying-glass buscador-icon"></i>
+    <input type="text" id="buscador" placeholder="Buscar por titular, radiodifusora, autor, municipio...">
+  </div>
+
   <table id="tablaNotas">
     <thead>
       <tr>
-        <th data-col="ordenCaptura"><div class="sortable-header"># <span class="sort-icon"></span></div></th>
+        <th data-col="ordenCaptura"><div class="sortable-header">No. <span class="sort-icon"></span></div></th>
         <th data-col="usuario"><div class="sortable-header">Usuario <span class="sort-icon"></span></div></th>
         <th data-col="fecha"><div class="sortable-header">Fecha <span class="sort-icon"></span></div></th>
         <th data-col="radiodifusora"><div class="sortable-header">Radiodifusora <span class="sort-icon"></span></div></th>
         <th data-col="titular"><div class="sortable-header">Titular <span class="sort-icon"></span></div></th>
         <th data-col="autor"><div class="sortable-header">Autor <span class="sort-icon"></span></div></th>
-        <th data-col="programa"><div class="sortable-header">Programa <span class="sort-icon"></span></div></th>
+        <th data-col="hora"><div class="sortable-header">Hora <span class="sort-icon"></span></div></th>
         <th data-col="dependencia"><div class="sortable-header">Dependencia <span class="sort-icon"></span></div></th>
         <th data-col="organismo"><div class="sortable-header">Organismo <span class="sort-icon"></span></div></th>
         <th data-col="genero"><div class="sortable-header">Género <span class="sort-icon"></span></div></th>
@@ -533,31 +571,33 @@
   <script>
     let notas = [];
     let filaEnEdicion = null;
-    let nextOrdenCaptura = 1;
-    
-    // CAMPOS PARA RADIO
-    const camposDeDatos = ["ordenCaptura", "usuario", "fecha", "radiodifusora", "titular", "autor", "programa", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
-    
-    // ENCABEZADOS (Sin columna Telegram individual)
+    let nextOrdenCaptura = 1; 
+    const camposDeDatos = ["usuario", "fecha", "radiodifusora", "titular", "autor", "hora", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
     const encabezadosTabla = {
-        "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "radiodifusora": "Radiodifusora", "titular": "Titular", "autor": "Autor", 
-        "programa": "Programa", "dependencia": "Dependencia", "organismo": "Organismo", "genero": "Género", 
-        "canal": "Canal", "tema": "Tema", "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
+        "ordenCaptura": "No.", 
+        "usuario": "Usuario", "fecha": "Fecha", "radiodifusora": "Radiodifusora", "titular": "Titular", 
+        "autor": "Autor", "hora": "Hora", "dependencia": "Dependencia", "organismo": "Organismo", 
+        "genero": "Género", "canal": "Canal", "tema": "Tema", "estatus": "Estatus", 
+        "municipio": "Municipio", "acciones": "Acciones"
     };
     
     let ordenActual = { columna: 'ordenCaptura', direccion: 'desc' }; 
 
-    // RUTAS RELATIVAS
+    // 🌟 CORRECCIÓN DE URLs - USO DE RUTA ABSOLUTA PARA GITHUB PAGES
+    const BASE_URL = "https://thelonious9.github.io/capturanotas/";
+
     const urls = {
-      dependencias: "./Dependencia.csv",
-      radiodifusoras: "./Radiodifusora.csv", 
-      generos: "./Genero.csv",
-      estatus: "./Estatus.csv",
-      temas: "./Tema.csv",
-      municipios: "./Municipio.csv",
-      autores: "./Autor.csv" 
+      dependencias: BASE_URL + "Dependencia.csv",
+      radiodifusoras: BASE_URL + "Radiodifusora.csv", 
+      generos: BASE_URL + "Genero.csv",
+      estatus: BASE_URL + "Estatus.csv",
+      temas: BASE_URL + "Tema.csv",
+      municipios: BASE_URL + "Municipio.csv",
+      autores: BASE_URL + "Autor.csv",
+      canales: BASE_URL + "Canal.csv" // Asegurar que Canal.csv esté aquí
     };
-    
+    // -----------------------------------------------------------------
+
     function findKeyCaseInsensitive(map, value) {
         if (!value) return null;
         const lowerValue = value.toLowerCase();
@@ -573,20 +613,12 @@
       try {
         const urlConCacheBuster = `${url}?t=${new Date().getTime()}`;
         const res = await fetch(urlConCacheBuster);
-        
-        const contentType = res.headers.get("content-type");
-        if (contentType && !contentType.includes("text/csv") && !contentType.includes("text/plain")) {
-            if (contentType.includes("text/html")) {
-                throw new Error(`Contenido HTML inesperado. Revise ruta: ${url}`);
-            }
-        }
-        
         const buffer = await res.arrayBuffer(); 
         const decoder = new TextDecoder('utf-8'); 
         const texto = decoder.decode(buffer); 
         return texto.split('\n').map(linea => linea.split(','));
       } catch (e) {
-        document.getElementById("erroresCarga").innerText += `Error al cargar ${url}: ${e.message}\n`;
+        document.getElementById("erroresCarga").innerText += `Error al cargar ${url} (problema de codificación o red).\n`;
         return [];
       }
     }
@@ -595,7 +627,8 @@
       if (!filas || filas.length === 0) return [];
       filas[0][0] = filas[0][0].replace(/^\uFEFF/, "");
       const encabezado = filas[0].map(c => (c || "").toLowerCase()).join(",");
-      const tieneEncabezado = encabezado.includes("dependencia") || encabezado.includes("radiodifusora") || encabezado.includes("género");
+      // Agregado "radiodifusora", "autor" a los encabezados
+      const tieneEncabezado = encabezado.includes("dependencia") || encabezado.includes("radiodifusora") || encabezado.includes("género") || encabezado.includes("autor");
       if (tieneEncabezado) filas = filas.slice(1);
       return filas.map(r => r.map(c => (c || "").replace(/<[^>]+>/g, "").trim())).filter(r => r[0]);
     }
@@ -673,7 +706,7 @@
             }
         });
       });
-      
+
       campo.addEventListener("blur", () => {
           setTimeout(() => {
               if (!contenedor.contains(document.activeElement)) {
@@ -687,7 +720,7 @@
         items[i].classList.add("resaltado");
       }
     }
-    
+
     function mostrarSugerencias(idCampo, idSugerencias) {
       const campo = document.getElementById(idCampo);
       const contenedor = document.getElementById(idSugerencias);
@@ -703,57 +736,60 @@
         div.onclick = () => {
           campo.value = s;
           contenedor.innerHTML = "";
-          if (idCampo === 'radiodifusora') {
-              document.getElementById("radiodifusora").dispatchEvent(new Event('blur'));
-          }
-          if (idCampo === 'dependencia') {
-              document.getElementById("dependencia").dispatchEvent(new Event('blur'));
-          }
         };
         contenedor.appendChild(div);
       });
-      if (lista.length > 0) {
-        contenedor.style.display = 'block';
-      }
-    }
-
-    function resetearEstadoEdicion() {
-        filaEnEdicion = null;
-        document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Guardar';
-        document.getElementById('btnEliminar').style.display = 'none';
-        document.querySelectorAll('#tablaNotas tbody tr').forEach(row => row.classList.remove('editando'));
     }
 
     function guardarNotas() {
         localStorage.setItem('notasCapturadas', JSON.stringify(notas));
-        localStorage.setItem('nextOrdenCaptura', nextOrdenCaptura);
+    }
+    
+    function resetearEstadoEdicion() {
+        const btnGuardar = document.getElementById('btnGuardar');
+        const btnEliminar = document.getElementById('btnEliminar');
+
+        if (btnGuardar) btnGuardar.innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Guardar';
+        if (btnEliminar) btnEliminar.style.display = 'none'; 
+
+        document.querySelectorAll('#tablaNotas tbody tr').forEach(row => row.classList.remove('editando'));
+        filaEnEdicion = null;
     }
 
     function borrarTodo() {
         if (confirm("¿Estás seguro de que quieres BORRAR TODAS las notas capturadas? Esta acción es irreversible.")) {
             notas = []; 
-            nextOrdenCaptura = 1;
+            nextOrdenCaptura = 1; 
             localStorage.removeItem('notasCapturadas'); 
+            
+            resetearEstadoEdicion(); 
+            
             renderizarTabla(); 
-            resetearEstadoEdicion();
         }
     }
-    
-    function borrarNota() {
-        if (filaEnEdicion !== null) {
-            const confirmar = confirm(`¿Eliminar nota #${notas[filaEnEdicion].ordenCaptura}?`);
-            if (confirmar) {
-                notas.splice(filaEnEdicion, 1);
-                guardarNotas();
-                ordenarTabla(ordenActual.columna, true); 
-                document.querySelector("form").reset(); 
-                resetearEstadoEdicion(); 
-            }
+
+    function eliminarNotaEnEdicion() {
+        if (filaEnEdicion === null || filaEnEdicion >= notas.length) return;
+
+        const notaAEliminar = notas[filaEnEdicion];
+
+        if (confirm(`¿Estás seguro de que deseas ELIMINAR la nota N°${notaAEliminar.ordenCaptura} (Titular: ${notaAEliminar.titular || 'sin titular'})? Esta acción es irreversible.`)) {
+            notas.splice(filaEnEdicion, 1);
+            
+            guardarNotas();
+            
+            document.querySelector("form").reset(); 
+            resetearEstadoEdicion();
+
+            ordenarTabla(ordenActual.columna, true); 
+            
+            alert("La nota ha sido eliminada con éxito.");
         }
     }
 
     function contieneCamposVacios(nota) {
-        const camposARevisar = camposDeDatos.filter(c => c !== 'ordenCaptura'); 
+        const camposARevisar = camposDeDatos.filter(campo => campo !== 'ordenCaptura'); 
+        
         for (const campo of camposARevisar) {
             if (!nota[campo] || (typeof nota[campo] === 'string' && nota[campo].trim() === '')) {
                 return true;
@@ -766,13 +802,21 @@
         const tablaBody = document.getElementById("tablaNotas").querySelector("tbody");
         tablaBody.innerHTML = '';
         
+        const terminoBusqueda = document.getElementById('buscador').value.toLowerCase();
+
         notas.forEach((nota, indice) => {
             const tr = document.createElement("tr");
-            tr.dataset.index = notas.indexOf(nota);
+            tr.dataset.index = notas.indexOf(nota); 
 
             if (contieneCamposVacios(nota)) {
                 tr.classList.add('alerta-vacio');
             }
+
+            // Columna No. (ordenCaptura)
+            const tdOrden = document.createElement("td");
+            tdOrden.textContent = nota.ordenCaptura;
+            tdOrden.setAttribute('data-label', encabezadosTabla['ordenCaptura']);
+            tr.appendChild(tdOrden);
 
             camposDeDatos.forEach(campo => {
                 const td = document.createElement("td");
@@ -791,27 +835,40 @@
             tr.appendChild(tdAcciones);
 
             tablaBody.appendChild(tr);
+
+            // APLICAR FILTRO DE BÚSQUEDA AL RENDERIZAR
+            if (terminoBusqueda) {
+                const textoFila = tr.textContent.toLowerCase();
+                if (!textoFila.includes(terminoBusqueda)) {
+                    tr.style.display = 'none';
+                }
+            }
         });
-        
-        // Vuelve a aplicar el filtro después de renderizar (útil para cuando se edita/guarda)
-        filtrarTabla();
     }
 
     function cargarNotasGuardadas() {
         const datosJSON = localStorage.getItem('notasCapturadas');
-        const ordenJSON = localStorage.getItem('nextOrdenCaptura');
-        
-        if (ordenJSON) nextOrdenCaptura = parseInt(ordenJSON, 10);
-
         if (datosJSON) {
             try {
                 notas = JSON.parse(datosJSON);
+                let maxOrden = 0;
                 notas.forEach(nota => {
-                    if (!nota.ordenCaptura) nota.ordenCaptura = nextOrdenCaptura++; 
+                    if (nota.ordenCaptura === undefined || nota.ordenCaptura === null) {
+                        nota.ordenCaptura = ++maxOrden; 
+                    } else {
+                         if (nota.ordenCaptura > maxOrden) {
+                            maxOrden = nota.ordenCaptura;
+                        }
+                    }
                 });
-                ordenarTabla(ordenActual.columna, true);
+                
+                if (maxOrden > 0) guardarNotas(); 
+                
+                nextOrdenCaptura = maxOrden + 1; 
+                
+                ordenarTabla(ordenActual.columna, true); 
             } catch (e) {
-                console.error("Error al cargar notas:", e);
+                console.error("Error al cargar notas de localStorage:", e);
                 notas = [];
             }
         } else {
@@ -834,55 +891,66 @@
         const indice = parseInt(tr.dataset.index);
         const nota = notas[indice];
 
-        camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
+        camposDeDatos.forEach(id => {
             document.getElementById(id).value = nota[id];
         });
-
-        resetearEstadoEdicion();
         
+        // Disparar eventos para actualizar sugerencias de Organismo/Autor/Canal
         document.getElementById("dependencia").dispatchEvent(new Event('blur'));
-        document.getElementById("radiodifusora").dispatchEvent(new Event('blur')); 
+        document.getElementById("radiodifusora").dispatchEvent(new Event('blur'));
         
+        // Pequeño hack para asegurar que el valor de autor/canal se rellene
+        setTimeout(() => {
+             document.getElementById("autor").value = nota["autor"];
+             document.getElementById("canal").value = nota["canal"];
+        }, 100);
+
+
         filaEnEdicion = indice; 
         document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Actualizar Nota';
-        document.getElementById('btnEliminar').style.display = 'inline-block';
+        document.getElementById('btnEliminar').style.display = 'inline-block'; 
         
         document.querySelectorAll('#tablaNotas tbody tr').forEach(row => row.classList.remove('editando'));
         tr.classList.add('editando');
+        
         window.scrollTo(0, 0);
     }
-
-    function generarNombreArchivoCSV() {
-        const usuario = document.getElementById('usuario').value.trim() || 'Desconocido';
-        const usuarioLimpio = usuario.replace(/\s/g, '_').replace(/[^a-zA-Z0-9_]/g, ''); 
-        const fechaHoy = new Date().toISOString().slice(0, 10); 
-        return `${usuarioLimpio}_${fechaHoy}.csv`;
-    }
-
+    
     function generarCSVContenido() {
-      const cabeceras = ["#", "Usuario", "Fecha", "Radiodifusora", "Titular", "Autor", "Programa", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"];
+      const cabeceras = ["No.", "Usuario", "Fecha", "Radiodifusora", "Titular", "Autor", "Hora", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"]; 
       const filas = [cabeceras];
       
       notas.forEach(nota => {
-        const fila = camposDeDatos.map(key => {
+        const fila = [nota.ordenCaptura || ''].concat(camposDeDatos.map(key => {
             let valor = nota[key] || '';
-            return `"${valor.toString().replace(/"/g, '""')}"`; 
-        });
+            return `"${valor.replace(/"/g, '""')}"`; 
+        }));
         filas.push(fila);
       });
       
       return "\uFEFF" + filas.map(f => f.join(",")).join("\n");
     }
 
+    function generarNombreArchivoCSV() {
+        const usuario = document.getElementById('usuario').value.trim() || 'Desconocido';
+        const usuarioLimpio = usuario.replace(/\s/g, '_').replace(/[^a-zA-Z0-9_]/g, ''); 
+        const fechaHoy = new Date().toISOString().slice(0, 10); 
+        return `RADIO_${usuarioLimpio}_${fechaHoy}.csv`;
+    }
+
     function exportarCSV() {
-        if (notas.length === 0) { alert("No hay notas para exportar."); return; }
-        
+        if (notas.length === 0) {
+            alert("No hay notas para exportar.");
+            return;
+        }
+
         const csvContenido = generarCSVContenido();
         const nombreArchivo = generarNombreArchivoCSV();
         
         const blob = new Blob([csvContenido], { type: "text/csv;charset=utf-8;" });
         const url = URL.createObjectURL(blob);
         const a = document.createElement("a");
+        
         a.href = url;
         a.download = nombreArchivo;
         document.body.appendChild(a); 
@@ -897,10 +965,8 @@
              return;
         }
 
-        // CONFIGURACIÓN TELEGRAM
         const TELEGRAM_BOT_TOKEN = "8428524335:AAFeKrvKrUxrI9NAkL_G1-X6LdL4Fv6fkV4"; 
-        const TELEGRAM_CHAT_ID = "@capsmonitoreo"; 
-
+        const TELEGRAM_CHAT_ID = "@capsmonitoreo";
         const URL_TELEGRAM = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument`; 
         
         try {
@@ -909,12 +975,13 @@
 
             const csvContenido = generarCSVContenido();
             const blobCSV = new Blob([csvContenido], { type: "text/csv;charset=utf-8;" });
+            
             const nombreArchivoTelegram = generarNombreArchivoCSV();
 
             const formData = new FormData();
             formData.append('chat_id', TELEGRAM_CHAT_ID);
             formData.append('document', blobCSV, nombreArchivoTelegram); 
-            formData.append('caption', `📋 Reporte de notas de Radio (${nombreArchivoTelegram}) enviado automáticamente.`);
+            formData.append('caption', `📋 Reporte de notas de radio (${nombreArchivoTelegram}) enviado automáticamente.`);
 
             const response = await fetch(URL_TELEGRAM, {
                 method: 'POST',
@@ -926,13 +993,17 @@
             if (response.ok && result.ok) {
                 alert(`¡CSV '${nombreArchivoTelegram}' enviado con éxito al canal ${TELEGRAM_CHAT_ID}!`);
             } else {
-                console.error("Error Telegram:", result);
-                alert(`Error Telegram: ${result.description}`);
+                console.error("Error de la API de Telegram:", result);
+                let mensajeError = `Error al enviar el archivo a Telegram: ${result.description || 'Consulta la consola.'}`;
+                if (result.description.includes('chat not found') || result.description.includes('bot is not a member')) {
+                    mensajeError += "\n\n⚠️ Verifica: ¿Agregaste el bot al canal como ADMINISTRADOR con permiso de envío?";
+                }
+                alert(mensajeError);
             }
 
         } catch (error) {
-            console.error("Error conexión:", error);
-            alert("Error al intentar comunicarse con Telegram. Revisa la consola.");
+            console.error("Error de conexión:", error);
+            alert("Error al intentar comunicarse con Telegram. Revisa la consola (net::ERR_CONNECTION_TIMED_OUT) y las credenciales.");
         } finally {
             document.getElementById('btnTelegram').disabled = false;
             document.getElementById('btnTelegram').innerHTML = '<i class="fa-brands fa-telegram"></i> Enviar por Telegram';
@@ -941,27 +1012,37 @@
 
     function ordenarTabla(columna, esInicial = false) {
         if (!columna) return;
+
         let direccion = 'asc';
+        
         if (ordenActual.columna === columna && !esInicial) {
             direccion = ordenActual.direccion === 'asc' ? 'desc' : 'asc';
         } else if (esInicial && columna === 'ordenCaptura') {
-            direccion = 'desc';
+             direccion = 'desc'; 
         }
 
         notas.sort((a, b) => {
             const valA = a[columna] || '';
             const valB = b[columna] || '';
             let comparacion = 0;
-            
-            if (columna === 'ordenCaptura') comparacion = valA - valB;
-            else if (columna === 'fecha') {
+
+            if (columna === 'fecha') {
                 const dateA = new Date(valA + 'T00:00:00');
                 const dateB = new Date(valB + 'T00:00:00');
                 if (dateA < dateB) comparacion = -1;
                 if (dateA > dateB) comparacion = 1;
+            } else if (columna === 'hora') { 
+                // Comparación de horas (cadenas de texto H:MM o H:MM:SS)
+                comparacion = valA.localeCompare(valB);
+            } else if (columna === 'ordenCaptura') { 
+                const numA = parseInt(valA) || 0;
+                const numB = parseInt(valB) || 0;
+                if (numA < numB) comparacion = -1;
+                if (numA > numB) comparacion = 1;
             } else {
-                comparacion = valA.toString().localeCompare(valB.toString(), 'es', { sensitivity: 'base' });
+                comparacion = valA.localeCompare(valB, 'es', { sensitivity: 'base' });
             }
+
             return direccion === 'asc' ? comparacion : -comparacion;
         });
 
@@ -975,18 +1056,22 @@
             const headerDiv = th.querySelector('.sortable-header');
             const iconSpan = th.querySelector('.sort-icon');
             const col = th.dataset.col;
+
             headerDiv.classList.remove('sorted');
             iconSpan.innerHTML = ''; 
+
             if (col === ordenActual.columna) {
                 headerDiv.classList.add('sorted');
-                iconSpan.innerHTML = ordenActual.direccion === 'asc' ? '<i class="fas fa-sort-up"></i>' : '<i class="fas fa-sort-down"></i>';
+                iconSpan.innerHTML = ordenActual.direccion === 'asc' 
+                    ? '<i class="fas fa-sort-up"></i>'
+                    : '<i class="fas fa-sort-down"></i>';
             } else {
                 iconSpan.innerHTML = '<i class="fas fa-sort"></i>';
             }
         });
     }
 
-    // --- FUNCIÓN DE BÚSQUEDA EN TIEMPO REAL ---
+    // ⭐⭐ FUNCIÓN DE BUSCADOR CORREGIDA Y ACTIVA ⭐⭐
     function filtrarTabla() {
         const input = document.getElementById('buscador');
         const filtro = input.value.toLowerCase();
@@ -994,89 +1079,138 @@
         
         filas.forEach(tr => {
             let encontrado = false;
-            // Itera sobre las celdas (excepto la última, que es la de Acciones)
-            for (let i = 0; i < tr.cells.length - 1; i++) {
+            // Itera sobre todas las celdas de la fila
+            for (let i = 0; i < tr.cells.length; i++) {
                 const textoCelda = tr.cells[i].textContent || tr.cells[i].innerText;
+                // Excluir la columna de Acciones del filtro
+                if (tr.cells[i].getAttribute('data-label') === 'Acciones') continue; 
+                
                 if (textoCelda.toLowerCase().includes(filtro)) {
                     encontrado = true;
                     break;
                 }
             }
-            // Muestra u oculta la fila según el resultado del filtro
+            // Muestra u oculta la fila
             tr.style.display = encontrado ? "" : "none";
         });
     }
 
     // --- Eventos ---
-    document.addEventListener("DOMContentLoaded", async () => {
-      let orgMap, programaMap; 
 
+    document.addEventListener("DOMContentLoaded", async () => {
+      let orgMap, autorMap, canalMap;
+
+      // 1. Cargar Dependencias y Organismos
       const depData = await cargarMapa(urls.dependencias);
       orgMap = depData.map;
       autocompletar("dependencia", "sugDep", depData.claves, dep => {
         autocompletar("organismo", "sugOrg", orgMap[dep] || []);
       });
-      
+
+      // 2. Cargar Autores (reemplaza a Firmas)
+      const autorData = await cargarMapa(urls.autores);
+      autorMap = autorData.map;
+      autocompletar("autor", "sugAutor", []); 
+
+      // 3. Cargar Radiodifusoras y vincular con Canal y Autor
       const radioData = await cargarMapa(urls.radiodifusoras);
-      programaMap = radioData.map;
+      canalMap = radioData.map;
+
       autocompletar("radiodifusora", "sugRadiodifusora", radioData.claves, radio => {
-        const programas = programaMap[radio] || [];
-        autocompletar("programa", "sugPrograma", programas); 
-        if (programas.length === 1) document.getElementById("programa").value = programas[0];
+        // A) Actualizar Canales
+        const canales = canalMap[radio] || [];
+        autocompletar("canal", "sugCanal", canales);
+        if (canales.length === 1) {
+          document.getElementById("canal").value = canales[0];
+        }
+
+        // B) Actualizar Autores
+        const autores = autorMap[radio] || [];
+        autocompletar("autor", "sugAutor", autores);
+        document.getElementById("autor").value = ""; 
       });
       
-      // Blur events
+      // Evento Blur para Dependencia
       document.getElementById("dependencia").addEventListener("blur", (e) => {
-          const val = e.target.value.trim();
-          const key = findKeyCaseInsensitive(orgMap, val);
-          if (key) { e.target.value = key; autocompletar("organismo", "sugOrg", orgMap[key] || []); }
-          else autocompletar("organismo", "sugOrg", []);
-      });
-      
-      document.getElementById("radiodifusora").addEventListener("blur", (e) => {
-          const val = e.target.value.trim();
-          const key = findKeyCaseInsensitive(programaMap, val);
-          if (key) { 
-              e.target.value = key; 
-              const progs = programaMap[key] || [];
-              autocompletar("programa", "sugPrograma", progs);
-              if (progs.length === 1) document.getElementById("programa").value = progs[0];
+          const campo = e.target;
+          const depValue = campo.value.trim();
+          const foundKey = findKeyCaseInsensitive(orgMap, depValue);
+
+          if (foundKey) {
+              campo.value = foundKey;
+              autocompletar("organismo", "sugOrg", orgMap[foundKey] || []);
           } else {
-              autocompletar("programa", "sugPrograma", []);
+              autocompletar("organismo", "sugOrg", []);
           }
       });
       
-      // Initialize dependent empty
-      autocompletar("organismo", "sugOrg", []); 
-      autocompletar("programa", "sugPrograma", []); 
+      // Evento Blur para Radiodifusora (ACTUALIZADO)
+      document.getElementById("radiodifusora").addEventListener("blur", (e) => {
+          const campo = e.target;
+          const radioValue = campo.value.trim();
+          const foundKey = findKeyCaseInsensitive(canalMap, radioValue);
 
+          if (foundKey) {
+              campo.value = foundKey;
+              
+              // Actualizar Canales
+              const canales = canalMap[foundKey] || [];
+              autocompletar("canal", "sugCanal", canales);
+              if (canales.length === 1) {
+                document.getElementById("canal").value = canales[0];
+              }
+
+              // Actualizar Autores
+              const autores = autorMap[foundKey] || []; 
+              autocompletar("autor", "sugAutor", autores);
+
+          } else {
+              // Si no hay match, limpiar sugerencias de ambos
+              autocompletar("canal", "sugCanal", []);
+              autocompletar("autor", "sugAutor", []);
+          }
+      });
+      
+      // ⭐⭐ VINCULACIÓN DEL BUSCADOR (CORREGIDA) ⭐⭐
+      document.getElementById('buscador').addEventListener('input', filtrarTabla); 
+      
+      autocompletar("organismo", "sugOrg", []); 
+      
+      // 🌟 CORRECCIÓN FINAL DE CARGA DE CANAL.CSV
+      autocompletar("canal", "sugCanal", await cargarLista(urls.canales)); 
+      
       autocompletar("genero", "sugGenero", await cargarLista(urls.generos));
       autocompletar("estatus", "sugEstatus", await cargarLista(urls.estatus));
       autocompletar("tema", "sugTema", await cargarLista(urls.temas));
       autocompletar("municipio", "sugMunicipio", await cargarLista(urls.municipios));
-      autocompletar("autor", "sugAutor", await cargarLista(urls.autores)); 
-      autocompletar("canal", "sugCanal", await cargarLista("./Canal.csv")); 
-      
-      // --- Listener para el buscador en tiempo real (Restablecido) ---
-      document.getElementById('buscador').addEventListener('input', filtrarTabla); 
 
-      // Persistence & Locks
-      camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
+      // Persistencia
+      camposDeDatos.forEach(id => {
         const campo = document.getElementById(id);
-        if (localStorage.getItem(id)) campo.value = localStorage.getItem(id);
-        campo.addEventListener("input", () => localStorage.setItem(id, campo.value));
         
-        const chk = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
-        if (chk) {
-            chk.checked = localStorage.getItem(`bloqueado_${id}`) === 'true';
+        if (localStorage.getItem(id)) campo.value = localStorage.getItem(id);
+        
+        campo.addEventListener("input", () => {
+          localStorage.setItem(id, campo.value);
+        });
+
+        const checkboxId = `check${id.charAt(0).toUpperCase() + id.slice(1)}`;
+        const checkbox = document.getElementById(checkboxId);
+        const isBlocked = localStorage.getItem(`bloqueado_${id}`) === 'true';
+
+        if (checkbox) {
+            checkbox.checked = isBlocked;
             alternarBloqueo(id);
         }
       });
       
       cargarNotasGuardadas();
 
+      // Listener para ordenar al hacer clic en las cabeceras
       document.querySelectorAll('#tablaNotas th[data-col]').forEach(th => {
-          th.addEventListener('click', () => ordenarTabla(th.dataset.col));
+          th.addEventListener('click', () => {
+              ordenarTabla(th.dataset.col);
+          });
       });
 
       document.querySelector("form").addEventListener('reset', () => {
@@ -1088,7 +1222,7 @@
 
       document.addEventListener('click', (e) => {
         if (!e.target.closest('.campo')) {
-            document.querySelectorAll('.sugerencias').forEach(s => s.innerHTML = "");
+            document.querySelectorAll('.sugerencias').forEach(sug => sug.innerHTML = "");
         }
       });
     });
@@ -1096,33 +1230,45 @@
     document.querySelector("form").addEventListener("submit", e => {
       e.preventDefault();
       const nuevaNota = {};
+      
+      // 1. Recolectar datos y persistir campos bloqueados
       camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
-        nuevaNota[id] = document.getElementById(id).value.trim();
+        const campo = document.getElementById(id);
+        nuevaNota[id] = campo.value.trim();
+        
+        if (localStorage.getItem(`bloqueado_${id}`) === 'true') {
+             localStorage.setItem(id, nuevaNota[id]);
+        }
       });
 
+      // 2. Guardar/Actualizar nota
       if (filaEnEdicion !== null) {
           notas[filaEnEdicion] = {...nuevaNota, ordenCaptura: notas[filaEnEdicion].ordenCaptura};
           resetearEstadoEdicion();
       } else {
           nuevaNota.ordenCaptura = nextOrdenCaptura++; 
           notas.push(nuevaNota);
+          document.getElementById('btnEliminar').style.display = 'none';
       }
       
       guardarNotas();
       ordenarTabla(ordenActual.columna, true); 
       
+      // 3. Limpiar campos NO bloqueados y eliminar su persistencia
       camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
           if (localStorage.getItem(`bloqueado_${id}`) !== 'true') {
               document.getElementById(id).value = '';
               localStorage.removeItem(id); 
           }
       });
+      
+      // 4. Enfocar
       document.getElementById('titular').focus();
     });
   </script>
 
   <footer>
-    © 2025 Francisco, El Bizcocho de Montecristo Villeda. Todos los derechos reservados.
+    © 2025 Francisco Villeda. Todos los derechos reservados.
   </footer>
 </body>
 </html>
