@@ -273,6 +273,7 @@
         margin-bottom: 25px; 
         justify-content: flex-start;
         align-items: center;
+        flex-wrap: wrap; /* Permite que los elementos se envuelvan */
     }
     #btnExportar { background-color: #4A4A4A; } 
     #btnExportar:hover { background-color: #616161; }
@@ -283,10 +284,39 @@
     /* Botón Sugerir Tema - Nuevo Estilo */
     #btnSugerirTema { background-color: #096F4B; }
     #btnSugerirTema:hover { background-color: #0A7E56; }
+    #btnSugerirTema i { margin-right: 0; } /* Quitar margen del icono en botón Sugerir Tema (ya que está al final) */
 
 
     #btnBorrarTodo { background-color: var(--color-primary); }
     #btnBorrarTodo:hover { background-color: var(--color-primary-hover); transform: translateY(-1px); }
+
+    /* --- NUEVOS ESTILOS PARA CAMPO DE SUGERENCIA DE TEMA DEDICADO --- */
+    .suggestion-input-group {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        /* Estilo para que se distinga como un grupo funcional */
+        background-color: #4A4A4A; 
+        padding: 8px; 
+        border-radius: var(--radius);
+        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    #sugerenciaTemaInput {
+        padding: 10px 15px;
+        border: 1px solid var(--color-primary-hover);
+        border-radius: var(--radius);
+        background-color: var(--color-input-bg);
+        color: var(--color-dark-text);
+        flex-grow: 1; 
+        width: 250px; /* Ancho base */
+    }
+    /* El botón sugerir tema ahora va dentro del grupo de sugerencia */
+    .suggestion-input-group #btnSugerirTema {
+        margin-right: 0;
+        padding: 10px 15px; 
+    }
+    /* --- FIN NUEVOS ESTILOS --- */
+
 
     /* Botón Editar en Tabla */
     .btn-accion-tabla {
@@ -341,6 +371,22 @@
         .actions-group { flex-direction: column; align-items: stretch; }
         .actions-group button { width: 100%; margin-bottom: 10px; }
         
+        /* Responsive para el grupo de sugerencia */
+        .suggestion-input-group {
+            flex-direction: column;
+            align-items: stretch;
+            width: 100%;
+            padding: 15px 10px; /* Más padding para que se vea mejor */
+        }
+        #sugerenciaTemaInput {
+            max-width: none;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        .suggestion-input-group #btnSugerirTema {
+             width: 100%;
+        }
+
         table, thead, tbody, th, td, tr { display: block; }
         thead tr { position: absolute; top: -9999px; left: -9999px; }
         tr { border: 1px solid #7D7C79; margin-bottom: 10px; }
@@ -414,7 +460,7 @@
       <label for="checkTitular">🔒</label>
     </div>
 
-    <label for="firma">Firma (Opcional):</label>
+    <label for="firma">Firma:</label>
     <div class="campo">
       <input type="text" id="firma" name="firma" autocomplete="off">
       <button type="button" onclick="mostrarSugerencias('firma','sugFirma')" tabindex="-1">🔽</button>
@@ -464,7 +510,7 @@
       <div id="sugCanal" class="sugerencias"></div>
     </div>
     
-    <label for="tema">Tema (Opcional):</label>
+    <label for="tema">Tema:</label>
     <div class="campo">
       <input type="text" id="tema" name="tema" autocomplete="off">
       <button type="button" onclick="mostrarSugerencias('tema','sugTema')" tabindex="-1">🔽</button>
@@ -472,6 +518,7 @@
       <label for="checkTema">🔒</label>
       <div id="sugTema" class="sugerencias"></div>
     </div>
+    
     <label for="estatus">Estatus:</label>
     <div class="campo">
       <input type="text" id="estatus" name="estatus" autocomplete="off" required>
@@ -509,9 +556,13 @@
   </form>
 
   <div class="actions-group">
-    <button id="btnSugerirTema" onclick="enviarSugerenciaTema()">
-        <i class="fa-solid fa-paper-plane"></i> Sugerir Tema
-    </button>
+    <div class="suggestion-input-group">
+        <input type="text" id="sugerenciaTemaInput" placeholder="Escribe aquí tu sugerencia de tema" required>
+        <button id="btnSugerirTema" onclick="enviarSugerenciaTema()">
+            Sugerir Tema <i class="fa-solid fa-paper-plane"></i>
+        </button>
+    </div>
+    
     <button id="btnExportar" onclick="exportarCSV()">
       <i class="fa-solid fa-file-csv"></i> Exportar a hoja de cálculo
     </button>
@@ -562,13 +613,14 @@
     let filaEnEdicion = null;
     let nextOrdenCaptura = 1;
     
-    // 🌟 ORDEN DE CAMPOS ACTUALIZADO (PÁGINA es requerida y movida) 🌟
+    // ORDEN DE CAMPOS ACTUALIZADO
     const camposDeDatos = ["ordenCaptura", "usuario", "fecha", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
     
+    // 🌟 CABECERAS SIN (Opcional) 🌟
     const encabezadosTabla = {
-        "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio", "titular": "Titular", "firma": "Firma (Opcional)", 
+        "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio", "titular": "Titular", "firma": "Firma", 
         "pagina": "Página", "dependencia": "Dependencia", "organismo": "Organismo", "genero": "Género", "canal": "Canal",
-        "tema": "Tema (Opcional)", "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
+        "tema": "Tema", "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
     };
     
     let ordenActual = { columna: 'ordenCaptura', direccion: 'desc' }; 
@@ -585,14 +637,14 @@
     };
     
     // ======================================================================
-    // 🟢 NUEVAS CONSTANTES GLOBALES (Apps Script y Telegram) 🟢
+    // 🟢 CONSTANTES GLOBALES (Apps Script y Telegram) 🟢
     // ======================================================================
 
     // URL para enviar sugerencias a Google Apps Script (¡Corregida!)
     const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxXNixPwsyFiLoC55-u3p5Z1rT1rWX03_alTk3XwDmgjq6t3W5-fjR-Fs3IF_y5wGI/exec";
     
     // CREDENCIALES DE TELEGRAM (CONFIRMADAS)
-    const TELEGRAM_BOT_TOKEN = "8428524335:AAFeKrvKrUxrI9NAkL_G1-X6LdL4Fv6fkV4"; 
+    const TELEGRAM_BOT_TOKEN = "8428524335:AAFeKrvKrUxrI9NAkL_G1-X6LdL4F5fkV4"; 
     const TELEGRAM_CHAT_ID = "-1003492273306"; 
     
     // ======================================================================
@@ -774,7 +826,7 @@
       }
     }
     
-    // 🌟 FUNCIÓN DE DEPENDENCIA MEDIO -> CANAL 🌟
+    // FUNCIÓN DE DEPENDENCIA MEDIO -> CANAL
     function setCanalFromMedio(medioValue, map) {
         const canalInput = document.getElementById('canal');
         const isLocked = localStorage.getItem('bloqueado_canal') === 'true';
@@ -803,7 +855,7 @@
             localStorage.removeItem('canal');
         }
     }
-    // 🌟 FIN FUNCIÓN DE DEPENDENCIA 🌟
+    // FIN FUNCIÓN DE DEPENDENCIA
 
     function resetearEstadoEdicion() {
         filaEnEdicion = null;
@@ -844,14 +896,14 @@
 
     // Esta función sólo verifica CAMPOS OBLIGATORIOS (excluye Tema y Firma)
     function contieneCamposVacios(nota) {
-        // Solo revisamos los campos de datos, excluyendo ordenCaptura, Tema y Firma
-        // Página ya NO está excluida, por lo tanto es obligatoria.
+        // Excluye 'ordenCaptura', 'tema' y 'firma'
         const camposARevisar = camposDeDatos.filter(c => c !== 'ordenCaptura' && c !== 'tema' && c !== 'firma'); 
         let camposFaltantes = [];
         
         for (const campo of camposARevisar) {
             if (!nota[campo] || (typeof nota[campo] === 'string' && nota[campo].trim() === '')) {
-                camposFaltantes.push(encabezadosTabla[campo].replace(' (Opcional)', '')); // Guarda el nombre legible
+                // Guarda el nombre legible de la cabecera
+                camposFaltantes.push(encabezadosTabla[campo]); 
             }
         }
         return camposFaltantes; // Devuelve la lista de campos faltantes
@@ -880,7 +932,7 @@
 
             // 1. Verificar si faltan campos obligatorios
             const tieneCampoObligatorioVacio = contieneCamposVacios(nota).length > 0;
-            // 2. Verificar si el campo Tema (opcional) está vacío (según solicitud del usuario)
+            // 2. Verificar si el campo Tema (opcional) está vacío 
             const tieneTemaVacio = !nota.tema || nota.tema.trim() === '';
 
             // ALERTA SI HAY CAMPOS OBLIGATORIOS O EL CAMPO TEMA VACÍOS
@@ -1009,7 +1061,7 @@
     }
 
     function generarCSVContenido() {
-      // 🌟 CABECERAS EN EL ORDEN CORRECTO 🌟
+      // 🌟 CABECERAS EN EL ORDEN CORRECTO (SIN Opcional) 🌟
       const cabeceras = ["#", "Usuario", "Fecha", "Medio", "Titular", "Firma", "Página", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"];
       const filas = [cabeceras];
       
@@ -1097,17 +1149,22 @@
     }
     
     // ======================================================================
-    // 🌟 3. FUNCIÓN ENVIAR SUGERENCIA DE TEMA (CON MANEJO DE ERROR CORS ROBUSTO) 🌟
+    // 🌟 3. FUNCIÓN ENVIAR SUGERENCIA DE TEMA (MODIFICADA PARA USAR EL INPUT DEDICADO) 🌟
     // ======================================================================
     async function enviarSugerenciaTema() {
-        const tema = document.getElementById('tema').value.trim();
+        // TOMA EL VALOR DEL NUEVO INPUT DEDICADO
+        const input = document.getElementById('sugerenciaTemaInput');
+        const tema = input.value.trim();
 
         if (!tema) {
-            alert("🚨 Escriba una sugerencia de Tema antes de enviarla.");
+            alert("🚨 Por favor, escriba una sugerencia de Tema en el campo dedicado antes de presionar el botón.");
             return;
         }
         
         try {
+            document.getElementById('btnSugerirTema').disabled = true;
+            document.getElementById('btnSugerirTema').innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
+            
             const response = await fetch(APPS_SCRIPT_URL, {
                 method: 'POST',
                 // Este encabezado es requerido por Google Apps Script
@@ -1123,13 +1180,14 @@
                     
                     if (result.status === 'success') {
                         alert("✅ Sugerencia enviada correctamente. ¡Gracias!");
+                        input.value = ''; // Clear the dedicated input on success
                     } else {
                         alert(`⚠️ Error del servidor: ${result.message}`);
                     }
                 } catch (jsonError) {
                     // 2. Si hay un error al leer el JSON, pero el estado HTTP es 200, asumimos éxito
-                    // ESTO ES EL ARREGLO PARA EL FANTASMA DEL ERROR CORS
                     alert("✅ Sugerencia enviada correctamente. (El servidor confirmó la recepción, pero hubo un pequeño aviso de conexión).");
+                    input.value = ''; // Clear the dedicated input on assumed success
                 }
                 
             } else {
@@ -1138,9 +1196,12 @@
 
         } catch (error) {
             // 🎯 ESTE BLOQUE ATRAPA EL "TypeError: Failed to fetch" del bloqueo CORS.
-            // Si el dato se guardó (como sabemos que sucede), mostramos un mensaje de éxito/atención.
             console.error("Error persistente (Fallo al leer la respuesta del servidor):", error);
             alert(`✅ Sugerencia enviada. (El servidor guardó el tema, el error de conexión es solo un aviso persistente).`);
+            input.value = ''; // Clear the dedicated input on assumed success
+        } finally {
+            document.getElementById('btnSugerirTema').disabled = false;
+            document.getElementById('btnSugerirTema').innerHTML = 'Sugerir Tema <i class="fa-solid fa-paper-plane"></i>';
         }
     }
     // ======================================================================
@@ -1305,7 +1366,7 @@
       // Carga de listas simples
       autocompletar("genero", "sugGenero", await cargarLista(urls.generos));
       autocompletar("estatus", "sugEstatus", await cargarLista(urls.estatus));
-      autocompletar("tema", "sugTema", await cargarLista(urls.temas));
+      autocompletar("tema", "sugTema", await cargarLista(urls.temas)); // Este es el campo de la nota
       autocompletar("municipio", "sugMunicipio", await cargarLista(urls.municipios));
       
       // 🟢 SUGERENCIAS CANAL (Se genera a partir de los valores únicos del mapa Medio.csv) 🟢
@@ -1408,7 +1469,8 @@
       const camposFaltantes = contieneCamposVacios(nuevaNota);
 
       if (camposFaltantes.length > 0) {
-          alert(`🚨 Por favor, llene los siguientes campos obligatorios: \n\n${camposFaltantes.join(', ')}\n\n(Los campos Firma y Tema son opcionales.)`);
+          // 🚨 ALERTA CORREGIDA SIN MENCIONAR CAMPOS OPCIONALES 🚨
+          alert(`🚨 Por favor, llene los siguientes campos obligatorios: \n\n${camposFaltantes.join(', ')}`);
           return; // Detiene el proceso de guardado/actualización
       }
       
