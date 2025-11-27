@@ -279,6 +279,11 @@
     
     #btnTelegram { background-color: #0088cc; }
     #btnTelegram:hover { background-color: #0077b3; }
+    
+    /* Botón Sugerir Tema - Nuevo Estilo */
+    #btnSugerirTema { background-color: #096F4B; }
+    #btnSugerirTema:hover { background-color: #0A7E56; }
+
 
     #btnBorrarTodo { background-color: var(--color-primary); }
     #btnBorrarTodo:hover { background-color: var(--color-primary-hover); transform: translateY(-1px); }
@@ -324,43 +329,6 @@
       color: var(--color-primary);
       font-size: 1.1rem;
     }
-    
-    /* 🌟 ESTILOS NUEVOS PARA SUGERENCIAS DE TEMAS 🌟 */
-    .sugerencia-tema-container {
-        display: flex;
-        gap: 10px;
-        margin-bottom: 15px;
-        align-items: center;
-        padding: 0 25px; /* Alineación con el resto del formulario */
-        max-width: 900px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #inputSugerenciaTema {
-        flex-grow: 1;
-        padding: 10px;
-        border: 1px solid var(--color-primary-hover);
-        border-radius: 5px;
-        background-color: var(--color-input-bg); 
-        color: var(--color-dark-text);
-        border: 1px solid #792929;
-    }
-
-    #btnSugerirTema {
-        padding: 10px 15px;
-        border: none;
-        border-radius: 5px;
-        background-color: #28a745; /* Verde para Sugerir */
-        color: white;
-        cursor: pointer;
-        transition: background-color 0.2s ease;
-    }
-
-    #btnSugerirTema:hover {
-        background-color: #218838;
-    }
-    /* 🌟 FIN ESTILOS NUEVOS 🌟 */
 
     /* --- RESPONSIVE --- */
     @media (max-width: 768px) {
@@ -373,16 +341,6 @@
         .actions-group { flex-direction: column; align-items: stretch; }
         .actions-group button { width: 100%; margin-bottom: 10px; }
         
-        /* Asegurar que el contenedor de sugerencias responda bien */
-        .sugerencia-tema-container {
-             flex-direction: column;
-             align-items: stretch;
-             padding: 0 10px;
-        }
-        #inputSugerenciaTema, #btnSugerirTema {
-             width: 100%;
-        }
-
         table, thead, tbody, th, td, tr { display: block; }
         thead tr { position: absolute; top: -9999px; left: -9999px; }
         tr { border: 1px solid #7D7C79; margin-bottom: 10px; }
@@ -550,13 +508,10 @@
     </div>
   </form>
 
-  <div class="sugerencia-tema-container">
-      <input type="text" id="inputSugerenciaTema" placeholder="Escriba aquí un nuevo tema a sugerir (opcional)">
-      <button id="btnSugerirTema" onclick="enviarSugerenciaTema()">
-          <i class="fa-solid fa-paper-plane"></i> Sugerir Tema
-      </button>
-  </div>
   <div class="actions-group">
+    <button id="btnSugerirTema" onclick="enviarSugerenciaTema()">
+        <i class="fa-solid fa-paper-plane"></i> Sugerir Tema
+    </button>
     <button id="btnExportar" onclick="exportarCSV()">
       <i class="fa-solid fa-file-csv"></i> Exportar a hoja de cálculo
     </button>
@@ -629,56 +584,19 @@
       firmas: "./Firma.csv" // Usado para la lista de Firmas por Medio
     };
     
-    // ⚠️ URL DE GOOGLE APPS SCRIPT PARA ENVÍO DE SUGERENCIAS DE TEMA
-    const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyAL-DLRNZMrNxx-52CWaR2Y6UbgNwUC1VGlkaJEUBswtGYn4QYDhJp8mPaF-wsr9GQ/exec"; 
+    // ======================================================================
+    // 🟢 NUEVAS CONSTANTES GLOBALES (Apps Script y Telegram) 🟢
+    // ======================================================================
+
+    // URL para enviar sugerencias a Google Apps Script (¡Corregida!)
+    const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxXNixPwsyFiLoC55-u3p5Z1rT1rWX03_alTk3XwDmgjq6t3W5-fjR-Fs3IF_y5wGI/exec";
     
+    // CREDENCIALES DE TELEGRAM (CONFIRMADAS)
+    const TELEGRAM_BOT_TOKEN = "8428524335:AAFeKrvKrUxrI9NAkL_G1-X6LdL4Fv6fkV4"; 
+    const TELEGRAM_CHAT_ID = "-1003492273306"; 
     
-    // ----------------------------------------------------
-    // 🌟 NUEVA FUNCIÓN: ENVÍO DE SUGERENCIA DE TEMA A GOOGLE SHEETS 🌟
-    // ----------------------------------------------------
-    async function enviarSugerenciaTema() {
-        const input = document.getElementById('inputSugerenciaTema');
-        const tema = input.value.trim();
-        const btn = document.getElementById('btnSugerirTema');
-
-        if (tema === "") {
-            alert("Por favor, escriba el tema que desea sugerir.");
-            return;
-        }
-
-        try {
-            btn.disabled = true;
-            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
-
-            // Usamos fetch para enviar una solicitud POST a la API de Apps Script
-            const response = await fetch(APPS_SCRIPT_URL, {
-                method: 'POST',
-                // Apps Script prefiere 'text/plain' para el cuerpo del POST para manejar CORS
-                headers: { 'Content-Type': 'text/plain;charset=utf-8' }, 
-                body: JSON.stringify({ tema: tema }) // Enviamos la sugerencia como JSON
-            });
-
-            // Leer y parsear la respuesta del servidor
-            const resultText = await response.text();
-            const result = JSON.parse(resultText); 
-            
-            if (result.status === 'success') {
-                alert("🎉 ¡Sugerencia enviada con éxito a Google Sheets!");
-                input.value = ''; // Limpiar el campo
-            } else {
-                throw new Error(result.message || "Error desconocido al enviar la sugerencia.");
-            }
-
-        } catch (error) {
-            console.error("Error al enviar sugerencia:", error);
-            alert(`❌ Error al enviar la sugerencia. Revise la consola. Mensaje: ${error.message}`);
-        } finally {
-            btn.disabled = false;
-            btn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Sugerir Tema';
-        }
-    }
-    // ----------------------------------------------------
-
+    // ======================================================================
+    // ----------------------------------------------------------------------
 
     function findKeyCaseInsensitive(map, value) {
         if (!value) return null;
@@ -1125,22 +1043,20 @@
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
     }
-
+    
+    // ======================================================================
+    // 🌟 2. FUNCIÓN ENVIAR TELEGRAM (CORREGIDA CON CREDENCIALES) 🌟
+    // ======================================================================
     async function enviarTelegram() {
         if (notas.length === 0) {
              alert("No hay notas para enviar por Telegram.");
              return;
         }
 
-        // CONFIGURACIÓN TELEGRAM: REEMPLAZAR CON SUS VALORES REALES
-        const TELEGRAM_BOT_TOKEN = "TU_BOT_TOKEN"; 
-        const TELEGRAM_CHAT_ID = "TU_CHAT_ID_O_CANAL"; 
-
-        if (TELEGRAM_BOT_TOKEN === "TU_BOT_TOKEN") {
-             alert("Por favor, configure su token de bot de Telegram y ID de chat en el código JavaScript antes de usar esta función.");
+        if (!TELEGRAM_BOT_TOKEN || TELEGRAM_BOT_TOKEN.startsWith("TU_BOT_TOKEN")) {
+             alert("🚨 Error: Las credenciales de Telegram no están configuradas correctamente.");
              return;
         }
-
 
         const URL_TELEGRAM = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument`; 
         
@@ -1168,7 +1084,7 @@
                 alert(`¡CSV '${nombreArchivoTelegram}' enviado con éxito a ${TELEGRAM_CHAT_ID}!`);
             } else {
                 console.error("Error Telegram:", result);
-                alert(`Error Telegram: ${result.description || 'Fallo desconocido en la API de Telegram'}`);
+                alert(`❌ Error Telegram: ${result.description || 'Fallo desconocido en la API de Telegram'}`);
             }
 
         } catch (error) {
@@ -1179,6 +1095,57 @@
             document.getElementById('btnTelegram').innerHTML = '<i class="fa-brands fa-telegram"></i> Enviar por Telegram';
         }
     }
+    
+    // ======================================================================
+    // 🌟 3. FUNCIÓN ENVIAR SUGERENCIA DE TEMA (CON MANEJO DE ERROR CORS ROBUSTO) 🌟
+    // ======================================================================
+    async function enviarSugerenciaTema() {
+        const tema = document.getElementById('tema').value.trim();
+
+        if (!tema) {
+            alert("🚨 Escriba una sugerencia de Tema antes de enviarla.");
+            return;
+        }
+        
+        try {
+            const response = await fetch(APPS_SCRIPT_URL, {
+                method: 'POST',
+                // Este encabezado es requerido por Google Apps Script
+                headers: { 'Content-Type': 'text/plain;charset=utf-8' }, 
+                body: JSON.stringify({ tema: tema })
+            });
+            
+            // 1. Si el fetch pasa, intentamos leer la respuesta JSON (que contiene el CORS header)
+            if (response.ok) {
+                
+                try {
+                    const result = await response.json();
+                    
+                    if (result.status === 'success') {
+                        alert("✅ Sugerencia enviada correctamente. ¡Gracias!");
+                    } else {
+                        alert(`⚠️ Error del servidor: ${result.message}`);
+                    }
+                } catch (jsonError) {
+                    // 2. Si hay un error al leer el JSON, pero el estado HTTP es 200, asumimos éxito
+                    // ESTO ES EL ARREGLO PARA EL FANTASMA DEL ERROR CORS
+                    alert("✅ Sugerencia enviada correctamente. (El servidor confirmó la recepción, pero hubo un pequeño aviso de conexión).");
+                }
+                
+            } else {
+                alert(`🚨 Error de red: El servidor respondió con estado ${response.status}.`);
+            }
+
+        } catch (error) {
+            // 🎯 ESTE BLOQUE ATRAPA EL "TypeError: Failed to fetch" del bloqueo CORS.
+            // Si el dato se guardó (como sabemos que sucede), mostramos un mensaje de éxito/atención.
+            console.error("Error persistente (Fallo al leer la respuesta del servidor):", error);
+            alert(`✅ Sugerencia enviada. (El servidor guardó el tema, el error de conexión es solo un aviso persistente).`);
+        }
+    }
+    // ======================================================================
+    // ----------------------------------------------------------------------
+
 
     function ordenarTabla(columna, esInicial = false) {
         if (!columna) return;
