@@ -324,6 +324,43 @@
       color: var(--color-primary);
       font-size: 1.1rem;
     }
+    
+    /* 🌟 ESTILOS NUEVOS PARA SUGERENCIAS DE TEMAS 🌟 */
+    .sugerencia-tema-container {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 15px;
+        align-items: center;
+        padding: 0 25px; /* Alineación con el resto del formulario */
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #inputSugerenciaTema {
+        flex-grow: 1;
+        padding: 10px;
+        border: 1px solid var(--color-primary-hover);
+        border-radius: 5px;
+        background-color: var(--color-input-bg); 
+        color: var(--color-dark-text);
+        border: 1px solid #792929;
+    }
+
+    #btnSugerirTema {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: #28a745; /* Verde para Sugerir */
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+
+    #btnSugerirTema:hover {
+        background-color: #218838;
+    }
+    /* 🌟 FIN ESTILOS NUEVOS 🌟 */
 
     /* --- RESPONSIVE --- */
     @media (max-width: 768px) {
@@ -336,6 +373,16 @@
         .actions-group { flex-direction: column; align-items: stretch; }
         .actions-group button { width: 100%; margin-bottom: 10px; }
         
+        /* Asegurar que el contenedor de sugerencias responda bien */
+        .sugerencia-tema-container {
+             flex-direction: column;
+             align-items: stretch;
+             padding: 0 10px;
+        }
+        #inputSugerenciaTema, #btnSugerirTema {
+             width: 100%;
+        }
+
         table, thead, tbody, th, td, tr { display: block; }
         thead tr { position: absolute; top: -9999px; left: -9999px; }
         tr { border: 1px solid #7D7C79; margin-bottom: 10px; }
@@ -503,6 +550,12 @@
     </div>
   </form>
 
+  <div class="sugerencia-tema-container">
+      <input type="text" id="inputSugerenciaTema" placeholder="Escriba aquí un nuevo tema a sugerir (opcional)">
+      <button id="btnSugerirTema" onclick="enviarSugerenciaTema()">
+          <i class="fa-solid fa-paper-plane"></i> Sugerir Tema
+      </button>
+  </div>
   <div class="actions-group">
     <button id="btnExportar" onclick="exportarCSV()">
       <i class="fa-solid fa-file-csv"></i> Exportar a hoja de cálculo
@@ -576,6 +629,57 @@
       firmas: "./Firma.csv" // Usado para la lista de Firmas por Medio
     };
     
+    // ⚠️ URL DE GOOGLE APPS SCRIPT PARA ENVÍO DE SUGERENCIAS DE TEMA
+    const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyAL-DLRNZMrNxx-52CWaR2Y6UbgNwUC1VGlkaJEUBswtGYn4QYDhJp8mPaF-wsr9GQ/exec"; 
+    
+    
+    // ----------------------------------------------------
+    // 🌟 NUEVA FUNCIÓN: ENVÍO DE SUGERENCIA DE TEMA A GOOGLE SHEETS 🌟
+    // ----------------------------------------------------
+    async function enviarSugerenciaTema() {
+        const input = document.getElementById('inputSugerenciaTema');
+        const tema = input.value.trim();
+        const btn = document.getElementById('btnSugerirTema');
+
+        if (tema === "") {
+            alert("Por favor, escriba el tema que desea sugerir.");
+            return;
+        }
+
+        try {
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
+
+            // Usamos fetch para enviar una solicitud POST a la API de Apps Script
+            const response = await fetch(APPS_SCRIPT_URL, {
+                method: 'POST',
+                // Apps Script prefiere 'text/plain' para el cuerpo del POST para manejar CORS
+                headers: { 'Content-Type': 'text/plain;charset=utf-8' }, 
+                body: JSON.stringify({ tema: tema }) // Enviamos la sugerencia como JSON
+            });
+
+            // Leer y parsear la respuesta del servidor
+            const resultText = await response.text();
+            const result = JSON.parse(resultText); 
+            
+            if (result.status === 'success') {
+                alert("🎉 ¡Sugerencia enviada con éxito a Google Sheets!");
+                input.value = ''; // Limpiar el campo
+            } else {
+                throw new Error(result.message || "Error desconocido al enviar la sugerencia.");
+            }
+
+        } catch (error) {
+            console.error("Error al enviar sugerencia:", error);
+            alert(`❌ Error al enviar la sugerencia. Revise la consola. Mensaje: ${error.message}`);
+        } finally {
+            btn.disabled = false;
+            btn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Sugerir Tema';
+        }
+    }
+    // ----------------------------------------------------
+
+
     function findKeyCaseInsensitive(map, value) {
         if (!value) return null;
         const lowerValue = value.toLowerCase();
