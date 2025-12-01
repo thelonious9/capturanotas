@@ -1060,7 +1060,13 @@
         
         localStorage.setItem(`bloqueado_${idCampo}`, checkbox.checked);
         
-        localStorage.setItem(idCampo, campo.value);
+        // Si el campo se bloquea, persistir su valor
+        if (checkbox.checked) {
+             localStorage.setItem(idCampo, campo.value);
+        } else {
+             // Si el campo se desbloquea, limpiamos su valor de persistencia, para que se llene al cargar
+             localStorage.removeItem(idCampo);
+        }
     }
 
     function editarNota(tr) {
@@ -1433,6 +1439,23 @@
       });
 
       document.querySelector("form").addEventListener('reset', () => {
+          
+          // --- 🌟 NUEVA LÓGICA: DESBLOQUEAR TODOS LOS CAMPOS 🌟 ---
+          const camposConBloqueo = ["usuario", "fecha", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
+          
+          camposConBloqueo.forEach(id => {
+              const checkId = `check${id.charAt(0).toUpperCase() + id.slice(1)}`;
+              const checkbox = document.getElementById(checkId);
+              
+              if (checkbox && checkbox.checked) {
+                  // 1. Desmarca el checkbox
+                  checkbox.checked = false;
+                  // 2. Aplica el desbloqueo (actualiza readOnly, clases y localStorage)
+                  alternarBloqueo(id);
+              }
+          });
+          // --- FIN NUEVA LÓGICA DE DESBLOQUEO ---
+
           setTimeout(() => {
               document.getElementById('titular').focus();
               resetearEstadoEdicion(); 
@@ -1511,7 +1534,7 @@
         nuevaNota[id] = campo.value.trim();
         
         if (localStorage.getItem(`bloqueado_${id}`) === 'true') {
-             localStorage.setItem(id, nuevaNota[id]);
+             // Si el campo está bloqueado, su valor ya está persistido.
         }
       });
 
@@ -1539,11 +1562,10 @@
       
       // 3. Limpiar campos NO bloqueados y eliminar su persistencia
       camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
+          // Si el campo NO está bloqueado (o está desbloqueado por la nueva lógica de 'alternarBloqueo'),
+          // se limpia su valor en la UI.
           if (localStorage.getItem(`bloqueado_${id}`) !== 'true') {
-              // Limpia el valor en el formulario
               document.getElementById(id).value = ''; 
-              // Remueve la persistencia en localStorage
-              localStorage.removeItem(id); 
           }
       });
       
