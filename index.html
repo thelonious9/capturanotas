@@ -753,7 +753,43 @@
 
       campo.addEventListener("keydown", e => {
         const items = contenedor.querySelectorAll(".sugerencia");
+        
+        // --- 🌟 NUEVA LÓGICA: SELECCIÓN ÚNICA CON ENTER O TAB 🌟 ---
+        if (items.length === 1 && (e.key === "Enter" || e.key === "Tab")) {
+            // Previene el comportamiento por defecto de la tecla (evita submit o movimiento inmediato de Tab)
+            e.preventDefault(); 
+            
+            // 1. Selecciona el valor único
+            const valorSeleccionado = items[0].textContent;
+            campo.value = valorSeleccionado;
+            contenedor.innerHTML = "";
+            
+            // 2. Ejecuta el callback (si existe) y dispara el blur para actualizar dependencias (Medio -> Canal/Firma)
+            if (callback) callback(valorSeleccionado);
+            campo.dispatchEvent(new Event('blur'));
+
+            // 3. Simula el movimiento de foco si fue la tecla Tab
+            if (e.key === "Tab") {
+                const form = document.querySelector('form');
+                // Solo busca inputs de texto y fecha que no estén marcados para ser saltados (tabindex="-1")
+                const focusable = Array.from(form.querySelectorAll('input[type="text"]:not([tabindex="-1"]), input[type="date"]:not([tabindex="-1"])'));
+                const index = focusable.indexOf(e.target);
+                
+                // Mueve el foco al siguiente campo enfocable
+                if (index > -1 && index < focusable.length - 1) {
+                    focusable[index + 1].focus();
+                } else if (index === focusable.length - 1) {
+                    // Si es el último, vuelve al titular
+                    document.getElementById('titular').focus();
+                }
+            }
+            return; // Termina la función aquí
+        }
+        // --- FIN LÓGICA DE SELECCIÓN ÚNICA ---
+        
+        // Lógica de flechas y Enter original (si hay más de una sugerencia o si no se ha usado Enter/Tab)
         if (items.length === 0) return;
+
         if (e.key === "ArrowDown") {
           e.preventDefault();
           indice = (indice + 1) % items.length;
@@ -1417,20 +1453,34 @@
       document.addEventListener("keydown", (e) => {
         // Verifica si la tecla es Enter y si el foco está en un input de texto
         if (e.key === "Enter" && e.target.tagName === 'INPUT' && (e.target.type === 'text' || e.target.type === 'date')) {
-            e.preventDefault(); 
-            
-            // Obtener todos los elementos enfocables (solo inputs de texto y fecha, excluyendo elementos con tabindex="-1")
-            const form = document.querySelector('form');
-            const focusable = Array.from(form.querySelectorAll('input[type="text"]:not([tabindex="-1"]), input[type="date"]:not([tabindex="-1"])'));
-            
-            const index = focusable.indexOf(e.target);
-            
-            if (index > -1 && index < focusable.length - 1) {
-                // Mueve el foco al siguiente campo
-                focusable[index + 1].focus();
-            } else if (index === focusable.length - 1) {
-                // Si es el último campo, regresa al inicio (Titular)
-                document.getElementById('titular').focus();
+            // Se debe permitir que la lógica de autocompletado maneje el Enter (para selección múltiple o única)
+            // Si la función autocompletar no evita el default (porque hay múltiples), el foco se mueve aquí.
+            const contenedorSugerencias = e.target.parentNode.querySelector('.sugerencias');
+            const items = contenedorSugerencias ? contenedorSugerencias.querySelectorAll('.sugerencia') : [];
+
+            // Si hay sugerencias visibles, el manejo de Enter DEBE hacerlo el listener de autocompletar.
+            // Si el listener de autocompletar no se ejecutó (porque no hay sugerencias), o si se ejecutó 
+            // pero el foco sigue aquí (porque hubo más de una y se usó Enter sin seleccionar),
+            // entonces simulamos el Tab aquí para una navegación fluida.
+
+            // Si no hay sugerencias, o si hay más de una, y se presiona Enter,
+            // impedimos el submit del formulario y simulamos el Tab.
+            if (items.length !== 1) { // Nota: El caso items.length === 1 está manejado dentro del autocompletar
+                e.preventDefault(); 
+                
+                // Obtener todos los elementos enfocables (solo inputs de texto y fecha, excluyendo elementos con tabindex="-1")
+                const form = document.querySelector('form');
+                const focusable = Array.from(form.querySelectorAll('input[type="text"]:not([tabindex="-1"]), input[type="date"]:not([tabindex="-1"])'));
+                
+                const index = focusable.indexOf(e.target);
+                
+                if (index > -1 && index < focusable.length - 1) {
+                    // Mueve el foco al siguiente campo
+                    focusable[index + 1].focus();
+                } else if (index === focusable.length - 1) {
+                    // Si es el último campo, regresa al inicio (Titular)
+                    document.getElementById('titular').focus();
+                }
             }
         }
       });
