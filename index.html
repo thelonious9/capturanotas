@@ -837,35 +837,6 @@
       }
     }
 
-    function mostrarSugerencias(idCampo, idSugerencias) {
-      const campo = document.getElementById(idCampo);
-      const contenedor = document.getElementById(idSugerencias);
-
-      // Cierra todas las sugerencias antes de abrir una
-      document.querySelectorAll('.sugerencias').forEach(sug => sug.innerHTML = "");
-
-      const lista = campo.dataset.lista ? JSON.parse(campo.dataset.lista) : [];
-      contenedor.innerHTML = "";
-
-      lista.forEach((s, i) => {
-        const div = document.createElement("div");
-        div.textContent = s;
-        div.className = "sugerencia";
-        div.dataset.index = i;
-        div.onclick = () => {
-          campo.value = s;
-          contenedor.innerHTML = "";
-          // Dispara blur para actualizar dependencias (si aplica)
-          document.getElementById(idCampo).dispatchEvent(new Event('blur'));
-        };
-        contenedor.appendChild(div);
-      });
-
-      if (lista.length > 0) {
-        contenedor.style.display = 'block';
-      }
-    }
-
     // FUNCIÓN DE DEPENDENCIA MEDIO -> CANAL
     function setCanalFromMedio(medioValue, map) {
       const canalInput = document.getElementById('canal');
@@ -1428,16 +1399,19 @@
       };
 
       // Inicialización de autocompletado para campos que requieren filtrado o listas dinámicas
-      autocompletar('dependencia', 'sugDep', listas.municipios.concat(mapas.dependencia.claves), dependenciaCallback);
+      
+      // ✅ CORRECCIÓN: Dependencia ahora solo usa las claves de dependencias.
+      autocompletar('dependencia', 'sugDep', mapas.dependencia.claves, dependenciaCallback);
+      
       autocompletar('organismo', 'sugOrg', mapas.dependencia.map[document.getElementById('dependencia').value] || mapas.dependencia.claves);
       
-      // ✅ CORRECCIÓN 1: Medio ahora solo usa las claves de medios (no los municipios)
+      // ✅ CORRECCIÓN PREVIA: Medio ahora solo usa las claves de medios.
       autocompletar('medio', 'sugMedio', mapas.medioCanal.claves, medioCallback);
       
       autocompletar('firma', 'sugFirma', mapas.firma.map[document.getElementById('medio').value] || []);
       autocompletar('genero', 'sugGenero', listas.generos);
       
-      // ✅ CORRECCIÓN 2: Canal ahora usa la lista de Canales únicos generada
+      // ✅ CORRECCIÓN PREVIA: Canal usa la lista de Canales únicos generada.
       autocompletar('canal', 'sugCanal', canalesUnicos);
       
       autocompletar('tema', 'sugTema', listas.temas);
@@ -1557,7 +1531,7 @@
           }
       });
       
-      // ✅ CORRECCIÓN 2: Atajo Shift + Ctrl + L para bloquear solo el campo con foco
+      // ✅ Atajo Shift + Ctrl + L para bloquear solo el campo con foco
       document.addEventListener("keydown", (e) => {
           // Verifica Shift + Ctrl (o Cmd en Mac) + L
           if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 'l') {
