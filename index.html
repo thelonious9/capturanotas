@@ -1469,26 +1469,28 @@
           }
       });
       
-      // Limpiar formulario con el botón 'Limpiar' (Botón reset)
+      // ✅ CORRECCIÓN 1: Lógica del botón Limpiar (reset)
       document.querySelector("form").addEventListener("reset", () => {
-          // El reset limpia los campos. Ahora necesitamos re-aplicar los valores de los campos bloqueados.
-          // Se aplica un timeout para que se ejecute DESPUÉS del evento 'reset'
+          // Se aplica un timeout para que se ejecute DESPUÉS de que el evento 'reset' limpie los campos
           setTimeout(() => {
-              // Limpiar valores persistentes de campos NO bloqueados
+              // 1. Iterar sobre todos los campos para DESBLOQUEARLOS y limpiar su persistencia
               camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
-                  if (localStorage.getItem(`bloqueado_${id}`) !== 'true') {
-                      localStorage.removeItem(id);
+                  const checkbox = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
+                  const input = document.getElementById(id);
+                  
+                  if (checkbox && checkbox.checked) { // Si el campo está bloqueado
+                      checkbox.checked = false; 
+                      alternarBloqueo(id); // Aplica el desbloqueo y actualiza localStorage
                   }
+                  
+                  // 2. Asegurar que los valores persistentes se borren para la próxima carga limpia
+                  localStorage.removeItem(id); 
+                  
+                  // 3. Asegurar que el input esté limpio (el evento reset ya debería hacerlo, pero lo forzamos)
+                  input.value = '';
               });
-              // Recargar todos los valores (solo los bloqueados se llenarán)
-              cargarValoresPersistentes(); 
-              
-              // Si el campo canal fue desbloqueado y limpiado, asegurar que se recalcule
-              const medioValue = document.getElementById('medio').value;
-              if (medioValue) {
-                  setCanalFromMedio(medioValue, mapas.medioCanal.map);
-              }
-              
+
+              // 4. Resetear estado de edición y foco
               document.getElementById('titular').focus();
               resetearEstadoEdicion(); 
           }, 10);
@@ -1537,33 +1539,34 @@
           }
       });
       
-      // 3. Activar/Desactivar Bloqueo de Campos con Shift + Ctrl + L 
+      // ✅ CORRECCIÓN 2: Atajo Shift + Ctrl + L para bloquear solo el campo con foco
       document.addEventListener("keydown", (e) => {
           // Verifica Shift + Ctrl (o Cmd en Mac) + L
           if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 'l') {
               e.preventDefault(); // Evita la acción predeterminada del navegador
               
-              const camposConBloqueo = ["usuario", "fecha", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
+              const focusedElement = document.activeElement;
+              const fieldId = focusedElement.id;
               
-              // Determina el nuevo estado de bloqueo basándose en el primer campo
-              const primerCampoId = camposConBloqueo[0];
-              const primerCheckbox = document.getElementById(`check${primerCampoId.charAt(0).toUpperCase() + primerCampoId.slice(1)}`);
-              
-              // Si el primer campo está BLOQUEADO (checked=true), la acción será DESBLOQUEAR (!checked=false).
-              // Si el primer campo NO está bloqueado (checked=false), la acción será BLOQUEAR (!checked=true).
-              const accionEsBloquear = !primerCheckbox.checked; 
-              
-              camposConBloqueo.forEach(id => {
-                  const checkId = `check${id.charAt(0).toUpperCase() + id.slice(1)}`;
-                  const checkbox = document.getElementById(checkId);
+              // Verifica si el elemento con foco es un campo de entrada de datos relevante
+              const isDataField = camposDeDatos.filter(c => c !== 'ordenCaptura').includes(fieldId);
+
+              if (isDataField) {
+                  // Obtener el checkbox asociado
+                  const capitalizedId = fieldId.charAt(0).toUpperCase() + fieldId.slice(1);
+                  const checkbox = document.getElementById(`check${capitalizedId}`);
                   
                   if (checkbox) {
-                      // Establece el estado opuesto al actual de forma global: true para bloquear, false para desbloquear
-                      checkbox.checked = accionEsBloquear;
-                      // Llama a la función existente para actualizar la interfaz y el localStorage
-                      alternarBloqueo(id);
+                      // Alternar el estado del checkbox (Bloquear <-> Desbloquear)
+                      checkbox.checked = !checkbox.checked;
+                      
+                      // Aplicar el nuevo estado llamando a la función existente
+                      alternarBloqueo(fieldId);
+                      
+                      // Mantener el foco en el input para una mejor experiencia
+                      focusedElement.focus(); 
                   }
-              });
+              }
           }
       });
       
