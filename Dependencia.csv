@@ -22,6 +22,7 @@ Cultura,EMEH
 Cultura,Titular
 Cultura,Extitular
 Cultura,Cultura
+DIFH,DIFH
 DIFH,PPNNAF
 DIFH,Junta de Asistencia
 DIFH,Titular
@@ -29,21 +30,12 @@ DIFH,Hospital del Niño
 Hacienda,Catastro
 Hacienda,Hacienda
 Hacienda,Titular
-Hacienda,Extitular
 Gobernador,Gobernador
 Morena,Morena
-Morena,Alcalde
-Morena,Diputado local
-Morena,Diputado federal
-Morena,Senador
-Morena,Presidencia
 Morena,Titular
-Morena,Coordinador
-Morena,Senador 2
 Oficialía Mayor,Oficialía Mayor
 Oficialía Mayor,Archivo
 Oficialía Mayor,Titular
-Oficialía Mayor,Extitular
 PGJEH,UECS
 PGJEH,PGJEH
 PGJEH,Fede
@@ -56,11 +48,9 @@ Planeación,Planeación
 Planeación,DESCTI
 Planeación,Cedspi
 Planeación,Titular
-Planeación,Extitular
 Otros,Otros
 Saderh,Saderh
 Saderh,Titular
-Saderh,Extitular
 Sedeco,CEMR
 Sedeco,Valle de Plata
 Sedeco,AEEH
@@ -71,11 +61,9 @@ Sedeco,Sedeco
 Sedeco,Coinhi
 Sedeco,Fomento Económico
 Sedeco,Titular
-Sedeco,Extitular
 Bienestar,Inhjuve
 Bienestar,IAAMEH
 Bienestar,Bienestar
-Bienestar,Migrantes
 Bienestar,Titular
 Bienestar,Extitular
 Segobh,IHM
@@ -94,18 +82,15 @@ Segobh,Ifreh
 Segobh,IDPH
 Segobh,RTVH
 Segobh,Titular
-Segobh,Extitular
 Semarnath,Semarnath
 Semarnath,Proespa
 Semarnath,PNCH
 Semarnath,Coesbioh
 Semarnath,Titular
-Semarnath,Extitular
 Semot,Semot
 Semot,STCH
 Semot,Sitmah
 Semot,Titular
-Semot,Extitular
 SEPH,Inhide
 SEPH,IHEA
 SEPH,Básica
@@ -118,14 +103,12 @@ SEPH,Inhife
 SEPH,CEH
 SEPH,IHFES
 SEPH,Titular
-SEPH,Extitular
 Sipdus,Caasim
 Sipdus,CEAA
 Sipdus,CEVI
 Sipdus,CAASVAM
 Sipdus,Sipdus
 Sipdus,Titular
-Sipdus,Extitular
 SSH,Copriseh
 SSH,Cameh
 SSH,Ceetra
@@ -146,32 +129,30 @@ SSPH,SSPH
 SSPH,Bomberos
 SSPH,Policía Violeta
 SSPH,Titular
-SSPH,Extitular
 STPSH,ICATHI
 STPSH,CCLEH
 STPSH,STPSH
 STPSH,PRODET
 STPSH,Titular
-STPSH,Extitular
 Turismo,Turismo
 Turismo,OEEH
 Turismo,Titular
-Turismo,Extitular
 Contraloría,Contraloría
 Contraloría,SEAH
 Contraloría,Titular
-Contraloría,Extitular
+Gobierno,Gabinete
 Gobierno,Gobierno
-Gobierno,Indeph
+Hacienda,IHDEP
 Delegación,Delegación
 Delegación,Titular
-Delegación,Extitular
+CGCG,Titular
+CGCG,Extitular
 CGCG,CGCG
 Despacho,Despacho
 Despacho,Titular
-Despacho,Extitular
 IEEH,IEEH
 TEEH,TEEH
+TSJEH,Titular
 TSJEH,TSJEH
 UAEH,UAEH
 Gabinete de Seguridad,Gabinete de Seguridad
