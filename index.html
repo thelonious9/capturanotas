@@ -644,7 +644,7 @@
     const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxXNixPwsyFiLoC55-u3p5Z1rT1rWX03_alTk3XwDmgjq6t3W5-fjR-Fs3IF_y5wGI/exec";
     
     // CREDENCIALES DE TELEGRAM (CONFIRMADAS)
-    const TELEGRAM_BOT_TOKEN = "8428524335:AAFeKrvKrUxrI9NAkL_G1-X6LdL4F5fkV4"; 
+    const TELEGRAM_BOT_TOKEN = "8428524335:AAFeKrvKrUxrI9NAL_G1-X6LdL4F5fkV4"; 
     const TELEGRAM_CHAT_ID = "-1003492273306"; 
     
     // ======================================================================
@@ -1381,6 +1381,18 @@
         spinner.remove();
         return; 
       }
+      
+      // Generar la lista única de Canales (valores del mapa medioCanal)
+      const canalesUnicos = [];
+      Object.values(mapas.medioCanal.map).forEach(canalArray => {
+          canalArray.forEach(canal => {
+              if (!canalesUnicos.includes(canal)) {
+                  canalesUnicos.push(canal);
+              }
+          });
+      });
+      canalesUnicos.sort((a, b) => a.localeCompare(b, 'es'));
+
 
       // --- 1. CONFIGURACIÓN DE AUTOCOMPLETADO ---
       
@@ -1418,10 +1430,16 @@
       // Inicialización de autocompletado para campos que requieren filtrado o listas dinámicas
       autocompletar('dependencia', 'sugDep', listas.municipios.concat(mapas.dependencia.claves), dependenciaCallback);
       autocompletar('organismo', 'sugOrg', mapas.dependencia.map[document.getElementById('dependencia').value] || mapas.dependencia.claves);
-      autocompletar('medio', 'sugMedio', listas.municipios.concat(mapas.medioCanal.claves), medioCallback);
+      
+      // ✅ CORRECCIÓN 1: Medio ahora solo usa las claves de medios (no los municipios)
+      autocompletar('medio', 'sugMedio', mapas.medioCanal.claves, medioCallback);
+      
       autocompletar('firma', 'sugFirma', mapas.firma.map[document.getElementById('medio').value] || []);
       autocompletar('genero', 'sugGenero', listas.generos);
-      autocompletar('canal', 'sugCanal', mapas.medioCanal.claves);
+      
+      // ✅ CORRECCIÓN 2: Canal ahora usa la lista de Canales únicos generada
+      autocompletar('canal', 'sugCanal', canalesUnicos);
+      
       autocompletar('tema', 'sugTema', listas.temas);
       autocompletar('estatus', 'sugEstatus', listas.estatus);
       autocompletar('municipio', 'sugMunicipio', listas.municipios);
