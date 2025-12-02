@@ -641,7 +641,7 @@
     // ======================================================================
 
     // URL para enviar sugerencias a Google Apps Script (¡Corregida!)
-    const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxXNixPwsyFiLoC55-u3p5Z1rT1rWX03_alTk3XwDmgjq6t3W5-fjR-Fs3IF_y5wGI/exec";
+    const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbXNixPwsyFiLoC55-u3p5Z1rT1rWX03_alTk3XwDmgjq6t3W5-fjR-Fs3IF_y5wGI/exec";
     
     // CREDENCIALES DE TELEGRAM (CONFIRMADAS)
     const TELEGRAM_BOT_TOKEN = "8428524335:AAFeKrvKrUxrI9NAL_G1-X6LdL6LdL6F5fkV4"; 
@@ -727,10 +727,20 @@
     function autocompletar(idCampo, idSugerencias, lista, callback) {
       const campo = document.getElementById(idCampo);
       const contenedor = document.getElementById(idSugerencias);
-      campo.dataset.lista = JSON.stringify(lista);
+      // Actualiza la lista interna del dataset
+      campo.dataset.lista = JSON.stringify(lista); 
       let indice = -1;
+      
+      // Limpia el listener anterior si existe (para el caso de Organismo/Firma)
+      if (campo.autocompletarListener) {
+          campo.removeEventListener("input", campo.autocompletarListener);
+      }
+      if (campo.keydownListener) {
+          campo.removeEventListener("keydown", campo.keydownListener);
+      }
 
-      campo.addEventListener("input", () => {
+      // 🌟 Nuevo listener para 'input'
+      const inputListener = () => {
         const valor = campo.value.toLowerCase().trim();
         contenedor.innerHTML = "";
         indice = -1;
@@ -750,45 +760,39 @@
           };
           contenedor.appendChild(div);
         });
-      });
-
-      campo.addEventListener("keydown", e => {
+      };
+      
+      // 🌟 Nuevo listener para 'keydown'
+      const keydownListener = (e) => {
         const items = contenedor.querySelectorAll(".sugerencia");
 
         // --- 🌟 NUEVA LÓGICA: SELECCIÓN ÚNICA CON ENTER O TAB 🌟 ---
         if (items.length === 1 && (e.key === "Enter" || e.key === "Tab")) {
-            // Previene el comportamiento por defecto de la tecla (evita submit o movimiento inmediato de Tab)
             e.preventDefault(); 
 
-            // 1. Selecciona el valor único
             const valorSeleccionado = items[0].textContent;
             campo.value = valorSeleccionado;
             contenedor.innerHTML = "";
 
-            // 2. Ejecuta el callback (si existe) y dispara el blur para actualizar dependencias (Medio -> Canal/Firma)
             if (callback) callback(valorSeleccionado);
             campo.dispatchEvent(new Event('blur'));
 
-            // 3. Simula el movimiento de foco si fue la tecla Tab
             if (e.key === "Tab") {
                 const form = document.querySelector('form');
-                // Solo busca inputs de texto y fecha que no estén marcados para ser saltados (tabindex="-1")
                 const focusable = Array.from(form.querySelectorAll('input[type="text"]:not([tabindex="-1"]), input[type="date"]:not([tabindex="-1"])'));
                 const index = focusable.indexOf(e.target);
                 
-                // Mueve el foco al siguiente campo enfocable
                 if (index > -1 && index < focusable.length - 1) {
                     focusable[index + 1].focus();
                 } else if (index === focusable.length - 1) {
-                    // Si es el último, vuelve al titular
                     document.getElementById('titular').focus();
                 }
             }
-            return; // Termina la función aquí
+            return; 
         }
         // --- FIN LÓGICA DE SELECCIÓN ÚNICA ---
 
-        // Lógica de flechas y Enter original (si hay más de una sugerencia o si no se ha usado Enter/Tab)
+        // Lógica de flechas y Enter original 
         if (items.length === 0) return;
 
         if (e.key === "ArrowDown") {
@@ -807,14 +811,19 @@
             campo.value = items[indice].textContent;
             contenedor.innerHTML = "";
             if (callback) callback(campo.value);
-            // Disparar blur para actualizar dependencias
             campo.dispatchEvent(new Event('blur'));
           }
         }
-      });
+      };
 
+      // Asignar los nuevos listeners y guardarlos
+      campo.autocompletarListener = inputListener;
+      campo.keydownListener = keydownListener;
+      campo.addEventListener("input", inputListener);
+      campo.addEventListener("keydown", keydownListener);
+      
+      // Listeners de foco y blur se mantienen
       campo.addEventListener("focus", () => {
-        // Cierra otras sugerencias
         document.querySelectorAll('.sugerencias').forEach(sug => {
             if (sug.id !== idSugerencias) {
                 sug.innerHTML = "";
@@ -823,7 +832,6 @@
       });
 
       campo.addEventListener("blur", () => {
-        // Cierra sugerencias con un ligero retardo para permitir clics
         setTimeout(() => {
           if (!contenedor.contains(document.activeElement)) {
             contenedor.innerHTML = "";
@@ -956,8 +964,7 @@
       
       // 3. Limpiar campos NO bloqueados y eliminar su persistencia
       camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
-          // Si el campo NO está bloqueado (o está desbloqueado por la nueva lógica de 'alternarBloqueo'),
-          // se limpia su valor en la UI.
+          // Si el campo NO está bloqueado 
           if (localStorage.getItem(`bloqueado_${id}`) !== 'true') {
               document.getElementById(id).value = ''; 
               localStorage.removeItem(id); // Eliminar persistencia del campo no bloqueado
@@ -1225,7 +1232,7 @@
         const fecha = new Date().toISOString().slice(0, 10);
         
         // 1. Mensaje para Telegram (opcionalmente)
-        const mensajeTelegram = `🚨 *NUEVA SUGERENCIA DE TEMA* 🚨\n\n*Usuario:* ${usuario}\n*Fecha:* ${fecha}\n*Tema Sugerido:* ${tema}`;
+        // const mensajeTelegram = `🚨 *NUEVA SUGERENCIA DE TEMA* 🚨\n\n*Usuario:* ${usuario}\n*Fecha:* ${fecha}\n*Tema Sugerido:* ${tema}`;
         
         // 2. Enviar a Google Apps Script
         const data = new URLSearchParams();
@@ -1325,6 +1332,7 @@
       let listas = {};
       let mapas = {};
       const spinner = document.createElement('div');
+      spinner.style.padding = '20px';
       spinner.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Cargando datos iniciales...';
       document.body.prepend(spinner);
 
@@ -1363,63 +1371,64 @@
       canalesUnicos.sort((a, b) => a.localeCompare(b, 'es'));
 
 
-      // --- 1. CONFIGURACIÓN DE AUTOCOMPLETADO ---
+      // --- 1. CONFIGURACIÓN DE AUTOCOMPLETADO Y DEPENDENCIAS ---
       
       // Función de callback para Dependencia: actualiza Organismo
       const dependenciaCallback = (valor) => {
-        const organismoLista = mapas.dependencia.map[valor] || [];
+        // CORRECCIÓN: Busca la lista usando la clave (case-insensitive) o usa lista vacía si no existe
+        const key = findKeyCaseInsensitive(mapas.dependencia.map, valor);
+        const organismoLista = key ? mapas.dependencia.map[key] : [];
+        
         autocompletar('organismo', 'sugOrg', organismoLista); // Reconfigura Organismo
-        // Limpiar el campo organismo si el valor no está en la nueva lista
+        
+        // Limpiar el campo organismo si el valor no está en la nueva lista (y no está bloqueado)
         const organismoInput = document.getElementById('organismo');
-        if (!organismoLista.includes(organismoInput.value)) {
-             if (localStorage.getItem('bloqueado_organismo') !== 'true') {
-                organismoInput.value = '';
-                localStorage.removeItem('organismo');
-             }
+        const isLocked = localStorage.getItem('bloqueado_organismo') === 'true';
+        if (!isLocked && organismoInput.value.trim() && !organismoLista.includes(organismoInput.value.trim())) {
+           organismoInput.value = '';
+           localStorage.removeItem('organismo');
         }
       };
 
       // Función de callback para Medio: actualiza Firma y Canal
       const medioCallback = (valor) => {
+        // CORRECCIÓN: Busca la lista usando la clave (case-insensitive) o usa lista vacía si no existe
+        const key = findKeyCaseInsensitive(mapas.firma.map, valor);
+        const firmaLista = key ? mapas.firma.map[key] : [];
+        
         // a) Actualizar Firma
-        const firmaLista = mapas.firma.map[valor] || [];
         autocompletar('firma', 'sugFirma', firmaLista); // Reconfigura Firma
-        // Limpiar el campo firma si el valor no está en la nueva lista
+        
+        // Limpiar el campo firma si el valor no está en la nueva lista (y no está bloqueado)
         const firmaInput = document.getElementById('firma');
-        if (!firmaLista.includes(firmaInput.value)) {
-             if (localStorage.getItem('bloqueado_firma') !== 'true') {
-                firmaInput.value = '';
-                localStorage.removeItem('firma');
-             }
+        const isLockedFirma = localStorage.getItem('bloqueado_firma') === 'true';
+        if (!isLockedFirma && firmaInput.value.trim() && !firmaLista.includes(firmaInput.value.trim())) {
+             firmaInput.value = '';
+             localStorage.removeItem('firma');
         }
-        // b) Actualizar Canal
+        
+        // b) Actualizar Canal (no necesita ser reconfigurado, solo auto-rellenado)
         setCanalFromMedio(valor, mapas.medioCanal.map);
       };
 
-      // Inicialización de autocompletado para campos que requieren filtrado o listas dinámicas
-      
-      // ✅ CORRECCIÓN FINAL: Dependencia usa correctamente las claves.
+      // 1. Inicializar campos PADRES (que tienen callbacks)
       autocompletar('dependencia', 'sugDep', mapas.dependencia.claves, dependenciaCallback);
-      
-      // ✅ CORRECCIÓN CRÍTICA: Organismo usa la lista específica de la dependencia seleccionada o [] si no hay nada.
-      autocompletar('organismo', 'sugOrg', mapas.dependencia.map[document.getElementById('dependencia').value] || []);
-      
-      // ✅ Medio usa correctamente las claves de Medio/Canal.
       autocompletar('medio', 'sugMedio', mapas.medioCanal.claves, medioCallback);
       
-      // ✅ Firma usa la lista específica del medio seleccionado o [].
-      autocompletar('firma', 'sugFirma', mapas.firma.map[document.getElementById('medio').value] || []);
+      // 2. Inicializar campos HIJOS con lista VACÍA (será llenada por el callback ejecutado abajo)
+      autocompletar('organismo', 'sugOrg', []); 
+      autocompletar('firma', 'sugFirma', []); 
       
-      // ✅ Campos simples usan sus respectivas listas.
+      // 3. Inicializar campos SIMPLES
       autocompletar('genero', 'sugGenero', listas.generos);
       autocompletar('canal', 'sugCanal', canalesUnicos);
       autocompletar('tema', 'sugTema', listas.temas);
       autocompletar('estatus', 'sugEstatus', listas.estatus);
       autocompletar('municipio', 'sugMunicipio', listas.municipios);
 
-      // --- 2. CARGA DE DATOS PERSISTENTES ---
+      // --- 4. CARGA DE DATOS PERSISTENTES ---
       
-      // Cargar notas desde localStorage
+      // Cargar notas, orden y persistencia de campos/bloqueo
       const notasGuardadas = localStorage.getItem('notasCapturadas');
       if (notasGuardadas) {
         notas = JSON.parse(notasGuardadas);
@@ -1429,21 +1438,19 @@
       if (ordenGuardado) {
         nextOrdenCaptura = parseInt(ordenGuardado);
       } else if (notas.length > 0) {
-        // Calcular el nextOrdenCaptura si no existe
         const maxOrden = Math.max(...notas.map(n => n.ordenCaptura));
         nextOrdenCaptura = maxOrden + 1;
       }
 
       cargarValoresPersistentes(); // Cargar valores y estados de bloqueo
 
-      // Inicializar Canal en caso de que Medio ya estuviera cargado y no bloqueado
-      const medioActual = document.getElementById('medio').value;
-      if (medioActual) {
-          setCanalFromMedio(medioActual, mapas.medioCanal.map);
-      }
+      // 🌟 CORRECCIÓN CLAVE: EJECUTAR CALLBACKS DE INICIALIZACIÓN
+      // Esto asegura que Organismo y Firma tengan la lista correcta basada en los valores persistentes.
+      dependenciaCallback(document.getElementById('dependencia').value);
+      medioCallback(document.getElementById('medio').value); 
 
 
-      // --- 3. EVENT LISTENERS DE FORMULARIO ---
+      // --- 5. EVENT LISTENERS DE FORMULARIO ---
       
       // Guardar nota
       document.querySelector("form").addEventListener("submit", guardarNota);
@@ -1451,43 +1458,50 @@
       // Listener para actualizar dependencias al salir de Dependencia/Medio (en caso de no usar autocompletado)
       document.getElementById('dependencia').addEventListener('blur', (e) => {
           if (localStorage.getItem('bloqueado_dependencia') !== 'true') {
-             dependenciaCallback(e.target.value.trim());
+             // Solo si se ha cambiado el valor
+             if (e.target.value !== e.target.dataset.lastValue) {
+                dependenciaCallback(e.target.value.trim());
+             }
+             e.target.dataset.lastValue = e.target.value;
           }
       });
       document.getElementById('medio').addEventListener('blur', (e) => {
           if (localStorage.getItem('bloqueado_medio') !== 'true') {
-             medioCallback(e.target.value.trim());
+             // Solo si se ha cambiado el valor
+             if (e.target.value !== e.target.dataset.lastValue) {
+                medioCallback(e.target.value.trim());
+             }
+             e.target.dataset.lastValue = e.target.value;
           }
       });
       
       // Lógica del botón Limpiar (reset)
       document.querySelector("form").addEventListener("reset", () => {
-          // Se aplica un timeout para que se ejecute DESPUÉS de que el evento 'reset' limpie los campos
           setTimeout(() => {
-              // 1. Iterar sobre todos los campos para DESBLOQUEARLOS y limpiar su persistencia
+              // Limpiar valores y estados de bloqueo
               camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
                   const checkbox = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
                   const input = document.getElementById(id);
                   
-                  if (checkbox && checkbox.checked) { // Si el campo está bloqueado
+                  if (checkbox && checkbox.checked) { 
                       checkbox.checked = false; 
-                      alternarBloqueo(id); // Aplica el desbloqueo y actualiza localStorage
+                      alternarBloqueo(id);
                   }
                   
-                  // 2. Asegurar que los valores persistentes se borren para la próxima carga limpia
                   localStorage.removeItem(id); 
-                  
-                  // 3. Asegurar que el input esté limpio (el evento reset ya debería hacerlo, pero lo forzamos)
                   input.value = '';
               });
+              
+              // Forzar a los callbacks a reconfigurar con valores vacíos (limpia listas de sugerencias)
+              dependenciaCallback('');
+              medioCallback('');
 
-              // 4. Resetear estado de edición y foco
               document.getElementById('titular').focus();
               resetearEstadoEdicion(); 
           }, 10);
       });
       
-      // --- 4. CONFIGURACIÓN DE LA TABLA ---
+      // --- 6. CONFIGURACIÓN DE LA TABLA ---
       
       // Inicializar renderizado y ordenamiento
       ordenarTabla(ordenActual.columna, true);
@@ -1504,7 +1518,7 @@
           renderizarTabla(notas); // Renderiza con el filtro aplicado
       });
 
-      // --- 5. ATAJOS DE TECLADO ---
+      // --- 7. ATAJOS DE TECLADO ---
 
       // 1. Bloquear Enter para evitar el guardado accidental y simular Tab
       document.addEventListener("keydown", (e) => {
@@ -1525,36 +1539,29 @@
       document.addEventListener("keydown", (e) => {
           // Verifica Ctrl (o Cmd en Mac) + Q
           if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'q') {
-              e.preventDefault(); // Evita la acción predeterminada del navegador (como cerrar pestaña)
+              e.preventDefault(); 
               document.getElementById('btnGuardar').click();
           }
       });
       
-      // Atajo Shift + Ctrl + L para bloquear solo el campo con foco
+      // 3. Atajo Shift + Ctrl + L para bloquear solo el campo con foco
       document.addEventListener("keydown", (e) => {
           // Verifica Shift + Ctrl (o Cmd en Mac) + L
           if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 'l') {
-              e.preventDefault(); // Evita la acción predeterminada del navegador
+              e.preventDefault(); 
               
               const focusedElement = document.activeElement;
               const fieldId = focusedElement.id;
               
-              // Verifica si el elemento con foco es un campo de entrada de datos relevante
               const isDataField = camposDeDatos.filter(c => c !== 'ordenCaptura').includes(fieldId);
 
               if (isDataField) {
-                  // Obtener el checkbox asociado
                   const capitalizedId = fieldId.charAt(0).toUpperCase() + fieldId.slice(1);
                   const checkbox = document.getElementById(`check${capitalizedId}`);
                   
                   if (checkbox) {
-                      // Alternar el estado del checkbox (Bloquear <-> Desbloquear)
                       checkbox.checked = !checkbox.checked;
-                      
-                      // Aplicar el nuevo estado llamando a la función existente
                       alternarBloqueo(fieldId);
-                      
-                      // Mantener el foco en el input para una mejor experiencia
                       focusedElement.focus(); 
                   }
               }
