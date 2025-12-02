@@ -644,7 +644,7 @@
     const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxXNixPwsyFiLoC55-u3p5Z1rT1rWX03_alTk3XwDmgjq6t3W5-fjR-Fs3IF_y5wGI/exec";
     
     // CREDENCIALES DE TELEGRAM (CONFIRMADAS)
-    const TELEGRAM_BOT_TOKEN = "8428524335:AAFeKrvKrUxrI9NAL_G1-X6LdL4F5fkV4"; 
+    const TELEGRAM_BOT_TOKEN = "8428524335:AAFeKrvKrUxrI9NAL_G1-X6LdL6LdL6F5fkV4"; 
     const TELEGRAM_CHAT_ID = "-1003492273306"; 
     
     // ======================================================================
@@ -844,11 +844,9 @@
       
       if (isLocked) return; // No sobrescribir si el campo está bloqueado
 
-      const lowerMedio = medioValue.toLowerCase();
-      let suggestedCanales = [];
-
       // Buscar coincidencia exacta (insensible a mayúsculas/minúsculas)
       const key = findKeyCaseInsensitive(map, medioValue);
+      let suggestedCanales = [];
       if (key) {
         suggestedCanales = map[key];
       }
@@ -1400,20 +1398,21 @@
 
       // Inicialización de autocompletado para campos que requieren filtrado o listas dinámicas
       
-      // ✅ CORRECCIÓN: Dependencia ahora solo usa las claves de dependencias.
+      // ✅ CORRECCIÓN FINAL: Dependencia usa correctamente las claves.
       autocompletar('dependencia', 'sugDep', mapas.dependencia.claves, dependenciaCallback);
       
-      autocompletar('organismo', 'sugOrg', mapas.dependencia.map[document.getElementById('dependencia').value] || mapas.dependencia.claves);
+      // ✅ CORRECCIÓN CRÍTICA: Organismo usa la lista específica de la dependencia seleccionada o [] si no hay nada.
+      autocompletar('organismo', 'sugOrg', mapas.dependencia.map[document.getElementById('dependencia').value] || []);
       
-      // ✅ CORRECCIÓN PREVIA: Medio ahora solo usa las claves de medios.
+      // ✅ Medio usa correctamente las claves de Medio/Canal.
       autocompletar('medio', 'sugMedio', mapas.medioCanal.claves, medioCallback);
       
+      // ✅ Firma usa la lista específica del medio seleccionado o [].
       autocompletar('firma', 'sugFirma', mapas.firma.map[document.getElementById('medio').value] || []);
+      
+      // ✅ Campos simples usan sus respectivas listas.
       autocompletar('genero', 'sugGenero', listas.generos);
-      
-      // ✅ CORRECCIÓN PREVIA: Canal usa la lista de Canales únicos generada.
       autocompletar('canal', 'sugCanal', canalesUnicos);
-      
       autocompletar('tema', 'sugTema', listas.temas);
       autocompletar('estatus', 'sugEstatus', listas.estatus);
       autocompletar('municipio', 'sugMunicipio', listas.municipios);
@@ -1461,7 +1460,7 @@
           }
       });
       
-      // ✅ CORRECCIÓN 1: Lógica del botón Limpiar (reset)
+      // Lógica del botón Limpiar (reset)
       document.querySelector("form").addEventListener("reset", () => {
           // Se aplica un timeout para que se ejecute DESPUÉS de que el evento 'reset' limpie los campos
           setTimeout(() => {
@@ -1531,7 +1530,7 @@
           }
       });
       
-      // ✅ Atajo Shift + Ctrl + L para bloquear solo el campo con foco
+      // Atajo Shift + Ctrl + L para bloquear solo el campo con foco
       document.addEventListener("keydown", (e) => {
           // Verifica Shift + Ctrl (o Cmd en Mac) + L
           if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 'l') {
