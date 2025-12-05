@@ -616,6 +616,9 @@
     // ORDEN DE CAMPOS ACTUALIZADO
     const camposDeDatos = ["ordenCaptura", "usuario", "fecha", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
     
+    // 🌟 NUEVA CONSTANTE PARA MANEJAR BLOQUEO GLOBAL Y RESET 🌟
+    const CAMPOS_CON_BLOQUEO = ["usuario", "fecha", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
+
     // 🌟 CABECERAS SIN (Opcional) 🌟
     const encabezadosTabla = {
         "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio", "titular": "Titular", "firma": "Firma", 
@@ -912,6 +915,8 @@
             localStorage.removeItem('notasCapturadas'); 
             localStorage.removeItem('nextOrdenCaptura'); 
             renderizarTabla(); 
+            // 🌟 Asegura que todos los campos se desbloqueen antes de resetear 🌟
+            desbloquearTodosLosCampos();
             document.querySelector("form").reset(); 
             resetearEstadoEdicion();
         }
@@ -924,6 +929,8 @@
                 notas.splice(filaEnEdicion, 1);
                 guardarNotas();
                 ordenarTabla(ordenActual.columna, true); 
+                // 🌟 Asegura que todos los campos se desbloqueen antes de resetear 🌟
+                desbloquearTodosLosCampos();
                 document.querySelector("form").reset(); 
                 resetearEstadoEdicion(); 
             }
@@ -1068,6 +1075,26 @@
              localStorage.removeItem(idCampo);
         }
     }
+    
+    // ❌ ELIMINADA: La función `alternarBloqueoGlobal` fue eliminada según la solicitud del usuario.
+
+    
+    /**
+     * 🌟 FUNCIÓN: Desbloquea todos los campos. Llamada desde el botón Limpiar/Borrar Todo.
+     */
+    function desbloquearTodosLosCampos() {
+        CAMPOS_CON_BLOQUEO.forEach(id => {
+            const checkId = `check${id.charAt(0).toUpperCase() + id.slice(1)}`;
+            const checkbox = document.getElementById(checkId);
+            
+            // Si está marcado, lo desmarca y llama a alternarBloqueo
+            if (checkbox && checkbox.checked) {
+                 checkbox.checked = false;
+                 alternarBloqueo(id);
+            }
+        });
+    }
+
 
     function editarNota(tr) {
         const notaId = parseInt(tr.dataset.id); 
@@ -1420,7 +1447,7 @@
       document.getElementById('buscador').addEventListener('input', filtrarTabla); 
 
       // Persistence & Locks
-      camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
+      CAMPOS_CON_BLOQUEO.forEach(id => {
         const campo = document.getElementById(id);
         if (localStorage.getItem(id)) campo.value = localStorage.getItem(id);
         campo.addEventListener("input", () => localStorage.setItem(id, campo.value));
@@ -1438,23 +1465,14 @@
           th.addEventListener('click', () => ordenarTabla(th.dataset.col));
       });
 
-      document.querySelector("form").addEventListener('reset', () => {
+      document.querySelector("form").addEventListener('reset', (e) => {
+          // 🌟 LÓGICA: DESBLOQUEAR TODOS LOS CAMPOS AL PRESIONAR LIMPIAR 🌟
+          e.preventDefault(); // Detenemos el reset inicial para asegurar el desbloqueo
           
-          // --- 🌟 NUEVA LÓGICA: DESBLOQUEAR TODOS LOS CAMPOS 🌟 ---
-          const camposConBloqueo = ["usuario", "fecha", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
-          
-          camposConBloqueo.forEach(id => {
-              const checkId = `check${id.charAt(0).toUpperCase() + id.slice(1)}`;
-              const checkbox = document.getElementById(checkId);
-              
-              if (checkbox && checkbox.checked) {
-                  // 1. Desmarca el checkbox
-                  checkbox.checked = false;
-                  // 2. Aplica el desbloqueo (actualiza readOnly, clases y localStorage)
-                  alternarBloqueo(id);
-              }
-          });
-          // --- FIN NUEVA LÓGICA DE DESBLOQUEO ---
+          desbloquearTodosLosCampos();
+
+          // Ejecutamos el reset del formulario después del desbloqueo
+          e.target.reset(); 
 
           setTimeout(() => {
               document.getElementById('titular').focus();
@@ -1480,11 +1498,6 @@
             // Si la función autocompletar no evita el default (porque hay múltiples), el foco se mueve aquí.
             const contenedorSugerencias = e.target.parentNode.querySelector('.sugerencias');
             const items = contenedorSugerencias ? contenedorSugerencias.querySelectorAll('.sugerencia') : [];
-
-            // Si hay sugerencias visibles, el manejo de Enter DEBE hacerlo el listener de autocompletar.
-            // Si el listener de autocompletar no se ejecutó (porque no hay sugerencias), o si se ejecutó 
-            // pero el foco sigue aquí (porque hubo más de una y se usó Enter sin seleccionar),
-            // entonces simulamos el Tab aquí para una navegación fluida.
 
             // Si no hay sugerencias, o si hay más de una, y se presiona Enter,
             // impedimos el submit del formulario y simulamos el Tab.
@@ -1515,6 +1528,33 @@
               if (e.key.toLowerCase() === 'q') {
                   e.preventDefault(); // Evita la acción predeterminada del navegador
                   document.querySelector("form").dispatchEvent(new Event('submit'));
+              }
+          }
+      });
+      
+      // 3. 🌟 ATAJO MODIFICADO: Bloqueo/Desbloqueo del campo activo con Ctrl + Shift + L 🌟
+      document.addEventListener("keydown", (e) => {
+          // Verifica Ctrl (o Cmd en Mac) + Shift + L
+          if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 'l') {
+              e.preventDefault(); // Evita la acción predeterminada
+              
+              const activeElement = document.activeElement;
+              const campoId = activeElement.id;
+              
+              // Verifica si el campo activo es un INPUT de texto o fecha Y si está en la lista de campos bloqueables
+              if (activeElement.tagName === 'INPUT' && (activeElement.type === 'text' || activeElement.type === 'date') && CAMPOS_CON_BLOQUEO.includes(campoId)) {
+                  
+                  const checkboxId = `check${campoId.charAt(0).toUpperCase() + campoId.slice(1)}`;
+                  const checkbox = document.getElementById(checkboxId);
+                  
+                  // Si el checkbox existe, alterna su estado y aplica el bloqueo/desbloqueo
+                  if (checkbox) {
+                      checkbox.checked = !checkbox.checked; // Alterna el estado
+                      alternarBloqueo(campoId);            // Aplica el bloqueo/desbloqueo
+                      
+                      // Vuelve a enfocar el campo para conservar el foco
+                      activeElement.focus(); 
+                  }
               }
           }
       });
