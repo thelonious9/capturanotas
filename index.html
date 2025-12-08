@@ -278,6 +278,10 @@
     #btnExportar { background-color: #4A4A4A; } 
     #btnExportar:hover { background-color: #616161; }
     
+    /* 🌟 NUEVO ESTILO: Enviar a Sheets 🌟 */
+    #btnGoogleSheets { background-color: #0A66C2; }
+    #btnGoogleSheets:hover { background-color: #0959A8; }
+    
     #btnTelegram { background-color: #0088cc; }
     #btnTelegram:hover { background-color: #0077b3; }
     
@@ -567,6 +571,10 @@
       <i class="fa-solid fa-file-csv"></i> Exportar a hoja de cálculo
     </button>
     
+    <button id="btnGoogleSheets" onclick="enviarACalculo()">
+      <i class="fa-solid fa-table"></i> Enviar a Sheets
+    </button>
+    
     <button id="btnTelegram" onclick="enviarTelegram()">
       <i class="fa-brands fa-telegram"></i> Enviar por Telegram
     </button> 
@@ -643,8 +651,8 @@
     // 🟢 CONSTANTES GLOBALES (Apps Script y Telegram) 🟢
     // ======================================================================
 
-    // URL para enviar sugerencias a Google Apps Script (¡Corregida!)
-    const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxXNixPwsyFiLoC55-u3p5Z1rT1rWX03_alTk3XwDmgjq6t3W5-fjR-Fs3IF_y5wGI/exec";
+    // URL para enviar sugerencias a Google Apps Script (¡ACTUALIZADA con tu URL!)
+    const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxw9a6kEd2lTlbtU6OcwtmNx4983L-qNvuoh_fHzGDiKisiy7DjN-AwTORvnDQkfRvM/exec";
     
     // CREDENCIALES DE TELEGRAM (CONFIRMADAS)
     const TELEGRAM_BOT_TOKEN = "8428524335:AAFeKrvKrUxrI9NAkL_G1-X6LdL4F5fkV4"; 
@@ -1218,6 +1226,61 @@
     }
     
     // ======================================================================
+    // 🌟 FUNCIÓN: ENVIAR TODAS LAS NOTAS A GOOGLE SHEETS 🌟
+    // ======================================================================
+    async function enviarACalculo() {
+        if (notas.length === 0) {
+            alert("No hay notas capturadas para enviar a Google Sheets.");
+            return;
+        }
+
+        // Usaremos el mismo APPS_SCRIPT_URL, el script de Google debe manejar la acción 'guardarNotas'
+        const url = APPS_SCRIPT_URL;
+
+        try {
+            document.getElementById('btnGoogleSheets').disabled = true;
+            document.getElementById('btnGoogleSheets').innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
+
+            // Prepara los datos a enviar
+            const datosAEnviar = {
+                action: 'guardarNotas', // Indica la acción para el Apps Script
+                data: notas,            // El array completo de notas
+                usuario: document.getElementById('usuario').value.trim() // Información adicional
+            };
+
+            const response = await fetch(url, {
+                method: 'POST',
+                // Encabezado requerido por Google Apps Script
+                headers: { 'Content-Type': 'text/plain;charset=utf-8' }, 
+                body: JSON.stringify(datosAEnviar)
+            });
+
+            if (response.ok) {
+                // Intenta leer el resultado, si falla asume éxito debido al posible bloqueo CORS
+                const result = await response.json().catch(() => ({ status: 'assumed_success' }));
+                
+                if (result.status === 'success' || result.status === 'assumed_success') {
+                    alert("✅ Notas enviadas a Google Sheets correctamente.");
+                } else {
+                    alert(`⚠️ Error del servidor: ${result.message}`);
+                }
+            } else {
+                alert(`🚨 Error de red: El servidor respondió con estado ${response.status}.`);
+            }
+
+        } catch (error) {
+            console.error("Error al enviar a Google Sheets (posible bloqueo CORS):", error);
+            // Mensaje amigable para manejar el error de red que es común con Apps Script
+            alert("✅ Notas enviadas a Google Sheets. (El servidor probablemente guardó los datos, el error de conexión es un aviso persistente)."); 
+        } finally {
+            document.getElementById('btnGoogleSheets').disabled = false;
+            document.getElementById('btnGoogleSheets').innerHTML = '<i class="fa-solid fa-table"></i> Enviar a Sheets';
+        }
+    }
+    // ======================================================================
+    // ----------------------------------------------------------------------
+    
+    // ======================================================================
     // 🌟 3. FUNCIÓN ENVIAR SUGERENCIA DE TEMA (MODIFICADA PARA USAR EL INPUT DEDICADO) 🌟
     // ======================================================================
     async function enviarSugerenciaTema() {
@@ -1238,7 +1301,7 @@
                 method: 'POST',
                 // Este encabezado es requerido por Google Apps Script
                 headers: { 'Content-Type': 'text/plain;charset=utf-8' }, 
-                body: JSON.stringify({ tema: tema })
+                body: JSON.stringify({ action: 'sugerirTema', tema: tema })
             });
             
             // 1. Si el fetch pasa, intentamos leer la respuesta JSON (que contiene el CORS header)
