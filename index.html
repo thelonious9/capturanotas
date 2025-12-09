@@ -1659,8 +1659,7 @@
           nuevaNota.ordenCaptura = nextOrdenCaptura++; 
           notas.push(nuevaNota);
       }
-      
-      guardarNotas();
+            guardarNotas();
       ordenarTabla(ordenActual.columna, true); 
       
       // 3. Limpiar campos NO bloqueados y eliminar su persistencia
@@ -1675,6 +1674,30 @@
       // 4. Devolver el foco al campo Titular
       document.getElementById('titular').focus();
     });
+      // Función para desbloquear y limpiar todos los campos
+  function resetearFormulario() {
+  CAMPOS_CON_BLOQUEO.forEach(campoId => {
+    const input = document.getElementById(campoId);
+    const check = document.getElementById("check" + campoId.charAt(0).toUpperCase() + campoId.slice(1));
+    
+    if (input) {
+      input.classList.remove("bloqueado");
+      input.disabled = false;
+      input.value = ""; 
+    }
+    if (check) {
+      check.checked = false;
+    }
+  });
+
+  // Limpia sugerencias visibles
+  document.querySelectorAll(".sugerencias").forEach(div => div.innerHTML = "");
+}
+
+// Intercepta el evento reset del formulario
+document.querySelector("form").addEventListener("reset", function() {
+  setTimeout(resetearFormulario, 0);
+});
   </script>
 
   <footer>
