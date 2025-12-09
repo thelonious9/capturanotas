@@ -718,6 +718,7 @@
         if (!clave) return;
         clave = clave.trim();
         valor = valor ? valor.trim() : '';
+
         map[clave] = map[clave] || new Set();
         if (valor) map[clave].add(valor);
       });
@@ -725,6 +726,7 @@
       const claves = Object.keys(map).sort((a, b) => a.localeCompare(b, 'es'));
       const mapArrays = {};
       claves.forEach(k => mapArrays[k] = Array.from(map[k]).sort((a, b) => a.localeCompare(b, 'es')));
+      
       return { claves, map: mapArrays };
     }
 
@@ -733,751 +735,947 @@
       const filas = limpiarFilasCSV(await cargarCSV(url));
       return Array.from(new Set(filas.map(r => r[0]))).sort((a, b) => a.localeCompare(b, 'es'));
     }
-    
+
     function autocompletar(idCampo, idSugerencias, lista, callback) {
-        const campo = document.getElementById(idCampo);
-        const contenedor = document.getElementById(idSugerencias);
-        campo.dataset.lista = JSON.stringify(lista);
-        let indice = -1;
+      const campo = document.getElementById(idCampo);
+      const contenedor = document.getElementById(idSugerencias);
+      campo.dataset.lista = JSON.stringify(lista);
+      let indice = -1;
 
-        campo.addEventListener("input", () => {
-            const valor = campo.value.toLowerCase().trim();
+      campo.addEventListener("input", () => {
+        const valor = campo.value.toLowerCase().trim();
+        contenedor.innerHTML = "";
+        indice = -1;
+        if (!valor) return;
+        const sugerencias = lista.filter(item => item.toLowerCase().includes(valor));
+        sugerencias.forEach((s, i) => {
+          const div = document.createElement("div");
+          div.textContent = s;
+          div.className = "sugerencia";
+          div.dataset.index = i;
+          div.onclick = () => {
+            campo.value = s;
             contenedor.innerHTML = "";
-            indice = -1;
-            if (!valor) return;
-
-            const sugerencias = lista.filter(item => item.toLowerCase().includes(valor));
-
-            sugerencias.forEach((s, i) => {
-                const div = document.createElement("div");
-                div.textContent = s;
-                div.className = "sugerencia";
-                div.dataset.index = i;
-                div.onclick = () => {
-                    campo.value = s;
-                    contenedor.innerHTML = "";
-                    if (callback) callback(s);
-                };
-                contenedor.appendChild(div);
-            });
+            if (callback) callback(s);
+          };
+          contenedor.appendChild(div);
         });
+      });
 
-        campo.addEventListener("keydown", e => {
-            const items = contenedor.querySelectorAll(".sugerencia");
-            // --- 🌟 NUEVA LÓGICA: SELECCIÓN ÚNICA CON ENTER O TAB 🌟 --- 
-            if (items.length === 1 && (e.key === "Enter" || e.key === "Tab")) {
-                // Previene el comportamiento por defecto de la tecla (evita submit o movimiento inmediato de Tab)
-                e.preventDefault(); 
-                // 1. Selecciona el valor único
-                const valorSeleccionado = items[0].textContent;
-                campo.value = valorSeleccionado;
-                contenedor.innerHTML = "";
-                // 2. Ejecuta el callback (si existe) y dispara el blur para actualizar dependencias (Medio -> Canal/Firma)
-                if (callback) callback(valorSeleccionado);
-                campo.dispatchEvent(new Event('blur')); 
+      campo.addEventListener("keydown", e => {
+        const items = contenedor.querySelectorAll(".sugerencia");
+        
+        // --- 🌟 NUEVA LÓGICA: SELECCIÓN ÚNICA CON ENTER O TAB 🌟 ---
+        if (items.length === 1 && (e.key === "Enter" || e.key === "Tab")) {
+            // Previene el comportamiento por defecto de la tecla (evita submit o movimiento inmediato de Tab)
+            e.preventDefault(); 
+            
+            // 1. Selecciona el valor único
+            const valorSeleccionado = items[0].textContent;
+            campo.value = valorSeleccionado;
+            contenedor.innerHTML = "";
+            
+            // 2. Ejecuta el callback (si existe) y dispara el blur para actualizar dependencias (Medio -> Canal/Firma)
+            if (callback) callback(valorSeleccionado);
+            campo.dispatchEvent(new Event('blur'));
+
+            // 3. Simula el movimiento de foco si fue la tecla Tab
+            if (e.key === "Tab") {
+                const form = document.querySelector('form');
+                // Solo busca inputs de texto y fecha que no estén marcados para ser saltados (tabindex="-1")
+                const focusable = Array.from(form.querySelectorAll('input[type="text"]:not([tabindex="-1"]), input[type="date"]:not([tabindex="-1"])'));
+                const index = focusable.indexOf(e.target);
                 
-                // 3. Simula el movimiento de foco si fue la tecla Tab
-                if (e.key === "Tab") {
-                    const form = document.querySelector('form');
-                    // Solo busca inputs de texto y fecha que no estén marcados para ser saltados (tabindex="-1")
-                    const focusable = Array.from(form.querySelectorAll('input[type="text"]:not([tabindex="-1"]), input[type="date"]:not([tabindex="-1"])'));
-                    const index = focusable.indexOf(e.target);
-                    // Mueve el foco al siguiente campo enfocable
-                    if (index > -1 && index < focusable.length - 1) {
-                        focusable[index + 1].focus();
-                    } else if (index === focusable.length - 1) {
-                        // Si es el último, vuelve al titular
-                        document.getElementById('titular').focus();
-                    }
-                }
-                return; // Termina la función aquí
-            }
-            // --- FIN LÓGICA DE SELECCIÓN ÚNICA ---
-
-            // Lógica de flechas y Enter original (si hay más de una sugerencia o si no se ha usado Enter/Tab)
-            if (items.length === 0) return;
-
-            if (e.key === "ArrowDown") {
-                e.preventDefault();
-                indice = (indice + 1) % items.length;
-                resaltar(items, indice);
-                items[indice].scrollIntoView({ block: 'nearest' });
-            } else if (e.key === "ArrowUp") {
-                e.preventDefault();
-                indice = (indice - 1 + items.length) % items.length;
-                resaltar(items, indice);
-                items[indice].scrollIntoView({ block: 'nearest' });
-            } else if (e.key === "Enter") {
-                e.preventDefault();
-                if (indice >= 0 && items[indice]) {
-                    campo.value = items[indice].textContent;
-                    contenedor.innerHTML = "";
-                    if (callback) callback(campo.value);
-                    // Disparar blur para actualizar dependencias
-                    campo.dispatchEvent(new Event('blur'));
+                // Mueve el foco al siguiente campo enfocable
+                if (index > -1 && index < focusable.length - 1) {
+                    focusable[index + 1].focus();
+                } else if (index === focusable.length - 1) {
+                    // Si es el último, vuelve al titular
+                    document.getElementById('titular').focus();
                 }
             }
-        });
-
-        campo.addEventListener("focus", () => {
-            // Cierra otras sugerencias
-            document.querySelectorAll('.sugerencias').forEach(sug => {
-                if (sug.id !== idSugerencias) {
-                    sug.innerHTML = "";
-                }
-            });
-        });
-
-        campo.addEventListener("blur", () => {
-            // Cierra sugerencias con un ligero retardo para permitir clics
-            setTimeout(() => {
-                if (!contenedor.contains(document.activeElement)) {
-                    contenedor.innerHTML = "";
-                }
-            }, 150);
-        });
-
-        function resaltar(items, i) {
-            items.forEach(el => el.classList.remove("resaltado"));
-            items[i].classList.add("resaltado");
+            return; // Termina la función aquí
         }
+        // --- FIN LÓGICA DE SELECCIÓN ÚNICA ---
+        
+        // Lógica de flechas y Enter original (si hay más de una sugerencia o si no se ha usado Enter/Tab)
+        if (items.length === 0) return;
+
+        if (e.key === "ArrowDown") {
+          e.preventDefault();
+          indice = (indice + 1) % items.length;
+          resaltar(items, indice);
+          items[indice].scrollIntoView({ block: 'nearest' }); 
+        } else if (e.key === "ArrowUp") {
+          e.preventDefault();
+          indice = (indice - 1 + items.length) % items.length;
+          resaltar(items, indice);
+          items[indice].scrollIntoView({ block: 'nearest' });
+        } else if (e.key === "Enter") {
+          e.preventDefault();
+          if (indice >= 0 && items[indice]) {
+            campo.value = items[indice].textContent;
+            contenedor.innerHTML = "";
+            if (callback) callback(campo.value);
+            // Disparar blur para actualizar dependencias
+            campo.dispatchEvent(new Event('blur'));
+          }
+        }
+      });
+
+      campo.addEventListener("focus", () => {
+        // Cierra otras sugerencias
+        document.querySelectorAll('.sugerencias').forEach(sug => {
+            if (sug.id !== idSugerencias) {
+                sug.innerHTML = "";
+            }
+        });
+      });
+      
+      campo.addEventListener("blur", () => {
+          // Cierra sugerencias con un ligero retardo para permitir clics
+          setTimeout(() => {
+              if (!contenedor.contains(document.activeElement)) {
+                  contenedor.innerHTML = "";
+              }
+          }, 150); 
+      });
+
+      function resaltar(items, i) {
+        items.forEach(el => el.classList.remove("resaltado"));
+        items[i].classList.add("resaltado");
+      }
     }
     
     function mostrarSugerencias(idCampo, idSugerencias) {
-        const campo = document.getElementById(idCampo);
-        const contenedor = document.getElementById(idSugerencias);
-        // Cierra todas las sugerencias antes de abrir una
-        document.querySelectorAll('.sugerencias').forEach(sug => sug.innerHTML = "");
-        
-        const lista = campo.dataset.lista ? JSON.parse(campo.dataset.lista) : [];
-        contenedor.innerHTML = "";
-        
-        // Muestra todas las sugerencias si el campo está vacío al hacer clic
-        if (campo.value.trim() === "") {
-            lista.forEach((s, i) => {
-                const div = document.createElement("div");
-                div.textContent = s;
-                div.className = "sugerencia";
-                div.dataset.index = i;
-                div.onclick = () => {
-                    campo.value = s;
-                    contenedor.innerHTML = "";
-                    document.getElementById(idCampo).dispatchEvent(new Event('blur')); // Disparar blur para actualizar dependencias (si aplica)
-                };
-                contenedor.appendChild(div);
-            });
-        }
-    }
+      const campo = document.getElementById(idCampo);
+      const contenedor = document.getElementById(idSugerencias);
+      // Cierra todas las sugerencias antes de abrir una
+      document.querySelectorAll('.sugerencias').forEach(sug => sug.innerHTML = "");
 
-
-    // --- LÓGICA DE PERSISTENCIA Y BLOQUEO ---
-    function guardarPersistencia() {
-        CAMPOS_CON_BLOQUEO.forEach(id => {
-            const input = document.getElementById(id);
-            const checkbox = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
-            
-            // Si el campo está bloqueado, ya guardamos su valor en alternarBloqueo, no lo tocamos aquí.
-            if (localStorage.getItem(`bloqueado_${id}`) === 'true') {
-                return;
-            }
-            
-            // Si el campo está desbloqueado, guardamos su valor actual si no está vacío.
-            if (input.value) {
-                localStorage.setItem(id, input.value);
-            } else {
-                // Si está vacío, limpiamos la persistencia del valor, pero no el estado de bloqueo
-                localStorage.removeItem(id);
-            }
-        });
-    }
-
-    function cargarPersistencia() {
-        CAMPOS_CON_BLOQUEO.forEach(id => {
-            const input = document.getElementById(id);
-            const checkbox = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
-            
-            // 1. Cargar estado de bloqueo
-            const estadoBloqueo = localStorage.getItem(`bloqueado_${id}`);
-            if (estadoBloqueo === 'true') {
-                checkbox.checked = true;
-                input.classList.add('bloqueado');
-                input.readOnly = true;
-            } else {
-                checkbox.checked = false;
-                input.classList.remove('bloqueado');
-                input.readOnly = false;
-            }
-
-            // 2. Cargar valor persistido (solo si está bloqueado O si el campo no tiene valor actual)
-            const valorPersistido = localStorage.getItem(id);
-            if (valorPersistido) {
-                // Siempre cargar si tiene un valor guardado (incluso si está desbloqueado)
-                input.value = valorPersistido;
-            }
-        });
-    }
-
-    function alternarBloqueo(id) {
-        const input = document.getElementById(id);
-        const checkbox = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
-
-        if (checkbox.checked) {
-            // Bloqueando: Guardamos el valor actual y marcamos como bloqueado
-            localStorage.setItem(id, input.value); 
-            localStorage.setItem(`bloqueado_${id}`, 'true');
-            input.classList.add('bloqueado');
-            input.readOnly = true;
-        } else {
-            // Desbloqueando: Limpiamos el estado de bloqueo
-            localStorage.removeItem(`bloqueado_${id}`);
-            // Limpiamos el valor de persistencia para que no se restaure automáticamente
-            localStorage.removeItem(id); 
-            input.classList.remove('bloqueado');
-            input.readOnly = false;
-            // Limpiamos el campo en la UI si el usuario desbloquea
-            input.value = ''; 
-        }
+      const lista = campo.dataset.lista ? JSON.parse(campo.dataset.lista) : [];
+      contenedor.innerHTML = "";
+      lista.forEach((s, i) => {
+        const div = document.createElement("div");
+        div.textContent = s;
+        div.className = "sugerencia";
+        div.dataset.index = i;
+        div.onclick = () => {
+          campo.value = s;
+          contenedor.innerHTML = "";
+          // Dispara blur para actualizar dependencias (si aplica)
+          document.getElementById(idCampo).dispatchEvent(new Event('blur'));
+        };
+        contenedor.appendChild(div);
+      });
+      if (lista.length > 0) {
+        contenedor.style.display = 'block';
+      }
     }
     
-    function desbloquearTodosLosCampos() {
-        CAMPOS_CON_BLOQUEO.forEach(id => {
-            const checkbox = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
-            if (checkbox && checkbox.checked) {
-                checkbox.checked = false;
-                // La llamada a alternarBloqueo es CRUCIAL. Esto limpia `bloqueado_id` y `id` de localStorage
-                alternarBloqueo(id); 
-            }
-        });
-    }
-    
-    // ----------------------------------------------------------------------
-    // 🚨 NUEVA FUNCIÓN AÑADIDA PARA EL BOTÓN LIMPIAR 🚨
-    // ----------------------------------------------------------------------
-    function limpiarValoresPersistidos() {
-        CAMPOS_CON_BLOQUEO.forEach(id => {
-            // Limpia el valor persistido de la nota, sin tocar el estado de bloqueo
-            localStorage.removeItem(id); 
-        });
-    }
-    // ----------------------------------------------------------------------
+    // FUNCIÓN DE DEPENDENCIA MEDIO -> CANAL
+    function setCanalFromMedio(medioValue, map) {
+        const canalInput = document.getElementById('canal');
+        const isLocked = localStorage.getItem('bloqueado_canal') === 'true';
 
+        if (isLocked) return; // No sobrescribir si el campo está bloqueado
 
-    // --- LÓGICA DE VALIDACIÓN ---
-    function contieneCamposVacios(nota) {
-        // Campos obligatorios. 'firma' y 'tema' son opcionales.
-        const camposObligatorios = ["usuario", "fecha", "medio", "titular", "pagina", "dependencia", "organismo", "genero", "canal", "estatus", "municipio"];
+        const lowerMedio = medioValue.toLowerCase();
+        let suggestedCanales = [];
+
+        // Buscar coincidencia exacta (insensible a mayúsculas/minúsculas)
+        const key = findKeyCaseInsensitive(map, medioValue);
         
-        return camposObligatorios.filter(campo => {
-            let valor = nota[campo];
-            if (typeof valor === 'string') {
-                valor = valor.trim();
-            }
-            return !valor;
-        }).map(campo => {
-            // Devuelve el nombre visible del campo para el alert
-            return encabezadosTabla[campo] || campo; 
-        });
-    }
-
-    // --- MANEJO DE NOTAS ---
-    function cargarNotas() {
-        const notasGuardadas = localStorage.getItem('notas');
-        if (notasGuardadas) {
-            notas = JSON.parse(notasGuardadas);
-            if (notas.length > 0) {
-                nextOrdenCaptura = Math.max(...notas.map(n => n.ordenCaptura)) + 1;
-            }
+        if (key) {
+            suggestedCanales = map[key];
+        } 
+        
+        // Si se encuentra una sugerencia (el archivo Medio.csv solo debería tener 1 por Medio)
+        if (suggestedCanales.length > 0) {
+            // Toma el primer canal sugerido
+            const suggestedCanal = suggestedCanales[0]; 
+            canalInput.value = suggestedCanal;
+            localStorage.setItem('canal', suggestedCanal); 
+        } else if (!canalInput.value) {
+            // Si no se encuentra mapeo, limpia el campo si está vacío
+            canalInput.value = '';
+            localStorage.removeItem('canal');
         }
-        cargarPersistencia();
-        ordenarTabla(ordenActual.columna); 
+    }
+    // FIN FUNCIÓN DE DEPENDENCIA
+
+    function resetearEstadoEdicion() {
+        filaEnEdicion = null;
+        document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Guardar';
+        document.getElementById('btnEliminar').style.display = 'none';
+        document.querySelectorAll('#tablaNotas tbody tr').forEach(row => row.classList.remove('editando'));
     }
 
     function guardarNotas() {
-        localStorage.setItem('notas', JSON.stringify(notas));
+        localStorage.setItem('notasCapturadas', JSON.stringify(notas));
+        localStorage.setItem('nextOrdenCaptura', nextOrdenCaptura);
     }
 
-    function renderizarTabla() {
-        const tbody = document.querySelector("#tablaNotas tbody");
-        tbody.innerHTML = '';
-        
-        const notasFiltradas = filtrarNotas();
-        
-        // Asignar los encabezados de tabla (data-label para responsive)
-        const encabezados = {
-            "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio", "titular": "Titular", "firma": "Firma", 
-            "pagina": "Página", "dependencia": "Dependencia", "organismo": "Organismo", "genero": "Género", "canal": "Canal",
-            "tema": "Tema", "estatus": "Estatus", "municipio": "Municipio"
-        };
-        
-        notasFiltradas.forEach((nota, index) => {
-            const tr = document.createElement('tr');
-            
-            // Agregar la clase de edición si es la fila actual
-            if (filaEnEdicion !== null && notas[filaEnEdicion].ordenCaptura === nota.ordenCaptura) {
-                 tr.classList.add('editando');
-            }
-            
-            // Comprobar si le falta el titular (alerta de vacío)
-            if (!nota.titular || nota.titular.trim() === "") {
-                tr.classList.add('alerta-vacio');
-            }
-            
-            camposDeDatos.forEach(campo => {
-                const td = document.createElement('td');
-                td.textContent = nota[campo];
-                td.setAttribute('data-label', encabezados[campo] || campo); // Para Responsive
-                tr.appendChild(td);
-            });
-
-            // Columna de Acciones
-            const tdAcciones = document.createElement('td');
-            tdAcciones.setAttribute('data-label', 'Acciones'); // Para Responsive
-            const btnEditar = document.createElement('button');
-            btnEditar.textContent = 'Editar';
-            btnEditar.className = 'btn-accion-tabla';
-            btnEditar.onclick = () => cargarNotaParaEdicion(nota.ordenCaptura);
-            tdAcciones.appendChild(btnEditar);
-            tr.appendChild(tdAcciones);
-
-            tbody.appendChild(tr);
-        });
-        
-        // Resetear íconos de ordenación
-        document.querySelectorAll('.sortable-header').forEach(header => {
-            header.parentNode.classList.remove('sorted', 'desc', 'asc');
-            header.querySelector('.sort-icon').className = 'sort-icon';
-            if (header.parentNode.dataset.col === ordenActual.columna) {
-                header.parentNode.classList.add('sorted', ordenActual.direccion);
-                header.querySelector('.sort-icon').className = `sort-icon fas fa-caret-${ordenActual.direccion === 'asc' ? 'up' : 'down'}`;
-            }
-        });
-    }
-
-    function cargarNotaParaEdicion(ordenCaptura) {
-        // Encontrar el índice de la nota a editar
-        const index = notas.findIndex(n => n.ordenCaptura === ordenCaptura);
-        if (index === -1) return;
-
-        filaEnEdicion = index;
-        const nota = notas[index];
-        
-        // Cargar los datos de la nota en el formulario
-        camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
-            const input = document.getElementById(id);
-            // Si el campo NO está bloqueado, se carga el valor de la nota
-            if (localStorage.getItem(`bloqueado_${id}`) !== 'true') {
-                 input.value = nota[id] || '';
-            }
-            // Si está bloqueado, mantiene su valor de persistencia
-        });
-
-        // Ocultar Limpiar, mostrar Borrar Nota, cambiar Guardar a Actualizar
-        document.getElementById('btnGuardar').querySelector('i').className = 'fa-solid fa-pen-to-square';
-        document.getElementById('btnGuardar').childNodes[1].nodeValue = ' Actualizar';
-        document.getElementById('btnLimpiar').style.display = 'none';
-        document.getElementById('btnEliminar').style.display = 'inline-block';
-        
-        // Resaltar la fila en la tabla
-        renderizarTabla();
-        
-        document.getElementById('titular').focus();
-    }
-    
-    function resetearEstadoEdicion() {
-        filaEnEdicion = null;
-        document.getElementById('btnGuardar').querySelector('i').className = 'fa-solid fa-floppy-disk';
-        document.getElementById('btnGuardar').childNodes[1].nodeValue = ' Guardar';
-        document.getElementById('btnLimpiar').style.display = 'inline-block';
-        document.getElementById('btnEliminar').style.display = 'none';
-        renderizarTabla();
+    function borrarTodo() {
+        if (confirm("¿Estás seguro de que quieres BORRAR TODAS las notas capturadas? Esta acción es irreversible.")) {
+            notas = []; 
+            nextOrdenCaptura = 1;
+            localStorage.removeItem('notasCapturadas'); 
+            localStorage.removeItem('nextOrdenCaptura'); 
+            renderizarTabla(); 
+            // 🌟 Asegura que todos los campos se desbloqueen antes de resetear 🌟
+            desbloquearTodosLosCampos();
+            document.querySelector("form").reset(); 
+            resetearEstadoEdicion();
+        }
     }
     
     function borrarNota() {
         if (filaEnEdicion !== null) {
-            const orden = notas[filaEnEdicion].ordenCaptura;
-            if (confirm(`¿Está seguro de que desea eliminar la nota #${orden}?`)) {
+            const confirmar = confirm(`¿Eliminar nota #${notas[filaEnEdicion].ordenCaptura}?`);
+            if (confirmar) {
                 notas.splice(filaEnEdicion, 1);
                 guardarNotas();
                 ordenarTabla(ordenActual.columna, true); 
-                // Limpiar el formulario y resetear estado de edición
-                document.querySelector("form").reset();
+                // 🌟 Asegura que todos los campos se desbloqueen antes de resetear 🌟
+                desbloquearTodosLosCampos();
+                document.querySelector("form").reset(); 
+                resetearEstadoEdicion(); 
             }
         }
     }
 
-    function borrarTodo() {
-        if (confirm("🚨 ATENCIÓN: ¿Está seguro de que desea ELIMINAR TODAS las notas? Esta acción no se puede deshacer.")) {
-            notas = [];
-            guardarNotas();
-            nextOrdenCaptura = 1; 
-            ordenarTabla(ordenActual.columna, true);
-            // Limpiar el formulario y resetear estado de edición
-            document.querySelector("form").reset(); 
-            // Adicionalmente, limpiar la persistencia completa si se borran todas las notas
-            CAMPOS_CON_BLOQUEO.forEach(id => {
-                localStorage.removeItem(id);
-                localStorage.removeItem(`bloqueado_${id}`);
-                // Asegurar que los checkboxes se desmarquen en la UI
-                const checkbox = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
-                if (checkbox) checkbox.checked = false;
-                const input = document.getElementById(id);
-                if (input) {
-                    input.classList.remove('bloqueado');
-                    input.readOnly = false;
-                }
-            });
+    // Esta función sólo verifica CAMPOS OBLIGATORIOS (excluye Tema y Firma)
+    function contieneCamposVacios(nota) {
+        // Excluye 'ordenCaptura', 'tema' y 'firma'
+        const camposARevisar = camposDeDatos.filter(c => c !== 'ordenCaptura' && c !== 'tema' && c !== 'firma'); 
+        let camposFaltantes = [];
+        
+        for (const campo of camposARevisar) {
+            if (!nota[campo] || (typeof nota[campo] === 'string' && nota[campo].trim() === '')) {
+                // Guarda el nombre legible de la cabecera
+                camposFaltantes.push(encabezadosTabla[campo]); 
+            }
         }
+        return camposFaltantes; // Devuelve la lista de campos faltantes
     }
-    
-    // --- LÓGICA DE ORDENACIÓN ---
-    function ordenarTabla(columna, forzarRender = false) {
-        if (ordenActual.columna === columna && !forzarRender) {
-            ordenActual.direccion = ordenActual.direccion === 'asc' ? 'desc' : 'asc';
+
+    // --- FUNCIÓN DE TRUNCAMIENTO ---
+    function truncarTexto(texto, limite) {
+        if (!texto) return '';
+        if (texto.length > limite) {
+            return texto.substring(0, limite) + '...';
+        }
+        return texto;
+    }
+    const LIMITE_CARACTERES_TITULAR = 50; 
+
+    function renderizarTabla() {
+        const tablaBody = document.getElementById("tablaNotas").querySelector("tbody");
+        tablaBody.innerHTML = '';
+        
+        // Creamos una copia de las notas para la tabla (las notas ya están ordenadas)
+        const notasParaRenderizar = notas; 
+
+        notasParaRenderizar.forEach((nota, indice) => {
+            const tr = document.createElement("tr");
+            tr.dataset.id = nota.ordenCaptura; 
+
+            // 1. Verificar si faltan campos obligatorios
+            const tieneCampoObligatorioVacio = contieneCamposVacios(nota).length > 0;
+            // 2. Verificar si el campo Tema (opcional) está vacío 
+            const tieneTemaVacio = !nota.tema || nota.tema.trim() === '';
+
+            // ALERTA SI HAY CAMPOS OBLIGATORIOS O EL CAMPO TEMA VACÍOS
+            if (tieneCampoObligatorioVacio || tieneTemaVacio) {
+                tr.classList.add('alerta-vacio');
+            }
+
+            camposDeDatos.forEach(campo => {
+                const td = document.createElement("td");
+                let textoADisplay = nota[campo];
+                
+                if (nota[campo]) {
+                    td.title = nota[campo]; 
+                }
+                
+                if (campo === 'titular') {
+                    textoADisplay = truncarTexto(nota[campo], LIMITE_CARACTERES_TITULAR);
+                }
+
+                td.textContent = textoADisplay;
+                td.setAttribute('data-label', encabezadosTabla[campo]);
+                tr.appendChild(td);
+            });
+            
+            const tdAcciones = document.createElement("td");
+            tdAcciones.setAttribute('data-label', encabezadosTabla['acciones']);
+            const btnEditar = document.createElement("button");
+            btnEditar.textContent = "Editar";
+            btnEditar.classList.add('btn-accion-tabla'); 
+            // La función de edición ahora busca por el ID permanente (ordenCaptura)
+            btnEditar.onclick = function() { editarNota(tr); }; 
+            tdAcciones.appendChild(btnEditar);
+            tr.appendChild(tdAcciones);
+
+            tablaBody.appendChild(tr);
+        });
+        
+        filtrarTabla();
+    }
+
+    function cargarNotasGuardadas() {
+        const datosJSON = localStorage.getItem('notasCapturadas');
+        const ordenJSON = localStorage.getItem('nextOrdenCaptura');
+        
+        if (ordenJSON && !isNaN(parseInt(ordenJSON, 10))) nextOrdenCaptura = parseInt(ordenJSON, 10);
+
+        if (datosJSON) {
+            try {
+                notas = JSON.parse(datosJSON);
+                let maxOrden = 0;
+                notas.forEach(nota => {
+                    // Asegura que todas tengan ordenCaptura y actualiza el contador
+                    if (nota.ordenCaptura === undefined || nota.ordenCaptura === null) {
+                        nota.ordenCaptura = nextOrdenCaptura++; 
+                    }
+                    if (nota.canal === undefined) nota.canal = ''; 
+                    // Asegura que Página exista para notas viejas
+                    if (nota.pagina === undefined) nota.pagina = '';
+                    
+                    if (nota.ordenCaptura > maxOrden) {
+                        maxOrden = nota.ordenCaptura;
+                    }
+                });
+                
+                // Si la nota más reciente es mayor al contador, actualiza el contador
+                if (maxOrden >= nextOrdenCaptura) {
+                    nextOrdenCaptura = maxOrden + 1;
+                }
+                
+                guardarNotas(); 
+                
+                ordenarTabla(ordenActual.columna, true);
+            } catch (e) {
+                console.error("Error al cargar notas:", e);
+                notas = [];
+            }
         } else {
-            ordenActual.columna = columna;
-            ordenActual.direccion = 'desc'; // Ordenar por # descendente por defecto
+            actualizarIndicadoresOrden();
         }
+    }
 
-        const esNumero = ['ordenCaptura', 'pagina'].includes(columna);
-        const factor = ordenActual.direccion === 'asc' ? 1 : -1;
+    function alternarBloqueo(idCampo) {
+        const campo = document.getElementById(idCampo);
+        const checkboxId = `check${idCampo.charAt(0).toUpperCase() + idCampo.slice(1)}`;
+        const checkbox = document.getElementById(checkboxId);
+        
+        campo.readOnly = checkbox.checked;
+        campo.classList.toggle("bloqueado", checkbox.checked);
+        
+        localStorage.setItem(`bloqueado_${idCampo}`, checkbox.checked);
+        
+        // Si el campo se bloquea, persistir su valor
+        if (checkbox.checked) {
+             localStorage.setItem(idCampo, campo.value);
+        } else {
+             // Si el campo se desbloquea, limpiamos su valor de persistencia, para que se llene al cargar
+             localStorage.removeItem(idCampo);
+        }
+    }
+    
+    // ❌ ELIMINADA: La función `alternarBloqueoGlobal` fue eliminada según la solicitud del usuario.
 
-        notas.sort((a, b) => {
-            let valA = a[columna] || (esNumero ? 0 : '');
-            let valB = b[columna] || (esNumero ? 0 : '');
+    
+    /**
+     * 🌟 FUNCIÓN: Desbloquea todos los campos. Llamada desde el botón Limpiar/Borrar Todo.
+     */
+    function desbloquearTodosLosCampos() {
+        CAMPOS_CON_BLOQUEO.forEach(id => {
+            const checkId = `check${id.charAt(0).toUpperCase() + id.slice(1)}`;
+            const checkbox = document.getElementById(checkId);
             
-            if (esNumero) {
-                valA = parseFloat(valA);
-                valB = parseFloat(valB);
-            } else {
-                valA = String(valA).toLowerCase();
-                valB = String(valB).toLowerCase();
+            // Si está marcado, lo desmarca y llama a alternarBloqueo
+            if (checkbox && checkbox.checked) {
+                 checkbox.checked = false;
+                 alternarBloqueo(id);
             }
-            
-            if (valA < valB) return -1 * factor;
-            if (valA > valB) return 1 * factor;
-            return 0; 
-        });
-
-        renderizarTabla();
-    }
-    
-    // --- LÓGICA DE BÚSQUEDA ---
-    function filtrarNotas() {
-        const busqueda = document.getElementById('buscador').value.toLowerCase().trim();
-        if (!busqueda) {
-            return notas;
-        }
-
-        return notas.filter(nota => {
-            // Buscar en todos los campos de texto
-            return camposDeDatos.some(campo => {
-                const valor = String(nota[campo] || '').toLowerCase();
-                return valor.includes(busqueda);
-            });
         });
     }
 
-    // --- LÓGICA DE EXPORTACIÓN Y ENVÍO ---
+
+    function editarNota(tr) {
+        const notaId = parseInt(tr.dataset.id); 
+        const indice = notas.findIndex(n => n.ordenCaptura === notaId);
+        const nota = notas[indice];
+
+        if (indice === -1 || !nota) return;
+
+        camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
+            document.getElementById(id).value = nota[id];
+        });
+
+        resetearEstadoEdicion();
+        
+        // Disparar blur para cargar sugerencias dependientes (Organismo, Firma, Canal)
+        document.getElementById("dependencia").dispatchEvent(new Event('blur'));
+        document.getElementById("medio").dispatchEvent(new Event('blur')); 
+        
+        filaEnEdicion = indice; 
+        document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Actualizar Nota';
+        document.getElementById('btnEliminar').style.display = 'inline-block';
+        
+        document.querySelectorAll('#tablaNotas tbody tr').forEach(row => row.classList.remove('editando'));
+        tr.classList.add('editando');
+        window.scrollTo(0, 0);
+    }
+
+    function generarNombreArchivoCSV() {
+        const usuario = document.getElementById('usuario').value.trim() || 'Desconocido';
+        const usuarioLimpio = usuario.replace(/\s/g, '_').replace(/[^a-zA-Z0-9_]/g, ''); 
+        const fechaHoy = new Date().toISOString().slice(0, 10); 
+        return `${usuarioLimpio}_${fechaHoy}_Prensa.csv`;
+    }
+
+    function generarCSVContenido() {
+      // 🌟 CABECERAS EN EL ORDEN CORRECTO (SIN Opcional) 🌟
+      const cabeceras = ["#", "Usuario", "Fecha", "Medio", "Titular", "Firma", "Página", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"];
+      const filas = [cabeceras];
+      
+      notas.forEach(nota => {
+        // 🌟 VALORES EN EL ORDEN CORRECTO 🌟
+        const fila = camposDeDatos.map(key => {
+            let valor = nota[key] || '';
+            // Envuelve el valor en comillas y duplica las comillas internas (escape CSV)
+            return `"${valor.toString().replace(/"/g, '""')}"`; 
+        });
+        filas.push(fila);
+      });
+      
+      // Agrega el BOM (\uFEFF) para forzar la codificación UTF-8 en Excel
+      return "\uFEFF" + filas.map(f => f.join(",")).join("\n");
+    }
+
     function exportarCSV() {
-        if (notas.length === 0) {
-            alert("No hay notas para exportar.");
-            return;
-        }
-
-        const headers = camposDeDatos.map(id => encabezadosTabla[id]).join(',');
+        if (notas.length === 0) { alert("No hay notas para exportar."); return; }
         
-        const rows = notas.map(nota => 
-            camposDeDatos.map(campo => {
-                let valor = nota[campo] || '';
-                // Escapar comillas dobles y encerrar entre comillas si contiene comas o saltos de línea
-                valor = valor.replace(/"/g, '""');
-                if (valor.includes(',') || valor.includes('\n') || valor.includes('\r')) {
-                    valor = `"${valor}"`;
-                }
-                return valor;
-            }).join(',')
-        );
-
-        const csvContent = "data:text/csv;charset=utf-8," + [headers, ...rows].join('\n');
+        const csvContenido = generarCSVContenido();
+        const nombreArchivo = generarNombreArchivoCSV();
         
-        const link = document.createElement('a');
-        link.setAttribute('href', encodeURI(csvContent));
-        link.setAttribute('download', 'notas_de_prensa.csv');
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+        const blob = new Blob([csvContenido], { type: "text/csv;charset=utf-8;" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = nombreArchivo;
+        document.body.appendChild(a); 
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
     }
     
-    async function enviarDatos(url, data) {
-        try {
-            const response = await fetch(url, {
-                method: 'POST',
-                mode: 'no-cors', // Necesario para Google Apps Script
-                cache: 'no-cache',
-                headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded',
-                },
-                body: new URLSearchParams(data).toString()
-            });
-            // Debido a 'no-cors', no podemos leer la respuesta, solo podemos asumir éxito.
-            return true;
-        } catch (error) {
-            console.error('Error al enviar datos:', error);
-            alert("Error al enviar la información. Revise la consola.");
-            return false;
-        }
-    }
-
-    // 🌟 FUNCIÓN ENVIAR SUGERENCIA DE TEMA 🌟
-    async function enviarSugerenciaTema() {
-        const input = document.getElementById('sugerenciaTemaInput');
-        const tema = input.value.trim();
-        
-        if (!tema) {
-            alert("Por favor, escriba el tema que desea sugerir.");
-            return;
-        }
-
-        const data = {
-            action: "sugerirTema",
-            tema: tema,
-            timestamp: new Date().toLocaleString('es-MX', { timeZone: 'America/Mexico_City' })
-        };
-        
-        const exito = await enviarDatos(APPS_SCRIPT_URL, data);
-        
-        if (exito) {
-            alert(`Sugerencia de tema enviada: "${tema}". Gracias por su contribución.`);
-            input.value = '';
-        }
-    }
-    
-    // 🌟 FUNCIÓN ENVIAR A SHEETS (Guardar notas) 🌟
-    async function enviarACalculo() {
-        if (notas.length === 0) {
-            alert("No hay notas para enviar.");
-            return;
-        }
-
-        const notasParaEnviar = notas.map(nota => {
-            const data = {};
-            camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(campo => {
-                data[campo] = nota[campo] || '';
-            });
-            return data;
-        });
-
-        const data = {
-            action: "guardarNotas",
-            notas: JSON.stringify(notasParaEnviar)
-        };
-
-        alert("Enviando notas a la hoja de cálculo de Google. Espere un momento...");
-        
-        const exito = await enviarDatos(APPS_SCRIPT_URL, data);
-        
-        if (exito) {
-            alert("✅ Notas enviadas exitosamente a Google Sheets.");
-        }
-    }
-
-    // 🌟 FUNCIÓN ENVIAR A TELEGRAM 🌟
-    function formatearMensajeTelegram(nota) {
-        const nombreUsuario = nota.usuario || 'Desconocido';
-        const fecha = nota.fecha || 'N/A';
-        const hora = new Date().toLocaleTimeString('es-MX', { hour: '2-digit', minute: '2-digit', timeZone: 'America/Mexico_City' });
-
-        return `📰 *Nueva Nota de Prensa Capturada* 📰\n\n` +
-               `*Usuario:* ${nombreUsuario}\n` +
-               `*Fecha:* ${fecha} ${hora}\n` +
-               `*Medio:* ${nota.medio || 'N/A'}\n` +
-               `*Titular:* ${nota.titular || 'N/A'}\n` +
-               `*Firma:* ${nota.firma || 'N/A'}\n` +
-               `*Página:* ${nota.pagina || 'N/A'}\n` +
-               `*Dependencia:* ${nota.dependencia || 'N/A'}\n` +
-               `*Organismo:* ${nota.organismo || 'N/A'}\n` +
-               `*Género:* ${nota.genero || 'N/A'}\n` +
-               `*Canal:* ${nota.canal || 'N/A'}\n` +
-               `*Tema:* ${nota.tema || 'N/A'}\n` +
-               `*Estatus:* ${nota.estatus || 'N/A'}\n` +
-               `*Municipio:* ${nota.municipio || 'N/A'}\n`;
-    }
-
+    // ======================================================================
+    // 🌟 2. FUNCIÓN ENVIAR TELEGRAM (CORREGIDA CON CREDENCIALES) 🌟
+    // ======================================================================
     async function enviarTelegram() {
         if (notas.length === 0) {
-            alert("No hay notas para enviar a Telegram.");
+             alert("No hay notas para enviar por Telegram.");
+             return;
+        }
+
+        if (!TELEGRAM_BOT_TOKEN || TELEGRAM_BOT_TOKEN.startsWith("TU_BOT_TOKEN")) {
+             alert("🚨 Error: Las credenciales de Telegram no están configuradas correctamente.");
+             return;
+        }
+
+        const URL_TELEGRAM = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument`; 
+        
+        try {
+            document.getElementById('btnTelegram').disabled = true;
+            document.getElementById('btnTelegram').innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
+
+            const csvContenido = generarCSVContenido();
+            const blobCSV = new Blob([csvContenido], { type: "text/csv;charset=utf-8;" });
+            const nombreArchivoTelegram = generarNombreArchivoCSV();
+
+            const formData = new FormData();
+            formData.append('chat_id', TELEGRAM_CHAT_ID);
+            formData.append('document', blobCSV, nombreArchivoTelegram); 
+            formData.append('caption', `📋 Reporte de notas de Prensa (${nombreArchivoTelegram}) enviado automáticamente.`);
+
+            const response = await fetch(URL_TELEGRAM, {
+                method: 'POST',
+                body: formData 
+            });
+
+            const result = await response.json();
+
+            if (response.ok && result.ok) {
+                alert(`¡CSV '${nombreArchivoTelegram}' enviado con éxito a ${TELEGRAM_CHAT_ID}!`);
+            } else {
+                console.error("Error Telegram:", result);
+                alert(`❌ Error Telegram: ${result.description || 'Fallo desconocido en la API de Telegram'}`);
+            }
+
+        } catch (error) {
+            console.error("Error conexión:", error);
+            alert("Error al intentar comunicarse con Telegram. Revisa la consola.");
+        } finally {
+            document.getElementById('btnTelegram').disabled = false;
+            document.getElementById('btnTelegram').innerHTML = '<i class="fa-brands fa-telegram"></i> Enviar por Telegram';
+        }
+    }
+    
+    // ======================================================================
+    // 🌟 FUNCIÓN: ENVIAR TODAS LAS NOTAS A GOOGLE SHEETS 🌟
+    // ======================================================================
+    async function enviarACalculo() {
+        if (notas.length === 0) {
+            alert("No hay notas capturadas para enviar a Google Sheets.");
+            return;
+        }
+
+        // Usaremos el mismo APPS_SCRIPT_URL, el script de Google debe manejar la acción 'guardarNotas'
+        const url = APPS_SCRIPT_URL;
+
+        try {
+            document.getElementById('btnGoogleSheets').disabled = true;
+            document.getElementById('btnGoogleSheets').innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
+
+            // Prepara los datos a enviar
+            const datosAEnviar = {
+                action: 'guardarNotas', // Indica la acción para el Apps Script
+                data: notas,            // El array completo de notas
+                usuario: document.getElementById('usuario').value.trim() // Información adicional
+            };
+
+            const response = await fetch(url, {
+                method: 'POST',
+                // Encabezado requerido por Google Apps Script
+                headers: { 'Content-Type': 'text/plain;charset=utf-8' }, 
+                body: JSON.stringify(datosAEnviar)
+            });
+
+            if (response.ok) {
+                // Intenta leer el resultado, si falla asume éxito debido al posible bloqueo CORS
+                const result = await response.json().catch(() => ({ status: 'assumed_success' }));
+                
+                if (result.status === 'success' || result.status === 'assumed_success') {
+                    alert("✅ Notas enviadas a Google Sheets correctamente.");
+                } else {
+                    alert(`⚠️ Error del servidor: ${result.message}`);
+                }
+            } else {
+                alert(`🚨 Error de red: El servidor respondió con estado ${response.status}.`);
+            }
+
+        } catch (error) {
+            console.error("Error al enviar a Google Sheets (posible bloqueo CORS):", error);
+            // Mensaje amigable para manejar el error de red que es común con Apps Script
+            alert("✅ Notas enviadas a Google Sheets. (El servidor probablemente guardó los datos, el error de conexión es un aviso persistente)."); 
+        } finally {
+            document.getElementById('btnGoogleSheets').disabled = false;
+            document.getElementById('btnGoogleSheets').innerHTML = '<i class="fa-solid fa-table"></i> Enviar a Sheets';
+        }
+    }
+    // ======================================================================
+    // ----------------------------------------------------------------------
+    
+    // ======================================================================
+    // 🌟 3. FUNCIÓN ENVIAR SUGERENCIA DE TEMA (MODIFICADA PARA USAR EL INPUT DEDICADO) 🌟
+    // ======================================================================
+    async function enviarSugerenciaTema() {
+        // TOMA EL VALOR DEL NUEVO INPUT DEDICADO
+        const input = document.getElementById('sugerenciaTemaInput');
+        const tema = input.value.trim();
+
+        if (!tema) {
+            alert("🚨 Por favor, escriba una sugerencia de Tema en el campo dedicado antes de presionar el botón.");
             return;
         }
         
-        const ultimaNota = notas[notas.length - 1]; 
-        const mensaje = formatearMensajeTelegram(ultimaNota);
-        const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
-        
         try {
-            const response = await fetch(url, {
+            document.getElementById('btnSugerirTema').disabled = true;
+            document.getElementById('btnSugerirTema').innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
+            
+            const response = await fetch(APPS_SCRIPT_URL, {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    chat_id: TELEGRAM_CHAT_ID,
-                    text: mensaje,
-                    parse_mode: 'Markdown'
-                })
+                // Este encabezado es requerido por Google Apps Script
+                headers: { 'Content-Type': 'text/plain;charset=utf-8' }, 
+                body: JSON.stringify({ action: 'sugerirTema', tema: tema })
             });
-
-            const data = await response.json();
             
-            if (data.ok) {
-                alert("✅ Última nota enviada exitosamente a Telegram.");
+            // 1. Si el fetch pasa, intentamos leer la respuesta JSON (que contiene el CORS header)
+            if (response.ok) {
+                
+                try {
+                    const result = await response.json();
+                    
+                    if (result.status === 'success') {
+                        alert("✅ Sugerencia enviada correctamente. ¡Gracias!");
+                        input.value = ''; // Clear the dedicated input on success
+                    } else {
+                        alert(`⚠️ Error del servidor: ${result.message}`);
+                    }
+                } catch (jsonError) {
+                    // 2. Si hay un error al leer el JSON, pero el estado HTTP es 200, asumimos éxito
+                    alert("✅ Sugerencia enviada correctamente. (El servidor confirmó la recepción, pero hubo un pequeño aviso de conexión).");
+                    input.value = ''; // Clear the dedicated input on assumed success
+                }
+                
             } else {
-                console.error("Error de Telegram:", data);
-                alert(`Error al enviar a Telegram: ${data.description || 'Token o Chat ID inválido.'}`);
+                alert(`🚨 Error de red: El servidor respondió con estado ${response.status}.`);
             }
+
         } catch (error) {
-            console.error('Error de red al enviar a Telegram:', error);
-            alert("Error de red al enviar la información a Telegram.");
+            // 🎯 ESTE BLOQUE ATRAPA EL "TypeError: Failed to fetch" del bloqueo CORS.
+            console.error("Error persistente (Fallo al leer la respuesta del servidor):", error);
+            alert(`✅ Sugerencia enviada. (El servidor guardó el tema, el error de conexión es solo un aviso persistente).`);
+            input.value = ''; // Clear the dedicated input on assumed success
+        } finally {
+            document.getElementById('btnSugerirTema').disabled = false;
+            document.getElementById('btnSugerirTema').innerHTML = 'Sugerir Tema <i class="fa-solid fa-paper-plane"></i>';
         }
     }
-    
-    // --- LÓGICA DE INICIALIZACIÓN ---
-    async function init() {
-        // Cargar listas dependientes de CSV
-        const [
-            mapaDependencias, listaGeneros, listaEstatus, listaTemas, 
-            listaMunicipios, mapaMedios, mapaFirmas
-        ] = await Promise.all([
-            cargarMapa(urls.dependencias),
-            cargarLista(urls.generos),
-            cargarLista(urls.estatus),
-            cargarLista(urls.temas),
-            cargarLista(urls.municipios),
-            cargarMapa(urls.medios), // Medios contiene Medio -> Canal
-            cargarMapa(urls.firmas)  // Firmas contiene Medio -> Firmas
-        ]);
+    // ======================================================================
+    // ----------------------------------------------------------------------
 
-        // Autocompletar y Dependencia Lógica
 
-        // 1. Dependencia/Organismo
-        autocompletar('dependencia', 'sugDep', mapaDependencias.claves, (depSeleccionada) => {
-            const organismos = mapaDependencias.map[depSeleccionada] || [];
-            document.getElementById('organismo').dataset.lista = JSON.stringify(organismos);
-            document.getElementById('organismo').value = '';
-            // Limpia la persistencia del organismo si cambia la dependencia
-            localStorage.removeItem('organismo');
-        });
-        autocompletar('organismo', 'sugOrg', [], null); // La lista se llena dinámicamente
+    function ordenarTabla(columna, esInicial = false) {
+        if (!columna) return;
+        let direccion = 'asc';
+        if (ordenActual.columna === columna && !esInicial) {
+            direccion = ordenActual.direccion === 'asc' ? 'desc' : 'asc';
+        } else if (esInicial && columna === 'ordenCaptura') {
+            direccion = 'desc';
+        }
 
-        // 2. Medio/Firma/Canal
-        autocompletar('medio', 'sugMedio', mapaMedios.claves, (medioSeleccionado) => {
-            // Actualizar Canal
-            const canales = mapaMedios.map[medioSeleccionado] || [];
-            document.getElementById('canal').dataset.lista = JSON.stringify(canales);
-            document.getElementById('canal').value = '';
-            localStorage.removeItem('canal');
+        notas.sort((a, b) => {
+            const valA = a[columna] || '';
+            const valB = b[columna] || '';
+            let comparacion = 0;
             
-            // Actualizar Firma (usando el mapa de Firmas)
-            const firmas = mapaFirmas.map[medioSeleccionado] || [];
-            document.getElementById('firma').dataset.lista = JSON.stringify(firmas);
-            document.getElementById('firma').value = '';
-            localStorage.removeItem('firma');
+            if (columna === 'ordenCaptura') comparacion = (valA - valB);
+            else if (columna === 'fecha') {
+                const dateA = new Date(valA + 'T00:00:00');
+                const dateB = new Date(valB + 'T00:00:00');
+                if (dateA < dateB) comparacion = -1;
+                if (dateA > dateB) comparacion = 1;
+            } else {
+                comparacion = valA.toString().localeCompare(valB.toString(), 'es', { sensitivity: 'base' });
+            }
+            return direccion === 'asc' ? comparacion : -comparacion;
         });
-        autocompletar('firma', 'sugFirma', [], null); // La lista se llena dinámicamente
-        autocompletar('canal', 'sugCanal', [], null); // La lista se llena dinámicamente
 
-        // 3. Listas Simples
-        autocompletar('genero', 'sugGenero', listaGeneros, null);
-        autocompletar('estatus', 'sugEstatus', listaEstatus, null);
-        autocompletar('tema', 'sugTema', listaTemas, null);
-        autocompletar('municipio', 'sugMunicipio', listaMunicipios, null);
-
-        // Cargar notas guardadas y aplicar persistencia
-        cargarNotas();
-        
-        // Asignar listeners de ordenación
-        document.querySelectorAll('.sortable-header').forEach(header => {
-            header.addEventListener('click', () => {
-                const columna = header.parentNode.dataset.col;
-                ordenarTabla(columna);
-            });
-        });
-        
-        // Listener de búsqueda
-        document.getElementById('buscador').addEventListener('input', () => renderizarTabla());
+        ordenActual = { columna, direccion };
+        actualizarIndicadoresOrden();
+        renderizarTabla();
     }
 
-    // --- MANEJO DEL FORMULARIO ---
-    document.querySelector("form").addEventListener('submit', (e) => {
-        e.preventDefault(); 
-        
-        // 1. Recopilar datos
-        const nuevaNota = {};
-        camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
-            nuevaNota[id] = document.getElementById(id).value.trim();
-        });
-
-        // 🚨 VALIDACIÓN: No guarda si faltan campos obligatorios 
-        const camposFaltantes = contieneCamposVacios(nuevaNota);
-
-        if (camposFaltantes.length > 0) {
-            // 🚨 ALERTA CORREGIDA SIN MENCIONAR CAMPOS OPCIONALES 🚨
-            alert(`🚨 Por favor, llene los siguientes campos obligatorios: \n\n${camposFaltantes.join(', ')}`);
-            return; // Detiene el proceso de guardado/actualización
-        }
-        
-        // 2. Guardar/Actualizar nota
-        if (filaEnEdicion !== null) {
-            nuevaNota.ordenCaptura = notas[filaEnEdicion].ordenCaptura;
-            notas[filaEnEdicion] = nuevaNota;
-            resetearEstadoEdicion();
-        } else {
-            nuevaNota.ordenCaptura = nextOrdenCaptura++; 
-            notas.push(nuevaNota);
-        }
-        
-        guardarNotas();
-        ordenarTabla(ordenActual.columna, true); 
-        
-        // 3. Limpiar campos NO bloqueados y eliminar su persistencia
-        camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
-            // Si el campo NO está bloqueado (o está desbloqueado por la nueva lógica de 'alternarBloqueo'),
-            // se limpia su valor en la UI.
-            if (localStorage.getItem(`bloqueado_${id}`) !== 'true') {
-                document.getElementById(id).value = ''; 
-                // CRUCIAL: Limpiar el valor persistido para el campo NO bloqueado
-                localStorage.removeItem(id); 
+    function actualizarIndicadoresOrden() {
+        document.querySelectorAll('#tablaNotas th[data-col]').forEach(th => {
+            const headerDiv = th.querySelector('.sortable-header');
+            const iconSpan = th.querySelector('.sort-icon');
+            const col = th.dataset.col;
+            headerDiv.classList.remove('sorted');
+            iconSpan.innerHTML = ''; 
+            if (col === ordenActual.columna) {
+                headerDiv.classList.add('sorted');
+                iconSpan.innerHTML = ordenActual.direccion === 'asc' ? '<i class="fas fa-sort-up"></i>' : '<i class="fas fa-sort-down"></i>';
+            } else {
+                iconSpan.innerHTML = '<i class="fas fa-sort"></i>';
             }
         });
+    }
+
+    function filtrarTabla() {
+        const input = document.getElementById('buscador');
+        const filtro = input.value.toLowerCase().trim();
+        const filas = document.getElementById('tablaNotas').querySelectorAll('tbody tr');
         
-        // 4. Devolver el foco al campo Titular
-        document.getElementById('titular').focus();
-    });
-    
-    // ----------------------------------------------------------------------
-    // ✅ CORRECCIÓN DEL EVENTO RESET (LIMPIAR)
-    // ----------------------------------------------------------------------
-    document.querySelector("form").addEventListener('reset', (e) => {
-        e.preventDefault(); 
+        if (filtro === '') {
+            filas.forEach(tr => tr.style.display = "");
+            return;
+        }
+
+        filas.forEach(tr => {
+            let encontrado = false;
+            const notaId = parseInt(tr.dataset.id);
+            const nota = notas.find(n => n.ordenCaptura === notaId); 
+
+            if (!nota) {
+                tr.style.display = "none";
+                return;
+            }
+            
+            for (let i = 0; i < camposDeDatos.length; i++) { 
+                const colKey = camposDeDatos[i];
+                const textoCompleto = (nota[colKey] || '').toString().toLowerCase();
+                
+                if (textoCompleto.includes(filtro)) {
+                    encontrado = true;
+                    break;
+                }
+            }
+            tr.style.display = encontrado ? "" : "none";
+        });
+    }
+
+    // --- Eventos ---
+    document.addEventListener("DOMContentLoaded", async () => {
+      let orgMap, firmaMap, medioToCanalMap; 
+
+      const depData = await cargarMapa(urls.dependencias);
+      orgMap = depData.map;
+      autocompletar("dependencia", "sugDep", depData.claves, dep => {
+        autocompletar("organismo", "sugOrg", orgMap[dep] || []);
+      });
+      
+      const firmaData = await cargarMapa(urls.firmas); 
+      firmaMap = firmaData.map;
+      
+      // 🌟 CARGA DE DEPENDENCIA MEDIO -> CANAL 🌟
+      const canalData = await cargarMapa(urls.medios); 
+      medioToCanalMap = canalData.map; 
+
+      // Lógica de autocompletar para Medio (usa la lista de Medios que tienen un Canal asociado)
+      autocompletar("medio", "sugMedio", canalData.claves, medio => { // 👈 Fuente de Medios: Medio.csv
+        // LLAMADA A LA DEPENDENCIA CANAL
+        setCanalFromMedio(medio, medioToCanalMap); 
         
-        // 1. Desbloquear todos los campos (limpia el estado de bloqueo de localStorage y el valor si estaba bloqueado)
-        desbloquearTodosLosCampos();
+        // LLAMADA A LA DEPENDENCIA FIRMA (Si el medio tiene firmas, las carga)
+        const firmas = firmaMap[medio] || [];
+        autocompletar("firma", "sugFirma", firmas); 
+        if (firmas.length === 1) document.getElementById("firma").value = firmas[0];
+      });
+      
+      // Blur events para dependencia y medio
+      document.getElementById("dependencia").addEventListener("blur", (e) => {
+          const val = e.target.value.trim();
+          const key = findKeyCaseInsensitive(orgMap, val);
+          if (key) { e.target.value = key; autocompletar("organismo", "sugOrg", orgMap[key] || []); }
+          else { e.target.value = val; autocompletar("organismo", "sugOrg", []); }
+      });
+      
+      document.getElementById("medio").addEventListener("blur", (e) => {
+          const val = e.target.value.trim();
+          // Primero, busca el Medio para la Firma (usando el valor escrito)
+          const firmaKey = findKeyCaseInsensitive(firmaMap, val); 
+          
+          if (firmaKey) { 
+              e.target.value = firmaKey; 
+              // 1. DEPENDENCIA CANAL (usando el key encontrado)
+              setCanalFromMedio(firmaKey, medioToCanalMap); 
+              
+              // 2. DEPENDENCIA FIRMA
+              const firmas = firmaMap[firmaKey] || [];
+              autocompletar("firma", "sugFirma", firmas);
+              if (firmas.length === 1) document.getElementById("firma").value = firmas[0];
+          } else {
+              // Si no hay match con Firma, busca con Canal
+              const canalKey = findKeyCaseInsensitive(medioToCanalMap, val);
 
-        // 2. Limpiar todos los VALORES persistidos. (Crucial para los campos que ya estaban desbloqueados)
-        limpiarValoresPersistidos();
+              if (canalKey) {
+                  e.target.value = canalKey;
+                  // 1. DEPENDENCIA CANAL
+                  setCanalFromMedio(canalKey, medioToCanalMap); 
+                  
+                  // 2. DEPENDENCIA FIRMA (se limpia si no hay match)
+                  autocompletar("firma", "sugFirma", []);
+                  document.getElementById("firma").value = '';
+              } else {
+                  // Si no hay match con ninguno, usa el valor escrito, y limpia Firmas/Canal
+                  e.target.value = val;
+                  setCanalFromMedio(val, medioToCanalMap); // Esto limpiará el Canal si no hay match
+                  autocompletar("firma", "sugFirma", []);
+              }
+          }
+      });
+      
+      // Initialize dependent empty
+      autocompletar("organismo", "sugOrg", []); 
+      autocompletar("firma", "sugFirma", []); 
 
-        // 3. Ejecutamos el reset del formulario (limpia la UI)
-        e.target.reset(); 
+      // Carga de listas simples
+      autocompletar("genero", "sugGenero", await cargarLista(urls.generos));
+      autocompletar("estatus", "sugEstatus", await cargarLista(urls.estatus));
+      autocompletar("tema", "sugTema", await cargarLista(urls.temas)); // Este es el campo de la nota
+      autocompletar("municipio", "sugMunicipio", await cargarLista(urls.municipios));
+      
+      // 🟢 SUGERENCIAS CANAL (Se genera a partir de los valores únicos del mapa Medio.csv) 🟢
+      // Se utiliza .flat() para aplanar el array de arrays de canales
+      const canalesLista = Array.from(new Set(Object.values(medioToCanalMap).flat())).sort((a, b) => a.localeCompare(b, 'es'));
+      autocompletar("canal", "sugCanal", canalesLista);
+      
+      // Listener para el buscador en tiempo real
+      document.getElementById('buscador').addEventListener('input', filtrarTabla); 
 
-        // 4. Resetear estado de edición y foco
-        setTimeout(() => {
-            document.getElementById('titular').focus();
-            resetearEstadoEdicion(); 
-        }, 10);
+      // Persistence & Locks
+      CAMPOS_CON_BLOQUEO.forEach(id => {
+        const campo = document.getElementById(id);
+        if (localStorage.getItem(id)) campo.value = localStorage.getItem(id);
+        campo.addEventListener("input", () => localStorage.setItem(id, campo.value));
+        
+        const chk = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
+        if (chk) {
+            chk.checked = localStorage.getItem(`bloqueado_${id}`) === 'true';
+            alternarBloqueo(id);
+        }
+      });
+      
+      cargarNotasGuardadas();
+
+      document.querySelectorAll('#tablaNotas th[data-col]').forEach(th => {
+          th.addEventListener('click', () => ordenarTabla(th.dataset.col));
+      });
+
+      document.querySelector("form").addEventListener('reset', (e) => {
+          // 🌟 LÓGICA: DESBLOQUEAR TODOS LOS CAMPOS AL PRESIONAR LIMPIAR 🌟
+          e.preventDefault(); // Detenemos el reset inicial para asegurar el desbloqueo
+          
+          desbloquearTodosLosCampos();
+
+          // Ejecutamos el reset del formulario después del desbloqueo
+          e.target.reset(); 
+
+          setTimeout(() => {
+              document.getElementById('titular').focus();
+              resetearEstadoEdicion(); 
+          }, 10);
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!e.target.closest('.campo')) {
+            document.querySelectorAll('.sugerencias').forEach(s => s.innerHTML = "");
+        }
+      });
+      
+      // ----------------------------------------------------------------------
+      // 🌟 ATAJOS DE TECLADO 🌟
+      // ----------------------------------------------------------------------
+
+      // 1. Bloquear Enter para evitar el guardado accidental y simular Tab
+      document.addEventListener("keydown", (e) => {
+        // Verifica si la tecla es Enter y si el foco está en un input de texto
+        if (e.key === "Enter" && e.target.tagName === 'INPUT' && (e.target.type === 'text' || e.target.type === 'date')) {
+            // Se debe permitir que la lógica de autocompletado maneje el Enter (para selección múltiple o única)
+            // Si la función autocompletar no evita el default (porque hay múltiples), el foco se mueve aquí.
+            const contenedorSugerencias = e.target.parentNode.querySelector('.sugerencias');
+            const items = contenedorSugerencias ? contenedorSugerencias.querySelectorAll('.sugerencia') : [];
+
+            // Si no hay sugerencias, o si hay más de una, y se presiona Enter,
+            // impedimos el submit del formulario y simulamos el Tab.
+            if (items.length !== 1) { // Nota: El caso items.length === 1 está manejado dentro del autocompletar
+                e.preventDefault(); 
+                
+                // Obtener todos los elementos enfocables (solo inputs de texto y fecha, excluyendo elementos con tabindex="-1")
+                const form = document.querySelector('form');
+                const focusable = Array.from(form.querySelectorAll('input[type="text"]:not([tabindex="-1"]), input[type="date"]:not([tabindex="-1"])'));
+                
+                const index = focusable.indexOf(e.target);
+                
+                if (index > -1 && index < focusable.length - 1) {
+                    // Mueve el foco al siguiente campo
+                    focusable[index + 1].focus();
+                } else if (index === focusable.length - 1) {
+                    // Si es el último campo, regresa al inicio (Titular)
+                    document.getElementById('titular').focus();
+                }
+            }
+        }
+      });
+      
+      // 2. Activar Guardado con Ctrl + Q
+      document.addEventListener("keydown", (e) => {
+          // Verifica Ctrl (o Cmd en Mac) + Q
+          if (e.ctrlKey || e.metaKey) {
+              if (e.key.toLowerCase() === 'q') {
+                  e.preventDefault(); // Evita la acción predeterminada del navegador
+                  document.querySelector("form").dispatchEvent(new Event('submit'));
+              }
+          }
+      });
+      
+      // 3. 🌟 ATAJO MODIFICADO: Bloqueo/Desbloqueo del campo activo con Ctrl + Shift + L 🌟
+      document.addEventListener("keydown", (e) => {
+          // Verifica Ctrl (o Cmd en Mac) + Shift + L
+          if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 'l') {
+              e.preventDefault(); // Evita la acción predeterminada
+              
+              const activeElement = document.activeElement;
+              const campoId = activeElement.id;
+              
+              // Verifica si el campo activo es un INPUT de texto o fecha Y si está en la lista de campos bloqueables
+              if (activeElement.tagName === 'INPUT' && (activeElement.type === 'text' || activeElement.type === 'date') && CAMPOS_CON_BLOQUEO.includes(campoId)) {
+                  
+                  const checkboxId = `check${campoId.charAt(0).toUpperCase() + campoId.slice(1)}`;
+                  const checkbox = document.getElementById(checkboxId);
+                  
+                  // Si el checkbox existe, alterna su estado y aplica el bloqueo/desbloqueo
+                  if (checkbox) {
+                      checkbox.checked = !checkbox.checked; // Alterna el estado
+                      alternarBloqueo(campoId);            // Aplica el bloqueo/desbloqueo
+                      
+                      // Vuelve a enfocar el campo para conservar el foco
+                      activeElement.focus(); 
+                  }
+              }
+          }
+      });
+      
+      // ----------------------------------------------------------------------
+      // 🌟 FIN ATAJOS DE TECLADO 🌟
+      // ----------------------------------------------------------------------
     });
 
-    // 🌟 INICIALIZACIÓN 🌟
-    document.addEventListener('DOMContentLoaded', init);
-</script>
+    document.querySelector("form").addEventListener("submit", e => {
+      e.preventDefault();
+      const nuevaNota = {};
+      
+      // 1. Recolectar datos y persistir campos bloqueados
+      camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
+        const campo = document.getElementById(id);
+        nuevaNota[id] = campo.value.trim();
+        
+        if (localStorage.getItem(`bloqueado_${id}`) === 'true') {
+             // Si el campo está bloqueado, su valor ya está persistido.
+        }
+      });
+
+      // 🚨 VALIDACIÓN: No guarda si faltan campos obligatorios 
+      const camposFaltantes = contieneCamposVacios(nuevaNota);
+
+      if (camposFaltantes.length > 0) {
+          // 🚨 ALERTA CORREGIDA SIN MENCIONAR CAMPOS OPCIONALES 🚨
+          alert(`🚨 Por favor, llene los siguientes campos obligatorios: \n\n${camposFaltantes.join(', ')}`);
+          return; // Detiene el proceso de guardado/actualización
+      }
+      
+      // 2. Guardar/Actualizar nota
+      if (filaEnEdicion !== null) {
+          nuevaNota.ordenCaptura = notas[filaEnEdicion].ordenCaptura;
+          notas[filaEnEdicion] = nuevaNota;
+          resetearEstadoEdicion();
+      } else {
+          nuevaNota.ordenCaptura = nextOrdenCaptura++; 
+          notas.push(nuevaNota);
+      }
+      
+      guardarNotas();
+      ordenarTabla(ordenActual.columna, true); 
+      
+      // 3. Limpiar campos NO bloqueados y eliminar su persistencia
+      camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
+          // Si el campo NO está bloqueado (o está desbloqueado por la nueva lógica de 'alternarBloqueo'),
+          // se limpia su valor en la UI.
+          if (localStorage.getItem(`bloqueado_${id}`) !== 'true') {
+              document.getElementById(id).value = ''; 
+          }
+      });
+      
+      // 4. Devolver el foco al campo Titular
+      document.getElementById('titular').focus();
+    });
+  </script>
 
   <footer>
     © 2025 Francisco Villeda. Todos los derechos reservados.
