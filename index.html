@@ -6,7 +6,7 @@
   <title>Sistema de Captura de Notas</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <style>
-    /* ✅ ESTILOS ORIGINALES (sin cambios) */
+    /* === Tus estilos originales (sin cambios) === */
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
     :root {
       --color-fondo-pagina: #31302F;
@@ -362,7 +362,7 @@
         td:last-child { text-align: center; padding-left: 10px; }
         .alerta-vacio td { color: var(--color-dark-text) !important; }
     }
-    /* --- LOGIN STYLES --- */
+    /* === LOGIN STYLES === */
     #loginContainer {
       display: flex;
       flex-direction: column;
@@ -424,7 +424,7 @@
     </div>
   </div>
 
-  <!-- ✅ CONTENIDO PRINCIPAL (oculto hasta login) -->
+  <!-- ✅ CONTENIDO PRINCIPAL -->
   <div id="mainContent" style="display: none;">
     <header>
       <img src="./logo.png" alt="Logotipo institucional">
@@ -554,7 +554,7 @@
       <button id="btnExportar" onclick="exportarCSV()">
         <i class="fa-solid fa-file-csv"></i> Exportar a hoja de cálculo
       </button>
-      <button id="btnGoogleSheets" onclick="enviarTodasLasNotas()">
+      <button id="btnGoogleSheets" onclick="enviarTodas()">
         <i class="fa-solid fa-table"></i> Enviar a Sheets
       </button>
       <button id="btnTelegram" onclick="enviarTelegram()">
@@ -600,7 +600,7 @@
   </footer>
 
   <script>
-    // ✅ CONFIGURACIÓN
+    // === CONFIG ===
     const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxw9a6kEd2lTlbtU6OcwtmNx4983L-qNvuoh_fHzGDiKisiy7DjN-AwTORvnDQkfRvM/exec";
     let sesionActiva = null; // { usuario, contrasena }
     let notas = [];
@@ -624,7 +624,7 @@
       firmas: "./Firma.csv"
     };
 
-    // ✅ LOGIN
+    // === LOGIN ===
     async function iniciarSesion(usuario, contrasena) {
       try {
         const res = await fetch(APPS_SCRIPT_URL, {
@@ -638,7 +638,7 @@
           document.getElementById("loginContainer").style.display = "none";
           document.getElementById("mainContent").style.display = "block";
           document.getElementById("usuario").value = usuario;
-          await cargarNotasPorUsuario(usuario);
+          await cargarNotasDeSheets(usuario);
         } else {
           document.getElementById("loginError").innerText = data.message;
           document.getElementById("loginError").style.display = "block";
@@ -649,31 +649,17 @@
       }
     }
 
-    document.getElementById("btnLogin").addEventListener("click", () => {
-      const u = document.getElementById("loginUsuario").value.trim();
-      const p = document.getElementById("loginContrasena").value.trim();
-      if (u && p) {
-        document.getElementById("loginError").style.display = "none";
-        iniciarSesion(u, p);
-      } else {
-        document.getElementById("loginError").innerText = "Complete ambos campos.";
-        document.getElementById("loginError").style.display = "block";
-      }
-    });
-    document.getElementById("loginUsuario").addEventListener("keypress", e => e.key === "Enter" && document.getElementById("btnLogin").click());
-    document.getElementById("loginContrasena").addEventListener("keypress", e => e.key === "Enter" && document.getElementById("btnLogin").click());
-
-    // ✅ CARGA NOTAS DE SHEETS (POR USUARIO)
-    async function cargarNotasPorUsuario(usuario) {
+    // === CARGAR NOTAS DE SHEETS ===
+    async function cargarNotasDeSheets(usuario) {
       try {
         const res = await fetch(APPS_SCRIPT_URL, {
           method: 'POST',
           headers: { 'Content-Type': 'text/plain;charset=utf-8' },
           body: JSON.stringify({ action: "listarNotasPorUsuario", usuario })
         });
-        const data = await res.json();
-        if (data.status === "success") {
-          notas = (data.data || []).map(row => ({
+        const result = await res.json();
+        if (result.status === "success") {
+          notas = (result.data || []).map(row => ({
             ordenCaptura: row.ordenCaptura || nextOrdenCaptura++,
             usuario: row.Usuario || usuario,
             fecha: row.Fecha || "",
@@ -691,18 +677,18 @@
           }));
           if (notas.length > 0) {
             nextOrdenCaptura = Math.max(...notas.map(n => n.ordenCaptura)) + 1;
-          } else {
-            nextOrdenCaptura = 1;
           }
-          ordenarTabla("ordenCaptura", true);
+          renderizarTabla();
         }
+        // Guardar en localStorage como respaldo
+        guardarNotas();
       } catch (e) {
-        console.error("Error al cargar notas:", e);
-        alert("No se pudieron cargar tus notas. Usa la copia local.");
+        console.error("Error al cargar notas de Sheets:", e);
+        cargarNotasGuardadas(); // fallback a localStorage
       }
     }
 
-    // ✅ GUARDAR UNA NOTA EN SHEETS (EN TIEMPO REAL)
+    // === GUARDAR NOTA EN SHEETS (individual) ===
     async function guardarNotaEnSheets(nota) {
       if (!sesionActiva) return;
       try {
@@ -710,7 +696,7 @@
           method: 'POST',
           headers: { 'Content-Type': 'text/plain;charset=utf-8' },
           body: JSON.stringify({
-            action: 'guardarNota',
+            action: "guardarNota",
             usuario: sesionActiva.usuario,
             contrasena: sesionActiva.contrasena,
             nota
@@ -721,32 +707,26 @@
       }
     }
 
-    // ✅ ENVIAR TODAS LAS NOTAS (BOTÓN "Enviar a Sheets")
-    async function enviarTodasLasNotas() {
-      if (!sesionActiva) {
-        alert("Debes iniciar sesión.");
-        return;
-      }
-      if (notas.length === 0) {
-        alert("No hay notas para enviar.");
-        return;
-      }
+    // === BTN: Enviar todas las notas ===
+    async function enviarTodas() {
+      if (!sesionActiva) { alert("Inicia sesión."); return; }
+      if (notas.length === 0) { alert("No hay notas."); return; }
       try {
         document.getElementById('btnGoogleSheets').disabled = true;
         document.getElementById('btnGoogleSheets').innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
         for (const nota of notas) {
           await guardarNotaEnSheets(nota);
         }
-        alert("✅ Notas enviadas a Google Sheets.");
+        alert("✅ Todas las notas se enviaron a Sheets.");
       } catch (e) {
-        alert("⚠️ Error de conexión. Revisa la consola.");
+        alert("⚠️ Error de conexión.");
       } finally {
         document.getElementById('btnGoogleSheets').disabled = false;
         document.getElementById('btnGoogleSheets').innerHTML = '<i class="fa-solid fa-table"></i> Enviar a Sheets';
       }
     }
 
-    // ✅ FUNCIONES AUXILIARES (copiadas de tu código original)
+    // === FUNCIONES AUXILIARES (copiadas de tu index.txt) ===
     function resetearEstadoEdicion() {
       filaEnEdicion = null;
       document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Guardar';
@@ -757,6 +737,7 @@
       if (confirm("¿Borrar todas las notas?")) {
         notas = [];
         nextOrdenCaptura = 1;
+        localStorage.removeItem('notasCapturadas');
         renderizarTabla();
         desbloquearTodosLosCampos();
         document.querySelector("form").reset();
@@ -765,14 +746,13 @@
       }
     }
     function borrarNota() {
-      if (filaEnEdicion !== null) {
-        if (confirm(`¿Eliminar nota #${notas[filaEnEdicion].ordenCaptura}?`)) {
-          notas.splice(filaEnEdicion, 1);
-          renderizarTabla();
-          desbloquearTodosLosCampos();
-          document.querySelector("form").reset();
-          resetearEstadoEdicion();
-        }
+      if (filaEnEdicion !== null && confirm(`¿Eliminar nota #${notas[filaEnEdicion].ordenCaptura}?`)) {
+        notas.splice(filaEnEdicion, 1);
+        guardarNotas();
+        renderizarTabla();
+        desbloquearTodosLosCampos();
+        document.querySelector("form").reset();
+        resetearEstadoEdicion();
       }
     }
     function contieneCamposVacios(nota) {
@@ -843,11 +823,8 @@
     }
     function ordenarTabla(col, inicial = false) {
       let dir = 'asc';
-      if (ordenActual.columna === col && !inicial) {
-        dir = ordenActual.direccion === 'asc' ? 'desc' : 'asc';
-      } else if (inicial && col === 'ordenCaptura') {
-        dir = 'desc';
-      }
+      if (ordenActual.columna === col && !inicial) dir = ordenActual.direccion === 'asc' ? 'desc' : 'asc';
+      else if (inicial && col === 'ordenCaptura') dir = 'desc';
       notas.sort((a, b) => {
         let A = a[col] || "", B = b[col] || "";
         let cmp = 0;
@@ -885,37 +862,71 @@
         tr.style.display = mostrar ? "" : "none";
       });
     }
-
-    // ✅ ENVÍO TELEGRAM (sin cambios)
-    const TELEGRAM_BOT_TOKEN = "8428524335:AAFeKrvKrUxrI9NAkL_G1-X6LdL4F5fkV4";
-    const TELEGRAM_CHAT_ID = "-1003492273306";
-    async function enviarTelegram() {
-        if (notas.length === 0) { alert("No hay notas para enviar."); return; }
-        if (!TELEGRAM_BOT_TOKEN || TELEGRAM_BOT_TOKEN.startsWith("TU_BOT_TOKEN")) {
-             alert("🚨 Error: Las credenciales de Telegram no están configuradas.");
-             return;
-        }
-        const URL_TELEGRAM = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument`;
-        try {
-            document.getElementById('btnTelegram').disabled = true;
-            document.getElementById('btnTelegram').innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
-            const csv = "\uFEFF" + [camposDeDatos.map(k => encabezadosTabla[k] || k)].concat(
-              notas.map(n => camposDeDatos.map(k => `"${(n[k] || '').toString().replace(/"/g, '""')}"`))
-            ).map(r => r.join(",")).join("\n");
-            const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
-            const formData = new FormData();
-            formData.append('chat_id', TELEGRAM_CHAT_ID);
-            formData.append('document', blob, `notas_${new Date().toISOString().slice(0,10)}.csv`);
-            await fetch(URL_TELEGRAM, { method: 'POST', body: formData });
-            alert("✅ Enviado a Telegram.");
-        } catch (e) {
-            alert("❌ Error de Telegram.");
-        } finally {
-            document.getElementById('btnTelegram').disabled = false;
-            document.getElementById('btnTelegram').innerHTML = '<i class="fa-brands fa-telegram"></i> Enviar por Telegram';
-        }
+    function guardarNotas() {
+      localStorage.setItem('notasCapturadas', JSON.stringify(notas));
+      localStorage.setItem('nextOrdenCaptura', nextOrdenCaptura);
     }
-
+    function cargarNotasGuardadas() {
+      const json = localStorage.getItem('notasCapturadas');
+      const ord = localStorage.getItem('nextOrdenCaptura');
+      if (ord) nextOrdenCaptura = parseInt(ord, 10);
+      if (json) {
+        try {
+          notas = JSON.parse(json);
+          let max = 0;
+          notas.forEach(n => {
+            if (n.ordenCaptura === undefined) n.ordenCaptura = nextOrdenCaptura++;
+            if (n.ordenCaptura > max) max = n.ordenCaptura;
+            if (n.canal === undefined) n.canal = "";
+            if (n.pagina === undefined) n.pagina = "";
+          });
+          if (max >= nextOrdenCaptura) nextOrdenCaptura = max + 1;
+          guardarNotas();
+        } catch (e) {
+          notas = [];
+        }
+      }
+      ordenarTabla("ordenCaptura", true);
+    }
+    function exportarCSV() {
+      if (notas.length === 0) { alert("No hay notas para exportar."); return; }
+      const csv = "\uFEFF" + [camposDeDatos.map(k => encabezadosTabla[k] || k)].concat(
+        notas.map(n => camposDeDatos.map(k => `"${(n[k] || '').toString().replace(/"/g, '""')}"`))
+      ).map(r => r.join(",")).join("\n");
+      const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `notas_${sesionActiva?.usuario || "desconocido"}.csv`;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+    async function enviarTelegram() {
+      if (notas.length === 0) { alert("No hay notas para enviar."); return; }
+      if (!TELEGRAM_BOT_TOKEN || TELEGRAM_BOT_TOKEN.startsWith("TU_BOT_TOKEN")) {
+           alert("🚨 Error: Las credenciales de Telegram no están configuradas.");
+           return;
+      }
+      const URL_TELEGRAM = `https://api.telegram.org/bot8428524335:AAFeKrvKrUxrI9NAkL_G1-X6LdL4F5fkV4/sendDocument`;
+      try {
+          document.getElementById('btnTelegram').disabled = true;
+          document.getElementById('btnTelegram').innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
+          const csv = "\uFEFF" + [camposDeDatos.map(k => encabezadosTabla[k] || k)].concat(
+            notas.map(n => camposDeDatos.map(k => `"${(n[k] || '').toString().replace(/"/g, '""')}"`))
+          ).map(r => r.join(",")).join("\n");
+          const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+          const formData = new FormData();
+          formData.append('chat_id', "-1003492273306");
+          formData.append('document', blob, `notas_${new Date().toISOString().slice(0,10)}.csv`);
+          await fetch(URL_TELEGRAM, { method: 'POST', body: formData });
+          alert("✅ Enviado a Telegram.");
+      } catch (e) {
+          alert("❌ Error de Telegram.");
+      } finally {
+          document.getElementById('btnTelegram').disabled = false;
+          document.getElementById('btnTelegram').innerHTML = '<i class="fa-brands fa-telegram"></i> Enviar por Telegram';
+      }
+    }
     async function enviarSugerenciaTema() {
       const tema = document.getElementById("sugerenciaTemaInput").value.trim();
       if (!tema) { alert("Escribe una sugerencia."); return; }
@@ -938,28 +949,13 @@
       }
     }
 
-    function exportarCSV() {
-      if (notas.length === 0) { alert("No hay notas para exportar."); return; }
-      const csv = "\uFEFF" + [camposDeDatos.map(k => encabezadosTabla[k] || k)].concat(
-        notas.map(n => camposDeDatos.map(k => `"${(n[k] || '').toString().replace(/"/g, '""')}"`))
-      ).map(r => r.join(",")).join("\n");
-      const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = `notas_${sesionActiva?.usuario || "desconocido"}.csv`;
-      a.click();
-      URL.revokeObjectURL(url);
-    }
-
-    // ✅ CARGA DE DATOS AUTOCOMPLETAR (igual que tu código)
+    // === FUNCIONES AUTOCOMPLETAR (igual que en tu index.txt) ===
     async function cargarCSV(url) {
       try {
         const res = await fetch(`${url}?t=${Date.now()}`);
         const txt = await res.text();
         return txt.split('\n').map(l => l.split(','));
       } catch (e) {
-        console.error("Error CSV:", e);
         return [];
       }
     }
@@ -1099,7 +1095,7 @@
       }
     }
 
-    // ✅ INICIALIZACIÓN
+    // === INICIALIZACIÓN ===
     document.addEventListener("DOMContentLoaded", async () => {
       // Autocompletar
       let orgMap, firmaMap, medioToCanalMap;
@@ -1161,7 +1157,22 @@
       const canalesLista = Array.from(new Set(Object.values(medioToCanalMap).flat())).sort((a, b) => a.localeCompare(b, 'es'));
       autocompletar("canal", "sugCanal", canalesLista);
 
-      // Eventos
+      // Eventos de login
+      document.getElementById("btnLogin").addEventListener("click", () => {
+        const u = document.getElementById("loginUsuario").value.trim();
+        const p = document.getElementById("loginContrasena").value.trim();
+        if (u && p) {
+          document.getElementById("loginError").style.display = "none";
+          iniciarSesion(u, p);
+        } else {
+          document.getElementById("loginError").innerText = "Complete ambos campos.";
+          document.getElementById("loginError").style.display = "block";
+        }
+      });
+      document.getElementById("loginUsuario").addEventListener("keypress", e => e.key === "Enter" && document.getElementById("btnLogin").click());
+      document.getElementById("loginContrasena").addEventListener("keypress", e => e.key === "Enter" && document.getElementById("btnLogin").click());
+
+      // Eventos generales
       document.getElementById('buscador').addEventListener('input', filtrarTabla);
       document.querySelectorAll('#tablaNotas th[data-col]').forEach(th => {
         th.addEventListener('click', () => ordenarTabla(th.dataset.col));
@@ -1209,13 +1220,10 @@
       });
     });
 
-    // ✅ SUBMIT: GUARDA EN SHEETS Y LIMPIA CAMPOS NO BLOQUEADOS
+    // === SUBMIT: guardar local + enviar a Sheets ===
     document.querySelector("form").addEventListener("submit", async e => {
       e.preventDefault();
-      if (!sesionActiva) {
-        alert("Debes iniciar sesión.");
-        return;
-      }
+      if (!sesionActiva) { alert("Inicia sesión."); return; }
       const nota = {};
       camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
         nota[id] = document.getElementById(id).value.trim();
@@ -1232,10 +1240,12 @@
       } else {
         nota.ordenCaptura = nextOrdenCaptura++;
         notas.push(nota);
-        await guardarNotaEnSheets(nota); // ✅ Envía inmediatamente a Sheets
+        // ✅ Enviar inmediatamente a Sheets
+        await guardarNotaEnSheets(nota);
       }
+      guardarNotas(); // ✅ Guardado local
       ordenarTabla(ordenActual.columna, true);
-      // ✅ LIMPIAR SOLO CAMPOS NO BLOQUEADOS
+      // ✅ Limpiar solo campos no bloqueados
       camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
         const bloqueado = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`).checked;
         if (!bloqueado) {
