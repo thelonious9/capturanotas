@@ -44,7 +44,7 @@
     }
     header img { height: 50px; width: auto; }
     
-    /* FORMULARIO */
+    /* --- FORMULARIO --- */
     form {
       display: grid;
       grid-template-columns: auto 1fr auto 1fr;
@@ -62,6 +62,7 @@
         border-bottom: 1px solid var(--color-secondary);
     }
     .form-logo-container img { height: 80px; width: auto; opacity: 0.9; }
+    
     label { font-weight: 700; align-self: center; color: var(--color-light-text); }
     
     .campo { position: relative; display: flex; align-items: center; }
@@ -73,7 +74,7 @@
     }
     .campo > input:focus { outline: none; border-color: var(--color-primary); box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25); }
     
-    /* REGLAS LAYOUT */
+    /* GRID LAYOUT */
     form > label:nth-child(2), form > div:nth-child(3) { grid-column: 1 / span 4; } /* Usuario */
     form > label:nth-child(8), form > div:nth-child(9) { grid-column: 1 / span 4; } /* Titular */
     
@@ -107,31 +108,45 @@
     #btnEliminar { background-color: var(--color-danger); }
     .campo button[type="button"] { background-color: var(--color-secondary); padding: 8px; margin-right: 0; }
     
-    /* TABLA */
+    /* --- TABLA (RESTAURACIÓN DE ESTILOS ORIGINALES) --- */
     h2 { margin-top: 40px; border-bottom: 1px solid var(--color-secondary); padding-bottom: 5px; }
+    
     table {
       border-collapse: collapse; width: 100%;
       box-shadow: 0 0 10px rgba(0,0,0,0.15); margin-top: 20px;
       background-color: var(--color-fondo-form);
-      table-layout: fixed; /* Importante para anchos fijos */
+      table-layout: fixed; /* Mantiene las celdas firmes */
     }
     th, td {
-      padding: 12px 10px;
+      padding: 8px 10px; /* Padding ajustado para compactar */
       border: 1px solid #7D7C79;
       text-align: left;
       color: var(--color-light-text);
       font-size: 0.85rem;
-      word-wrap: break-word; /* Permite que el texto baje de línea */
-      overflow-wrap: break-word;
+      /* Propiedades para cortar texto largo elegantemente */
+      white-space: nowrap; 
+      overflow: hidden; 
+      text-overflow: ellipsis;
     }
-    /* Anchos de columna optimizados */
-    th:nth-child(1), td:nth-child(1) { width: 40px; text-align: center; } /* # */
-    th:nth-child(2), td:nth-child(2) { width: 10%; } /* Usuario */
-    th:nth-child(3), td:nth-child(3) { width: 90px; } /* Fecha */
-    th:nth-child(4), td:nth-child(4) { width: 10%; } /* Medio */
-    th:nth-child(5), td:nth-child(5) { width: 20%; } /* Titular */
     
-    th { background-color: var(--color-primary); position: sticky; top: 0; cursor: pointer;}
+    /* DEFINICIÓN EXACTA DE ANCHOS (Como en tu diseño original) */
+    #tablaNotas th:nth-child(1), #tablaNotas td:nth-child(1) { width: 3%; text-align: center; } /* # */
+    #tablaNotas th:nth-child(2), #tablaNotas td:nth-child(2) { width: 7%; }  /* Usuario */
+    #tablaNotas th:nth-child(3), #tablaNotas td:nth-child(3) { width: 7%; }  /* Fecha */
+    #tablaNotas th:nth-child(4), #tablaNotas td:nth-child(4) { width: 8%; }  /* Medio */
+    #tablaNotas th:nth-child(5), #tablaNotas td:nth-child(5) { width: 15%; } /* Titular */
+    #tablaNotas th:nth-child(6), #tablaNotas td:nth-child(6) { width: 6%; }  /* Firma */
+    #tablaNotas th:nth-child(7), #tablaNotas td:nth-child(7) { width: 5%; }  /* Pág */
+    #tablaNotas th:nth-child(8), #tablaNotas td:nth-child(8) { width: 7%; }  /* Dep */
+    #tablaNotas th:nth-child(9), #tablaNotas td:nth-child(9) { width: 7%; }  /* Org */
+    #tablaNotas th:nth-child(10), #tablaNotas td:nth-child(10) { width: 5%; } /* Gen */
+    #tablaNotas th:nth-child(11), #tablaNotas td:nth-child(11) { width: 5%; } /* Canal */
+    #tablaNotas th:nth-child(12), #tablaNotas td:nth-child(12) { width: 7%; } /* Tema */
+    #tablaNotas th:nth-child(13), #tablaNotas td:nth-child(13) { width: 5%; } /* Est */
+    #tablaNotas th:nth-child(14), #tablaNotas td:nth-child(14) { width: 6%; } /* Mun */
+    #tablaNotas th:nth-child(15), #tablaNotas td:nth-child(15) { width: 6%; text-align: center; } /* Acc */
+
+    th { background-color: var(--color-primary); position: sticky; top: 0; cursor: pointer; z-index: 10; }
     tbody tr:nth-child(even) { background-color: #5D5C5A; } 
     tbody tr:hover { background-color: #6C6B69; }
     .editando { background-color: var(--color-primary-hover) !important; }
@@ -139,19 +154,14 @@
     .alerta-vacio td { color: var(--color-dark-text) !important; }
 
     /* ACCIONES */
-    .actions-group {
-        display: flex; gap: 15px; margin: 15px 0 25px 0; flex-wrap: wrap; align-items: center;
-    }
+    .actions-group { display: flex; gap: 15px; margin: 15px 0 25px 0; flex-wrap: wrap; align-items: center; }
     #btnGoogleSheets { background-color: #0A66C2; }
     #btnExportar { background-color: #4A4A4A; }
     #btnBorrarTodo { background-color: var(--color-primary); }
 
     /* BUSCADOR */
     .buscador-container { position: relative; margin-bottom: 15px; max-width: 400px; }
-    #buscador {
-      width: 100%; padding: 10px 10px 10px 40px; 
-      border-radius: var(--radius); border: 1px solid var(--color-primary-hover);
-    }
+    #buscador { width: 100%; padding: 10px 10px 10px 40px; border-radius: var(--radius); border: 1px solid var(--color-primary-hover); }
     .buscador-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--color-primary); }
 
     /* RESPONSIVE */
@@ -163,7 +173,7 @@
         tr { margin-bottom: 10px; border: 1px solid #7D7C79; }
         td { 
             border: none; border-bottom: 1px solid #8D8C8A; position: relative;
-            padding-left: 50%; text-align: right; 
+            padding-left: 50%; text-align: right; width: auto; white-space: normal;
         }
         td:before { 
             content: attr(data-label); position: absolute; left: 10px; width: 45%; 
@@ -184,14 +194,14 @@
     <label for="usuario">Usuario:</label>
     <div class="campo">
       <input type="text" id="usuario" name="usuario" required placeholder="Ej: Juan Pérez">
-      <input type="checkbox" id="checkUsuario" onchange="alternarBloqueo('usuario')" tabindex="-1">
+      <input type="checkbox" id="checkUsuario" onchange="alternarBloqueo('usuario')">
       <label for="checkUsuario">🔒</label>
     </div>
     
     <label for="fecha">Fecha:</label>
     <div class="campo">
       <input type="date" id="fecha" name="fecha" required>
-      <input type="checkbox" id="checkFecha" onchange="alternarBloqueo('fecha')" tabindex="-1">
+      <input type="checkbox" id="checkFecha" onchange="alternarBloqueo('fecha')">
       <label>🔒</label>
     </div>
 
@@ -301,7 +311,7 @@
 
   <div class="buscador-container">
     <i class="fa-solid fa-magnifying-glass buscador-icon"></i>
-    <input type="text" id="buscador" onkeyup="renderizarTabla()" placeholder="Buscar en todas las columnas...">
+    <input type="text" id="buscador" onkeyup="renderizarTabla()" placeholder="Buscar...">
   </div>
 
   <div class="actions-group">
@@ -322,8 +332,7 @@
   <footer><p>&copy; 2024 - Sistema de Captura de Notas</p></footer>
 
   <script>
-    // --- CONFIGURACIÓN DE COLUMNAS (ORDEN FIJO) ---
-    // Esto arregla el error de que la tabla se "descuadre"
+    // --- ORDEN ESTRICTO DE COLUMNAS (Para que coincida con tu CSS) ---
     const ORDEN_COLUMNAS = [
       "ordenCaptura", "usuario", "fecha", "medio", "titular", 
       "firma", "pagina", "dependencia", "organismo", "genero", 
@@ -331,45 +340,29 @@
     ];
 
     const ETIQUETAS_COLUMNAS = {
-      "ordenCaptura": "#",
-      "usuario": "Usuario",
-      "fecha": "Fecha",
-      "medio": "Medio",
-      "titular": "Titular",
-      "firma": "Firma",
-      "pagina": "Página",
-      "dependencia": "Dependencia",
-      "organismo": "Organismo",
-      "genero": "Género",
-      "canal": "Canal",
-      "tema": "Tema",
-      "estatus": "Estatus",
-      "municipio": "Municipio"
+      "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio",
+      "titular": "Titular", "firma": "Firma", "pagina": "Página", "dependencia": "Dependencia",
+      "organismo": "Organismo", "genero": "Género", "canal": "Canal", "tema": "Tema",
+      "estatus": "Estatus", "municipio": "Municipio"
     };
 
     let notas = [];
     let filaEnEdicion = null; 
     let nextOrdenCaptura = 1;
     let ordenActual = { columna: 'ordenCaptura', direccion: 'desc' };
-    const LIMITE_CARACTERES_TITULAR = 50; 
+    const LIMITE_CARACTERES_TITULAR = 100; // Aumentado un poco para que se vea más texto
     
-    // Configuración de URLs CSV locales
     const urls = {
         dependencias: "./Dependencia.csv", medios: "./Medio.csv", generos: "./Genero.csv",
         estatus: "./Estatus.csv", municipios: "./Municipio.csv", temas: "./Tema.csv", firmas: "./Firma.csv" 
     };
 
-    // Variables de datos
     let dependenciaMap = [], medioToCanalMap = {}, firmaMap = {}, dependenciaToOrganismoMap = {};
     let canalData = [], generoData = [], estatusData = [], municipioData = [], temaData = [];
     const CAMPOS_CON_BLOQUEO = ['usuario', 'fecha', 'medio', 'titular', 'firma', 'pagina', 'dependencia', 'organismo', 'genero', 'canal', 'tema', 'estatus', 'municipio'];
 
-    // --- CARGA DE DATOS ---
     async function cargarCSV(url) {
-      try {
-        const r = await fetch(url);
-        return r.ok ? await r.text() : "";
-      } catch (e) { console.error("Error CSV", url); return ""; }
+      try { const r = await fetch(url); return r.ok ? await r.text() : ""; } catch (e) { return ""; }
     }
     
     function limpiarFilasCSV(txt) {
@@ -383,11 +376,7 @@
     async function cargarMapa(url) {
         const filas = limpiarFilasCSV(await cargarCSV(url));
         const map = {};
-        filas.forEach(([k, v]) => {
-             if (!k) return;
-             map[k] = map[k] || new Set();
-             if (v) map[k].add(v);
-        });
+        filas.forEach(([k, v]) => { if (!k) return; map[k] = map[k] || new Set(); if (v) map[k].add(v); });
         const claves = Object.keys(map).sort();
         const mapArr = {};
         claves.forEach(k => mapArr[k] = Array.from(map[k]).sort());
@@ -395,30 +384,20 @@
     }
 
     async function inicializar() {
-        // Carga de catálogos
         const depData = await cargarMapa(urls.dependencias);
         dependenciaToOrganismoMap = depData.map; dependenciaMap = depData.claves;
-        
         const medioData = await cargarMapa(urls.medios);
-        // Aplanar medio -> canal
-        medioData.claves.forEach(m => {
-            if(medioData.map[m].length) medioToCanalMap[m] = medioData.map[m][0];
-        });
-        
+        medioData.claves.forEach(m => { if(medioData.map[m].length) medioToCanalMap[m] = medioData.map[m][0]; });
         const firmaData = await cargarMapa(urls.firmas); firmaMap = firmaData.map;
-        
-        // Listas simples
         const todosCanales = new Set();
         Object.values(medioToCanalMap).forEach(c => todosCanales.add(c));
         canalData = Array.from(todosCanales).sort();
-
         generoData = (await cargarMapa(urls.generos)).claves;
         estatusData = (await cargarMapa(urls.estatus)).claves;
         municipioData = (await cargarMapa(urls.municipios)).claves;
         temaData = (await cargarMapa(urls.temas)).claves;
-
         configurarAutocompletado();
-        generarEncabezadosTabla(); // Generar TH dinámicamente según ORDEN_COLUMNAS
+        generarEncabezadosTabla();
     }
 
     function generarEncabezadosTabla() {
@@ -432,10 +411,7 @@
             th.classList.add('sortable-header');
             tr.appendChild(th);
         });
-        // Columna Acciones
-        const thAcc = document.createElement('th');
-        thAcc.textContent = 'Acciones';
-        tr.appendChild(thAcc);
+        const thAcc = document.createElement('th'); thAcc.textContent = 'Acciones'; tr.appendChild(thAcc);
     }
 
     function configurarAutocompletado() {
@@ -449,7 +425,6 @@
         autocompletar("tema", "sugTema", temaData);
         autocompletar("estatus", "sugEstatus", estatusData);
         autocompletar("municipio", "sugMunicipio", municipioData);
-        
         autocompletar("medio", "sugMedio", Object.keys(medioToCanalMap).sort(), medio => {
              const c = medioToCanalMap[medio];
              if(c) document.getElementById("canal").value = c;
@@ -483,28 +458,23 @@
         document.getElementById(inputId).dispatchEvent(event);
     }
 
-    // --- CRUD ---
     function agregarNota() {
       const form = document.querySelector("form");
       if (!form.checkValidity()) { form.reportValidity(); return; }
 
       const obj = { ordenCaptura: filaEnEdicion ? filaEnEdicion.ordenCaptura : nextOrdenCaptura++ };
-      // Extraer datos del DOM
       CAMPOS_CON_BLOQUEO.forEach(id => obj[id] = document.getElementById(id).value.trim());
 
       if (filaEnEdicion) {
         const idx = notas.findIndex(n => n.ordenCaptura === filaEnEdicion.ordenCaptura);
         if (idx !== -1) notas[idx] = obj;
         resetearEstadoEdicion();
-      } else {
-        notas.push(obj);
-      }
+      } else { notas.push(obj); }
 
       guardarNotas();
       renderizarTabla();
-      enviarACalculo(true); // Auto-save silencioso
+      enviarACalculo(true); 
 
-      // Limpiar no bloqueados
       CAMPOS_CON_BLOQUEO.forEach(id => {
           if(!document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`).checked) {
               document.getElementById(id).value = "";
@@ -519,7 +489,6 @@
       if (!nota) return;
       filaEnEdicion = nota;
       CAMPOS_CON_BLOQUEO.forEach(k => document.getElementById(k).value = nota[k] || "");
-      
       document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-rotate"></i> Actualizar';
       document.getElementById('btnEliminar').style.display = 'inline-block';
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -550,25 +519,19 @@
         }
     }
 
-    // --- TABLA Y FILTROS (CORREGIDO) ---
     function renderizarTabla() {
       const tbody = document.querySelector("#tablaNotas tbody");
       tbody.innerHTML = "";
       
-      // Filtros
       const txtBusq = document.getElementById('buscador').value.toLowerCase();
       const txtUser = document.getElementById('usuario').value.trim().toLowerCase();
 
-      // Lógica de filtrado combinada
       let display = notas.filter(nota => {
-          // 1. Filtro Usuario (Estricto)
           if (txtUser && String(nota.usuario).toLowerCase().trim() !== txtUser) return false;
-          // 2. Filtro Buscador (Global)
           if (txtBusq && !Object.values(nota).some(v => String(v).toLowerCase().includes(txtBusq))) return false;
           return true;
       });
       
-      // Ordenar
       display.sort((a, b) => {
           let vA = a[ordenActual.columna] || "", vB = b[ordenActual.columna] || "";
           if (vA < vB) return ordenActual.direccion === 'asc' ? -1 : 1;
@@ -576,7 +539,6 @@
           return 0;
       });
 
-      // Renderizar filas con ORDEN ESTRICTO
       display.forEach(nota => {
         const tr = document.createElement("tr");
         if (Object.values(nota).some(v => v === "")) tr.classList.add("alerta-vacio");
@@ -585,14 +547,11 @@
             const td = document.createElement("td");
             td.dataset.label = ETIQUETAS_COLUMNAS[key];
             let txt = nota[key] || "";
-            if(key === 'titular' && txt.length > LIMITE_CARACTERES_TITULAR) {
-                td.title = txt; txt = txt.substring(0, LIMITE_CARACTERES_TITULAR) + "...";
-            }
+            if (key === 'titular') td.title = txt; 
             td.textContent = txt;
             tr.appendChild(td);
         });
 
-        // Acciones
         const tdAcc = document.createElement("td");
         tdAcc.dataset.label = "Acciones";
         const btn = document.createElement("button");
@@ -601,7 +560,6 @@
         btn.onclick = () => editarNota(tr);
         tdAcc.appendChild(btn);
         tr.appendChild(tdAcc);
-
         tbody.appendChild(tr);
       });
       actualizarIconosOrden();
@@ -623,7 +581,6 @@
         });
     }
 
-    // --- INTEGRACIONES ---
     function exportarCSV() {
         if (!notas.length) return alert("Nada que exportar");
         let csv = '\uFEFF' + ORDEN_COLUMNAS.map(k => ETIQUETAS_COLUMNAS[k]).join(",") + "\n";
@@ -643,40 +600,28 @@
             if (!silencioso) alert("⚠️ Ingresa un Usuario para sincronizar.");
             return;
         }
-
-        // FILTRO DE SEGURIDAD: Solo enviar notas de este usuario
         const notasDelUsuario = notas.filter(n => n.usuario === usuarioActual);
-
         if (notasDelUsuario.length === 0) {
             if (!silencioso) alert("⚠️ No hay notas de " + usuarioActual);
             return;
         }
-
         const URL_APPS_SCRIPT = "https://script.google.com/macros/s/AKfycbzVnapqEEmekALj6HyPWdO_BI0foCPPIkAuE-16Jl8jK5_Pxfa5_ZUGTwh80BAlQVb5/exec";
         const btn = document.getElementById('btnGoogleSheets');
-
         try {
             if (!silencioso) { btn.disabled = true; btn.innerHTML = 'Enviando...'; }
-            
             const r = await fetch(URL_APPS_SCRIPT, {
-                method: 'POST',
-                body: JSON.stringify(notasDelUsuario) // Enviamos array filtrado
+                method: 'POST', body: JSON.stringify(notasDelUsuario)
             });
-
             if (r.ok) {
                 if (!silencioso) alert("✅ Sincronizado: " + usuarioActual);
-                console.log("Sync OK");
             } else throw new Error(r.status);
-
         } catch (e) {
-            console.error(e);
             if (!silencioso) alert("Error de conexión");
         } finally {
             if (!silencioso) { btn.disabled = false; btn.innerHTML = '<i class="fa-solid fa-table"></i> Enviar a Sheets'; }
         }
     }
 
-    // --- BLOQUEO ---
     function alternarBloqueo(id) {
         const chk = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
         const el = document.getElementById(id);
@@ -700,15 +645,12 @@
         }, 10);
     });
 
-    // --- MAIN ---
     window.onload = function() {
         inicializar();
         const guardado = localStorage.getItem('notasCapturadas');
         if (guardado) notas = JSON.parse(guardado);
         const next = localStorage.getItem('nextOrdenCaptura');
         if (next) nextOrdenCaptura = parseInt(next);
-
-        // Restaurar bloqueos y valores
         CAMPOS_CON_BLOQUEO.forEach(id => {
             const isLocked = localStorage.getItem(`bloqueado_${id}`) === 'true';
             const chk = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
@@ -721,10 +663,7 @@
                 }
             }
         });
-        
         renderizarTabla();
-
-        // 🌟 LISTENER CLAVE: Refrescar tabla al escribir usuario
         document.getElementById('usuario').addEventListener('input', renderizarTabla);
     };
   </script>
