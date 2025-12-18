@@ -8,25 +8,21 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   
   <style>
-    /* Importación de Google Fonts para Roboto */
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-    /* --- PALETA DE COLORES FINAL --- */
     :root {
-      --color-fondo-pagina: #31302F;       /* Oscuro Suave */
-      --color-fondo-form: #52504E;         /* Gris Cálido (Fondo del Formulario) */
-      --color-primary: #6F0909;            /* Rojo Intenso (Guardar/Borrar Todo) */
-      --color-primary-hover: #792929;      /* Rojo Suave */
-      --color-secondary: #792929;          /* Rojo Suave (Botón Limpiar/Hover) */
-      --color-secondary-hover: #6F0909;    /* Rojo Intenso */
-      --color-danger: #dc3545;             /* Rojo estándar para peligro */
-      --color-danger-hover: #c82333;       /* Rojo oscuro */
-      --color-telegram: #0088cc;           
-      --color-telegram-hover: #0077b3;     
-      --color-dark-text: #31302F;          /* Texto para inputs (fondo claro) */
-      --color-light-text: #F0EAD1;         /* Texto principal (fondo oscuro) */
-      --color-input-bg: #FFFFFF;           /* Fondo de los campos de texto: Blanco */
-      --color-alerta-vacio: #FFD700;       
+      --color-fondo-pagina: #31302F;
+      --color-fondo-form: #52504E;
+      --color-primary: #6F0909;
+      --color-primary-hover: #792929;
+      --color-secondary: #792929;
+      --color-secondary-hover: #6F0909;
+      --color-danger: #dc3545;
+      --color-danger-hover: #c82333;
+      --color-dark-text: #31302F;
+      --color-light-text: #F0EAD1;
+      --color-input-bg: #FFFFFF;
+      --color-alerta-vacio: #FFD700;
       --radius: 0.25rem;
     }
     body {
@@ -36,28 +32,19 @@
       background-color: var(--color-fondo-pagina);
       color: var(--color-light-text);
     }
-    h1 {
-      font-size: 1.8rem;
-      color: var(--color-light-text);
-    }
+    h1 { font-size: 1.8rem; color: var(--color-light-text); }
     header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      display: flex; align-items: center; justify-content: space-between;
       border-bottom: 2px solid var(--color-primary);
-      padding-bottom: 10px;
+      padding: 10px 20px 15px 20px;
       margin-bottom: 20px;
       background-color: var(--color-fondo-form);
-      padding: 10px 20px 15px 20px;
       border-radius: var(--radius) var(--radius) 0 0;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
-    header img {
-      height: 50px;
-      width: auto;
-    }
+    header img { height: 50px; width: auto; }
     
-    /* --- FORMULARIO (MODIFICACIÓN DE LAYOUT) --- */
+    /* FORMULARIO */
     form {
       display: grid;
       grid-template-columns: auto 1fr auto 1fr;
@@ -71,342 +58,132 @@
     }
     .form-logo-container {
         grid-column: span 4; 
-        text-align: center;
-        margin-bottom: 20px;
-        padding-bottom: 15px;
+        text-align: center; margin-bottom: 20px; padding-bottom: 15px;
         border-bottom: 1px solid var(--color-secondary);
     }
-    .form-logo-container img {
-        height: 80px; 
-        width: auto; 
-        opacity: 0.9;
-    }
-    label {
-        font-weight: 700;
-        align-self: center;
-        color: var(--color-light-text);
-    }
-    .campo {
-      position: relative;
-      display: flex;
-      align-items: center;
-    }
-    .campo > input[type="text"], 
-    .campo > input[type="date"] {
-      flex-grow: 1;
-      padding: 8px 10px;
+    .form-logo-container img { height: 80px; width: auto; opacity: 0.9; }
+    label { font-weight: 700; align-self: center; color: var(--color-light-text); }
+    
+    .campo { position: relative; display: flex; align-items: center; }
+    .campo > input[type="text"], .campo > input[type="date"] {
+      flex-grow: 1; padding: 8px 10px;
       border: 1px solid var(--color-primary-hover);
-      border-radius: var(--radius);
-      margin-right: 10px;
-      background-color: var(--color-input-bg);
-      color: var(--color-dark-text);
-      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      border-radius: var(--radius); margin-right: 10px;
+      background-color: var(--color-input-bg); color: var(--color-dark-text);
     }
-    .campo > input[type="text"]:focus,
-    .campo > input[type="date"]:focus {
-        border-color: var(--color-primary);
-        box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25);
-        outline: none;
-    }
+    .campo > input:focus { outline: none; border-color: var(--color-primary); box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25); }
     
-    /* 🌟 REGLAS PARA CAMPOS DE ANCHO COMPLETO 🌟 */
-    form > label:nth-child(2), 
-    form > div:nth-child(3) { grid-column: 1 / span 4; } /* Usuario */
+    /* REGLAS LAYOUT */
+    form > label:nth-child(2), form > div:nth-child(3) { grid-column: 1 / span 4; } /* Usuario */
+    form > label:nth-child(8), form > div:nth-child(9) { grid-column: 1 / span 4; } /* Titular */
     
-    form > label:nth-child(8), 
-    form > div:nth-child(9) { grid-column: 1 / span 4; } /* Titular */
-    
-    /* --- SUGERENCIAS --- */
+    /* SUGERENCIAS */
     .sugerencias {
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 100%;
+      position: absolute; top: 100%; left: 0; width: 100%;
       border: 1px solid var(--color-primary-hover);
       background: var(--color-input-bg);
-      max-height: 180px;
-      overflow-y: auto;
-      z-index: 100;
-      border-radius: var(--radius);
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      max-height: 180px; overflow-y: auto; z-index: 100;
+      border-radius: var(--radius); box-shadow: 0 4px 6px rgba(0,0,0,0.1);
       color: var(--color-dark-text);
     }
     .sugerencia { padding: 8px 10px; cursor: pointer; }
-    .sugerencia:hover, .sugerencia.resaltado { background-color: #f0f0f0; color: var(--color-dark-text); }
+    .sugerencia:hover, .sugerencia.resaltado { background-color: #f0f0f0; }
     
-    /* --- BLOQUEO --- */
-    .bloqueado { background-color: #e9e9e9 !important; border: 1px solid var(--color-primary-hover) !important; cursor: not-allowed; }
-    input:required:invalid { border-left: 5px solid var(--color-danger); }
-    input:required:valid { border-left: 5px solid #28a745; }
-    
-    /* --- BOTONES --- */
+    .bloqueado { background-color: #e9e9e9 !important; cursor: not-allowed; }
+
+    /* BOTONES */
     .button-group-form {
-        grid-column: span 4;
-        display: flex;
-        gap: 15px;
-        margin-top: 10px;
-        justify-content: flex-end;
+        grid-column: span 4; display: flex; gap: 15px;
+        margin-top: 10px; justify-content: flex-end;
     }
     button {
-      padding: 10px 15px;
-      border: none;
-      border-radius: var(--radius);
-      cursor: pointer;
-      font-weight: 700;
-      transition: background-color 0.2s ease, transform 0.1s;
-      color: var(--color-light-text);
-      margin-right: 5px;
+      padding: 10px 15px; border: none; border-radius: var(--radius);
+      cursor: pointer; font-weight: 700; color: var(--color-light-text);
+      transition: background-color 0.2s; margin-right: 5px;
     }
     #btnGuardar { background-color: var(--color-primary); }
-    #btnGuardar:hover { background-color: var(--color-primary-hover); transform: translateY(-1px); }
+    #btnGuardar:hover { background-color: var(--color-primary-hover); }
     #btnLimpiar { background-color: var(--color-secondary); }
-    #btnLimpiar:hover { background-color: var(--color-secondary-hover); transform: translateY(-1px); }
     #btnEliminar { background-color: var(--color-danger); }
-    #btnEliminar:hover { background-color: var(--color-danger-hover); transform: translateY(-1px); }
-    
     .campo button[type="button"] { background-color: var(--color-secondary); padding: 8px; margin-right: 0; }
-    .campo button[type="button"]:hover { background-color: var(--color-secondary-hover); }
-    button i { margin-right: 8px; font-size: 1.1em; }
     
-    /* --- TABLA --- */
-    h2 {
-        margin-top: 40px;
-        color: var(--color-light-text);
-        border-bottom: 1px solid var(--color-secondary);
-        padding-bottom: 5px;
-    }
+    /* TABLA */
+    h2 { margin-top: 40px; border-bottom: 1px solid var(--color-secondary); padding-bottom: 5px; }
     table {
-      border-collapse: collapse;
-      width: 100%;
-      box-shadow: 0 0 10px rgba(0,0,0,0.15);
-      margin-top: 20px;
+      border-collapse: collapse; width: 100%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15); margin-top: 20px;
       background-color: var(--color-fondo-form);
-      table-layout: fixed; 
+      table-layout: fixed; /* Importante para anchos fijos */
     }
     th, td {
-      padding: 12px 15px;
+      padding: 12px 10px;
       border: 1px solid #7D7C79;
       text-align: left;
       color: var(--color-light-text);
       font-size: 0.85rem;
-      word-wrap: break-word; 
-      overflow: hidden;
-      white-space: nowrap; 
-      text-overflow: ellipsis;
-      max-width: none !important; 
+      word-wrap: break-word; /* Permite que el texto baje de línea */
+      overflow-wrap: break-word;
     }
-
-    /* Definición de anchos */
-    #tablaNotas th:nth-child(1), #tablaNotas td:nth-child(1) { width: 3%; }    
-    #tablaNotas th:nth-child(2), #tablaNotas td:nth-child(2) { width: 7%; }    
-    #tablaNotas th:nth-child(3), #tablaNotas td:nth-child(3) { width: 7%; }    
-    #tablaNotas th:nth-child(4), #tablaNotas td:nth-child(4) { width: 8%; }    
-    #tablaNotas th:nth-child(5), #tablaNotas td:nth-child(5) { width: 15%; }   
-    #tablaNotas th:nth-child(6), #tablaNotas td:nth-child(6) { width: 6%; }    
-    #tablaNotas th:nth-child(7), #tablaNotas td:nth-child(7) { width: 5%; }    
-    #tablaNotas th:nth-child(8), #tablaNotas td:nth-child(8) { width: 7%; }    
-    #tablaNotas th:nth-child(9), #tablaNotas td:nth-child(9) { width: 7%; }    
-    #tablaNotas th:nth-child(10), #tablaNotas td:nth-child(10) { width: 5%; }  
-    #tablaNotas th:nth-child(11), #tablaNotas td:nth-child(11) { width: 5%; }  
-    #tablaNotas th:nth-child(12), #tablaNotas td:nth-child(12) { width: 7%; }  
-    #tablaNotas th:nth-child(13), #tablaNotas td:nth-child(13) { width: 5%; }  
-    #tablaNotas th:nth-child(14), #tablaNotas td:nth-child(14) { width: 6%; }  
-    #tablaNotas th:nth-child(15), #tablaNotas td:nth-child(15) { width: 6%; }  
-
-    th {
-      background-color: var(--color-primary);
-      color: var(--color-light-text);
-      font-weight: 700;
-      position: sticky;
-      top: 0;
-    }
+    /* Anchos de columna optimizados */
+    th:nth-child(1), td:nth-child(1) { width: 40px; text-align: center; } /* # */
+    th:nth-child(2), td:nth-child(2) { width: 10%; } /* Usuario */
+    th:nth-child(3), td:nth-child(3) { width: 90px; } /* Fecha */
+    th:nth-child(4), td:nth-child(4) { width: 10%; } /* Medio */
+    th:nth-child(5), td:nth-child(5) { width: 20%; } /* Titular */
+    
+    th { background-color: var(--color-primary); position: sticky; top: 0; cursor: pointer;}
     tbody tr:nth-child(even) { background-color: #5D5C5A; } 
-    tbody tr:hover { 
-      background-color: #6C6B69; 
-      cursor: pointer;
-      transition: background-color 0.2s ease;
-    }
-    .editando { background-color: var(--color-primary-hover) !important; color: var(--color-light-text); }
+    tbody tr:hover { background-color: #6C6B69; }
+    .editando { background-color: var(--color-primary-hover) !important; }
     .alerta-vacio { background-color: var(--color-alerta-vacio) !important; color: var(--color-dark-text) !important; }
     .alerta-vacio td { color: var(--color-dark-text) !important; }
-    
-    .error-carga {
-      color: var(--color-danger);
-      font-weight: bold;
-      margin-top: 15px;
-      background-color: var(--color-input-bg);
-      padding: 10px;
-      border-radius: var(--radius);
-    }
-    footer {
-      margin-top: 40px;
-      border-top: 1px solid var(--color-secondary);
-      padding-top: 10px;
-      font-size: 0.9em;
-      color: var(--color-light-text);
-      text-align: center;
-    }
 
-    /* --- SORTING --- */
-    .sortable-header { cursor: pointer; display: flex; align-items: center; justify-content: space-between; width: 100%; }
-    .sort-icon { margin-left: 5px; font-size: 0.8em; opacity: 0.5; }
-    .sorted .sort-icon { opacity: 1; color: var(--color-light-text); }
-    
-    /* --- GRUPO DE ACCIONES --- */
+    /* ACCIONES */
     .actions-group {
-        display: flex;
-        gap: 15px;
-        margin-top: 15px;
-        margin-bottom: 25px; 
-        justify-content: flex-start;
-        align-items: center;
-        flex-wrap: wrap;
+        display: flex; gap: 15px; margin: 15px 0 25px 0; flex-wrap: wrap; align-items: center;
     }
-    #btnExportar { background-color: #4A4A4A; } 
-    #btnExportar:hover { background-color: #616161; }
-    
     #btnGoogleSheets { background-color: #0A66C2; }
-    #btnGoogleSheets:hover { background-color: #0959A8; }
-    
-    #btnTelegram { background-color: #0088cc; }
-    #btnTelegram:hover { background-color: #0077b3; }
-    
-    #btnSugerirTema { background-color: #096F4B; }
-    #btnSugerirTema:hover { background-color: #0A7E56; }
-    #btnSugerirTema i { margin-right: 0; }
-
+    #btnExportar { background-color: #4A4A4A; }
     #btnBorrarTodo { background-color: var(--color-primary); }
-    #btnBorrarTodo:hover { background-color: var(--color-primary-hover); transform: translateY(-1px); }
 
-    .suggestion-input-group {
-        display: flex;
-        gap: 10px;
-        align-items: center;
-        background-color: #4A4A4A; 
-        padding: 8px; 
-        border-radius: var(--radius);
-        box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    }
-    #sugerenciaTemaInput {
-        padding: 10px 15px;
-        border: 1px solid var(--color-primary-hover);
-        border-radius: var(--radius);
-        background-color: var(--color-input-bg);
-        color: var(--color-dark-text);
-        flex-grow: 1; 
-        width: 250px; 
-    }
-    .suggestion-input-group #btnSugerirTema {
-        margin-right: 0;
-        padding: 10px 15px; 
-    }
-
-    .btn-accion-tabla {
-        padding: 8px 12px;
-        background-color: var(--color-secondary); 
-        color: var(--color-light-text); 
-    }
-    .btn-accion-tabla:hover { background-color: var(--color-secondary-hover); }
-
-    /* --- BUSCADOR --- */
-    .buscador-container {
-      position: relative;
-      margin-bottom: 15px;
-      max-width: 400px;
-    }
+    /* BUSCADOR */
+    .buscador-container { position: relative; margin-bottom: 15px; max-width: 400px; }
     #buscador {
-      width: 100%;
-      padding: 10px 10px 10px 40px; 
-      border: 1px solid var(--color-primary-hover);
-      border-radius: var(--radius);
-      background-color: var(--color-input-bg);
-      color: var(--color-dark-text);
-      font-size: 1rem;
-      box-sizing: border-box; 
-      transition: all 0.2s ease;
+      width: 100%; padding: 10px 10px 10px 40px; 
+      border-radius: var(--radius); border: 1px solid var(--color-primary-hover);
     }
-    #buscador:focus {
-      outline: none;
-      border-color: var(--color-primary);
-      box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25);
-    }
-    .buscador-icon {
-      position: absolute;
-      left: 12px;
-      top: 50%;
-      transform: translateY(-50%);
-      color: var(--color-primary);
-      font-size: 1.1rem;
-    }
+    .buscador-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--color-primary); }
 
-    /* --- RESPONSIVE --- */
+    /* RESPONSIVE */
     @media (max-width: 768px) {
-        body { padding: 10px; }
-        header { flex-direction: column; align-items: flex-start; padding: 10px; }
-        form { grid-template-columns: 1fr; gap: 10px; padding: 15px; }
-        form > label, form > div, .form-logo-container { grid-column: span 1 !important; }
-        .button-group-form { justify-content: space-around; }
-        .button-group-form button { width: 32%; margin-right: 0; }
-        .actions-group { flex-direction: column; align-items: stretch; }
-        .actions-group button { width: 100%; margin-bottom: 10px; }
-        
-        .suggestion-input-group {
-            flex-direction: column;
-            align-items: stretch;
-            width: 100%;
-            padding: 15px 10px; 
-        }
-        #sugerenciaTemaInput {
-            max-width: none;
-            width: 100%;
-            margin-bottom: 5px;
-        }
-        .suggestion-input-group #btnSugerirTema { width: 100%; }
-
+        form { grid-template-columns: 1fr; }
+        form > label, form > div { grid-column: span 1 !important; }
         table, thead, tbody, th, td, tr { display: block; }
         thead tr { position: absolute; top: -9999px; left: -9999px; }
-        tr { border: 1px solid #7D7C79; margin-bottom: 10px; }
+        tr { margin-bottom: 10px; border: 1px solid #7D7C79; }
         td { 
-            border: none;
-            border-bottom: 1px solid #8D8C8A;
-            position: relative;
-            padding-left: 50%;
-            text-align: right;
-            font-size: 0.9em;
-            color: var(--color-light-text);
-            width: auto;
-            max-width: 100%; 
-            white-space: normal;
-            text-overflow: clip; 
+            border: none; border-bottom: 1px solid #8D8C8A; position: relative;
+            padding-left: 50%; text-align: right; 
         }
         td:before { 
-            content: attr(data-label);
-            position: absolute;
-            left: 10px;
-            width: 45%; 
-            padding-right: 10px;
-            white-space: nowrap;
-            text-align: left;
-            font-weight: 600;
+            content: attr(data-label); position: absolute; left: 10px; width: 45%; 
+            text-align: left; font-weight: bold;
         }
-        td:last-child { text-align: center; padding-left: 10px; }
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="./logo.png" alt="Logotipo institucional">
-    <h1>Sistema de Captura de Notas de Prensa</h1>
+    <img src="./logo.png" alt="Logotipo">
+    <h1>Sistema de Captura de Notas</h1>
   </header>
 
   <form>
-    <div class="form-logo-container">
-        <img src="./logo.png" alt="Logotipo del Formulario">
-    </div>
+    <div class="form-logo-container"><img src="./logo.png" alt="Logo Form"></div>
 
     <label for="usuario">Usuario:</label>
     <div class="campo">
-      <input type="text" id="usuario" name="usuario" required>
+      <input type="text" id="usuario" name="usuario" required placeholder="Ej: Juan Pérez">
       <input type="checkbox" id="checkUsuario" onchange="alternarBloqueo('usuario')" tabindex="-1">
       <label for="checkUsuario">🔒</label>
     </div>
@@ -415,99 +192,101 @@
     <div class="campo">
       <input type="date" id="fecha" name="fecha" required>
       <input type="checkbox" id="checkFecha" onchange="alternarBloqueo('fecha')" tabindex="-1">
-      <label for="checkFecha">🔒</label>
+      <label>🔒</label>
     </div>
 
     <label for="medio">Medio:</label>
     <div class="campo">
-      <input type="text" id="medio" name="medio" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('medio','sugMedio')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkMedio" onchange="alternarBloqueo('medio')" tabindex="-1">
-      <label for="checkMedio">🔒</label>
+      <input type="text" id="medio" autocomplete="off" required>
+      <button type="button" onclick="mostrarSugerencias('medio','sugMedio')">🔽</button>
+      <input type="checkbox" id="checkMedio" onchange="alternarBloqueo('medio')">
+      <label>🔒</label>
       <div id="sugMedio" class="sugerencias"></div>
     </div>
     
     <label for="titular">Titular:</label>
     <div class="campo">
-      <input type="text" id="titular" name="titular" required>
-      <input type="checkbox" id="checkTitular" onchange="alternarBloqueo('titular')" tabindex="-1">
-      <label for="checkTitular">🔒</label>
+      <input type="text" id="titular" required>
+      <input type="checkbox" id="checkTitular" onchange="alternarBloqueo('titular')">
+      <label>🔒</label>
     </div>
 
     <label for="firma">Firma:</label>
     <div class="campo">
-      <input type="text" id="firma" name="firma" autocomplete="off">
-      <button type="button" onclick="mostrarSugerencias('firma','sugFirma')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkFirma" onchange="alternarBloqueo('firma')" tabindex="-1">
-      <label for="checkFirma">🔒</label>
+      <input type="text" id="firma" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('firma','sugFirma')">🔽</button>
+      <input type="checkbox" id="checkFirma" onchange="alternarBloqueo('firma')">
+      <label>🔒</label>
       <div id="sugFirma" class="sugerencias"></div>
     </div>
     
     <label for="pagina">Página:</label>
     <div class="campo">
-      <input type="text" id="pagina" name="pagina" required> 
-      <input type="checkbox" id="checkPagina" onchange="alternarBloqueo('pagina')" tabindex="-1">
-      <label for="checkPagina">🔒</label>
+      <input type="text" id="pagina" required> 
+      <input type="checkbox" id="checkPagina" onchange="alternarBloqueo('pagina')">
+      <label>🔒</label>
     </div>
 
     <label for="dependencia">Dependencia:</label>
     <div class="campo">
-      <input type="text" id="dependencia" name="dependencia" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('dependencia','sugDep')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkDependencia" onchange="alternarBloqueo('dependencia')" tabindex="-1">
-      <label for="checkDependencia">🔒</label>
+      <input type="text" id="dependencia" autocomplete="off" required>
+      <button type="button" onclick="mostrarSugerencias('dependencia','sugDep')">🔽</button>
+      <input type="checkbox" id="checkDependencia" onchange="alternarBloqueo('dependencia')">
+      <label>🔒</label>
       <div id="sugDep" class="sugerencias"></div>
     </div>
+
     <label for="organismo">Organismo:</label>
     <div class="campo">
-      <input type="text" id="organismo" name="organismo" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('organismo','sugOrg')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkOrganismo" onchange="alternarBloqueo('organismo')" tabindex="-1">
-      <label for="checkOrganismo">🔒</label>
+      <input type="text" id="organismo" autocomplete="off" required>
+      <button type="button" onclick="mostrarSugerencias('organismo','sugOrg')">🔽</button>
+      <input type="checkbox" id="checkOrganismo" onchange="alternarBloqueo('organismo')">
+      <label>🔒</label>
       <div id="sugOrg" class="sugerencias"></div>
     </div>
     
     <label for="genero">Género:</label>
     <div class="campo">
-      <input type="text" id="genero" name="genero" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('genero','sugGenero')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkGenero" onchange="alternarBloqueo('genero')" tabindex="-1">
-      <label for="checkGenero">🔒</label>
+      <input type="text" id="genero" autocomplete="off" required>
+      <button type="button" onclick="mostrarSugerencias('genero','sugGenero')">🔽</button>
+      <input type="checkbox" id="checkGenero" onchange="alternarBloqueo('genero')">
+      <label>🔒</label>
       <div id="sugGenero" class="sugerencias"></div>
     </div>
+
     <label for="canal">Canal:</label>
     <div class="campo">
-      <input type="text" id="canal" name="canal" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('canal','sugCanal')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkCanal" onchange="alternarBloqueo('canal')" tabindex="-1">
-      <label for="checkCanal">🔒</label>
+      <input type="text" id="canal" autocomplete="off" required>
+      <button type="button" onclick="mostrarSugerencias('canal','sugCanal')">🔽</button>
+      <input type="checkbox" id="checkCanal" onchange="alternarBloqueo('canal')">
+      <label>🔒</label>
       <div id="sugCanal" class="sugerencias"></div>
     </div>
     
     <label for="tema">Tema:</label>
     <div class="campo">
-      <input type="text" id="tema" name="tema" autocomplete="off">
-      <button type="button" onclick="mostrarSugerencias('tema','sugTema')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkTema" onchange="alternarBloqueo('tema')" tabindex="-1">
-      <label for="checkTema">🔒</label>
+      <input type="text" id="tema" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('tema','sugTema')">🔽</button>
+      <input type="checkbox" id="checkTema" onchange="alternarBloqueo('tema')">
+      <label>🔒</label>
       <div id="sugTema" class="sugerencias"></div>
     </div>
     
     <label for="estatus">Estatus:</label>
     <div class="campo">
-      <input type="text" id="estatus" name="estatus" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('estatus','sugEstatus')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkEstatus" onchange="alternarBloqueo('estatus')" tabindex="-1">
-      <label for="checkEstatus">🔒</label>
+      <input type="text" id="estatus" autocomplete="off" required>
+      <button type="button" onclick="mostrarSugerencias('estatus','sugEstatus')">🔽</button>
+      <input type="checkbox" id="checkEstatus" onchange="alternarBloqueo('estatus')">
+      <label>🔒</label>
       <div id="sugEstatus" class="sugerencias"></div>
     </div>
 
     <label for="municipio">Municipio:</label>
     <div class="campo">
-      <input type="text" id="municipio" name="municipio" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('municipio','sugMunicipio')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkMunicipio" onchange="alternarBloqueo('municipio')" tabindex="-1">
-      <label for="checkMunicipio">🔒</label>
+      <input type="text" id="municipio" autocomplete="off" required>
+      <button type="button" onclick="mostrarSugerencias('municipio','sugMunicipio')">🔽</button>
+      <input type="checkbox" id="checkMunicipio" onchange="alternarBloqueo('municipio')">
+      <label>🔒</label>
       <div id="sugMunicipio" class="sugerencias"></div>
     </div>
     
@@ -522,77 +301,36 @@
 
   <div class="buscador-container">
     <i class="fa-solid fa-magnifying-glass buscador-icon"></i>
-    <input type="text" id="buscador" onkeyup="filtrarTabla()" placeholder="Buscar en todas las columnas...">
+    <input type="text" id="buscador" onkeyup="renderizarTabla()" placeholder="Buscar en todas las columnas...">
   </div>
 
   <div class="actions-group">
-      <button id="btnExportar" onclick="exportarCSV()"><i class="fa-solid fa-file-csv"></i> Exportar a Excel (CSV)</button>
+      <button id="btnExportar" onclick="exportarCSV()"><i class="fa-solid fa-file-csv"></i> Exportar CSV</button>
       <button id="btnGoogleSheets" onclick="enviarACalculo()"><i class="fa-solid fa-table"></i> Enviar a Sheets</button>
-      <button id="btnTelegram" onclick="enviarTelegram()"><i class="fa-brands fa-telegram"></i> Enviar por Telegram</button>
       <button id="btnBorrarTodo" onclick="borrarTodo()"><i class="fa-solid fa-dumpster-fire"></i> BORRAR TODO</button>
-      
-      <div class="suggestion-input-group">
-        <input type="text" id="sugerenciaTemaInput" placeholder="Sugerir nuevo tema...">
-        <button id="btnSugerirTema" onclick="sugerirTema()"><i class="fa-solid fa-paper-plane"></i></button>
-      </div>
   </div>
 
   <table id="tablaNotas">
     <thead>
-      <tr>
-        <th class="sortable-header" data-col="ordenCaptura" onclick="ordenarTabla('ordenCaptura')"># <i class="fa-solid fa-sort sort-icon"></i></th>
-        <th class="sortable-header" data-col="usuario" onclick="ordenarTabla('usuario')">Usuario <i class="fa-solid fa-sort sort-icon"></i></th>
-        <th class="sortable-header" data-col="fecha" onclick="ordenarTabla('fecha')">Fecha <i class="fa-solid fa-sort sort-icon"></i></th>
-        <th class="sortable-header" data-col="medio" onclick="ordenarTabla('medio')">Medio <i class="fa-solid fa-sort sort-icon"></i></th>
-        <th class="sortable-header" data-col="titular" onclick="ordenarTabla('titular')">Titular <i class="fa-solid fa-sort sort-icon"></i></th>
-        <th class="sortable-header" data-col="firma" onclick="ordenarTabla('firma')">Firma <i class="fa-solid fa-sort sort-icon"></i></th>
-        <th class="sortable-header" data-col="pagina" onclick="ordenarTabla('pagina')">Página <i class="fa-solid fa-sort sort-icon"></i></th>
-        <th class="sortable-header" data-col="dependencia" onclick="ordenarTabla('dependencia')">Dependencia <i class="fa-solid fa-sort sort-icon"></i></th>
-        <th class="sortable-header" data-col="organismo" onclick="ordenarTabla('organismo')">Organismo <i class="fa-solid fa-sort sort-icon"></i></th>
-        <th class="sortable-header" data-col="genero" onclick="ordenarTabla('genero')">Género <i class="fa-solid fa-sort sort-icon"></i></th>
-        <th class="sortable-header" data-col="canal" onclick="ordenarTabla('canal')">Canal <i class="fa-solid fa-sort sort-icon"></i></th>
-        <th class="sortable-header" data-col="tema" onclick="ordenarTabla('tema')">Tema <i class="fa-solid fa-sort sort-icon"></i></th>
-        <th class="sortable-header" data-col="estatus" onclick="ordenarTabla('estatus')">Estatus <i class="fa-solid fa-sort sort-icon"></i></th>
-        <th class="sortable-header" data-col="municipio" onclick="ordenarTabla('municipio')">Municipio <i class="fa-solid fa-sort sort-icon"></i></th>
-        <th>Acciones</th>
-      </tr>
+      <tr id="filaEncabezados">
+         </tr>
     </thead>
     <tbody>
       </tbody>
   </table>
 
-  <footer>
-    <p>&copy; 2024 - Sistema de Captura de Notas</p>
-  </footer>
+  <footer><p>&copy; 2024 - Sistema de Captura de Notas</p></footer>
 
   <script>
-    // Variables globales
-    let notas = [];
-    let filaEnEdicion = null; 
-    let nextOrdenCaptura = 1;
+    // --- CONFIGURACIÓN DE COLUMNAS (ORDEN FIJO) ---
+    // Esto arregla el error de que la tabla se "descuadre"
+    const ORDEN_COLUMNAS = [
+      "ordenCaptura", "usuario", "fecha", "medio", "titular", 
+      "firma", "pagina", "dependencia", "organismo", "genero", 
+      "canal", "tema", "estatus", "municipio"
+    ];
 
-    // Configuración
-    const LIMITE_CARACTERES_TITULAR = 50; 
-    
-    // Telegram Config
-    const TELEGRAM_BOT_TOKEN = "7290632367:AAF1vK_eJgG_ePRe5J5GjEqd5v_d_T5rRko"; 
-    const TELEGRAM_CHAT_ID = "-4266133092"; 
-
-    // Mapeos y datos cargados de CSV
-    let dependenciaMap = {};
-    let medioToCanalMap = {};
-    let firmaMap = {};
-    let dependenciaToOrganismoMap = {};
-    
-    let canalData = { claves: [], map: {} }; 
-    let generoData = { claves: [], map: {} };
-    let estatusData = { claves: [], map: {} };
-    let municipioData = { claves: [], map: {} };
-    let temaData = { claves: [], map: {} };
-    
-    const CAMPOS_CON_BLOQUEO = ['usuario', 'fecha', 'medio', 'titular', 'firma', 'pagina', 'dependencia', 'organismo', 'genero', 'canal', 'tema', 'estatus', 'municipio'];
-    
-    const encabezadosTabla = {
+    const ETIQUETAS_COLUMNAS = {
       "ordenCaptura": "#",
       "usuario": "Usuario",
       "fecha": "Fecha",
@@ -606,299 +344,172 @@
       "canal": "Canal",
       "tema": "Tema",
       "estatus": "Estatus",
-      "municipio": "Municipio",
-      "acciones": "Acciones"
+      "municipio": "Municipio"
     };
 
+    let notas = [];
+    let filaEnEdicion = null; 
+    let nextOrdenCaptura = 1;
     let ordenActual = { columna: 'ordenCaptura', direccion: 'desc' };
-
-    // RUTAS RELATIVAS (Asegúrese de que estos archivos estén en la misma carpeta)
+    const LIMITE_CARACTERES_TITULAR = 50; 
+    
+    // Configuración de URLs CSV locales
     const urls = {
-        dependencias: "./Dependencia.csv",
-        medios: "./Medio.csv", 
-        generos: "./Genero.csv",
-        estatus: "./Estatus.csv",
-        municipios: "./Municipio.csv",
-        temas: "./Tema.csv",
-        firmas: "./Firma.csv" 
+        dependencias: "./Dependencia.csv", medios: "./Medio.csv", generos: "./Genero.csv",
+        estatus: "./Estatus.csv", municipios: "./Municipio.csv", temas: "./Tema.csv", firmas: "./Firma.csv" 
     };
 
-    // --- CARGA DE DATOS (CSV) ---
+    // Variables de datos
+    let dependenciaMap = [], medioToCanalMap = {}, firmaMap = {}, dependenciaToOrganismoMap = {};
+    let canalData = [], generoData = [], estatusData = [], municipioData = [], temaData = [];
+    const CAMPOS_CON_BLOQUEO = ['usuario', 'fecha', 'medio', 'titular', 'firma', 'pagina', 'dependencia', 'organismo', 'genero', 'canal', 'tema', 'estatus', 'municipio'];
+
+    // --- CARGA DE DATOS ---
     async function cargarCSV(url) {
       try {
-        const response = await fetch(url);
-        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-        const text = await response.text();
-        return text;
-      } catch (e) {
-        console.error("Error cargando CSV:", url, e);
-        return "";
-      }
+        const r = await fetch(url);
+        return r.ok ? await r.text() : "";
+      } catch (e) { console.error("Error CSV", url); return ""; }
     }
     
-    function limpiarFilasCSV(textoCSV) {
-        const lineas = textoCSV.split('\n');
-        return lineas.map(linea => {
-            // Usa una expresión regular para dividir por comas, respetando comillas
-            const columnas = linea.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g);
-            if (!columnas) return [];
-            return columnas.map(col => col.replace(/^"|"$/g, '').trim()); // Quita comillas
-        }).filter(cols => cols.length > 0 && cols[0] !== "");
+    function limpiarFilasCSV(txt) {
+        if(!txt) return [];
+        return txt.split('\n').map(l => {
+            const cols = l.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g);
+            return cols ? cols.map(c => c.replace(/^"|"$/g, '').trim()) : [];
+        }).filter(c => c.length > 0);
     }
 
     async function cargarMapa(url) {
         const filas = limpiarFilasCSV(await cargarCSV(url));
         const map = {};
-        filas.forEach(([clave, valor]) => {
-             if (!clave) return;
-             clave = clave.trim();
-             valor = valor ? valor.trim() : '';
-             map[clave] = map[clave] || new Set();
-             if (valor) map[clave].add(valor);
+        filas.forEach(([k, v]) => {
+             if (!k) return;
+             map[k] = map[k] || new Set();
+             if (v) map[k].add(v);
         });
-        
-        // Convierte los Sets a Arrays ordenados
-        const claves = Object.keys(map).sort((a, b) => a.localeCompare(b, 'es'));
-        const mapArrays = {};
-        claves.forEach(k => mapArrays[k] = Array.from(map[k]).sort((a, b) => a.localeCompare(b, 'es')));
-        
-        return { claves, map: mapArrays };
+        const claves = Object.keys(map).sort();
+        const mapArr = {};
+        claves.forEach(k => mapArr[k] = Array.from(map[k]).sort());
+        return { claves, map: mapArr };
     }
-    
+
     async function inicializar() {
-        // 1. Cargar Dependencia -> Organismo
+        // Carga de catálogos
         const depData = await cargarMapa(urls.dependencias);
-        dependenciaToOrganismoMap = depData.map;
-        dependenciaMap = depData.claves; // Solo claves para autocompletar dependencia
+        dependenciaToOrganismoMap = depData.map; dependenciaMap = depData.claves;
         
-        // 2. Cargar Medio -> Canal
         const medioData = await cargarMapa(urls.medios);
-        medioToCanalMap = {}; // Aplanamos para acceso rápido O(1)
-        medioData.claves.forEach(medio => {
-            const canales = medioData.map[medio];
-            if (canales && canales.length > 0) {
-                medioToCanalMap[medio] = canales[0]; // Asumimos 1 canal por medio
-            }
+        // Aplanar medio -> canal
+        medioData.claves.forEach(m => {
+            if(medioData.map[m].length) medioToCanalMap[m] = medioData.map[m][0];
         });
-
-        // 3. Cargar Firmas (Medio -> Firma)
-        const firmaData = await cargarMapa(urls.firmas);
-        firmaMap = firmaData.map; // Objeto { "Medio": ["Firma1", "Firma2"] }
-
-        // 4. Cargar Listas Simples
-        canalData = await cargarMapa(urls.medios); // Reusamos para sacar lista única de canales si fuera necesario, o cargamos aparte
-        // Corrección: El CSV de Medios tiene la estructura Medio,Canal. 
-        // Para autocompletar 'Canal' independientemente, extraemos todos los valores únicos del mapa de medios
+        
+        const firmaData = await cargarMapa(urls.firmas); firmaMap = firmaData.map;
+        
+        // Listas simples
         const todosCanales = new Set();
         Object.values(medioToCanalMap).forEach(c => todosCanales.add(c));
-        canalData = { claves: Array.from(todosCanales).sort(), map: {} };
+        canalData = Array.from(todosCanales).sort();
 
-        generoData = await cargarMapa(urls.generos);
-        estatusData = await cargarMapa(urls.estatus);
-        municipioData = await cargarMapa(urls.municipios);
-        temaData = await cargarMapa(urls.temas);
+        generoData = (await cargarMapa(urls.generos)).claves;
+        estatusData = (await cargarMapa(urls.estatus)).claves;
+        municipioData = (await cargarMapa(urls.municipios)).claves;
+        temaData = (await cargarMapa(urls.temas)).claves;
 
         configurarAutocompletado();
+        generarEncabezadosTabla(); // Generar TH dinámicamente según ORDEN_COLUMNAS
     }
-    
+
+    function generarEncabezadosTabla() {
+        const tr = document.getElementById('filaEncabezados');
+        tr.innerHTML = '';
+        ORDEN_COLUMNAS.forEach(key => {
+            const th = document.createElement('th');
+            th.innerHTML = `${ETIQUETAS_COLUMNAS[key]} <i class="fa-solid fa-sort sort-icon"></i>`;
+            th.onclick = () => ordenarTabla(key);
+            th.dataset.col = key;
+            th.classList.add('sortable-header');
+            tr.appendChild(th);
+        });
+        // Columna Acciones
+        const thAcc = document.createElement('th');
+        thAcc.textContent = 'Acciones';
+        tr.appendChild(thAcc);
+    }
+
     function configurarAutocompletado() {
         autocompletar("dependencia", "sugDep", dependenciaMap, (dep) => {
-             // Al seleccionar dependencia, llenar organismo automáticamente
-             const organismos = dependenciaToOrganismoMap[dep];
-             const orgInput = document.getElementById("organismo");
-             if (organismos && organismos.length > 0) {
-                 orgInput.value = organismos[0]; // Tomamos el primero por defecto
-                 // Efecto visual de actualización
-                 orgInput.style.backgroundColor = "#e8f0fe";
-                 setTimeout(() => orgInput.style.backgroundColor = "var(--color-input-bg)", 500);
-             } else {
-                 orgInput.value = "";
-             }
+             const orgs = dependenciaToOrganismoMap[dep];
+             if (orgs && orgs.length) document.getElementById("organismo").value = orgs[0];
         });
-
-        autocompletar("organismo", "sugOrg", []); // Organismo suele ser auto-llenado, pero dejamos opción
-        autocompletar("genero", "sugGenero", generoData.claves);
-        autocompletar("canal", "sugCanal", canalData.claves);
-        autocompletar("tema", "sugTema", temaData.claves);
-        autocompletar("estatus", "sugEstatus", estatusData.claves);
-        autocompletar("municipio", "sugMunicipio", municipioData.claves);
+        autocompletar("organismo", "sugOrg", []); 
+        autocompletar("genero", "sugGenero", generoData);
+        autocompletar("canal", "sugCanal", canalData);
+        autocompletar("tema", "sugTema", temaData);
+        autocompletar("estatus", "sugEstatus", estatusData);
+        autocompletar("municipio", "sugMunicipio", municipioData);
         
-        // MEDIO (Dispara Canal y Firma)
         autocompletar("medio", "sugMedio", Object.keys(medioToCanalMap).sort(), medio => {
-             // Llenar Canal
-             setCanalFromMedio(medio, medioToCanalMap);
-             
-             // Llenar Firmas sugeridas para ese medio
-             const firmas = firmaMap[medio] || [];
-             autocompletar("firma", "sugFirma", firmas);
+             const c = medioToCanalMap[medio];
+             if(c) document.getElementById("canal").value = c;
+             autocompletar("firma", "sugFirma", firmaMap[medio] || []);
         });
-
-        // FIRMA (Inicialmente vacía o genérica, se actualiza al elegir medio)
         autocompletar("firma", "sugFirma", []);
-        
-        // Eventos blur para validación/limpieza
-        document.getElementById("dependencia").addEventListener("blur", (e) => {
-             if (!dependenciaMap.includes(e.target.value.trim())) {
-                 // Opción: Limpiar si no es válido o dejar libre. Dejamos libre por flexibilidad,
-                 // pero podríamos limpiar organismo si la dependencia cambia a algo desconocido.
-             }
-        });
     }
 
-    function setCanalFromMedio(medio, map) {
-        const canalInput = document.getElementById("canal");
-        const canal = map[medio];
-        if (canal) {
-            canalInput.value = canal;
-            canalInput.style.backgroundColor = "#e8f0fe";
-            setTimeout(() => canalInput.style.backgroundColor = "var(--color-input-bg)", 500);
-        } else {
-             canalInput.value = '';
-        }
-    }
-
-    // --- LÓGICA AUTOCOMPLETADO (Genérica) ---
-    function autocompletar(inputId, sugerenciasId, listaOpciones, callbackSeleccion = null) {
+    function autocompletar(inputId, divId, lista, callback) {
       const input = document.getElementById(inputId);
-      const sugerenciasDiv = document.getElementById(sugerenciasId);
-      let currentFocus = -1;
-
+      const div = document.getElementById(divId);
       input.addEventListener("input", function() {
-        const val = this.value;
-        cerrarSugerencias();
+        div.innerHTML = "";
+        const val = this.value.toLowerCase();
         if (!val) return;
-        
-        currentFocus = -1;
-        const items = listaOpciones.filter(item => item.toLowerCase().includes(val.toLowerCase()));
-        
-        // 🌟 MEJORA: Si hay coincidencia exacta única, no mostrar lista gigante, pero sí permitir verla
-        if (items.length === 0) return;
-
-        items.forEach(item => {
-           const div = document.createElement("div");
-           div.classList.add("sugerencia");
-           // Resaltar coincidencia
-           const regex = new RegExp(`(${val})`, "gi");
-           div.innerHTML = item.replace(regex, "<strong>$1</strong>");
-           div.addEventListener("click", function() {
-             input.value = item;
-             cerrarSugerencias();
-             if (callbackSeleccion) callbackSeleccion(item);
-           });
-           sugerenciasDiv.appendChild(div);
+        const matches = lista.filter(x => x.toLowerCase().includes(val));
+        matches.forEach(item => {
+           const d = document.createElement("div");
+           d.className = "sugerencia";
+           d.textContent = item;
+           d.onclick = () => { input.value = item; div.innerHTML = ""; if(callback) callback(item); };
+           div.appendChild(d);
         });
       });
-
-      input.addEventListener("keydown", function(e) {
-          let x = sugerenciasDiv.getElementsByTagName("div");
-          if (e.keyCode == 40) { // Abajo
-            currentFocus++;
-            addActive(x);
-          } else if (e.keyCode == 38) { // Arriba
-            currentFocus--;
-            addActive(x);
-          } else if (e.keyCode == 13) { // Enter
-            e.preventDefault();
-            if (currentFocus > -1) {
-              if (x) x[currentFocus].click();
-            } else if (x.length === 1) {
-               // Si solo hay una sugerencia y damos enter, seleccionarla
-               x[0].click();
-            }
-          }
-      });
-      
-      function addActive(x) {
-        if (!x) return false;
-        removeActive(x);
-        if (currentFocus >= x.length) currentFocus = 0;
-        if (currentFocus < 0) currentFocus = (x.length - 1);
-        x[currentFocus].classList.add("resaltado");
-        x[currentFocus].scrollIntoView({ block: 'nearest' });
-      }
-      
-      function removeActive(x) {
-        for (let i = 0; i < x.length; i++) {
-          x[i].classList.remove("resaltado");
-        }
-      }
-    }
-    
-    function cerrarSugerencias() {
-        document.querySelectorAll(".sugerencias").forEach(x => x.innerHTML = "");
+      document.addEventListener("click", e => { if(e.target !== input) div.innerHTML = ""; });
     }
     
     function mostrarSugerencias(inputId, divId) {
-        const input = document.getElementById(inputId);
-        // Simular evento input para mostrar todo o filtrar
+        document.getElementById(inputId).focus();
         const event = new Event('input');
-        input.dispatchEvent(event);
-        // Si está vacío, mostrar todos (truco: pasar un filtro vacío a la lógica de autocompletar si se quisiera, 
-        // pero nuestra lógica actual requiere texto. Modificamos brevemente para 'Show All' si el input está vacío)
-        /* Nota: Para 'Show All' necesitaríamos refactorizar autocompletar. 
-           Por ahora, el botón 🔽 solo funciona si hay texto o focusea. 
-           Vamos a hacer que focusee y dispare input vacío.
-        */
-        input.focus();
+        document.getElementById(inputId).dispatchEvent(event);
     }
 
-    // Cerrar sugerencias al hacer clic fuera
-    document.addEventListener("click", function (e) {
-        if (!e.target.matches(".campo > input") && !e.target.matches(".campo > button")) {
-            cerrarSugerencias();
-        }
-    });
-
-
-    // --- CRUD NOTAS ---
+    // --- CRUD ---
     function agregarNota() {
       const form = document.querySelector("form");
-      if (!form.checkValidity()) {
-        form.reportValidity();
-        return;
-      }
+      if (!form.checkValidity()) { form.reportValidity(); return; }
 
-      const nuevaNota = {
-        ordenCaptura: filaEnEdicion ? filaEnEdicion.ordenCaptura : nextOrdenCaptura++,
-        usuario: document.getElementById("usuario").value.trim(),
-        fecha: document.getElementById("fecha").value,
-        medio: document.getElementById("medio").value.trim(),
-        titular: document.getElementById("titular").value.trim(),
-        firma: document.getElementById("firma").value.trim(),
-        pagina: document.getElementById("pagina").value.trim(),
-        dependencia: document.getElementById("dependencia").value.trim(),
-        organismo: document.getElementById("organismo").value.trim(),
-        genero: document.getElementById("genero").value.trim(),
-        canal: document.getElementById("canal").value.trim(),
-        tema: document.getElementById("tema").value.trim(),
-        estatus: document.getElementById("estatus").value.trim(),
-        municipio: document.getElementById("municipio").value.trim()
-      };
+      const obj = { ordenCaptura: filaEnEdicion ? filaEnEdicion.ordenCaptura : nextOrdenCaptura++ };
+      // Extraer datos del DOM
+      CAMPOS_CON_BLOQUEO.forEach(id => obj[id] = document.getElementById(id).value.trim());
 
       if (filaEnEdicion) {
-        const index = notas.findIndex(n => n.ordenCaptura === filaEnEdicion.ordenCaptura);
-        if (index !== -1) notas[index] = nuevaNota;
+        const idx = notas.findIndex(n => n.ordenCaptura === filaEnEdicion.ordenCaptura);
+        if (idx !== -1) notas[idx] = obj;
         resetearEstadoEdicion();
       } else {
-        notas.push(nuevaNota);
+        notas.push(obj);
       }
 
       guardarNotas();
       renderizarTabla();
-      
-      // 🌟 NUEVO: Guardado Automático en la Nube (Silencioso)
-      enviarACalculo(true); 
-      
-      // Limpiar campos NO bloqueados
-      const campos = document.querySelectorAll("form input[type='text'], form input[type='date']");
-      campos.forEach(input => {
-          const id = input.id;
-          const isLocked = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`)?.checked;
-          if (!isLocked) {
-              input.value = "";
+      enviarACalculo(true); // Auto-save silencioso
+
+      // Limpiar no bloqueados
+      CAMPOS_CON_BLOQUEO.forEach(id => {
+          if(!document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`).checked) {
+              document.getElementById(id).value = "";
           }
       });
-      // Devolver foco
       document.getElementById('titular').focus();
     }
 
@@ -906,35 +517,18 @@
       const id = parseInt(tr.cells[0].textContent);
       const nota = notas.find(n => n.ordenCaptura === id);
       if (!nota) return;
-
       filaEnEdicion = nota;
-
-      // Rellenar formulario
-      Object.keys(nota).forEach(key => {
-          if (key === 'ordenCaptura') return;
-          const input = document.getElementById(key);
-          if (input) input.value = nota[key];
-      });
-
-      // UI Estado Edición
+      CAMPOS_CON_BLOQUEO.forEach(k => document.getElementById(k).value = nota[k] || "");
+      
       document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-rotate"></i> Actualizar';
       document.getElementById('btnEliminar').style.display = 'inline-block';
-      
-      // Resaltar fila
-      document.querySelectorAll('#tablaNotas tbody tr').forEach(row => row.classList.remove('editando'));
-      tr.classList.add('editando');
-      
-      // Scroll al formulario
-      document.querySelector("header").scrollIntoView({ behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
     function confirmarEliminar() {
-        if (!filaEnEdicion) return;
-        if (confirm("¿Eliminar esta nota?")) {
+        if (filaEnEdicion && confirm("¿Eliminar nota?")) {
             notas = notas.filter(n => n.ordenCaptura !== filaEnEdicion.ordenCaptura);
-            guardarNotas();
-            renderizarTabla();
-            resetearEstadoEdicion();
+            guardarNotas(); renderizarTabla(); resetearEstadoEdicion();
             document.querySelector("form").reset();
         }
     }
@@ -943,7 +537,6 @@
         filaEnEdicion = null;
         document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Guardar';
         document.getElementById('btnEliminar').style.display = 'none';
-        document.querySelectorAll('#tablaNotas tbody tr').forEach(row => row.classList.remove('editando'));
     }
 
     function guardarNotas() {
@@ -952,285 +545,187 @@
     }
     
     function borrarTodo() {
-        if (confirm("¿Estás seguro de que quieres BORRAR TODAS las notas capturadas? Esta acción es irreversible en tu equipo local.")) {
-            notas = [];
-            nextOrdenCaptura = 1;
-            guardarNotas();
-            renderizarTabla();
-            resetearEstadoEdicion();
+        if (confirm("¿BORRAR TODAS las notas locales?")) {
+            notas = []; nextOrdenCaptura = 1; guardarNotas(); renderizarTabla();
         }
     }
 
+    // --- TABLA Y FILTROS (CORREGIDO) ---
     function renderizarTabla() {
       const tbody = document.querySelector("#tablaNotas tbody");
       tbody.innerHTML = "";
       
-      const filtro = document.getElementById('buscador').value.toLowerCase();
+      // Filtros
+      const txtBusq = document.getElementById('buscador').value.toLowerCase();
+      const txtUser = document.getElementById('usuario').value.trim().toLowerCase();
 
-      // Filtrado y Ordenado
-      let notasDisplay = notas.filter(nota => {
-          return Object.values(nota).some(val => String(val).toLowerCase().includes(filtro));
+      // Lógica de filtrado combinada
+      let display = notas.filter(nota => {
+          // 1. Filtro Usuario (Estricto)
+          if (txtUser && String(nota.usuario).toLowerCase().trim() !== txtUser) return false;
+          // 2. Filtro Buscador (Global)
+          if (txtBusq && !Object.values(nota).some(v => String(v).toLowerCase().includes(txtBusq))) return false;
+          return true;
       });
       
-      // Lógica de ordenación
-      notasDisplay.sort((a, b) => {
-          let valA = a[ordenActual.columna];
-          let valB = b[ordenActual.columna];
-          
-          if (typeof valA === 'string') valA = valA.toLowerCase();
-          if (typeof valB === 'string') valB = valB.toLowerCase();
-
-          if (valA < valB) return ordenActual.direccion === 'asc' ? -1 : 1;
-          if (valA > valB) return ordenActual.direccion === 'asc' ? 1 : -1;
+      // Ordenar
+      display.sort((a, b) => {
+          let vA = a[ordenActual.columna] || "", vB = b[ordenActual.columna] || "";
+          if (vA < vB) return ordenActual.direccion === 'asc' ? -1 : 1;
+          if (vA > vB) return ordenActual.direccion === 'asc' ? 1 : -1;
           return 0;
       });
 
-      notasDisplay.forEach(nota => {
+      // Renderizar filas con ORDEN ESTRICTO
+      display.forEach(nota => {
         const tr = document.createElement("tr");
-        if (Object.values(nota).some(val => val === "")) tr.classList.add("alerta-vacio");
+        if (Object.values(nota).some(v => v === "")) tr.classList.add("alerta-vacio");
         
-        Object.keys(encabezadosTabla).forEach(key => {
-            if (key === 'acciones') return;
+        ORDEN_COLUMNAS.forEach(key => {
             const td = document.createElement("td");
-            td.setAttribute('data-label', encabezadosTabla[key]);
-            
-            let texto = nota[key];
-            if (key === 'titular' && texto.length > LIMITE_CARACTERES_TITULAR) {
-                texto = texto.substring(0, LIMITE_CARACTERES_TITULAR) + "...";
+            td.dataset.label = ETIQUETAS_COLUMNAS[key];
+            let txt = nota[key] || "";
+            if(key === 'titular' && txt.length > LIMITE_CARACTERES_TITULAR) {
+                td.title = txt; txt = txt.substring(0, LIMITE_CARACTERES_TITULAR) + "...";
             }
-            td.textContent = texto;
+            td.textContent = txt;
             tr.appendChild(td);
         });
 
-        // Botón Editar
-        const tdAcciones = document.createElement("td");
-        tdAcciones.setAttribute('data-label', "Acciones");
+        // Acciones
+        const tdAcc = document.createElement("td");
+        tdAcc.dataset.label = "Acciones";
         const btn = document.createElement("button");
-        btn.textContent = "Editar";
+        btn.innerHTML = '<i class="fa-solid fa-pen"></i>';
         btn.className = "btn-accion-tabla";
         btn.onclick = () => editarNota(tr);
-        tdAcciones.appendChild(btn);
-        tr.appendChild(tdAcciones);
+        tdAcc.appendChild(btn);
+        tr.appendChild(tdAcc);
 
         tbody.appendChild(tr);
       });
-      
       actualizarIconosOrden();
     }
-    
-    function filtrarTabla() {
-        renderizarTabla();
-    }
-    
-    function ordenarTabla(columna) {
-        if (ordenActual.columna === columna) {
-            ordenActual.direccion = ordenActual.direccion === 'asc' ? 'desc' : 'asc';
-        } else {
-            ordenActual.columna = columna;
-            ordenActual.direccion = 'asc';
-        }
+
+    function ordenarTabla(col) {
+        ordenActual.direccion = (ordenActual.columna === col && ordenActual.direccion === 'asc') ? 'desc' : 'asc';
+        ordenActual.columna = col;
         renderizarTabla();
     }
     
     function actualizarIconosOrden() {
         document.querySelectorAll('.sortable-header').forEach(th => {
-            th.classList.remove('sorted');
-            const icon = th.querySelector('.sort-icon');
-            icon.className = 'fa-solid fa-sort sort-icon'; // Reset
-            
-            if (th.dataset.col === ordenActual.columna) {
-                th.classList.add('sorted');
-                icon.className = ordenActual.direccion === 'asc' ? 'fa-solid fa-sort-up sort-icon' : 'fa-solid fa-sort-down sort-icon';
+            const i = th.querySelector('i');
+            i.className = 'fa-solid fa-sort sort-icon';
+            if(th.dataset.col === ordenActual.columna) {
+                i.className = ordenActual.direccion === 'asc' ? 'fa-solid fa-sort-up' : 'fa-solid fa-sort-down';
             }
         });
-    }
-
-    function truncarTexto(texto, longitud) {
-        return texto.length > longitud ? texto.substring(0, longitud) + "..." : texto;
     }
 
     // --- INTEGRACIONES ---
     function exportarCSV() {
-        if (notas.length === 0) { alert("No hay datos para exportar."); return; }
-        let csv = '\uFEFF'; // BOM para Excel
-        // Header
-        const keys = Object.keys(encabezadosTabla).filter(k => k !== 'acciones');
-        csv += keys.map(k => encabezadosTabla[k]).join(",") + "\n";
-        
-        notas.forEach(nota => {
-            const fila = keys.map(k => {
-                let val = String(nota[k] || "").replace(/"/g, '""');
-                return `"${val}"`;
-            });
-            csv += fila.join(",") + "\n";
+        if (!notas.length) return alert("Nada que exportar");
+        let csv = '\uFEFF' + ORDEN_COLUMNAS.map(k => ETIQUETAS_COLUMNAS[k]).join(",") + "\n";
+        notas.forEach(n => {
+            csv += ORDEN_COLUMNAS.map(k => `"${String(n[k]||"").replace(/"/g,'""')}"`).join(",") + "\n";
         });
-
         const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
-        const link = document.createElement("a");
-        link.href = URL.createObjectURL(blob);
-        link.download = `Notas_Prensa_${new Date().toISOString().slice(0,10)}.csv`;
-        link.click();
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(blob);
+        a.download = "Notas.csv";
+        a.click();
     }
 
-    // 🌟 FUNCIÓN ENVIAR A SHEETS (MODIFICADA: FILTRO POR USUARIO) 🌟
     async function enviarACalculo(silencioso = false) {
         const usuarioActual = document.getElementById('usuario').value.trim();
-
-        // 1. Validación de Usuario
         if (!usuarioActual) {
-            if (!silencioso) alert("⚠️ Campo de usuario vacío. Ingresa un usuario para sincronizar.");
+            if (!silencioso) alert("⚠️ Ingresa un Usuario para sincronizar.");
             return;
         }
 
-        // 2. Filtrar notas SOLO del usuario actual
-        const notasDelUsuario = notas.filter(nota => nota.usuario === usuarioActual);
+        // FILTRO DE SEGURIDAD: Solo enviar notas de este usuario
+        const notasDelUsuario = notas.filter(n => n.usuario === usuarioActual);
 
         if (notasDelUsuario.length === 0) {
-            if (!silencioso) alert("⚠️ No hay notas capturadas para el usuario: " + usuarioActual);
+            if (!silencioso) alert("⚠️ No hay notas de " + usuarioActual);
             return;
         }
 
         const URL_APPS_SCRIPT = "https://script.google.com/macros/s/AKfycbzVnapqEEmekALj6HyPWdO_BI0foCPPIkAuE-16Jl8jK5_Pxfa5_ZUGTwh80BAlQVb5/exec";
+        const btn = document.getElementById('btnGoogleSheets');
 
         try {
-            if (!silencioso) {
-                const btn = document.getElementById('btnGoogleSheets');
-                btn.disabled = true;
-                btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
-            }
-
-            // 3. Enviar arreglo filtrado
-            const response = await fetch(URL_APPS_SCRIPT, {
+            if (!silencioso) { btn.disabled = true; btn.innerHTML = 'Enviando...'; }
+            
+            const r = await fetch(URL_APPS_SCRIPT, {
                 method: 'POST',
-                body: JSON.stringify(notasDelUsuario)
+                body: JSON.stringify(notasDelUsuario) // Enviamos array filtrado
             });
 
-            if (response.ok) {
-                if (!silencioso) alert("✅ Notas de " + usuarioActual + " sincronizadas correctamente.");
-                console.log("Sincronización exitosa.");
-            } else {
-                throw new Error(`Error del servidor: ${response.status}`);
-            }
+            if (r.ok) {
+                if (!silencioso) alert("✅ Sincronizado: " + usuarioActual);
+                console.log("Sync OK");
+            } else throw new Error(r.status);
 
-        } catch (error) {
-            console.error("Error al enviar a Google Sheets:", error);
-            if (!silencioso) alert("⚠️ Hubo un problema al conectar con la hoja de cálculo. Revisa tu conexión.");
-        } finally {
-            if (!silencioso) {
-                const btn = document.getElementById('btnGoogleSheets');
-                btn.disabled = false;
-                btn.innerHTML = '<i class="fa-solid fa-table"></i> Enviar a Sheets';
-            }
-        }
-    }
-
-    async function enviarTelegram() {
-        if (notas.length === 0) { alert("No hay notas para enviar."); return; }
-        
-        // Generar archivo temporal para enviar (reutiliza lógica CSV)
-        let csv = '\uFEFF' + Object.keys(encabezadosTabla).filter(k => k !== 'acciones').map(k => encabezadosTabla[k]).join(",") + "\n";
-        notas.forEach(nota => {
-            csv += Object.keys(encabezadosTabla).filter(k => k !== 'acciones').map(k => `"${String(nota[k] || "").replace(/"/g, '""')}"`).join(",") + "\n";
-        });
-        const blob = new Blob([csv], { type: 'text/csv' });
-        const formData = new FormData();
-        formData.append("chat_id", TELEGRAM_CHAT_ID);
-        formData.append("document", blob, `Reporte_Notas_${new Date().toLocaleDateString('es-MX').replace(/\//g,'-')}.csv`);
-
-        const URL_TELEGRAM = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument`;
-        
-        try {
-            const btn = document.getElementById('btnTelegram');
-            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
-            btn.disabled = true;
-            
-            const response = await fetch(URL_TELEGRAM, { method: 'POST', body: formData });
-            if (response.ok) alert("✅ Reporte enviado a Telegram exitosamente.");
-            else alert("❌ Error al enviar a Telegram.");
         } catch (e) {
             console.error(e);
-            alert("❌ Error de conexión con Telegram.");
+            if (!silencioso) alert("Error de conexión");
         } finally {
-            const btn = document.getElementById('btnTelegram');
-            btn.innerHTML = '<i class="fa-brands fa-telegram"></i> Enviar por Telegram';
-            btn.disabled = false;
-        }
-    }
-    
-    function sugerirTema() {
-        const input = document.getElementById('sugerenciaTemaInput');
-        const tema = input.value.trim();
-        if (tema) {
-            // Lógica ficticia de sugerencia, aquí podrías enviarlo a otro endpoint o agregarlo localmente
-            alert(`Gracias! Tu sugerencia "${tema}" ha sido registrada.`);
-            input.value = "";
+            if (!silencioso) { btn.disabled = false; btn.innerHTML = '<i class="fa-solid fa-table"></i> Enviar a Sheets'; }
         }
     }
 
-    // --- BLOQUEO DE CAMPOS ---
-    function alternarBloqueo(idCampo) {
-        const checkbox = document.getElementById(`check${idCampo.charAt(0).toUpperCase() + idCampo.slice(1)}`);
-        const campo = document.getElementById(idCampo);
-        
-        if (checkbox.checked) {
-            campo.classList.add("bloqueado");
-            campo.readOnly = true; // Usamos readOnly en lugar de disabled para que se envíe en forms si fuera submit tradicional
-            localStorage.setItem(idCampo, campo.value); // Persistencia
+    // --- BLOQUEO ---
+    function alternarBloqueo(id) {
+        const chk = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
+        const el = document.getElementById(id);
+        if (chk.checked) {
+            el.classList.add("bloqueado"); el.readOnly = true;
+            localStorage.setItem(id, el.value);
         } else {
-            campo.classList.remove("bloqueado");
-            campo.readOnly = false;
-            localStorage.removeItem(idCampo);
+            el.classList.remove("bloqueado"); el.readOnly = false;
+            localStorage.removeItem(id);
         }
-        localStorage.setItem(`bloqueado_${idCampo}`, checkbox.checked);
+        localStorage.setItem(`bloqueado_${id}`, chk.checked);
     }
     
-    function desbloquearTodos() {
-        CAMPOS_CON_BLOQUEO.forEach(id => {
-             const chk = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
-             if (chk) {
-                 chk.checked = false;
-                 alternarBloqueo(id); // Esto limpia el localStorage y quita clases
-             }
-        });
-        document.querySelectorAll("form input[type='text'], form input[type='date']").forEach(i => i.value = "");
-    }
-
-    document.getElementById('btnLimpiar').addEventListener('click', (e) => {
-        // El comportamiento por defecto de reset limpia los inputs visualmente,
-        // nosotros necesitamos asegurar el estado de bloqueo también.
+    document.getElementById('btnLimpiar').addEventListener('click', () => {
         setTimeout(() => {
-            desbloquearTodos();
-            renderizarTabla(); // Por si queremos limpiar selección de edición
-            resetearEstadoEdicion();
+            CAMPOS_CON_BLOQUEO.forEach(id => {
+               const chk = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
+               chk.checked = false; alternarBloqueo(id);
+            });
+            renderizarTabla(); resetearEstadoEdicion();
         }, 10);
     });
 
-    // --- INICIALIZACIÓN ---
+    // --- MAIN ---
     window.onload = function() {
         inicializar();
-        
-        // Cargar notas locales
         const guardado = localStorage.getItem('notasCapturadas');
         if (guardado) notas = JSON.parse(guardado);
-        
-        const nextOrden = localStorage.getItem('nextOrdenCaptura');
-        if (nextOrden) nextOrdenCaptura = parseInt(nextOrden);
+        const next = localStorage.getItem('nextOrdenCaptura');
+        if (next) nextOrdenCaptura = parseInt(next);
 
-        renderizarTabla();
-        
-        // Restaurar estado de bloqueos
+        // Restaurar bloqueos y valores
         CAMPOS_CON_BLOQUEO.forEach(id => {
             const isLocked = localStorage.getItem(`bloqueado_${id}`) === 'true';
             const chk = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
-            if (chk) chk.checked = isLocked;
-            
-            // Restaurar valor si estaba bloqueado
-            if (isLocked) {
-                const val = localStorage.getItem(id);
-                if (val) document.getElementById(id).value = val;
-                alternarBloqueo(id);
+            if (chk) {
+                chk.checked = isLocked;
+                if (isLocked) {
+                    const val = localStorage.getItem(id);
+                    if (val) document.getElementById(id).value = val;
+                    alternarBloqueo(id);
+                }
             }
         });
+        
+        renderizarTabla();
+
+        // 🌟 LISTENER CLAVE: Refrescar tabla al escribir usuario
+        document.getElementById('usuario').addEventListener('input', renderizarTabla);
     };
   </script>
 </body>
