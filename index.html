@@ -13,145 +13,92 @@
 
     /* --- PALETA DE COLORES FINAL --- */
     :root {
-      --color-fondo-pagina: #31302F;       /* Oscuro Suave */
-      --color-fondo-form: #52504E;         /* Gris Cálido (Fondo del Formulario) */
-      --color-primary: #6F0909;            /* Rojo Intenso (Guardar/Borrar Todo) */
-      --color-primary-hover: #792929;      /* Rojo Suave */
-      --color-secondary: #792929;          /* Rojo Suave (Botón Limpiar/Hover) */
-      --color-secondary-hover: #6F0909;    /* Rojo Intenso */
-      --color-danger: #dc3545;             /* Rojo estándar para peligro */
-      --color-danger-hover: #c82333;       /* Rojo oscuro */
-      --color-dark-text: #31302F;          /* Texto para inputs (fondo claro) */
-      --color-light-text: #F0EAD1;         /* Texto principal (fondo oscuro) */
-      --color-input-bg: #FFFFFF;           /* Fondo de los campos de texto: Blanco */
+      --color-fondo-pagina: #31302F;       
+      --color-fondo-form: #52504E;         
+      --color-primary: #6F0909;            
+      --color-primary-hover: #792929;      
+      --color-secondary: #792929;          
+      --color-secondary-hover: #6F0909;    
+      --color-danger: #dc3545;             
+      --color-danger-hover: #c82333;       
+      --color-telegram: #0088cc;           
+      --color-telegram-hover: #0077b3;     
+      --color-dark-text: #31302F;          
+      --color-light-text: #F0EAD1;         
+      --color-input-bg: #FFFFFF;           
       --color-alerta-vacio: #FFD700;       
       --radius: 0.25rem;
     }
     body {
       font-family: 'Roboto', sans-serif;
-      margin: 0;
-      padding: 20px;
+      margin: 0; padding: 20px;
       background-color: var(--color-fondo-pagina);
       color: var(--color-light-text);
     }
-    h1 {
-      font-size: 1.8rem;
-      color: var(--color-light-text);
-    }
+    h1 { font-size: 1.8rem; color: var(--color-light-text); }
     header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 2px solid var(--color-primary);
-      padding-bottom: 10px;
-      margin-bottom: 20px;
-      background-color: var(--color-fondo-form);
-      padding: 10px 20px 15px 20px;
-      border-radius: var(--radius) var(--radius) 0 0;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 2px solid var(--color-primary); padding-bottom: 10px;
+      margin-bottom: 20px; background-color: var(--color-fondo-form);
+      padding: 10px 20px 15px 20px; border-radius: var(--radius) var(--radius) 0 0;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
-    header img {
-      height: 50px;
-      width: auto;
-    }
+    header img { height: 50px; width: auto; }
     
     /* --- FORMULARIO --- */
     form {
-      display: grid;
-      grid-template-columns: auto 1fr auto 1fr;
-      gap: 15px 30px;
-      max-width: 900px;
-      margin: 0 auto 30px auto;
-      padding: 25px;
-      background-color: var(--color-fondo-form);
-      border-radius: var(--radius);
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      display: grid; grid-template-columns: auto 1fr auto 1fr;
+      gap: 15px 30px; max-width: 900px; margin: 0 auto 30px auto;
+      padding: 25px; background-color: var(--color-fondo-form);
+      border-radius: var(--radius); box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
     .form-logo-container {
-        grid-column: span 4; 
-        text-align: center;
-        margin-bottom: 20px;
-        padding-bottom: 15px;
-        border-bottom: 1px solid var(--color-secondary);
+        grid-column: span 4; text-align: center; margin-bottom: 20px;
+        padding-bottom: 15px; border-bottom: 1px solid var(--color-secondary);
     }
-    .form-logo-container img {
-        height: 80px; 
-        width: auto; 
-        opacity: 0.9;
+    .form-logo-container img { height: 80px; width: auto; opacity: 0.9; }
+    label { font-weight: 700; align-self: center; color: var(--color-light-text); }
+    
+    .campo { position: relative; display: flex; align-items: center; }
+    .campo > input[type="text"], .campo > input[type="date"] {
+      flex-grow: 1; padding: 8px 10px;
+      border: 1px solid var(--color-primary-hover); border-radius: var(--radius);
+      margin-right: 10px; background-color: var(--color-input-bg);
+      color: var(--color-dark-text); transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     }
-    label {
-        font-weight: 700;
-        align-self: center;
-        color: var(--color-light-text);
-    }
-    .campo {
-      position: relative;
-      display: flex;
-      align-items: center;
-    }
-    .campo > input[type="text"], 
-    .campo > input[type="date"] {
-      flex-grow: 1;
-      padding: 8px 10px;
-      border: 1px solid var(--color-primary-hover);
-      border-radius: var(--radius);
-      margin-right: 10px;
-      background-color: var(--color-input-bg);
-      color: var(--color-dark-text);
-      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    }
-    .campo > input[type="text"]:focus,
-    .campo > input[type="date"]:focus {
+    .campo > input:focus {
         border-color: var(--color-primary);
-        box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25);
-        outline: none;
+        box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25); outline: none;
     }
     
-    /* REGLAS GRID LAYOUT */
-    form > label:nth-child(2), 
-    form > div:nth-child(3) { grid-column: 1 / span 4; } /* Usuario */
+    /* Reglas Grid */
+    form > label:nth-child(2), form > div:nth-child(3) { grid-column: 1 / span 4; }
+    form > label:nth-child(8), form > div:nth-child(9) { grid-column: 1 / span 4; }
     
-    form > label:nth-child(8), 
-    form > div:nth-child(9) { grid-column: 1 / span 4; } /* Titular */
-    
-    /* --- SUGERENCIAS --- */
+    /* Sugerencias */
     .sugerencias {
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 100%;
-      border: 1px solid var(--color-primary-hover);
-      background: var(--color-input-bg);
-      max-height: 180px;
-      overflow-y: auto;
-      z-index: 100;
-      border-radius: var(--radius);
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      position: absolute; top: 100%; left: 0; width: 100%;
+      border: 1px solid var(--color-primary-hover); background: var(--color-input-bg);
+      max-height: 180px; overflow-y: auto; z-index: 100;
+      border-radius: var(--radius); box-shadow: 0 4px 6px rgba(0,0,0,0.1);
       color: var(--color-dark-text);
     }
     .sugerencia { padding: 8px 10px; cursor: pointer; }
     .sugerencia:hover, .sugerencia.resaltado { background-color: #f0f0f0; color: var(--color-dark-text); }
     
-    /* --- BLOQUEO --- */
+    /* Bloqueo */
     .bloqueado { background-color: #e9e9e9 !important; border: 1px solid var(--color-primary-hover) !important; cursor: not-allowed; }
+    input:required:invalid { border-left: 5px solid var(--color-danger); }
+    input:required:valid { border-left: 5px solid #28a745; }
     
-    /* --- BOTONES --- */
+    /* Botones */
     .button-group-form {
-        grid-column: span 4;
-        display: flex;
-        gap: 15px;
-        margin-top: 10px;
-        justify-content: flex-end;
+        grid-column: span 4; display: flex; gap: 15px; margin-top: 10px; justify-content: flex-end;
     }
     button {
-      padding: 10px 15px;
-      border: none;
-      border-radius: var(--radius);
-      cursor: pointer;
-      font-weight: 700;
-      transition: background-color 0.2s ease, transform 0.1s;
-      color: var(--color-light-text);
-      margin-right: 5px;
+      padding: 10px 15px; border: none; border-radius: var(--radius);
+      cursor: pointer; font-weight: 700; transition: background-color 0.2s ease, transform 0.1s;
+      color: var(--color-light-text); margin-right: 5px;
     }
     #btnGuardar { background-color: var(--color-primary); }
     #btnGuardar:hover { background-color: var(--color-primary-hover); transform: translateY(-1px); }
@@ -162,37 +109,22 @@
     
     .campo button[type="button"] { background-color: var(--color-secondary); padding: 8px; margin-right: 0; }
     .campo button[type="button"]:hover { background-color: var(--color-secondary-hover); }
-    button i { margin-right: 8px; font-size: 1.1em; }
     
-    /* --- TABLA --- */
-    h2 {
-        margin-top: 40px;
-        color: var(--color-light-text);
-        border-bottom: 1px solid var(--color-secondary);
-        padding-bottom: 5px;
-    }
+    /* TABLA (ESTILOS ORIGINALES INTACTOS) */
+    h2 { margin-top: 40px; color: var(--color-light-text); border-bottom: 1px solid var(--color-secondary); padding-bottom: 5px; }
     table {
-      border-collapse: collapse;
-      width: 100%;
-      box-shadow: 0 0 10px rgba(0,0,0,0.15);
-      margin-top: 20px;
-      background-color: var(--color-fondo-form);
-      table-layout: fixed; 
+      border-collapse: collapse; width: 100%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15); margin-top: 20px;
+      background-color: var(--color-fondo-form); table-layout: fixed; 
     }
     th, td {
-      padding: 12px 15px;
-      border: 1px solid #7D7C79;
-      text-align: left;
-      color: var(--color-light-text);
-      font-size: 0.85rem;
-      word-wrap: break-word; 
-      overflow: hidden;
-      white-space: nowrap; 
-      text-overflow: ellipsis;
+      padding: 12px 15px; border: 1px solid #7D7C79;
+      text-align: left; color: var(--color-light-text); font-size: 0.85rem;
+      word-wrap: break-word; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
       max-width: none !important; 
     }
 
-    /* DEFINICIÓN DE ANCHOS */
+    /* ANCHOS ORIGINALES */
     #tablaNotas th:nth-child(1), #tablaNotas td:nth-child(1) { width: 3%; }    
     #tablaNotas th:nth-child(2), #tablaNotas td:nth-child(2) { width: 7%; }    
     #tablaNotas th:nth-child(3), #tablaNotas td:nth-child(3) { width: 7%; }    
@@ -209,34 +141,21 @@
     #tablaNotas th:nth-child(14), #tablaNotas td:nth-child(14) { width: 6%; }  
     #tablaNotas th:nth-child(15), #tablaNotas td:nth-child(15) { width: 6%; }  
 
-    th {
-      background-color: var(--color-primary);
-      color: var(--color-light-text);
-      font-weight: 700;
-      position: sticky;
-      top: 0;
-    }
+    th { background-color: var(--color-primary); color: var(--color-light-text); font-weight: 700; position: sticky; top: 0; }
     tbody tr:nth-child(even) { background-color: #5D5C5A; } 
     tbody tr:hover { background-color: #6C6B69; cursor: pointer; transition: background-color 0.2s ease; }
     .editando { background-color: var(--color-primary-hover) !important; color: var(--color-light-text); }
     .alerta-vacio { background-color: var(--color-alerta-vacio) !important; color: var(--color-dark-text) !important; }
     .alerta-vacio td { color: var(--color-dark-text) !important; }
     
-    footer {
-      margin-top: 40px;
-      border-top: 1px solid var(--color-secondary);
-      padding-top: 10px;
-      font-size: 0.9em;
-      color: var(--color-light-text);
-      text-align: center;
-    }
+    footer { margin-top: 40px; border-top: 1px solid var(--color-secondary); padding-top: 10px; font-size: 0.9em; text-align: center; }
 
-    /* --- SORTING --- */
+    /* Sorting */
     .sortable-header { cursor: pointer; display: flex; align-items: center; justify-content: space-between; width: 100%; }
     .sort-icon { margin-left: 5px; font-size: 0.8em; opacity: 0.5; }
     .sorted .sort-icon { opacity: 1; color: var(--color-light-text); }
     
-    /* --- GRUPO DE ACCIONES --- */
+    /* Acciones */
     .actions-group {
         display: flex; gap: 15px; margin-top: 15px; margin-bottom: 25px; 
         justify-content: flex-start; align-items: center; flex-wrap: wrap;
@@ -248,34 +167,29 @@
     #btnBorrarTodo { background-color: var(--color-primary); }
     #btnBorrarTodo:hover { background-color: var(--color-primary-hover); transform: translateY(-1px); }
 
-    .btn-accion-tabla {
-        padding: 8px 12px;
-        background-color: var(--color-secondary); 
-        color: var(--color-light-text); 
-    }
+    .btn-accion-tabla { padding: 8px 12px; background-color: var(--color-secondary); color: var(--color-light-text); }
     .btn-accion-tabla:hover { background-color: var(--color-secondary-hover); }
 
-    /* --- BUSCADOR --- */
+    /* Buscador */
     .buscador-container { position: relative; margin-bottom: 15px; max-width: 400px; }
-    #buscador {
-      width: 100%; padding: 10px 10px 10px 40px; 
-      border: 1px solid var(--color-primary-hover); border-radius: var(--radius);
-      background-color: var(--color-input-bg); color: var(--color-dark-text); font-size: 1rem;
-    }
+    #buscador { width: 100%; padding: 10px 10px 10px 40px; border: 1px solid var(--color-primary-hover); border-radius: var(--radius); background-color: var(--color-input-bg); color: var(--color-dark-text); font-size: 1rem; }
     #buscador:focus { outline: none; border-color: var(--color-primary); box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25); }
     .buscador-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--color-primary); font-size: 1.1rem; }
 
-    /* --- RESPONSIVE --- */
+    /* Responsive */
     @media (max-width: 768px) {
-        form { grid-template-columns: 1fr; }
-        form > label, form > div { grid-column: span 1 !important; }
+        body { padding: 10px; }
+        header { flex-direction: column; align-items: flex-start; padding: 10px; }
+        form { grid-template-columns: 1fr; gap: 10px; padding: 15px; }
+        form > label, form > div, .form-logo-container { grid-column: span 1 !important; }
+        .button-group-form { justify-content: space-around; }
+        .button-group-form button { width: 32%; margin-right: 0; }
+        .actions-group { flex-direction: column; align-items: stretch; }
+        .actions-group button { width: 100%; margin-bottom: 10px; }
         table, thead, tbody, th, td, tr { display: block; }
         thead tr { position: absolute; top: -9999px; left: -9999px; }
-        tr { margin-bottom: 10px; border: 1px solid #7D7C79; }
-        td { 
-            border: none; border-bottom: 1px solid #8D8C8A; position: relative;
-            padding-left: 50%; text-align: right; width: auto; max-width: 100%; white-space: normal;
-        }
+        tr { border: 1px solid #7D7C79; margin-bottom: 10px; }
+        td { border: none; border-bottom: 1px solid #8D8C8A; position: relative; padding-left: 50%; text-align: right; width: auto; max-width: 100%; white-space: normal; }
         td:before { content: attr(data-label); position: absolute; left: 10px; width: 45%; text-align: left; font-weight: 600; }
     }
   </style>
@@ -283,11 +197,13 @@
 <body>
   <header>
     <img src="./logo.png" alt="Logotipo institucional">
-    <h1>Sistema de Captura de Notas</h1>
+    <h1>Sistema de Captura de Notas de Prensa</h1>
   </header>
 
   <form>
-    <div class="form-logo-container"><img src="./logo.png" alt="Logotipo"></div>
+    <div class="form-logo-container">
+        <img src="./logo.png" alt="Logotipo del Formulario">
+    </div>
 
     <label for="usuario">Usuario:</label>
     <div class="campo">
@@ -399,7 +315,7 @@
     <div class="button-group-form">
       <button type="button" id="btnGuardar" onclick="agregarNota()"><i class="fa-solid fa-floppy-disk"></i> Guardar (Ctrl+Q)</button>
       <button type="reset" id="btnLimpiar"><i class="fa-solid fa-eraser"></i> Limpiar</button>
-      <button type="button" id="btnEliminar" style="display:none;" onclick="confirmarEliminar()"><i class="fa-solid fa-trash"></i> Eliminar</button>
+      <button type="button" id="btnEliminar" style="display:none;" onclick="borrarNota()"><i class="fa-solid fa-trash"></i> Eliminar</button>
     </div>
   </form>
 
@@ -407,7 +323,7 @@
 
   <div class="buscador-container">
     <i class="fa-solid fa-magnifying-glass buscador-icon"></i>
-    <input type="text" id="buscador" onkeyup="renderizarTabla()" placeholder="Buscar en todas las columnas...">
+    <input type="text" id="buscador" onkeyup="filtrarTabla()" placeholder="Buscar en todas las columnas...">
   </div>
 
   <div class="actions-group">
@@ -418,8 +334,23 @@
 
   <table id="tablaNotas">
     <thead>
-      <tr id="filaEncabezados">
-         </tr>
+      <tr>
+        <th class="sortable-header" data-col="ordenCaptura" onclick="ordenarTabla('ordenCaptura')"># <span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+        <th class="sortable-header" data-col="usuario" onclick="ordenarTabla('usuario')">Usuario <span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+        <th class="sortable-header" data-col="fecha" onclick="ordenarTabla('fecha')">Fecha <span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+        <th class="sortable-header" data-col="medio" onclick="ordenarTabla('medio')">Medio <span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+        <th class="sortable-header" data-col="titular" onclick="ordenarTabla('titular')">Titular <span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+        <th class="sortable-header" data-col="firma" onclick="ordenarTabla('firma')">Firma <span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+        <th class="sortable-header" data-col="pagina" onclick="ordenarTabla('pagina')">Página <span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+        <th class="sortable-header" data-col="dependencia" onclick="ordenarTabla('dependencia')">Dependencia <span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+        <th class="sortable-header" data-col="organismo" onclick="ordenarTabla('organismo')">Organismo <span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+        <th class="sortable-header" data-col="genero" onclick="ordenarTabla('genero')">Género <span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+        <th class="sortable-header" data-col="canal" onclick="ordenarTabla('canal')">Canal <span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+        <th class="sortable-header" data-col="tema" onclick="ordenarTabla('tema')">Tema <span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+        <th class="sortable-header" data-col="estatus" onclick="ordenarTabla('estatus')">Estatus <span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+        <th class="sortable-header" data-col="municipio" onclick="ordenarTabla('municipio')">Municipio <span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+        <th>Acciones</th>
+      </tr>
     </thead>
     <tbody>
       </tbody>
@@ -430,271 +361,247 @@
   </footer>
 
   <script>
-    // --- VARIABLES Y CONFIGURACIÓN ---
-    const ORDEN_COLUMNAS = [
-      "ordenCaptura", "usuario", "fecha", "medio", "titular", 
-      "firma", "pagina", "dependencia", "organismo", "genero", 
-      "canal", "tema", "estatus", "municipio"
-    ];
-
-    const ETIQUETAS_COLUMNAS = {
-      "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio",
-      "titular": "Titular", "firma": "Firma", "pagina": "Página", "dependencia": "Dependencia",
-      "organismo": "Organismo", "genero": "Género", "canal": "Canal", "tema": "Tema",
-      "estatus": "Estatus", "municipio": "Municipio"
-    };
-
+    // Variables globales
     let notas = [];
     let filaEnEdicion = null; 
     let nextOrdenCaptura = 1;
-    let ordenActual = { columna: 'ordenCaptura', direccion: 'desc' };
+
+    // Configuración
     const LIMITE_CARACTERES_TITULAR = 50; 
+    const URL_APPS_SCRIPT = "https://script.google.com/macros/s/AKfycbzVnapqEEmekALj6HyPWdO_BI0foCPPIkAuE-16Jl8jK5_Pxfa5_ZUGTwh80BAlQVb5/exec";
+
+    let dependenciaMap = {};
+    let medioToCanalMap = {};
+    let firmaMap = {};
+    let dependenciaToOrganismoMap = {};
     
+    const encabezadosTabla = {
+      "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio",
+      "titular": "Titular", "firma": "Firma", "pagina": "Página", "dependencia": "Dependencia",
+      "organismo": "Organismo", "genero": "Género", "canal": "Canal", "tema": "Tema",
+      "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
+    };
+
+    // Orden de campos para renderizar tabla (coincide con el HTML y CSS)
+    const camposDeDatos = [
+       "ordenCaptura", "usuario", "fecha", "medio", "titular", "firma", "pagina", 
+       "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"
+    ];
+
+    const CAMPOS_CON_BLOQUEO = ['usuario', 'fecha', 'medio', 'titular', 'firma', 'pagina', 'dependencia', 'organismo', 'genero', 'canal', 'tema', 'estatus', 'municipio'];
+
+    let ordenActual = { columna: 'ordenCaptura', direccion: 'desc' };
+
     const urls = {
         dependencias: "./Dependencia.csv", medios: "./Medio.csv", generos: "./Genero.csv",
         estatus: "./Estatus.csv", municipios: "./Municipio.csv", temas: "./Tema.csv", firmas: "./Firma.csv" 
     };
 
-    let dependenciaMap = [], medioToCanalMap = {}, firmaMap = {}, dependenciaToOrganismoMap = {};
-    let canalData = [], generoData = [], estatusData = [], municipioData = [], temaData = [];
-    const CAMPOS_CON_BLOQUEO = ['usuario', 'fecha', 'medio', 'titular', 'firma', 'pagina', 'dependencia', 'organismo', 'genero', 'canal', 'tema', 'estatus', 'municipio'];
-
     // --- CARGA DE DATOS ---
     async function cargarCSV(url) {
-      try { const r = await fetch(url); return r.ok ? await r.text() : ""; } catch (e) { return ""; }
+      try { const response = await fetch(url); return response.ok ? await response.text() : ""; } catch (e) { return ""; }
     }
     
-    function limpiarFilasCSV(txt) {
-        if(!txt) return [];
-        return txt.split('\n').map(l => {
-            const cols = l.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g);
-            return cols ? cols.map(c => c.replace(/^"|"$/g, '').trim()) : [];
-        }).filter(c => c.length > 0);
+    function limpiarFilasCSV(textoCSV) {
+        if (!textoCSV) return [];
+        return textoCSV.split('\n').map(linea => {
+            const columnas = linea.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g);
+            return columnas ? columnas.map(col => col.replace(/^"|"$/g, '').trim()) : [];
+        }).filter(cols => cols.length > 0);
     }
 
     async function cargarMapa(url) {
         const filas = limpiarFilasCSV(await cargarCSV(url));
         const map = {};
-        filas.forEach(([k, v]) => { if (!k) return; map[k] = map[k] || new Set(); if (v) map[k].add(v); });
+        filas.forEach(([clave, valor]) => {
+             if (!clave) return;
+             clave = clave.trim(); valor = valor ? valor.trim() : '';
+             map[clave] = map[clave] || new Set();
+             if (valor) map[clave].add(valor);
+        });
         const claves = Object.keys(map).sort();
-        const mapArr = {};
-        claves.forEach(k => mapArr[k] = Array.from(map[k]).sort());
-        return { claves, map: mapArr };
+        const mapArrays = {};
+        claves.forEach(k => mapArrays[k] = Array.from(map[k]).sort());
+        return { claves, map: mapArrays };
+    }
+
+    async function cargarLista(url) {
+        const filas = limpiarFilasCSV(await cargarCSV(url));
+        return Array.from(new Set(filas.map(r => r[0]))).sort();
     }
 
     async function inicializar() {
         const depData = await cargarMapa(urls.dependencias);
         dependenciaToOrganismoMap = depData.map; dependenciaMap = depData.claves;
+        
         const medioData = await cargarMapa(urls.medios);
-        medioData.claves.forEach(m => { if(medioData.map[m].length) medioToCanalMap[m] = medioData.map[m][0]; });
-        const firmaData = await cargarMapa(urls.firmas); firmaMap = firmaData.map;
-        const todosCanales = new Set();
-        Object.values(medioToCanalMap).forEach(c => todosCanales.add(c));
-        canalData = Array.from(todosCanales).sort();
-        generoData = (await cargarMapa(urls.generos)).claves;
-        estatusData = (await cargarMapa(urls.estatus)).claves;
-        municipioData = (await cargarMapa(urls.municipios)).claves;
-        temaData = (await cargarMapa(urls.temas)).claves;
-        configurarAutocompletado();
-        generarEncabezadosTabla();
-    }
-
-    function generarEncabezadosTabla() {
-        const tr = document.getElementById('filaEncabezados');
-        tr.innerHTML = '';
-        ORDEN_COLUMNAS.forEach(key => {
-            const th = document.createElement('th');
-            th.innerHTML = `${ETIQUETAS_COLUMNAS[key]} <i class="fa-solid fa-sort sort-icon"></i>`;
-            th.onclick = () => ordenarTabla(key);
-            th.dataset.col = key;
-            th.classList.add('sortable-header');
-            tr.appendChild(th);
+        medioData.claves.forEach(medio => {
+            if (medioData.map[medio] && medioData.map[medio].length > 0) {
+                medioToCanalMap[medio] = medioData.map[medio][0];
+            }
         });
-        const thAcc = document.createElement('th'); thAcc.textContent = 'Acciones'; tr.appendChild(thAcc);
+
+        const firmaData = await cargarMapa(urls.firmas); firmaMap = firmaData.map;
+
+        autocompletar("dependencia", "sugDep", dependenciaMap, (dep) => {
+             const organismos = dependenciaToOrganismoMap[dep];
+             if (organismos && organismos.length > 0) document.getElementById("organismo").value = organismos[0];
+        });
+
+        autocompletar("organismo", "sugOrg", []);
+        autocompletar("genero", "sugGenero", await cargarLista(urls.generos));
+        autocompletar("estatus", "sugEstatus", await cargarLista(urls.estatus));
+        autocompletar("municipio", "sugMunicipio", await cargarLista(urls.municipios));
+        autocompletar("tema", "sugTema", await cargarLista(urls.temas));
+        autocompletar("canal", "sugCanal", []); // Canal suele ser auto, pero dejamos opción
+
+        autocompletar("medio", "sugMedio", Object.keys(medioToCanalMap).sort(), medio => {
+             if (medioToCanalMap[medio]) document.getElementById("canal").value = medioToCanalMap[medio];
+             autocompletar("firma", "sugFirma", firmaMap[medio] || []);
+        });
+
+        autocompletar("firma", "sugFirma", []);
     }
 
-    // --- AUTOCOMPLETADO Y NAVEGACIÓN (ENTER COMO TAB) ---
-    function autocompletar(inputId, divId, lista, callback) {
+    function autocompletar(inputId, sugerenciasId, listaOpciones, callbackSeleccion = null) {
       const input = document.getElementById(inputId);
-      const div = document.getElementById(divId);
+      const sugerenciasDiv = document.getElementById(sugerenciasId);
       let currentFocus = -1;
 
       input.addEventListener("input", function() {
-        div.innerHTML = "";
-        const val = this.value.toLowerCase();
+        const val = this.value;
+        cerrarSugerencias();
         if (!val) return;
-        const matches = lista.filter(x => x.toLowerCase().includes(val));
+        currentFocus = -1;
+        const items = listaOpciones.filter(item => item.toLowerCase().includes(val.toLowerCase()));
         
-        matches.forEach(item => {
-           const d = document.createElement("div");
-           d.className = "sugerencia";
-           d.textContent = item;
-           d.onclick = () => { 
-               input.value = item; 
-               div.innerHTML = ""; 
-               if(callback) callback(item);
-           };
-           div.appendChild(d);
+        items.forEach(item => {
+           const div = document.createElement("div");
+           div.classList.add("sugerencia");
+           div.innerHTML = item; 
+           div.addEventListener("click", function() {
+             input.value = item;
+             cerrarSugerencias();
+             if (callbackSeleccion) callbackSeleccion(item);
+           });
+           sugerenciasDiv.appendChild(div);
         });
       });
 
-      // Navegación en sugerencias
       input.addEventListener("keydown", function(e) {
-          let x = div.getElementsByTagName("div");
-          if (e.keyCode == 40) { // Arrow Down
-              currentFocus++;
-              addActive(x);
-          } else if (e.keyCode == 38) { // Arrow Up
-              currentFocus--;
-              addActive(x);
+          let x = sugerenciasDiv.getElementsByTagName("div");
+          if (e.keyCode == 40) { // Abajo
+            currentFocus++;
+            addActive(x);
+          } else if (e.keyCode == 38) { // Arriba
+            currentFocus--;
+            addActive(x);
           } else if (e.keyCode == 13) { // Enter
-              if (currentFocus > -1 && x) {
-                  e.preventDefault();
-                  x[currentFocus].click();
-              } else if (x.length === 1) {
-                   e.preventDefault();
-                   x[0].click();
-              }
+            if (currentFocus > -1 && x) {
+               e.preventDefault(); 
+               x[currentFocus].click();
+            } else if (x && x.length === 1) { // Si solo hay 1 sugerencia, seleccionarla con enter
+               e.preventDefault();
+               x[0].click();
+            } else {
+               // COMPORTAMIENTO ORIGINAL: Enter funciona como TAB si no se selecciona sugerencia
+               e.preventDefault();
+               const form = document.querySelector('form');
+               const index = Array.prototype.indexOf.call(form, e.target);
+               form.elements[index + 1].focus();
+            }
           }
       });
+      
       function addActive(x) {
         if (!x) return false;
         removeActive(x);
         if (currentFocus >= x.length) currentFocus = 0;
         if (currentFocus < 0) currentFocus = (x.length - 1);
         x[currentFocus].classList.add("resaltado");
+        x[currentFocus].scrollIntoView({block: "nearest"});
       }
       function removeActive(x) {
         for (let i = 0; i < x.length; i++) x[i].classList.remove("resaltado");
       }
-      document.addEventListener("click", e => { if(e.target !== input) div.innerHTML = ""; });
     }
-
-    // 🌟 LÓGICA DE NAVEGACIÓN GLOBAL CON TECLADO (ENTER = TAB) 🌟
-    document.querySelector('form').addEventListener('keydown', function(e) {
-        // Si es Enter y NO es un textarea o botón (y no se usó para seleccionar sugerencia)
-        if (e.key === 'Enter') {
-            const target = e.target;
-            
-            // Si el target es un input de texto o fecha
-            if ((target.tagName === 'INPUT' && (target.type === 'text' || target.type === 'date'))) {
-                
-                // Verificar si hay sugerencias abiertas y seleccionadas (la lógica de autocompletar ya maneja el preventDefault en ese caso)
-                const sugerenciasVisibles = target.parentNode.querySelector('.sugerencias div');
-                if (sugerenciasVisibles && target.value.trim() !== "") {
-                   // Dejar que autocompletar maneje la selección si corresponde
-                   return; 
-                }
-
-                e.preventDefault(); // Prevenir submit del form
-                
-                // Obtener todos los elementos focusable (incluso readOnly, pero no disabled)
-                const focusable = Array.from(document.querySelectorAll('form input:not([type="hidden"]), form button:not([type="button"])'));
-                const index = focusable.indexOf(target);
-                
-                if (e.shiftKey) {
-                    if (index > 0) focusable[index - 1].focus();
-                } else {
-                    if (index < focusable.length - 1) focusable[index + 1].focus();
-                }
-            }
-        }
-    });
-
-    // 🌟 ATAJOS DE TECLADO (Ctrl+Shift+L, Ctrl+Q) 🌟
-    document.addEventListener('keydown', function(e) {
-        // Ctrl + Q: Guardar Nota
-        if (e.ctrlKey && e.key.toLowerCase() === 'q') {
-            e.preventDefault();
-            document.getElementById('btnGuardar').click();
-        }
-        
-        // Ctrl + Shift + L: Bloquear/Desbloquear campo actual
-        if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'l') {
-            e.preventDefault();
-            const active = document.activeElement;
-            if (active && (active.tagName === 'INPUT')) {
-                const id = active.id;
-                const checkId = 'check' + id.charAt(0).toUpperCase() + id.slice(1);
-                const checkbox = document.getElementById(checkId);
-                if (checkbox) {
-                    checkbox.checked = !checkbox.checked;
-                    alternarBloqueo(id);
-                }
-            }
-        }
-    });
-
-    function configurarAutocompletado() {
-        autocompletar("dependencia", "sugDep", dependenciaMap, (dep) => {
-             const orgs = dependenciaToOrganismoMap[dep];
-             if (orgs && orgs.length) document.getElementById("organismo").value = orgs[0];
-        });
-        autocompletar("organismo", "sugOrg", []); 
-        autocompletar("genero", "sugGenero", generoData);
-        autocompletar("canal", "sugCanal", canalData);
-        autocompletar("tema", "sugTema", temaData);
-        autocompletar("estatus", "sugEstatus", estatusData);
-        autocompletar("municipio", "sugMunicipio", municipioData);
-        
-        autocompletar("medio", "sugMedio", Object.keys(medioToCanalMap).sort(), medio => {
-             const c = medioToCanalMap[medio];
-             if(c) document.getElementById("canal").value = c;
-             autocompletar("firma", "sugFirma", firmaMap[medio] || []);
-        });
-        autocompletar("firma", "sugFirma", []);
+    
+    function cerrarSugerencias() {
+        document.querySelectorAll(".sugerencias").forEach(x => x.innerHTML = "");
     }
     
     function mostrarSugerencias(inputId, divId) {
-        document.getElementById(inputId).focus();
+        const input = document.getElementById(inputId);
+        input.focus();
         const event = new Event('input');
-        document.getElementById(inputId).dispatchEvent(event);
+        input.dispatchEvent(event);
     }
+
+    document.addEventListener("click", function (e) {
+        if (!e.target.matches(".campo > input") && !e.target.matches(".campo > button")) {
+            cerrarSugerencias();
+        }
+    });
 
     // --- CRUD ---
     function agregarNota() {
       const form = document.querySelector("form");
       if (!form.checkValidity()) { form.reportValidity(); return; }
 
-      const obj = { ordenCaptura: filaEnEdicion ? filaEnEdicion.ordenCaptura : nextOrdenCaptura++ };
-      CAMPOS_CON_BLOQUEO.forEach(id => obj[id] = document.getElementById(id).value.trim());
+      const nuevaNota = {
+        ordenCaptura: filaEnEdicion !== null ? notas[filaEnEdicion].ordenCaptura : nextOrdenCaptura++
+      };
+      
+      camposDeDatos.forEach(id => {
+          if (id === 'ordenCaptura') return;
+          const val = document.getElementById(id).value.trim();
+          nuevaNota[id] = val;
+      });
 
-      if (filaEnEdicion) {
-        const idx = notas.findIndex(n => n.ordenCaptura === filaEnEdicion.ordenCaptura);
-        if (idx !== -1) notas[idx] = obj;
+      if (filaEnEdicion !== null) {
+        notas[filaEnEdicion] = nuevaNota;
         resetearEstadoEdicion();
-      } else { notas.push(obj); }
+      } else {
+        notas.push(nuevaNota);
+      }
 
       guardarNotas();
       renderizarTabla();
       enviarACalculo(true); // Guardado silencioso
 
-      // Limpiar campos NO bloqueados
-      CAMPOS_CON_BLOQUEO.forEach(id => {
-          if(!document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`).checked) {
-              document.getElementById(id).value = "";
-          }
+      // Limpiar campos desbloqueados
+      camposDeDatos.forEach(id => {
+         if (id === 'ordenCaptura') return;
+         const isLocked = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`).checked;
+         if (!isLocked) document.getElementById(id).value = "";
       });
       document.getElementById('titular').focus();
     }
 
     function editarNota(tr) {
-      const id = parseInt(tr.cells[0].textContent);
-      const nota = notas.find(n => n.ordenCaptura === id);
-      if (!nota) return;
-      filaEnEdicion = nota;
-      CAMPOS_CON_BLOQUEO.forEach(k => document.getElementById(k).value = nota[k] || "");
+      const idNota = parseInt(tr.cells[0].textContent); // Asumimos columna 0 es #
+      const index = notas.findIndex(n => n.ordenCaptura === idNota);
+      if (index === -1) return;
+
+      filaEnEdicion = index;
+      const nota = notas[index];
+
+      camposDeDatos.forEach(id => {
+          if (id === 'ordenCaptura') return;
+          if (document.getElementById(id)) document.getElementById(id).value = nota[id];
+      });
+
       document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-rotate"></i> Actualizar (Ctrl+Q)';
       document.getElementById('btnEliminar').style.display = 'inline-block';
-      window.scrollTo({ top: 0, behavior: 'smooth' });
       
       document.querySelectorAll('tbody tr').forEach(r => r.classList.remove('editando'));
       tr.classList.add('editando');
+      window.scrollTo(0, 0);
     }
 
-    function confirmarEliminar() {
-        if (filaEnEdicion && confirm("¿Eliminar nota?")) {
-            notas = notas.filter(n => n.ordenCaptura !== filaEnEdicion.ordenCaptura);
+    function borrarNota() {
+        if (filaEnEdicion !== null && confirm("¿Eliminar esta nota?")) {
+            notas.splice(filaEnEdicion, 1);
             guardarNotas(); renderizarTabla(); resetearEstadoEdicion();
             document.querySelector("form").reset();
         }
@@ -718,78 +625,83 @@
         }
     }
 
-    // --- TABLA Y FILTROS ---
     function renderizarTabla() {
       const tbody = document.querySelector("#tablaNotas tbody");
       tbody.innerHTML = "";
       
-      const txtBusq = document.getElementById('buscador').value.toLowerCase();
-      const txtUser = document.getElementById('usuario').value.trim().toLowerCase();
-
-      // Filtro doble: Usuario (estricto) + Buscador (global)
-      let display = notas.filter(nota => {
-          if (txtUser && String(nota.usuario).toLowerCase().trim() !== txtUser) return false;
-          if (txtBusq && !Object.values(nota).some(v => String(v).toLowerCase().includes(txtBusq))) return false;
-          return true;
+      const filtro = document.getElementById('buscador').value.toLowerCase();
+      
+      let notasDisplay = notas.filter(nota => {
+          return Object.values(nota).some(val => String(val).toLowerCase().includes(filtro));
       });
       
-      display.sort((a, b) => {
-          let vA = a[ordenActual.columna] || "", vB = b[ordenActual.columna] || "";
-          if (vA < vB) return ordenActual.direccion === 'asc' ? -1 : 1;
-          if (vA > vB) return ordenActual.direccion === 'asc' ? 1 : -1;
+      notasDisplay.sort((a, b) => {
+          let valA = a[ordenActual.columna] || "";
+          let valB = b[ordenActual.columna] || "";
+          if (valA < valB) return ordenActual.direccion === 'asc' ? -1 : 1;
+          if (valA > valB) return ordenActual.direccion === 'asc' ? 1 : -1;
           return 0;
       });
 
-      display.forEach(nota => {
+      notasDisplay.forEach(nota => {
         const tr = document.createElement("tr");
-        if (Object.values(nota).some(v => v === "")) tr.classList.add("alerta-vacio");
+        if (Object.values(nota).some(val => val === "")) tr.classList.add("alerta-vacio");
         
-        ORDEN_COLUMNAS.forEach(key => {
+        camposDeDatos.forEach(key => {
             const td = document.createElement("td");
-            td.dataset.label = ETIQUETAS_COLUMNAS[key];
-            let txt = nota[key] || "";
-            if (key === 'titular' && txt.length > LIMITE_CARACTERES_TITULAR) {
-                td.title = txt; txt = txt.substring(0, LIMITE_CARACTERES_TITULAR) + "...";
+            td.setAttribute('data-label', encabezadosTabla[key]);
+            let texto = nota[key] || "";
+            if (key === 'titular' && texto.length > LIMITE_CARACTERES_TITULAR) {
+                td.title = texto; texto = texto.substring(0, LIMITE_CARACTERES_TITULAR) + "...";
             }
-            td.textContent = txt;
+            td.textContent = texto;
             tr.appendChild(td);
         });
 
-        const tdAcc = document.createElement("td");
-        tdAcc.dataset.label = "Acciones";
+        const tdAcciones = document.createElement("td");
+        tdAcciones.setAttribute('data-label', "Acciones");
         const btn = document.createElement("button");
-        btn.innerHTML = 'Editar';
+        btn.textContent = "Editar";
         btn.className = "btn-accion-tabla";
         btn.onclick = () => editarNota(tr);
-        tdAcc.appendChild(btn);
-        tr.appendChild(tdAcc);
+        tdAcciones.appendChild(btn);
+        tr.appendChild(tdAcciones);
 
         tbody.appendChild(tr);
       });
       actualizarIconosOrden();
     }
-
-    function ordenarTabla(col) {
-        ordenActual.direccion = (ordenActual.columna === col && ordenActual.direccion === 'asc') ? 'desc' : 'asc';
-        ordenActual.columna = col;
+    
+    function filtrarTabla() { renderizarTabla(); }
+    
+    function ordenarTabla(columna) {
+        if (ordenActual.columna === columna) {
+            ordenActual.direccion = ordenActual.direccion === 'asc' ? 'desc' : 'asc';
+        } else {
+            ordenActual.columna = columna;
+            ordenActual.direccion = 'asc';
+        }
         renderizarTabla();
     }
     
     function actualizarIconosOrden() {
         document.querySelectorAll('.sortable-header').forEach(th => {
-            const i = th.querySelector('i');
-            i.className = 'fa-solid fa-sort sort-icon';
-            if(th.dataset.col === ordenActual.columna) {
-                i.className = ordenActual.direccion === 'asc' ? 'fa-solid fa-sort-up' : 'fa-solid fa-sort-down';
+            th.classList.remove('sorted');
+            const icon = th.querySelector('.sort-icon');
+            icon.innerHTML = '<i class="fas fa-sort"></i>';
+            if (th.dataset.col === ordenActual.columna) {
+                th.classList.add('sorted');
+                icon.innerHTML = ordenActual.direccion === 'asc' ? '<i class="fas fa-sort-up"></i>' : '<i class="fas fa-sort-down"></i>';
             }
         });
     }
 
     function exportarCSV() {
         if (!notas.length) return alert("Nada que exportar");
-        let csv = '\uFEFF' + ORDEN_COLUMNAS.map(k => ETIQUETAS_COLUMNAS[k]).join(",") + "\n";
-        notas.forEach(n => {
-            csv += ORDEN_COLUMNAS.map(k => `"${String(n[k]||"").replace(/"/g,'""')}"`).join(",") + "\n";
+        let csv = '\uFEFF';
+        csv += camposDeDatos.map(k => encabezadosTabla[k]).join(",") + "\n";
+        notas.forEach(nota => {
+            csv += camposDeDatos.map(k => `"${String(nota[k]||"").replace(/"/g,'""')}"`).join(",") + "\n";
         });
         const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
         const a = document.createElement("a");
@@ -798,14 +710,14 @@
         a.click();
     }
 
-    // 🌟 ENVIAR A SHEETS (FILTRADO POR USUARIO) 🌟
+    // 🌟 ENVÍO SEGURO Y FILTRADO A SHEETS 🌟
     async function enviarACalculo(silencioso = false) {
         const usuarioActual = document.getElementById('usuario').value.trim();
         if (!usuarioActual) {
             if (!silencioso) alert("⚠️ Ingresa un Usuario para sincronizar.");
             return;
         }
-        
+
         const notasDelUsuario = notas.filter(n => n.usuario === usuarioActual);
 
         if (notasDelUsuario.length === 0) {
@@ -813,38 +725,66 @@
             return;
         }
 
-        const URL_APPS_SCRIPT = "https://script.google.com/macros/s/AKfycbzVnapqEEmekALj6HyPWdO_BI0foCPPIkAuE-16Jl8jK5_Pxfa5_ZUGTwh80BAlQVb5/exec";
         const btn = document.getElementById('btnGoogleSheets');
-
         try {
             if (!silencioso) { btn.disabled = true; btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...'; }
-            
-            const r = await fetch(URL_APPS_SCRIPT, {
-                method: 'POST', body: JSON.stringify(notasDelUsuario)
+
+            const response = await fetch(URL_APPS_SCRIPT, {
+                method: 'POST',
+                body: JSON.stringify(notasDelUsuario) // Enviamos solo las notas filtradas
             });
-            if (r.ok) {
-                if (!silencioso) alert("✅ Sincronizado: " + usuarioActual);
-            } else throw new Error(r.status);
-        } catch (e) {
-            if (!silencioso) alert("Error de conexión");
+
+            if (response.ok) {
+                if (!silencioso) alert("✅ Notas de " + usuarioActual + " sincronizadas.");
+            } else throw new Error(response.status);
+
+        } catch (error) {
+            if (!silencioso) alert("⚠️ Error de conexión.");
+            console.error(error);
         } finally {
             if (!silencioso) { btn.disabled = false; btn.innerHTML = '<i class="fa-solid fa-table"></i> Enviar a Sheets'; }
         }
     }
 
-    function alternarBloqueo(id) {
-        const chk = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
-        const el = document.getElementById(id);
-        if (chk.checked) {
-            el.classList.add("bloqueado"); el.readOnly = true;
-            localStorage.setItem(id, el.value);
+    // --- BLOQUEO Y ATAJOS ---
+    function alternarBloqueo(idCampo) {
+        const checkbox = document.getElementById(`check${idCampo.charAt(0).toUpperCase() + idCampo.slice(1)}`);
+        const campo = document.getElementById(idCampo);
+        
+        if (checkbox.checked) {
+            campo.classList.add("bloqueado"); campo.readOnly = true;
+            localStorage.setItem(idCampo, campo.value);
         } else {
-            el.classList.remove("bloqueado"); el.readOnly = false;
-            localStorage.removeItem(id);
+            campo.classList.remove("bloqueado"); campo.readOnly = false;
+            localStorage.removeItem(idCampo);
         }
-        localStorage.setItem(`bloqueado_${id}`, chk.checked);
+        localStorage.setItem(`bloqueado_${idCampo}`, checkbox.checked);
     }
     
+    // Listeners de teclado Globales
+    document.addEventListener('keydown', function(e) {
+        // Ctrl + Q: Guardar Nota
+        if (e.ctrlKey && e.key.toLowerCase() === 'q') {
+            e.preventDefault();
+            document.getElementById('btnGuardar').click();
+        }
+        
+        // Ctrl + Shift + L: Bloquear campo actual
+        if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'l') {
+            e.preventDefault();
+            const active = document.activeElement;
+            if (active && active.tagName === 'INPUT' && active.type !== 'checkbox') {
+                const id = active.id;
+                const checkId = `check${id.charAt(0).toUpperCase() + id.slice(1)}`;
+                const checkbox = document.getElementById(checkId);
+                if (checkbox) {
+                    checkbox.checked = !checkbox.checked;
+                    alternarBloqueo(id);
+                }
+            }
+        }
+    });
+
     document.getElementById('btnLimpiar').addEventListener('click', () => {
         setTimeout(() => {
             CAMPOS_CON_BLOQUEO.forEach(id => {
@@ -875,7 +815,6 @@
             }
         });
         renderizarTabla();
-        document.getElementById('usuario').addEventListener('input', renderizarTabla);
     };
   </script>
 </body>
