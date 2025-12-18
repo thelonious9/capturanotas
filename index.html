@@ -8,21 +8,23 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   
   <style>
+    /* Importación de Google Fonts para Roboto */
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+    /* --- PALETA DE COLORES FINAL --- */
     :root {
-      --color-fondo-pagina: #31302F;
-      --color-fondo-form: #52504E;
-      --color-primary: #6F0909;
-      --color-primary-hover: #792929;
-      --color-secondary: #792929;
-      --color-secondary-hover: #6F0909;
-      --color-danger: #dc3545;
-      --color-danger-hover: #c82333;
-      --color-dark-text: #31302F;
-      --color-light-text: #F0EAD1;
-      --color-input-bg: #FFFFFF;
-      --color-alerta-vacio: #FFD700;
+      --color-fondo-pagina: #31302F;       /* Oscuro Suave */
+      --color-fondo-form: #52504E;         /* Gris Cálido (Fondo del Formulario) */
+      --color-primary: #6F0909;            /* Rojo Intenso (Guardar/Borrar Todo) */
+      --color-primary-hover: #792929;      /* Rojo Suave */
+      --color-secondary: #792929;          /* Rojo Suave (Botón Limpiar/Hover) */
+      --color-secondary-hover: #6F0909;    /* Rojo Intenso */
+      --color-danger: #dc3545;             /* Rojo estándar para peligro */
+      --color-danger-hover: #c82333;       /* Rojo oscuro */
+      --color-dark-text: #31302F;          /* Texto para inputs (fondo claro) */
+      --color-light-text: #F0EAD1;         /* Texto principal (fondo oscuro) */
+      --color-input-bg: #FFFFFF;           /* Fondo de los campos de texto: Blanco */
+      --color-alerta-vacio: #FFD700;       
       --radius: 0.25rem;
     }
     body {
@@ -32,17 +34,26 @@
       background-color: var(--color-fondo-pagina);
       color: var(--color-light-text);
     }
-    h1 { font-size: 1.8rem; color: var(--color-light-text); }
+    h1 {
+      font-size: 1.8rem;
+      color: var(--color-light-text);
+    }
     header {
-      display: flex; align-items: center; justify-content: space-between;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       border-bottom: 2px solid var(--color-primary);
-      padding: 10px 20px 15px 20px;
+      padding-bottom: 10px;
       margin-bottom: 20px;
       background-color: var(--color-fondo-form);
+      padding: 10px 20px 15px 20px;
       border-radius: var(--radius) var(--radius) 0 0;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
-    header img { height: 50px; width: auto; }
+    header img {
+      height: 50px;
+      width: auto;
+    }
     
     /* --- FORMULARIO --- */
     form {
@@ -58,113 +69,203 @@
     }
     .form-logo-container {
         grid-column: span 4; 
-        text-align: center; margin-bottom: 20px; padding-bottom: 15px;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
         border-bottom: 1px solid var(--color-secondary);
     }
-    .form-logo-container img { height: 80px; width: auto; opacity: 0.9; }
-    
-    label { font-weight: 700; align-self: center; color: var(--color-light-text); }
-    
-    .campo { position: relative; display: flex; align-items: center; }
-    .campo > input[type="text"], .campo > input[type="date"] {
-      flex-grow: 1; padding: 8px 10px;
-      border: 1px solid var(--color-primary-hover);
-      border-radius: var(--radius); margin-right: 10px;
-      background-color: var(--color-input-bg); color: var(--color-dark-text);
+    .form-logo-container img {
+        height: 80px; 
+        width: auto; 
+        opacity: 0.9;
     }
-    .campo > input:focus { outline: none; border-color: var(--color-primary); box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25); }
+    label {
+        font-weight: 700;
+        align-self: center;
+        color: var(--color-light-text);
+    }
+    .campo {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    .campo > input[type="text"], 
+    .campo > input[type="date"] {
+      flex-grow: 1;
+      padding: 8px 10px;
+      border: 1px solid var(--color-primary-hover);
+      border-radius: var(--radius);
+      margin-right: 10px;
+      background-color: var(--color-input-bg);
+      color: var(--color-dark-text);
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    .campo > input[type="text"]:focus,
+    .campo > input[type="date"]:focus {
+        border-color: var(--color-primary);
+        box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25);
+        outline: none;
+    }
     
-    /* GRID LAYOUT */
-    form > label:nth-child(2), form > div:nth-child(3) { grid-column: 1 / span 4; } /* Usuario */
-    form > label:nth-child(8), form > div:nth-child(9) { grid-column: 1 / span 4; } /* Titular */
+    /* REGLAS GRID LAYOUT */
+    form > label:nth-child(2), 
+    form > div:nth-child(3) { grid-column: 1 / span 4; } /* Usuario */
     
-    /* SUGERENCIAS */
+    form > label:nth-child(8), 
+    form > div:nth-child(9) { grid-column: 1 / span 4; } /* Titular */
+    
+    /* --- SUGERENCIAS --- */
     .sugerencias {
-      position: absolute; top: 100%; left: 0; width: 100%;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
       border: 1px solid var(--color-primary-hover);
       background: var(--color-input-bg);
-      max-height: 180px; overflow-y: auto; z-index: 100;
-      border-radius: var(--radius); box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      max-height: 180px;
+      overflow-y: auto;
+      z-index: 100;
+      border-radius: var(--radius);
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
       color: var(--color-dark-text);
     }
     .sugerencia { padding: 8px 10px; cursor: pointer; }
-    .sugerencia:hover, .sugerencia.resaltado { background-color: #f0f0f0; }
+    .sugerencia:hover, .sugerencia.resaltado { background-color: #f0f0f0; color: var(--color-dark-text); }
     
-    .bloqueado { background-color: #e9e9e9 !important; cursor: not-allowed; }
-
-    /* BOTONES */
+    /* --- BLOQUEO --- */
+    .bloqueado { background-color: #e9e9e9 !important; border: 1px solid var(--color-primary-hover) !important; cursor: not-allowed; }
+    
+    /* --- BOTONES --- */
     .button-group-form {
-        grid-column: span 4; display: flex; gap: 15px;
-        margin-top: 10px; justify-content: flex-end;
+        grid-column: span 4;
+        display: flex;
+        gap: 15px;
+        margin-top: 10px;
+        justify-content: flex-end;
     }
     button {
-      padding: 10px 15px; border: none; border-radius: var(--radius);
-      cursor: pointer; font-weight: 700; color: var(--color-light-text);
-      transition: background-color 0.2s; margin-right: 5px;
+      padding: 10px 15px;
+      border: none;
+      border-radius: var(--radius);
+      cursor: pointer;
+      font-weight: 700;
+      transition: background-color 0.2s ease, transform 0.1s;
+      color: var(--color-light-text);
+      margin-right: 5px;
     }
     #btnGuardar { background-color: var(--color-primary); }
-    #btnGuardar:hover { background-color: var(--color-primary-hover); }
+    #btnGuardar:hover { background-color: var(--color-primary-hover); transform: translateY(-1px); }
     #btnLimpiar { background-color: var(--color-secondary); }
+    #btnLimpiar:hover { background-color: var(--color-secondary-hover); transform: translateY(-1px); }
     #btnEliminar { background-color: var(--color-danger); }
+    #btnEliminar:hover { background-color: var(--color-danger-hover); transform: translateY(-1px); }
+    
     .campo button[type="button"] { background-color: var(--color-secondary); padding: 8px; margin-right: 0; }
+    .campo button[type="button"]:hover { background-color: var(--color-secondary-hover); }
+    button i { margin-right: 8px; font-size: 1.1em; }
     
-    /* --- TABLA (RESTAURACIÓN DE ESTILOS ORIGINALES) --- */
-    h2 { margin-top: 40px; border-bottom: 1px solid var(--color-secondary); padding-bottom: 5px; }
-    
+    /* --- TABLA --- */
+    h2 {
+        margin-top: 40px;
+        color: var(--color-light-text);
+        border-bottom: 1px solid var(--color-secondary);
+        padding-bottom: 5px;
+    }
     table {
-      border-collapse: collapse; width: 100%;
-      box-shadow: 0 0 10px rgba(0,0,0,0.15); margin-top: 20px;
+      border-collapse: collapse;
+      width: 100%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15);
+      margin-top: 20px;
       background-color: var(--color-fondo-form);
-      table-layout: fixed; /* Mantiene las celdas firmes */
+      table-layout: fixed; 
     }
     th, td {
-      padding: 8px 10px; /* Padding ajustado para compactar */
+      padding: 12px 15px;
       border: 1px solid #7D7C79;
       text-align: left;
       color: var(--color-light-text);
       font-size: 0.85rem;
-      /* Propiedades para cortar texto largo elegantemente */
+      word-wrap: break-word; 
+      overflow: hidden;
       white-space: nowrap; 
-      overflow: hidden; 
       text-overflow: ellipsis;
+      max-width: none !important; 
     }
-    
-    /* DEFINICIÓN EXACTA DE ANCHOS (Como en tu diseño original) */
-    #tablaNotas th:nth-child(1), #tablaNotas td:nth-child(1) { width: 3%; text-align: center; } /* # */
-    #tablaNotas th:nth-child(2), #tablaNotas td:nth-child(2) { width: 7%; }  /* Usuario */
-    #tablaNotas th:nth-child(3), #tablaNotas td:nth-child(3) { width: 7%; }  /* Fecha */
-    #tablaNotas th:nth-child(4), #tablaNotas td:nth-child(4) { width: 8%; }  /* Medio */
-    #tablaNotas th:nth-child(5), #tablaNotas td:nth-child(5) { width: 15%; } /* Titular */
-    #tablaNotas th:nth-child(6), #tablaNotas td:nth-child(6) { width: 6%; }  /* Firma */
-    #tablaNotas th:nth-child(7), #tablaNotas td:nth-child(7) { width: 5%; }  /* Pág */
-    #tablaNotas th:nth-child(8), #tablaNotas td:nth-child(8) { width: 7%; }  /* Dep */
-    #tablaNotas th:nth-child(9), #tablaNotas td:nth-child(9) { width: 7%; }  /* Org */
-    #tablaNotas th:nth-child(10), #tablaNotas td:nth-child(10) { width: 5%; } /* Gen */
-    #tablaNotas th:nth-child(11), #tablaNotas td:nth-child(11) { width: 5%; } /* Canal */
-    #tablaNotas th:nth-child(12), #tablaNotas td:nth-child(12) { width: 7%; } /* Tema */
-    #tablaNotas th:nth-child(13), #tablaNotas td:nth-child(13) { width: 5%; } /* Est */
-    #tablaNotas th:nth-child(14), #tablaNotas td:nth-child(14) { width: 6%; } /* Mun */
-    #tablaNotas th:nth-child(15), #tablaNotas td:nth-child(15) { width: 6%; text-align: center; } /* Acc */
 
-    th { background-color: var(--color-primary); position: sticky; top: 0; cursor: pointer; z-index: 10; }
+    /* DEFINICIÓN DE ANCHOS */
+    #tablaNotas th:nth-child(1), #tablaNotas td:nth-child(1) { width: 3%; }    
+    #tablaNotas th:nth-child(2), #tablaNotas td:nth-child(2) { width: 7%; }    
+    #tablaNotas th:nth-child(3), #tablaNotas td:nth-child(3) { width: 7%; }    
+    #tablaNotas th:nth-child(4), #tablaNotas td:nth-child(4) { width: 8%; }    
+    #tablaNotas th:nth-child(5), #tablaNotas td:nth-child(5) { width: 15%; }   
+    #tablaNotas th:nth-child(6), #tablaNotas td:nth-child(6) { width: 6%; }    
+    #tablaNotas th:nth-child(7), #tablaNotas td:nth-child(7) { width: 5%; }    
+    #tablaNotas th:nth-child(8), #tablaNotas td:nth-child(8) { width: 7%; }    
+    #tablaNotas th:nth-child(9), #tablaNotas td:nth-child(9) { width: 7%; }    
+    #tablaNotas th:nth-child(10), #tablaNotas td:nth-child(10) { width: 5%; }  
+    #tablaNotas th:nth-child(11), #tablaNotas td:nth-child(11) { width: 5%; }  
+    #tablaNotas th:nth-child(12), #tablaNotas td:nth-child(12) { width: 7%; }  
+    #tablaNotas th:nth-child(13), #tablaNotas td:nth-child(13) { width: 5%; }  
+    #tablaNotas th:nth-child(14), #tablaNotas td:nth-child(14) { width: 6%; }  
+    #tablaNotas th:nth-child(15), #tablaNotas td:nth-child(15) { width: 6%; }  
+
+    th {
+      background-color: var(--color-primary);
+      color: var(--color-light-text);
+      font-weight: 700;
+      position: sticky;
+      top: 0;
+    }
     tbody tr:nth-child(even) { background-color: #5D5C5A; } 
-    tbody tr:hover { background-color: #6C6B69; }
-    .editando { background-color: var(--color-primary-hover) !important; }
+    tbody tr:hover { background-color: #6C6B69; cursor: pointer; transition: background-color 0.2s ease; }
+    .editando { background-color: var(--color-primary-hover) !important; color: var(--color-light-text); }
     .alerta-vacio { background-color: var(--color-alerta-vacio) !important; color: var(--color-dark-text) !important; }
     .alerta-vacio td { color: var(--color-dark-text) !important; }
+    
+    footer {
+      margin-top: 40px;
+      border-top: 1px solid var(--color-secondary);
+      padding-top: 10px;
+      font-size: 0.9em;
+      color: var(--color-light-text);
+      text-align: center;
+    }
 
-    /* ACCIONES */
-    .actions-group { display: flex; gap: 15px; margin: 15px 0 25px 0; flex-wrap: wrap; align-items: center; }
+    /* --- SORTING --- */
+    .sortable-header { cursor: pointer; display: flex; align-items: center; justify-content: space-between; width: 100%; }
+    .sort-icon { margin-left: 5px; font-size: 0.8em; opacity: 0.5; }
+    .sorted .sort-icon { opacity: 1; color: var(--color-light-text); }
+    
+    /* --- GRUPO DE ACCIONES --- */
+    .actions-group {
+        display: flex; gap: 15px; margin-top: 15px; margin-bottom: 25px; 
+        justify-content: flex-start; align-items: center; flex-wrap: wrap;
+    }
+    #btnExportar { background-color: #4A4A4A; } 
+    #btnExportar:hover { background-color: #616161; }
     #btnGoogleSheets { background-color: #0A66C2; }
-    #btnExportar { background-color: #4A4A4A; }
+    #btnGoogleSheets:hover { background-color: #0959A8; }
     #btnBorrarTodo { background-color: var(--color-primary); }
+    #btnBorrarTodo:hover { background-color: var(--color-primary-hover); transform: translateY(-1px); }
 
-    /* BUSCADOR */
+    .btn-accion-tabla {
+        padding: 8px 12px;
+        background-color: var(--color-secondary); 
+        color: var(--color-light-text); 
+    }
+    .btn-accion-tabla:hover { background-color: var(--color-secondary-hover); }
+
+    /* --- BUSCADOR --- */
     .buscador-container { position: relative; margin-bottom: 15px; max-width: 400px; }
-    #buscador { width: 100%; padding: 10px 10px 10px 40px; border-radius: var(--radius); border: 1px solid var(--color-primary-hover); }
-    .buscador-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--color-primary); }
+    #buscador {
+      width: 100%; padding: 10px 10px 10px 40px; 
+      border: 1px solid var(--color-primary-hover); border-radius: var(--radius);
+      background-color: var(--color-input-bg); color: var(--color-dark-text); font-size: 1rem;
+    }
+    #buscador:focus { outline: none; border-color: var(--color-primary); box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25); }
+    .buscador-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--color-primary); font-size: 1.1rem; }
 
-    /* RESPONSIVE */
+    /* --- RESPONSIVE --- */
     @media (max-width: 768px) {
         form { grid-template-columns: 1fr; }
         form > label, form > div { grid-column: span 1 !important; }
@@ -173,135 +274,130 @@
         tr { margin-bottom: 10px; border: 1px solid #7D7C79; }
         td { 
             border: none; border-bottom: 1px solid #8D8C8A; position: relative;
-            padding-left: 50%; text-align: right; width: auto; white-space: normal;
+            padding-left: 50%; text-align: right; width: auto; max-width: 100%; white-space: normal;
         }
-        td:before { 
-            content: attr(data-label); position: absolute; left: 10px; width: 45%; 
-            text-align: left; font-weight: bold;
-        }
+        td:before { content: attr(data-label); position: absolute; left: 10px; width: 45%; text-align: left; font-weight: 600; }
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="./logo.png" alt="Logotipo">
+    <img src="./logo.png" alt="Logotipo institucional">
     <h1>Sistema de Captura de Notas</h1>
   </header>
 
   <form>
-    <div class="form-logo-container"><img src="./logo.png" alt="Logo Form"></div>
+    <div class="form-logo-container"><img src="./logo.png" alt="Logotipo"></div>
 
     <label for="usuario">Usuario:</label>
     <div class="campo">
-      <input type="text" id="usuario" name="usuario" required placeholder="Ej: Juan Pérez">
-      <input type="checkbox" id="checkUsuario" onchange="alternarBloqueo('usuario')">
+      <input type="text" id="usuario" name="usuario" required>
+      <input type="checkbox" id="checkUsuario" onchange="alternarBloqueo('usuario')" tabindex="-1">
       <label for="checkUsuario">🔒</label>
     </div>
     
     <label for="fecha">Fecha:</label>
     <div class="campo">
       <input type="date" id="fecha" name="fecha" required>
-      <input type="checkbox" id="checkFecha" onchange="alternarBloqueo('fecha')">
-      <label>🔒</label>
+      <input type="checkbox" id="checkFecha" onchange="alternarBloqueo('fecha')" tabindex="-1">
+      <label for="checkFecha">🔒</label>
     </div>
 
     <label for="medio">Medio:</label>
     <div class="campo">
-      <input type="text" id="medio" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('medio','sugMedio')">🔽</button>
-      <input type="checkbox" id="checkMedio" onchange="alternarBloqueo('medio')">
-      <label>🔒</label>
+      <input type="text" id="medio" name="medio" autocomplete="off" required>
+      <button type="button" onclick="mostrarSugerencias('medio','sugMedio')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkMedio" onchange="alternarBloqueo('medio')" tabindex="-1">
+      <label for="checkMedio">🔒</label>
       <div id="sugMedio" class="sugerencias"></div>
     </div>
     
     <label for="titular">Titular:</label>
     <div class="campo">
-      <input type="text" id="titular" required>
-      <input type="checkbox" id="checkTitular" onchange="alternarBloqueo('titular')">
-      <label>🔒</label>
+      <input type="text" id="titular" name="titular" required>
+      <input type="checkbox" id="checkTitular" onchange="alternarBloqueo('titular')" tabindex="-1">
+      <label for="checkTitular">🔒</label>
     </div>
 
     <label for="firma">Firma:</label>
     <div class="campo">
-      <input type="text" id="firma" autocomplete="off">
-      <button type="button" onclick="mostrarSugerencias('firma','sugFirma')">🔽</button>
-      <input type="checkbox" id="checkFirma" onchange="alternarBloqueo('firma')">
-      <label>🔒</label>
+      <input type="text" id="firma" name="firma" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('firma','sugFirma')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkFirma" onchange="alternarBloqueo('firma')" tabindex="-1">
+      <label for="checkFirma">🔒</label>
       <div id="sugFirma" class="sugerencias"></div>
     </div>
     
     <label for="pagina">Página:</label>
     <div class="campo">
-      <input type="text" id="pagina" required> 
-      <input type="checkbox" id="checkPagina" onchange="alternarBloqueo('pagina')">
-      <label>🔒</label>
+      <input type="text" id="pagina" name="pagina" required> 
+      <input type="checkbox" id="checkPagina" onchange="alternarBloqueo('pagina')" tabindex="-1">
+      <label for="checkPagina">🔒</label>
     </div>
 
     <label for="dependencia">Dependencia:</label>
     <div class="campo">
-      <input type="text" id="dependencia" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('dependencia','sugDep')">🔽</button>
-      <input type="checkbox" id="checkDependencia" onchange="alternarBloqueo('dependencia')">
-      <label>🔒</label>
+      <input type="text" id="dependencia" name="dependencia" autocomplete="off" required>
+      <button type="button" onclick="mostrarSugerencias('dependencia','sugDep')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkDependencia" onchange="alternarBloqueo('dependencia')" tabindex="-1">
+      <label for="checkDependencia">🔒</label>
       <div id="sugDep" class="sugerencias"></div>
     </div>
-
     <label for="organismo">Organismo:</label>
     <div class="campo">
-      <input type="text" id="organismo" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('organismo','sugOrg')">🔽</button>
-      <input type="checkbox" id="checkOrganismo" onchange="alternarBloqueo('organismo')">
-      <label>🔒</label>
+      <input type="text" id="organismo" name="organismo" autocomplete="off" required>
+      <button type="button" onclick="mostrarSugerencias('organismo','sugOrg')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkOrganismo" onchange="alternarBloqueo('organismo')" tabindex="-1">
+      <label for="checkOrganismo">🔒</label>
       <div id="sugOrg" class="sugerencias"></div>
     </div>
     
     <label for="genero">Género:</label>
     <div class="campo">
-      <input type="text" id="genero" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('genero','sugGenero')">🔽</button>
-      <input type="checkbox" id="checkGenero" onchange="alternarBloqueo('genero')">
-      <label>🔒</label>
+      <input type="text" id="genero" name="genero" autocomplete="off" required>
+      <button type="button" onclick="mostrarSugerencias('genero','sugGenero')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkGenero" onchange="alternarBloqueo('genero')" tabindex="-1">
+      <label for="checkGenero">🔒</label>
       <div id="sugGenero" class="sugerencias"></div>
     </div>
-
     <label for="canal">Canal:</label>
     <div class="campo">
-      <input type="text" id="canal" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('canal','sugCanal')">🔽</button>
-      <input type="checkbox" id="checkCanal" onchange="alternarBloqueo('canal')">
-      <label>🔒</label>
+      <input type="text" id="canal" name="canal" autocomplete="off" required>
+      <button type="button" onclick="mostrarSugerencias('canal','sugCanal')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkCanal" onchange="alternarBloqueo('canal')" tabindex="-1">
+      <label for="checkCanal">🔒</label>
       <div id="sugCanal" class="sugerencias"></div>
     </div>
     
     <label for="tema">Tema:</label>
     <div class="campo">
-      <input type="text" id="tema" autocomplete="off">
-      <button type="button" onclick="mostrarSugerencias('tema','sugTema')">🔽</button>
-      <input type="checkbox" id="checkTema" onchange="alternarBloqueo('tema')">
-      <label>🔒</label>
+      <input type="text" id="tema" name="tema" autocomplete="off">
+      <button type="button" onclick="mostrarSugerencias('tema','sugTema')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkTema" onchange="alternarBloqueo('tema')" tabindex="-1">
+      <label for="checkTema">🔒</label>
       <div id="sugTema" class="sugerencias"></div>
     </div>
     
     <label for="estatus">Estatus:</label>
     <div class="campo">
-      <input type="text" id="estatus" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('estatus','sugEstatus')">🔽</button>
-      <input type="checkbox" id="checkEstatus" onchange="alternarBloqueo('estatus')">
-      <label>🔒</label>
+      <input type="text" id="estatus" name="estatus" autocomplete="off" required>
+      <button type="button" onclick="mostrarSugerencias('estatus','sugEstatus')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkEstatus" onchange="alternarBloqueo('estatus')" tabindex="-1">
+      <label for="checkEstatus">🔒</label>
       <div id="sugEstatus" class="sugerencias"></div>
     </div>
 
     <label for="municipio">Municipio:</label>
     <div class="campo">
-      <input type="text" id="municipio" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('municipio','sugMunicipio')">🔽</button>
-      <input type="checkbox" id="checkMunicipio" onchange="alternarBloqueo('municipio')">
-      <label>🔒</label>
+      <input type="text" id="municipio" name="municipio" autocomplete="off" required>
+      <button type="button" onclick="mostrarSugerencias('municipio','sugMunicipio')" tabindex="-1">🔽</button>
+      <input type="checkbox" id="checkMunicipio" onchange="alternarBloqueo('municipio')" tabindex="-1">
+      <label for="checkMunicipio">🔒</label>
       <div id="sugMunicipio" class="sugerencias"></div>
     </div>
     
     <div class="button-group-form">
-      <button type="button" id="btnGuardar" onclick="agregarNota()"><i class="fa-solid fa-floppy-disk"></i> Guardar</button>
+      <button type="button" id="btnGuardar" onclick="agregarNota()"><i class="fa-solid fa-floppy-disk"></i> Guardar (Ctrl+Q)</button>
       <button type="reset" id="btnLimpiar"><i class="fa-solid fa-eraser"></i> Limpiar</button>
       <button type="button" id="btnEliminar" style="display:none;" onclick="confirmarEliminar()"><i class="fa-solid fa-trash"></i> Eliminar</button>
     </div>
@@ -311,11 +407,11 @@
 
   <div class="buscador-container">
     <i class="fa-solid fa-magnifying-glass buscador-icon"></i>
-    <input type="text" id="buscador" onkeyup="renderizarTabla()" placeholder="Buscar...">
+    <input type="text" id="buscador" onkeyup="renderizarTabla()" placeholder="Buscar en todas las columnas...">
   </div>
 
   <div class="actions-group">
-      <button id="btnExportar" onclick="exportarCSV()"><i class="fa-solid fa-file-csv"></i> Exportar CSV</button>
+      <button id="btnExportar" onclick="exportarCSV()"><i class="fa-solid fa-file-csv"></i> Exportar a Excel (CSV)</button>
       <button id="btnGoogleSheets" onclick="enviarACalculo()"><i class="fa-solid fa-table"></i> Enviar a Sheets</button>
       <button id="btnBorrarTodo" onclick="borrarTodo()"><i class="fa-solid fa-dumpster-fire"></i> BORRAR TODO</button>
   </div>
@@ -329,10 +425,12 @@
       </tbody>
   </table>
 
-  <footer><p>&copy; 2024 - Sistema de Captura de Notas</p></footer>
+  <footer>
+    <p>&copy; 2024 - Sistema de Captura de Notas</p>
+  </footer>
 
   <script>
-    // --- ORDEN ESTRICTO DE COLUMNAS (Para que coincida con tu CSS) ---
+    // --- VARIABLES Y CONFIGURACIÓN ---
     const ORDEN_COLUMNAS = [
       "ordenCaptura", "usuario", "fecha", "medio", "titular", 
       "firma", "pagina", "dependencia", "organismo", "genero", 
@@ -350,7 +448,7 @@
     let filaEnEdicion = null; 
     let nextOrdenCaptura = 1;
     let ordenActual = { columna: 'ordenCaptura', direccion: 'desc' };
-    const LIMITE_CARACTERES_TITULAR = 100; // Aumentado un poco para que se vea más texto
+    const LIMITE_CARACTERES_TITULAR = 50; 
     
     const urls = {
         dependencias: "./Dependencia.csv", medios: "./Medio.csv", generos: "./Genero.csv",
@@ -361,6 +459,7 @@
     let canalData = [], generoData = [], estatusData = [], municipioData = [], temaData = [];
     const CAMPOS_CON_BLOQUEO = ['usuario', 'fecha', 'medio', 'titular', 'firma', 'pagina', 'dependencia', 'organismo', 'genero', 'canal', 'tema', 'estatus', 'municipio'];
 
+    // --- CARGA DE DATOS ---
     async function cargarCSV(url) {
       try { const r = await fetch(url); return r.ok ? await r.text() : ""; } catch (e) { return ""; }
     }
@@ -414,6 +513,118 @@
         const thAcc = document.createElement('th'); thAcc.textContent = 'Acciones'; tr.appendChild(thAcc);
     }
 
+    // --- AUTOCOMPLETADO Y NAVEGACIÓN (ENTER COMO TAB) ---
+    function autocompletar(inputId, divId, lista, callback) {
+      const input = document.getElementById(inputId);
+      const div = document.getElementById(divId);
+      let currentFocus = -1;
+
+      input.addEventListener("input", function() {
+        div.innerHTML = "";
+        const val = this.value.toLowerCase();
+        if (!val) return;
+        const matches = lista.filter(x => x.toLowerCase().includes(val));
+        
+        matches.forEach(item => {
+           const d = document.createElement("div");
+           d.className = "sugerencia";
+           d.textContent = item;
+           d.onclick = () => { 
+               input.value = item; 
+               div.innerHTML = ""; 
+               if(callback) callback(item);
+           };
+           div.appendChild(d);
+        });
+      });
+
+      // Navegación en sugerencias
+      input.addEventListener("keydown", function(e) {
+          let x = div.getElementsByTagName("div");
+          if (e.keyCode == 40) { // Arrow Down
+              currentFocus++;
+              addActive(x);
+          } else if (e.keyCode == 38) { // Arrow Up
+              currentFocus--;
+              addActive(x);
+          } else if (e.keyCode == 13) { // Enter
+              if (currentFocus > -1 && x) {
+                  e.preventDefault();
+                  x[currentFocus].click();
+              } else if (x.length === 1) {
+                   e.preventDefault();
+                   x[0].click();
+              }
+          }
+      });
+      function addActive(x) {
+        if (!x) return false;
+        removeActive(x);
+        if (currentFocus >= x.length) currentFocus = 0;
+        if (currentFocus < 0) currentFocus = (x.length - 1);
+        x[currentFocus].classList.add("resaltado");
+      }
+      function removeActive(x) {
+        for (let i = 0; i < x.length; i++) x[i].classList.remove("resaltado");
+      }
+      document.addEventListener("click", e => { if(e.target !== input) div.innerHTML = ""; });
+    }
+
+    // 🌟 LÓGICA DE NAVEGACIÓN GLOBAL CON TECLADO (ENTER = TAB) 🌟
+    document.querySelector('form').addEventListener('keydown', function(e) {
+        // Si es Enter y NO es un textarea o botón (y no se usó para seleccionar sugerencia)
+        if (e.key === 'Enter') {
+            const target = e.target;
+            
+            // Si el target es un input de texto o fecha
+            if ((target.tagName === 'INPUT' && (target.type === 'text' || target.type === 'date'))) {
+                
+                // Verificar si hay sugerencias abiertas y seleccionadas (la lógica de autocompletar ya maneja el preventDefault en ese caso)
+                const sugerenciasVisibles = target.parentNode.querySelector('.sugerencias div');
+                if (sugerenciasVisibles && target.value.trim() !== "") {
+                   // Dejar que autocompletar maneje la selección si corresponde
+                   return; 
+                }
+
+                e.preventDefault(); // Prevenir submit del form
+                
+                // Obtener todos los elementos focusable (incluso readOnly, pero no disabled)
+                const focusable = Array.from(document.querySelectorAll('form input:not([type="hidden"]), form button:not([type="button"])'));
+                const index = focusable.indexOf(target);
+                
+                if (e.shiftKey) {
+                    if (index > 0) focusable[index - 1].focus();
+                } else {
+                    if (index < focusable.length - 1) focusable[index + 1].focus();
+                }
+            }
+        }
+    });
+
+    // 🌟 ATAJOS DE TECLADO (Ctrl+Shift+L, Ctrl+Q) 🌟
+    document.addEventListener('keydown', function(e) {
+        // Ctrl + Q: Guardar Nota
+        if (e.ctrlKey && e.key.toLowerCase() === 'q') {
+            e.preventDefault();
+            document.getElementById('btnGuardar').click();
+        }
+        
+        // Ctrl + Shift + L: Bloquear/Desbloquear campo actual
+        if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'l') {
+            e.preventDefault();
+            const active = document.activeElement;
+            if (active && (active.tagName === 'INPUT')) {
+                const id = active.id;
+                const checkId = 'check' + id.charAt(0).toUpperCase() + id.slice(1);
+                const checkbox = document.getElementById(checkId);
+                if (checkbox) {
+                    checkbox.checked = !checkbox.checked;
+                    alternarBloqueo(id);
+                }
+            }
+        }
+    });
+
     function configurarAutocompletado() {
         autocompletar("dependencia", "sugDep", dependenciaMap, (dep) => {
              const orgs = dependenciaToOrganismoMap[dep];
@@ -425,31 +636,13 @@
         autocompletar("tema", "sugTema", temaData);
         autocompletar("estatus", "sugEstatus", estatusData);
         autocompletar("municipio", "sugMunicipio", municipioData);
+        
         autocompletar("medio", "sugMedio", Object.keys(medioToCanalMap).sort(), medio => {
              const c = medioToCanalMap[medio];
              if(c) document.getElementById("canal").value = c;
              autocompletar("firma", "sugFirma", firmaMap[medio] || []);
         });
         autocompletar("firma", "sugFirma", []);
-    }
-
-    function autocompletar(inputId, divId, lista, callback) {
-      const input = document.getElementById(inputId);
-      const div = document.getElementById(divId);
-      input.addEventListener("input", function() {
-        div.innerHTML = "";
-        const val = this.value.toLowerCase();
-        if (!val) return;
-        const matches = lista.filter(x => x.toLowerCase().includes(val));
-        matches.forEach(item => {
-           const d = document.createElement("div");
-           d.className = "sugerencia";
-           d.textContent = item;
-           d.onclick = () => { input.value = item; div.innerHTML = ""; if(callback) callback(item); };
-           div.appendChild(d);
-        });
-      });
-      document.addEventListener("click", e => { if(e.target !== input) div.innerHTML = ""; });
     }
     
     function mostrarSugerencias(inputId, divId) {
@@ -458,6 +651,7 @@
         document.getElementById(inputId).dispatchEvent(event);
     }
 
+    // --- CRUD ---
     function agregarNota() {
       const form = document.querySelector("form");
       if (!form.checkValidity()) { form.reportValidity(); return; }
@@ -473,8 +667,9 @@
 
       guardarNotas();
       renderizarTabla();
-      enviarACalculo(true); 
+      enviarACalculo(true); // Guardado silencioso
 
+      // Limpiar campos NO bloqueados
       CAMPOS_CON_BLOQUEO.forEach(id => {
           if(!document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`).checked) {
               document.getElementById(id).value = "";
@@ -489,9 +684,12 @@
       if (!nota) return;
       filaEnEdicion = nota;
       CAMPOS_CON_BLOQUEO.forEach(k => document.getElementById(k).value = nota[k] || "");
-      document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-rotate"></i> Actualizar';
+      document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-rotate"></i> Actualizar (Ctrl+Q)';
       document.getElementById('btnEliminar').style.display = 'inline-block';
       window.scrollTo({ top: 0, behavior: 'smooth' });
+      
+      document.querySelectorAll('tbody tr').forEach(r => r.classList.remove('editando'));
+      tr.classList.add('editando');
     }
 
     function confirmarEliminar() {
@@ -504,8 +702,9 @@
 
     function resetearEstadoEdicion() {
         filaEnEdicion = null;
-        document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Guardar';
+        document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Guardar (Ctrl+Q)';
         document.getElementById('btnEliminar').style.display = 'none';
+        document.querySelectorAll('tbody tr').forEach(r => r.classList.remove('editando'));
     }
 
     function guardarNotas() {
@@ -519,6 +718,7 @@
         }
     }
 
+    // --- TABLA Y FILTROS ---
     function renderizarTabla() {
       const tbody = document.querySelector("#tablaNotas tbody");
       tbody.innerHTML = "";
@@ -526,6 +726,7 @@
       const txtBusq = document.getElementById('buscador').value.toLowerCase();
       const txtUser = document.getElementById('usuario').value.trim().toLowerCase();
 
+      // Filtro doble: Usuario (estricto) + Buscador (global)
       let display = notas.filter(nota => {
           if (txtUser && String(nota.usuario).toLowerCase().trim() !== txtUser) return false;
           if (txtBusq && !Object.values(nota).some(v => String(v).toLowerCase().includes(txtBusq))) return false;
@@ -547,7 +748,9 @@
             const td = document.createElement("td");
             td.dataset.label = ETIQUETAS_COLUMNAS[key];
             let txt = nota[key] || "";
-            if (key === 'titular') td.title = txt; 
+            if (key === 'titular' && txt.length > LIMITE_CARACTERES_TITULAR) {
+                td.title = txt; txt = txt.substring(0, LIMITE_CARACTERES_TITULAR) + "...";
+            }
             td.textContent = txt;
             tr.appendChild(td);
         });
@@ -555,11 +758,12 @@
         const tdAcc = document.createElement("td");
         tdAcc.dataset.label = "Acciones";
         const btn = document.createElement("button");
-        btn.innerHTML = '<i class="fa-solid fa-pen"></i>';
+        btn.innerHTML = 'Editar';
         btn.className = "btn-accion-tabla";
         btn.onclick = () => editarNota(tr);
         tdAcc.appendChild(btn);
         tr.appendChild(tdAcc);
+
         tbody.appendChild(tr);
       });
       actualizarIconosOrden();
@@ -594,21 +798,27 @@
         a.click();
     }
 
+    // 🌟 ENVIAR A SHEETS (FILTRADO POR USUARIO) 🌟
     async function enviarACalculo(silencioso = false) {
         const usuarioActual = document.getElementById('usuario').value.trim();
         if (!usuarioActual) {
             if (!silencioso) alert("⚠️ Ingresa un Usuario para sincronizar.");
             return;
         }
+        
         const notasDelUsuario = notas.filter(n => n.usuario === usuarioActual);
+
         if (notasDelUsuario.length === 0) {
             if (!silencioso) alert("⚠️ No hay notas de " + usuarioActual);
             return;
         }
+
         const URL_APPS_SCRIPT = "https://script.google.com/macros/s/AKfycbzVnapqEEmekALj6HyPWdO_BI0foCPPIkAuE-16Jl8jK5_Pxfa5_ZUGTwh80BAlQVb5/exec";
         const btn = document.getElementById('btnGoogleSheets');
+
         try {
-            if (!silencioso) { btn.disabled = true; btn.innerHTML = 'Enviando...'; }
+            if (!silencioso) { btn.disabled = true; btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...'; }
+            
             const r = await fetch(URL_APPS_SCRIPT, {
                 method: 'POST', body: JSON.stringify(notasDelUsuario)
             });
@@ -651,6 +861,7 @@
         if (guardado) notas = JSON.parse(guardado);
         const next = localStorage.getItem('nextOrdenCaptura');
         if (next) nextOrdenCaptura = parseInt(next);
+
         CAMPOS_CON_BLOQUEO.forEach(id => {
             const isLocked = localStorage.getItem(`bloqueado_${id}`) === 'true';
             const chk = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
