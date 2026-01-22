@@ -102,6 +102,21 @@
       color: var(--color-dark-text);
       transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     }
+    /* --- MODIFICACIÓN PARA EL TITULAR --- */
+textarea#titular {
+  flex-grow: 1;
+  padding: 8px 10px;
+  border: 1px solid var(--color-primary-hover);
+  border-radius: var(--radius);
+  margin-right: 10px;
+  background-color: var(--color-input-bg);
+  color: var(--color-dark-text);
+  resize: vertical; /* Permite que el usuario lo haga más grande si quiere */
+  min-height: 80px; /* Esto le da el tamaño hacia abajo que solicitaste */
+  font-family: 'Roboto', sans-serif; /* Mantiene la misma letra */
+  font-size: 1rem;
+  outline: none;
+}
     .campo > input[type="text"]:focus,
     .campo > input[type="date"]:focus {
         border-color: var(--color-primary);
@@ -459,7 +474,7 @@
     
     <label for="titular">Titular:</label>
     <div class="campo">
-      <input type="text" id="titular" name="titular" required>
+      <textarea id="titular" name="titular" required placeholder="Ingrese el titular completo..."></textarea>
       <input type="checkbox" id="checkTitular" onchange="alternarBloqueo('titular')" tabindex="-1">
       <label for="checkTitular">🔒</label>
     </div>
@@ -617,6 +632,14 @@
   <br>
 
   <script>
+    // Contenedor global para las validaciones
+var listasParaValidar = {
+  medios: [],
+  dependencias: [],
+  generos: [],
+  estatus: [],
+  municipios: []
+};
     let notas = [];
     let filaEnEdicion = null;
     let nextOrdenCaptura = 1;
@@ -731,9 +754,19 @@
     }
 
     // Carga una lista simple (e.g., Géneros, Estatus)
-    async function cargarLista(url) {
+    async function cargarLista(url, listaKey) {
       const filas = limpiarFilasCSV(await cargarCSV(url));
-      return Array.from(new Set(filas.map(r => r[0]))).sort((a, b) => a.localeCompare(b, 'es'));
+      const list = [];
+      filas.forEach(r => {
+        const valorPrincipal = r[0].trim();
+        if (valorPrincipal) {
+          list.push(valorPrincipal);
+          if (listaKey && listasParaValidar[listaKey]) {
+            listasParaValidar[listaKey].push(valorPrincipal);
+          }
+        }
+      });
+      return Array.from(new Set(list)).sort((a, b) => a.localeCompare(b, 'es'));
     }
 
     function autocompletar(idCampo, idSugerencias, lista, callback) {
@@ -1437,6 +1470,10 @@
       const canalData = await cargarMapa(urls.medios); 
       medioToCanalMap = canalData.map; 
 
+      // Populate listasParaValidar
+      listasParaValidar.dependencias = depData.claves;
+      listasParaValidar.medios = canalData.claves; 
+
       // Lógica de autocompletar para Medio (usa la lista de Medios que tienen un Canal asociado)
       autocompletar("medio", "sugMedio", canalData.claves, medio => { // 👈 Fuente de Medios: Medio.csv
         // LLAMADA A LA DEPENDENCIA CANAL
@@ -1496,10 +1533,14 @@
       autocompletar("firma", "sugFirma", []); 
 
       // Carga de listas simples
-      autocompletar("genero", "sugGenero", await cargarLista(urls.generos));
-      autocompletar("estatus", "sugEstatus", await cargarLista(urls.estatus));
-      autocompletar("tema", "sugTema", await cargarLista(urls.temas)); // Este es el campo de la nota
-      autocompletar("municipio", "sugMunicipio", await cargarLista(urls.municipios));
+      const generosList = await cargarLista(urls.generos, 'generos');
+      autocompletar("genero", "sugGenero", generosList);
+      const estatusList = await cargarLista(urls.estatus, 'estatus');
+      autocompletar("estatus", "sugEstatus", estatusList);
+      const temasList = await cargarLista(urls.temas);
+      autocompletar("tema", "sugTema", temasList); // Este es el campo de la nota
+      const municipiosList = await cargarLista(urls.municipios, 'municipios');
+      autocompletar("municipio", "sugMunicipio", municipiosList);
       
       // 🟢 SUGERENCIAS CANAL (Se genera a partir de los valores únicos del mapa Medio.csv) 🟢
       // Se utiliza .flat() para aplanar el array de arrays de canales
@@ -1629,7 +1670,25 @@
 
     document.querySelector("form").addEventListener("submit", e => {
       e.preventDefault();
-      const nuevaNota = {};
+     // --- VALIDACIÓN ESTILO EXCEL ---
+      const camposAValidar = [
+        { id: 'medio', lista: listasParaValidar.medios, nombre: 'Medio' },
+        { id: 'dependencia', lista: listasParaValidar.dependencias, nombre: 'Dependencia' },
+        { id: 'genero', lista: listasParaValidar.generos, nombre: 'Género' },
+        { id: 'estatus', lista: listasParaValidar.estatus, nombre: 'Estatus' },
+        { id: 'municipio', lista: listasParaValidar.municipios, nombre: 'Municipio' }
+      ];
+
+      for (const campo of camposAValidar) {
+        const valorInput = document.getElementById(campo.id).value.trim();
+        if (valorInput && !campo.lista.includes(valorInput)) {
+          alert(`Error: El valor "${valorInput}" en el campo ${campo.nombre} no es válido. Selecciona una opción de la lista.`);
+          document.getElementById(campo.id).focus();
+          return; 
+        }
+      }
+      // --- FIN VALIDACIÓN ---
+            const nuevaNota = {};
       
       // 1. Recolectar datos y persistir campos bloqueados
       camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
