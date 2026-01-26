@@ -297,9 +297,6 @@ textarea#titular {
     #btnGoogleSheets { background-color: #0A66C2; }
     #btnGoogleSheets:hover { background-color: #0959A8; }
     
-    #btnTelegram { background-color: #0088cc; }
-    #btnTelegram:hover { background-color: #0077b3; }
-    
     /* Botón Sugerir Tema - Nuevo Estilo */
     #btnSugerirTema { background-color: #096F4B; }
     #btnSugerirTema:hover { background-color: #0A7E56; }
@@ -590,10 +587,6 @@ textarea#titular {
       <i class="fa-solid fa-table"></i> Enviar a Sheets
     </button>
     
-    <button id="btnTelegram" onclick="enviarTelegram()">
-      <i class="fa-brands fa-telegram"></i> Enviar por Telegram
-    </button> 
-    
     <button id="btnBorrarTodo" onclick="borrarTodo()">
       <i class="fa-solid fa-trash-can"></i> Borrar Todas
     </button>
@@ -671,16 +664,7 @@ var listasParaValidar = {
     };
     
     // ======================================================================
-    // 🟢 CONSTANTES GLOBALES (Apps Script y Telegram) 🟢
-    // ======================================================================
-
-    // URL para enviar sugerencias a Google Apps Script (¡ACTUALIZADA con tu URL!)
-    const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxw9a6kEd2lTlbtU6OcwtmNx4983L-qNvuoh_fHzGDiKisiy7DjN-AwTORvnDQkfRvM/exec";
-    
-    // CREDENCIALES DE TELEGRAM (CONFIRMADAS)
-    const TELEGRAM_BOT_TOKEN = "8428524335:AAFeKrvKrUxrI9NAkL_G1-X6LdL4F5fkV4"; 
-    const TELEGRAM_CHAT_ID = "-1003492273306"; 
-    
+    // 🟢 CONSTANTES GLOBALES (Apps Script) 🟢
     // ======================================================================
     // ----------------------------------------------------------------------
 
@@ -1204,58 +1188,6 @@ var listasParaValidar = {
         a.click();
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
-    }
-    
-    // ======================================================================
-    // 🌟 2. FUNCIÓN ENVIAR TELEGRAM (CORREGIDA CON CREDENCIALES) 🌟
-    // ======================================================================
-    async function enviarTelegram() {
-        if (notas.length === 0) {
-             alert("No hay notas para enviar por Telegram.");
-             return;
-        }
-
-        if (!TELEGRAM_BOT_TOKEN || TELEGRAM_BOT_TOKEN.startsWith("TU_BOT_TOKEN")) {
-             alert("🚨 Error: Las credenciales de Telegram no están configuradas correctamente.");
-             return;
-        }
-
-        const URL_TELEGRAM = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument`; 
-        
-        try {
-            document.getElementById('btnTelegram').disabled = true;
-            document.getElementById('btnTelegram').innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
-
-            const csvContenido = generarCSVContenido();
-            const blobCSV = new Blob([csvContenido], { type: "text/csv;charset=utf-8;" });
-            const nombreArchivoTelegram = generarNombreArchivoCSV();
-
-            const formData = new FormData();
-            formData.append('chat_id', TELEGRAM_CHAT_ID);
-            formData.append('document', blobCSV, nombreArchivoTelegram); 
-            formData.append('caption', `📋 Reporte de notas de Prensa (${nombreArchivoTelegram}) enviado automáticamente.`);
-
-            const response = await fetch(URL_TELEGRAM, {
-                method: 'POST',
-                body: formData 
-            });
-
-            const result = await response.json();
-
-            if (response.ok && result.ok) {
-                alert(`¡CSV '${nombreArchivoTelegram}' enviado con éxito a ${TELEGRAM_CHAT_ID}!`);
-            } else {
-                console.error("Error Telegram:", result);
-                alert(`❌ Error Telegram: ${result.description || 'Fallo desconocido en la API de Telegram'}`);
-            }
-
-        } catch (error) {
-            console.error("Error conexión:", error);
-            alert("Error al intentar comunicarse con Telegram. Revisa la consola.");
-        } finally {
-            document.getElementById('btnTelegram').disabled = false;
-            document.getElementById('btnTelegram').innerHTML = '<i class="fa-brands fa-telegram"></i> Enviar por Telegram';
-        }
     }
     
     // ======================================================================
