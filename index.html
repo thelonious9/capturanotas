@@ -1634,7 +1634,11 @@
       // 1. Recolectar datos y persistir campos bloqueados
       camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
         const campo = document.getElementById(id);
-        nuevaNota[id] = campo.value.trim();
+        if (id === 'titular') {
+            nuevaNota[id] = campo.value.replace(/\n/g, ' ').trim();
+        } else {
+            nuevaNota[id] = campo.value.trim();
+        }
         
         if (localStorage.getItem(`bloqueado_${id}`) === 'true') {
              // Si el campo está bloqueado, su valor ya está persistido.
