@@ -1578,8 +1578,8 @@ var listasParaValidar = {
               const activeElement = document.activeElement;
               const campoId = activeElement.id;
               
-              // Verifica si el campo activo es un INPUT de texto o fecha Y si está en la lista de campos bloqueables
-              if (activeElement.tagName === 'INPUT' && (activeElement.type === 'text' || activeElement.type === 'date') && CAMPOS_CON_BLOQUEO.includes(campoId)) {
+              // Verifica si el campo activo es un INPUT de texto o fecha O un TEXTAREA Y si está en la lista de campos bloqueables
+              if ((activeElement.tagName === 'INPUT' && (activeElement.type === 'text' || activeElement.type === 'date') || activeElement.tagName === 'TEXTAREA') && CAMPOS_CON_BLOQUEO.includes(campoId)) {
                   
                   const checkboxId = `check${campoId.charAt(0).toUpperCase() + campoId.slice(1)}`;
                   const checkbox = document.getElementById(checkboxId);
@@ -1593,6 +1593,45 @@ var listasParaValidar = {
                       activeElement.focus(); 
                   }
               }
+          }
+      });
+      
+      // 4. 🌟 ATAJO PARA DUPLICAR EL ÚLTIMO REGISTRO: Ctrl + Shift + J 🌟
+      document.addEventListener("keydown", (e) => {
+          // Verifica Ctrl (o Cmd en Mac) + Shift + J
+          if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 'j') {
+              e.preventDefault(); // Evita la acción predeterminada
+              
+              // Verifica que haya al menos una nota para duplicar
+              if (notas.length === 0) {
+                  alert("No hay registros para duplicar.");
+                  return;
+              }
+              
+              // Obtiene el último registro guardado (el de mayor ordenCaptura)
+              const ultimoRegistro = notas.reduce((max, nota) => nota.ordenCaptura > max.ordenCaptura ? nota : max, notas[0]);
+              
+              // Crea una copia del registro sin el ordenCaptura
+              const registroDuplicado = { ...ultimoRegistro };
+              delete registroDuplicado.ordenCaptura;
+              
+              // Carga los valores en el formulario
+              camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
+                  document.getElementById(id).value = registroDuplicado[id] || '';
+              });
+              
+              // Resetea el estado de edición para que se guarde como nuevo registro
+              resetearEstadoEdicion();
+              
+              // Disparar blur para cargar sugerencias dependientes
+              document.getElementById("dependencia").dispatchEvent(new Event('blur'));
+              document.getElementById("medio").dispatchEvent(new Event('blur'));
+              
+              // Enfoca el primer campo editable
+              document.getElementById('titular').focus();
+              
+              // Muestra una notificación sutil
+              console.log("Último registro duplicado y cargado en el formulario.");
           }
       });
       
