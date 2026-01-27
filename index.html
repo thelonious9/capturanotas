@@ -1200,26 +1200,25 @@ var listasParaValidar = {
             return;
         }
 
-        if (!confirm("¿Estás seguro de que quieres enviar todas las notas a Google Sheets?")) {
-            return;
-        }
-
         // Usaremos el mismo APPS_SCRIPT_URL, el script de Google debe manejar la acción 'guardarNotas'
-        const url = APPS_SCRIPT_URL;
+        const url = "https://script.google.com/macros/s/AKfycbxw9a6kEd2lTlbtU6OcwtmNx4983L-qNvuoh_fHzGDiKisiy7DjN-AwTORvnDQkfRvM/exec";
 
         try {
             document.getElementById('btnGoogleSheets').disabled = true;
             document.getElementById('btnGoogleSheets').innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
 
-            // Prepara los datos a enviar usando FormData
-            const formData = new FormData();
-            formData.append('action', 'guardarNotas');
-            formData.append('data', JSON.stringify(notas));
-            formData.append('usuario', document.getElementById('usuario').value.trim());
+            // Prepara los datos a enviar
+            const datosAEnviar = {
+                action: 'guardarNotas', // Indica la acción para el Apps Script
+                data: notas,            // El array completo de notas
+                usuario: document.getElementById('usuario').value.trim() // Información adicional
+            };
 
             const response = await fetch(url, {
                 method: 'POST',
-                body: formData
+                // Encabezado requerido por Google Apps Script
+                headers: { 'Content-Type': 'text/plain;charset=utf-8' }, 
+                body: JSON.stringify(datosAEnviar)
             });
 
             if (response.ok) {
