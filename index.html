@@ -1212,28 +1212,23 @@
     // FUNCIÓN DE DEPENDENCIA MEDIO -> CANAL
     function setCanalFromMedio(medioValue, map) {
       const canalInput = document.getElementById('canal');
-      const isLocked = localStorage.getItem('bloqueado_canal') === 'true';
+      const checkCanal = document.getElementById('checkCanal');
 
-      if (isLocked) return; // No sobrescribir si el campo está bloqueado
-
-      const lowerMedio = medioValue.toLowerCase();
-      let suggestedCanales = [];
-
-      // Buscar coincidencia exacta (insensible a mayúsculas/minúsculas)
       const key = findKeyCaseInsensitive(map, medioValue);
+      let suggestedCanal = '';
 
-      if (key) {
-        suggestedCanales = map[key];
+      if (key && map[key].length > 0) {
+        suggestedCanal = map[key][0];
       }
 
-      // Si se encuentra una sugerencia (el archivo Medio.csv solo debería tener 1 por Medio)
-      if (suggestedCanales.length > 0) {
-        // Toma el primer canal sugerido
-        const suggestedCanal = suggestedCanales[0];
+      if (suggestedCanal) {
         canalInput.value = suggestedCanal;
         localStorage.setItem('canal', suggestedCanal);
+
+        // 🌟 Automatización: Bloquear (o re-bloquear) el campo con el nuevo valor 🌟
+        checkCanal.checked = true;
+        alternarBloqueo('canal');
       } else if (!canalInput.value) {
-        // Si no se encuentra mapeo, limpia el campo si está vacío
         canalInput.value = '';
         localStorage.removeItem('canal');
       }
