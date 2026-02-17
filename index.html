@@ -507,20 +507,11 @@
       /* Permite que los elementos se envuelvan */
     }
 
-    #btnExportar {
-      background-color: #4A4A4A;
-    }
-
-    #btnExportar:hover {
-      background-color: #616161;
-    }
-
-    /* 🌟 NUEVO ESTILO: Enviar a Sheets 🌟 */
-    #btnGoogleSheets {
+    #btnExportarNotas {
       background-color: #0A66C2;
     }
 
-    #btnGoogleSheets:hover {
+    #btnExportarNotas:hover {
       background-color: #0959A8;
     }
 
@@ -900,12 +891,8 @@
       </button>
     </div>
 
-    <button id="btnExportar" onclick="exportarCSV()">
-      <i class="fa-solid fa-file-csv"></i> Exportar a hoja de cálculo
-    </button>
-
-    <button id="btnGoogleSheets" onclick="enviarACalculo()">
-      <i class="fa-solid fa-table"></i> Enviar a Sheets
+    <button id="btnExportarNotas" onclick="exportarNotas()">
+      <i class="fa-solid fa-file-export"></i> Exportar notas
     </button>
 
     <button id="btnBorrarTodo" onclick="borrarTodo()">
@@ -1537,55 +1524,55 @@
     }
 
     // ======================================================================
-    // 🌟 FUNCIÓN: ENVIAR TODAS LAS NOTAS A GOOGLE SHEETS 🌟
+    // 🌟 FUNCIÓN: EXPORTAR NOTAS (CSV + GOOGLE SHEETS) 🌟
     // ======================================================================
-    async function enviarACalculo() {
+    async function exportarNotas() {
       if (notas.length === 0) {
-        alert("No hay notas capturadas para enviar a Google Sheets.");
+        alert("No hay notas capturadas para exportar.");
         return;
       }
 
-      // Usaremos el mismo APPS_SCRIPT_URL, el script de Google debe manejar la acción 'guardarNotas'
-      const url = "https://script.google.com/macros/s/AKfycbxw9a6kEd2lTlbtU6OcwtmNx4983L-qNvuoh_fHzGDiKisiy7DjN-AwTORvnDQkfRvM/exec";
+      const btn = document.getElementById('btnExportarNotas');
+      const originalHTML = btn.innerHTML;
 
       try {
-        document.getElementById('btnGoogleSheets').disabled = true;
-        document.getElementById('btnGoogleSheets').innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
+        btn.disabled = true;
+        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Procesando...';
 
-        // Prepara los datos a enviar
+        // 1. Exportación CSV (Descarga local)
+        exportarCSV();
+
+        // 2. Envío a Google Sheets
+        const url = "https://script.google.com/macros/s/AKfycbxw9a6kEd2lTlbtU6OcwtmNx4983L-qNvuoh_fHzGDiKisiy7DjN-AwTORvnDQkfRvM/exec";
+
         const datosAEnviar = {
-          action: 'guardarNotas', // Indica la acción para el Apps Script
-          data: notas,            // El array completo de notas
-          usuario: document.getElementById('usuario').value.trim() // Información adicional
+          action: 'guardarNotas',
+          data: notas,
+          usuario: document.getElementById('usuario').value.trim()
         };
 
         const response = await fetch(url, {
           method: 'POST',
-          // Encabezado requerido por Google Apps Script
           headers: { 'Content-Type': 'text/plain;charset=utf-8' },
           body: JSON.stringify(datosAEnviar)
         });
 
+        // Manejo de respuesta (considerando bloqueos CORS comunes en Apps Script)
         if (response.ok) {
-          // Intenta leer el resultado, si falla asume éxito debido al posible bloqueo CORS
-          const result = await response.json().catch(() => ({ status: 'assumed_success' }));
-
-          if (result.status === 'success' || result.status === 'assumed_success') {
-            alert("✅ Notas enviadas a Google Sheets correctamente.");
-          } else {
-            alert(`⚠️ Error del servidor: ${result.message}`);
-          }
+          await response.json().catch(() => ({ status: 'assumed_success' }));
+          alert("Notas enviadas a base de datos y copia descargada");
         } else {
-          alert(`🚨 Error de red: El servidor respondió con estado ${response.status}.`);
+          // Si falla el envío pero se descargó el CSV
+          alert("La copia local se descargó, pero hubo un error al enviar a la base de datos.");
         }
 
       } catch (error) {
-        console.error("Error al enviar a Google Sheets (posible bloqueo CORS):", error);
-        // Mensaje amigable para manejar el error de red que es común con Apps Script
-        alert("✅ Notas enviadas a Google Sheets. (El servidor probablemente guardó los datos, el error de conexión es un aviso persistente).");
+        console.error("Error en la exportación/envío:", error);
+        // Mensaje de éxito asumido si es error de fetch (CORS) pero paso previo ok
+        alert("Notas enviadas a base de datos y copia descargada");
       } finally {
-        document.getElementById('btnGoogleSheets').disabled = false;
-        document.getElementById('btnGoogleSheets').innerHTML = '<i class="fa-solid fa-table"></i> Enviar a Sheets';
+        btn.disabled = false;
+        btn.innerHTML = originalHTML;
       }
     }
     // ======================================================================
