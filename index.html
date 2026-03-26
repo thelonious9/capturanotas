@@ -9,739 +9,415 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
   <style>
-    /* Importación de Google Fonts para Roboto */
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-    /* --- PALETA DE COLORES FINAL --- */
     :root {
-      --color-fondo-pagina: #31302F;
-      /* Oscuro Suave */
-      --color-fondo-form: #52504E;
-      /* Gris Cálido (Fondo del Formulario) */
-      --color-primary: #6F0909;
-      /* Rojo Intenso (Guardar/Borrar Todo) */
-      --color-primary-hover: #792929;
-      /* Rojo Suave */
-      --color-secondary: #792929;
-      /* Rojo Suave (Botón Limpiar/Hover) */
-      --color-secondary-hover: #6F0909;
-      /* Rojo Intenso */
-      --color-danger: #dc3545;
-      /* Rojo estándar para peligro */
-      --color-danger-hover: #c82333;
-      /* Rojo oscuro */
-      --color-telegram: #0088cc;
-      --color-telegram-hover: #0077b3;
-      --color-dark-text: #31302F;
-      /* Texto para inputs (fondo claro) */
-      --color-light-text: #F0EAD1;
-      /* Texto principal (fondo oscuro) */
-      --color-input-bg: #FFFFFF;
-      /* Fondo de los campos de texto: Blanco */
-      --color-alerta-vacio: #FFD700;
-      --radius: 0.25rem;
+      --color-fondo-pagina: #fcfcfc;
+      --color-fondo-form: #ffffff;
+      --color-primary: #15173D;
+      --color-primary-hover: #21255e;
+      --color-secondary: #15173D;
+      --color-secondary-hover: #21255e;
+      --color-danger: #d90000;
+      --color-danger-hover: #a10000;
+      --color-success: #15173D;
+      --color-error: #d90000;
+      --color-text: #15173D;
+      --color-border: #15173D;
+      --radius: 0px;
+    }
+
+    * {
+      box-sizing: border-box;
     }
 
     body {
-      font-family: 'Roboto', sans-serif;
-      margin: 0;
-      padding: 20px;
-      background-color: var(--color-fondo-pagina);
-      color: var(--color-light-text);
-    }
-
-    h1 {
-      font-size: 1.8rem;
-      color: var(--color-light-text);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin: 0 auto;
+      max-width: 1440px;
+      padding: 40px;
+      background: var(--color-fondo-pagina);
+      color: var(--color-text);
+      letter-spacing: -0.3px;
     }
 
     header {
+      border-top: 5px solid var(--color-text);
+      border-bottom: 5px solid var(--color-text);
+      padding: 24px 0;
+      margin-bottom: 32px;
+      background: transparent;
+      display: block;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      font-weight: 800;
+      margin: 0 0 5px 0;
+      letter-spacing: -1.5px;
+      color: var(--color-text);
+    }
+
+    header h1::after {
+      content: '®';
+      font-size: 1.5rem;
+      vertical-align: super;
+      font-weight: 400;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: var(--color-text);
+    }
+
+    .art-box {
+      background: var(--color-text);
+      width: 100%;
+      height: 120px;
+      margin-bottom: 32px;
+      position: relative;
+      overflow: hidden;
       display: flex;
+      justify-content: center;
       align-items: center;
-      justify-content: space-between;
-      border-bottom: 2px solid var(--color-primary);
-      padding: 10px 20px 15px 20px;
-      margin-bottom: 20px;
-      background-color: var(--color-fondo-form);
-      border-radius: var(--radius) var(--radius) 0 0;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      /* 🌟 MEJORA: Cabecera Pegajosa y Transición 🌟 */
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    header img {
-      height: 50px;
-      width: auto;
-      transition: height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s ease;
+    .art-circle {
+      width: 150px;
+      height: 150px;
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      border-radius: 50%;
+      position: absolute;
+      top: -15px;
     }
 
-    /* 🌟 CLASE PARA CABECERA ENCOGIDA 🌟 */
-    header.shrunk {
-      padding: 5px 20px 8px 20px;
-      background-color: rgba(82, 80, 78, 0.95);
-      backdrop-filter: blur(10px);
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    .art-circle:nth-child(1) {
+      left: calc(50% - 225px);
     }
 
-    header.shrunk img {
-      height: 30px;
-      opacity: 0.8;
+    .art-circle:nth-child(2) {
+      left: calc(50% - 75px);
     }
 
-    header.shrunk h1 {
-      font-size: 1.2rem;
+    .art-circle:nth-child(3) {
+      left: calc(50% + 75px);
     }
 
-    /* --- FORMULARIO (MODIFICACIÓN DE LAYOUT) --- */
     form {
       display: grid;
       grid-template-columns: auto 1fr auto 1fr;
-      gap: 15px 30px;
-      max-width: 900px;
-      margin: 0 auto 30px auto;
-      padding: 25px;
-      background-color: var(--color-fondo-form);
-      border-radius: var(--radius);
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .form-logo-container {
-      grid-column: span 4;
-      text-align: center;
-      margin-bottom: 20px;
-      padding-bottom: 15px;
-      border-bottom: 1px solid var(--color-secondary);
-    }
-
-    .form-logo-container img {
-      height: 80px;
-      width: auto;
-      opacity: 0.9;
+      gap: 16px 20px;
+      padding: 0;
+      background: transparent;
     }
 
     label {
       font-weight: 700;
       align-self: center;
-      color: var(--color-light-text);
+      font-size: 1.1rem;
+      text-transform: none;
+      letter-spacing: normal;
+      color: var(--color-text);
+      margin-bottom: 0;
     }
 
     .campo {
-      position: relative;
       display: flex;
       align-items: center;
+      gap: 8px;
+      position: relative;
     }
 
-    .campo>input[type="text"],
-    .campo>input[type="date"] {
-      flex-grow: 1;
-      padding: 8px 10px;
-      border: 1px solid var(--color-primary-hover);
-      border-radius: var(--radius);
-      margin-right: 10px;
-      background-color: var(--color-input-bg);
-      color: var(--color-dark-text);
-      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    .campo-titular {
+      grid-column: 2 / span 3;
     }
 
-    /* --- MODIFICACIÓN PARA EL TITULAR --- */
-    textarea#titular {
-      flex-grow: 1;
-      padding: 8px 10px;
-      border: 1px solid var(--color-primary-hover);
+    .campo input[type="text"],
+    .campo input[type="date"],
+    .campo textarea {
+      flex: 1;
+      padding: 10px 14px;
+      border: 2px solid var(--color-border);
       border-radius: var(--radius);
-      margin-right: 10px;
-      background-color: var(--color-input-bg);
-      color: var(--color-dark-text);
-      resize: vertical;
-      /* Permite que el usuario lo haga más grande si quiere */
-      min-height: 80px;
-      /* Esto le da el tamaño hacia abajo que solicitaste */
-      font-family: 'Roboto', sans-serif;
-      /* Mantiene la misma letra */
+      background: #fff;
+      color: var(--color-text);
+      font-family: inherit;
       font-size: 1rem;
       outline: none;
     }
 
-    .campo>input[type="text"]:focus,
-    .campo>input[type="date"]:focus {
-      border-color: var(--color-primary);
-      box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25);
-      outline: none;
+    .campo input[type="text"]:focus,
+    .campo input[type="date"]:focus,
+    .campo textarea:focus {
+      background-color: var(--color-text);
+      color: #fff;
     }
 
-    /* 🌟 REGLAS PARA CAMPOS DE ANCHO COMPLETO 🌟 */
-    /* Usuario (Label: 2do elemento, Input: 3er elemento) -> Ocupan 4 columnas */
-    form>label:nth-child(2),
-    form>div:nth-child(3) {
-      grid-column: 1 / span 4;
+    .campo textarea {
+      min-height: 45px;
+      height: auto;
+      overflow-y: hidden;
+      resize: none;
     }
 
-    /* Titular (Label: 8vo elemento, Input: 9no elemento) -> Ocupan 4 columnas */
-    form>label:nth-child(8),
-    form>div:nth-child(9) {
-      grid-column: 1 / span 4;
+    .campo-actions {
+      display: flex;
+      gap: 8px;
+      padding: 0;
     }
 
-    /* --- SUGERENCIAS --- */
+    .btn-campo {
+      padding: 10px 14px;
+      border: 2px solid var(--color-border);
+      border-radius: var(--radius);
+      background: transparent;
+      color: var(--color-text);
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: all 0.2s;
+    }
+
+    .btn-campo:hover {
+      background: var(--color-text);
+      color: #fff;
+    }
+
+    /* Lock Estilo */
+    .campo input[type="checkbox"] {
+      display: none;
+    }
+
+    .lock-label {
+      cursor: pointer;
+      color: var(--color-text);
+      font-size: 1.1rem;
+      opacity: 0.3;
+      transition: all 0.2s;
+    }
+
+    .campo input[type="checkbox"]:checked+.lock-label {
+      opacity: 1;
+    }
+
+    .bloqueado {
+      background: #e9e9e9 !important;
+      cursor: not-allowed;
+      color: #888 !important;
+    }
+
+    /* Sugerencias */
     .sugerencias {
       position: absolute;
       top: 100%;
       left: 0;
       width: 100%;
-      border: 1px solid var(--color-primary-hover);
-      background: var(--color-input-bg);
-      max-height: 180px;
+      border: 2px solid var(--color-border);
+      background: #fff;
+      color: var(--color-text);
+      max-height: 220px;
       overflow-y: auto;
       z-index: 100;
       border-radius: var(--radius);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      color: var(--color-dark-text);
+      box-shadow: none;
+      border-top: none;
     }
 
     .sugerencia {
-      padding: 8px 10px;
+      padding: 10px 14px;
       cursor: pointer;
+      border-bottom: 1px solid #f0f0f0;
     }
 
     .sugerencia:hover,
     .sugerencia.resaltado {
-      background-color: #f0f0f0;
-      color: var(--color-dark-text);
+      background: var(--color-text);
+      color: #fff;
     }
 
-    /* --- BLOQUEO --- */
-    .bloqueado {
-      background-color: #e9e9e9 !important;
-      border: 1px solid var(--color-primary-hover) !important;
-      cursor: not-allowed;
-    }
-
-    input:required:invalid {
-      border-left: 5px solid var(--color-danger);
-    }
-
-    input:required:valid {
-      border-left: 5px solid #28a745;
-    }
-
-    /* --- BOTONES --- */
+    /* Botones */
     .button-group-form {
-      grid-column: span 4;
+      grid-column: 1 / span 4;
       display: flex;
-      gap: 15px;
-      margin-top: 10px;
-      justify-content: flex-end;
-    }
-
-    button {
-      padding: 10px 15px;
-      border: none;
-      border-radius: var(--radius);
-      cursor: pointer;
-      font-weight: 700;
-      transition: background-color 0.2s ease, transform 0.1s;
-      color: var(--color-light-text);
-      margin-right: 5px;
-    }
-
-    #btnGuardar {
-      background-color: var(--color-primary);
-    }
-
-    #btnGuardar:hover {
-      background-color: var(--color-primary-hover);
-      transform: translateY(-1px);
-    }
-
-    #btnLimpiar {
-      background-color: var(--color-secondary);
-    }
-
-    #btnLimpiar:hover {
-      background-color: var(--color-secondary-hover);
-      transform: translateY(-1px);
-    }
-
-    #btnEliminar {
-      background-color: var(--color-danger);
-    }
-
-    #btnEliminar:hover {
-      background-color: var(--color-danger-hover);
-      transform: translateY(-1px);
-    }
-
-    .campo button[type="button"] {
-      background-color: var(--color-secondary);
-      padding: 8px;
-      margin-right: 0;
-    }
-
-    .campo button[type="button"]:hover {
-      background-color: var(--color-secondary-hover);
-    }
-
-    button i {
-      margin-right: 8px;
-      font-size: 1.1em;
-    }
-
-    /* --- TABLA (CORRECCIÓN DE DEFORMACIÓN Y TRUNCAMIENTO) --- */
-    h2 {
-      margin-top: 40px;
-      color: var(--color-light-text);
-      border-bottom: 1px solid var(--color-secondary);
-      padding-bottom: 5px;
-    }
-
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-      margin-top: 20px;
-      background-color: var(--color-fondo-form);
-      /* 🌟 CORRECCIÓN CLAVE: Fija el layout de la tabla para evitar deformación */
-      table-layout: fixed;
-    }
-
-    th,
-    td {
-      padding: 12px 15px;
-      border: 1px solid #7D7C79;
-      text-align: left;
-      color: var(--color-light-text);
-      font-size: 0.85rem;
-      /* Asegura que el contenido se ajuste al ancho fijo y se trunque */
-      word-wrap: break-word;
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-      /* Eliminamos max-width conflictivos */
-      max-width: none !important;
-    }
-
-    /* 🌟 DEFINICIÓN DE ANCHOS PROPORCIONALES (15 columnas: Total 100%) - ORDEN ACTUALIZADO 🌟 */
-    /* Nuevo orden: #, Usuario, Fecha, Medio, Titular, Firma, Página, Dependencia, Organismo, Género, Canal, Tema, Estatus, Municipio, Acciones */
-    #tablaNotas th:nth-child(1),
-    #tablaNotas td:nth-child(1) {
-      width: 3%;
-    }
-
-    /* # (ordenCaptura) */
-    #tablaNotas th:nth-child(2),
-    #tablaNotas td:nth-child(2) {
-      width: 7%;
-    }
-
-    /* Usuario */
-    #tablaNotas th:nth-child(3),
-    #tablaNotas td:nth-child(3) {
-      width: 7%;
-    }
-
-    /* Fecha */
-    #tablaNotas th:nth-child(4),
-    #tablaNotas td:nth-child(4) {
-      width: 8%;
-    }
-
-    /* Medio */
-    #tablaNotas th:nth-child(5),
-    #tablaNotas td:nth-child(5) {
-      width: 15%;
-    }
-
-    /* Titular (15%) */
-    #tablaNotas th:nth-child(6),
-    #tablaNotas td:nth-child(6) {
-      width: 6%;
-    }
-
-    /* Firma (6%) */
-    #tablaNotas th:nth-child(7),
-    #tablaNotas td:nth-child(7) {
-      width: 5%;
-    }
-
-    /* Página (5%) */
-    #tablaNotas th:nth-child(8),
-    #tablaNotas td:nth-child(8) {
-      width: 7%;
-    }
-
-    /* Dependencia (7%) */
-    #tablaNotas th:nth-child(9),
-    #tablaNotas td:nth-child(9) {
-      width: 7%;
-    }
-
-    /* Organismo (7%) */
-    #tablaNotas th:nth-child(10),
-    #tablaNotas td:nth-child(10) {
-      width: 5%;
-    }
-
-    /* Género (5%) */
-    #tablaNotas th:nth-child(11),
-    #tablaNotas td:nth-child(11) {
-      width: 5%;
-    }
-
-    /* Canal (5%) */
-    #tablaNotas th:nth-child(12),
-    #tablaNotas td:nth-child(12) {
-      width: 7%;
-    }
-
-    /* Tema (7%) */
-    #tablaNotas th:nth-child(13),
-    #tablaNotas td:nth-child(13) {
-      width: 5%;
-    }
-
-    /* Estatus (5%) */
-    #tablaNotas th:nth-child(14),
-    #tablaNotas td:nth-child(14) {
-      width: 6%;
-    }
-
-    /* Municipio (6%) */
-    #tablaNotas th:nth-child(15),
-    #tablaNotas td:nth-child(15) {
-      width: 6%;
-    }
-
-    /* Acciones (6%) */
-
-    th {
-      background-color: var(--color-primary);
-      color: var(--color-light-text);
-      font-weight: 700;
-      position: sticky;
-      top: 0;
-    }
-
-    tbody tr:nth-child(even) {
-      background-color: #5D5C5A;
-    }
-
-    /* 🌟 MEJORA: Resaltar fila al pasar el cursor */
-    tbody tr:hover {
-      background-color: #6C6B69;
-      cursor: pointer;
-      transition: background-color 0.2s ease;
-    }
-
-    .editando {
-      background-color: var(--color-primary-hover) !important;
-      color: var(--color-light-text);
-    }
-
-    .editando td {
-      color: var(--color-light-text);
-    }
-
-    .alerta-vacio {
-      background-color: var(--color-alerta-vacio) !important;
-      color: var(--color-dark-text) !important;
-    }
-
-    .alerta-vacio td {
-      color: var(--color-dark-text) !important;
-    }
-
-    .error-carga {
-      color: var(--color-danger);
-      font-weight: bold;
-      margin-top: 15px;
-      background-color: var(--color-input-bg);
-      padding: 10px;
-      border-radius: var(--radius);
-    }
-
-    footer {
-      margin-top: 40px;
-      border-top: 1px solid var(--color-secondary);
-      padding-top: 10px;
-      font-size: 0.9em;
-      color: var(--color-light-text);
-      text-align: center;
-    }
-
-    /* --- SORTING --- */
-    .sortable-header {
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 100%;
-    }
-
-    .sort-icon {
-      margin-left: 5px;
-      font-size: 0.8em;
-      opacity: 0.5;
-    }
-
-    .sorted .sort-icon {
-      opacity: 1;
-      color: var(--color-light-text);
-    }
-
-    .sorted.alerta-vacio .sort-icon {
-      color: var(--color-dark-text);
-    }
-
-    /* --- GRUPO DE ACCIONES (Globales) --- */
-    .actions-group {
-      display: flex;
-      gap: 15px;
-      margin-top: 15px;
-      margin-bottom: 25px;
+      gap: 14px;
       justify-content: flex-start;
-      align-items: center;
+      margin-top: 16px;
       flex-wrap: wrap;
-      /* Permite que los elementos se envuelvan */
+      border-top: 2px solid var(--color-border);
+      padding-top: 20px;
     }
 
-    #btnExportarNotas {
-      background-color: #0A66C2;
-    }
-
-    #btnExportarNotas:hover {
-      background-color: #0959A8;
-    }
-
-    /* Botón Sugerir Tema - Nuevo Estilo */
-    #btnSugerirTema {
-      background-color: #096F4B;
-    }
-
-    #btnSugerirTema:hover {
-      background-color: #0A7E56;
-    }
-
-    #btnSugerirTema i {
-      margin-right: 0;
-    }
-
-    /* Quitar margen del icono en botón Sugerir Tema (ya que está al final) */
-
-
-    #btnBorrarTodo {
-      background-color: var(--color-primary);
-    }
-
-    #btnBorrarTodo:hover {
-      background-color: var(--color-primary-hover);
-      transform: translateY(-1px);
-    }
-
-    /* --- NUEVOS ESTILOS PARA CAMPO DE SUGERENCIA DE TEMA DEDICADO --- */
-    .suggestion-input-group {
-      display: flex;
-      gap: 10px;
+    button:not(.btn-campo) {
+      padding: 12px 18px;
+      border: 2px solid var(--color-border);
+      border-radius: var(--radius);
+      cursor: pointer;
+      font-weight: 700;
+      color: var(--color-text);
+      background: transparent;
+      font-family: inherit;
+      font-size: 1rem;
+      letter-spacing: -0.3px;
+      transition: all 0.2s;
+      text-transform: none;
+      display: inline-flex;
       align-items: center;
-      /* Estilo para que se distinga como un grupo funcional */
-      background-color: #4A4A4A;
-      padding: 8px;
-      border-radius: var(--radius);
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      gap: 10px;
     }
 
-    #sugerenciaTemaInput {
-      padding: 10px 15px;
-      border: 1px solid var(--color-primary-hover);
-      border-radius: var(--radius);
-      background-color: var(--color-input-bg);
-      color: var(--color-dark-text);
-      flex-grow: 1;
-      width: 250px;
-      /* Ancho base */
+    button:not(.btn-campo):hover {
+      background: var(--color-text);
+      color: #fff;
     }
 
-    /* El botón sugerir tema ahora va dentro del grupo de sugerencia */
-    .suggestion-input-group #btnSugerirTema {
-      margin-right: 0;
-      padding: 10px 15px;
+    #btnBorrarTodo,
+    #btnEliminar {
+      border-color: var(--color-danger);
+      color: var(--color-danger);
     }
 
-    /* --- FIN NUEVOS ESTILOS --- */
-
-
-    /* Botón Editar en Tabla */
-    .btn-accion-tabla {
-      padding: 8px 12px;
-      background-color: var(--color-secondary);
-      color: var(--color-light-text);
+    #btnBorrarTodo:hover,
+    #btnEliminar:hover {
+      background: var(--color-danger);
+      color: #fff;
     }
 
-    .btn-accion-tabla:hover {
-      background-color: var(--color-secondary-hover);
-    }
 
-    /* --- ESTILOS DEL BUSCADOR --- */
+    /* Buscador */
     .buscador-container {
+      margin: 30px 0 10px;
       position: relative;
-      margin-bottom: 15px;
-      max-width: 400px;
     }
 
     #buscador {
       width: 100%;
-      padding: 10px 10px 10px 40px;
-      border: 1px solid var(--color-primary-hover);
+      max-width: 420px;
+      padding: 12px 14px;
+      border: 2px solid var(--color-border);
       border-radius: var(--radius);
-      background-color: var(--color-input-bg);
-      color: var(--color-dark-text);
+      background: #fff;
+      color: var(--color-text);
+      font-family: inherit;
       font-size: 1rem;
-      box-sizing: border-box;
-      transition: all 0.2s ease;
+      outline: none;
     }
 
     #buscador:focus {
-      outline: none;
-      border-color: var(--color-primary);
-      box-shadow: 0 0 0 0.2rem rgba(111, 9, 9, 0.25);
+      background: var(--color-text);
+      color: #fff;
     }
 
     .buscador-icon {
-      position: absolute;
-      left: 12px;
-      top: 50%;
-      transform: translateY(-50%);
-      color: var(--color-primary);
-      font-size: 1.1rem;
+      display: none;
+    }
+
+    /* Tabla */
+    h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -1px;
+      margin-top: 40px;
+      margin-bottom: 15px;
+      border-bottom: 2px solid var(--color-text);
+      padding-bottom: 10px;
+      display: inline-block;
+      color: var(--color-text);
+      text-transform: none;
+    }
+
+    #tablaNotas {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      background: #fff;
+      border: 2px solid var(--color-border);
+    }
+
+    #tablaNotas th {
+      background: #fff;
+      color: var(--color-text);
+      padding: 12px 10px;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      font-weight: 800;
+      border: 1px solid var(--color-border);
+      text-align: left;
+    }
+
+    #tablaNotas td {
+      padding: 12px 10px;
+      border: 1px solid var(--color-border);
+      color: var(--color-text);
+      font-size: 0.95rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    #tablaNotas tr:hover td {
+      background: #f9f9f9;
+    }
+
+    #tablaNotas tr.alerta-vacio td {
+      background-color: #fff0f0;
+      color: #d90000;
+    }
+
+    .btn-accion-tabla {
+      padding: 6px 12px;
+      background: transparent;
+      border: 2px solid var(--color-border);
+      color: var(--color-text);
+      font-size: 0.85rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-accion-tabla:hover {
+      background: var(--color-text);
+      color: #fff;
     }
 
     /* --- RESPONSIVE --- */
-    @media (max-width: 768px) {
-      body {
-        padding: 10px;
-      }
-
-      header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 5px;
-      }
-
-      header img {
-        height: 35px;
-        margin-bottom: 5px;
-      }
-
-      header h1 {
-        font-size: 1rem;
-      }
-
+    @media (max-width: 1024px) {
       form {
-        grid-template-columns: 1fr;
-        gap: 10px;
-        padding: 15px;
+        grid-template-columns: auto 1fr;
       }
 
-      form>label,
-      form>div,
-      .form-logo-container {
-        grid-column: span 1 !important;
+      .campo-titular {
+        grid-column: auto;
       }
 
       .button-group-form {
-        justify-content: space-around;
+        grid-column: 1 / span 2;
+      }
+    }
+
+    @media (max-width: 768px) {
+      form {
+        grid-template-columns: 1fr;
       }
 
-      .button-group-form button {
-        width: 32%;
-        margin-right: 0;
-      }
-
-      .actions-group {
+      .button-group-form {
+        grid-column: 1;
         flex-direction: column;
-        align-items: stretch;
       }
 
-      .actions-group button {
-        width: 100%;
-        margin-bottom: 10px;
+      label {
+        margin-bottom: -10px;
       }
 
-      /* Responsive para el grupo de sugerencia */
-      .suggestion-input-group {
-        flex-direction: column;
-        align-items: stretch;
-        width: 100%;
-        padding: 15px 10px;
-        /* Más padding para que se vea mejor */
+      body {
+        padding: 20px;
       }
 
-      #sugerenciaTemaInput {
-        max-width: none;
-        width: 100%;
-        margin-bottom: 5px;
+      header h1 {
+        font-size: 2.2rem;
       }
 
-      .suggestion-input-group #btnSugerirTema {
-        width: 100%;
-      }
-
-      table,
-      thead,
-      tbody,
-      th,
-      td,
-      tr {
-        display: block;
-      }
-
-      thead tr {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
-      }
-
-      tr {
-        border: 1px solid #7D7C79;
-        margin-bottom: 10px;
-      }
-
-      td {
-        border: none;
-        border-bottom: 1px solid #8D8C8A;
-        position: relative;
-        padding-left: 50%;
-        text-align: right;
-        font-size: 0.9em;
-        color: var(--color-light-text);
-        /* Resetear para responsive */
-        width: auto;
-        max-width: 100%;
-        white-space: normal;
-        text-overflow: clip;
-      }
-
-      td:before {
-        content: attr(data-label);
-        position: absolute;
-        left: 10px;
-        width: 45%;
-        padding-right: 10px;
-        white-space: nowrap;
-        text-align: left;
-        font-weight: 600;
-      }
-
-      td:last-child {
-        text-align: center;
-        padding-left: 10px;
-      }
-
-      .alerta-vacio td {
-        color: var(--color-dark-text) !important;
+      .art-box {
+        display: none;
       }
     }
   </style>
@@ -749,161 +425,186 @@
 
 <body>
   <header>
-    <img src="./logo.png" alt="Logotipo institucional">
-    <h1>Sistema de Captura de Notas de Prensa</h1>
+    <h1>Captura de información</h1>
+    <p>Ladies and gentlemen we are capturing information</p>
   </header>
+  <div class="art-box">
+    <div class="art-circle"></div>
+    <div class="art-circle"></div>
+    <div class="art-circle"></div>
+  </div>
 
   <form>
-    <div class="form-logo-container">
-      <img src="./logo.png" alt="Logotipo del Formulario">
-    </div>
-
     <label for="usuario">Usuario:</label>
     <div class="campo">
       <input type="text" id="usuario" name="usuario" required>
-      <input type="checkbox" id="checkUsuario" onchange="alternarBloqueo('usuario')" tabindex="-1">
-      <label for="checkUsuario">🔒</label>
+      <div class="campo-actions">
+        <input type="checkbox" id="checkUsuario" onchange="alternarBloqueo('usuario')" tabindex="-1">
+        <label for="checkUsuario" class="lock-label"><i class="fa-solid fa-lock"></i></label>
+      </div>
     </div>
 
     <label for="fecha">Fecha:</label>
     <div class="campo">
       <input type="date" id="fecha" name="fecha" required>
-      <input type="checkbox" id="checkFecha" onchange="alternarBloqueo('fecha')" tabindex="-1">
-      <label for="checkFecha">🔒</label>
+      <div class="campo-actions">
+        <input type="checkbox" id="checkFecha" onchange="alternarBloqueo('fecha')" tabindex="-1">
+        <label for="checkFecha" class="lock-label"><i class="fa-solid fa-lock"></i></label>
+      </div>
     </div>
 
     <label for="medio">Medio:</label>
     <div class="campo">
       <input type="text" id="medio" name="medio" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('medio','sugMedio')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkMedio" onchange="alternarBloqueo('medio')" tabindex="-1">
-      <label for="checkMedio">🔒</label>
+      <div class="campo-actions">
+        <button type="button" class="btn-campo" onclick="mostrarSugerencias('medio','sugMedio')"
+          tabindex="-1">🔽</button>
+        <input type="checkbox" id="checkMedio" onchange="alternarBloqueo('medio')" tabindex="-1">
+        <label for="checkMedio" class="lock-label"><i class="fa-solid fa-lock"></i></label>
+      </div>
       <div id="sugMedio" class="sugerencias"></div>
-    </div>
-
-    <label for="titular">Titular:</label>
-    <div class="campo">
-      <textarea id="titular" name="titular" required placeholder="Ingrese el titular completo..."></textarea>
-      <input type="checkbox" id="checkTitular" onchange="alternarBloqueo('titular')" tabindex="-1">
-      <label for="checkTitular">🔒</label>
-    </div>
-
-    <label for="firma">Firma:</label>
-    <div class="campo">
-      <input type="text" id="firma" name="firma" autocomplete="off">
-      <button type="button" onclick="mostrarSugerencias('firma','sugFirma')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkFirma" onchange="alternarBloqueo('firma')" tabindex="-1">
-      <label for="checkFirma">🔒</label>
-      <div id="sugFirma" class="sugerencias"></div>
     </div>
 
     <label for="pagina">Página:</label>
     <div class="campo">
       <input type="text" id="pagina" name="pagina" required>
-      <input type="checkbox" id="checkPagina" onchange="alternarBloqueo('pagina')" tabindex="-1">
-      <label for="checkPagina">🔒</label>
+      <div class="campo-actions">
+        <input type="checkbox" id="checkPagina" onchange="alternarBloqueo('pagina')" tabindex="-1">
+        <label for="checkPagina" class="lock-label"><i class="fa-solid fa-lock"></i></label>
+      </div>
+    </div>
+
+    <label for="titular">Titular:</label>
+    <div class="campo campo-titular">
+      <textarea id="titular" name="titular" required placeholder="Ingrese el titular completo..."></textarea>
+      <div class="campo-actions">
+        <input type="checkbox" id="checkTitular" onchange="alternarBloqueo('titular')" tabindex="-1">
+        <label for="checkTitular" class="lock-label"><i class="fa-solid fa-lock"></i></label>
+      </div>
+    </div>
+
+    <label for="firma">Firma:</label>
+    <div class="campo">
+      <input type="text" id="firma" name="firma" autocomplete="off">
+      <div class="campo-actions">
+        <button type="button" class="btn-campo" onclick="mostrarSugerencias('firma','sugFirma')"
+          tabindex="-1">🔽</button>
+        <input type="checkbox" id="checkFirma" onchange="alternarBloqueo('firma')" tabindex="-1">
+        <label for="checkFirma" class="lock-label"><i class="fa-solid fa-lock"></i></label>
+      </div>
+      <div id="sugFirma" class="sugerencias"></div>
     </div>
 
     <label for="dependencia">Dependencia:</label>
     <div class="campo">
       <input type="text" id="dependencia" name="dependencia" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('dependencia','sugDep')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkDependencia" onchange="alternarBloqueo('dependencia')" tabindex="-1">
-      <label for="checkDependencia">🔒</label>
+      <div class="campo-actions">
+        <button type="button" class="btn-campo" onclick="mostrarSugerencias('dependencia','sugDep')"
+          tabindex="-1">🔽</button>
+        <input type="checkbox" id="checkDependencia" onchange="alternarBloqueo('dependencia')" tabindex="-1">
+        <label for="checkDependencia" class="lock-label"><i class="fa-solid fa-lock"></i></label>
+      </div>
       <div id="sugDep" class="sugerencias"></div>
     </div>
+
     <label for="organismo">Organismo:</label>
     <div class="campo">
       <input type="text" id="organismo" name="organismo" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('organismo','sugOrg')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkOrganismo" onchange="alternarBloqueo('organismo')" tabindex="-1">
-      <label for="checkOrganismo">🔒</label>
+      <div class="campo-actions">
+        <button type="button" class="btn-campo" onclick="mostrarSugerencias('organismo','sugOrg')"
+          tabindex="-1">🔽</button>
+        <input type="checkbox" id="checkOrganismo" onchange="alternarBloqueo('organismo')" tabindex="-1">
+        <label for="checkOrganismo" class="lock-label"><i class="fa-solid fa-lock"></i></label>
+      </div>
       <div id="sugOrg" class="sugerencias"></div>
     </div>
 
     <label for="genero">Género:</label>
     <div class="campo">
       <input type="text" id="genero" name="genero" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('genero','sugGenero')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkGenero" onchange="alternarBloqueo('genero')" tabindex="-1">
-      <label for="checkGenero">🔒</label>
+      <div class="campo-actions">
+        <button type="button" class="btn-campo" onclick="mostrarSugerencias('genero','sugGenero')"
+          tabindex="-1">🔽</button>
+        <input type="checkbox" id="checkGenero" onchange="alternarBloqueo('genero')" tabindex="-1">
+        <label for="checkGenero" class="lock-label"><i class="fa-solid fa-lock"></i></label>
+      </div>
       <div id="sugGenero" class="sugerencias"></div>
     </div>
+
     <label for="canal">Canal:</label>
     <div class="campo">
       <input type="text" id="canal" name="canal" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('canal','sugCanal')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkCanal" onchange="alternarBloqueo('canal')" tabindex="-1">
-      <label for="checkCanal">🔒</label>
+      <div class="campo-actions">
+        <button type="button" class="btn-campo" onclick="mostrarSugerencias('canal','sugCanal')"
+          tabindex="-1">🔽</button>
+        <input type="checkbox" id="checkCanal" onchange="alternarBloqueo('canal')" tabindex="-1">
+        <label for="checkCanal" class="lock-label"><i class="fa-solid fa-lock"></i></label>
+      </div>
       <div id="sugCanal" class="sugerencias"></div>
     </div>
 
     <label for="tema">Tema:</label>
     <div class="campo">
       <input type="text" id="tema" name="tema" autocomplete="off">
-      <button type="button" onclick="mostrarSugerencias('tema','sugTema')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkTema" onchange="alternarBloqueo('tema')" tabindex="-1">
-      <label for="checkTema">🔒</label>
+      <div class="campo-actions">
+        <button type="button" class="btn-campo" onclick="mostrarSugerencias('tema','sugTema')" tabindex="-1">🔽</button>
+        <input type="checkbox" id="checkTema" onchange="alternarBloqueo('tema')" tabindex="-1">
+        <label for="checkTema" class="lock-label"><i class="fa-solid fa-lock"></i></label>
+      </div>
       <div id="sugTema" class="sugerencias"></div>
     </div>
 
     <label for="estatus">Estatus:</label>
     <div class="campo">
       <input type="text" id="estatus" name="estatus" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('estatus','sugEstatus')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkEstatus" onchange="alternarBloqueo('estatus')" tabindex="-1">
-      <label for="checkEstatus">🔒</label>
+      <div class="campo-actions">
+        <button type="button" class="btn-campo" onclick="mostrarSugerencias('estatus','sugEstatus')"
+          tabindex="-1">🔽</button>
+        <input type="checkbox" id="checkEstatus" onchange="alternarBloqueo('estatus')" tabindex="-1">
+        <label for="checkEstatus" class="lock-label"><i class="fa-solid fa-lock"></i></label>
+      </div>
       <div id="sugEstatus" class="sugerencias"></div>
     </div>
 
     <label for="municipio">Municipio:</label>
     <div class="campo">
       <input type="text" id="municipio" name="municipio" autocomplete="off" required>
-      <button type="button" onclick="mostrarSugerencias('municipio','sugMunicipio')" tabindex="-1">🔽</button>
-      <input type="checkbox" id="checkMunicipio" onchange="alternarBloqueo('municipio')" tabindex="-1">
-      <label for="checkMunicipio">🔒</label>
+      <div class="campo-actions">
+        <button type="button" class="btn-campo" onclick="mostrarSugerencias('municipio','sugMunicipio')"
+          tabindex="-1">🔽</button>
+        <input type="checkbox" id="checkMunicipio" onchange="alternarBloqueo('municipio')" tabindex="-1">
+        <label for="checkMunicipio" class="lock-label"><i class="fa-solid fa-lock"></i></label>
+      </div>
       <div id="sugMunicipio" class="sugerencias"></div>
     </div>
-    <label></label>
-    <div class="campo"></div>
-
 
     <div class="button-group-form">
       <button type="submit" id="btnGuardar">
-        <i class="fa-solid fa-floppy-disk"></i> Guardar
+        <i class="fa-solid fa-floppy-disk"></i> Guardar Nota
       </button>
 
       <button type="button" id="btnEliminar" style="display: none;" onclick="borrarNota()">
-        <i class="fa-solid fa-trash-can"></i> Borrar Nota
+        <i class="fa-solid fa-trash-can"></i> Borrar
       </button>
 
       <button type="reset" id="btnLimpiar">
-        <i class="fa-solid fa-broom"></i> Limpiar
+        <i class="fa-solid fa-broom"></i> Limpiar Todo
+      </button>
+
+      <button type="button" id="btnExportarNotas" onclick="exportarNotas()">
+        <i class="fa-solid fa-file-export"></i> Exportar notas
+      </button>
+
+      <button type="button" id="btnBorrarTodo" onclick="borrarTodo()">
+        <i class="fa-solid fa-trash-can"></i> Borrar Todas
       </button>
     </div>
   </form>
 
-  <div class="actions-group">
-    <div class="suggestion-input-group">
-      <input type="text" id="sugerenciaTemaInput" placeholder="Escribe aquí tu sugerencia de tema" required>
-      <button id="btnSugerirTema" onclick="enviarSugerenciaTema()">
-        Sugerir Tema <i class="fa-solid fa-paper-plane"></i>
-      </button>
-    </div>
-
-    <button id="btnExportarNotas" onclick="exportarNotas()">
-      <i class="fa-solid fa-file-export"></i> Exportar notas
-    </button>
-
-    <button id="btnBorrarTodo" onclick="borrarTodo()">
-      <i class="fa-solid fa-trash-can"></i> Borrar Todas
-    </button>
-  </div>
 
   <div id="erroresCarga" class="error-carga"></div>
 
   <div class="buscador-container">
-    <i class="fas fa-search buscador-icon"></i>
     <input type="text" id="buscador" placeholder="Buscar en la tabla (Titular, Medio, etc.)">
   </div>
 
@@ -1003,7 +704,6 @@
     // ======================================================================
     // 🟢 CONSTANTES GLOBALES (Apps Script) 🟢
     // ======================================================================
-    const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxjDmzwMLx4kGBDqaRs6_wHS9IychvKmdSnWoG90BvORou9YZUOGF68DrG3DYjvMUazCA/exec';
     // ----------------------------------------------------------------------
 
     function findKeyCaseInsensitive(map, value) {
@@ -1254,6 +954,14 @@
     }
     // FIN FUNCIÓN DE DEPENDENCIA
 
+    function ajustarAlturaTitular() {
+      const el = document.getElementById('titular');
+      if (el) {
+        el.style.height = 'auto';
+        el.style.height = (el.scrollHeight) + 'px';
+      }
+    }
+
     function resetearEstadoEdicion() {
       filaEnEdicion = null;
       document.getElementById('btnGuardar').innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Guardar';
@@ -1477,6 +1185,7 @@
 
       document.querySelectorAll('#tablaNotas tbody tr').forEach(row => row.classList.remove('editando'));
       tr.classList.add('editando');
+      ajustarAlturaTitular();
       window.scrollTo(0, 0);
     }
 
@@ -1578,63 +1287,6 @@
     // ======================================================================
     // ----------------------------------------------------------------------
 
-    // ======================================================================
-    // 🌟 3. FUNCIÓN ENVIAR SUGERENCIA DE TEMA (MODIFICADA PARA USAR EL INPUT DEDICADO) 🌟
-    // ======================================================================
-    async function enviarSugerenciaTema() {
-      // TOMA EL VALOR DEL NUEVO INPUT DEDICADO
-      const input = document.getElementById('sugerenciaTemaInput');
-      const tema = input.value.trim();
-
-      if (!tema) {
-        alert("🚨 Por favor, escriba una sugerencia de Tema en el campo dedicado antes de presionar el botón.");
-        return;
-      }
-
-      try {
-        document.getElementById('btnSugerirTema').disabled = true;
-        document.getElementById('btnSugerirTema').innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
-
-        const response = await fetch(APPS_SCRIPT_URL, {
-          method: 'POST',
-          // Este encabezado es requerido por Google Apps Script
-          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-          body: JSON.stringify({ action: 'sugerirTema', tema: tema })
-        });
-
-        // 1. Si el fetch pasa, intentamos leer la respuesta JSON (que contiene el CORS header)
-        if (response.ok) {
-
-          try {
-            const result = await response.json();
-
-            if (result.status === 'success') {
-              alert("✅ Sugerencia enviada correctamente. ¡Gracias!");
-              input.value = ''; // Clear the dedicated input on success
-            } else {
-              alert(`⚠️ Error del servidor: ${result.message}`);
-            }
-          } catch (jsonError) {
-            // 2. Si hay un error al leer el JSON, pero el estado HTTP es 200, asumimos éxito
-            alert("✅ Sugerencia enviada correctamente. (El servidor confirmó la recepción, pero hubo un pequeño aviso de conexión).");
-            input.value = ''; // Clear the dedicated input on assumed success
-          }
-
-        } else {
-          alert(`🚨 Error de red: El servidor respondió con estado ${response.status}.`);
-        }
-
-      } catch (error) {
-        // 🎯 ESTE BLOQUE ATRAPA EL "TypeError: Failed to fetch" del bloqueo CORS.
-        console.error("Error persistente (Fallo al leer la respuesta del servidor):", error);
-        alert(`✅ Sugerencia enviada. (El servidor guardó el tema, el error de conexión es solo un aviso persistente).`);
-        input.value = ''; // Clear the dedicated input on assumed success
-      } finally {
-        document.getElementById('btnSugerirTema').disabled = false;
-        document.getElementById('btnSugerirTema').innerHTML = 'Sugerir Tema <i class="fa-solid fa-paper-plane"></i>';
-      }
-    }
-    // ======================================================================
     // ----------------------------------------------------------------------
 
 
@@ -1798,6 +1450,10 @@
       autocompletar("organismo", "sugOrg", []);
       autocompletar("firma", "sugFirma", []);
 
+      // Ajustar altura inicial del titular
+      ajustarAlturaTitular();
+      document.getElementById('titular').addEventListener('input', ajustarAlturaTitular);
+
       // Carga de listas simples
       const generosList = await cargarLista(urls.generos, 'generos');
       autocompletar("genero", "sugGenero", generosList);
@@ -1836,17 +1492,15 @@
       });
 
       document.querySelector("form").addEventListener('reset', (e) => {
-        // 🌟 LÓGICA: DESBLOQUEAR TODOS LOS CAMPOS AL PRESIONAR LIMPIAR 🌟
-        e.preventDefault(); // Detenemos el reset inicial para asegurar el desbloqueo
+        // Detenemos el reset inicial para asegurar el desbloqueo antes de limpiar
+        e.preventDefault();
 
         desbloquearTodosLosCampos();
-
-        // Ejecutamos el reset del formulario después del desbloqueo
-        e.target.reset();
+        resetearFormulario();
+        resetearEstadoEdicion();
 
         setTimeout(() => {
           document.getElementById('titular').focus();
-          resetearEstadoEdicion();
         }, 10);
       });
 
@@ -2080,16 +1734,15 @@
 
       // Limpia sugerencias visibles
       document.querySelectorAll(".sugerencias").forEach(div => div.innerHTML = "");
+
+      // Reajusta altura del titular al limpiar
+      setTimeout(ajustarAlturaTitular, 10);
     }
 
-    // Intercepta el evento reset del formulario
-    document.querySelector("form").addEventListener("reset", function () {
-      setTimeout(resetearFormulario, 0);
-    });
   </script>
 
   <footer>
-    © 2025 Francisco Villeda. Todos los derechos reservados.
+    Francisco Villeda &copy; 2026
   </footer>
 </body>
 
