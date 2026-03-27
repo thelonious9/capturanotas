@@ -442,8 +442,12 @@
     }
 
     #tablaNotas tr:hover td {
-      background: var(--color-border);
-      opacity: 0.8;
+      background: var(--color-text);
+      color: var(--color-fondo-pagina);
+    }
+
+    body:not(.dark-mode) #tablaNotas tr:hover td {
+      color: #fff;
     }
 
     #tablaNotas tr.alerta-vacio td {
@@ -466,6 +470,43 @@
       background: var(--color-text);
       color: var(--color-fondo-pagina);
     }
+
+    /* Action Icons Grouped */
+    .acciones-btn-group {
+      display: flex;
+      gap: 5px;
+      justify-content: center;
+    }
+
+    .btn-icon-accion {
+      background: transparent;
+      border: 1.5px solid var(--color-border);
+      color: var(--color-text);
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: all 0.2s;
+      font-size: 0.9rem;
+    }
+
+    .btn-icon-accion:hover {
+      background: var(--color-text);
+      color: var(--color-fondo-pagina);
+      transform: translateY(-2px);
+    }
+
+    .btn-icon-accion.borrar:hover {
+      background: var(--color-danger);
+      border-color: var(--color-danger);
+      color: #fff;
+    }
+
+    /* Remove old dropdown styles if any */
+    .acciones-menu, .acciones-container { display: none; }
 
     /* --- RESPONSIVE --- */
     @media (max-width: 1024px) {
@@ -1078,8 +1119,16 @@
     }
 
     function guardarNotas() {
+      renumerarNotas(); // Asegura que se guarden con numeración consecutiva
       localStorage.setItem('notasCapturadas', JSON.stringify(notas));
       localStorage.setItem('nextOrdenCaptura', nextOrdenCaptura);
+    }
+
+    function renumerarNotas() {
+      notas.forEach((nota, index) => {
+        nota.ordenCaptura = index + 1;
+      });
+      nextOrdenCaptura = notas.length + 1;
     }
 
     function borrarTodo() {
@@ -1096,19 +1145,44 @@
       }
     }
 
-    function borrarNota() {
-      if (filaEnEdicion !== null) {
-        const confirmar = confirm(`¿Eliminar nota #${notas[filaEnEdicion].ordenCaptura}?`);
+    function borrarNota(indice = null) {
+      const idx = (indice !== null) ? indice : filaEnEdicion;
+      if (idx !== null && idx >= 0 && idx < notas.length) {
+        const confirmar = confirm(`¿Eliminar nota #${notas[idx].ordenCaptura}?`);
         if (confirmar) {
-          notas.splice(filaEnEdicion, 1);
+          notas.splice(idx, 1);
+          renumerarNotas();
           guardarNotas();
           ordenarTabla(ordenActual.columna, true);
-          // 🌟 Asegura que todos los campos se desbloqueen antes de resetear 🌟
           desbloquearTodosLosCampos();
-          document.querySelector("form").reset();
-          resetearEstadoEdicion();
+          if (filaEnEdicion === idx) {
+            document.querySelector("form").reset();
+            resetearEstadoEdicion();
+          }
         }
       }
+    }
+
+    function duplicarNota(notaId) {
+      const indice = notas.findIndex(n => n.ordenCaptura === notaId);
+      if (indice === -1) return;
+      const nota = notas[indice];
+
+      // Llenar el formulario con los datos de la nota
+      camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
+        document.getElementById(id).value = nota[id];
+      });
+
+      // Resetear estado de edición para que se guarde como nueva nota
+      resetearEstadoEdicion();
+      
+      // Disparar eventos para cargar sugerencias dependientes
+      document.getElementById("dependencia").dispatchEvent(new Event('blur'));
+      document.getElementById("medio").dispatchEvent(new Event('blur'));
+      
+      ajustarAlturaTitular();
+      window.scrollTo(0, 0);
+      alert("Nota duplicada en el formulario. Puedes editarla y guardarla como una nueva nota.");
     }
 
     // Esta función sólo verifica CAMPOS OBLIGATORIOS (excluye Tema y Firma)
@@ -1176,12 +1250,35 @@
 
         const tdAcciones = document.createElement("td");
         tdAcciones.setAttribute('data-label', encabezadosTabla['acciones']);
-        const btnEditar = document.createElement("button");
-        btnEditar.textContent = "Editar";
-        btnEditar.classList.add('btn-accion-tabla');
-        // La función de edición ahora busca por el ID permanente (ordenCaptura)
-        btnEditar.onclick = function () { editarNota(tr); };
-        tdAcciones.appendChild(btnEditar);
+        
+        const group = document.createElement("div");
+        group.className = "acciones-btn-group";
+
+        // Botón Editar
+        const btnEdit = document.createElement("button");
+        btnEdit.className = "btn-icon-accion";
+        btnEdit.innerHTML = "<i class='fa-solid fa-pen-to-square'></i>";
+        btnEdit.title = "Editar Nota";
+        btnEdit.onclick = () => editarNota(tr);
+
+        // Botón Duplicar
+        const btnDup = document.createElement("button");
+        btnDup.className = "btn-icon-accion";
+        btnDup.innerHTML = "<i class='fa-solid fa-copy'></i>";
+        btnDup.title = "Duplicar y Editar";
+        btnDup.onclick = () => duplicarNota(nota.ordenCaptura);
+
+        // Botón Borrar
+        const btnDel = document.createElement("button");
+        btnDel.className = "btn-icon-accion borrar";
+        btnDel.innerHTML = "<i class='fa-solid fa-trash-can'></i>";
+        btnDel.title = "Borrar Nota";
+        btnDel.onclick = () => borrarNota(indice);
+
+        group.appendChild(btnEdit);
+        group.appendChild(btnDup);
+        group.appendChild(btnDel);
+        tdAcciones.appendChild(group);
         tr.appendChild(tdAcciones);
 
         tablaBody.appendChild(tr);
@@ -1594,6 +1691,11 @@
       });
 
       cargarNotasGuardadas();
+
+      // Cerrar menús al hacer clic fuera
+      document.addEventListener('click', () => {
+        document.querySelectorAll('.acciones-menu.show').forEach(m => m.classList.remove('show'));
+      });
 
       document.querySelectorAll('#tablaNotas th[data-col]').forEach(th => {
         th.addEventListener('click', () => ordenarTabla(th.dataset.col));
