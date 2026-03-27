@@ -24,6 +24,7 @@
       --color-border: #15173D;
       --radius: 0px;
       --table-zoom: 1;
+      --color-blocked-bg: #eaecf0;
     }
 
     /* Variables de Tema Oscuro */
@@ -37,6 +38,7 @@
       --color-secondary: #e0e0e0;
       --color-secondary-hover: #ffffff;
       --color-success: #e0e0e0;
+      --color-blocked-bg: #2d2d2d;
     }
 
     * {
@@ -253,8 +255,8 @@
     }
 
     .bloqueado {
-      background: var(--color-border) !important;
-      opacity: 0.6;
+      background: var(--color-blocked-bg) !important;
+      opacity: 0.8;
       cursor: not-allowed;
       color: var(--color-text) !important;
     }
