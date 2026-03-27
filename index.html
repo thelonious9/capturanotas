@@ -23,6 +23,7 @@
       --color-text: #15173D;
       --color-border: #15173D;
       --radius: 0px;
+      --table-zoom: 1;
     }
 
     /* Variables de Tema Oscuro */
@@ -341,26 +342,57 @@
       position: relative;
     }
 
-    #buscador {
-      width: 100%;
-      max-width: 420px;
-      padding: 12px 14px;
-      border: 2px solid var(--color-border);
-      border-radius: var(--radius);
-      background: var(--color-fondo-form);
-      color: var(--color-text);
-      font-family: inherit;
-      font-size: 1rem;
-      outline: none;
+    /* Zoom Controls */
+    .table-header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-top: 40px;
+      margin-bottom: 15px;
+      border-bottom: 2px solid var(--color-text);
+      padding-bottom: 10px;
+      flex-wrap: wrap;
+      gap: 15px;
     }
 
-    #buscador:focus {
+    .table-header-container h2 {
+      margin: 0;
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .zoom-controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn-zoom {
+      padding: 6px 10px;
+      border: 2px solid var(--color-border);
+      background: transparent;
+      color: var(--color-text);
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 35px;
+    }
+
+    .btn-zoom:hover {
       background: var(--color-text);
       color: var(--color-fondo-pagina);
     }
 
-    .buscador-icon {
-      display: none;
+    .zoom-display {
+      font-weight: bold;
+      min-width: 50px;
+      text-align: center;
+      font-size: 0.9rem;
+      cursor: pointer;
     }
 
     /* Tabla */
@@ -368,39 +400,42 @@
       font-size: 2rem;
       font-weight: 700;
       letter-spacing: -1px;
-      margin-top: 40px;
-      margin-bottom: 15px;
-      border-bottom: 2px solid var(--color-text);
-      padding-bottom: 10px;
-      display: inline-block;
       color: var(--color-text);
       text-transform: none;
+    }
+
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+      border: 2px solid var(--color-border);
+      background: var(--color-fondo-form);
     }
 
     #tablaNotas {
       width: 100%;
       border-collapse: collapse;
-      table-layout: fixed;
+      table-layout: auto;
       background: var(--color-fondo-form);
-      border: 2px solid var(--color-border);
+      border: none;
     }
 
     #tablaNotas th {
       background: var(--color-fondo-form);
       color: var(--color-text);
       padding: 12px 10px;
-      font-size: 0.85rem;
+      font-size: calc(0.85rem * var(--table-zoom));
       text-transform: uppercase;
       font-weight: 800;
       border: 1px solid var(--color-border);
       text-align: left;
+      white-space: nowrap;
     }
 
     #tablaNotas td {
       padding: 12px 10px;
       border: 1px solid var(--color-border);
       color: var(--color-text);
-      font-size: 0.95rem;
+      font-size: calc(0.95rem * var(--table-zoom));
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -667,57 +702,71 @@
     <input type="text" id="buscador" placeholder="Buscar en la tabla (Titular, Medio, etc.)">
   </div>
 
-  <h2>Notas capturadas</h2>
-  <table id="tablaNotas">
-    <thead>
-      <tr>
-        <th data-col="ordenCaptura">
-          <div class="sortable-header"># <span class="sort-icon"></span></div>
-        </th>
-        <th data-col="usuario">
-          <div class="sortable-header">Usuario <span class="sort-icon"></span></div>
-        </th>
-        <th data-col="fecha">
-          <div class="sortable-header">Fecha <span class="sort-icon"></span></div>
-        </th>
-        <th data-col="medio">
-          <div class="sortable-header">Medio <span class="sort-icon"></span></div>
-        </th>
-        <th data-col="titular">
-          <div class="sortable-header">Titular <span class="sort-icon"></span></div>
-        </th>
-        <th data-col="firma">
-          <div class="sortable-header">Firma <span class="sort-icon"></span></div>
-        </th>
-        <th data-col="pagina">
-          <div class="sortable-header">Página <span class="sort-icon"></span></div>
-        </th>
-        <th data-col="dependencia">
-          <div class="sortable-header">Dependencia <span class="sort-icon"></span></div>
-        </th>
-        <th data-col="organismo">
-          <div class="sortable-header">Organismo <span class="sort-icon"></span></div>
-        </th>
-        <th data-col="genero">
-          <div class="sortable-header">Género <span class="sort-icon"></span></div>
-        </th>
-        <th data-col="canal">
-          <div class="sortable-header">Canal <span class="sort-icon"></span></div>
-        </th>
-        <th data-col="tema">
-          <div class="sortable-header">Tema <span class="sort-icon"></span></div>
-        </th>
-        <th data-col="estatus">
-          <div class="sortable-header">Estatus <span class="sort-icon"></span></div>
-        </th>
-        <th data-col="municipio">
-          <div class="sortable-header">Municipio <span class="sort-icon"></span></div>
-        </th>
-        <th>Acciones</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+  <div class="table-header-container">
+    <h2>Notas capturadas</h2>
+    <div class="zoom-controls">
+      <button type="button" class="btn-zoom" id="zoomOut" title="Reducir zoom">
+        <i class="fa-solid fa-magnifying-glass-minus"></i>
+      </button>
+      <div class="zoom-display" id="zoomDisplay" title="Restablecer zoom (100%)">100%</div>
+      <button type="button" class="btn-zoom" id="zoomIn" title="Aumentar zoom">
+        <i class="fa-solid fa-magnifying-glass-plus"></i>
+      </button>
+    </div>
+  </div>
+
+  <div class="table-container">
+    <table id="tablaNotas">
+      <thead>
+        <tr>
+          <th data-col="ordenCaptura">
+            <div class="sortable-header"># <span class="sort-icon"></span></div>
+          </th>
+          <th data-col="usuario">
+            <div class="sortable-header">Usuario <span class="sort-icon"></span></div>
+          </th>
+          <th data-col="fecha">
+            <div class="sortable-header">Fecha <span class="sort-icon"></span></div>
+          </th>
+          <th data-col="medio">
+            <div class="sortable-header">Medio <span class="sort-icon"></span></div>
+          </th>
+          <th data-col="titular">
+            <div class="sortable-header">Titular <span class="sort-icon"></span></div>
+          </th>
+          <th data-col="firma">
+            <div class="sortable-header">Firma <span class="sort-icon"></span></div>
+          </th>
+          <th data-col="pagina">
+            <div class="sortable-header">Página <span class="sort-icon"></span></div>
+          </th>
+          <th data-col="dependencia">
+            <div class="sortable-header">Dependencia <span class="sort-icon"></span></div>
+          </th>
+          <th data-col="organismo">
+            <div class="sortable-header">Organismo <span class="sort-icon"></span></div>
+          </th>
+          <th data-col="genero">
+            <div class="sortable-header">Género <span class="sort-icon"></span></div>
+          </th>
+          <th data-col="canal">
+            <div class="sortable-header">Canal <span class="sort-icon"></span></div>
+          </th>
+          <th data-col="tema">
+            <div class="sortable-header">Tema <span class="sort-icon"></span></div>
+          </th>
+          <th data-col="estatus">
+            <div class="sortable-header">Estatus <span class="sort-icon"></span></div>
+          </th>
+          <th data-col="municipio">
+            <div class="sortable-header">Municipio <span class="sort-icon"></span></div>
+          </th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
   <br>
 
   <script>
@@ -1828,6 +1877,27 @@
         themeToggle.style.boxShadow = 'none';
       }
     }
+    // ----------------------------
+
+    // --- LÓGICA DE ZOOM TABLA ---
+    let tableZoom = parseFloat(localStorage.getItem('tableZoom')) || 1;
+    const zoomDisplay = document.getElementById('zoomDisplay');
+    const zoomIn = document.getElementById('zoomIn');
+    const zoomOut = document.getElementById('zoomOut');
+
+    function updateZoom(newZoom) {
+      tableZoom = Math.max(0.5, Math.min(2.0, newZoom)); // Limitar entre 50% y 200%
+      document.documentElement.style.setProperty('--table-zoom', tableZoom);
+      zoomDisplay.innerText = Math.round(tableZoom * 100) + '%';
+      localStorage.setItem('tableZoom', tableZoom);
+    }
+
+    // Inicializar zoom
+    updateZoom(tableZoom);
+
+    zoomIn.addEventListener('click', () => updateZoom(tableZoom + 0.1));
+    zoomOut.addEventListener('click', () => updateZoom(tableZoom - 0.1));
+    zoomDisplay.addEventListener('click', () => updateZoom(1.0));
     // ----------------------------
 
   </script>
