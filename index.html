@@ -571,21 +571,21 @@
   </div>
 
   <form>
-    <label for="usuario">Usuario:</label>
-    <div class="campo">
-      <input type="text" id="usuario" name="usuario" required>
-      <div class="campo-actions">
-        <input type="checkbox" id="checkUsuario" onchange="alternarBloqueo('usuario')" tabindex="-1">
-        <label for="checkUsuario" class="lock-label"><i class="fa-solid fa-lock"></i></label>
-      </div>
-    </div>
-
     <label for="fecha">Fecha:</label>
     <div class="campo">
       <input type="date" id="fecha" name="fecha" required>
       <div class="campo-actions">
         <input type="checkbox" id="checkFecha" onchange="alternarBloqueo('fecha')" tabindex="-1">
         <label for="checkFecha" class="lock-label"><i class="fa-solid fa-lock"></i></label>
+      </div>
+    </div>
+
+    <label for="usuario">Usuario:</label>
+    <div class="campo">
+      <input type="text" id="usuario" name="usuario" required>
+      <div class="campo-actions">
+        <input type="checkbox" id="checkUsuario" onchange="alternarBloqueo('usuario')" tabindex="-1">
+        <label for="checkUsuario" class="lock-label"><i class="fa-solid fa-lock"></i></label>
       </div>
     </div>
 
@@ -715,6 +715,15 @@
       <div id="sugMunicipio" class="sugerencias"></div>
     </div>
 
+    <label for="id">ID:</label>
+    <div class="campo">
+      <input type="text" id="id" name="id" required>
+      <div class="campo-actions">
+        <input type="checkbox" id="checkId" onchange="alternarBloqueo('id')" tabindex="-1">
+        <label for="checkId" class="lock-label"><i class="fa-solid fa-lock"></i></label>
+      </div>
+    </div>
+
     <div class="button-group-form">
       <button type="submit" id="btnGuardar">
         <i class="fa-solid fa-floppy-disk"></i> Guardar Nota
@@ -765,11 +774,14 @@
           <th data-col="ordenCaptura">
             <div class="sortable-header"># <span class="sort-icon"></span></div>
           </th>
-          <th data-col="usuario">
-            <div class="sortable-header">Usuario <span class="sort-icon"></span></div>
+          <th data-col="id">
+            <div class="sortable-header">ID <span class="sort-icon"></span></div>
           </th>
           <th data-col="fecha">
             <div class="sortable-header">Fecha <span class="sort-icon"></span></div>
+          </th>
+          <th data-col="usuario">
+            <div class="sortable-header">Usuario <span class="sort-icon"></span></div>
           </th>
           <th data-col="medio">
             <div class="sortable-header">Medio <span class="sort-icon"></span></div>
@@ -827,14 +839,14 @@
     let nextOrdenCaptura = 1;
 
     // ORDEN DE CAMPOS ACTUALIZADO
-    const camposDeDatos = ["ordenCaptura", "usuario", "fecha", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
+    const camposDeDatos = ["ordenCaptura", "id", "fecha", "usuario", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
 
     // 🌟 NUEVA CONSTANTE PARA MANEJAR BLOQUEO GLOBAL Y RESET 🌟
-    const CAMPOS_CON_BLOQUEO = ["usuario", "fecha", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
+    const CAMPOS_CON_BLOQUEO = ["id", "fecha", "usuario", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
 
     // 🌟 CABECERAS SIN (Opcional) 🌟
     const encabezadosTabla = {
-      "ordenCaptura": "#", "usuario": "Usuario", "fecha": "Fecha", "medio": "Medio", "titular": "Titular", "firma": "Firma",
+      "ordenCaptura": "#", "id": "ID", "fecha": "Fecha", "usuario": "Usuario", "medio": "Medio", "titular": "Titular", "firma": "Firma",
       "pagina": "Página", "dependencia": "Dependencia", "organismo": "Organismo", "genero": "Género", "canal": "Canal",
       "tema": "Tema", "estatus": "Estatus", "municipio": "Municipio", "acciones": "Acciones"
     };
@@ -1405,7 +1417,7 @@
 
     function generarCSVContenido() {
       // 🌟 CABECERAS EN EL ORDEN CORRECTO (SIN Opcional) 🌟
-      const cabeceras = ["#", "Usuario", "Fecha", "Medio", "Titular", "Firma", "Página", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"];
+      const cabeceras = ["#", "ID", "Fecha", "Usuario", "Medio", "Titular", "Firma", "Página", "Dependencia", "Organismo", "Género", "Canal", "Tema", "Estatus", "Municipio"];
       const filas = [cabeceras];
 
       notas.forEach(nota => {
@@ -1459,11 +1471,31 @@
         exportarCSV();
 
         // 2. Envío a Google Sheets
-        const url = "https://script.google.com/macros/s/AKfycbxw9a6kEd2lTlbtU6OcwtmNx4983L-qNvuoh_fHzGDiKisiy7DjN-AwTORvnDQkfRvM/exec";
+        const url = "https://script.google.com/macros/s/AKfycbxGw0LS1Wjno09DQzhe1FOaB_wVblXUrEPlHR_K85cLn0zvKz03QfciODTdQbjVsaQTUQ/exec";
+
+        // Formateamos los datos como un arreglo de objetos con las claves en minúsculas
+        // que el script de Google espera leer (ej. row.id, row.fecha, etc.)
+        const dataFormateada = notas.map(nota => ({
+          "ordenCaptura": nota.ordenCaptura,
+          "id": nota.id,
+          "fecha": nota.fecha,
+          "usuario": nota.usuario,
+          "medio": nota.medio,
+          "titular": nota.titular,
+          "firma": nota.firma,
+          "pagina": nota.pagina,
+          "dependencia": nota.dependencia,
+          "organismo": nota.organismo,
+          "genero": nota.genero,
+          "canal": nota.canal,
+          "tema": nota.tema,
+          "estatus": nota.estatus,
+          "municipio": nota.municipio
+        }));
 
         const datosAEnviar = {
           action: 'guardarNotas',
-          data: notas,
+          data: dataFormateada,
           usuario: document.getElementById('usuario').value.trim()
         };
 
@@ -1879,19 +1911,25 @@
         }
       }
       // --- FIN VALIDACIÓN ---
-      const nuevaNota = {};
+      // 2. Determinar el orden de captura
+      let orden;
+      if (filaEnEdicion !== null) {
+        orden = notas[filaEnEdicion].ordenCaptura;
+      } else {
+        orden = nextOrdenCaptura++;
+      }
 
-      // 1. Recolectar datos y persistir campos bloqueados
+      const nuevaNota = {
+        ordenCaptura: orden
+      };
+
+      // 3. Recolectar datos y persistir campos bloqueados
       camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
         const campo = document.getElementById(id);
         if (id === 'titular') {
           nuevaNota[id] = campo.value.replace(/\n/g, ' ').trim();
         } else {
           nuevaNota[id] = campo.value.trim();
-        }
-
-        if (localStorage.getItem(`bloqueado_${id}`) === 'true') {
-          // Si el campo está bloqueado, su valor ya está persistido.
         }
       });
 
@@ -1901,16 +1939,16 @@
       if (camposFaltantes.length > 0) {
         // 🚨 ALERTA CORREGIDA SIN MENCIONAR CAMPOS OPCIONALES 🚨
         alert(`🚨 Por favor, llene los siguientes campos obligatorios: \n\n${camposFaltantes.join(', ')}`);
+        // Si es una nueva nota, decrementamos el contador porque no se guardó
+        if (filaEnEdicion === null) nextOrdenCaptura--;
         return; // Detiene el proceso de guardado/actualización
       }
 
-      // 2. Guardar/Actualizar nota
+      // 4. Guardar/Actualizar nota
       if (filaEnEdicion !== null) {
-        nuevaNota.ordenCaptura = notas[filaEnEdicion].ordenCaptura;
         notas[filaEnEdicion] = nuevaNota;
         resetearEstadoEdicion();
       } else {
-        nuevaNota.ordenCaptura = nextOrdenCaptura++;
         notas.push(nuevaNota);
       }
       guardarNotas();
