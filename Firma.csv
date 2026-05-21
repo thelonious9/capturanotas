@@ -209,7 +209,6 @@ Effetá,Laura Rivera
 Effetá,Marisol Flores
 Effetá,Redacción
 Effetá,Rosa Gabriela Porter
-Effetá,Rosa Gabriela Porter
 Effetá,Yo como que oí
 Eje Central,Redacción
 Eje Central web,Redacción
@@ -396,9 +395,9 @@ Enlace en Hidalgo,Redacción
 Enlace en Hidalgo web,Redacción
 Entorno Noticias,Redacción
 Entre líneas,Redacción
-Es Periodismo,El run run
+Es periodismo,El run run
 Es periodismo,Jorge Luis Pérez
-Es Periodismo,Juan Manuel Cortés
+Es periodismo,Juan Manuel Cortés
 Es periodismo,Redacción
 Espacio político,Redacción
 Espejo,Redacción
@@ -812,6 +811,7 @@ Revista Diferente,Redacción
 Revista Luna Negra,Redacción
 Revista Portavoz,Redacción
 Revista Proceso,Áxel Chávez
+Revista Vía Libre,Carlos Camacho
 Ruta,Dinorath Mota
 Ruta,Enrique López
 Ruta,Juan Fernando González
@@ -1062,7 +1062,7 @@ El Heraldo digital,Raúl Mendoza
 Once Digital,Redacción
 Eme Equis,Maricarmen Gutiérrez
 Pensador Hidalguense web,Redacción
-Reporte Hidlago web,Redacción
+Reporte Hidalgo web,Redacción
 Paradigma Digital,Redacción
 El Trámite,Editorial
 Acción,Editorial
@@ -1073,10 +1073,53 @@ La Razón,Elizabeth Hernández
 Eje Central,Rubén Moreira
 Excélsior,Mario Luis Fuentes
 El Economista,Arturo Rojas
+Alas web,Redacción
+Con tinta y papel,Redacción
+Contraste periodismo claro y pportuno,Redacción
+Diario de las Huastecas,Redacción
+El informador de Hidalgo,Redacción
+El periódico MX,Redacción
+El Serrano,Redacción
+El Sur de Hidalgo,Redacción
+Enfoque hidalguense,Redacción
+Enlace Huasteca TV,Redacción
+Esto es Hidalgo MX,Redacción
+Fractales,Redacción
+Hidalgo decide,Redacción
+Hidalgo en línea,Redacción
+Hidalvía Informativa,Redacción
+Informativo del Mezquital,Redacción
+La borrega negra,Redacción
+La mañana de Tula,Redacción
+Libre expresión Tula,Redacción
+Los hijos del pueblo,Redacción
+MF la noticia al instante,Redacción
+Mizquitl radio,Redacción
+Noticias Pachuca Hoy,Redacción
+Pachuca Informa,Redacción
+Portal Hidalgo MX,Redacción
+Ranchuca,Redacción
+Razonez,Redacción
+Rumbos,Redacción
+Verdad y Hechos,Redacción
+Enlace Huasteca TV,Wendy Salazar
+MF la noticia al instante,Tras bambalinas
 El Sol de Hidalgo,Dora Olvera
 El Sol de Hidalgo web,Dora Olvera
+TV del Mezquital,Redacción
+TV del Mezquital,Oscar Reséndiz
+El Wara Wara,Redacción
+Enlace Notinforma,Redacción
+NotiRed Hidalgo,Alejandra Piña
+NotiRed Hidalgo,Jaime Corella
+NotiRed Hidalgo,Zendejas Castro
+NotiRed Hidalgo,Redacción
+Estado 13,Redacción
+Estado 13,Editorial
+Maynest TV,Redacción
 El Heraldo de México,Miguel Ángel Tello
 Milenio Hidalgo,Miguel Ángel Tello
+Denuncia Gallito,Redacción
 El Heraldo digital,Jason Zaleta
 Info Libre,Carlos Sevilla
 Ágora Hidalgo,Redacción
@@ -1098,20 +1141,69 @@ Revista Vía Libre,Miriam Camacho
 Revista Vía Libre,Arturo González
 Revista Vía Libre,Redacción
 Milenio TV,Francisco Villeda
+Impacto Informativo Global,Redacción
+Reporte Oportuno Noticias,Redacción
+Hidalgo 10 días,Redacción
 Central Hidalgo,Ignacio García
-Criterio,Rizieri Plascencia
-Criterio web,Rizieri Plascencia
-Criterio web,Se dice... Plus
-Criterio,Ariadna Medina
-Excélsior,Porfirio Escandón
-Excélsior web,Porfirio Escandón
-El Heraldo Digital,Laura Corona
-Criterio,Giovanny Flores
-Criterio web,Giovanny Flores
-Criterio,Emmanuel Pineda
-Criterio web,Emmanuel Pineda
+Canal Metropolitano MX,Redacción
+El portal en red,Redacción
+Libre Albedrío Gaonews,Redacción
+Digital Journal,Redacción
+Enfoque hidalguense,Martín Rangel
+Mexico Now,Redacción
+La Ganzúa,Redacción
+Periódico Expediente,Redacción
+Canal 12 Huejutla,Redacción
+Mundo Ejecutivo,Redacción
+Forbes México web,Miguel Tello
+Presencia hidalguense,Redacción
+Informativo de Hidalgo,Redacción
+Poder informativo digital,Redacción
+Todo Texcoco,Redacción
+Noticias de Hidalgo,Redacción
+La Silla Rota Hidalgo,Miguel Ángel Martínez
+Eje Informativo,Redacción
+Campo Hidalgo,Redacción
+Balón Huasteco,Redacción
+Canal del Pueblo,Uriel Ramírez
+Canal del Pueblo,Citlalli Velazco
+Canal del Pueblo,Mara Olvera
+Canal del Pueblo,Alberto Pérez Landa
+Canal del Pueblo,Alejandro Avendaño
+Canal del Pueblo,Miguel Serna
+Canal del Pueblo,Belínda Pérez
+Canal del Pueblo,Karina Atanacio
+Canal del Pueblo,Orlando Betancour Castaño
+Canal del Pueblo,Fernando Lozano
+Diario Hidalguense,Redacción
+La Jornada Hidalgo,Mauricio Bautista
+Milenio,Teodoro Santos
+La Verdad Impresa,Redacción
+Repercusión,Redacción
+Suma TV,Redacción
+Croma Multimedios,Redacción
+Pachuca Denuncia,Redacción
+Al momento Hidalgo,Redacción
+Tormenta de ideas,Redacción
+El diario de Hidalgo,Emiliano Cabañas
+El diario de Hidalgo,Redacción
+Lily media,Redacción
+Maca online,Redacción
+Megalópolis MX,Redacción
+Causa y Efecto,Darío Valadés
+Pachuca Vive,Iván Samuel DL
+La Crónica web,Giovanna Morales
+Marfeca,Redacción
+Reporte Pachuca,Redacción
+Escucha Hidalgo,Redacción
+The Element,Redacción
 Plaza Juárez,Mariana Peralta
 Heraldo TV,Hans Islas
 LatinUS,Cecilia Salamanca
 LatinUS,Carlos Loret
-El Informativo estatal web,Redacción
+El Informativo estatal web,Redaccións
+La Silla Rota Hidalgo,Redacción
+Con tinta y papel,Luis Antonio López
+De Pachuca soy,Redacción
+Voz del Pueblo Hidalguense,Redacción
+Alcoholímetro Pachuca,Redacción

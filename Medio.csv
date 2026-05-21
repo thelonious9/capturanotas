@@ -1,4 +1,4 @@
-Medios,Canal
+﻿Medios,Canal
 ¡Órale! Magacín,Impresos locales
 24 Horas,Impresos nacionales
 24 Horas web,Portales nacionales
@@ -11,10 +11,15 @@ Acrópolis,Portales locales
 ADN 40,TV nacional
 ADN 40 web,Portales nacionales
 Agenda hidalguense,Portales locales
+Ágora Hidalgo,Portales locales
 Al Día Noticias,Impresos locales
 Al Día Noticias web,Portales locales
 Al Momento,Portales nacionales
 Alas,Impresos locales
+Alas web,Portales locales
+Alcaldes de México,Impresos nacionales
+Alcaldes de México web,Portales nacionales
+Alcoholímetro Pachuca,RRSS
 Alfaro Red,Portales locales
 AM Hidalgo,Portales locales
 Amaneciendo,Portales locales
@@ -30,6 +35,7 @@ Azteca Noticias,Portales nacionales
 Bóveda informativa,Portales locales
 Cambio 21,Impresos locales
 Campus MX,Portales locales
+Canal del Pueblo,TV local
 Canal once,TV nacional
 Capital web,Portales nacionales
 Carbajal Noticias,Portales locales
@@ -40,6 +46,9 @@ Central MX web,Portales locales
 Círculo político,Portales locales
 CN Hidalgo TV,Portales locales
 Código Hidalgo,Portales locales
+Código Tordo,Portales locales
+Cofilm producciones,Portales locales
+Con tinta y papel,Portales locales
 Contra Réplica,Portales nacionales
 Contrapuntos,Portales locales
 Criterio,Impresos locales
@@ -55,11 +64,13 @@ Desde Abajo,Portales locales
 Desde la redacción,Portales locales
 Diario Basta!,Impresos nacionales
 Diario Basta! Web,Portales nacionales
+Diario de las Huastecas,RRSS
 Diario de México,Impresos nacionales
 Diario de México web,Portales nacionales
 Diario Imagen,Impresos nacionales
 Diario Minero,Portales locales
 Diario Noti7,Portales locales
+Digital Journal,Portales internacionales
 Dinámico informativo,Impresos locales
 Dinámico informativo web,Portales locales
 Dos de Hidalgo,Impresos locales
@@ -69,10 +80,12 @@ E-consulta,Portales nacionales
 Effetá,Portales locales
 Eje Central,Impresos nacionales
 Eje Central web,Portales nacionales
+Eje Informativo,Portales locales
 El Bocón,Portales locales
 El Cardinal,Portales locales
 El Chapucero,Portales nacionales
 El Cuarto Poder,Portales locales
+El diario de Hidalgo,Portales locales
 El Economista,Impresos nacionales
 El Economista web,Portales nacionales
 El Financiero,Impresos nacionales
@@ -86,6 +99,7 @@ El Independiente,Impresos nacionales
 El Independiente web,Portales nacionales
 El Informativo,Impresos locales
 El Informativo estatal,Impresos locales
+El Informativo estatal web,Portales locales
 El informativo online,Portales locales
 El Institucional,Impresos locales
 El Nuevo Gráfico de Hidalgo,Impresos locales
@@ -100,7 +114,9 @@ El Sol de Hidalgo web,Portales locales
 El Sol de México,Impresos nacionales
 El Sol de Tulancingo,Impresos locales
 El Sol de Tulancingo web,Portales locales
+El Sur de Hidalgo,RRSS
 El tiempo de Hidalgo,Impresos locales
+El tiempo de Hidalgo web,Portales locales
 El trámite,Impresos locales
 El Universal,Impresos nacionales
 El Universal Hidalgo,Impresos locales
@@ -110,15 +126,18 @@ El Vigía Hidalgo,Portales locales
 Eme Equis,Portales nacionales
 Énfasis,Portales locales
 Enfoque Hidalgo,Portales locales
+Enfoque hidalguense,Portales locales
 Enfoque Noticias,Radio nacional
 Enfoque Noticias web,Portales nacionales
 Enlace en Hidalgo,Impresos locales
 Enlace en Hidalgo web,Portales locales
+Enlace Huasteca TV,Portales locales
 Entorno Noticias,Portales locales
 Entre líneas,Portales locales
 Es periodismo,Portales locales
 Espacio político,Portales locales
 Espejo,Impresos locales
+Estado 13,Portales locales
 Excélsior,Impresos nacionales
 Excélsior web,Portales nacionales
 Exo Noticias,Portales locales
@@ -127,6 +146,7 @@ Expediente Ultra,Portales locales
 Facetas,Impresos locales
 Florentino Peralta,Portales locales
 Focus Hidalgo,Portales locales
+Forbes México web,Portales nacionales
 Foro 21 Hidalgo,Portales locales
 Foro TV,TV nacional
 Gobernanza,Portales locales
@@ -138,14 +158,17 @@ Heraldo Radio,Radio nacional
 Heraldo Televisión,TV nacional
 HgOnline,Portales locales
 Hidalgo brilla,Portales locales
+Hidalgo decide,RRSS
 Hidalgo diario digital,Portales locales
 Hidalgo digital,Portales locales
+Hidalgo en línea,Portales locales
 Hidalgo Hoy,Portales locales
 Hidalgo News,Portales locales
 Hidalgo Noticias,Portales locales
 Hidalgo Noticias Alerta,Portales locales
 Hidalgo Sport,Portales locales
 Hidal-GO!,Portales locales
+Hidalvía Informativa,RRSS
 Hora 25,Portales locales
 Huastecas News,Portales locales
 Imagen radio,Radio nacional
@@ -155,8 +178,10 @@ Info Hgo,Portales locales
 Info Libre,Portales locales
 Info Libre manteleta,Impresos locales
 Infobae,Portales nacionales
+Informativo del Mezquital,RRSS
 Jacala Multimedios,Portales locales
 Julio Astillero,Portales nacionales
+La Crónica web,Portales nacionales
 La Espina,Impresos locales
 La Jornada,Impresos nacionales
 La Jornada Hidalgo,Impresos locales
@@ -176,19 +201,28 @@ La Silla Rota Hidalgo,Portales locales
 La Tuza Metiche,Impresos locales
 La Verdad Hidalgo,Portales locales
 LatinUS,Portales internacionales
+Libre Albedrío Gaonews,RRSS
 Libre Expression del Estado de Hidalgo,Impresos locales
 Líderes políticos,Portales locales
+Lily media,Portales locales
 Línea x línea,Portales locales
 LM Noticias,Portales nacionales
 López Dóriga digital,Portales nacionales
 Los Ángeles Press,Portales internacionales
+Los hijos del pueblo,RRSS
+Maca online,Portales nacionales
 Marfeca,Portales locales
+Megalópolis MX,Portales nacionales
 Metro,Impresos nacionales
+Mexico Now,Portales internacionales
+MF la noticia al instante,RRSS
 Milenio,Impresos nacionales
 Milenio Hidalgo,Impresos locales
 Milenio TV,TV nacional
 Milenio web,Portales locales
 Mira Hidalgo,Portales locales
+Mizquitl radio,RRSS
+Mundo Ejecutivo,Portales nacionales
 MVS Noticias,Portales nacionales
 MVS Radio,Radio nacional
 MX Noticias,Portales nacionales
@@ -199,19 +233,26 @@ News Hidalgo,Portales locales
 Nodo TV,Portales locales
 Nota Hidalgo,Portales locales
 Noticiero Retrovisor,Portales locales
+NotiRed Hidalgo,Portales locales
 NQ radio web,Portales locales
 Nueva Imagen de Hidalgo,Impresos locales
 Nueva Imagen de Hidalgo web,Portales locales
 Nuevo Gráfico,Portales locales
 Omnia,Portales locales
+Once Digital,Portales nacionales
 Origen y destino,Impresos locales
 Ovaciones,Impresos nacionales
 Pachuca brilla,Portales locales
+Pachuca Denuncia,RRSS
 Pachuca digital,Portales locales
+Pachuca Informa,RRSS
 Pachuca Vive,Portales locales
 Panorama Hidalgo,Portales locales
 Paradigma,Portales locales
+Paradigma Digital,Portales locales
 Pensador hidalguense,Impresos locales
+Pensador Hidalguense web,Portales locales
+Planeta Noticias,Portales locales
 Plaza Juárez,Impresos locales
 Plaza Juárez web,Portales locales
 Plétora Lex,Impresos locales
@@ -221,6 +262,7 @@ Politico MX,Portales nacionales
 Portal Hidalgo,Portales locales
 Portavoz político,Portales locales
 Posta,Portales nacionales
+Presencia hidalguense,RRSS
 Primera línea,Portales nacionales
 Proceso,Portales nacionales
 Proyecto Puente,Portales nacionales
@@ -234,6 +276,7 @@ Qué Pachuca,Portales locales
 Radar político,Portales locales
 Radio Fórmula,Radio nacional
 Radio Fórmula web,Portales nacionales
+Razonez,RRSS
 Red Hidalgo,Portales locales
 Reforma,Impresos nacionales
 Reforma web,Portales nacionales
@@ -241,14 +284,20 @@ Regeneradoz,Portales locales
 Reporte Ágora,Portales locales
 Reporte cívico,Portales locales
 Reporte Hidalgo,Impresos locales
+Reporte Hidalgo web,portales locales
 Reporte Índigo,Impresos nacionales
 Reporte Índigo web,Portales nacionales
 República ENE,Portales locales
 Revista De Frente,Portales locales
 Revista Diferente,Impresos locales
+Revista Líderes Políticos,Impresos locales
 Revista Luna Negra,Portales locales
 Revista Portavoz,Impresos locales
 Revista Proceso,Impresos nacionales
+Revista Vía Libre,Impresos locales
+Revista Vía Libre,Portales locales
+Revista Vía Libre web,Portales locales
+Rumbos,Portales locales
 Ruta,Impresos locales
 Ruta web,Portales locales
 Sanfe radio,Portales locales
@@ -264,21 +313,26 @@ Sonder Radio,Portales locales
 Subrayado,Portales locales
 Subrayado Magazine,Impresos locales
 Suma Noticias,Portales locales
+Suma TV,TV local
 Super Stereo web,Portales locales
+Tele Urban web,Portales nacionales
 Telediario,TV nacional
 Telediario web,Portales nacionales
 Telefórmula,TV nacional
 Televisa,TV nacional
 Tiempo Express,Impresos locales
+Todo Texcoco,Portales nacionales
 Trapiche,Portales locales
 Trasfondo,Portales nacionales
 Tulancingo digital,Portales locales
 TV Azteca,TV nacional
+TV del Mezquital,TV local
 Ultra Noticias,Portales locales
 Uno más uno web,Portales nacionales
 Uno TV,Portales nacionales
 Veta Hidalgo,Portales locales
 Vía Libre,Portales locales
+Vía Libre Meridiano,Impresos locales
 Vocales radio web,Portales locales
 Voces Hidalgo,Portales locales
 W Radio,Radio nacional
@@ -290,23 +344,3 @@ Zócalo web,Portales nacionales
 Zucesos de las Huastecas,Impresos locales
 Zunoticia,Impresos locales
 Zunoticia web,Portales locales
-Alcaldes de México,Impresos nacionales
-Alcaldes de México web,Portales nacionales
-Vía Libre Meridiano,Impresos locales
-Revista Líderes Políticos,Impresos locales
-Enlace Huasteca TV,Portales locales
-Cofilm producciones,Portales locales
-Once Digital,Portales nacionales
-Pensador Hidalguense web,Portales locales
-Reporte Hidalgo web,portales locales
-Paradigma Digital,Portales locales
-Ágora Hidalgo,Portales locales
-El tiempo de Hidalgo web,Portales locales
-Planeta Noticias,Portales locales
-Código Tordo,Portales locales
-TV del Mezquital,TV local
-Con tinta y papel,Portales locales
-Tele Urban web,Portales nacionales
-Revista Vía Libre,Impresos locales
-Revista Vía Libre web,Portales locales
-El Informativo estatal web,Portales locales
