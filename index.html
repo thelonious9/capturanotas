@@ -1209,7 +1209,10 @@
     }
 
     function guardarNotas() {
-      renumerarNotas(); // Asegura que se guarden con numeración consecutiva
+      // No renumerar automáticamente aquí: conservar el `ordenCaptura`
+      // tal como fue asignado al crear/editar la nota. La renumeración
+      // sólo debe ejecutarse al borrar una nota para recorrer los números
+      // sin alterar el orden relativo de las notas.
       localStorage.setItem('notasCapturadas', JSON.stringify(notas));
       localStorage.setItem('nextOrdenCaptura', nextOrdenCaptura);
     }
