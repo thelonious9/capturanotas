@@ -7,6 +7,7 @@
   <title>Sistema de Captura de Notas</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/alasql@4"></script>
 
   <style>
     :root {
@@ -342,6 +343,65 @@
     .buscador-container {
       margin: 30px 0 10px;
       position: relative;
+    }
+
+    /* Consola SQL */
+    .sql-console-container {
+      margin: 20px 0;
+      padding: 15px;
+      border: 2px solid var(--color-border);
+      background: var(--color-fondo-form);
+    }
+
+    .sql-console-title {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .sql-console-help {
+      font-size: 0.85rem;
+      margin: 0 0 8px 0;
+      color: var(--color-text);
+      opacity: 0.8;
+    }
+
+    .sql-console-row {
+      display: flex;
+      gap: 10px;
+    }
+
+    #inputSQL {
+      flex: 1;
+      padding: 10px;
+      border: 2px solid var(--color-border);
+      font-family: monospace;
+      font-size: 0.95rem;
+      background: var(--color-fondo-form);
+      color: var(--color-text);
+      border-radius: var(--radius);
+    }
+
+    #inputSQL:focus {
+      background: var(--color-text);
+      color: var(--color-fondo-pagina);
+      outline: none;
+    }
+
+    #btnEjecutarSQL {
+      background: transparent;
+      color: var(--color-text);
+      border: 2px solid var(--color-text);
+      padding: 10px 20px;
+      transition: all 0.2s;
+      border-radius: var(--radius);
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    #btnEjecutarSQL:hover {
+      background: var(--color-text);
+      color: var(--color-fondo-pagina);
     }
 
     /* Zoom Controls */
@@ -754,9 +814,25 @@
     <input type="text" id="buscador" placeholder="Buscar en la tabla (Titular, Medio, etc.)">
   </div>
 
+  <!-- Consola de Comandos SQL interactiva -->
+  <div class="sql-console-container" style="display: none;">
+    <label class="sql-console-title"><i class="fa-solid fa-terminal"></i> Consola de Ejecución SQL:</label>
+    <p class="sql-console-help">
+      Usa la tabla virtual <code>notas</code>. Campos: <code>ordenCaptura, id, fecha, usuario, medio, titular, firma, pagina, dependencia, organismo, genero, canal, tema, estatus, municipio</code>
+    </p>
+    <div class="sql-console-row">
+      <input type="text" id="inputSQL" placeholder="Ej: UPDATE notas SET estatus = 'Revisado' WHERE medio = 'El Universal'">
+      <button type="button" id="btnEjecutarSQL">Ejecutar</button>
+    </div>
+    <div id="sqlConsoleMsg" style="margin-top: 10px; font-weight: bold;"></div>
+  </div>
+
   <div class="table-header-container">
     <h2>Notas capturadas</h2>
     <div class="zoom-controls">
+      <button type="button" class="btn-campo" id="btnToggleSQL" style="margin-right: 15px;" title="Mostrar/Ocultar Consola SQL">
+        <i class="fa-solid fa-terminal"></i> Editar sql
+      </button>
       <button type="button" class="btn-zoom" id="zoomOut" title="Reducir zoom">
         <i class="fa-solid fa-magnifying-glass-minus"></i>
       </button>
@@ -1710,6 +1786,62 @@
 
       // Listener para el buscador en tiempo real
       document.getElementById('buscador').addEventListener('input', filtrarTabla);
+
+      // Consola SQL con AlaSQL
+      const msgEl = document.getElementById("sqlConsoleMsg");
+      const showConsoleMsg = (msg, isError = false) => {
+        msgEl.textContent = msg;
+        msgEl.style.color = isError ? "var(--color-error)" : "var(--color-text)";
+      };
+
+      document.getElementById("btnToggleSQL").addEventListener("click", () => {
+        const consoleEl = document.querySelector(".sql-console-container");
+        consoleEl.style.display = consoleEl.style.display === "none" ? "block" : "none";
+      });
+
+      document.getElementById("inputSQL").addEventListener("keydown", (e) => {
+        if ((e.ctrlKey || e.metaKey) && e.key === "Enter") {
+          e.preventDefault();
+          document.getElementById("btnEjecutarSQL").click();
+        }
+      });
+
+      document.getElementById("btnEjecutarSQL").addEventListener("click", () => {
+        const query = document.getElementById("inputSQL").value.trim();
+        if (!query) {
+          showConsoleMsg("");
+          return;
+        }
+
+        try {
+          if (!alasql.tables || !alasql.tables.notas) {
+            alasql('CREATE TABLE notas');
+          }
+          alasql.tables.notas.data = notas;
+
+          if (/(update|delete|insert)/i.test(query)) {
+            const filasAfectadas = alasql(query);
+            notas = alasql.tables.notas.data;
+            guardarNotas();
+            renderizarTabla();
+            showConsoleMsg(`Comando ejecutado con éxito. Filas afectadas/Resultado: ${filasAfectadas}`);
+          } else if (/select/i.test(query)) {
+            const resultado = alasql(query);
+            console.table(resultado); 
+            if (Array.isArray(resultado)) {
+              notas = resultado;
+              renderizarTabla();
+              cargarNotasGuardadas();
+              showConsoleMsg(`Mostrando ${resultado.length} resultados del SELECT (F12 para ver la matriz completa)`);
+            }
+          } else {
+            showConsoleMsg('Comando no soportado de manera directa en esta consola estática.', true);
+          }
+        } catch (error) {
+          console.error(error);
+          showConsoleMsg('Error de Sintaxis SQL: ' + error.message, true);
+        }
+      });
 
       // Persistence & Locks
       CAMPOS_CON_BLOQUEO.forEach(id => {
