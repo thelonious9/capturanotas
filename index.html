@@ -338,6 +338,16 @@
       color: var(--color-fondo-pagina);
     }
 
+    #btnRestaurarRespaldo {
+      border-color: var(--color-success);
+      color: var(--color-success);
+    }
+
+    #btnRestaurarRespaldo:hover {
+      background: var(--color-success);
+      color: var(--color-fondo-pagina);
+    }
+
 
     /* Buscador */
     .buscador-container {
@@ -804,6 +814,10 @@
       <button type="button" id="btnBorrarTodo" onclick="borrarTodo()">
         <i class="fa-solid fa-trash-can"></i> Borrar Todas
       </button>
+
+      <button type="button" id="btnRestaurarRespaldo" style="display: none;" onclick="restaurarRespaldo()">
+        <i class="fa-solid fa-clock-rotate-left"></i> Recuperar último respaldo
+      </button>
     </div>
   </form>
 
@@ -1226,6 +1240,11 @@
 
     function borrarTodo() {
       if (confirm("¿Estás seguro de que quieres BORRAR TODAS las notas capturadas? Esta acción es irreversible.")) {
+        // 🌟 SALVADO DE EMERGENCIA: Guardamos un respaldo antes de borrar
+        if (notas.length > 0) {
+          localStorage.setItem('respaldo_emergencia', JSON.stringify(notas));
+          console.log("Se ha creado un respaldo de emergencia en el almacenamiento local.");
+        }
         notas = [];
         nextOrdenCaptura = 1;
         localStorage.removeItem('notasCapturadas');
@@ -1235,7 +1254,59 @@
         desbloquearTodosLosCampos();
         document.querySelector("form").reset();
         resetearEstadoEdicion();
+
+        // Mostrar el botón de recuperación ya que hay un respaldo disponible
+        actualizarVisibilidadBotonRestaurar();
+
+        // Avisar de forma clara que existe un respaldo temporal recuperable
+        alert("Notas borradas. Se guardó un respaldo temporal: puedes recuperarlo con el botón 'Recuperar último respaldo' mientras no borres los datos de este navegador.");
       }
+    }
+
+    // 🌟 Restaura las notas desde el respaldo de emergencia guardado en localStorage
+    function restaurarRespaldo() {
+      const respaldoJSON = localStorage.getItem('respaldo_emergencia');
+      if (!respaldoJSON) {
+        alert("No hay ningún respaldo disponible para recuperar.");
+        actualizarVisibilidadBotonRestaurar();
+        return;
+      }
+
+      let notasRespaldo;
+      try {
+        notasRespaldo = JSON.parse(respaldoJSON);
+      } catch (e) {
+        alert("El respaldo encontrado está dañado y no se pudo recuperar.");
+        localStorage.removeItem('respaldo_emergencia');
+        actualizarVisibilidadBotonRestaurar();
+        return;
+      }
+
+      if (!Array.isArray(notasRespaldo) || notasRespaldo.length === 0) {
+        alert("El respaldo encontrado está vacío.");
+        localStorage.removeItem('respaldo_emergencia');
+        actualizarVisibilidadBotonRestaurar();
+        return;
+      }
+
+      const confirmar = confirm(`Se encontraron ${notasRespaldo.length} nota(s) en el respaldo. ¿Deseas restaurarlas? Esto reemplazará las notas actuales.`);
+      if (!confirmar) return;
+
+      notas = notasRespaldo;
+      renumerarNotas();
+      guardarNotas();
+      localStorage.removeItem('respaldo_emergencia');
+      actualizarVisibilidadBotonRestaurar();
+      ordenarTabla(ordenActual.columna, true);
+
+      alert(`Se restauraron ${notas.length} nota(s) correctamente.`);
+    }
+
+    // 🌟 Muestra u oculta el botón de restaurar según si hay un respaldo disponible
+    function actualizarVisibilidadBotonRestaurar() {
+      const btn = document.getElementById('btnRestaurarRespaldo');
+      if (!btn) return;
+      btn.style.display = localStorage.getItem('respaldo_emergencia') ? '' : 'none';
     }
 
     function borrarNota(indice = null) {
@@ -2127,6 +2198,9 @@
     // --- LÓGICA DE TEMA OSCURO ---
     const themeToggle = document.getElementById('themeToggle');
     const body = document.body;
+
+    // Verifica si hay un respaldo de emergencia pendiente de una sesión anterior
+    actualizarVisibilidadBotonRestaurar();
 
     // Cargar tema guardado
     const currentTheme = localStorage.getItem('theme');
