@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/alasql@4"></script>
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
 
   <style>
     :root {
@@ -811,6 +812,11 @@
 
       <button type="button" id="btnExportarNotas" onclick="exportarNotas()">
         <i class="fa-solid fa-file-export"></i> Exportar notas
+      </button>
+
+      <input type="file" id="inputImportarNotas" accept=".csv,.xlsx" hidden>
+      <button type="button" id="btnImportarNotas">
+        <i class="fa-solid fa-file-import"></i> Cargar CSV/XLSX
       </button>
 
       <button type="button" id="btnBorrarTodo" onclick="borrarTodo()">
@@ -1660,6 +1666,98 @@
       URL.revokeObjectURL(url);
     }
 
+    const aliasCamposImportacion = {
+      '#': 'ordenCaptura', 'orden': 'ordenCaptura', 'ordencaptura': 'ordenCaptura',
+      'id': 'id', 'fecha': 'fecha', 'usuario': 'usuario', 'medio': 'medio',
+      'titular': 'titular', 'firma': 'firma', 'pagina': 'pagina',
+      'dependencia': 'dependencia', 'organismo': 'organismo', 'genero': 'genero',
+      'canal': 'canal', 'tema': 'tema', 'estatus': 'estatus', 'municipio': 'municipio'
+    };
+
+    function normalizarEncabezadoImportacion(valor) {
+      return valor.toString().trim().replace(/^\uFEFF/, '').normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    }
+
+    function resolverCampoImportacion(encabezado) {
+      const encabezadoNormalizado = normalizarEncabezadoImportacion(encabezado);
+      const alias = Object.entries(aliasCamposImportacion).find(([nombre]) =>
+        normalizarEncabezadoImportacion(nombre) === encabezadoNormalizado
+      );
+      return alias ? alias[1] : null;
+    }
+
+    function convertirFechaImportada(valor) {
+      if (valor instanceof Date && !isNaN(valor)) {
+        return valor.toISOString().slice(0, 10);
+      }
+      const texto = (valor ?? '').toString().trim();
+      const fechaExcel = XLSX.SSF.parse_date_code(Number(texto));
+      if (/^\d+(\.\d+)?$/.test(texto) && fechaExcel) {
+        return `${fechaExcel.y}-${String(fechaExcel.m).padStart(2, '0')}-${String(fechaExcel.d).padStart(2, '0')}`;
+      }
+      const partes = texto.match(/^(\d{1,2})[\/-](\d{1,2})[\/-](\d{4})$/);
+      if (partes) return `${partes[3]}-${partes[2].padStart(2, '0')}-${partes[1].padStart(2, '0')}`;
+      return texto;
+    }
+
+    function convertirFilaImportada(fila, mapaColumnas) {
+      const nota = {};
+      camposDeDatos.forEach(campo => {
+        const columna = mapaColumnas[campo];
+        let valor = columna === undefined ? '' : fila[columna];
+        if (campo === 'fecha') valor = convertirFechaImportada(valor);
+        else valor = (valor ?? '').toString().trim();
+        nota[campo] = valor;
+      });
+      return nota;
+    }
+
+    async function importarNotas(archivo) {
+      if (!archivo) return;
+      const extension = archivo.name.toLowerCase().split('.').pop();
+      if (!['csv', 'xlsx'].includes(extension)) {
+        alert('Selecciona un archivo CSV o XLSX.');
+        return;
+      }
+
+      try {
+        const datos = await archivo.arrayBuffer();
+        const libro = XLSX.read(datos, { type: 'array', cellDates: true });
+        const hoja = libro.Sheets[libro.SheetNames[0]];
+        const filas = XLSX.utils.sheet_to_json(hoja, { header: 1, defval: '', raw: true });
+        if (filas.length < 2) throw new Error('El archivo no contiene encabezados y filas de datos.');
+
+        const mapaColumnas = {};
+        filas[0].forEach((encabezado, indice) => {
+          const campo = resolverCampoImportacion(encabezado);
+          if (campo) mapaColumnas[campo] = indice;
+        });
+        const camposEncontrados = camposDeDatos.filter(campo => campo !== 'ordenCaptura' && mapaColumnas[campo] !== undefined);
+        if (camposEncontrados.length === 0) {
+          throw new Error('No se encontraron encabezados compatibles con la tabla de notas.');
+        }
+
+        const notasImportadas = filas.slice(1)
+          .filter(fila => fila.some(valor => valor !== ''))
+          .map(fila => convertirFilaImportada(fila, mapaColumnas));
+        if (notasImportadas.length === 0) throw new Error('El archivo no contiene filas de datos.');
+
+        if (notas.length > 0 && !confirm('La carga reemplazará las notas actuales. ¿Deseas continuar?')) return;
+        notasImportadas.forEach(nota => {
+          nota.ordenCaptura = nextOrdenCaptura++;
+        });
+        notas = notasImportadas;
+        guardarNotas();
+        ordenarTabla('ordenCaptura', true);
+        resetearEstadoEdicion();
+        alert(`Se cargaron ${notas.length} nota(s). Puedes editarlas desde la tabla.`);
+      } catch (error) {
+        console.error('Error al importar notas:', error);
+        alert(`No se pudo cargar el archivo: ${error.message}`);
+      }
+    }
+
     // ======================================================================
     // 🌟 FUNCIÓN: EXPORTAR NOTAS (CSV + GOOGLE SHEETS) 🌟
     // ======================================================================
@@ -2131,6 +2229,14 @@
 
       // Listener para el buscador en tiempo real
       document.getElementById('buscador').addEventListener('input', filtrarTabla);
+
+      document.getElementById('btnImportarNotas').addEventListener('click', () => {
+        document.getElementById('inputImportarNotas').click();
+      });
+      document.getElementById('inputImportarNotas').addEventListener('change', e => {
+        importarNotas(e.target.files[0]);
+        e.target.value = '';
+      });
 
       // Consola SQL con AlaSQL
       const msgEl = document.getElementById("sqlConsoleMsg");
