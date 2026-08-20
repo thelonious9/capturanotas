@@ -514,72 +514,112 @@
       text-overflow: ellipsis;
     }
 
+    /* Filas Normales Hover */
+    #tablaNotas tr {
+      position: relative;
+      transition: background-color 0.15s ease, color 0.15s ease;
+    }
+
     #tablaNotas tr:hover td {
       background: var(--color-text);
       color: var(--color-fondo-pagina);
     }
 
     body:not(.dark-mode) #tablaNotas tr:hover td {
-      color: #fff;
+      background-color: var(--color-text);
+      color: #ffffff;
     }
 
+    body.dark-mode #tablaNotas tr:hover td {
+      background-color: var(--color-primary-hover);
+      color: #1a1a1a;
+    }
+
+    /* Filas con Alerta / Vacías */
     #tablaNotas tr.alerta-vacio td {
       background-color: #fff0f0;
       color: #d90000;
+      font-weight: 600;
     }
 
-    .btn-accion-tabla {
-      padding: 6px 12px;
-      background: transparent;
-      border: 2px solid var(--color-border);
-      color: var(--color-text);
-      font-size: 0.85rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: all 0.2s;
+    /* Hover en Filas con Alerta / Vacías: asegura contraste óptimo (blanco sobre fondo rojo intenso) */
+    body:not(.dark-mode) #tablaNotas tr.alerta-vacio:hover td,
+    #tablaNotas tr.alerta-vacio:hover td {
+      background-color: #c90000 !important;
+      color: #ffffff !important;
     }
 
-    .btn-accion-tabla:hover {
-      background: var(--color-text);
-      color: var(--color-fondo-pagina);
+    body.dark-mode #tablaNotas tr.alerta-vacio td {
+      background-color: #3d1414;
+      color: #ff8080;
     }
 
-    /* Action Icons Grouped */
-    .acciones-btn-group {
+    body.dark-mode #tablaNotas tr.alerta-vacio:hover td {
+      background-color: #8b0000 !important;
+      color: #ffffff !important;
+    }
+
+    /* Floating Action Bar (Aparece en cualquier celda de la tabla al pasar el cursor) */
+    .table-container {
+      position: relative;
+    }
+
+    .floating-row-actions {
+      position: absolute;
       display: flex;
-      gap: 5px;
-      justify-content: center;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 6px;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity 0.15s ease, visibility 0.15s ease;
+      z-index: 1000;
+      background: var(--color-fondo-form);
+      padding: 4px 8px;
+      border: 2px solid var(--color-border);
+      border-radius: var(--radius);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
     }
 
-    .btn-icon-accion {
+    .floating-row-actions.show {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    .btn-float-action {
       background: transparent;
       border: 1.5px solid var(--color-border);
       color: var(--color-text);
-      width: 32px;
-      height: 32px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      padding: 5px 10px;
+      font-size: 0.82rem;
+      font-weight: 700;
       cursor: pointer;
-      border-radius: 4px;
-      transition: all 0.2s;
-      font-size: 0.9rem;
+      border-radius: var(--radius);
+      display: inline-flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+      width: 100%;
     }
 
-    .btn-icon-accion:hover {
+    .btn-float-action:hover {
       background: var(--color-text);
       color: var(--color-fondo-pagina);
-      transform: translateY(-2px);
     }
 
-    .btn-icon-accion.borrar:hover {
-      background: var(--color-danger);
+    .btn-float-action.btn-float-del {
       border-color: var(--color-danger);
-      color: #fff;
+      color: var(--color-danger);
     }
 
-    /* Remove old dropdown styles if any */
-    .acciones-menu, .acciones-container { display: none; }
+    .btn-float-action.btn-float-del:hover {
+      background: var(--color-danger);
+      color: #ffffff;
+    }
 
     /* --- RESPONSIVE --- */
     @media (max-width: 1024px) {
@@ -877,6 +917,17 @@
   </div>
 
   <div class="table-container">
+    <div id="floatingTableActions" class="floating-row-actions">
+      <button type="button" id="btnFloatEdit" class="btn-float-action" title="Editar Nota">
+        <i class="fa-solid fa-pen-to-square"></i> Editar
+      </button>
+      <button type="button" id="btnFloatDup" class="btn-float-action" title="Duplicar Nota">
+        <i class="fa-solid fa-copy"></i> Duplicar
+      </button>
+      <button type="button" id="btnFloatDel" class="btn-float-action btn-float-del" title="Borrar Nota">
+        <i class="fa-solid fa-trash-can"></i> Borrar
+      </button>
+    </div>
     <table id="tablaNotas">
       <thead>
         <tr>
@@ -925,7 +976,6 @@
           <th data-col="municipio">
             <div class="sortable-header">Municipio <span class="sort-icon"></span></div>
           </th>
-          <th>Acciones</th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -1250,6 +1300,13 @@
       // sin alterar el orden relativo de las notas.
       localStorage.setItem('notasCapturadas', JSON.stringify(notas));
       localStorage.setItem('nextOrdenCaptura', nextOrdenCaptura);
+      if (window.BroadcastChannel) {
+        try {
+          const bc = new BroadcastChannel('capturanotas_sync');
+          bc.postMessage('update');
+          bc.close();
+        } catch (e) {}
+      }
     }
 
     function renumerarNotas() {
@@ -1317,6 +1374,13 @@
         nextOrdenCaptura = 1;
         localStorage.removeItem('notasCapturadas');
         localStorage.removeItem('nextOrdenCaptura');
+        if (window.BroadcastChannel) {
+          try {
+            const bc = new BroadcastChannel('capturanotas_sync');
+            bc.postMessage('update');
+            bc.close();
+          } catch(e) {}
+        }
         renderizarTabla();
         // 🌟 Asegura que todos los campos se desbloqueen antes de resetear 🌟
         desbloquearTodosLosCampos();
@@ -1480,39 +1544,6 @@
           tr.appendChild(td);
         });
 
-        const tdAcciones = document.createElement("td");
-        tdAcciones.setAttribute('data-label', encabezadosTabla['acciones']);
-        
-        const group = document.createElement("div");
-        group.className = "acciones-btn-group";
-
-        // Botón Editar
-        const btnEdit = document.createElement("button");
-        btnEdit.className = "btn-icon-accion";
-        btnEdit.innerHTML = "<i class='fa-solid fa-pen-to-square'></i>";
-        btnEdit.title = "Editar Nota";
-        btnEdit.onclick = () => editarNota(tr);
-
-        // Botón Duplicar
-        const btnDup = document.createElement("button");
-        btnDup.className = "btn-icon-accion";
-        btnDup.innerHTML = "<i class='fa-solid fa-copy'></i>";
-        btnDup.title = "Duplicar y Editar";
-        btnDup.onclick = () => duplicarNota(nota.ordenCaptura);
-
-        // Botón Borrar
-        const btnDel = document.createElement("button");
-        btnDel.className = "btn-icon-accion borrar";
-        btnDel.innerHTML = "<i class='fa-solid fa-trash-can'></i>";
-        btnDel.title = "Borrar Nota";
-        btnDel.onclick = () => borrarNota(indice);
-
-        group.appendChild(btnEdit);
-        group.appendChild(btnDup);
-        group.appendChild(btnDel);
-        tdAcciones.appendChild(group);
-        tr.appendChild(tdAcciones);
-
         tablaBody.appendChild(tr);
       });
 
@@ -1598,6 +1629,23 @@
       });
     }
 
+
+    // Funciones helper para comunicación con la ventana emergente
+    window.editarNotaPorId = function(notaId) {
+      const tr = document.querySelector(`#tablaNotas tbody tr[data-id="${notaId}"]`);
+      if (tr) {
+        editarNota(tr);
+      }
+    };
+    window.duplicarNotaPorId = function(notaId) {
+      duplicarNota(notaId);
+    };
+    window.borrarNotaPorId = function(notaId) {
+      const indice = notas.findIndex(n => n.ordenCaptura === notaId);
+      if (indice !== -1) {
+        borrarNota(indice);
+      }
+    };
 
     function editarNota(tr) {
       const notaId = parseInt(tr.dataset.id);
@@ -2071,7 +2119,7 @@
         '.zoom-row { display: flex; align-items: center; gap: 6px; }',
         '.zoom-val { min-width: 44px; text-align: center; font-weight: bold; cursor: pointer; font-size: 0.9rem; }',
         '.stat { font-size: 0.82rem; opacity: 0.6; white-space: nowrap; }',
-        '.table-wrap { width: 100%; overflow: auto; border: 2px solid currentColor; max-height: calc(100vh - 100px); }',
+        '.table-wrap { width: 100%; overflow: auto; border: 2px solid currentColor; max-height: calc(100vh - 100px); position: relative; }',
         'table { width: 100%; border-collapse: collapse; font-size: calc(0.88rem * var(--zoom)); }',
         'th { padding: 10px 8px; border: 1px solid currentColor; font-size: calc(0.75rem * var(--zoom)); text-transform: uppercase; font-weight: 800; text-align: left; cursor: pointer; user-select: none; white-space: nowrap; position: sticky; top: 0; background: #fcfcfc; z-index: 1; }',
         'body.dark th { background: #1a1a1a; }',
@@ -2082,7 +2130,15 @@
         'body.dark tr:hover td { background: #e0e0e0; color: #1a1a1a; }',
         'tr.alerta td { background: #fff0f0; color: #d90000; }',
         'body.dark tr.alerta td { background: #3a1a1a; color: #ff8080; }',
-        '.empty { text-align: center; padding: 50px; opacity: 0.45; font-size: 1.1rem; }'
+        '.empty { text-align: center; padding: 50px; opacity: 0.45; font-size: 1.1rem; }',
+        '.floating-row-actions { position: absolute; display: flex; flex-direction: column; align-items: stretch; gap: 6px; opacity: 0; visibility: hidden; pointer-events: none; transition: opacity 0.15s ease, visibility 0.15s ease; z-index: 1000; background: #fcfcfc; padding: 4px 8px; border: 2px solid currentColor; border-radius: 0; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25); }',
+        'body.dark .floating-row-actions { background: #1a1a1a; }',
+        '.floating-row-actions.show { opacity: 1; visibility: visible; pointer-events: auto; }',
+        '.btn-float-action { background: transparent; border: 1.5px solid currentColor; color: inherit; padding: 5px 10px; font-size: 0.82rem; font-weight: 700; cursor: pointer; display: inline-flex; justify-content: flex-start; align-items: center; gap: 5px; transition: all 0.15s ease; white-space: nowrap; width: 100%; }',
+        '.btn-float-action:hover { background: currentColor; color: #fcfcfc; }',
+        'body.dark .btn-float-action:hover { color: #1a1a1a; }',
+        '.btn-float-del { border-color: #d90000; color: #d90000; }',
+        '.btn-float-del:hover { background: #d90000; color: #fff; }'
       ].join('\n');
 
       const js = [
@@ -2114,6 +2170,7 @@
         '  }',
         '  datos.forEach(function(nota){',
         '    var tr=document.createElement("tr");',
+        '    tr.dataset.id=nota.ordenCaptura;',
         '    if(esVacia(nota)) tr.className="alerta";',
         '    CAMPOS.forEach(function(col){',
         '      var td=document.createElement("td");',
@@ -2125,12 +2182,14 @@
         '  });',
         '  document.getElementById("stat").textContent=datos.length+" / "+notas.length+" notas";',
         '}',
-        'function ordenar(col){',
-        '  if(ord.col===col){ord.dir=ord.dir==="asc"?"desc":"asc";}else{ord.col=col;ord.dir="asc";}',
+        'function ordenar(col, mantenerDir){',
+        '  if(!mantenerDir){',
+        '    if(ord.col===col){ord.dir=ord.dir==="asc"?"desc":"asc";}else{ord.col=col;ord.dir="asc";}',
+        '  }',
         '  notas.sort(function(a,b){',
-        '    var va=a[col]||"",vb=b[col]||"",cmp=0;',
-        '    if(col==="ordenCaptura")cmp=va-vb;',
-        '    else if(col==="fecha")cmp=new Date(va+"T00:00")-new Date(vb+"T00:00");',
+        '    var va=a[ord.col]||"",vb=b[ord.col]||"",cmp=0;',
+        '    if(ord.col==="ordenCaptura")cmp=va-vb;',
+        '    else if(ord.col==="fecha")cmp=new Date(va+"T00:00")-new Date(vb+"T00:00");',
         '    else cmp=va.toString().localeCompare(vb.toString(),"es",{sensitivity:"base"});',
         '    return ord.dir==="asc"?cmp:-cmp;',
         '  });',
@@ -2141,13 +2200,69 @@
         '  var d=q?notas.filter(function(n){return CAMPOS.some(function(c){return(n[c]||"").toString().toLowerCase().indexOf(q)>-1;});}):notas;',
         '  render(d);',
         '}',
+        'function refrescarDatos(){',
+        '  try {',
+        '    var raw = localStorage.getItem("notasCapturadas");',
+        '    notas = raw ? JSON.parse(raw) : [];',
+        '  } catch(e) { console.error(e); }',
+        '  ordenar(ord.col, true);',
+        '}',
+        'window.addEventListener("storage", function(e){',
+        '  if(e.key === "notasCapturadas" || e.key === "nextOrdenCaptura") refrescarDatos();',
+        '});',
+        'if (window.BroadcastChannel) {',
+        '  try {',
+        '    var bc = new BroadcastChannel("capturanotas_sync");',
+        '    bc.onmessage = function(e){ if(e.data === "update") refrescarDatos(); };',
+        '  } catch(e){}',
+        '}',
         'function zoom2(delta,reset){',
         '  if(reset)zoom=1; else zoom=Math.max(0.5,Math.min(2,zoom+delta));',
         '  document.documentElement.style.setProperty("--zoom",zoom);',
         '  document.getElementById("zv").textContent=Math.round(zoom*100)+"%";',
         '}',
         'function darkToggle(){document.body.classList.toggle("dark");}',
-        'cabecera(); filtrar();'
+        'var hoverTimeout = null; var currentHoveredTd = null;',
+        'function initFloat(){',
+        '  var wrap=document.querySelector(".table-wrap");',
+        '  var fa=document.getElementById("fa");',
+        '  var tb=document.getElementById("tb");',
+        '  if(!wrap || !fa || !tb) return;',
+        '  tb.addEventListener("mousemove", function(e){',
+        '    var td=e.target.closest("td"), tr=e.target.closest("tr");',
+        '    if(!tr || !td){ clearTimeout(hoverTimeout); return; }',
+        '    if(td===currentHoveredTd && fa.classList.contains("show")) return;',
+        '    if(td!==currentHoveredTd) clearTimeout(hoverTimeout);',
+        '    currentHoveredTd=td;',
+        '    var notaId=parseInt(tr.dataset.id,10);',
+        '    if(isNaN(notaId)) return;',
+        '    if(!fa.classList.contains("show")){',
+        '      hoverTimeout = setTimeout(function(){',
+        '        if(currentHoveredTd===td) showFa(td, notaId, wrap, fa);',
+        '      }, 350);',
+        '    } else {',
+        '      showFa(td, notaId, wrap, fa);',
+        '    }',
+        '  });',
+        '  wrap.addEventListener("mouseleave", function(e){',
+        '    if(!fa.contains(e.relatedTarget)){ clearTimeout(hoverTimeout); fa.classList.remove("show"); currentHoveredTd=null; }',
+        '  });',
+        '  fa.addEventListener("mouseleave", function(e){',
+        '    if(!wrap.contains(e.relatedTarget)){ clearTimeout(hoverTimeout); fa.classList.remove("show"); currentHoveredTd=null; }',
+        '  });',
+        '}',
+        'function showFa(td, notaId, wrap, fa) {',
+        '  var cRect=wrap.getBoundingClientRect(), tdRect=td.getBoundingClientRect();',
+        '  var sl=wrap.scrollLeft;',
+        '  var leftPos = (tdRect.right - cRect.left) + sl - 8;',
+        '  var topPos = (tdRect.top - cRect.top) + (tdRect.height / 2);',
+        '  fa.style.top = topPos+"px"; fa.style.left = leftPos+"px"; fa.style.transform="translate(-100%, -50%)";',
+        '  fa.classList.add("show");',
+        '  document.getElementById("fa-edit").onclick=function(ev){ev.stopPropagation(); fa.classList.remove("show"); if(window.opener) { window.opener.editarNotaPorId(notaId); window.opener.focus(); } };',
+        '  document.getElementById("fa-dup").onclick=function(ev){ev.stopPropagation(); fa.classList.remove("show"); if(window.opener) { window.opener.duplicarNotaPorId(notaId); window.opener.focus(); } };',
+        '  document.getElementById("fa-del").onclick=function(ev){ev.stopPropagation(); fa.classList.remove("show"); if(window.opener) { window.opener.borrarNotaPorId(notaId); } };',
+        '}',
+        'cabecera(); filtrar(); initFloat();',
       ].join('\n');
 
       const sc = 'scr' + 'ipt';
@@ -2155,11 +2270,13 @@
         '<meta charset="UTF-8">' +
         '<meta name="viewport" content="width=device-width,initial-scale=1">' +
         '<title>Tabla de Notas \u2014 Vista Completa<\/title>' +
+        '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">' +
         '<style>' + css + '<\/style>' +
         '<\/head><body>' +
         '<div class="top-bar">' +
           '<h1>&#128202; Notas capturadas<\/h1>' +
           '<input type="text" id="buscador" placeholder="&#128269; Buscar en la tabla..." oninput="filtrar()">' +
+          '<button class="btn" onclick="refrescarDatos()" title="Refrescar tabla desde el almacenamiento local"><i class="fa-solid fa-rotate"></i> Refrescar<\/button>' +
           '<div class="zoom-row">' +
             '<button class="btn" onclick="zoom2(-0.1)">&#8722; Zoom<\/button>' +
             '<span class="zoom-val" id="zv" onclick="zoom2(0,true)">100%<\/span>' +
@@ -2169,6 +2286,11 @@
           '<span class="stat" id="stat"><\/span>' +
         '<\/div>' +
         '<div class="table-wrap">' +
+          '<div id="fa" class="floating-row-actions">' +
+            '<button id="fa-edit" class="btn-float-action"><i class="fa-solid fa-pen-to-square"></i> Editar</button>' +
+            '<button id="fa-dup" class="btn-float-action"><i class="fa-solid fa-copy"></i> Duplicar</button>' +
+            '<button id="fa-del" class="btn-float-action btn-float-del"><i class="fa-solid fa-trash-can"></i> Borrar</button>' +
+          '</div>' +
           '<table><thead><tr id="tr-head"><\/tr><\/thead><tbody id="tb"><\/tbody><\/table>' +
         '<\/div>' +
         '<' + sc + '>' + js + '<\/' + sc + '>' +
@@ -2467,6 +2589,7 @@
               notas = resultado;
               renderizarTabla();
               cargarNotasGuardadas();
+      inicializarAccionesFlotantes();
               showConsoleMsg(`Mostrando ${resultado.length} resultados del SELECT (F12 para ver la matriz completa)`);
             }
           } else {
@@ -2491,11 +2614,105 @@
         }
       });
 
+    let currentHoveredTd = null;
+    let hoverTimeout = null;
+
+    function mostrarAccionesFlotantes(td, tr, notaId, notaIndex, tableContainer, floatingActions) {
+        const containerRect = tableContainer.getBoundingClientRect();
+        const tdRect = td.getBoundingClientRect();
+
+        const scrollLeft = tableContainer.scrollLeft;
+        let leftPos = (tdRect.right - containerRect.left) + scrollLeft - 8;
+        let topPos = (tdRect.top - containerRect.top) + (tdRect.height / 2);
+
+        floatingActions.style.top = `${topPos}px`;
+        floatingActions.style.left = `${leftPos}px`;
+        floatingActions.style.transform = `translate(-100%, -50%)`;
+
+        floatingActions.classList.add('show');
+
+        document.getElementById('btnFloatEdit').onclick = (evt) => {
+          evt.stopPropagation();
+          floatingActions.classList.remove('show');
+          editarNota(tr);
+        };
+
+        document.getElementById('btnFloatDup').onclick = (evt) => {
+          evt.stopPropagation();
+          floatingActions.classList.remove('show');
+          duplicarNota(notaId);
+        };
+
+        document.getElementById('btnFloatDel').onclick = (evt) => {
+          evt.stopPropagation();
+          floatingActions.classList.remove('show');
+          borrarNota(notaIndex);
+        };
+    }
+
+    function inicializarAccionesFlotantes() {
+      const tableContainer = document.querySelector('.table-container');
+      const floatingActions = document.getElementById('floatingTableActions');
+      const tablaBody = document.querySelector('#tablaNotas tbody');
+
+      if (!tableContainer || !floatingActions || !tablaBody) return;
+
+      tablaBody.addEventListener('mousemove', (e) => {
+        const td = e.target.closest('td');
+        const tr = e.target.closest('tr');
+
+        if (!tr || !td) {
+          clearTimeout(hoverTimeout);
+          return;
+        }
+
+        if (td === currentHoveredTd && floatingActions.classList.contains('show')) return;
+        
+        if (td !== currentHoveredTd) {
+          clearTimeout(hoverTimeout);
+        }
+
+        const notaId = parseInt(tr.dataset.id, 10);
+        const notaIndex = notas.findIndex(n => n.ordenCaptura === notaId);
+        if (notaIndex === -1) return;
+
+        currentHoveredTd = td;
+        
+        if (!floatingActions.classList.contains('show')) {
+          hoverTimeout = setTimeout(() => {
+            if (currentHoveredTd === td) {
+              mostrarAccionesFlotantes(td, tr, notaId, notaIndex, tableContainer, floatingActions);
+            }
+          }, 350);
+        } else {
+          mostrarAccionesFlotantes(td, tr, notaId, notaIndex, tableContainer, floatingActions);
+        }
+      });
+
+      tableContainer.addEventListener('mouseleave', (e) => {
+        if (!floatingActions.contains(e.relatedTarget)) {
+          clearTimeout(hoverTimeout);
+          floatingActions.classList.remove('show');
+          currentHoveredTd = null;
+        }
+      });
+
+      floatingActions.addEventListener('mouseleave', (e) => {
+        if (!tableContainer.contains(e.relatedTarget)) {
+          clearTimeout(hoverTimeout);
+          floatingActions.classList.remove('show');
+          currentHoveredTd = null;
+        }
+      });
+    }
+
       cargarNotasGuardadas();
+      inicializarAccionesFlotantes();
 
       // Cerrar menús al hacer clic fuera
       document.addEventListener('click', () => {
         document.querySelectorAll('.acciones-menu.show').forEach(m => m.classList.remove('show'));
+        document.querySelectorAll('.acciones-dropdown.show').forEach(d => d.classList.remove('show'));
       });
 
       document.querySelectorAll('#tablaNotas th[data-col]').forEach(th => {
