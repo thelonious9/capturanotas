@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/alasql@4"></script>
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
 
   <style>
     :root {
@@ -813,6 +814,11 @@
         <i class="fa-solid fa-file-export"></i> Exportar notas
       </button>
 
+      <input type="file" id="inputImportarNotas" accept=".csv,.xlsx" hidden>
+      <button type="button" id="btnImportarNotas">
+        <i class="fa-solid fa-file-import"></i> Cargar CSV/XLSX
+      </button>
+
       <button type="button" id="btnBorrarTodo" onclick="borrarTodo()">
         <i class="fa-solid fa-trash-can"></i> Borrar Todas
       </button>
@@ -854,6 +860,9 @@
   <div class="table-header-container">
     <h2>Notas capturadas</h2>
     <div class="zoom-controls">
+      <button type="button" class="btn-campo" id="btnAbrirVentana" title="Abrir tabla en ventana nueva" onclick="abrirTablaEnVentana()" style="margin-right: 15px; opacity: 0.7;">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i> Abrir en ventana
+      </button>
       <button type="button" class="btn-campo" id="btnToggleSQL" style="margin-right: 15px;" title="Mostrar/Ocultar Consola SQL">
         <i class="fa-solid fa-terminal"></i> Editar sql
       </button>
@@ -1660,6 +1669,142 @@
       URL.revokeObjectURL(url);
     }
 
+    const aliasCamposImportacion = {
+      '#': 'ordenCaptura', 'orden': 'ordenCaptura', 'ordencaptura': 'ordenCaptura', 'no': 'ordenCaptura', 'numero': 'ordenCaptura',
+      'id': 'id', 'identificador': 'id',
+      'fecha': 'fecha', 'fecha de publicacion': 'fecha', 'fechapublicacion': 'fecha', 'date': 'fecha',
+      'usuario': 'usuario', 'capturista': 'usuario', 'monitorista': 'usuario',
+      'medio': 'medio', 'mediodecomunicacion': 'medio', 'fuente': 'medio',
+      'titular': 'titular', 'titulo': 'titular', 'nota': 'titular', 'sintesis': 'titular', 'encabezado': 'titular',
+      'firma': 'firma', 'autor': 'firma', 'periodista': 'firma', 'columnista': 'firma',
+      'pagina': 'pagina', 'pag': 'pagina', 'paginas': 'pagina', 'seccion': 'pagina', 'url': 'pagina', 'link': 'pagina',
+      'dependencia': 'dependencia', 'secretaria': 'dependencia', 'institucion': 'dependencia',
+      'organismo': 'organismo', 'entidad': 'organismo', 'area': 'organismo',
+      'genero': 'genero', 'generoperiodistico': 'genero',
+      'canal': 'canal', 'tipo': 'canal', 'tipodemedio': 'canal',
+      'tema': 'tema', 'clasificacion': 'tema', 'categoria': 'tema',
+      'estatus': 'estatus', 'estado': 'estatus', 'status': 'estatus', 'calificacion': 'estatus',
+      'municipio': 'municipio', 'lugar': 'municipio', 'ciudad': 'municipio'
+    };
+
+    function normalizarEncabezadoImportacion(valor) {
+      if (!valor) return "";
+      return valor.toString().trim().replace(/^\uFEFF/, '').normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9#]/g, '');
+    }
+
+    function resolverCampoImportacion(encabezado) {
+      const encabezadoNormalizado = normalizarEncabezadoImportacion(encabezado);
+      if (!encabezadoNormalizado) return null;
+
+      // 1. Coincidencia exacta
+      let alias = Object.entries(aliasCamposImportacion).find(([nombre]) =>
+        normalizarEncabezadoImportacion(nombre) === encabezadoNormalizado
+      );
+      if (alias) return alias[1];
+
+      // 2. Coincidencia parcial (el encabezado incluye el alias o viceversa)
+      alias = Object.entries(aliasCamposImportacion).find(([nombre]) => {
+        const normAlias = normalizarEncabezadoImportacion(nombre);
+        return normAlias.length > 2 && (encabezadoNormalizado.includes(normAlias) || normAlias.includes(encabezadoNormalizado));
+      });
+      return alias ? alias[1] : null;
+    }
+
+    function convertirFechaImportada(valor) {
+      if (valor instanceof Date && !isNaN(valor)) {
+        return valor.toISOString().slice(0, 10);
+      }
+      const texto = (valor ?? '').toString().trim();
+      const fechaExcel = XLSX.SSF.parse_date_code(Number(texto));
+      if (/^\d+(\.\d+)?$/.test(texto) && fechaExcel) {
+        return `${fechaExcel.y}-${String(fechaExcel.m).padStart(2, '0')}-${String(fechaExcel.d).padStart(2, '0')}`;
+      }
+      const partes = texto.match(/^(\d{1,2})[\/-](\d{1,2})[\/-](\d{4})$/);
+      if (partes) return `${partes[3]}-${partes[2].padStart(2, '0')}-${partes[1].padStart(2, '0')}`;
+      return texto;
+    }
+
+    function convertirFilaImportada(fila, mapaColumnas) {
+      const nota = {};
+      camposDeDatos.forEach(campo => {
+        const columna = mapaColumnas[campo];
+        let valor = columna === undefined ? '' : fila[columna];
+        if (campo === 'fecha') valor = convertirFechaImportada(valor);
+        else valor = (valor ?? '').toString().trim();
+        nota[campo] = valor;
+      });
+      return nota;
+    }
+
+    async function importarNotas(archivo) {
+      if (!archivo) return;
+      const extension = archivo.name.toLowerCase().split('.').pop();
+      if (!['csv', 'xlsx'].includes(extension)) {
+        alert('Selecciona un archivo CSV o XLSX.');
+        return;
+      }
+
+      try {
+        const datos = await archivo.arrayBuffer();
+        const libro = XLSX.read(datos, { type: 'array', cellDates: true });
+        const hoja = libro.Sheets[libro.SheetNames[0]];
+        // Cambiado raw a false para que lea el texto formateado si hay celdas extrañas
+        const filas = XLSX.utils.sheet_to_json(hoja, { header: 1, defval: '', raw: false });
+        if (filas.length < 2) throw new Error('El archivo no contiene encabezados y filas de datos.');
+
+        const mapaColumnas = {};
+        filas[0].forEach((encabezado, indice) => {
+          const campo = resolverCampoImportacion(encabezado);
+          if (campo) mapaColumnas[campo] = indice;
+        });
+
+        const camposEncontrados = camposDeDatos.filter(campo => campo !== 'ordenCaptura' && mapaColumnas[campo] !== undefined);
+        if (camposEncontrados.length === 0) {
+          throw new Error('No se encontraron encabezados compatibles con la tabla de notas.');
+        }
+
+        const camposFaltantes = camposDeDatos.filter(campo => campo !== 'ordenCaptura' && mapaColumnas[campo] === undefined);
+        if (camposFaltantes.length > 0) {
+          const nombresLegibles = camposFaltantes.map(c => encabezadosTabla[c]).join(', ');
+          alert(`ADVERTENCIA: No se encontraron las siguientes columnas en tu archivo:\n\n${nombresLegibles}\n\nEstas columnas quedarán en blanco. Si tu archivo sí las tiene, revisa que los nombres de las cabeceras coincidan.`);
+        }
+
+        // Filtrar filas realmente vacías antes de convertir
+        const filasConDatos = filas.slice(1).filter(fila => {
+          if (!fila.some(valor => valor !== '' && valor !== null && valor !== undefined)) return false;
+          return camposDeDatos.some(campo => {
+            const col = mapaColumnas[campo];
+            if (col === undefined) return false;
+            const val = (fila[col] ?? '').toString().trim();
+            return val !== '';
+          });
+        });
+
+        const notasImportadas = filasConDatos
+          .map(fila => convertirFilaImportada(fila, mapaColumnas))
+          .filter(nota => {
+            const camposRelevantes = camposDeDatos.filter(c => c !== 'ordenCaptura');
+            return camposRelevantes.some(campo => (nota[campo] || '').toString().trim() !== '');
+          });
+          
+        if (notasImportadas.length === 0) throw new Error('El archivo no contiene filas de datos válidas.');
+
+        if (notas.length > 0 && !confirm('La carga reemplazará las notas actuales. ¿Deseas continuar?')) return;
+        notasImportadas.forEach(nota => {
+          nota.ordenCaptura = nextOrdenCaptura++;
+        });
+        notas = notasImportadas;
+        guardarNotas();
+        ordenarTabla('ordenCaptura', true);
+        resetearEstadoEdicion();
+        alert(`Se cargaron ${notas.length} nota(s) correctamente.`);
+      } catch (error) {
+        console.error('Error al importar notas:', error);
+        alert(`No se pudo cargar el archivo: ${error.message}`);
+      }
+    }
+
     // ======================================================================
     // 🌟 FUNCIÓN: EXPORTAR NOTAS (CSV + GOOGLE SHEETS) 🌟
     // ======================================================================
@@ -1888,15 +2033,152 @@
       } catch (error) {
         console.error("Error al buscar respaldo:", error);
         alert("Error de red al intentar recuperar el respaldo.");
-      } finally {
+} finally {
         btn.disabled = false;
         btn.innerHTML = originalHTML;
       }
     }
-    // ======================================================================
-    // ----------------------------------------------------------------------
 
-    // ----------------------------------------------------------------------
+    // ======================================================================
+    // 🌟 FUNCIÓN: ABRIR TABLA EN VENTANA NUEVA 🌟
+    // ======================================================================
+    function abrirTablaEnVentana() {
+      if (notas.length === 0) {
+        alert('No hay notas para mostrar en la ventana.');
+        return;
+      }
+
+      const campos = ["ordenCaptura", "id", "fecha", "usuario", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
+      const cabeceras = ["#", "ID", "Fecha", "Usuario", "Medio", "Titular", "Firma", "P\u00e1gina", "Dependencia", "Organismo", "G\u00e9nero", "Canal", "Tema", "Estatus", "Municipio"];
+      const datosJSON = JSON.stringify(notas);
+
+      const ventana = window.open('', '_blank', 'width=1280,height=800,scrollbars=yes,resizable=yes');
+      if (!ventana) {
+        alert('El navegador bloque\u00f3 la ventana emergente. Permite las ventanas emergentes para este sitio e intenta de nuevo.');
+        return;
+      }
+
+      const css = [
+        ':root { --zoom: 1; }',
+        '* { box-sizing: border-box; }',
+        'body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0; padding: 20px; background: #fcfcfc; color: #15173D; }',
+        'body.dark { background: #1a1a1a; color: #e0e0e0; }',
+        '.top-bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 3px solid currentColor; }',
+        '.top-bar h1 { margin: 0; font-size: 1.4rem; font-weight: 800; letter-spacing: -0.5px; flex: 1; }',
+        '#buscador { flex: 1; min-width: 180px; padding: 8px 12px; border: 2px solid currentColor; background: transparent; color: inherit; font-family: inherit; font-size: 1rem; outline: none; }',
+        '.btn { padding: 7px 12px; border: 2px solid currentColor; background: transparent; color: inherit; cursor: pointer; font-weight: 700; font-family: inherit; font-size: 0.88rem; transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px; }',
+        '.btn:hover { filter: invert(1); }',
+        '.zoom-row { display: flex; align-items: center; gap: 6px; }',
+        '.zoom-val { min-width: 44px; text-align: center; font-weight: bold; cursor: pointer; font-size: 0.9rem; }',
+        '.stat { font-size: 0.82rem; opacity: 0.6; white-space: nowrap; }',
+        '.table-wrap { width: 100%; overflow: auto; border: 2px solid currentColor; max-height: calc(100vh - 100px); }',
+        'table { width: 100%; border-collapse: collapse; font-size: calc(0.88rem * var(--zoom)); }',
+        'th { padding: 10px 8px; border: 1px solid currentColor; font-size: calc(0.75rem * var(--zoom)); text-transform: uppercase; font-weight: 800; text-align: left; cursor: pointer; user-select: none; white-space: nowrap; position: sticky; top: 0; background: #fcfcfc; z-index: 1; }',
+        'body.dark th { background: #1a1a1a; }',
+        'th .si { margin-left: 4px; opacity: 0.45; font-style: normal; }',
+        'th.sorted .si { opacity: 1; }',
+        'td { padding: 9px 8px; border: 1px solid currentColor; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 280px; }',
+        'tr:hover td { background: #15173D; color: #fff; }',
+        'body.dark tr:hover td { background: #e0e0e0; color: #1a1a1a; }',
+        'tr.alerta td { background: #fff0f0; color: #d90000; }',
+        'body.dark tr.alerta td { background: #3a1a1a; color: #ff8080; }',
+        '.empty { text-align: center; padding: 50px; opacity: 0.45; font-size: 1.1rem; }'
+      ].join('\n');
+
+      const js = [
+        'var CAMPOS=' + JSON.stringify(campos) + ';',
+        'var CABS=' + JSON.stringify(cabeceras) + ';',
+        'var notas=' + datosJSON + ';',
+        'var ord={col:"ordenCaptura",dir:"desc"};',
+        'var zoom=1;',
+        'var obligatorios=CAMPOS.filter(function(c){return c!=="ordenCaptura"&&c!=="tema"&&c!=="firma";});',
+        'function esVacia(n){return obligatorios.some(function(c){return !(n[c]||"").toString().trim();});}',
+        'function trunc(t,max){if(!t)return"";return t.length>max?t.substring(0,max)+"\u2026":t;}',
+        'function cabecera(){',
+        '  var tr=document.getElementById("tr-head"); tr.innerHTML="";',
+        '  CAMPOS.forEach(function(col,i){',
+        '    var th=document.createElement("th");',
+        '    var ico=ord.col===col?(ord.dir==="asc"?"\u25b2":"\u25bc"):"\u21c5";',
+        '    th.innerHTML=CABS[i]+" <i class=\\"si\\">"+ico+"<\\/i>";',
+        '    if(ord.col===col)th.className="sorted";',
+        '    (function(c){th.onclick=function(){ordenar(c);};})(col);',
+        '    tr.appendChild(th);',
+        '  });',
+        '}',
+        'function render(datos){',
+        '  var tb=document.getElementById("tb"); tb.innerHTML="";',
+        '  if(!datos.length){',
+        '    var tr=document.createElement("tr"); var td=document.createElement("td");',
+        '    td.colSpan=CAMPOS.length; td.className="empty"; td.textContent="Sin resultados.";',
+        '    tr.appendChild(td); tb.appendChild(tr); return;',
+        '  }',
+        '  datos.forEach(function(nota){',
+        '    var tr=document.createElement("tr");',
+        '    if(esVacia(nota)) tr.className="alerta";',
+        '    CAMPOS.forEach(function(col){',
+        '      var td=document.createElement("td");',
+        '      var v=(nota[col]||"").toString(); td.title=v;',
+        '      td.textContent=col==="titular"?trunc(v,65):v;',
+        '      tr.appendChild(td);',
+        '    });',
+        '    tb.appendChild(tr);',
+        '  });',
+        '  document.getElementById("stat").textContent=datos.length+" / "+notas.length+" notas";',
+        '}',
+        'function ordenar(col){',
+        '  if(ord.col===col){ord.dir=ord.dir==="asc"?"desc":"asc";}else{ord.col=col;ord.dir="asc";}',
+        '  notas.sort(function(a,b){',
+        '    var va=a[col]||"",vb=b[col]||"",cmp=0;',
+        '    if(col==="ordenCaptura")cmp=va-vb;',
+        '    else if(col==="fecha")cmp=new Date(va+"T00:00")-new Date(vb+"T00:00");',
+        '    else cmp=va.toString().localeCompare(vb.toString(),"es",{sensitivity:"base"});',
+        '    return ord.dir==="asc"?cmp:-cmp;',
+        '  });',
+        '  cabecera(); filtrar();',
+        '}',
+        'function filtrar(){',
+        '  var q=document.getElementById("buscador").value.toLowerCase().trim();',
+        '  var d=q?notas.filter(function(n){return CAMPOS.some(function(c){return(n[c]||"").toString().toLowerCase().indexOf(q)>-1;});}):notas;',
+        '  render(d);',
+        '}',
+        'function zoom2(delta,reset){',
+        '  if(reset)zoom=1; else zoom=Math.max(0.5,Math.min(2,zoom+delta));',
+        '  document.documentElement.style.setProperty("--zoom",zoom);',
+        '  document.getElementById("zv").textContent=Math.round(zoom*100)+"%";',
+        '}',
+        'function darkToggle(){document.body.classList.toggle("dark");}',
+        'cabecera(); filtrar();'
+      ].join('\n');
+
+      const sc = 'scr' + 'ipt';
+      const html = '<!DOCTYPE html><html lang="es"><head>' +
+        '<meta charset="UTF-8">' +
+        '<meta name="viewport" content="width=device-width,initial-scale=1">' +
+        '<title>Tabla de Notas \u2014 Vista Completa<\/title>' +
+        '<style>' + css + '<\/style>' +
+        '<\/head><body>' +
+        '<div class="top-bar">' +
+          '<h1>&#128202; Notas capturadas<\/h1>' +
+          '<input type="text" id="buscador" placeholder="&#128269; Buscar en la tabla..." oninput="filtrar()">' +
+          '<div class="zoom-row">' +
+            '<button class="btn" onclick="zoom2(-0.1)">&#8722; Zoom<\/button>' +
+            '<span class="zoom-val" id="zv" onclick="zoom2(0,true)">100%<\/span>' +
+            '<button class="btn" onclick="zoom2(0.1)">&#43; Zoom<\/button>' +
+          '<\/div>' +
+          '<button class="btn" onclick="darkToggle()">&#9790; Oscuro<\/button>' +
+          '<span class="stat" id="stat"><\/span>' +
+        '<\/div>' +
+        '<div class="table-wrap">' +
+          '<table><thead><tr id="tr-head"><\/tr><\/thead><tbody id="tb"><\/tbody><\/table>' +
+        '<\/div>' +
+        '<' + sc + '>' + js + '<\/' + sc + '>' +
+        '<\/body><\/html>';
+
+      ventana.document.open();
+      ventana.document.write(html);
+      ventana.document.close();
+    }
+    // ======================================================================
 
 
     function ordenarTabla(columna, esInicial = false) {
@@ -2131,6 +2413,14 @@
 
       // Listener para el buscador en tiempo real
       document.getElementById('buscador').addEventListener('input', filtrarTabla);
+
+      document.getElementById('btnImportarNotas').addEventListener('click', () => {
+        document.getElementById('inputImportarNotas').click();
+      });
+      document.getElementById('inputImportarNotas').addEventListener('change', e => {
+        importarNotas(e.target.files[0]);
+        e.target.value = '';
+      });
 
       // Consola SQL con AlaSQL
       const msgEl = document.getElementById("sqlConsoleMsg");
