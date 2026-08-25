@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Permite la ejecución de scripts y eval para AlaSQL -->
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://cdn.sheetjs.com;">
   <title>Sistema de Captura de Notas</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -886,7 +888,7 @@
 
   <!-- Consola de Comandos SQL interactiva -->
   <div class="sql-console-container" style="display: none;">
-    <label class="sql-console-title"><i class="fa-solid fa-terminal"></i> Consola de Ejecución SQL:</label>
+    <label for="inputSQL" class="sql-console-title"><i class="fa-solid fa-terminal"></i> Consola de Ejecución SQL:</label>
     <p class="sql-console-help">
       Usa la tabla virtual <code>notas</code>. Campos: <code>ordenCaptura, id, fecha, usuario, medio, titular, firma, pagina, dependencia, organismo, genero, canal, tema, estatus, municipio</code>
     </p>
@@ -997,6 +999,7 @@
     let notas = [];
     let filaEnEdicion = null;
     let nextOrdenCaptura = 1;
+    const URL_APP_SCRIPT = "https://script.google.com/macros/s/AKfycbyQZXnBfWIa5DmSrqBqDUOmQGnhtrAwmY2l1RE0HYlAseLuTBefeumNtUdHK07ExyGKRA/exec";
 
     // ORDEN DE CAMPOS ACTUALIZADO
     const camposDeDatos = ["ordenCaptura", "id", "fecha", "usuario", "medio", "titular", "firma", "pagina", "dependencia", "organismo", "genero", "canal", "tema", "estatus", "municipio"];
@@ -1338,12 +1341,13 @@
       const payload = { 
         action: 'crearRespaldoNube', 
         data: dataFormateada, 
-        usuario: usuarioCongelado 
+        usuario: usuarioCongelado,
+        fecha: document.getElementById('fecha').value
       };
       
       console.log("Enviando respaldo a la nube:", JSON.stringify(payload, null, 2));
 
-      const url = "https://script.google.com/macros/s/AKfycbx9GDcw3-JRPulO0ThsKLk6B5OKwB5b0K-sSLWJARNLzr17hhq2pLSkC1-jNorKXjY_pg/exec";
+      const url = URL_APP_SCRIPT;
       fetch(url, {
         method: 'POST',
         headers: { 'Content-Type': 'text/plain;charset=utf-8' },
@@ -1853,118 +1857,36 @@
       }
     }
 
-    // ======================================================================
-    // 🌟 FUNCIÓN: EXPORTAR NOTAS (CSV + GOOGLE SHEETS) 🌟
-    // ======================================================================
-    async function exportarNotas() {
-      if (notas.length === 0) {
-        alert("No hay notas capturadas para exportar.");
-        return;
-      }
+    // Función auxiliar para enviar datos a Apps Script mediante un formulario oculto
+    function enviarAAppsScript(payloadData) {
+      const form = document.createElement('form');
+      form.method = 'POST';
+      form.action = URL_APP_SCRIPT;
+      form.target = 'hidden_iframe';
 
-      const btn = document.getElementById('btnExportarNotas');
-      const originalHTML = btn.innerHTML;
+      const input = document.createElement('input');
+      input.type = 'hidden';
+      input.name = 'postData';
+      input.value = JSON.stringify(payloadData);
 
-      try {
-        btn.disabled = true;
-        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Procesando...';
-
-        // --- FILTRO DE DEPURACIÓN DE DUPLICADOS ---
-        const camposAComparar = camposDeDatos.filter(c => c !== "ordenCaptura");
-        const notasUnicas = [];
-        const firmasVistas = new Set();
-
-        notas.forEach(nota => {
-          const stringNormalizado = camposAComparar
-            .map(campo => (nota[campo] || "").toString().toLowerCase().trim().replace(/\s+/g, " "))
-            .join("|");
-            
-          if (!firmasVistas.has(stringNormalizado)) {
-            firmasVistas.add(stringNormalizado);
-            notasUnicas.push(nota);
-          }
-        });
-
-        if (notasUnicas.length < notas.length) {
-          const duplicados = notas.length - notasUnicas.length;
-          console.log(`Se removieron ${duplicados} notas duplicadas antes de exportar.`);
-          notas = notasUnicas;
-          renumerarNotas();
-          guardarNotas(); // Guarda localmente el arreglo limpio
-          renderizarTabla();
-        }
-        // ------------------------------------------
-
-        // 1. Exportación CSV (Descarga local)
-        exportarCSV();
-
-        // 2. Envío a Google Sheets
-        const url = "https://script.google.com/macros/s/AKfycbxGw0LS1Wjno09DQzhe1FOaB_wVblXUrEPlHR_K85cLn0zvKz03QfciODTdQbjVsaQTUQ/exec";
-
-        // Formateamos los datos como un arreglo de objetos con las claves en minúsculas
-        // que el script de Google espera leer (ej. row.id, row.fecha, etc.)
-        const dataFormateada = notas.map(nota => ({
-          "ordenCaptura": nota.ordenCaptura,
-          "id": nota.id,
-          "fecha": nota.fecha,
-          "usuario": nota.usuario,
-          "medio": nota.medio,
-          "titular": nota.titular,
-          "firma": nota.firma,
-          "pagina": nota.pagina,
-          "dependencia": nota.dependencia,
-          "organismo": nota.organismo,
-          "genero": nota.genero,
-          "canal": nota.canal,
-          "tema": nota.tema,
-          "estatus": nota.estatus,
-          "municipio": nota.municipio
-        }));
-
-        const datosAEnviar = {
-          action: 'guardarNotas',
-          data: dataFormateada,
-          usuario: document.getElementById('usuario').value.trim()
-        };
-
-        const response = await fetch(url, {
-          method: 'POST',
-          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-          body: JSON.stringify(datosAEnviar)
-        });
-
-        // Manejo de respuesta
-        if (response.ok) {
-          const respText = await response.text();
-          if (respText === 'OK') {
-            alert("Notas enviadas a base de datos y copia descargada.");
-          } else {
-            alert("La copia local se descargó, pero el servidor respondió: " + respText);
-            console.error("Respuesta del servidor:", respText);
-          }
-        } else {
-          // Si falla el envío (error HTTP) pero se descargó el CSV
-          alert("La copia local se descargó, pero hubo un error de red al enviar a la base de datos.");
-        }
-
-      } catch (error) {
-        console.error("Error en la exportación/envío:", error);
-        alert("Ocurrió un error al enviar los datos a la nube. Revisa la consola para más detalles.");
-      } finally {
-        btn.disabled = false;
-        btn.innerHTML = originalHTML;
-      }
+      form.appendChild(input);
+      document.body.appendChild(form);
+      form.submit();
+      document.body.removeChild(form);
     }
 
-    async function crearRespaldoNube() {
+    // 1. RESPALDAR EN LA NUBE
+    function crearRespaldoNube() {
       if (!notas || notas.length === 0) {
         alert("No hay notas para respaldar.");
         return;
       }
       
       const usuario = document.getElementById('usuario').value.trim();
+      const fecha = document.getElementById('fecha').value.trim();
       if (!usuario) {
         alert("Debe ingresar el campo 'Usuario' para crear el respaldo.");
+        document.getElementById('usuario').focus();
         return;
       }
 
@@ -1974,114 +1896,129 @@
       btn.disabled = true;
 
       try {
-        const url = "https://script.google.com/macros/s/AKfycbx9GDcw3-JRPulO0ThsKLk6B5OKwB5b0K-sSLWJARNLzr17hhq2pLSkC1-jNorKXjY_pg/exec";
-        
-        const dataFormateada = notas.map(nota => ({
-          "ordenCaptura": nota.ordenCaptura,
-          "id": nota.id,
-          "fecha": nota.fecha,
-          "usuario": nota.usuario,
-          "medio": nota.medio,
-          "titular": nota.titular,
-          "firma": nota.firma,
-          "pagina": nota.pagina,
-          "dependencia": nota.dependencia,
-          "organismo": nota.organismo,
-          "genero": nota.genero,
-          "canal": nota.canal,
-          "tema": nota.tema,
-          "estatus": nota.estatus,
-          "municipio": nota.municipio
-        }));
-
-        const datosAEnviar = {
+        enviarAAppsScript({
           action: 'crearRespaldoNube',
-          data: dataFormateada,
-          usuario: usuario
-        };
-
-        const response = await fetch(url, {
-          method: 'POST',
-          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-          body: JSON.stringify(datosAEnviar)
+          data: notas,
+          usuario: usuario,
+          fecha: fecha
         });
 
-        if (response.ok) {
-          const resultadoText = await response.text();
-          if (resultadoText === 'OK') {
-            alert("Respaldo creado exitosamente en la nube.");
-          } else {
-            alert("Respuesta de la nube: " + resultadoText);
-          }
-        } else {
-          alert("Hubo un error al crear el respaldo en la nube.");
-        }
+        alert(`Respaldo de ${usuario} enviado exitosamente a Google Drive.`);
       } catch (error) {
-        console.error("Error al crear el respaldo:", error);
-        alert("Error de conexión al intentar respaldar.");
+        console.error("Error al respaldar:", error);
+        alert("Error al intentar respaldar.");
       } finally {
-        btn.disabled = false;
-        btn.innerHTML = originalHTML;
+        setTimeout(() => {
+          btn.disabled = false;
+          btn.innerHTML = originalHTML;
+        }, 1500);
+      }
+    }
+
+    // 2. EXPORTAR NOTAS POR MES
+    function exportarNotas() {
+      if (notas.length === 0) {
+        alert("No hay notas capturadas para exportar.");
+        return;
+      }
+
+      const usuario = document.getElementById('usuario').value.trim();
+      const fecha = document.getElementById('fecha').value.trim();
+
+      if (!usuario) {
+        alert("Ingresa el campo 'Usuario' para realizar la exportación.");
+        document.getElementById('usuario').focus();
+        return;
+      }
+
+      const btn = document.getElementById('btnExportarNotas');
+      const originalHTML = btn.innerHTML;
+
+      try {
+        btn.disabled = true;
+        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Exportando a Drive...';
+
+        // Descarga CSV local
+        exportarCSV();
+
+        // Envío seguro sin bloqueo CORB a Google Drive
+        enviarAAppsScript({
+          action: 'exportarMes',
+          data: notas,
+          usuario: usuario,
+          fecha: fecha
+        });
+
+        alert("Copia local descargada y guardada en la carpeta de exportaciones en Drive.");
+
+      } catch (error) {
+        console.error("Error en exportarNotas:", error);
+        alert("Ocurrió un error al enviar el CSV a Google Drive.");
+      } finally {
+        setTimeout(() => {
+          btn.disabled = false;
+          btn.innerHTML = originalHTML;
+        }, 1500);
       }
     }
 
     async function buscarUltimoRespaldoNube() {
       const usuario = document.getElementById('usuario').value.trim();
+      const fecha = document.getElementById('fecha').value.trim();
+
       if (!usuario) {
         alert("Debe ingresar el campo 'Usuario' para buscar un respaldo en la nube.");
+        document.getElementById('usuario').focus();
         return;
       }
 
       const btn = document.getElementById('btnRestaurarRespaldoNube');
       const originalHTML = btn.innerHTML;
-      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Buscando...';
+      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Recuperando...';
       btn.disabled = true;
 
       try {
-        const url = "https://script.google.com/macros/s/AKfycbx9GDcw3-JRPulO0ThsKLk6B5OKwB5b0K-sSLWJARNLzr17hhq2pLSkC1-jNorKXjY_pg/exec";
-        const datosAEnviar = {
-          action: 'buscarUltimoRespaldo',
-          usuario: usuario
-        };
-
-        const response = await fetch(url, {
+        const response = await fetch(URL_APP_SCRIPT, {
           method: 'POST',
           headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-          body: JSON.stringify(datosAEnviar)
+          body: JSON.stringify({
+            action: 'buscarUltimoRespaldo',
+            usuario: usuario,
+            fecha: fecha
+          })
         });
 
-        if (response.ok) {
-          const texto = await response.text();
-          if (texto === 'NO_BACKUP' || texto === 'OK') {
-            return;
-          }
-          if (texto.startsWith("Error:")) {
-            alert("Error en la nube: " + texto);
-          } else {
-            try {
-              const notasRespaldo = JSON.parse(texto);
-              if (Array.isArray(notasRespaldo) && notasRespaldo.length > 0) {
-                const confirmar = confirm(`Se encontraron ${notasRespaldo.length} nota(s) en la nube. ¿Deseas restaurarlas? Esto reemplazará las notas actuales.`);
-                if (confirmar) {
-                  notas = notasRespaldo;
-                  renderizarTabla();
-                  guardarNotas(); // Save to local storage
-                  alert("Notas restauradas desde la nube exitosamente.");
-                }
-              } else {
-                alert("El respaldo encontrado en la nube está vacío o corrupto.");
-              }
-            } catch(e) {
-              console.warn("Error al procesar el archivo de respaldo: " + e.toString());
-            }
+        const textoRespuesta = await response.text();
+
+        if (textoRespuesta === 'NO_BACKUP') {
+          alert(`No se encontró un respaldo válido para "${usuario}".`);
+          return;
+        }
+
+        let datosNotas = [];
+        try {
+          const res = JSON.parse(textoRespuesta);
+          datosNotas = Array.isArray(res) ? res : (res.data || []);
+        } catch(e) {
+          console.error("Error al parsear respaldo:", e);
+        }
+
+        if (Array.isArray(datosNotas) && datosNotas.length > 0) {
+          const confirmar = confirm(`Se encontraron ${datosNotas.length} nota(s) en la nube para ${usuario}. ¿Deseas cargarlas en la tabla?`);
+          if (confirmar) {
+            notas = datosNotas;
+            renumerarNotas();
+            guardarNotas();
+            renderizarTabla();
+            alert("Notas cargadas desde la nube exitosamente.");
           }
         } else {
-          alert("Hubo un error al buscar el respaldo en la nube.");
+          alert(`No se pudo cargar el respaldo para "${usuario}".`);
         }
       } catch (error) {
         console.error("Error al buscar respaldo:", error);
         alert("Error de red al intentar recuperar el respaldo.");
-} finally {
+      } finally {
         btn.disabled = false;
         btn.innerHTML = originalHTML;
       }
@@ -2425,11 +2362,15 @@
         if (!valorUsuario) return;
         
         try {
-          const url = "https://script.google.com/macros/s/AKfycbx9GDcw3-JRPulO0ThsKLk6B5OKwB5b0K-sSLWJARNLzr17hhq2pLSkC1-jNorKXjY_pg/exec";
+          const url = URL_APP_SCRIPT;
           const response = await fetch(url, {
             method: 'POST',
             headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-            body: JSON.stringify({ action: 'buscarUltimoRespaldo', usuario: valorUsuario })
+            body: JSON.stringify({
+              action: 'buscarUltimoRespaldo',
+              usuario: valorUsuario,
+              fecha: document.getElementById('fecha').value
+            })
           });
           
           if (response.ok) {
@@ -3034,6 +2975,7 @@
   <footer>
     Francisco Villeda &copy; 2026
   </footer>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
 </body>
 
 </html>
