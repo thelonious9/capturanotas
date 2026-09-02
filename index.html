@@ -2419,12 +2419,22 @@
                     guardarNotas();
                     ordenarTabla(ordenActual.columna, true);
                     renderizarTabla();
-                    alert("Sesión recuperada de la nube exitosamente.");
-                  } else {
-                    document.getElementById('btnLimpiar').click();
+                    alert("Sesión recuperada de la nube exitosamente.");                  } else {
+                    const fechaTmp = document.getElementById('fecha').value;
+                    const usuarioTmp = document.getElementById('usuario').value;
+                    
                     notas = [];
+                    nextOrdenCaptura = 1;
+                    filaEnEdicion = null;
+                    localStorage.removeItem('notasCapturadas');
+                    localStorage.removeItem('nextOrdenCaptura');
                     guardarNotas();
                     renderizarTabla();
+                    
+                    document.getElementById('fecha').value = fechaTmp;
+                    document.getElementById('usuario').value = usuarioTmp;
+                    document.getElementById('titular').focus();
+                    
                     alert("Se ha iniciado una nueva sesión en limpio.");
                   }
                 }
