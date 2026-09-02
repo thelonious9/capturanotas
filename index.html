@@ -349,6 +349,49 @@
       color: var(--color-fondo-pagina);
     }
 
+    /* Dropdown Otras Acciones */
+    .dropdown-acciones {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: var(--color-fondo-form);
+      min-width: 260px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+      border: 2px solid var(--color-border);
+      border-radius: var(--radius);
+      flex-direction: column;
+      margin-top: 5px;
+    }
+
+    .dropdown-content button {
+      width: 100%;
+      text-align: left;
+      border: none;
+      border-bottom: 1px solid var(--color-border);
+      border-radius: 0;
+      margin: 0;
+      padding: 12px 16px;
+    }
+
+    .dropdown-content button:hover {
+      background: var(--color-text);
+      color: var(--color-fondo-pagina);
+    }
+
+    .dropdown-content button:last-child {
+      border-bottom: none;
+    }
+
+    .dropdown-content.show {
+      display: flex;
+    }
 
     /* Buscador */
     .buscador-container {
@@ -695,7 +738,8 @@
     <div class="campo">
       <input type="text" id="usuario" name="usuario" autocomplete="off" required>
       <div class="campo-actions">
-        <button type="button" class="btn-campo" onclick="mostrarSugerencias('usuario','sugUsuario')" tabindex="-1">🔽</button>
+        <button type="button" class="btn-campo" onclick="mostrarSugerencias('usuario','sugUsuario')"
+          tabindex="-1">🔽</button>
         <input type="checkbox" id="checkUsuario" onchange="alternarBloqueo('usuario')" tabindex="-1">
         <label for="checkUsuario" class="lock-label"><i class="fa-solid fa-lock"></i></label>
       </div>
@@ -863,21 +907,26 @@
         <i class="fa-solid fa-trash-can"></i> Borrar Todas
       </button>
 
-      <button type="button" id="btnRestaurarRespaldo" style="display: none;" onclick="restaurarRespaldo()">
-        <i class="fa-solid fa-clock-rotate-left"></i> Recuperar último respaldo
-      </button>
-
-      <button type="button" id="btnCrearRespaldoNube" onclick="crearRespaldoNube()">
-        <i class="fa-solid fa-cloud-arrow-up"></i> Respaldar en la Nube
-      </button>
-
-      <button type="button" id="btnRestaurarRespaldoNube" onclick="buscarUltimoRespaldoNube()">
-        <i class="fa-solid fa-cloud-arrow-down"></i> Recuperar de la Nube
-      </button>
-
-      <button type="button" id="btnToggleTiempoReal" onclick="toggleTiempoReal()">
-        <i class="fa-solid fa-tower-broadcast"></i> Tiempo real: <span id="lblTiempoReal">DESACTIVADO</span>
-      </button>
+      <div class="dropdown-acciones">
+        <button type="button" class="btn-dropdown"
+          onclick="document.getElementById('dropdownOtrasAcciones').classList.toggle('show'); event.stopPropagation();">
+          <i class="fa-solid fa-ellipsis-vertical"></i> Otras acciones
+        </button>
+        <div id="dropdownOtrasAcciones" class="dropdown-content">
+          <button type="button" id="btnRestaurarRespaldo" style="display: none;" onclick="restaurarRespaldo()">
+            <i class="fa-solid fa-clock-rotate-left"></i> Recuperar último respaldo
+          </button>
+          <button type="button" id="btnCrearRespaldoNube" onclick="crearRespaldoNube()">
+            <i class="fa-solid fa-cloud-arrow-up"></i> Respaldar en la Nube
+          </button>
+          <button type="button" id="btnRestaurarRespaldoNube" onclick="buscarUltimoRespaldoNube()">
+            <i class="fa-solid fa-cloud-arrow-down"></i> Recuperar de la Nube
+          </button>
+          <button type="button" id="btnToggleTiempoReal" onclick="toggleTiempoReal()">
+            <i class="fa-solid fa-tower-broadcast"></i> Tiempo real: <span id="lblTiempoReal">DESACTIVADO</span>
+          </button>
+        </div>
+      </div>
     </div>
   </form>
 
@@ -892,10 +941,12 @@
   <div class="sql-console-container" style="display: none;">
     <label class="sql-console-title"><i class="fa-solid fa-terminal"></i> Consola de Ejecución SQL:</label>
     <p class="sql-console-help">
-      Usa la tabla virtual <code>notas</code>. Campos: <code>ordenCaptura, id, fecha, usuario, medio, titular, firma, pagina, dependencia, organismo, genero, canal, tema, estatus, municipio</code>
+      Usa la tabla virtual <code>notas</code>. Campos:
+      <code>ordenCaptura, id, fecha, usuario, medio, titular, firma, pagina, dependencia, organismo, genero, canal, tema, estatus, municipio</code>
     </p>
     <div class="sql-console-row">
-      <input type="text" id="inputSQL" placeholder="Ej: UPDATE notas SET estatus = 'Revisado' WHERE medio = 'El Universal'">
+      <input type="text" id="inputSQL"
+        placeholder="Ej: UPDATE notas SET estatus = 'Revisado' WHERE medio = 'El Universal'">
       <button type="button" id="btnEjecutarSQL">Ejecutar</button>
     </div>
     <div id="sqlConsoleMsg" style="margin-top: 10px; font-weight: bold;"></div>
@@ -904,10 +955,12 @@
   <div class="table-header-container">
     <h2>Notas capturadas</h2>
     <div class="zoom-controls">
-      <button type="button" class="btn-campo" id="btnAbrirVentana" title="Abrir tabla en ventana nueva" onclick="abrirTablaEnVentana()" style="margin-right: 15px; opacity: 0.7;">
+      <button type="button" class="btn-campo" id="btnAbrirVentana" title="Abrir tabla en ventana nueva"
+        onclick="abrirTablaEnVentana()" style="margin-right: 15px; opacity: 0.7;">
         <i class="fa-solid fa-arrow-up-right-from-square"></i> Abrir en ventana
       </button>
-      <button type="button" class="btn-campo" id="btnToggleSQL" style="margin-right: 15px;" title="Mostrar/Ocultar Consola SQL">
+      <button type="button" class="btn-campo" id="btnToggleSQL" style="margin-right: 15px;"
+        title="Mostrar/Ocultar Consola SQL">
         <i class="fa-solid fa-terminal"></i> Editar sql
       </button>
       <button type="button" class="btn-zoom" id="zoomOut" title="Reducir zoom">
@@ -1015,7 +1068,7 @@
       modoTiempoReal = !modoTiempoReal;
       const btn = document.getElementById("btnToggleTiempoReal");
       const lbl = document.getElementById("lblTiempoReal");
-      
+
       if (modoTiempoReal) {
         btn.style.backgroundColor = "#15173D";
         btn.style.color = "white";
@@ -1328,7 +1381,7 @@
           const bc = new BroadcastChannel('capturanotas_sync');
           bc.postMessage('update');
           bc.close();
-        } catch (e) {}
+        } catch (e) { }
       }
     }
 
@@ -1340,12 +1393,12 @@
     }
 
     function enviarRespaldoANube(datosCongelados, usuarioCongelado) {
-      const payload = { 
-        action: 'crearRespaldoNube', 
-        data: datosCongelados, 
-        usuario: usuarioCongelado 
+      const payload = {
+        action: 'crearRespaldoNube',
+        data: datosCongelados,
+        usuario: usuarioCongelado
       };
-      
+
       console.log("Enviando respaldo a la nube:", JSON.stringify(payload, null, 2));
 
       const url = URL_BACKEND;
@@ -1354,9 +1407,9 @@
         headers: { 'Content-Type': 'text/plain;charset=utf-8' },
         body: JSON.stringify(payload)
       })
-      .then(response => response.text())
-      .then(texto => console.log("Respuesta del servidor al enviar respaldo silencioso:", texto))
-      .catch(err => console.error("Error de red al crear respaldo silencioso en nube:", err));
+        .then(response => response.text())
+        .then(texto => console.log("Respuesta del servidor al enviar respaldo silencioso:", texto))
+        .catch(err => console.error("Error de red al crear respaldo silencioso en nube:", err));
     }
 
     function borrarTodo() {
@@ -1384,7 +1437,7 @@
             const bc = new BroadcastChannel('capturanotas_sync');
             bc.postMessage('update');
             bc.close();
-          } catch(e) {}
+          } catch (e) { }
         }
         renderizarTabla();
         // 🌟 Asegura que todos los campos se desbloqueen antes de resetear 🌟
@@ -1476,11 +1529,11 @@
 
       // Resetear estado de edición para que se guarde como nueva nota
       resetearEstadoEdicion();
-      
+
       // Disparar eventos para cargar sugerencias dependientes
       document.getElementById("dependencia").dispatchEvent(new Event('blur'));
       document.getElementById("medio").dispatchEvent(new Event('blur'));
-      
+
       ajustarAlturaTitular();
       window.scrollTo(0, 0);
       alert("Nota duplicada en el formulario. Puedes editarla y guardarla como una nueva nota.");
@@ -1636,16 +1689,16 @@
 
 
     // Funciones helper para comunicación con la ventana emergente
-    window.editarNotaPorId = function(notaId) {
+    window.editarNotaPorId = function (notaId) {
       const tr = document.querySelector(`#tablaNotas tbody tr[data-id="${notaId}"]`);
       if (tr) {
         editarNota(tr);
       }
     };
-    window.duplicarNotaPorId = function(notaId) {
+    window.duplicarNotaPorId = function (notaId) {
       duplicarNota(notaId);
     };
-    window.borrarNotaPorId = function(notaId) {
+    window.borrarNotaPorId = function (notaId) {
       const indice = notas.findIndex(n => n.ordenCaptura === notaId);
       if (indice !== -1) {
         borrarNota(indice);
@@ -1840,7 +1893,7 @@
             const camposRelevantes = camposDeDatos.filter(c => c !== 'ordenCaptura');
             return camposRelevantes.some(campo => (nota[campo] || '').toString().trim() !== '');
           });
-          
+
         if (notasImportadas.length === 0) throw new Error('El archivo no contiene filas de datos válidas.');
 
         if (notas.length > 0 && !confirm('La carga reemplazará las notas actuales. ¿Deseas continuar?')) return;
@@ -1889,7 +1942,7 @@
           const stringNormalizado = camposAComparar
             .map(campo => (nota[campo] || "").toString().toLowerCase().trim().replace(/\s+/g, " "))
             .join("|");
-            
+
           if (!firmasVistas.has(stringNormalizado)) {
             firmasVistas.add(stringNormalizado);
             notasUnicas.push(nota);
@@ -1952,7 +2005,7 @@
         alert("No hay notas para respaldar.");
         return;
       }
-      
+
       const usuario = document.getElementById('usuario').value.trim();
       if (!usuario) {
         alert("Debe ingresar el campo 'Usuario' para crear el respaldo.");
@@ -1999,60 +2052,75 @@
     async function buscarUltimoRespaldoNube() {
       const usuario = document.getElementById('usuario').value.trim();
       if (!usuario) {
-        alert("Debe ingresar el campo 'Usuario' para buscar un respaldo en la nube.");
+        alert("Debe ingresar el campo 'Usuario' para buscar respaldos.");
         return;
       }
 
       const btn = document.getElementById('btnRestaurarRespaldoNube');
       const originalHTML = btn.innerHTML;
-      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Buscando...';
+      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Consultando respaldos...';
       btn.disabled = true;
 
       try {
-        const url = URL_BACKEND;
-        const datosAEnviar = {
-          action: 'buscarUltimoRespaldo',
-          usuario: usuario
-        };
-
-        const response = await fetch(url, {
+        // 1. Obtener la lista de respaldos del usuario
+        const res = await fetch(URL_BACKEND, {
           method: 'POST',
           headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-          body: JSON.stringify(datosAEnviar)
+          body: JSON.stringify({ action: 'listarRespaldos', usuario: usuario })
         });
 
-        if (response.ok) {
-          const texto = await response.text();
-          if (texto === 'NO_BACKUP' || texto === 'OK') {
-            return;
-          }
-          if (texto.startsWith("Error:")) {
-            alert("Error en la nube: " + texto);
-          } else {
-            try {
-              const notasRespaldo = JSON.parse(texto);
-              if (Array.isArray(notasRespaldo) && notasRespaldo.length > 0) {
-                const confirmar = confirm(`Se encontraron ${notasRespaldo.length} nota(s) en la nube. ¿Deseas restaurarlas? Esto reemplazará las notas actuales.`);
-                if (confirmar) {
-                  notas = notasRespaldo;
-                  renderizarTabla();
-                  guardarNotas(); // Save to local storage
-                  alert("Notas restauradas desde la nube exitosamente.");
-                }
-              } else {
-                alert("El respaldo encontrado en la nube está vacío o corrupto.");
-              }
-            } catch(e) {
-              console.warn("Error al procesar el archivo de respaldo: " + e.toString());
-            }
+        const lista = await res.json();
+        if (!lista || lista.length === 0) {
+          alert("No se encontraron respaldos en la nube para el usuario: " + usuario);
+          return;
+        }
+
+        // 2. Desplegar la lista cronológica para que el usuario elija
+        let mensaje = `Respaldos disponibles para ${usuario}:\n`;
+        mensaje += "Ingresa el NÚMERO de la opción que deseas recuperar:\n\n";
+
+        lista.forEach((item, index) => {
+          let fechaCarpeta = item.nombreCarpeta.replace("respaldo_", "");
+          mensaje += `${index + 1}. Fecha: ${fechaCarpeta} (Guardado: ${item.fechaCreacion})\n`;
+        });
+
+        const seleccion = prompt(mensaje, "1");
+        if (!seleccion) return; // Si cancela, no hace nada
+
+        const idx = parseInt(seleccion, 10) - 1;
+        if (isNaN(idx) || idx < 0 || idx >= lista.length) {
+          alert("Opción no válida.");
+          return;
+        }
+
+        // 3. Descargar el archivo seleccionado
+        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Descargando...';
+        const resFile = await fetch(URL_BACKEND, {
+          method: 'POST',
+          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+          body: JSON.stringify({ action: 'obtenerRespaldoEspecifico', fileId: lista[idx].id })
+        });
+
+        const textoJSON = await resFile.text();
+        const notasRespaldo = JSON.parse(textoJSON);
+
+        if (Array.isArray(notasRespaldo) && notasRespaldo.length > 0) {
+          const fechaLimpia = lista[idx].nombreCarpeta.replace("respaldo_", "");
+          if (confirm(`¿Confirmas restaurar el respaldo del ${fechaLimpia} (${notasRespaldo.length} notas)?\n\nAtención: Esto reemplazará la tabla de notas actual.`)) {
+            notas = notasRespaldo;
+            renumerarNotas();
+            guardarNotas();
+            ordenarTabla(ordenActual.columna, true);
+            renderizarTabla();
+            alert("Respaldo restaurado exitosamente.");
           }
         } else {
-          alert("Hubo un error al buscar el respaldo en la nube.");
+          alert("El respaldo seleccionado no contiene datos válidos.");
         }
       } catch (error) {
-        console.error("Error al buscar respaldo:", error);
-        alert("Error de red al intentar recuperar el respaldo.");
-} finally {
+        console.error("Error al recuperar respaldo:", error);
+        alert("Ocurrió un error al consultar o descargar los respaldos.");
+      } finally {
         btn.disabled = false;
         btn.innerHTML = originalHTML;
       }
@@ -2245,24 +2313,24 @@
         '<style>' + css + '<\/style>' +
         '<\/head><body>' +
         '<div class="top-bar">' +
-          '<h1>&#128202; Notas capturadas<\/h1>' +
-          '<input type="text" id="buscador" placeholder="&#128269; Buscar en la tabla..." oninput="filtrar()">' +
-          '<button class="btn" onclick="refrescarDatos()" title="Refrescar tabla desde el almacenamiento local"><i class="fa-solid fa-rotate"></i> Refrescar<\/button>' +
-          '<div class="zoom-row">' +
-            '<button class="btn" onclick="zoom2(-0.1)">&#8722; Zoom<\/button>' +
-            '<span class="zoom-val" id="zv" onclick="zoom2(0,true)">100%<\/span>' +
-            '<button class="btn" onclick="zoom2(0.1)">&#43; Zoom<\/button>' +
-          '<\/div>' +
-          '<button class="btn" onclick="darkToggle()">&#9790; Oscuro<\/button>' +
-          '<span class="stat" id="stat"><\/span>' +
+        '<h1>&#128202; Notas capturadas<\/h1>' +
+        '<input type="text" id="buscador" placeholder="&#128269; Buscar en la tabla..." oninput="filtrar()">' +
+        '<button class="btn" onclick="refrescarDatos()" title="Refrescar tabla desde el almacenamiento local"><i class="fa-solid fa-rotate"></i> Refrescar<\/button>' +
+        '<div class="zoom-row">' +
+        '<button class="btn" onclick="zoom2(-0.1)">&#8722; Zoom<\/button>' +
+        '<span class="zoom-val" id="zv" onclick="zoom2(0,true)">100%<\/span>' +
+        '<button class="btn" onclick="zoom2(0.1)">&#43; Zoom<\/button>' +
+        '<\/div>' +
+        '<button class="btn" onclick="darkToggle()">&#9790; Oscuro<\/button>' +
+        '<span class="stat" id="stat"><\/span>' +
         '<\/div>' +
         '<div class="table-wrap">' +
-          '<div id="fa" class="floating-row-actions">' +
-            '<button id="fa-edit" class="btn-float-action"><i class="fa-solid fa-pen-to-square"></i> Editar</button>' +
-            '<button id="fa-dup" class="btn-float-action"><i class="fa-solid fa-copy"></i> Duplicar</button>' +
-            '<button id="fa-del" class="btn-float-action btn-float-del"><i class="fa-solid fa-trash-can"></i> Borrar</button>' +
-          '</div>' +
-          '<table><thead><tr id="tr-head"><\/tr><\/thead><tbody id="tb"><\/tbody><\/table>' +
+        '<div id="fa" class="floating-row-actions">' +
+        '<button id="fa-edit" class="btn-float-action"><i class="fa-solid fa-pen-to-square"></i> Editar</button>' +
+        '<button id="fa-dup" class="btn-float-action"><i class="fa-solid fa-copy"></i> Duplicar</button>' +
+        '<button id="fa-del" class="btn-float-action btn-float-del"><i class="fa-solid fa-trash-can"></i> Borrar</button>' +
+        '</div>' +
+        '<table><thead><tr id="tr-head"><\/tr><\/thead><tbody id="tb"><\/tbody><\/table>' +
         '<\/div>' +
         '<' + sc + '>' + js + '<\/' + sc + '>' +
         '<\/body><\/html>';
@@ -2391,62 +2459,7 @@
       const listaUsuarios = await cargarLista(urls.usuarios, 'usuarios');
       autocompletar("usuario", "sugUsuario", listaUsuarios);
 
-      document.getElementById("usuario").addEventListener("blur", async (e) => {
-        const valorUsuario = e.target.value.trim();
-        if (!valorUsuario) return;
-        
-        try {
-          const url = URL_BACKEND;
-          const response = await fetch(url, {
-            method: 'POST',
-            headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-            body: JSON.stringify({ action: 'buscarUltimoRespaldo', usuario: valorUsuario })
-          });
-          
-          if (response.ok) {
-            const texto = await response.text();
-            if (texto === 'NO_BACKUP' || texto === 'OK') {
-              return;
-            }
-            if (!texto.startsWith("Error:")) {
-              try {
-                const notasRespaldo = JSON.parse(texto);
-                if (Array.isArray(notasRespaldo) && notasRespaldo.length > 0) {
-                  const confirmar = confirm('Se detectó una sesión previa en la nube para este usuario.\n\n¿Deseas recuperar tu última sesión de captura o prefieres iniciar una sesión completamente nueva?\n\nAceptar = Recuperar sesión\nCancelar = Nueva sesión');
-                  if (confirmar) {
-                    notas = notasRespaldo;
-                    renumerarNotas();
-                    guardarNotas();
-                    ordenarTabla(ordenActual.columna, true);
-                    renderizarTabla();
-                    alert("Sesión recuperada de la nube exitosamente.");                  } else {
-                    const fechaTmp = document.getElementById('fecha').value;
-                    const usuarioTmp = document.getElementById('usuario').value;
-                    
-                    notas = [];
-                    nextOrdenCaptura = 1;
-                    filaEnEdicion = null;
-                    localStorage.removeItem('notasCapturadas');
-                    localStorage.removeItem('nextOrdenCaptura');
-                    guardarNotas();
-                    renderizarTabla();
-                    
-                    document.getElementById('fecha').value = fechaTmp;
-                    document.getElementById('usuario').value = usuarioTmp;
-                    document.getElementById('titular').focus();
-                    
-                    alert("Se ha iniciado una nueva sesión en limpio.");
-                  }
-                }
-              } catch(e) {
-                console.warn("El respaldo no es un JSON válido o hubo un error:", e);
-              }
-            }
-          }
-        } catch (error) {
-          console.error("Error al buscar sesión previa en la nube:", error);
-        }
-      });
+
 
       // Blur events para dependencia y medio
       document.getElementById("dependencia").addEventListener("blur", (e) => {
@@ -2565,12 +2578,12 @@
             showConsoleMsg(`Comando ejecutado con éxito. Filas afectadas/Resultado: ${filasAfectadas}`);
           } else if (/select/i.test(query)) {
             const resultado = alasql(query);
-            console.table(resultado); 
+            console.table(resultado);
             if (Array.isArray(resultado)) {
               notas = resultado;
               renderizarTabla();
               cargarNotasGuardadas();
-      inicializarAccionesFlotantes();
+              inicializarAccionesFlotantes();
               showConsoleMsg(`Mostrando ${resultado.length} resultados del SELECT (F12 para ver la matriz completa)`);
             }
           } else {
@@ -2595,10 +2608,10 @@
         }
       });
 
-    let currentHoveredTd = null;
-    let hoverTimeout = null;
+      let currentHoveredTd = null;
+      let hoverTimeout = null;
 
-    function mostrarAccionesFlotantes(td, tr, notaId, notaIndex, tableContainer, floatingActions) {
+      function mostrarAccionesFlotantes(td, tr, notaId, notaIndex, tableContainer, floatingActions) {
         const containerRect = tableContainer.getBoundingClientRect();
         const tdRect = td.getBoundingClientRect();
 
@@ -2629,63 +2642,63 @@
           floatingActions.classList.remove('show');
           borrarNota(notaIndex);
         };
-    }
+      }
 
-    function inicializarAccionesFlotantes() {
-      const tableContainer = document.querySelector('.table-container');
-      const floatingActions = document.getElementById('floatingTableActions');
-      const tablaBody = document.querySelector('#tablaNotas tbody');
+      function inicializarAccionesFlotantes() {
+        const tableContainer = document.querySelector('.table-container');
+        const floatingActions = document.getElementById('floatingTableActions');
+        const tablaBody = document.querySelector('#tablaNotas tbody');
 
-      if (!tableContainer || !floatingActions || !tablaBody) return;
+        if (!tableContainer || !floatingActions || !tablaBody) return;
 
-      tablaBody.addEventListener('mousemove', (e) => {
-        const td = e.target.closest('td');
-        const tr = e.target.closest('tr');
+        tablaBody.addEventListener('mousemove', (e) => {
+          const td = e.target.closest('td');
+          const tr = e.target.closest('tr');
 
-        if (!tr || !td) {
-          clearTimeout(hoverTimeout);
-          return;
-        }
+          if (!tr || !td) {
+            clearTimeout(hoverTimeout);
+            return;
+          }
 
-        if (td === currentHoveredTd && floatingActions.classList.contains('show')) return;
-        
-        if (td !== currentHoveredTd) {
-          clearTimeout(hoverTimeout);
-        }
+          if (td === currentHoveredTd && floatingActions.classList.contains('show')) return;
 
-        const notaId = parseInt(tr.dataset.id, 10);
-        const notaIndex = notas.findIndex(n => n.ordenCaptura === notaId);
-        if (notaIndex === -1) return;
+          if (td !== currentHoveredTd) {
+            clearTimeout(hoverTimeout);
+          }
 
-        currentHoveredTd = td;
-        
-        if (!floatingActions.classList.contains('show')) {
-          hoverTimeout = setTimeout(() => {
-            if (currentHoveredTd === td) {
-              mostrarAccionesFlotantes(td, tr, notaId, notaIndex, tableContainer, floatingActions);
-            }
-          }, 350);
-        } else {
-          mostrarAccionesFlotantes(td, tr, notaId, notaIndex, tableContainer, floatingActions);
-        }
-      });
+          const notaId = parseInt(tr.dataset.id, 10);
+          const notaIndex = notas.findIndex(n => n.ordenCaptura === notaId);
+          if (notaIndex === -1) return;
 
-      tableContainer.addEventListener('mouseleave', (e) => {
-        if (!floatingActions.contains(e.relatedTarget)) {
-          clearTimeout(hoverTimeout);
-          floatingActions.classList.remove('show');
-          currentHoveredTd = null;
-        }
-      });
+          currentHoveredTd = td;
 
-      floatingActions.addEventListener('mouseleave', (e) => {
-        if (!tableContainer.contains(e.relatedTarget)) {
-          clearTimeout(hoverTimeout);
-          floatingActions.classList.remove('show');
-          currentHoveredTd = null;
-        }
-      });
-    }
+          if (!floatingActions.classList.contains('show')) {
+            hoverTimeout = setTimeout(() => {
+              if (currentHoveredTd === td) {
+                mostrarAccionesFlotantes(td, tr, notaId, notaIndex, tableContainer, floatingActions);
+              }
+            }, 350);
+          } else {
+            mostrarAccionesFlotantes(td, tr, notaId, notaIndex, tableContainer, floatingActions);
+          }
+        });
+
+        tableContainer.addEventListener('mouseleave', (e) => {
+          if (!floatingActions.contains(e.relatedTarget)) {
+            clearTimeout(hoverTimeout);
+            floatingActions.classList.remove('show');
+            currentHoveredTd = null;
+          }
+        });
+
+        floatingActions.addEventListener('mouseleave', (e) => {
+          if (!tableContainer.contains(e.relatedTarget)) {
+            clearTimeout(hoverTimeout);
+            floatingActions.classList.remove('show');
+            currentHoveredTd = null;
+          }
+        });
+      }
 
       cargarNotasGuardadas();
       inicializarAccionesFlotantes();
@@ -3023,6 +3036,16 @@
     zoomOut.addEventListener('click', () => updateZoom(tableZoom - 0.1));
     zoomDisplay.addEventListener('click', () => updateZoom(1.0));
     // ----------------------------
+
+    // Cierra el menú desplegable si se hace clic fuera de él
+    window.addEventListener('click', function (event) {
+      if (!event.target.closest('.dropdown-acciones')) {
+        const dropdown = document.getElementById('dropdownOtrasAcciones');
+        if (dropdown && dropdown.classList.contains('show')) {
+          dropdown.classList.remove('show');
+        }
+      }
+    });
 
   </script>
 
