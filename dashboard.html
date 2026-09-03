@@ -1,0 +1,497 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard de Análisis | Monitoreo de Medios</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              bg: '#f8f9fa',
+              card: '#ffffff',
+              border: '#d9c0c5',
+              gold: '#a57f2c',
+              goldHover: '#795801',
+              text: '#191c1d',
+              textMuted: '#544246'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f8f9fa;
+      color: #191c1d;
+    }
+    .card-theme {
+      background-color: #ffffff;
+      border-color: #d9c0c5;
+    }
+    .header-theme {
+      background-color: rgba(255, 255, 255, 0.92);
+      border-color: #d9c0c5;
+    }
+    .filter-control,
+    .top-control {
+      background-color: #ffffff;
+      color: #191c1d;
+      border: 1px solid #d9c0c5;
+      border-radius: 0.5rem;
+      padding: 0.45rem 0.6rem;
+      font-size: 0.7rem;
+    }
+    .kpi-card {
+      background-color: #ffffff;
+      border: 1px solid #d9c0c5;
+      border-left-width: 4px;
+      border-radius: 0.75rem;
+      padding: 1rem;
+    }
+    .kpi-card p {
+      color: #544246;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .kpi-card strong {
+      display: block;
+      color: #611232;
+      font-size: 1.8rem;
+      margin-top: 0.25rem;
+    }
+    .kpi-card small {
+      color: #544246;
+      font-size: 0.75rem;
+    }
+    .chart-card {
+      background-color: #ffffff;
+      border: 1px solid #d9c0c5;
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+    }
+    .chart-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .chart-title h3 {
+      color: #611232;
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+    .chart-box {
+      height: 300px;
+      position: relative;
+    }
+    .chart-box.tall {
+      height: 430px;
+    }
+    .treemap-box {
+      height: 430px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 0.5rem;
+      background-color: #f3f4f5;
+    }
+    .treemap-item {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0.4rem;
+      color: #ffffff;
+      text-align: center;
+      font-size: 0.7rem;
+      font-weight: 700;
+      line-height: 1.15;
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      overflow: hidden;
+    }
+    .treemap-item span:first-child {
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    @media (max-width: 640px) {
+      .chart-box.tall,
+      .treemap-box {
+        height: 360px;
+      }
+    }
+  </style>
+</head>
+
+<body class="min-h-screen p-4 sm:p-6 transition-colors duration-200">
+
+  <!-- HEADER -->
+  <header class="header-theme border rounded-xl p-4 mb-6 flex justify-between items-center sticky top-0 z-50 backdrop-blur-md">
+    <div class="flex items-center gap-3">
+      <i class="fa-solid fa-chart-line text-[#d4a853] text-2xl"></i>
+      <div>
+        <h1 class="text-lg font-bold">Dashboard <span class="text-[#d4a853]">de Monitoreo</span></h1>
+        <p class="text-xs text-[#544246]">Tiempo real</p>
+      </div>
+    </div>
+    <div class="flex items-center gap-3">
+      <button onclick="cargarDatos()" class="px-3 py-1.5 text-xs font-semibold rounded-lg border border-[#d9c0c5] hover:bg-[#611232] hover:text-white transition flex items-center gap-2">
+        <i class="fa-solid fa-rotate-right" id="reloadIcon"></i> Actualizar
+      </button>
+      <a href="index.html" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-[#611232] text-white hover:bg-[#7e183b] transition flex items-center gap-2">
+        <i class="fa-solid fa-pen-to-square"></i> Captura
+      </a>
+    </div>
+  </header>
+
+  <!-- LOADING STATE -->
+  <div id="loading" class="flex flex-col items-center justify-center py-20 text-[#611232]">
+    <i class="fa-solid fa-circle-notch fa-spin text-4xl mb-3"></i>
+    <p class="text-sm font-semibold">Cargando datos desde Google Sheets...</p>
+  </div>
+
+  <!-- DASHBOARD CONTENT -->
+  <main id="content" class="hidden space-y-6 max-w-7xl mx-auto">
+    <section class="card-theme border p-4 rounded-xl">
+      <div class="flex flex-wrap items-center gap-3">
+        <button id="filterToggle" class="px-3 py-2 text-xs rounded-lg bg-[#611232] text-white font-bold">
+          <i class="fa-solid fa-filter"></i> Filtros
+        </button>
+        <div id="filters" class="hidden flex flex-wrap items-center gap-3 w-full lg:flex">
+          <select id="filterEstatus" class="filter-control"><option value="">Todos los estatus</option></select>
+          <select id="filterMedio" class="filter-control"><option value="">Todos los medios</option></select>
+          <select id="filterDependencia" class="filter-control"><option value="">Todas las dependencias</option></select>
+          <select id="filterMunicipio" class="filter-control"><option value="">Todos los municipios</option></select>
+          <select id="filterCanal" class="filter-control"><option value="">Todos los canales</option></select>
+          <button id="clearFilters" class="px-3 py-2 text-xs rounded-lg border border-[#d9c0c5] text-[#611232]">Restablecer</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-7 gap-4">
+      <div class="kpi-card border-[#d4a853]"><p>Total Notas</p><strong id="kpiTotal">0</strong><small>Registros filtrados</small></div>
+      <div class="kpi-card border-[#2a9d8f]"><p>Positiva</p><strong id="kpiPositiva">0</strong><small id="pctPositiva">0%</small></div>
+      <div class="kpi-card border-[#ffb703]"><p>Informativa</p><strong id="kpiInformativa">0</strong><small id="pctInformativa">0%</small></div>
+      <div class="kpi-card border-[#e63946]"><p>Negativa</p><strong id="kpiNegativa">0</strong><small id="pctNegativa">0%</small></div>
+      <div class="kpi-card border-[#d4a853]"><p>Medios</p><strong id="kpiMedios">0</strong><small>Medios únicos</small></div>
+      <div class="kpi-card border-[#d4a853]"><p>Dependencias</p><strong id="kpiDependencias">0</strong><small>Dependencias únicas</small></div>
+      <div class="kpi-card border-[#d4a853]"><p>Municipios</p><strong id="kpiMunicipios">0</strong><small>Municipios únicos</small></div>
+    </section>
+
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <article class="chart-card"><div class="chart-title"><h3>Distribución por Medio</h3><select id="topMedios" class="top-control"></select></div><div class="chart-box"><canvas id="chartMedios"></canvas></div></article>
+      <article class="chart-card"><div class="chart-title"><h3>Distribución por Estatus</h3><select id="topEstatus" class="top-control"></select></div><div class="chart-box"><canvas id="chartEstatus"></canvas></div></article>
+      <article class="chart-card"><div class="chart-title"><h3>Principales Temas</h3><select id="topTemas" class="top-control"></select></div><div class="chart-box tall"><canvas id="chartTemas"></canvas></div></article>
+      <article class="chart-card"><div class="chart-title"><h3>Canal</h3><select id="topCanal" class="top-control"></select></div><div id="chartCanal" class="treemap-box"></div></article>
+      <article class="chart-card lg:col-span-2"><div class="chart-title"><h3>Frecuencia Diaria de Publicaciones</h3><select id="topFechas" class="top-control"></select></div><div class="chart-box"><canvas id="chartFechas"></canvas></div></article>
+    </section>
+  </main>
+
+  <script>
+    const API_URL = "https://script.google.com/macros/s/AKfycbzvP1fd-jlt8_CTLnsN9J-iQWMl2re5GkuJH7n0PiNbvMTysdQhJXWzWdCsUGWOUA_DKA/exec";
+    const STATUS_COLORS = { Positiva: "#2a9d8f", Informativa: "#ffb703", Negativa: "#e63946" };
+    const CHART_LIMITS = ["5", "10", "25", "all"];
+    let registros = [];
+    let charts = {};
+
+    const getElement = id => document.getElementById(id);
+
+    function normalizeKey(key) {
+      return String(key).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+    }
+
+    function normalizeRecord(record) {
+      const normalized = {};
+      Object.entries(record || {}).forEach(([key, value]) => {
+        const normalizedKey = normalizeKey(key);
+        const mappedKey = normalizedKey === "genero" ? "genero" : normalizedKey;
+        normalized[mappedKey] = value === null || value === undefined ? "" : String(value).trim();
+      });
+      return normalized;
+    }
+
+    async function cargarDatos() {
+      const reloadIcon = getElement("reloadIcon");
+      reloadIcon?.classList.add("fa-spin");
+      try {
+        const response = await fetch(API_URL, { method: "GET", redirect: "follow" });
+        if (!response.ok) throw new Error(`Error HTTP: ${response.status}`);
+        const text = await response.text();
+        let data;
+        try {
+          data = JSON.parse(text);
+        } catch (error) {
+          console.error("Respuesta recibida (no JSON):", text);
+          throw new Error("El servidor devolvió una respuesta no válida.");
+        }
+        if (data?.error) throw new Error(data.error);
+        if (!Array.isArray(data)) throw new Error("La API no devolvió una lista de registros.");
+        registros = data.map(normalizeRecord);
+        initializeControls();
+        renderDashboard();
+        getElement("loading")?.classList.add("hidden");
+        getElement("content")?.classList.remove("hidden");
+      } catch (error) {
+        console.error("Detalle del error:", error);
+        alert(`No se pudo cargar la información: ${error.message}`);
+      } finally {
+        reloadIcon?.classList.remove("fa-spin");
+      }
+    }
+
+    function setText(id, value) {
+      const element = getElement(id);
+      if (element) element.textContent = value;
+    }
+
+    function uniqueValues(field) {
+      return [...new Set(registros.map(item => item[field]).filter(Boolean))]
+        .sort((a, b) => a.localeCompare(b, "es", { sensitivity: "base" }));
+    }
+
+    function fillFilter(id, values, label) {
+      const select = getElement(id);
+      if (!select) return;
+      select.innerHTML = `<option value="">${label}</option>` + values
+        .map(value => `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`).join("");
+    }
+
+    function initializeControls() {
+      fillFilter("filterEstatus", Object.keys(STATUS_COLORS), "Todos los estatus");
+      fillFilter("filterMedio", uniqueValues("medio"), "Todos los medios");
+      fillFilter("filterDependencia", uniqueValues("dependencia"), "Todas las dependencias");
+      fillFilter("filterMunicipio", uniqueValues("municipio"), "Todos los municipios");
+      fillFilter("filterCanal", uniqueValues("canal"), "Todos los canales");
+
+      ["topMedios", "topEstatus", "topTemas", "topCanal", "topFechas"].forEach(id => {
+        const select = getElement(id);
+        if (!select || select.options.length) return;
+        select.innerHTML = CHART_LIMITS.map(value =>
+          `<option value="${value}">${value === "all" ? "Todo" : `Top ${value}`}</option>`).join("");
+        select.value = id === "topEstatus" ? "all" : "10";
+        select.addEventListener("change", renderDashboard);
+      });
+    }
+
+    function escapeHtml(value) {
+      return String(value).replace(/[&<>'"]/g, character => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", "\"": "&quot;"
+      }[character]));
+    }
+
+    function getFilteredData() {
+      const filters = {
+        estatus: getElement("filterEstatus")?.value || "",
+        medio: getElement("filterMedio")?.value || "",
+        dependencia: getElement("filterDependencia")?.value || "",
+        municipio: getElement("filterMunicipio")?.value || "",
+        canal: getElement("filterCanal")?.value || ""
+      };
+      return registros.filter(record => Object.entries(filters)
+        .every(([field, value]) => !value || record[field] === value));
+    }
+
+    function countBy(data, field) {
+      const counts = {};
+      data.forEach(record => {
+        const value = record[field] || "Sin especificar";
+        counts[value] = (counts[value] || 0) + 1;
+      });
+      return Object.entries(counts).sort((a, b) => b[1] - a[1]);
+    }
+
+    function applyLimit(entries, selectId) {
+      const limit = getElement(selectId)?.value || "10";
+      return limit === "all" ? entries : entries.slice(0, Number(limit));
+    }
+
+    function chartOptions(stacked = false) {
+      return {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { labels: { color: "#191c1d", font: { size: 10 } } },
+          datalabels: { color: "#ffffff", font: { weight: "bold", size: 10 }, formatter: value => value || "" }
+        },
+        scales: {
+          x: { beginAtZero: true, stacked, ticks: { color: "#544246" }, grid: { color: "#d9c0c5" } },
+          y: { stacked, ticks: { color: "#544246" }, grid: { color: "#d9c0c5" } }
+        }
+      };
+    }
+
+    function drawChart(id, config) {
+      const canvas = getElement(id);
+      if (!canvas) return;
+      charts[id]?.destroy();
+      charts[id] = new Chart(canvas, config);
+    }
+
+    function renderDashboard() {
+      const data = getFilteredData();
+      const total = data.length;
+      const statusCounts = Object.keys(STATUS_COLORS).reduce((result, status) => {
+        result[status] = data.filter(record => record.estatus.toLowerCase() === status.toLowerCase()).length;
+        return result;
+      }, {});
+
+      setText("kpiTotal", total.toLocaleString("es-MX"));
+      setText("kpiMedios", new Set(data.map(item => item.medio).filter(Boolean)).size.toLocaleString("es-MX"));
+      setText("kpiDependencias", new Set(data.map(item => item.dependencia).filter(Boolean)).size.toLocaleString("es-MX"));
+      setText("kpiMunicipios", new Set(data.map(item => item.municipio).filter(Boolean)).size.toLocaleString("es-MX"));
+      Object.entries(statusCounts).forEach(([status, count]) => {
+        const suffix = status.charAt(0).toUpperCase() + status.slice(1).toLowerCase();
+        setText(`kpi${suffix}`, count.toLocaleString("es-MX"));
+        setText(`pct${suffix}`, `${total ? (count / total * 100).toFixed(1) : "0.0"}%`);
+      });
+
+      renderMediaChart(data);
+      renderStatusChart(data);
+      renderTopicsChart(data);
+      renderChannelTreemap(data);
+      renderDatesChart(data);
+    }
+
+    function renderMediaChart(data) {
+      const entries = applyLimit(countBy(data, "medio"), "topMedios");
+      const labels = entries.map(entry => entry[0]);
+      const datasets = Object.keys(STATUS_COLORS).map(status => ({
+        label: status,
+        data: labels.map(label => data.filter(item => item.medio === label && item.estatus.toLowerCase() === status.toLowerCase()).length),
+        backgroundColor: STATUS_COLORS[status],
+        borderWidth: 0
+      }));
+      const options = chartOptions(true);
+      options.indexAxis = "y";
+      drawChart("chartMedios", { type: "bar", data: { labels, datasets }, options });
+    }
+
+    function renderStatusChart(data) {
+      const entries = applyLimit(countBy(data, "estatus"), "topEstatus");
+      drawChart("chartEstatus", {
+        type: "pie",
+        data: {
+          labels: entries.map(entry => entry[0]),
+          datasets: [{ data: entries.map(entry => entry[1]), backgroundColor: entries.map(entry => STATUS_COLORS[entry[0]] || "#777") }]
+        },
+        options: { ...chartOptions(), scales: {}, plugins: { ...chartOptions().plugins, legend: { position: "bottom", labels: { color: "#191c1d" } } } }
+      });
+    }
+
+    function renderTopicsChart(data) {
+      const entries = applyLimit(countBy(data, "tema"), "topTemas");
+      const options = chartOptions();
+      options.indexAxis = "y";
+      options.plugins.legend.display = false;
+      drawChart("chartTemas", {
+        type: "bar",
+        data: { labels: entries.map(entry => entry[0]), datasets: [{ label: "Notas", data: entries.map(entry => entry[1]), backgroundColor: "#ffb703", borderRadius: 4 }] },
+        options
+      });
+    }
+
+    function computeTreemap(entries, x, y, width, height) {
+      if (!entries.length) return [];
+      if (entries.length === 1) {
+        return [{ label: entries[0][0], value: entries[0][1], x, y, width, height }];
+      }
+      const total = entries.reduce((sum, entry) => sum + entry[1], 0);
+      let leftTotal = 0;
+      let splitIndex = 0;
+      let closestDifference = Infinity;
+      entries.slice(0, -1).forEach((entry, index) => {
+        leftTotal += entry[1];
+        const difference = Math.abs(total - leftTotal * 2);
+        if (difference < closestDifference) {
+          closestDifference = difference;
+          splitIndex = index;
+        }
+      });
+      const left = entries.slice(0, splitIndex + 1);
+      const right = entries.slice(splitIndex + 1);
+      const leftRatio = left.reduce((sum, entry) => sum + entry[1], 0) / total;
+      if (width >= height) {
+        const leftWidth = width * leftRatio;
+        return [
+          ...computeTreemap(left, x, y, leftWidth, height),
+          ...computeTreemap(right, x + leftWidth, y, width - leftWidth, height)
+        ];
+      }
+      const topHeight = height * leftRatio;
+      return [
+        ...computeTreemap(left, x, y, width, topHeight),
+        ...computeTreemap(right, x, y + topHeight, width, height - topHeight)
+      ];
+    }
+
+    function renderChannelTreemap(data) {
+      const container = getElement("chartCanal");
+      if (!container) return;
+      container.innerHTML = "";
+      const entries = applyLimit(countBy(data, "canal"), "topCanal");
+      const total = entries.reduce((sum, entry) => sum + entry[1], 0);
+      if (!entries.length || !total) {
+        container.innerHTML = "<div class=\"flex h-full items-center justify-center text-[#544246] text-xs\">Sin datos</div>";
+        return;
+      }
+      const colors = ["#ffbd2e", "#df0000", "#388e3c", "#0b91dc", "#9225ad", "#795548", "#bd1b1f", "#2f8635", "#008b96", "#611232"];
+      const tiles = computeTreemap(entries, 0, 0, 100, 100);
+      tiles.forEach((tileData, index) => {
+        const { label, value } = tileData;
+        const tileWidth = tileData.width;
+        const tileHeight = tileData.height;
+        const tile = document.createElement("div");
+        tile.className = "treemap-item";
+        tile.style.left = `${tileData.x}%`;
+        tile.style.top = `${tileData.y}%`;
+        tile.style.width = `${tileWidth}%`;
+        tile.style.height = `${tileHeight}%`;
+        tile.style.backgroundColor = colors[index % colors.length];
+        tile.title = `${label}: ${value.toLocaleString("es-MX")} (${(value / total * 100).toFixed(1)}%)`;
+        tile.innerHTML = `<span>${escapeHtml(label)}</span><span>${(value / total * 100).toFixed(0)}%</span>`;
+        container.appendChild(tile);
+      });
+    }
+
+    function renderDatesChart(data) {
+      const entries = countBy(data, "fecha").sort((a, b) => new Date(a[0]) - new Date(b[0]));
+      const limited = applyLimit(entries, "topFechas");
+      drawChart("chartFechas", {
+        type: "line",
+        data: { labels: limited.map(entry => entry[0]), datasets: [{ label: "Notas registradas", data: limited.map(entry => entry[1]), borderColor: "#d4a853", backgroundColor: "rgba(212,168,83,.15)", fill: true, tension: .3 }] },
+        options: chartOptions()
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      if (typeof ChartDataLabels !== "undefined") Chart.register(ChartDataLabels);
+      ["filterEstatus", "filterMedio", "filterDependencia", "filterMunicipio", "filterCanal"]
+        .forEach(id => getElement(id)?.addEventListener("change", renderDashboard));
+      getElement("clearFilters")?.addEventListener("click", () => {
+        ["filterEstatus", "filterMedio", "filterDependencia", "filterMunicipio", "filterCanal"]
+          .forEach(id => { const select = getElement(id); if (select) select.value = ""; });
+        renderDashboard();
+      });
+      getElement("filterToggle")?.addEventListener("click", () => getElement("filters")?.classList.toggle("hidden"));
+      cargarDatos();
+    });
+  </script>
+</body>
+</html>
