@@ -11,6 +11,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 
   <script>
     tailwind.config = {
@@ -83,6 +84,7 @@
       border: 1px solid #d9c0c5;
       border-radius: 0.75rem;
       padding: 1.25rem;
+      box-shadow: 0 8px 18px rgba(97, 18, 50, 0.14);
     }
     .chart-title {
       display: flex;
@@ -131,6 +133,15 @@
       text-overflow: ellipsis;
       white-space: nowrap;
     }
+    .tab-button { border-bottom: 3px solid transparent; color: #544246; font-size: .75rem; font-weight: 700; padding: .65rem .9rem; }
+    .tab-button.active { border-color: #611232; color: #611232; }
+    .notes-table { border-collapse: collapse; min-width: 1250px; width: 100%; }
+    .notes-table th, .notes-table td { border-bottom: 1px solid #eadfe1; padding: .55rem .65rem; text-align: left; vertical-align: top; }
+    .notes-table th { background: #f8f3f4; color: #611232; font-size: .68rem; position: sticky; top: 0; z-index: 1; }
+    .notes-table td { font-size: .7rem; max-width: 220px; }
+    .notes-table td a { color: #611232; font-weight: 700; text-decoration: underline; }
+    .table-filter { width: 100%; margin-top: .35rem; padding: .3rem; border: 1px solid #d9c0c5; border-radius: .3rem; font-size: .65rem; font-weight: 400; }
+    .table-wrap { overflow: auto; max-height: 650px; }
     @media (max-width: 640px) {
       .chart-box.tall,
       .treemap-box {
@@ -169,6 +180,10 @@
 
   <!-- DASHBOARD CONTENT -->
   <main id="content" class="hidden space-y-6 max-w-7xl mx-auto">
+    <nav class="card-theme border rounded-xl px-3 flex items-center gap-2" aria-label="Secciones">
+      <button class="tab-button active" data-tab="general">General</button>
+      <button class="tab-button" data-tab="detalle">Detalle de notas</button>
+    </nav>
     <section class="card-theme border p-4 rounded-xl">
       <div class="flex flex-wrap items-center gap-3">
         <button id="filterToggle" class="px-3 py-2 text-xs rounded-lg bg-[#611232] text-white font-bold">
@@ -185,11 +200,12 @@
       </div>
     </section>
 
+    <div id="generalTab" class="space-y-6">
     <section class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-7 gap-4">
       <div class="kpi-card border-[#d4a853]"><p>Total Notas</p><strong id="kpiTotal">0</strong><small>Registros filtrados</small></div>
-      <div class="kpi-card border-[#2a9d8f]"><p>Positiva</p><strong id="kpiPositiva">0</strong><small id="pctPositiva">0%</small></div>
-      <div class="kpi-card border-[#ffb703]"><p>Informativa</p><strong id="kpiInformativa">0</strong><small id="pctInformativa">0%</small></div>
-      <div class="kpi-card border-[#e63946]"><p>Negativa</p><strong id="kpiNegativa">0</strong><small id="pctNegativa">0%</small></div>
+      <div class="kpi-card border-[#2a9d8f]"><p><a href="#" class="status-link" data-status="Positiva">Positiva</a></p><strong id="kpiPositiva">0</strong><small id="pctPositiva" class="font-bold">0%</small></div>
+      <div class="kpi-card border-[#ffb703]"><p><a href="#" class="status-link" data-status="Informativa">Informativa</a></p><strong id="kpiInformativa">0</strong><small id="pctInformativa" class="font-bold">0%</small></div>
+      <div class="kpi-card border-[#e63946]"><p><a href="#" class="status-link" data-status="Negativa">Negativa</a></p><strong id="kpiNegativa">0</strong><small id="pctNegativa" class="font-bold">0%</small></div>
       <div class="kpi-card border-[#d4a853]"><p>Medios</p><strong id="kpiMedios">0</strong><small>Medios únicos</small></div>
       <div class="kpi-card border-[#d4a853]"><p>Dependencias</p><strong id="kpiDependencias">0</strong><small>Dependencias únicas</small></div>
       <div class="kpi-card border-[#d4a853]"><p>Municipios</p><strong id="kpiMunicipios">0</strong><small>Municipios únicos</small></div>
@@ -202,6 +218,18 @@
       <article class="chart-card"><div class="chart-title"><h3>Canal</h3><select id="topCanal" class="top-control"></select></div><div id="chartCanal" class="treemap-box"></div></article>
       <article class="chart-card lg:col-span-2"><div class="chart-title"><h3>Frecuencia Diaria de Publicaciones</h3><select id="topFechas" class="top-control"></select></div><div class="chart-box"><canvas id="chartFechas"></canvas></div></article>
     </section>
+    </div>
+    <section id="detalleTab" class="hidden chart-card">
+      <div class="chart-title">
+        <h2 class="text-base font-bold text-[#611232]">Detalle de notas</h2>
+        <div class="flex flex-wrap gap-2">
+          <input id="tableSearch" class="filter-control" type="search" placeholder="Buscar en cualquier campo..." aria-label="Buscar en cualquier campo">
+          <button id="exportAll" class="px-3 py-2 text-xs rounded-lg bg-[#611232] text-white font-bold"><i class="fa-solid fa-download"></i> Exportar</button>
+        </div>
+      </div>
+      <div class="table-wrap"><table class="notes-table"><thead id="notesHead"></thead><tbody id="notesBody"></tbody></table></div>
+      <p id="tableSummary" class="text-xs text-[#544246] mt-3"></p>
+    </section>
   </main>
 
   <script>
@@ -210,6 +238,12 @@
     const CHART_LIMITS = ["5", "10", "25", "all"];
     let registros = [];
     let charts = {};
+    let selectedStatus = "";
+    const NOTE_COLUMNS = [
+      ["fecha", "Fecha"], ["medio", "Medio"], ["titular", "Titular"], ["firma", "Firma"],
+      ["dependencia", "Dependencia"], ["organismo", "Organismo"], ["genero", "Género"],
+      ["canal", "Canal"], ["tema", "Tema"], ["estatus", "Estatus"], ["municipio", "Municipio"]
+    ];
 
     const getElement = id => document.getElementById(id);
 
@@ -225,6 +259,25 @@
         normalized[mappedKey] = value === null || value === undefined ? "" : String(value).trim();
       });
       return normalized;
+    }
+
+    function firstValue(record, keys) {
+      return keys.map(normalizeKey).map(key => record[key] || "").find(Boolean) || "";
+    }
+
+    function noteValue(record, field) {
+      const aliases = {
+        fecha: ["fecha", "fecha de publicacion", "fecha_de_publicacion"], medio: ["medio", "medio_o_cuenta"],
+        titular: ["titular"], firma: ["firma", "firma del medio", "autor"], dependencia: ["dependencia"],
+        organismo: ["organismo", "dependencias mencionadas"], genero: ["genero", "genero periodistico"],
+        canal: ["canal"], tema: ["tema", "tema segun la fuente"], estatus: ["estatus", "sentimiento", "sentimiento de la fuente"],
+        municipio: ["municipio"], pagina: ["pagina", "página", "liga", "url", "hipervinculo"]
+      };
+      return firstValue(record, aliases[field] || [field]);
+    }
+
+    function cleanRecords(data) {
+      return data.filter(record => NOTE_COLUMNS.some(([field]) => noteValue(record, field)));
     }
 
     async function cargarDatos() {
@@ -243,7 +296,7 @@
         }
         if (data?.error) throw new Error(data.error);
         if (!Array.isArray(data)) throw new Error("La API no devolvió una lista de registros.");
-        registros = data.map(normalizeRecord);
+        registros = cleanRecords(data.map(normalizeRecord));
         initializeControls();
         renderDashboard();
         getElement("loading")?.classList.add("hidden");
@@ -327,6 +380,7 @@
         responsive: true,
         maintainAspectRatio: false,
         plugins: {
+          shadow: { enabled: true },
           legend: { labels: { color: "#191c1d", font: { size: 10 } } },
           datalabels: { color: "#ffffff", font: { weight: "bold", size: 10 }, formatter: value => value || "" }
         },
@@ -367,6 +421,7 @@
       renderTopicsChart(data);
       renderChannelTreemap(data);
       renderDatesChart(data);
+      renderNotesTable(data);
     }
 
     function renderMediaChart(data) {
@@ -386,12 +441,12 @@
     function renderStatusChart(data) {
       const entries = applyLimit(countBy(data, "estatus"), "topEstatus");
       drawChart("chartEstatus", {
-        type: "pie",
+        type: "doughnut",
         data: {
           labels: entries.map(entry => entry[0]),
           datasets: [{ data: entries.map(entry => entry[1]), backgroundColor: entries.map(entry => STATUS_COLORS[entry[0]] || "#777") }]
         },
-        options: { ...chartOptions(), scales: {}, plugins: { ...chartOptions().plugins, legend: { position: "bottom", labels: { color: "#191c1d" } } } }
+        options: { ...chartOptions(), cutout: "62%", scales: {}, plugins: { ...chartOptions().plugins, legend: { position: "bottom", labels: { color: "#191c1d" } } } }
       });
     }
 
@@ -480,6 +535,70 @@
       });
     }
 
+    function renderNotesTable(data) {
+      const search = (getElement("tableSearch")?.value || "").toLocaleLowerCase("es");
+      const header = getElement("notesHead");
+      const body = getElement("notesBody");
+      if (!header || !body) return;
+      const filters = NOTE_COLUMNS.reduce((result, [field]) => {
+        result[field] = (getElement(`columnFilter-${field}`)?.value || "").toLocaleLowerCase("es");
+        return result;
+      }, {});
+      const visible = data.filter(record => {
+        const values = Object.fromEntries(NOTE_COLUMNS.map(([field]) => [field, noteValue(record, field)]));
+        return (!search || Object.values(values).some(value => value.toLocaleLowerCase("es").includes(search))) &&
+          NOTE_COLUMNS.every(([field]) => !filters[field] || values[field].toLocaleLowerCase("es").includes(filters[field]));
+      });
+      if (!header.innerHTML) {
+        header.innerHTML = `<tr>${NOTE_COLUMNS.map(([field, label]) => `<th>${label}<input class="table-filter" id="columnFilter-${field}" placeholder="Filtrar" aria-label="Filtrar ${label}"></th>`).join("")}</tr>`;
+        NOTE_COLUMNS.forEach(([field]) => getElement(`columnFilter-${field}`)?.addEventListener("input", () => renderNotesTable(getFilteredData())));
+      }
+      body.innerHTML = visible.map(record => {
+        const cells = NOTE_COLUMNS.map(([field]) => {
+          const value = escapeHtml(noteValue(record, field));
+          if (field !== "titular") return `<td>${value}</td>`;
+          const page = noteValue(record, "pagina");
+          const href = /^https?:\/\//i.test(page) ? page : "";
+          return `<td>${href ? `<a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${value}</a>` : value}</td>`;
+        }).join("");
+        return `<tr>${cells}</tr>`;
+      }).join("") || `<tr><td colspan="${NOTE_COLUMNS.length}" class="text-center text-[#544246]">Sin registros para mostrar</td></tr>`;
+      setText("tableSummary", `${visible.length.toLocaleString("es-MX")} de ${data.length.toLocaleString("es-MX")} registros visibles`);
+    }
+
+    function activateTab(tabName) {
+      getElement("generalTab")?.classList.toggle("hidden", tabName !== "general");
+      getElement("detalleTab")?.classList.toggle("hidden", tabName !== "detalle");
+      document.querySelectorAll(".tab-button").forEach(button => button.classList.toggle("active", button.dataset.tab === tabName));
+    }
+
+    async function exportDashboard() {
+      const canvases = Object.entries(charts);
+      for (const [id, chart] of canvases) {
+        const link = document.createElement("a");
+        link.download = `${id}.png`;
+        link.href = chart.toBase64Image();
+        link.click();
+      }
+      const treemap = getElement("chartCanal");
+      if (treemap && typeof html2canvas === "function") {
+        const image = await html2canvas(treemap, { backgroundColor: "#f3f4f5", scale: 2 });
+        const link = document.createElement("a");
+        link.download = "chartCanal.png";
+        link.href = image.toDataURL("image/png");
+        link.click();
+      }
+      const table = getElement("notesBody");
+      if (!table) return;
+      const rows = [...table.querySelectorAll("tr")].map(row => [...row.querySelectorAll("td")].map(cell => cell.textContent.trim()));
+      const csv = [NOTE_COLUMNS.map(([, label]) => label), ...rows].map(row => row.map(value => `"${value.replace(/"/g, '""')}"`).join(",")).join("\n");
+      const link = document.createElement("a");
+      link.download = "detalle-de-notas.csv";
+      link.href = URL.createObjectURL(new Blob(["\ufeff" + csv], { type: "text/csv;charset=utf-8" }));
+      link.click();
+      URL.revokeObjectURL(link.href);
+    }
+
     document.addEventListener("DOMContentLoaded", () => {
       if (typeof ChartDataLabels !== "undefined") Chart.register(ChartDataLabels);
       ["filterEstatus", "filterMedio", "filterDependencia", "filterMunicipio", "filterCanal"]
@@ -490,6 +609,17 @@
         renderDashboard();
       });
       getElement("filterToggle")?.addEventListener("click", () => getElement("filters")?.classList.toggle("hidden"));
+      getElement("tableSearch")?.addEventListener("input", () => renderNotesTable(getFilteredData()));
+      getElement("exportAll")?.addEventListener("click", exportDashboard);
+      document.querySelectorAll(".tab-button").forEach(button => button.addEventListener("click", () => activateTab(button.dataset.tab)));
+      document.querySelectorAll(".status-link").forEach(link => link.addEventListener("click", event => {
+        event.preventDefault();
+        selectedStatus = link.dataset.status;
+        const statusSelect = getElement("filterEstatus");
+        if (statusSelect) statusSelect.value = selectedStatus;
+        activateTab("detalle");
+        renderDashboard();
+      }));
       cargarDatos();
     });
   </script>
