@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Notas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Nota" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Canal" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Medio_o_cuenta" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Usuario" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Titular" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Contenido" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Fecha_de_publicacion" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Liga" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Municipio" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Sentimiento_de_la_fuente" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Tipo_de_publicacion" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Audiencia" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Me_gusta" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Comentarios" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Compartidos" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Vistas" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Hashtags" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Programa" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Jerarquia_del_medio" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Alcance_del_medio" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Unidad_del_alcance" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Impresiones" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Genero_periodistico" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Tema_segun_la_fuente" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Sintesis" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Jerarquia_de_la_nota" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Posicion" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Dimension" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Unidad_de_la_dimension" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Con_fotografia" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Es_replica" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Medio_de_origen" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Autor" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Tipo_de_autor" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Dependencia" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Dependencias_mencionadas" type="xs:string" minOccurs="0" nillable="true"/>
+              <xs:element name="Actores_mencionados" type="xs:string" minOccurs="0" nillable="true"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
