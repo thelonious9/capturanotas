@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>DESCARTA PGJEH PROTECCIÓN A EXFUNCIONARIOS MUNICIPALES</Titular>
+		<Contenido>El encargado del Despacho de la Procuraduría General de Justicia del Estado de Hidalgo (PGJEH), Francisco Fernández Hasbun, negó que exista protección al expresidente municipal de Pachuca, Sergio Edgar Baños Rubio, y a la exsecretaria de Administración de la capital, Gabriela Morales Ríos, ambos exfuncionarios señalados por presuntas irregularidades.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Irregularidades exalcalde</Tema_segun_la_fuente>
+		<Sintesis>El encargado del despacho de la PGJEH, Francisco Fernández Hasbun, descartó cualquier tipo de protección a los exfuncionarios Sergio Baños y Gabriela Morales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Fernández Hasbun, Sergio Edgar Baños Rubio, Gabriela Morales Ríos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>ESTIMA SEGOBH HASTA SEIS PRELIBERACIONES</Titular>
+		<Contenido>El secretario de Gobierno, Guillermo Olivares Reyna, afirmó que entre cinco y seis personas que actualmente se encuentran privadas de su libertad podrían acceder a un cambio de medidas cautelares antes del 15 de septiembre, siempre y cuando cumplan con ciertos requisitos como edad avanzada o padecimientos de salud graves.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Medidas Cautelares</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Gobierno, Guillermo Olivares, informó que entre cinco y seis personas privadas de la libertad por delitos no graves podrían obtener cambio de medida cautelar antes del 15 de septiembre.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PGJEH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna, Rosa Icela Rodríguez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>VINCULAN EL TERCER CASO DE VIOLENCIA VICARIA EN HIDALGO</Titular>
+		<Contenido>Después de más de tres años de litigio, durante los cuales Carolina N ha permanecido separada de sus dos hijas, el imputado fue vinculado a proceso por violencia familiar en su modalidad vicaria con la medida cautelar de prisión preventiva.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Reportaje</Genero_periodistico>
+		<Tema_segun_la_fuente>Violencia Vicaria</Tema_segun_la_fuente>
+		<Sintesis>Un juez vinculó a proceso con prisión preventiva al imputado del tercer caso de violencia vicaria registrado en Hidalgo tras tres años de litigio promovido por la madre afectada.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lizania Zavala</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, TSJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Carolina N</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>SE DISPARA HASTA 57% EL PRECIO DE LOS FERTILIZANTES</Titular>
+		<Contenido>El encarecimiento de los insumos agrícolas ha incrementado los costos de producción de maíz y cítricos en la Huasteca hidalguense, con aumentos particularmente pronunciados en fertilizantes químicos como urea, DAP y MAP, cuyo precio por tonelada se elevó hasta 57.2 por ciento entre 2025 y 2026.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo Al Agro</Tema_segun_la_fuente>
+		<Sintesis>Comercializadoras agrícolas de la Huasteca reportaron un aumento del 57.2% en el precio de fertilizantes químicos como la urea y el DAP, encareciendo los costos por hectárea de maíz a $55,000.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh</Dependencias_mencionadas>
+		<Actores_mencionados>Lucía Mendoza Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>REFORZARÁN VIGILANCIA POR USO DE PIROTECNIA EN LAS FIESTAS PATRIAS</Titular>
+		<Contenido>Ante la proximidad de las fiestas patrias, el subsecretario de Gobierno en la Huasteca, Ignacio Primitivo Nava Navarrete, informó que reforzarán las medidas preventivas con los municipios para evitar la comercialización clandestina de artificios pirotécnicos.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Pirotecnia</Tema_segun_la_fuente>
+		<Sintesis>La Subsecretaría de Gobierno en la Huasteca coordinará operativos con los ayuntamientos para vigilar y prevenir la venta o almacenamiento clandestino de pirotecnia durante los festejos patrios.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Presidencia, Sedena, Ayuntamientos, PC</Dependencias_mencionadas>
+		<Actores_mencionados>Ignacio Primitivo Nava Navarrete</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>AUMENTAN DENUNCIAS EN OMITLÁN DE JUÁREZ</Titular>
+		<Contenido>Durante los primeros siete meses de 2026, las carpetas de investigación por violencia familiar en Omitlán pasaron de 1 a 9 casos, mientras que los delitos cometidos por servidores públicos y los ilícitos contra la vida registrarón incrementos según cifras del SESNSP.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Omitlán</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>Cifras del SESNSP reflejaron incrementos en carpetas de investigación por violencia familiar (de 1 a 9 casos) e ilícitos cometidos por servidores públicos en Omitlán de Juárez de enero a julio de 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Martha Sáenz</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Presidencia, SESNSP</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>ENTREGAN APOYOS ESCOLARES</Titular>
+		<Contenido>El titular del IHE, Natividad Castrejón Valdez, encabezó en Tepeji del Río, Tula y Atotonilco de Tula la entrega de uniformes, útiles escolares, libros de texto, calzado, equipo de cómputo e infraestructura para fortalecer la permanencia escolar de estudiantes de educación básica.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Tepeji del Río</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Paquete de apoyos escolares</Tema_segun_la_fuente>
+		<Sintesis>El titular del IHE, Natividad Castrejón, entregó útiles, libros, calzado, uniformes y equipamiento de cómputo a estudiantes de educación básica en Tepeji, Tula y Atotonilco de Tula.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, IHE, Gobernador, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Más animales ponzoñosos por lluvias</Titular>
+		<Contenido>Durante la temporada de lluvias y calor puede aumentar la presencia y actividad de abejas, avispas y arañas. Por ello autoridades sanitarias recomiendan identificar los signos de alarma y evitar remedios caseros ante una picadura o mordedura. La Secretaría de Salud de Hidalgo ha advertido que durante las temporadas de calor y lluvias se registra una mayor actividad de animales ponzoñosos, llamando a acudir de inmediato a unidades médicas para recibir atención especializada.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Promoción De La Salud</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Salud de Hidalgo exhortó a la población a evitar remedios caseros y acudir a centros médicos ante picaduras de insectos o arácnidos durante la época de lluvias.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Maximiliano Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, IMSS, Salud</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Pactan inspección en relleno Siete Mezquites</Titular>
+		<Contenido>El predio Siete Mezquites permanecerá cerrado y no podrá recibir residuos, informó el Gobierno de Hidalgo, luego de una reunión de seguimiento con habitantes, comunidades y ejidatarios de la región de Tula. Asimismo, se acordó realizar el próximo 17 de septiembre una visita ocular para supervisar el retiro de los desechos acumulados y colocar señalética sobre el cierre definitivo del sitio.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Relleno Sanitario</Tema_segun_la_fuente>
+		<Sintesis>El Gobierno de Hidalgo ratificó el cierre del tiradero Siete Mezquites en Tula y programó una inspección con pobladores para verificar el retiro de desechos sólidos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Rosalía Maldonado</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Gobernador, Ayuntamientos</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>EL BARRIO ME RESPALDA: La bandera de la bandera</Titular>
+		<Contenido>Todavía no amanece por completo cuando comienza el movimiento en el Reloj Monumental para llevar las banderas cuidadosamente dobladas hacia los cerros de San Cristóbal y Las Lajas. Jóvenes de barrios tradicionales como Cuauhtémoc, El Arbolito, El Porvenir, El Atorón, La Palma y San Clemente participan en la caminata e izamiento de los lábaros patrios para acompañar las celebraciones de la Independencia.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Opinión</Genero_periodistico>
+		<Tema_segun_la_fuente>Fiestas Patrias</Tema_segun_la_fuente>
+		<Sintesis>Columna de opinión de Álvaro Bardales sobre la tradición comunitaria de los jóvenes de los barrios altos de Pachuca que trasladan e izan las banderas monumentales en los cerros rumbo a las Fiestas Patrias.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Álvaro Bardales</Autor>
+		<Tipo_de_autor>Columnista</Tipo_de_autor>
+		<Dependencia>Contraloría</Dependencia>
+		<Dependencias_mencionadas>Contraloría, Ayuntamiento, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Álvaro Bardales</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Detienen a cinco por narcomenudeo tras un operativo en Ajacuba</Titular>
+		<Contenido>La Agencia de Investigación Criminal de la PGJEH cateó un inmueble en la comunidad San Nicolás Tecomatlán, municipio de Ajacuba, donde fueron detenidos tres hombres y dos mujeres en posesión de dosis de metanfetaminas, marihuana y 10 armas de fuego (dos cortas y ocho largas).</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Ajacuba</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>Un cateo ejecutado por la PGJEH en Ajacuba derivó en la detención de cinco personas, la incautación de estupefacientes y el aseguramiento de un arsenal de 10 armas de fuego.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Caasim atiende socavón abierto en la lateral del bulevar Colosio</Titular>
+		<Contenido>La Caasim desplegó cuadrillas para reparar un socavón sobre la lateral del bulevar Colosio generado por el colapso de una tubería de alcantarillado con 50 años de antigüedad y un pozo de visita oculto. Se reemplazarán dos tramos de tubería de 74 centímetros de diámetro.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Socavón</Tema_segun_la_fuente>
+		<Sintesis>La Caasim inició la sustitución de tubería de alcantarillado sanitario de 50 años de antigüedad para reparar el hundimiento en la lateral del bulevar Colosio.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Caasim, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Evalúan la preliberación de hasta seis personas privadas de su libertad en la entidad</Titular>
+		<Contenido>El secretario de Gobierno, Guillermo Olivares Reyna, informó que la administración estatal analiza expedientes de reclusos para otorgar entre cinco y seis preliberaciones antes del 15 de septiembre a personas que padecen enfermedades terminales, cuadriplejía o edad avanzada.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Medidas Cautelares</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Gobierno, Guillermo Olivares, dio a conocer que hasta seis internos con estados de salud graves o de avanzada edad podrían obtener beneficios de preliberación.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PGJEH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna, Rosa Icela Rodríguez Velázquez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>PRESENTAN DENUNCIA VS. REGIDOR DE HUAZALINGO</Titular>
+		<Contenido>Se inició la carpeta de investigación 05-2026-00826 en Huejutla contra el regidor Jonathan N y tres personas más por presuntos delitos de robo, lesiones y daños a la propiedad ocurridos en Pilcuautla, Tlanchinol, solicitándose el deslinde de responsabilidades.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Huazalingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Delitos servidores públicos</Tema_segun_la_fuente>
+		<Sintesis>Un ciudadano interpuso una querella penal ante la PGJEH contra el regidor de Huazalingo, Jonathan N, imputándole agresiones, daños y robo en la localidad Pilcuautla.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Francisco Bautista</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento, TEEH</Dependencias_mencionadas>
+		<Actores_mencionados>Jonathan N, Valentín Vargas Pablo, Vanessa Mejía Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Por Hidalgo se trasladan armas de fuego y droga, revela la FGR</Titular>
+		<Contenido>Durante la Décima Mesa de Trabajo Interinstitucional del Arco Norte, el fiscal en jefe de la FGR en Hidalgo, Jorge Alberto Jiménez Gutiérrez, reveló detenciones y aseguramientos de armas y 50 kilos de metanfetaminas. Asimismo, se reportó una reducción del 71% en asaltos consumados en la carretera de enero a junio.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>La FGR en Hidalgo reportó el decomiso de 50 kg de metanfetaminas y armas en el Arco Norte, destacando una baja del 71% en asaltos consumados en esa vía.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>Presidencia, FGR, Segobh, Sedena, GN</Dependencias_mencionadas>
+		<Actores_mencionados>Jorge Alberto Jiménez Gutiérrez, Guillermo Olivares Reyna, Hugo Humberto Pedroza Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>EL FARO: La factura que podría llegar en 2027</Titular>
+		<Contenido>Columna de Jorge A. Romero sobre el costo político que le generará a Morena el colapso vial provocado por el carril confinado del Tuzobús y las multas en Pachuca, destacando que el Congreso aprobó por unanimidad el estudio técnico para evaluar el carril compartido.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>20</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Opinión</Genero_periodistico>
+		<Tema_segun_la_fuente>Carril confinado</Tema_segun_la_fuente>
+		<Sintesis>Jorge A. Romero advierte sobre el malestar ciudadano y el impacto electoral rumbo a 2027 ocasionado por los embotellamientos del Tuzobús en Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jorge A. Romero</Autor>
+		<Tipo_de_autor>Columnista</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Sitmah, Congreso, Morena, PAN, PRI</Dependencias_mencionadas>
+		<Actores_mencionados>Jorge A. Romero, Claudia Lilia Luna Islas, Francisco Olvera Ruiz, Manuel Ángel Núñez Soto, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Prevén 425.6 mdp para reconstrucción y salud</Titular>
+		<Contenido>El Gobierno federal proyecta destinar 425 millones 684 mil 918 pesos para Hidalgo en 2027, para acciones de reconstrucción y obras de infraestructura hospitalaria, de acuerdo con el Proyecto de Presupuesto de Egresos de la Federación para el próximo ejercicio fiscal. Del monto total, 300 millones de pesos corresponden al Plan de Reconstrucción para Hidalgo, recursos que serán destinados a estudios, proyectos, obras, mantenimiento y acciones para proteger centros de población y áreas productivas.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Presupuesto De Egresos</Tema_segun_la_fuente>
+		<Sintesis>El PPEF 2027 contempla 425.6 mdp para Hidalgo destinados al Plan de Reconstrucción tras lluvias y a proyectos de infraestructura hospitalaria en Tula, Pachuca e Ixmiquilpan.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Hacienda</Dependencia>
+		<Dependencias_mencionadas>Hacienda, Presidencia, SSH, Sipdus</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Jóvenes de 15 a 19 años, los más afectados por suicidio en Hidalgo</Titular>
+		<Contenido>Los adolescentes de 15 a 19 años concentran el mayor número de fallecimientos por suicidio en Hidalgo, con 124 casos registrados entre 2020 y junio de 2026. En ese periodo, la entidad acumuló 772 muertes por esta causa: 605 correspondieron a hombres y 167 a mujeres, de acuerdo con el Subsistema Epidemiológico y Estadístico de Defunciones. Durante 2025 se registraron 159 suicidios en Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Salud Mental</Tema_segun_la_fuente>
+		<Sintesis>El Subsistema Epidemiológico reportó 772 suicidios en Hidalgo entre 2020 y 2026, ubicando la mayor vulnerabilidad en adolescentes de 15 a 19 años y adultos mayores.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Segobh, INEGI, SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Iván Melo Aguilar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Gobierno de Hidalgo entrega uniformes, útiles y calzado a estudiantes de Tula-Tepeji</Titular>
+		<Contenido>El titular del Instituto Hidalguense de Educación (IHE), Natividad Castrejón Valdez, encabezó la entrega de uniformes, útiles escolares, libros de texto, calzado y equipamiento básico de apoyo de la estrategia educativa impulsada por el gobernador Julio Menchaca Salazar en planteles de Tepeji del Río y Tula de Allende.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Tepeji del Río</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Paquete de apoyos escolares</Tema_segun_la_fuente>
+		<Sintesis>El titular del IHE, Natividad Castrejón, distribuyó útiles, calzado, uniformes y equipo de cómputo a estudiantes de educación básica en planteles de Tepeji del Río y Tula.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, IHE, Gobernador, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez, Julio Menchaca Salazar, Tania Valdez Cuéllar, Nancy Adriana León Vite, Josefina Serrano Bautista, Ofelia Ramírez Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Los asaltos consumados en la carretera federal Arco Norte disminuyeron 71 por ciento</Titular>
+		<Contenido>Los asaltos consumados en la carretera federal Arco Norte disminuyeron 71 por ciento durante el primer semestre de 2026, al pasar de 77 casos registrados entre enero y junio de 2025 a 22 en el mismo periodo de este año. Estos resultados se dieron a conocer durante una mesa de trabajo interestatal con la concesionaria Arco Norte, encabezada por Guillermo Olivares Reyna, secretario de Gobierno estatal, en la que también participaron diversas autoridades estatales y representantes de distintas cámaras empresariales para dar seguimiento a las acciones de seguridad y atención de la vialidad.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inseguridad Carretera</Tema_segun_la_fuente>
+		<Sintesis>Los asaltos en la autopista Arco Norte disminuyeron 71% durante el primer semestre de 2026 al registrarse 22 casos frente a 77 del año anterior, según se informó en la mesa interestatal de seguridad.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Presidencia, SICT, GN, SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna, Santiago Córdoba, Pablo Octavio Olvera Sánchez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>SE FORMA SOCAVÓN EN EL BULEVAR COLOSIO; CAASIM ATIENDE CON SUSTITUCIÓN DE TUBERÍA</Titular>
+		<Contenido>Luego de que se formara un socavón derivado del colapso del pavimento en la superficie lateral del bulevar Colosio, con dirección a Actopan, la Comisión de Agua y Alcantarillado de Sistemas Intermunicipales (Caasim) inició trabajos de excavación para realizar un diagnóstico de la zona y determinar el origen de la afectación. El organismo indicó que el daño fue ocasionado por el desgaste y la antigüedad de la tubería de la línea de alcantarillado sanitario, la cual cuenta con al menos 50 años de operación. Se trabaja en el reemplazo de dos tramos de tubería de 74 centímetros de diámetro.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Socavón</Tema_segun_la_fuente>
+		<Sintesis>La Caasim inició la sustitución de tubería de drenaje de 50 años de antigüedad para reparar el socavón registrado en la lateral del bulevar Colosio de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Caasim, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Guillermo Peredo se suma al Verde Ecologista</Titular>
+		<Contenido>En el Partido Verde Ecologista de México (PVEM) Hidalgo, fue presentado Guillermo Peredo Montes, para sumarse a los trabajos del Distrito 13 electoral local junto a Benjamín Rico y José Luis Lima, bajo el liderazgo del secretario general Octavio Magaña y el delegado nacional, Avelino Tovar. El nuevo integrante aseguró que el partido del tucán es uno de los partidos políticos con mayor confianza y aceptación.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Adhesión política</Tema_segun_la_fuente>
+		<Sintesis>El PVEM Hidalgo presentó a Guillermo Peredo Montes para sumarse a las actividades políticas del Distrito 13 electoral local junto con Benjamín Rico y José Luis Lima.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PVEM</Dependencia>
+		<Dependencias_mencionadas>PVEM</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Peredo Montes, Benjamín Rico, José Luis Lima, Octavio Magaña, Avelino Tovar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Convocan a defender a la FAHC</Titular>
+		<Contenido>A través de las redes sociales circuló una convocatoria para apoyar a la Fundación Arturo Herrera Cabañas (FAHC), ante la situación que enfrentan por Gobierno del Estado para desalojar el lugar dedicado al impulso y promoción de la cultura. En el mensaje publicado invitan a la población a presentarse en los Juzgados Civiles del Sector Primario durante la audiencia para manifestar su respaldo a la institución cultural.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Fundación Herrera Cabañas</Tema_segun_la_fuente>
+		<Sintesis>Ciudadanos y promotores culturales convocaron a una concentración frente a los juzgados civiles para defender la sede de la Fundación Arturo Herrera Cabañas ante la orden de desalojo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ana Luisa Vega</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Gobernador, TSJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Localizaron y resguardaron a un masculino extraviado y desorientado</Titular>
+		<Contenido>Elementos de la Dirección de Prevención Social de Tizayuca, en coordinación con la Comisión de Búsqueda de Personas del Estado de Hidalgo y la CNB, localizaron a un hombre reportado como no localizado en el fraccionamiento La Esmeralda. El ciudadano caminaba desorientado por las calles y fue reintegrado a su núcleo familiar tras recibir atención médica.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tizayuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Personas desaparecidas</Tema_segun_la_fuente>
+		<Sintesis>Autoridades de Tizayuca y la Comisión de Búsqueda de Personas de Hidalgo hallaron desorientado a un adulto reportado como extraviado, entregándolo a sus familiares en buen estado de salud.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, CBPEH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Detienen a cinco personas mediante un cateo por narcomenudeo</Titular>
+		<Contenido>La Procuraduría General de Justicia de Hidalgo (PGJEH), a través de la Agencia de Investigación Criminal, realizó un cateo en un inmueble de San Nicolás Tecomatlán, municipio de Ajacuba, donde detuvo a tres hombres y dos mujeres en posesión de dosis de metanfetamina, marihuana y 10 armas de fuego (dos cortas y ocho largas).</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Ajacuba</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>Agentes ministeriales de la PGJEH arrestaron a cinco personas tras un cateo antinarcóticos en Ajacuba, asegurando estupefacientes y un arsenal de 10 armas de fuego.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>L. A. G. S., A. Á. S., A. M. O., L. A. P. V., P. J. P. Z.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>En la Mira</Titular>
+		<Contenido>Comentario político sobre los llamados a precisar cifras de seguridad en Arco Norte por el general Hugo Pedroza; el retiro definitivo de la política de Yolanda Tellería; las recomendaciones de Guillermo Olivares sobre prevención y control de alcohol en las Fiestas Patrias; la presentación de la Feria de Pachuquilla; y la violencia en funciones de lucha libre en la colonia 11 de Julio.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Opinión</Genero_periodistico>
+		<Tema_segun_la_fuente>Fiestas Patrias</Tema_segun_la_fuente>
+		<Sintesis>Columna En la Mira que analiza las medidas de seguridad para las Fiestas Patrias, las inspecciones en Arco Norte y la Feria de Pachuquilla.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>En la Mira</Autor>
+		<Tipo_de_autor>Columnista</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Ayuntamiento, SICT, Sedena</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna, Yolanda Tellería Beltrán, Hugo Humberto Pedroza</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>SISTEMA PENITENCIARIO PODRÍA LIBERAR A RECLUSOS EN HIDALGO</Titular>
+		<Contenido>Entre cinco y seis personas recluidas podrían obtener su preliberación antes o alrededor del 15 de septiembre, luego de que sus expedientes sean analizados al considerar su avanzada edad o padecimientos de salud graves como cuadriplejia, informó el secretario de Gobierno, Guillermo Olivares Reyna. Asimismo, el funcionario reportó la localización de más de 165 personas con vida dentro del listado de 687 no localizadas.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Medidas Cautelares</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Gobierno, Guillermo Olivares, informó que hasta seis reclusos de edad avanzada o enfermos graves obtendrían beneficios de preliberación antes del 15 de septiembre.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PGJEH, Presidencia, CBPEH</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna, Rosa Icela Rodríguez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>VAN A DEMOLER PRIMARIA EN TULANCINGO; EDIFICARÁN OTRA</Titular>
+		<Contenido>El inmueble de la escuela primaria Aquiles Serdán en Tulancingo será demolido y reconstruido en su totalidad debido a severos daños estructurales. El titular de la SEPH, Natividad Castrejón, informó que las obras abarcarán aproximadamente todo el ciclo escolar 2026-2027 y que se habilitarán sedes temporales o esquemas híbridos mientras se construye la nueva infraestructura de 5 aulas y dos direcciones.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>La SEPH demolerá y reconstruirá la primaria Aquiles Serdán de Tulancingo debido a fallas en su estructura, evaluando reubicaciones temporales para los estudiantes.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>CULMINA JUICIO POR TRIPLE FEMINICIDIO; SOLO ESPERAN FALLO</Titular>
+		<Contenido>El juicio oral por el triple feminicidio de tres mujeres ocurrido el 30 de julio de 2024 en la comunidad de San Isidro, Santiago Tulantepec, llegó a su fase final tras la renuncia de la defensa a desahogar más pruebas. La jueza de control programó para el 24 de septiembre la audiencia de alegatos de clausura, tras la cual se dictará la sentencia correspondiente.</Contenido>
+		<Fecha_de_publicacion>2026-09-11</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Santiago Tulantepec</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Proceso Por Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>Concluyó la etapa de desahogo de pruebas en el juicio por el triple feminicidio en Santiago Tulantepec, fijándose para el 24 de septiembre la audiencia final de alegatos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, TSJEH</Dependencias_mencionadas>
+	</Nota>
+</NotasRadio>
