@@ -1,0 +1,1565 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Charros y escaramuzas recorren calles céntricas</Titular>
+		<Contenido>Con motivo de la conmemoración del Día del Charro, charros y escaramuzas recorrieron las calles del centro de Pachuca desde la avenida Revolución hasta el Reloj Monumental, rindiendo homenaje a Roberto López por sus 50 años de trayectoria en la charrería hidalguense.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Día del Charro</Tema_segun_la_fuente>
+		<Sintesis>Charros y escaramuzas desfilaron por el centro de Pachuca para celebrar el Día del Charro y homenajear a Roberto López por 50 años de trayectoria.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Luis Carlos León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Roberto López</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Propone Julio Menchaca transformar transparencia</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar envió al Congreso de Hidalgo un paquete de iniciativas para actualizar el marco normativo estatal en materia de transparencia, sustituyendo la estructura del Itaih para crear el Subsistema de Transparencia del Estado de Hidalgo integrado al Sistema Nacional.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Transparencia</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca presentó al Congreso propuestas para reestructurar los órganos de transparencia y control interno en la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Gustavo Vargas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Congreso, Contraloría, Itaipen</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Piden que el estudio cubra otras especies</Titular>
+		<Contenido>La Asociación Hidalguense para la Protección de los Animales solicitó ampliar el estudio biológico del tren AIFA-Pachuca en seis municipios para proteger otras especies como murciélagos, conejos, tlacuaches, armadillos y cactáceas además del águila real.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Protección Animal</Tema_segun_la_fuente>
+		<Sintesis>Activistas pidieron extender el estudio de impacto ambiental del tren AIFA-Pachuca a más especies de fauna y flora en la franja del proyecto.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Presidencia, SICT, Oficialía Mayor</Dependencias_mencionadas>
+		<Actores_mencionados>Paola Monterrubio</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Protegen territorio del puma, en Xithi</Titular>
+		<Contenido>Pobladores y autoridades de Xithi en Tepetitlán recibieron un apoyo de 460 mil pesos para delimitar el territorio habitado por el puma captado en cámaras trampa y evitar incursiones a zonas habitadas o ataques al ganado.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tepetitlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Rescate de especies</Tema_segun_la_fuente>
+		<Sintesis>Ejidatarios de Xithi en Tepetitlán destinaron recursos para el monitoreo y resguardo del hábitat del puma para prevenir conflictos con la población.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Rosalía Maldonado</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Ana Elsa Castillo Cea</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Acude artista de Tezontepec a Colombia</Titular>
+		<Contenido>El artista visual e investigador Javier Acevedo, originario de Tezontepec de Aldama, fue seleccionado para realizar una residencia artística en Colombia para desarrollar su proyecto 'Ensambles viscosos' sobre cuerpos de agua.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tezontepec de Aldama</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Intercambio Artístico</Tema_segun_la_fuente>
+		<Sintesis>El creador hidalguense Javier Acevedo participará en una residencia artística en Colombia para exponer su obra sobre el territorio y el agua.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>César Martínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Javier Acevedo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Analizarán con IA problemática vial</Titular>
+		<Contenido>El gobierno estatal instalará tres cámaras con Inteligencia Artificial en puentes del bulevar Felipe Ángeles para analizar el flujo vehicular y remodelará 34 estaciones del Tuzobús para mejorar el sistema de transporte en Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inteligencia Artificial</Tema_segun_la_fuente>
+		<Sintesis>Oficialía Mayor aplicará tecnología de IA para evaluar la carga vehicular en el bulevar Felipe Ángeles y proyecta mantenimiento a 34 estaciones del Tuzobús.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor, Semot, Sitmah</Dependencias_mencionadas>
+		<Actores_mencionados>Orlando Ángeles Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Definirán tarifas para taxi</Titular>
+		<Contenido>La Secretaría de Movilidad y Transporte (Semot) alista la definición del tarifario oficial de taxis en Pachuca previo a la Feria San Francisco 2026, recaudando además 190 mil pesos por sanciones por invasión al carril confinado del Tuzobús.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Tarifario de taxis</Tema_segun_la_fuente>
+		<Sintesis>La Semot actualizará las tarifas de taxis en Pachuca rumbo a las festividades feriales e informó sobre sanciones aplicadas por invadir el carril del Tuzobús.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Sitmah, Sipdus</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Alcaldías olvidan al campo señala UNTA Hidalgo</Titular>
+		<Contenido>La dirigencia estatal de la Unión Nacional de Trabajadores Agrícolas (UNTA) acusó a los ayuntamientos hidalguenses de desatender al sector campesino y omitir la asignación de presupuestos para proyectos productivos agropecuarios.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo Al Agro</Tema_segun_la_fuente>
+		<Sintesis>La UNTA Hidalgo reprobó que las administraciones municipales no destinen recursos para la reactivación económica y fomento del sector agrícola.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alma Leticia Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Martha López Ríos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Charros desfilan en conmemoración de su día</Titular>
+		<Contenido>Con motivo de la conmemoración del Día del Charro, integrantes de la Asociación de Charros del Estado de Hidalgo desfilaron ataviados con traje típico por las calles del centro de Pachuca desde avenida Revolución hasta el Reloj Monumental, enalteciendo esta tradición declarada Patrimonio Cultural Inmaterial.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Día del Charro</Tema_segun_la_fuente>
+		<Sintesis>Integrantes de la Asociación de Charros de Hidalgo desfilaron por el centro de Pachuca para celebrar el Día del Charro y enaltecer la tradición charra.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Ayuntamientos</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Julio Menchaca envía al Congreso local paquete de reformas en transparencia</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar envió al Congreso de Hidalgo un paquete de reformas para crear 'Transparencia para el Pueblo de Hidalgo' como órgano desconcentrado de la Contraloría y el Subsistema de Transparencia estatal, reorganizando la protección de datos tras la desaparición del ITAIH.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Transparencia</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca envió iniciativas al Congreso para reestructurar la transparencia y control interno, creando Transparencia para el Pueblo de Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>40</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Congreso, Contraloría, Itaipen, Planeación, TSJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Comité Estatal de Formación valora propuestas de instrucción docente</Titular>
+		<Contenido>El Comité Estatal de Formación Continua de Hidalgo analizó la oferta académica del Programa para el Desarrollo Profesional Docente (Prodep) 2026 para fortalecer la capacitación de maestras y maestros de educación básica, con la participación de la coordinadora de Educación Básica, Nancy Adriana León Vite.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Boletín</Genero_periodistico>
+		<Tema_segun_la_fuente>Prodep</Tema_segun_la_fuente>
+		<Sintesis>El Comité Estatal de Formación Continua evaluó las acciones formativas del Prodep 2026 para impulsar la profesionalización del magisterio hidalguense.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Medio_de_origen>Comunicado gubernamental</Medio_de_origen>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, IHE, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez, Nancy Adriana León Vite, María de Lourdes Reyes Pérez, María del Rosario Ramírez Hernández, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Medirá IA flujo vehicular para solucionar congestionamientos</Titular>
+		<Contenido>El gobierno de Hidalgo instalará tres cámaras con tecnología de Inteligencia Artificial en puentes del bulevar Felipe Ángeles con una inversión de hasta 600 mil pesos para analizar el tránsito hacia la CDMX y definir soluciones viales. A su vez, la Semot descartó la apertura del carril del Tuzobús al no reducir el tráfico.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inteligencia Artificial</Tema_segun_la_fuente>
+		<Sintesis>Oficialía Mayor aplicará Inteligencia Artificial para medir el tránsito en el bulevar Felipe Ángeles, mientras la Semot descartó abrir el carril del Tuzobús.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>40</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor, Semot, Sitmah, SICT, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Orlando Ángeles Pérez, Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Prevén entregar este año el nuevo Hospital General</Titular>
+		<Contenido>La Secretaría de Salud de Hidalgo prevé concluir este año la transferencia del nuevo Hospital General de Pachuca al IMSS-Bienestar tras dos años de trámites y verificaciones federales. Además, reportó que el Hospital de Actopan lleva más de 90% de avance.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Nuevo Hospital General</Tema_segun_la_fuente>
+		<Sintesis>La SSH proyecta entregar este año el nuevo Hospital General de Pachuca al IMSS-Bienestar e informó avances superiores al 90% en el nosocomio de Actopan.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, IMSS-Bienestar, Sipdus, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante Arroyo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Registra Hidalgo una baja en casos de suicidio</Titular>
+		<Contenido>La Secretaría de Salud de Hidalgo reportó más de 40 muertes por suicidio en 2026, lo que representa una baja frente a los 146 casos de 2024 y más de 150 de 2025, manteniendo la atención preventiva en Cecosama y mesas de trabajo municipales.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Salud Mental</Tema_segun_la_fuente>
+		<Sintesis>La SSH registró una disminución en fallecimientos por suicidio en Hidalgo durante 2026, reforzando la atención psicológica preventiva en los municipios.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Cecosama, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante Arroyo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Gobierno lanzará licitación para remodelar estaciones del Tuzobús</Titular>
+		<Contenido>La Sipdus emitirá en octubre la licitación para remodelar las 34 estaciones del Tuzobús. Oficialía Mayor reportó que la afluencia subió a más de 91 mil pasajeros diarios y los tiempos de traslado bajaron 30%, mientras que Semot ha recaudado 190 mil pesos por 81 multas por invadir el carril confinado.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>20</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Rehabilitación estaciones Tuzobús</Tema_segun_la_fuente>
+		<Sintesis>El gobierno estatal licitará la remodelación de 34 estaciones del Tuzobús e informó sobre el incremento de usuarios a 91 mil diarios y sanciones por invadir el carril.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>40</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor, Sipdus, Semot, Sitmah</Dependencias_mencionadas>
+		<Actores_mencionados>Orlando Ángeles Pérez, Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Defiende Semot permanencia del carril confinado</Titular>
+		<Contenido>La Secretaría de Movilidad y Transporte (Semot) defendió la permanencia del carril exclusivo del Tuzobús sobre el bulevar Felipe Ángeles, al señalar que su confinamiento permitió elevar la eficiencia operativa del sistema de 75 a 99 por ciento, incrementar el número de usuarios y reducir los siniestros viales. La titular de la dependencia, Lyzbeth Robles Gutiérrez, sostuvo que el carril reservado tiene como prioridad proteger a las más de 60 mil personas que utilizan diariamente la ruta troncal, rechazando que sea el causante del tráfico sobre esa vía.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Carril confinado</Tema_segun_la_fuente>
+		<Sintesis>La Semot justificó la vigencia del carril confinado del Tuzobús al argumentar que elevó la eficiencia al 99% y atiende a más de 60 mil usuarios diarios en Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>40</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miguel Ángel Puértolas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Sitmah, STCH, Presidencia, Sipdus</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Eficiencia del transporte metropolitano, de 75 a 99%</Titular>
+		<Contenido>La eficiencia del sistema de transporte metropolitano pasó de 75 a 99 por ciento desde que el gobierno de Hidalgo asumió su operación directamente el pasado 1 de agosto a través del Sitmah. El oficial mayor, Edgar Orlando Ángeles Pérez, detalló que se incorporaron 140 autobuses y 383 operadores certificados, incrementando la afluencia diaria en la ruta troncal y alimentadoras de 68 mil usuarios en junio a 91 mil 923 en septiembre.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afluencia Tuzobús</Tema_segun_la_fuente>
+		<Sintesis>Oficialía Mayor reportó que la operación estatal del transporte metropolitano elevó la eficiencia a 99% y la afluencia de usuarios a cerca de 92 mil diarios.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miguel Ángel Puértolas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor, Sitmah, Semot, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Orlando Ángeles Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Prohiben disparos al aire durante el Grito</Titular>
+		<Contenido>El secretario de Seguridad Pública de Hidalgo, Salvador Cruz Neri, advirtió que no se tolerarán disparos de arma de fuego al aire durante las celebraciones de las Fiestas Patrias, recordando que esta conducta constituye un delito sancionado con hasta dos años de prisión en el Código Penal estatal.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Fiestas Patrias</Tema_segun_la_fuente>
+		<Sintesis>La SSPH advirtió que sancionará penalmente los disparos de arma de fuego al aire durante los festejos del Grito de Independencia.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Aún pendiente transferencia de hospital</Titular>
+		<Contenido>La secretaria de Salud de Hidalgo, Vanesa Escalante Arroyo, señaló que el proceso de transferencia del nuevo Hospital General de Pachuca al IMSS-Bienestar continúa pendiente tras dos años de gestiones, esperando concluir las verificaciones federales para su operación.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Nuevo Hospital General</Tema_segun_la_fuente>
+		<Sintesis>La SSH reportó que sigue en revisión la transferencia del nuevo Hospital General de Pachuca al esquema IMSS-Bienestar.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, IMSS-Bienestar, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante Arroyo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Sin puente por fiestas patrias</Titular>
+		<Contenido>El calendario escolar oficial de la SEP contempla únicamente la suspensión de labores el miércoles 16 de septiembre por las Fiestas Patrias, por lo que las actividades escolares iniciaron de forma regular el martes.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Fiestas Patrias</Tema_segun_la_fuente>
+		<Sintesis>El calendario educativo marcó únicamente el 16 de septiembre como suspensión oficial de clases por festejos patrios.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Registran más de 40 suicidios en ocho meses</Titular>
+		<Contenido>Entre enero y agosto de 2026 Hidalgo acumuló más de 40 fallecimientos por suicidio, reflejando un descenso respecto a años anteriores según datos de la Secretaría de Salud estatal, concentrándose la mayor atención preventiva en jóvenes de 15 a 19 años.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Salud Mental</Tema_segun_la_fuente>
+		<Sintesis>La SSH contabilizó más de 40 suicidios en los primeros ocho meses del año, destacando una baja general de casos en la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante Arroyo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Más de mil 700 personas acudieron a seis funciones gratuitas de cine en lenguas originarias</Titular>
+		<Contenido>La muestra itinerante de cine en lenguas originarias congregó a más de mil 700 asistentes durante seis funciones gratuitas en cinco municipios hidalguenses para promover la diversidad lingüística.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cine Comunitario</Tema_segun_la_fuente>
+		<Sintesis>Más de 1,700 espectadores disfrutaron de la muestra de cine en lenguas indígenas en municipios de Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Ayuntamientos</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>La planta Tula de Cruz Azul produce ya 600 toneladas diarias de cemento blanco</Titular>
+		<Contenido>La fábrica de Cruz Azul en Tula alcanzó una producción diaria de 600 toneladas de cemento blanco y alista el reinicio de líneas de cemento gris, informó Mario Francisco Morán.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cruz Azul</Tema_segun_la_fuente>
+		<Sintesis>La planta de Cruz Azul en Tula reactivó operaciones alcanzando 600 toneladas diarias de cemento blanco.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Mario Francisco Morán</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>El gobernador envía serie de iniciativas al Congreso</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar envió al Congreso local un paquete de iniciativas orientado a actualizar el marco jurídico estatal en materia de transparencia, protección de datos personales, control interno y simplificación administrativa, planteando la creación de Transparencia para el Pueblo de Hidalgo y el Subsistema de Transparencia del Estado de Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Transparencia</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca envió un paquete de iniciativas al Congreso para reestructurar el sistema de transparencia estatal y protección de datos tras la extinción del ITAIH.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Congreso, Contraloría, Itaipen, Planeación</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>PREPARAN UN ANÁLISIS CON IA DEL TRÁFICO</Titular>
+		<Contenido>En los próximos 15 días, instalarán tres videocámaras de inteligencia artificial en los puentes del Tecnológico de Monterrey, la Procuraduría de Hidalgo y Matilde, como parte de un análisis del comportamiento vehicular sobre el bulevar Felipe Ángeles; por ahora, continuará en funcionamiento el carril confinado del Tuzobús.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inteligencia Artificial</Tema_segun_la_fuente>
+		<Sintesis>Oficialía Mayor instalará tres cámaras con IA en el bulevar Felipe Ángeles para evaluar soluciones viales, mientras la Semot descartó la apertura del carril confinado del Tuzobús.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>40</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor, Semot, Sitmah, Congreso, Sipdus</Dependencias_mencionadas>
+		<Actores_mencionados>Edgar Orlando Ángeles Pérez, Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Le retiran la concesión a una ruta por caso Minero</Titular>
+		<Contenido>Por carecer de seguro vial, la Secretaría de Movilidad y Transporte de Hidalgo (Semot) le retiró una concesión de transporte a la ruta Tilcuautla-Pachuca, involucrada en el accidente registrado el 20 de mayo de este año en el bulevar Minero, el cual dejó un saldo de una mujer sin vida y a 13 personas lesionadas.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Concesiones transporte público</Tema_segun_la_fuente>
+		<Sintesis>La Semot revocó la concesión a la unidad de la ruta Tilcuautla-Pachuca accidentada en el bulevar Minero por no contar con póliza de seguro de viajero.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, PGJEH, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez, Julio N.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Copriseh supervisará la venta de alimentos durante fiestas patrias</Titular>
+		<Contenido>La Secretaría de Salud de Hidalgo (SSH) y la Copriseh implementarán acciones de vigilancia y fomento sanitario en los 84 municipios de la entidad por medio de sus 12 delegaciones sanitarias durante las Fiestas Patrias 2026, dirigidas a comerciantes y manejadores de alimentos y bebidas.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vigilancia Sanitaria</Tema_segun_la_fuente>
+		<Sintesis>La Copriseh supervisará las condiciones sanitarias de puestos de alimentos y bebidas durante los festejos del Grito de Independencia en los 84 municipios de Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Copriseh, Ayuntamientos, SSPH, PC</Dependencias_mencionadas>
+		<Actores_mencionados>Alberto Mercado Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Charros apoyan tauromaquia ante consulta</Titular>
+		<Contenido>Los charros de Pachuca manifestaron su respaldo a las corridas de toros ante la consulta sobre la tauromaquia, al considerar que existe una relación histórica y cultural entre la fiesta taurina y la charrería. Gerardo Anselmo Mejía, vicepresidente de la Asociación de Charros de Pachuca, sostuvo que el gremio respalda la tauromaquia.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Tauromaquia</Tema_segun_la_fuente>
+		<Sintesis>La Asociación de Charros de Pachuca respaldó la continuidad de la tauromaquia ante la consulta pública, resaltando su hermandad cultural e histórica.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Gerardo Anselmo Mejía</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Desmantelan un taller de regrabado en Pachuca: SSPH</Titular>
+		<Contenido>La Secretaría de Seguridad Pública de Hidalgo (SSPH), en coordinación con la PGJEH y la Sedena, ejecutó una orden de cateo en un inmueble del fraccionamiento Valle Diamante Plus en Pachuca, desarticulando un taller adaptado para el regrabado y clonación de documentos de identificación vehicular, deteniendo a un hombre (C. A. G. R.).</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cateo</Tema_segun_la_fuente>
+		<Sintesis>Fuerzas de seguridad desmantelaron en Pachuca un taller clandestino de clonación de documentos vehiculares y placas robadas, arrestando a un presunto implicado.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Sedena, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>C. A. G. R.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Entregarán hospital a la federación este año</Titular>
+		<Contenido>Este año se terminará la transferencia del nuevo Hospital General de Pachuca al IMSS-Bienestar, ya que la Secretaría de Infraestructura sigue pasando los reportes sobre la intervención realizada en el inmueble ubicado en San Agustín Tlaxiaca, indicó la titular de la SSH, Vanesa Escalante Arroyo.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Nuevo Hospital General</Tema_segun_la_fuente>
+		<Sintesis>La SSH prevé concretar este año la transferencia del nuevo Hospital General de Pachuca al sistema IMSS-Bienestar tras revisiones técnicas y entrega de minutas de obra.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, IMSS-Bienestar, Sipdus, Contraloría, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante Arroyo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Suicidios en Hidalgo aumentaron 8.2 por ciento en un año</Titular>
+		<Contenido>En un año, los suicidios en Hidalgo incrementaron 8.2 por ciento; las personas adolescentes y jóvenes de entre 15 y 24 años son el grupo poblacional con más intentos de quitarse la vida, de acuerdo con datos de la Secretaría de Salud estatal (SSH), registrándose 159 casos en 2025 y más de 40 en lo que va de 2026.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Salud Mental</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Salud de Hidalgo informó un alza del 8.2% en suicidios en 2025 y convocó a mesas de trabajo integrales para atender la salud mental en jóvenes y adolescentes.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Cecosama, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante Arroyo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Inauguran la tienda Hidarte de Tulancingo</Titular>
+		<Contenido>Este lunes fue inaugurated la tienda Hidarte: Casa de las Artesanías en Tulancingo, ubicada en el Centro Cultural Ricardo Garibay, espacio que expone para su venta productos de 22 artesanas y productores de la región sin cobro de comisiones.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Hidarte</Tema_segun_la_fuente>
+		<Sintesis>La alcaldía de Tulancingo y la Sebiso inauguraron la tienda Hidarte en el Centro Cultural Ricardo Garibay para comercializar piezas de 22 artesanos locales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Mirely Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar, Ayuntamiento, Hidarte, Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Lorena García Cázares</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Impulsa Menchaca la creación de nueva estructura de transparencia en Hidalgo</Titular>
+		<Contenido>Con el objetivo de fortalecer la transparencia y la protección de datos, el gobernador Julio Menchaca Salazar envió una serie de iniciativas al Congreso estatal, además de plantear medidas para fortalecer la simplificación administrativa y la transformación digital. Entre las principales propuestas se encuentra la creación del organismo denominado Transparencia para el Pueblo de Hidalgo, así como del Subsistema de Transparencia del estado de Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Transparencia</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca envió iniciativas al Congreso estatal para reestructurar el sistema de transparencia y protección de datos, creando Transparencia para el Pueblo de Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Congreso, Contraloría, Itaipen</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>“UN MITO” QUE CARRIL CONFINADO DEL TUZOBÚS GENERE TRÁFICO EN FELIPE ÁNGELES; HARÁN ANÁLISIS</Titular>
+		<Contenido>La secretaria de Movilidad y Transporte del Estado de Hidalgo (Semot), Lizbeth Robles Gutiérrez, calificó como “un mito” que el congestionamiento vehicular sobre el bulevar Felipe Ángeles sea por mantener el carril confinado del Sistema de Transporte Metropolitano (Tuzobús), al señalar que dicha medida ha logrado reducir los registros de siniestros viales, tener mayor eficiencia con el incremento del número de viajes en un 29% y la reducción de los tiempos de traslado de las personas usuarias.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Carril confinado</Tema_segun_la_fuente>
+		<Sintesis>La Semot defendió la permanencia del carril confinado del Tuzobús al reducir accidentes y elevar viajes 29%, anunciando el uso de Inteligencia Artificial para evaluar soluciones viales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>40</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Sitmah, STCH, SICT, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Pierde concesión ruta Tilcuautla-Pachuca involucrada en accidente en Bulevar Minero</Titular>
+		<Contenido>Por falta de póliza de seguro vigente, le fue retirada la concesión a la ruta del transporte público colectivo Tilcuautla-Pachuca, luego de que una de sus unidades se viera involucrada en el incidente registrado el pasado 20 de mayo sobre el bulevar Minero, en Pachuca, que dejó como saldo una persona sin vida y 17 más lesionadas.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Concesiones transporte público</Tema_segun_la_fuente>
+		<Sintesis>La Semot revocó la concesión a la colectiva de la ruta Tilcuautla-Pachuca accidentada en el bulevar Minero tras confirmar que no contaba con póliza de seguro activa.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, PGJEH, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Tizayuca, entre las zonas con mayor riesgo suicida en Hidalgo</Titular>
+		<Contenido>Tizayuca es identificada como una de las zonas de Hidalgo con mayor riesgo suicida, debido a la presencia de factores como violencia familiar y abandono, así se dio a conocer durante la rueda de prensa con motivo del Día Mundial de la Prevención del Suicidio. La titular de la SSH, Vanesa Escalante Arroyo, explicó que en 2024 se registraron 146 muertes por suicidio y se atendieron 1,020 intentos.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tizayuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Salud Mental</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Salud de Hidalgo ubicó a Tizayuca como municipio prioritario por riesgo suicida y violencia familiar, reforzando la atención en los seis centros Cecosama.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Cecosama, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante Arroyo, Yolanda Pérez Martínez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>A dos años de proceso, avanza transferencia del nuevo Hospital General Pachuca</Titular>
+		<Contenido>Autoridades del IMSS-Bienestar federal realizaron dos visitas al Hospital General Pachuca, ubicado en San Agustín Tlaxiaca, como parte del proceso para concretar la transferencia del inmueble al Gobierno Federal, informó la secretaria de Salud de Hidalgo, Vanesa Escalante. El trámite para incorporar el hospital lleva alrededor de dos años.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Nuevo Hospital General</Tema_segun_la_fuente>
+		<Sintesis>La SSH reportó avances en las auditorías de infraestructura para completar la entrega del nuevo Hospital General de Pachuca al sistema IMSS-Bienestar federal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, IMSS-Bienestar, Sipdus, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante Arroyo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>DESMANTELAN CENTRO DE CLONACIÓN DE DOCUMENTACIÓN EN PACHUCA</Titular>
+		<Contenido>Elementos adscritos a la Secretaría de Seguridad Pública estatal (SSPH) desmantelaron inmueble que estaba adaptado como taller de regrabado y clonación de identificaciones vehiculares en la ciudad de Pachuca. Durante el cateo en Valle Diamante Plus, detuvieron a un hombre identificado como C.A.G.R.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cateo</Tema_segun_la_fuente>
+		<Sintesis>Fuerzas estatales y federales aseguraron en Pachuca un taller clandestino de clonación de documentos vehiculares y vehículos robados, arrestando a un sujeto.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Sedena, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>C. A. G. R.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>SEMOT RETIRA CONCESIÓN A COMBI QUE DEJÓ 17 HERIDOS</Titular>
+		<Contenido>A casi cuatro meses de que una camioneta particular y una unidad del transporte público se vieron involucrados en un accidente sobre el bulevar Minero, en Pachuca, la Secretaría de Movilidad y Transporte (Semot) revocó la concesión a la combi por no contar con seguro vigente.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Concesiones transporte público</Tema_segun_la_fuente>
+		<Sintesis>La Semot revocó la concesión a la combi de la ruta Tilcuautla-Pachuca accidentada en el bulevar Minero tras confirmar que no contaba con seguro vehicular activo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, PGJEH, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>TRAS QUEJAS, TAXIS TENDRÁN NUEVA TARIFA EN HIDALGO</Titular>
+		<Contenido>La próxima semana se dará a conocer la nueva tarifa de los taxis, luego de varios meses de análisis y de múltiples quejas por cobros excesivos, dio a conocer Lyzbeth Robles Gutiérrez, titular de la Secretaría de Movilidad y Transporte (Semot).</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Tarifario de taxis</Tema_segun_la_fuente>
+		<Sintesis>La Semot anunciará la próxima semana la reestructuración definitiva de las tarifas de taxi en Pachuca para evitar cobros excesivos a usuarios.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>JULIO MENCHACA MANDA AL CONGRESO RELEVO DEL ITAIH</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar envió al Congreso de Hidalgo un paquete de iniciativas para definir cómo operará el nuevo modelo de transparencia y protección de datos personales tras la desaparición del Instituto de Transparencia, Acceso a la Información Pública Gubernamental y Protección de Datos Personales (Itaih).</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Transparencia</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca planteó la creación de Transparencia para el Pueblo de Hidalgo y el Subsistema de Transparencia estatal tras la extinción del ITAIH.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Luis Godínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Congreso, Contraloría, Itaipen, Planeación</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>ABRIR EL CARRIL CONFINADO NO AMINORARÁ EL TRÁFICO: SEMOT</Titular>
+		<Contenido>La secretaria de Movilidad y Transporte, Lyzbeth Robles Gutiérrez, consideró que es un 'mito' que el carril confinado del Sistema de Transporte Metropolitano genera tráfico en el sur de Pachuca. En tanto, el oficial mayor, Edgar Orlando Ángeles Pérez, anunció que se instalarán cámaras con inteligencia artificial sobre el bulevar Felipe Ángeles.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Carril confinado</Tema_segun_la_fuente>
+		<Sintesis>La Semot sostuvo que el carril exclusivo del Tuzobús protege a más de 91 mil usuarios diarios y Oficialía Mayor probará cámaras con Inteligencia Artificial para medir el tránsito viales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>40</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Sitmah, Oficialía Mayor, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez, Edgar Orlando Ángeles Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>BUSCA SNTE HIDALGO BLINDAR AUTONOMÍA</Titular>
+		<Contenido>Ante la posibilidad de que el periodo de la actual dirigencia de la sección XV del SNTE en Hidalgo se extienda por un año, el secretario general, Said Vargas Sáenz, argumentó que el propósito es blindar la autonomía sindical para evitar injerencias políticas rumbo a las elecciones de 2027.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Dirigencia Partidista</Tema_segun_la_fuente>
+		<Sintesis>El dirigente de la Sección XV del SNTE, Said Vargas, afirmó que la extensión de su gestión busca blindar al sindicato magisterial frente al proceso electoral de 2027.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Said Vargas Sáenz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>REPORTAN 40 SUICIDIOS EN HIDALGO EN LO QUE VA DE 2026</Titular>
+		<Contenido>La secretaria de Salud en la entidad, Vanesa Escalante Arroyo, dio a conocer que en lo que va del año se han registrado 40 suicidios en Hidalgo, concentrándose la mayor incidencia en adolescentes de 15 a 19 años en municipios metropolitanos.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Salud Mental</Tema_segun_la_fuente>
+		<Sintesis>La SSH contabilizó 40 decesos por suicidio en Hidalgo durante 2026 e hizo un llamado a aprovechar la atención psicológica gratuita en los seis centros Cecosama del estado.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Cecosama, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante Arroyo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>TRAS 4 AÑOS, NUEVO HOSPITAL GENERAL DE PACHUCA PASARÁ AL IMSS-BIENESTAR</Titular>
+		<Contenido>A casi cuatro años de su inauguración, la Secretaría de Salud de Hidalgo está por concretar formalmente la transferencia de los servicios del nuevo Hospital General de Pachuca al IMSS-Bienestar federal para su conclusión y puesta en marcha.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Nuevo Hospital General</Tema_segun_la_fuente>
+		<Sintesis>La SSH afina detalles de las minutas de obra y revisiones técnicas para transferir el nuevo Hospital General de Pachuca al esquema IMSS-Bienestar federal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, IMSS-Bienestar, Sipdus, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante Arroyo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>INAUGURAN LA TIENDA HIDARTE TULANCINGO</Titular>
+		<Contenido>Con 22 expositores abrió sus puertas la Tienda Hidarte en el Centro Cultural Ricardo Garibay de Tulancingo, impulsada por Sebiso y el gobierno municipal para comercializar piezas artesanales sin cobro de comisión.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Hidarte</Tema_segun_la_fuente>
+		<Sintesis>La Sebiso y la alcaldía de Tulancingo inauguraron la sucursal de Hidarte en el Centro Cultural Garibay para proyectar las creaciones de 22 artesanos locales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>María Antonieta Islas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar, Ayuntamiento, Hidarte, Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Gómez Moreno, Lorena García Cázares, Minerva Rosales Gayosso, José Antonio Rodríguez Arango</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>DEMANDAN MAYOR SEGURIDAD TRAS EL INCENDIO DE UNIDAD</Titular>
+		<Contenido>Integrantes de la Asociación Certeza, Progreso y Desarrollo para Todos se reunieron con el alcalde de Tlanchinol, Gabino Hernández Vite, para pedir reforzar la vigilancia tras el incendio intencional de la camioneta de su dirigente, Onésimo Pérez Lara, quien presentó denuncia ante el MP.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tlanchinol</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Ataque Armado</Tema_segun_la_fuente>
+		<Sintesis>Integrantes de una organización social de Tlanchinol solicitaron reforzar la seguridad municipal tras el atentado incendiario contra el vehículo de su presidente Onésimo Pérez.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Onésimo Pérez Lara, Gabino Hernández Vite</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Copriseh realizará revisiones de fomento sanitario</Titular>
+		<Contenido>Con motivo de las fiestas patrias, la Comisión para la Protección contra Riesgos Sanitarios del Estado de Hidalgo (Copriseh) implementará acciones de vigilancia y fomento sanitario en los 84 municipios de la entidad, con el propósito de prevenir riesgos y proteger la salud de la población en establecimientos de alimentos y bebidas.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vigilancia Sanitaria</Tema_segun_la_fuente>
+		<Sintesis>La Copriseh desplegará operativos de fomento y vigilancia sanitaria en puestos de alimentos y bebidas en los 84 municipios por las Fiestas Patrias.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Copriseh, Ayuntamientos</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>PC estatal recomienda evitar el uso de pirotecnia</Titular>
+		<Contenido>La Subsecretaría de Protección Civil y Gestión de Riesgos del Estado exhortó a la población a evitar el uso de pirotecnia en Fiestas Patrias, destacando que en septiembre las lesiones por quemaduras aumentan 300%. Asimismo, recordó que realizar disparos al aire constituye un delito grave.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Pirotecnia</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil de Hidalgo exhortó a suspender la quema de pirotecnia por el incremento del 300% en quemaduras durante septiembre e inhibir disparos al aire.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ana Luisa Vega</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PC, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Remodelarán estaciones de transporte metropolitano</Titular>
+		<Contenido>El oficial mayor del gobierno estatal, Edgar Orlando Ángeles Pérez, informó que las 34 estaciones del Transporte Metropolitano (Tuzobús) serán remodeladas tras concluir el proyecto ejecutivo, licitándose a finales de septiembre para arrancar en octubre, destacando que el flujo diario subió a 91,923 pasajeros.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Rehabilitación estaciones Tuzobús</Tema_segun_la_fuente>
+		<Sintesis>Oficialía Mayor licitará la rehabilitación de las 34 estaciones del Tuzobús en octubre e informó que la afluencia diaria creció 34%, alcanzando los 91,923 usuarios.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor, Sipdus, Semot, Sitmah</Dependencias_mencionadas>
+		<Actores_mencionados>Edgar Orlando Ángeles Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Gabinete de Seguridad, detalló operativos ejecutados en 14 municipios de Hidalgo</Titular>
+		<Contenido>El gobernador Julio Menchaca y el Gabinete de Seguridad reportaron la detención de 24 personas en 14 municipios, el decomiso de 4,521 dosis de narcóticos, armas y vehículos, la desarticulación de narcomenudeo en Tepeapulco y huachicol en Tizayuca y Tepetitlán, la localización de 21 personas desaparecidas y el despliegue de 5 mil policías para Fiestas Patrias.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Operativo de Seguridad</Tema_segun_la_fuente>
+		<Sintesis>El Gabinete de Seguridad de Hidalgo informó la captura de 24 personas, decomisos de droga y huachicol en 14 municipios, y el despliegue de 5 mil policías para Fiestas Patrias.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>40</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Gobernador, PGJEH, Gabinete de Seguridad, CBPEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>SSPH desmantela local; clonaban identificaciones vehiculares</Titular>
+		<Contenido>La SSPH, PGJEH y Sedena ejecutaron un cateo en un inmueble del fraccionamiento Valle Diamante Plus en Pachuca, desarticulando un taller de regrabado y clonación de placas, licencias y tarjetas de circulación, arrestando a C. A. G. R..</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cateo</Tema_segun_la_fuente>
+		<Sintesis>Fuerzas estatales y federales aseguraron en Pachuca un taller clandestino de clonación de placas y documentos vehiculares, arrestando a un presunto implicado.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Sedena, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>C. A. G. R.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Desfilan charros por calles de Pachuca</Titular>
+		<Contenido>Cerca de un centenar de charros y escaramuzas tomaron las calles del centro de Pachuca para conmemorar el Día Nacional del Charro. El contingente partió del Estadio Revolución, recorrió avenidas principales como Allende, Matamoros, Guerrero y rodó la explanada del Reloj Monumental antes de concluir en el Lienzo Charro de Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>1</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Día del Charro</Tema_segun_la_fuente>
+		<Sintesis>Charros y escaramuzas desfilaron por las principales calles del centro histórico de Pachuca para conmemorar el Día Nacional del Charro.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Roberto López</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>MEXE SOSTIENE PROTESTA POR MUERTE DE NORMALISTA</Titular>
+		<Contenido>Estudiantes de la Escuela Normal Rural Luis Villarreal 'El Mexe' mantuvieron una manifestación pacífica en las inmediaciones de la PGJEH en Pachuca para dar seguimiento al caso del homicidio de su compañero. Tras reunirse con autoridades ministeriales, acordaron mesas de trabajo semanales para revisar los avances de la carpeta de investigación.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>El Mexe</Tema_segun_la_fuente>
+		<Sintesis>Normalistas de El Mexe protestaron frente a la PGJEH para exigir justicia por el homicidio de un compañero y acordaron reuniones semanales de seguimiento.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>40</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Presidencia, SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Sheinbaum Pardo, Alejandro Moreno Cárdenas</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>QUITAN CONCESIÓN TRAS ACCIDENTE EN BULEVAR EL MINERO</Titular>
+		<Contenido>La Secretaría de Movilidad y Transporte de Hidalgo (Semot) revocó la concesión a una Urvan de la ruta Tilcuautla-Pachuca tras confirmar que circulaba sin póliza de seguro vigente al momento de volcarse sobre el bulevar Minero el pasado 20 de mayo, percance que dejó un saldo de un fallecido y 17 lesionados.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Concesiones transporte público</Tema_segun_la_fuente>
+		<Sintesis>La Semot retiró la concesión a la colectivo de la ruta Tilcuautla-Pachuca involucrada en un accidente en el bulevar Minero por no contar con póliza de seguro activa.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, PGJEH, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>USARÁN IA PARA RESOLVER TRÁFICO AL SUR DE PACHUCA</Titular>
+		<Contenido>El gobierno de Hidalgo invertirá hasta 600 mil pesos en la instalación de tres cámaras dotadas con Inteligencia Artificial en puentes peatonales del bulevar Felipe Ángeles para analizar el flujo vehicular en tiempo real hacia la CDMX. Asimismo, la Semot reportó un aumento del 34% en usuarios diarios del Tuzobús.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inteligencia Artificial</Tema_segun_la_fuente>
+		<Sintesis>Oficialía Mayor colocará tres cámaras con IA en el bulevar Felipe Ángeles para evaluar soluciones viales, reportando además 91 mil usuarios diarios en el Tuzobús.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>40</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor, Semot, Sitmah</Dependencias_mencionadas>
+		<Actores_mencionados>Edgar Orlando Ángeles Pérez, Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>CLONABAN DOCUMENTOS VEHICULARES EN PACHUCA</Titular>
+		<Contenido>La Secretaría de Seguridad Pública de Hidalgo (SSPH), en coordinación con la PGJEH y la Sedena, cateó y desmanteló una vivienda en el fraccionamiento Valle Diamante Plus en Pachuca adaptada como taller clandestino de clonación de placas, licencias y tarjetas de circulación, arrestando a un hombre (C. A. G. R.).</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cateo</Tema_segun_la_fuente>
+		<Sintesis>Fuerzas de seguridad desmantelaron un taller de clonación de placas y documentos vehiculares en Valle Diamante Plus de Pachuca, capturando a un presunto implicado.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Sedena, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>C. A. G. R.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>VAN A DEMOLER PRIMARIA EN TULANCINGO; EDIFICARÁN OTRA</Titular>
+		<Contenido>El edificio de la escuela primaria Aquiles Serdán en Tulancingo deberá ser demolido y reconstruido en su totalidad debido a fallas estructurales severas. El secretario de Educación, Natividad Castrejón, indicó que los trabajos requerirán todo el ciclo escolar 2026-2027 y se evalúan opciones presenciales o híbridas para las clases.</Contenido>
+		<Fecha_de_publicacion>2026-09-15</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>La SEPH demolerá y reconstruirá completamente la primaria Aquiles Serdán en Tulancingo tras detectar daños estructurales en el inmueble.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez</Actores_mencionados>
+	</Nota>
+</NotasRadio>
