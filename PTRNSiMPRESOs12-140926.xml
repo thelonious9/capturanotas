@@ -1,0 +1,1475 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Serán 5 mil elementos en operativo patrio</Titular>
+		<Contenido>Con motivo de los festejos alusivos al Grito de Independencia, el secretario de Seguridad Pública, Salvador Cruz, informó que cinco mil elementos de seguridad estarán desplegados en Hidalgo, principalmente en Plaza Juárez de Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Fiestas Patrias</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Seguridad Pública desplegará a 5 mil efectivos en Hidalgo para resguardar las celebraciones del Grito de Independencia en Plaza Juárez.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Segobh, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Irrumpen estudiantes de El Mexe en el evento</Titular>
+		<Contenido>Estudiantes de la Escuela Normal Rural Luis Villa-Real El Mexe irrumpieron en el evento de la presidenta Claudia Sheinbaum en Pachuca para exigir el esclarecimiento de la muerte de un compañero originario de Huehuetla y plantear demandas educativas.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>El Mexe</Tema_segun_la_fuente>
+		<Sintesis>Normalistas de El Mexe irrumpieron durante el evento de Claudia Sheinbaum en el recinto ferial para exigir justicia por el fallecimiento de un estudiante y atención a demandas escolares.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Segobh, Gobernación, Presidencia, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna, Luciano Cornejo, Abraham Mendoza Zenteno</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Hacen falta traductores indígenas</Titular>
+		<Contenido>El gobernador indígena del estado de Hidalgo, Cuauhtémoc Lucio Ramírez Alonso, advirtió sobre la falta de traductores suficientes en lenguas originarias (náhuatl, otomí y tepehua) para garantizar el acceso a la justicia en los tribunales de Tula y en la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a pueblos originarios</Tema_segun_la_fuente>
+		<Sintesis>El gobernador indígena de Hidalgo señaló la escasez de intérpretes capacitados en lenguas maternas para atender procesos judiciales en la región de Tula y el estado.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>César Martínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, PGJEH, Planeación, CEDSPI</Dependencias_mencionadas>
+		<Actores_mencionados>Cuauhtémoc Lucio Ramírez Alonso</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Gobierno entrega uniformes, útiles y calzado a estudiantes de Tula-Tepeji</Titular>
+		<Contenido>El titular del Instituto Hidalguense de Educación, Natividad Castrejón, encabezó en Tepeji del Río, Tula de Allende y Atotonilco de Tula la distribución de útiles, zapatos, libros y equipamiento de cómputo para apoyar la economía familiar y la permanencia escolar.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Tepeji del Río</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Paquete de apoyos escolares</Tema_segun_la_fuente>
+		<Sintesis>Autoridades de la SEPH y del IHE entregaron paquetes de útiles, uniformes y calzado a estudiantes de nivel básico en planteles de Tepeji, Tula y Atotonilco de Tula.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, IHE, Gobernador, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez, Julio Menchaca Salazar, Tania Valdez Cuéllar, Nancy Adriana León Vite, Josefina Serrano Bautista, Ofelia Ramírez Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Más de 5 mil policías participarán en el operativo de fiestas patrias</Titular>
+		<Contenido>La Secretaría de Seguridad Pública de Hidalgo desplegará más de 5 mil efectivos policiales en los 84 municipios para resguardar las celebraciones del 15 de septiembre, reforzando la vigilancia en la Plaza Juárez de Pachuca e imponiendo mano dura contra tiros al aire.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Fiestas Patrias</Tema_segun_la_fuente>
+		<Sintesis>La SSPH desplegará a 5 mil agentes de seguridad en la entidad para resguardar la ceremonia del Grito de Independencia en Plaza Juárez y el resto de los municipios.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Segobh, PC, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Disminuye actividad charra en la entidad</Titular>
+		<Contenido>El número de asociaciones charras activas en Hidalgo disminuyó de 90 a entre 65 y 75 agrupaciones debido a los crecientes costos del deporte y la escasez de ganado, expresando la directiva de la Asociación de Charros de Pachuca su respaldo a la tauromaquia.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Reportaje</Genero_periodistico>
+		<Tema_segun_la_fuente>Día del Charro</Tema_segun_la_fuente>
+		<Sintesis>Reportaje sobre la reducción del número de agrupaciones charras en Hidalgo ante el encarecimiento de insumos y ganado, así como su respaldo gremial a la fiesta brava.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Gerardo Anselmo Mejía Arteaga</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Participa IHE en jornada contra el maltrato infantil</Titular>
+		<Contenido>El IHE llevó a cabo la Segunda Jornada Nacional de Concientización sobre el Abuso Sexual y Maltrato Infantil en Mineral de la Reforma, acercando pláticas de seguridad digital y prevención de violencia a familias y docentes.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Maltrato infantil</Tema_segun_la_fuente>
+		<Sintesis>Autoridades educativas y de seguridad impartieron talleres de cibernética y prevención del maltrato infantil a la comunidad escolar de Mineral de la Reforma.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, IHE, SSH, PGJEH, CDHEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez, Nancy Adriana León Vite, Claudia Huerta Ruiz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>En pausa, 50 carpetas por delitos electorales del proceso 2023-2024</Titular>
+		<Contenido>Rumbo al proceso electoral 2023-2024, se mantienen en curso 50 carpetas de investigación por diversas violaciones a la ley, reconoció la fiscal especializada en Delitos Electorales, Diana Jeanethe Rodríguez López, señalando que la mayoría derivan de violencia a través de redes sociales o perfiles falsos.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Delitos Electorales</Tema_segun_la_fuente>
+		<Sintesis>La fiscal especializada en Delitos Electorales reportó que existen cerca de 50 carpetas de investigación pendientes del proceso electoral 2023-2024 por diversas inconsistencias.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, IEEH</Dependencias_mencionadas>
+		<Actores_mencionados>Diana Jeanethe Rodríguez López</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Banca Multiva, lista para financiar proyectos</Titular>
+		<Contenido>La conversación sobre infraestructura en el país entra en una nueva etapa: una vez definidos los proyectos estratégicos, la atención se centra en acelerar su materialización, señalaron expertos de Multiva. La directiva Tamara Caballero destacó la viabilidad de financiar proyectos clave como el tren AIFA-Pachuca y el plan hídrico del Valle del Mezquital.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>Banca Multiva expresó su interés en financiar proyectos estratégicos de infraestructura en Hidalgo, destacando la certidumbre jurídica y la coordinación con el gobierno estatal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Sipdus, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Tamara Caballero, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Detienen a un hombre acusado de asalto</Titular>
+		<Contenido>Un hombre de 26 años fue detenido en Tepeapulco por su presunta participación en al menos siete asaltos a tiendas de conveniencia cometidos en Hidalgo y el Estado de México, de acuerdo con la SSPH.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tepeapulco</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aprehensión</Tema_segun_la_fuente>
+		<Sintesis>Elementos de la SSPH detuvieron en Tepeapulco a un sujeto de 26 años relacionado con al menos siete asaltos a tiendas de conveniencia en Hidalgo y Edomex.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Reportan 22 casos de gusano barrenador</Titular>
+		<Contenido>Entre enero y agosto de este año se han registrado en Hidalgo 22 casos de gusano barrenador del ganado en humanos, de los cuales siete han sido en mujeres y 15 en hombres en 20 municipios del estado. De acuerdo con la Secretaría de Salud del estado (SSH) de los 22 casos 18 ya fueron dados de alta, dos están en seguimiento y dos más fallecieron.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Gusano barrenador</Tema_segun_la_fuente>
+		<Sintesis>La SSH reportó acumulado de 22 casos de gusano barrenador en humanos en 20 municipios de Hidalgo, registrando dos fallecimientos y 18 altas médicas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Saderh, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Empresarios celebran los proyectos de la federación</Titular>
+		<Contenido>El director general de Canacope Servytur Pachuca, Carlos Gamiño Ríos, celebró que la federación mantenga un fuerte interés en Hidalgo a través de proyectos de seguridad, infraestructura industrial y el tren México-Pachuca, lo cual detonará la derrama económica en la zona metropolitana.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>La Canacope Servytur Pachuca reconoció la atención del gobierno federal en la atracción de inversiones, reactivación de parques industriales y conectividad con el tren México-Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Carlos Gamiño Ríos, Claudia Sheinbaum Pardo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Vigilarán fiestas 5 mil uniformados</Titular>
+		<Contenido>El secretario de Seguridad Pública de Hidalgo, Salvador Cruz Neri, informó que alrededor de 5 mil elementos participarán en el operativo con motivo de las Fiestas Patrias en todo el estado, reforzando la vigilancia en la Plaza Juárez de Pachuca e imponiendo mano dura contra las detonaciones de arma de fuego al aire.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Fiestas Patrias</Tema_segun_la_fuente>
+		<Sintesis>La SSPH desplegará a 5 mil efectivos de seguridad para resguardar las celebraciones del Grito de Independencia en los 84 municipios, implementando operativos preventivos contra disparos al aire.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Segobh, PC, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Plantean tener reuniones tras homicidio de un estudiante</Titular>
+		<Contenido>Tras la protesta de estudiantes de la Normal Rural El Mexe por el homicidio de un compañero, el procurador Francisco Fernández Hasbún acordó reunirse con familiares de la víctima para informar sobre el avance de la carpeta de investigación, mientras que Gobernación federal anunció mesas de trabajo sobre los predios de la institución.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Francisco I. Madero</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>El Mexe</Tema_segun_la_fuente>
+		<Sintesis>Autoridades de la PGJEH y la Segob entablaron diálogo con estudiantes y familiares del alumno de El Mexe fallecido para dar seguimiento a las investigaciones y solicitudes territoriales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Segobh, SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Fernández Hasbun, Luciano Cornejo Barrera</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Asaltan dos negocios en Tizayuca el fin de semana</Titular>
+		<Contenido>Dos establecimientos comerciales fueron asaltados por sujetos armados a bordo de motocicletas en Tizayuca. En el caso de Haciendas de Tizayuca, el propietario forcejeó con el delincuente y el arma de fuego se encasquilló, permitiendo que las clientas se resguardaran.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Tizayuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Asalto A Comercio</Tema_segun_la_fuente>
+		<Sintesis>Comercios de Tizayuca fueron blanco de asaltos violentos por sujetos armados en motocicleta en Haciendas de Tizayuca y el fraccionamiento Héroes de Tizayuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Javier Quezada</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Ayuntamiento, PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Atacan con una bomba casera auto de docente</Titular>
+		<Contenido>El profesor y activista Onésimo Pérez Lara denunció que sujetos desconocidos lanzaron un artefacto explosivo casero con gasolina dentro de su camioneta estacionada frente a su domicilio en Tlanchinol, provocando daños materiales por fuego.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Tlanchinol</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Ataque Armado</Tema_segun_la_fuente>
+		<Sintesis>El profesor y activista Onésimo Pérez Lara denunció un atentado con bomba casera contra su camioneta en Tlanchinol, atribuyendo la agresión a su labor comunitaria.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Francisco Bautista</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Onésimo Pérez Lara</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>2 mil libros de la Fundación Elena Poniatowska a escuelas de Hidalgo</Titular>
+		<Contenido>Con el objetivo de acercar materiales de lectura a las comunidades escolares y fomentar el hábito de la lectura entre la niñez hidalguense, la Fundación Elena Poniatowska Amor, S.C. realizó la donación de 2 mil libros a la Secretaría de Educación Pública de Hidalgo (SEPH), encabezada por Natividad Castrejón Valdez.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Fomento A La Lectura</Tema_segun_la_fuente>
+		<Sintesis>La Fundación Elena Poniatowska donó 2 mil libros a la SEPH para su distribución en escuelas de educación básica en Hidalgo, fortaleciendo el fomento a la lectura.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, IHE, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez, Nancy Adriana León Vite, María del Rosario Ramírez Hernández, Tatiana Nogueira</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Computación, Óptica y láseres</Titular>
+		<Contenido>Columna académica del Colegio del Estado de Hidalgo sobre los avances, aplicaciones e interacciones tecnológicas entre la computación, los sistemas ópticos y la física de láseres en la investigación contemporánea.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Opinión</Genero_periodistico>
+		<Tema_segun_la_fuente>Divulgación científica</Tema_segun_la_fuente>
+		<Sintesis>Análisis académico del Colegio del Estado de Hidalgo sobre la evolución e impacto científico de la computación, óptica y física de láseres.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Columnista</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Universidades, Otros</Dependencias_mencionadas>
+		<Actores_mencionados>Alfonso Padilla Vivanco, Pastor Badillo Flores</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>DESARROLLAN EN LA UPH LENTES ASISTIDOS PARA PERSONAS CON DISCAPACIDAD VISUAL</Titular>
+		<Contenido>Estudiantes de la Universidad Politécnica de Huejutla (UPH) desarrollaron un prototipo de lentes asistidos que detecta obstáculos y emite alertas sonoras en tiempo real, con el propósito de brindar mayor autonomía y seguridad en los desplazamientos diarios de personas con discapacidad visual.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Innovación tecnológica</Tema_segun_la_fuente>
+		<Sintesis>Alumnos de la Universidad Politécnica de Huejutla diseñaron lentes asistidos con sensores ultrasónicos para facilitar la movilidad segura de personas con discapacidad visual.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Universidades</Dependencias_mencionadas>
+		<Actores_mencionados>Martina Hernández Hernández, Marilin Montiel Vera, Bruno Rómero Hernández, Samuel Rómero Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Desplegarán más de 5 mil elementos de seguridad por Fiestas Patrias en Hidalgo</Titular>
+		<Contenido>La Secretaría de Seguridad Pública de Hidalgo (SSPH) desplegará un operativo de vigilancia y prevención en los 84 municipios de la entidad con motivo de las celebraciones de las Fiestas Patrias, los días 15 y 16 de septiembre. Participarán 5,580 elementos de la Policía Estatal, municipal, Bomberos, C5i y Protección Civil.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Fiestas Patrias</Tema_segun_la_fuente>
+		<Sintesis>La SSPH desplegará más de 5 mil elementos policiacos y monitoreo permanente del C5i en los 84 municipios para resguardar las festividades del Grito de Independencia.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, C5i, PC, Segobh, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Cae hombre implicado en al menos siete asaltos en Hidalgo y Edomex</Titular>
+		<Contenido>Elementos de la Policía Estatal y Municipal detuvieron en Tepeapulco a un hombre identificado como M.A.V.M de 26 años, presuntamente relacionado con al menos siete asaltos a tiendas de conveniencia en Hidalgo y el Estado de México. Se le aseguró una réplica de arma de fuego, dosis de droga y celulares.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tepeapulco</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aprehensión</Tema_segun_la_fuente>
+		<Sintesis>Policías estatales y municipales aprehendieron en Tepeapulco a un sujeto investigado por al menos siete asaltos a tiendas de conveniencia en Hidalgo y el Estado de México.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>M. A. V. M.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>INCREMENTAN INTENTOS DE SUICIDIO Y DEPRESIÓN EN EL ESTADO DE HIDALGO</Titular>
+		<Contenido>En poco menos de cuatro años, los servicios de salud en Hidalgo han registrado más de 200 atenciones por intentos de suicidio, además de un incremento en pacientes con depresión y lesiones autoinfligidas intencionalmente, con mayor afectación en mujeres, reportó la SSA federal. Entre 2020 y 2026 se acumularon 772 decesos por suicidio en la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Salud Mental</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Salud reportó que entre 2020 y 2026 Hidalgo acumuló 772 fallecimientos por suicidio y más de 200 atenciones por intentos, identificando a adolescentes de 15 a 19 años y mujeres como los sectores más vulnerables.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>40</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Presidencia, Salud</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>NORMALISTAS SE PRONUNCIAN EN EVENTO DE LA PRESIDENTA</Titular>
+		<Contenido>Estudiantes de la Escuela Normal Rural Luis Villarreal El Mexe tiraron una valla de seguridad y se manifestaron al finalizar el discurso de la presidenta Claudia Sheinbaum en Pachuca, exigiendo la habilitación total de dormitorios y comedor, así como avances en las investigaciones por la muerte de un compañero originario de Huehuetla.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>El Mexe</Tema_segun_la_fuente>
+		<Sintesis>Alumnos de El Mexe protestaron durante el acto de Claudia Sheinbaum en el recinto ferial para demandar espacios dignos e internado completo, mientras la PGJEH acordó una nueva mesa de diálogo para informar sobre las indagatorias del alumno fallecido.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, PGJEH, Presidencia, Gobernación</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Fernández Hasbun, Claudia Sheinbaum Pardo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>LA CONSTRUCCIÓN DEL NUEVO CERESO PODRÍA ATRASARSE, SEÑALA CRUZ NERI</Titular>
+		<Contenido>El titular de la Secretaría de Seguridad Pública de Hidalgo, Salvador Cruz Neri, reconoció que la edificación del nuevo penal regional podría postergarse para 2027 debido a la falta de concreción en la compra de terrenos que cumplan con los requerimientos técnicos, evaluando predios en Huichapan y Jacala.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Construcción de Cereso</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Seguridad Pública, Salvador Cruz Neri, admitió que los 80 mdp destinados al nuevo Cereso regional podrían aplicarse hasta 2027 si no se asegura la tenencia de la tierra antes de que concluya el año.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>DESPLEGARÁN 5 MIL ELEMENTOS PARA VIGILAR FIESTAS PATRIAS</Titular>
+		<Contenido>La Secretaría de Seguridad Pública de Hidalgo implementará un despliegue de 5 mil efectivos en los 84 municipios para garantizar el orden durante los festejos patrios del 15 de septiembre, instalando filtros de revisión en Plaza Juárez y supervisando la prohibición de disparos de arma de fuego.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Fiestas Patrias</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Seguridad Pública, Salvador Cruz Neri, anunció un operativo con 5 mil policías, puestos de control y asistencia médica para resguardar la ceremonia del Grito de Independencia.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Segobh, PC, Bomberos, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri, Carlos Rivera</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>FRAUDE, ROBOS DE VEHÍCULO Y MOTOCICLETA, CONCENTRAN DENUNCIAS EN CUAUTEPEC</Titular>
+		<Contenido>El Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública reportó que el fraude (19 carpetas), el robo de automóvil (15) y de motocicleta (11) encabezaron los delitos patrimoniales en Cuautepec de Hinojosa de enero al cierre de julio de 2026.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Cuautepec</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>Cifras del SESNSP revelaron un repunte en investigaciones por fraude y robo de unidades en Cuautepec, concentrándose la mayor sustracción de vehículos durante la feria patronal de junio.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>María Antonieta Islas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento, SESNSP</Dependencias_mencionadas>
+		<Actores_mencionados>Jorge Hernández Araus</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>ATACAN LA CAMIONETA DE DIRIGENTE DE ASOCIACIÓN</Titular>
+		<Contenido>Un sujeto lanzó una bomba casera incendiaria contra la camioneta de Onésimo Pérez Lara, presidente de la Asociación Certeza, Progreso y Desarrollo para Todos, ocasionando daños materiales en el vehículo estacionado afuera de su vivienda en Tlanchinol.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Tlanchinol</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Ataque Armado</Tema_segun_la_fuente>
+		<Sintesis>El activista Onésimo Pérez Lara sufrió un atentado con explosivo casero contra su camioneta en Tlanchinol, atribuyendo la agresión a represalias por su labor en conflictos de tierras comunales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Onésimo Pérez Lara</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>ESCUELAS REFUERZAN PREVENCIÓN INFANTIL</Titular>
+		<Contenido>Docentes, estudiantes y autoridades del IHE desarrollaron la II Jornada Nacional de Concientización contra el Abuso Sexual y Maltrato Infantil en la primaria José Vasconcelos de Mineral de la Reforma, acercando talleres de la Policía Cibernética y protocolos de actuación.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Maltrato infantil</Tema_segun_la_fuente>
+		<Sintesis>La SEPH e instituciones de seguridad impartieron charlas sobre prevención de violencia digital y derechos de la infancia a la comunidad escolar de Mineral de la Reforma.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, IHE, Policía Cibernética, PGJEH, CDHEH, Sipinna</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez, Nancy Adriana León Vite</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>PLANEA CENHIES AMPLIAR OFERTA ACADÉMICA</Titular>
+		<Contenido>El Centro de Estudios de Enseñanza Superior (Cenhies) anunció proyectos para expandir su oferta de licenciaturas y posgrados para el ciclo escolar 2027, informó el directivo Alejandro Chapey Ramírez Zúñiga.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Oferta académica</Tema_segun_la_fuente>
+		<Sintesis>El Cenhies alista la apertura de nuevas carreras profesionales para fortalecer su cobertura educativa en la zona metropolitana de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Universidades</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Chapey Ramírez Zúñiga</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>En vísperas del nuevo proceso, hay casos rezagados de elecciones pasadas</Titular>
+		<Contenido>La titular de la Fiscalía Especializada en Delitos Electorales de Hidalgo, Diana Jeaneth Rodríguez López, reconoció que aún cuentan con cerca de 50 carpetas de investigación sin sentencia correspondientes al Proceso Electoral Local 2023-2024, la gran mayoría vinculadas con violencia digital contra mujeres realizada a través de perfiles falsos.</Contenido>
+		<Fecha_de_publicacion>2026-09-12</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Delitos Electorales</Tema_segun_la_fuente>
+		<Sintesis>La titular de la Fiscalía Especializada en Delitos Electorales, Diana Jeaneth Rodríguez, reportó la existencia de cerca de 50 carpetas pendientes del proceso 2023-2024, principalmente por violencia digital contra mujeres.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, TEEH, IEEH</Dependencias_mencionadas>
+		<Actores_mencionados>Diana Jeaneth Rodríguez López</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Dos meses después, Saderh libera equipos fotovoltaicos en Tulancingo</Titular>
+		<Contenido>Tras permanecer durante dos meses en la explanada de la presidencia municipal de Tulancingo para corregir detalles y fallas de funcionamiento, la Saderh en Hidalgo, encabezada por Napoleón González Pérez, realizó la entrega formal de sistemas fotovoltaicos móviles de bombeo e insumos agrícolas a productores de más de 20 municipios.</Contenido>
+		<Fecha_de_publicacion>2026-09-12</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Entrega De Equipo</Tema_segun_la_fuente>
+		<Sintesis>La Saderh entregó sistemas fotovoltaicos móviles de bombeo e insumos agrícolas a productores de más de 20 municipios tras resolver fallas técnicas registradas en los equipos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Napoleón González Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Prevén sentencia por triple feminicidio este mismo mes</Titular>
+		<Contenido>Tras desahogarse la totalidad de las pruebas en la audiencia del 10 de septiembre ante el tribunal de juicio oral en Tulancingo, el proceso penal contra los tres acusados del triple feminicidio ocurrido en Santiago Tulantepec en julio de 2024 avanzó a la fase de alegatos finales fijada para el 24 de septiembre, proyectándose la emisión de la sentencia antes de que concluya el mes.</Contenido>
+		<Fecha_de_publicacion>2026-09-12</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Santiago Tulantepec</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Proceso Por Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>El tribunal de juicio oral programó para el 24 de septiembre la audiencia de alegatos finales en el proceso por el triple feminicidio de Santiago Tulantepec, proyectando emitir la sentencia este mes.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, TSJEH, Fiscalía de Género</Dependencias_mencionadas>
+		<Actores_mencionados>R. G. Y., O. Y. C., D. G. C.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Reiteran el cierre de tiradero en región Tula</Titular>
+		<Contenido>El relleno sanitario ubicado en Siete Mezquites permanecerá cerrado y no podrá recibir residuos, reiteraron autoridades estatales durante una reunión de seguimiento con habitantes y ejidatarios de Tula. Asimismo, se acordó realizar una visita el próximo 17 de septiembre para inspeccionar el retiro de desechos acumulados.</Contenido>
+		<Fecha_de_publicacion>2026-09-12</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Relleno Sanitario</Tema_segun_la_fuente>
+		<Sintesis>Autoridades estatales ratificaron el cierre definitivo del tiradero Siete Mezquites en Tula y programaron una inspección técnica con pobladores para el 17 de septiembre.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Ayuntamientos</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Asaltos en el Arco Norte bajan 71% durante 2026</Titular>
+		<Contenido>Los asaltos consumados en la autopista Arco Norte disminuyeron 71 por ciento durante el primer semestre de 2026, al pasar de 77 casos registrados entre enero y junio de 2025 a 22 en el mismo periodo de este año. En el periodo se desplegaron 97 operativos coordinados entre Hidalgo, Estado de México, Tlaxcala, Puebla y Querétaro, logrando la recuperación de seis vehículos con reporte de robo y el cierre de 25 accesos clandestinos.</Contenido>
+		<Fecha_de_publicacion>2026-09-12</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inseguridad Carretera</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Gobierno reportó una reducción del 71% en asaltos consumados en el Arco Norte tras el despliegue de 97 operativos interestatales y la clausura de 25 accesos ilegales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, SICT, GN, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Participa IHE en jornada de concientización contra el abuso y maltrato infantil</Titular>
+		<Contenido>El Instituto Hidalguense de Educación (IHE) participó en la segunda Jornada Nacional de Concientización sobre la Gravedad del Abuso Sexual y Maltrato Infantil realizada en la primaria José Vasconcelos de Mineral de la Reforma. Durante la actividad, la Policía Cibernética impartió la plática masiva Juega y navega con inteligencia para promover el uso seguro de redes sociales en el entorno escolar.</Contenido>
+		<Fecha_de_publicacion>2026-09-12</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Maltrato infantil</Tema_segun_la_fuente>
+		<Sintesis>Autoridades de la SEPH y del IHE encabezaron talleres sobre prevención de abuso infantil y ciberseguridad para la comunidad escolar de Mineral de la Reforma.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, IHE, Policía Cibernética, PGJEH, CDHEH, Sipinna</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez, Nancy Adriana León Vite, Claudia Huerta Ruiz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>ITESA destaca en prueba EGEL PLUS</Titular>
+		<Contenido>El 72.4 por ciento de los egresados de Ingeniería en Industrias Alimentarias del Instituto Tecnológico Superior del Oriente del Estado de Hidalgo (ITESA) obtuvo un desempeño satisfactorio o sobresaliente en la evaluación EGEL Plus del Ceneval, incorporando la carrera al Padrón de Alto Rendimiento.</Contenido>
+		<Fecha_de_publicacion>2026-09-12</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Apan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Excelencia académica</Tema_segun_la_fuente>
+		<Sintesis>El ITESA ingresó al Padrón de Alto Rendimiento del Ceneval luego de que más del 72% de sus egresados de Ingeniería Alimentaria aprobaran la prueba EGEL Plus.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Universidades</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>UTTT realiza Expo Empleo Regional</Titular>
+		<Contenido>Más de 30 empresas y estudiantes de la Universidad Tecnológica de Tula-Tepeji (UTTT) participaron en la Expo Empleo Regional, ofreciendo vacantes de vinculación laboral directa a egresados y alumnos de la región.</Contenido>
+		<Fecha_de_publicacion>2026-09-12</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vinculación Laboral</Tema_segun_la_fuente>
+		<Sintesis>La UTTT reunió a más de 30 empresas en la Expo Empleo Regional para promover la inserción laboral de sus universitarios y egresados.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Universidades, STPSH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Habrá recortes y desvíos en el transporte público por fiestas patrias</Titular>
+		<Contenido>La Secretaría de Movilidad y Transporte (Semot), en coordinación con el Sitmah y el STCH, informó que con motivo de las celebraciones por el aniversario de la Independencia de México se realizarán recortes operativos los días 14, 15 y 16 de septiembre en la ruta troncal del Tuzobús, cerrando las estaciones Presidente Alemán, Plaza Juárez, Niños Héroes y Centro Histórico, habilitando una Ruta Emergente sin costo.</Contenido>
+		<Fecha_de_publicacion>2026-09-12</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Recorte Operativo</Tema_segun_la_fuente>
+		<Sintesis>La Semot y el Sitmah anunciaron recortes operativos en el Tuzobús y cierre de estaciones céntricas del 14 al 16 de septiembre por las Fiestas Patrias, implementando una ruta emergente gratuita.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Sitmah, STCH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Por obras del tren AIFA-Pachuca colonias tendrán afectaciones en el suministro de agua</Titular>
+		<Contenido>Más de 13 colonias del sector oriente de la Zona Metropolitana de Pachuca presentarán interrupciones en el servicio de agua potable a partir del lunes 14 de septiembre a las 7:00 horas, debido a las maniobras que realizará la Sedena para la construcción del tren AIFA-Pachuca. El titular de Caasim, Juan Evel Chávez Trovamala, informó que el restablecimiento comenzará el 15 de septiembre pero podría extenderse hasta 96 horas, disponiéndose del apoyo de pipas.</Contenido>
+		<Fecha_de_publicacion>2026-09-12</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Abasto de agua</Tema_segun_la_fuente>
+		<Sintesis>Caasim alertó que más de 13 colonias de la zona metropolitana de Pachuca sufrirán cortes de agua a partir del 14 de septiembre debido a las obras del tren AIFA-Pachuca ejecutadas por la Sedena.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Caasim, Presidencia, Sedena</Dependencias_mencionadas>
+		<Actores_mencionados>Juan Evel Chávez Trovamala</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Licitan áreas comerciales para el Sector Primario</Titular>
+		<Contenido>La Secretaría de Infraestructura Pública y Desarrollo Urbano Sostenible (SIPDUS) publicó la licitación pública EO-SIPDUS-N136-2026 para la edificación de locales comerciales, sanitarios, cuarto de control y cisterna en el Sector Primario de Pachuca, con un capital contable mínimo requerido de 3.9 mdp y fallo programado para el 28 de septiembre.</Contenido>
+		<Fecha_de_publicacion>2026-09-13</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Licitaciones</Tema_segun_la_fuente>
+		<Sintesis>La Sipdus lanzó la convocatoria de licitación para la edificación de áreas comerciales e infraestructura básica en el Sector Primario de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Gobernador</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Destaca Hidalgo en la gestión fitosanitaria y monitoreo aéreo</Titular>
+		<Contenido>De acuerdo con el informe del Sivicoff de la Semarnat y Conafor, Hidalgo se ubica entre los estados con menor superficie forestal dañada por plagas (559.8 hectáreas, 1.82% del total nacional) y ocupa el tercer lugar nacional en notificaciones fitosanitarias autorizadas con 111 permisos de saneamiento, además de participar en el programa de monitoreo aéreo en 118 mil hectáreas.</Contenido>
+		<Fecha_de_publicacion>2026-09-13</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Saneamiento forestal</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo se posicionó en el tercer lugar nacional con más permisos de saneamiento forestal autorizados y una de las menores hectáreas afectadas por plagas en el país.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Presidencia, Medio ambiente</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Recordarán a El Santo con especial Noche de Museos en Tulancingo</Titular>
+		<Contenido>La Jefatura de Museos de Tulancingo organizará una edición especial de Noche de Museos el 23 de septiembre para conmemorar el 109 aniversario del natalicio de Rodolfo Guzmán Huerta 'El Santo', realizando recorridos históricos en el Museo del Santo, espacio cultural que además recibirá obras de reemplazo de duela y mantenimiento integral.</Contenido>
+		<Fecha_de_publicacion>2026-09-13</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aniversario natalicio</Tema_segun_la_fuente>
+		<Sintesis>El municipio de Tulancingo celebrará una Noche de Museos dedicada a El Santo en el 109 aniversario de su nacimiento, realizando mejoras en la infraestructura del recinto.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Rodolfo Guzmán Huerta</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>ALCOHOL, PRINCIPAL SUSTANCIA DE CONSUMO INICIAL EN HIDALGO</Titular>
+		<Contenido>En 2025, en Hidalgo, el alcohol se ubicó como la principal droga de inicio, al concentrar 61% de los casos, por encima de sustancias como tabaco, cannabis, metanfetaminas, inhalables, solventes, cocaína y opiáceos, informó la responsable del programa de Alcohol y Tabaco de la Subsecretaría de Salud Pública, Vianey Garza Reséndiz. Por grupos de edad, las y los adolescentes de 12 a 17 años concentran el mayor porcentaje de consumo inicial, con 42 por ciento, equivalente a 3 mil 901 casos. Le siguen las personas de 20 a 29 años, con 24 por ciento (2 mil 274 casos), y el grupo de 30 a 49 años, con 22 por ciento (2 mil 056 casos). En el marco de las fiestas patrias, la Secretaría de Salud de Hidalgo (SSH) hizo un llamado a la población a disfrutar evitando el consumo excesivo de alcohol.</Contenido>
+		<Fecha_de_publicacion>2026-09-13</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Consumo de alcohol</Tema_segun_la_fuente>
+		<Sintesis>La SSH reportó que el alcohol representó el 61% de las sustancias de consumo inicial en Hidalgo, afectando principalmente a adolescentes de 12 a 17 años con 3 mil 901 casos registrados.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>40</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Vianey Garza Reséndiz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Zonas altas de Pachuca y la Reforma son puntos críticos por robo de agua</Titular>
+		<Contenido>Los puntos críticos de clandestinaje se encuentran en las zonas alejadas y altas de Pachuca, así como en el municipio de Mineral de la Reforma, ambos con infraestructura más antigua y menor acceso al servicio. Desde 2022 la Caasim ha detectado más de 13 mil 700 tomas clandestinas. El funcionario explicó que, de acuerdo con la ley, a partir de la tercera reincidencia localizada se inicia una denuncia penal. Mientras tanto, se trabaja con el área jurídica del organismo para permitir que las sanciones contra las personas a quienes se les detecte una toma clandestina sean más severas.</Contenido>
+		<Fecha_de_publicacion>2026-09-13</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Robo De Agua</Tema_segun_la_fuente>
+		<Sintesis>La Caasim ha detectado más de 13 mil 700 tomas clandestinas de agua potable desde 2022, concentrándose la mayor incidencia en colonias altas de Pachuca y Mineral de la Reforma.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Caasim, Ayuntamientos</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Van 15 fallecimientos por Covid-19 en la entidad</Titular>
+		<Contenido>Con 15 registros al corte de la semana 35 del informe de Vigilancia Epidemiológica de Enfermedad Respiratoria Viral, Hidalgo encabeza el número de fallecimientos por Covid-19 a nivel nacional con el 23.4% del total del país (64 defunciones acumuladas en México). Adicionalmente, la entidad registra 175 casos confirmados de Covid-19 y se ubica en el quinto lugar nacional en influenza con 26 casos positivos y una defunción.</Contenido>
+		<Fecha_de_publicacion>2026-09-13</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Covid 19</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo encabezó la estadística nacional de fallecimientos por Covid-19 en 2026 con 15 decesos registrados (23.4% del país) y 175 contagios confirmados, según el informe epidemiológico federal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Presidencia, Salud</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>AVANZA 75% TRANSICIÓN DE PROCURADURÍA A FISCALÍA DE HIDALGO</Titular>
+		<Contenido>La transición de Procuraduría General de Justicia del Estado a Fiscalía General de Justicia lleva al menos un avance del 75%, informó el encargado del Despacho de la PGJEH, Francisco Fernández Hasbun. El funcionario explicó que los pendientes corresponden a aspectos administrativos, nómina, seguridad social y digitalización del archivo, operando en la práctica como Fiscalía. Las nuevas instalaciones se ubicarán en San Agustín Tlaxiaca y el plazo constitucional vence el 22 de julio de 2028.</Contenido>
+		<Fecha_de_publicacion>2026-09-13</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Transición a Fiscalía</Tema_segun_la_fuente>
+		<Sintesis>La PGJEH reportó un avance del 75% en el proceso de transición hacia Fiscalía General de Justicia, avanzando en la digitalización de archivos y en la construcción de su nueva sede en San Agustín Tlaxiaca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Congreso, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Fernández Hasbun</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Detectan hasta 2 mil establecimientos de Airbnb en Hidalgo; regulación sigue en proceso</Titular>
+		<Contenido>Al menos 2 mil establecimientos que ofrecen servicios de hospedaje mediante Airbnb se tienen identificados en Hidalgo, principalmente en destinos como Huasca de Ocampo, Real del Monte y Mineral del Chico, informó la titular de la Secretaría de Turismo estatal, Elizabeth Quintanar. La funcionaria señaló que se negocia la implementación de un registro obligatorio de anfitriones y el cobro de impuestos locales para combatir la informalidad.</Contenido>
+		<Fecha_de_publicacion>2026-09-13</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Airbnb</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Turismo de Hidalgo identificó 2 mil alojamientos ofertados a través de Airbnb en municipios como Huasca y Real del Monte, avanzando en acuerdos para su regulación fiscal e inscripción obligatoria.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo, Hacienda, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Elizabeth Quintanar Gómez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Hidarte Tulancingo podría abrir sus puertas este mes de septiembre</Titular>
+		<Contenido>La tienda Hidarte en el municipio de Tulancingo podría abrir sus puertas el próximo 14 o 15 de septiembre, informó Ricardo Gómez Moreno, titular de la Secretaría de Bienestar e Inclusión Social (Sebiso). El funcionario explicó que el espacio recibirá piezas artesanales de la región de Tulancingo, Otomí-Tepehua y Acaxochitlán, operando bajo la administración municipal sin cobro de comisiones para las personas artesanas.</Contenido>
+		<Fecha_de_publicacion>2026-09-13</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Hidarte</Tema_segun_la_fuente>
+		<Sintesis>La Sebiso anunció la próxima apertura de la tienda Hidarte en Tulancingo para comercializar artesanías del Valle de Tulancingo, la región Otomí-Tepehua y Acaxochitlán sin costo para los productores.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar, Ayuntamiento, Hidarte</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Gómez Moreno</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Estrategias para la prevención del suicidio en México</Titular>
+		<Contenido>Columna de opinión de Patricia González López que analiza las estadísticas del INEGI y la OMS en el marco del Día Mundial de la Prevención del Suicidio. Detalla que en México se contabilizaron 8,709 muertes por suicidio en 2026 con mayor prevalencia en jóvenes de 15 a 29 años, proponiendo restringir el acceso a medios letales, capacitar personal de salud e integrar la prevención en escuelas y comunidades.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Opinión</Genero_periodistico>
+		<Tema_segun_la_fuente>Salud Mental</Tema_segun_la_fuente>
+		<Sintesis>Patricia González analiza las estadísticas del INEGI sobre suicidio en México y propone fortalecer las políticas de salud mental, la atención temprana y la concienciación social.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Columnista</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Presidencia, Salud</Dependencias_mencionadas>
+		<Actores_mencionados>Patricia González López</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>SSPH desplegará operativo de seguridad por las Fiestas Patrias</Titular>
+		<Contenido>La Secretaría de Seguridad Pública de Hidalgo (SSPH) activará un despliegue de 5,580 elementos de la Policía Estatal, municipales, Bomberos, C5i y Protección Civil en los 84 municipios con motivo de los festejos patrios del 15 y 16 de septiembre. En Pachuca se establecerán filtros de revisión y control vial en Plaza Juárez, prohibiéndose el acceso con armas, envases de vidrio o alcohol.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Fiestas Patrias</Tema_segun_la_fuente>
+		<Sintesis>La SSPH desplegará a más de 5,500 elementos de seguridad y monitoreo del C5i en los 84 municipios para resguardar los festejos patrios del 15 y 16 de septiembre.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, C5i, PC, Bomberos, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Cae por asalto a tienda de conveniencia</Titular>
+		<Contenido>Policías estatales arrestaron en Tepeapulco a un sujeto identificado como M. A. V. M., de 26 años, presuntamente involucrado en al menos siete robos a tiendas de conveniencia en Hidalgo y el Estado de México. Al momento de ser intervenido se le decomisó una réplica de arma de fuego, 120 dosis de marihuana, 43 dosis de cristal y una motocicleta con alteración en sus números de serie.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tepeapulco</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aprehensión</Tema_segun_la_fuente>
+		<Sintesis>Policías estatales arrestaron en Tepeapulco a un hombre de 26 años vinculado con siete asaltos a comercios en Hidalgo y Edomex, decomisándole dosis de droga y una réplica de arma.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>M. A. V. M.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Celebraron la Gesta Heroica de los Niños Héroes</Titular>
+		<Contenido>La Secretaría de Seguridad Pública de Hidalgo coordinó la ceremonia cívica del 179 Aniversario de la Gesta Heroica de los Niños Héroes de Chapultepec. En la conmemoración se rindiéron honores a la bandera y el titular de la SSPH, Salvador Cruz Neri, pronunció el discurso oficial refrendando el compromiso de honrar la historia patria.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Conmemoración Aniversario</Tema_segun_la_fuente>
+		<Sintesis>La SSPH encabezó en Pachuca la ceremonia cívico-militar por el 179 Aniversario de la Gesta Heroica de los Niños Héroes de Chapultepec.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Presidencia, Sedena, Ejército</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>SEGURIDAD ACTIVA OPERATIVO FIESTAS PATRIAS PARA HIDALGO</Titular>
+		<Contenido>La Secretaría de Seguridad Pública de Hidalgo (SSPH) desplegará un operativo de vigilancia en los 84 municipios durante el 15 y 16 de septiembre con 5,580 elementos de la Policía Estatal, municipal, Bomberos, C5i y Protección Civil. En Pachuca se establecerán filtros de revisión en Plaza Juárez y estará prohibido ingresar con armas o bebidas alcohólicas.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Fiestas Patrias</Tema_segun_la_fuente>
+		<Sintesis>La SSPH activará un dispositivo de seguridad con 5,580 efectivos y monitoreo del C5i en los 84 municipios para resguardar los festejos patrios del 15 y 16 de septiembre.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, C5i, PC, Bomberos, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>CAMBIAN RUTAS DE TRANSPORTE POR EL GRITO Y EL DESFILE</Titular>
+		<Contenido>La Secretaría de Movilidad y Transporte (Semot) anunció ajustes al transporte público en Pachuca los días 14, 15 y 16 de septiembre. Cerraren estaciones céntricas del Tuzobús como Presidente Alemán, Plaza Juárez, Niños Héroes y Centro Histórico, extendiendo horarios la noche del 15 y habilitando una ruta emergente sin costo para el desfile del 16.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Recorte Operativo</Tema_segun_la_fuente>
+		<Sintesis>La Semot implementará modificaciones de itinerarios, extensión de horarios y cierres de estaciones del Tuzobús en Pachuca durante las celebraciones de las Fiestas Patrias.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Sitmah, STCH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>VAN A DEMOLER PRIMARIA EN TULANCINGO; EDIFICARÁN OTRA</Titular>
+		<Contenido>El inmueble de la primaria Aquiles Serdán en Tulancingo será demolido y reconstruido en su totalidad debido a severas fallas en su estructura. El titular de la SEPH, Natividad Castrejón, confirmó que las obras abarcarán el ciclo escolar 2026-2027, evaluando alternativas presenciales temporales o esquemas virtuales e híbridos para el alumnado.</Contenido>
+		<Fecha_de_publicacion>2026-09-14</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>La SEPH demolerá y reconstruirá la primaria Aquiles Serdán en Tulancingo debido a daños en su infraestructura, evaluando alternativas presenciales o híbridas para los estudiantes.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez</Actores_mencionados>
+	</Nota>
+</NotasRadio>
