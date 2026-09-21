@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Lluvias de septiembre dejan deslaves en Tenango</Titular>
+		<Contenido>El registro de precipitaciones recientes en la entidad ha comenzado a generar diversas afectaciones operativas, entre las que destacan obstrucciones viales por deslaves en Tenango de Doria y acumulación pluvial en Zacualtipán.</Contenido>
+		<Fecha_de_publicacion>2026-09-19</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Tenango de Doria</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deslaves por lluvias</Tema_segun_la_fuente>
+		<Sintesis>Precipitaciones provocaron deslave en la carretera Tenango de Doria-Metepec y encharcamientos en Zacualtipán, restableciéndose la circulación tras labores de limpieza.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, IMSS</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Accidentes y males hepáticos son más letales en hombres</Titular>
+		<Contenido>Las estadísticas del Inegi correspondientes al primer trimestre de 2026 revelan diferencias significativas en las causas de fallecimiento entre hombres y mujeres en Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-09-19</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención De Enfermedades</Tema_segun_la_fuente>
+		<Sintesis>Reporte del Inegi indica que mientras las enfermedades del corazón y diabetes lideran los decesos generales, los hombres registran mayor mortalidad en males hepáticos y accidentes.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>IP pide homologar trámites para acelerar inversión local</Titular>
+		<Contenido>El presidente del CCEH, Jorge González Corona, planteó la necesidad de homologar en todos los municipios los requisitos para tramitar licencias de funcionamiento y construcción.</Contenido>
+		<Fecha_de_publicacion>2026-09-19</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>El CCEH propuso estandarizar trámites municipales para agilizar la llegada y consolidación de inversiones privadas en el estado.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Jorge González Corona</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Preparan etapa de pavimentación en la vía Cuautepec-Tulancingo</Titular>
+		<Contenido>SIPDUS publicó la licitación para la tercera etapa de pavimentación hidráulica de la carretera Cuautepec-Tulancingo, proyectando iniciar labores en octubre.</Contenido>
+		<Fecha_de_publicacion>2026-09-19</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Cuautepec</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Pavimentación hidráulica</Tema_segun_la_fuente>
+		<Sintesis>SIPDUS arrancó la licitación pública para la pavimentación de la carretera Cuautepec-Tulancingo en su tercera fase con inversión mínima de 6.1 mdp.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>DIFH recibe tres camionetas adaptadas para el traslado de personas con discapacidad</Titular>
+		<Contenido>Como parte de la entrega de 91 vehículos accesibles y adaptados a los sistemas estatales DIF, la presidenta del Patronato del Sistema DIF Hidalgo, Edda Vite Ramos, recibió tres camionetas destinadas al transporte especializado de personas con discapacidad.</Contenido>
+		<Fecha_de_publicacion>2026-09-19</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a personas con discapacidad</Tema_segun_la_fuente>
+		<Sintesis>Edda Vite Ramos, presidenta del Patronato del DIF Hidalgo, recibió tres camionetas adaptadas para el transporte especializado de personas con discapacidad hacia servicios de rehabilitación en el CRIH.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH, CRIH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Tuzobús movilizó 1.8 millones de pasajeros durante julio, 6.6% más que en 2025</Titular>
+		<Contenido>El Sistema de Transporte Metropolitano (Tuzobús) registró un incremento de 6.6% en el número de pasajeros durante julio de 2026 en comparación con 2025, al movilizar a 1.8 millones de usuarios según la ETUP del Inegi.</Contenido>
+		<Fecha_de_publicacion>2026-09-19</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afluencia Tuzobús</Tema_segun_la_fuente>
+		<Sintesis>Durante julio de 2026, el Tuzobús transportó a 1.8 millones de pasajeros en la Zona Metropolitana de Pachuca, lo que representa un aumento anual del 6.6% según datos del Inegi.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>30</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Inegi</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Costará 1.9 mdp mantenimiento del Cuartel del Arte en Pachuca</Titular>
+		<Contenido>Los trabajos de mantenimiento del Cuartel del Arte en Pachuca tendrán una inversión de 1.94 millones de pesos tras el fallo de la licitación EO-SIPDUS-N116-2026 emitida por la Sipdus.</Contenido>
+		<Fecha_de_publicacion>2026-09-19</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Licitaciones</Tema_segun_la_fuente>
+		<Sintesis>La Sipdus adjudicó los trabajos de mantenimiento del Cuartel del Arte en Pachuca por 1.94 mdp. La obra durará 152 días e incluye pisos, impermeabilización e iluminación LED bajo supervisión del INAH.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, INAH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>UPT celebrará 24 años con jornada llena de actividades académicas y deportivas</Titular>
+		<Contenido>Del 28 de septiembre al 2 de octubre, la Universidad Politécnica de Tulancingo (UPT) celebrará su 24 aniversario con eventos académicos, culturales, deportivos y de vinculación con el sector productivo.</Contenido>
+		<Fecha_de_publicacion>2026-09-19</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aniversario Universidades</Tema_segun_la_fuente>
+		<Sintesis>La Universidad Politécnica de Tulancingo festejará su 24 aniversario con eventos académicos y deportivos, destacando la inauguración de laboratorios para Psicología e Ingeniería Textil.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, UPT</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Tramo carretero en Tenango, sin paso por afectaciones de lluvias</Titular>
+		<Contenido>La Subsecretaría de Protección Civil y Gestión de Riesgos informó que, al corte de las 8:00 horas del sábado, no había paso en el tramo carretero Peña Blanca-El Nanthe, en el municipio de Tenango de Doria. La dependencia explicó que el cierre se debe a las afectaciones ocasionadas por las lluvias, por lo que se exhortó a la población a evitar transitar por esa zona y usar vías alternas.</Contenido>
+		<Fecha_de_publicacion>2026-09-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tenango de Doria</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Carretera En Mal Estado</Tema_segun_la_fuente>
+		<Sintesis>La Subsecretaría de Protección Civil de Hidalgo reportó el cierre del tramo carretero Peña Blanca-El Nanthe en Tenango de Doria debido a daños provocados por las lluvias.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Protección Civil</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Hidalgo supera media nacional en consumo de sustancias ilícitas</Titular>
+		<Contenido>Durante el primer semestre de 2026, el estado de Hidalgo se ubicó por arriba del promedio nacional en las tasas de consumo de, al menos, tres tipos de sustancias ilícitas —metanfetaminas, éxtasis y alucinógenos—, de acuerdo con el Reporte de información epidemiológica del consumo de drogas emitido por los Centros de Integración Juvenil (CIJ). Hidalgo registró 72.3% de consumo alguna vez en la vida de metanfetaminas entre la población atendida.</Contenido>
+		<Fecha_de_publicacion>2026-09-20</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Consumo De Drogas</Tema_segun_la_fuente>
+		<Sintesis>Un informe de los Centros de Integración Juvenil situó a Hidalgo por encima del promedio nacional en el consumo de metanfetaminas, éxtasis y alucinógenos durante el primer semestre de 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>CIJ</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>La SEP mandata la realización del censo Ejercicios de Integración Académica</Titular>
+		<Contenido>Tras la publicación de resultados de evaluaciones internacionales que mostraron caídas en matemáticas y lectura, el titular de la SEPH, Natividad Castrejón, informó que buscarán acceder a los datos locales. Recordó que la SEP mandata la realización del censo Ejercicios de Integración Académica a estudiantes de primaria y secundaria para diagnosticar sus niveles de aprendizaje antes de octubre.</Contenido>
+		<Fecha_de_publicacion>2026-09-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Mejora educativa</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Educación Pública de Hidalgo, Natividad Castrejón, anunció la realización del censo Ejercicios de Integración Académica para diagnosticar el nivel educativo de estudiantes de primaria y secundaria.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, SEP</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>SIPDUS emite fallo para el mantenimiento del Cuartel del Arte</Titular>
+		<Contenido>Tras declararse desierto un primer procedimiento por falta de interesados, la Secretaría de Infraestructura Pública y Desarrollo Urbano Sostenible (SIPDUS) emitió el fallo de la licitación EO-SIPDUS-N116-2026 correspondiente a la obra de mantenimiento y conservación del Cuartel del Arte en Pachuca, iniciando los trabajos el próximo 2 de octubre.</Contenido>
+		<Fecha_de_publicacion>2026-09-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Licitaciones</Tema_segun_la_fuente>
+		<Sintesis>La SIPDUS adjudicó los trabajos de mantenimiento y restauración del Cuartel del Arte en Pachuca mediante la licitación EO-SIPDUS-N116-2026, con inicio programado para el 2 de octubre.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Con desfile concluyen festejos patrios en Pachuca</Titular>
+		<Contenido>Con la participación de más de 4 mil personas entre estudiantes, fuerzas armadas, corporaciones de seguridad y agrupaciones ecuestres, Pachuca cerró las celebraciones por el 216 Aniversario de la Independencia de México. El contingente incluyó 2 mil 700 estudiantes, elementos de la Policía Estatal, Bomberos, Ejército y Guardia Nacional.</Contenido>
+		<Fecha_de_publicacion>2026-09-20</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Crónica</Genero_periodistico>
+		<Tema_segun_la_fuente>Fiestas Patrias</Tema_segun_la_fuente>
+		<Sintesis>Más de 4 mil participantes de instituciones educativas, corporaciones de seguridad y fuerzas armadas formaron parte del desfile conmemorativo del 216 Aniversario de la Independencia en Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>40</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Benjamín H. V.</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>SSPH, Ejército, Guardia Nacional, PIBEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Ocupación hotelera registra disminución en primer semestre</Titular>
+		<Contenido>La ocupación hotelera en el estado de Hidalgo registró una disminución de 6.4% durante el primer semestre de este año, comparado con el mismo periodo de 2025, según cifras de Datatur de la Secretaría de Turismo del Gobierno federal. Aunque Pachuca se ubicó en las 10 ciudades con mayor ocupación en julio con 66.2%, la presidenta de la Asociación de Hoteles y Moteles, Roxana Vargas Juárez, estimó cerrar el año con 55%.</Contenido>
+		<Fecha_de_publicacion>2026-09-20</Fecha_de_publicacion>
+		<Liga>20</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Ocupación Hotelera</Tema_segun_la_fuente>
+		<Sintesis>Cifras del sistema Datatur revelaron una caída del 6.4% en la ocupación hotelera de Hidalgo en el primer semestre de 2026, aunque Pachuca destacó con un 66.2% durante julio.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo</Dependencias_mencionadas>
+		<Actores_mencionados>Roxana Vargas Juárez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Enfermedades del corazón, principal causa de fallecimientos en la entidad</Titular>
+		<Contenido>De enero a marzo de 2026 se registraron 1,250 defunciones por enfermedades del corazón en Hidalgo, seguidas de 767 por diabetes mellitus y 568 por tumores malignos, de acuerdo con el INEGI.</Contenido>
+		<Fecha_de_publicacion>2026-09-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención De Enfermedades</Tema_segun_la_fuente>
+		<Sintesis>El Inegi reportó que las afecciones cardiacas, la diabetes y los tumores malignos encabezaron las causas de mortalidad en Hidalgo durante el primer trimestre de 2026, afectando en mayor proporción a los hombres.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Inegi</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Hidalgo participa en el segundo Simulacro Nacional 2026</Titular>
+		<Contenido>Con la evacuación de 102 personas en Palacio de Gobierno y la participación de hospitales y comercios, Hidalgo se sumó al segundo Simulacro Nacional 2026 bajo la hipótesis de un sismo de magnitud 7.7.</Contenido>
+		<Fecha_de_publicacion>2026-09-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Simulacro Sismo</Tema_segun_la_fuente>
+		<Sintesis>Dependencias estatales, comercios y ciudadanía participaron en el Simulacro Nacional 2026 activando alertas en telefonía móvil y evacuando edificios públicos en Pachuca y Mineral de la Reforma.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>30</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PC, IMSS</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Reúne tercera Gimnasiada Nacional a más de 5 mil atletas</Titular>
+		<Contenido>Natividad Castrejón Valdez, titular de la SEPH, inauguró la tercera Gimnasiada Nacional en la UAEH con la presencia de más de 5 mil deportistas de los 32 estados en nueve disciplinas.</Contenido>
+		<Fecha_de_publicacion>2026-09-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Justa Deportiva</Tema_segun_la_fuente>
+		<Sintesis>Más de 5 mil atletas juveniles de todo el país compiten en la tercera Gimnasiada Nacional en Hidalgo para conformar la delegación mexicana que asistirá al Mundial Sub-18 en Brasil.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, UAEH, Gobernador</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Colonias de Pachuca tendrán baja presión de agua durante cinco días</Titular>
+		<Contenido>La Caasim alertó sobre una disminución en la presión del suministro de agua potable en las colonias Antonio del Castillo, Morelos, Cuauhtémoc y Centro debido a trabajos de mantenimiento preventivo.</Contenido>
+		<Fecha_de_publicacion>2026-09-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Abasto de agua</Tema_segun_la_fuente>
+		<Sintesis>La Caasim informó que debido a obras de mantenimiento realizadas por la empresa Real del Monte, diversas colonias céntricas de Pachuca registrarán baja presión de agua durante cinco días.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Caasim</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Deslaves por lluvias ocasionan cierre carretero en Tenango de Doria</Titular>
+		<Contenido>La Subsecretaría de Protección Civil ordenó el cierre de la carretera Peña Blanca-El Nanthe en Tenango de Doria a causa de deslaves provocados por las recientes lluvias.</Contenido>
+		<Fecha_de_publicacion>2026-09-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tenango de Doria</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deslaves por lluvias</Tema_segun_la_fuente>
+		<Sintesis>Derrumbes y deslaves derivados de lluvias provocaron el cierre del tramo carretero Peña Blanca-El Nanthe en Tenango de Doria, mientras autoridades mantienen vigilancia preventiva en Tepehuacán de Guerrero.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PC, Sipdus</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Fortalecen acciones contra enfermedades diarreicas</Titular>
+		<Contenido>El 94.8% de los casos de enfermedades diarreicas durante 2026, se relacionó con alimentos contaminados, mientras que 65% estuvo asociado con la comida en el hogar, por lo que autoridades sanitarias acordaron reforzar la higiene en la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vigilancia Epidemiológica</Tema_segun_la_fuente>
+		<Sintesis>Autoridades sanitarias acordaron reforzar las medidas de higiene en Hidalgo debido a que el 94.8% de los casos de enfermedades diarreicas en 2026 se relacionaron con alimentos contaminados.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Llevan vacunas antirrábicas a cinco colonias de Pachuca</Titular>
+		<Contenido>Habitantes de distintos puntos de la capital hidalguense tendrán una opción cercana para proteger a sus animales de compañía contra la rabia. Del 21 al 25 de septiembre se instalarán módulos itinerantes, con atención a perros y gatos desde un mes de edad.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vacunación Antirrábica</Tema_segun_la_fuente>
+		<Sintesis>Del 21 al 25 de septiembre se instalarán módulos itinerantes de vacunación antirrábica para perros y gatos en cinco colonias de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, CAIVM</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Temen menor pasaje con nuevas tarifas</Titular>
+		<Contenido>Choferes de taxi de la zona metropolitana de Pachuca temen que el próximo ajuste tarifario, anunciado por la Secretaría de Movilidad y Transporte de Hidalgo, reduzca temporalmente el número de pasajeros y beneficie principalmente a los concesionarios, quienes podrían aumentar las cuotas; de acuerdo con testimonios, actualmente pagan entre 400 y 500 pesos diarios por el uso de las unidades y una cantidad similar en gasolina.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Tarifario de taxis</Tema_segun_la_fuente>
+		<Sintesis>Taxistas de Pachuca prevén una disminución de pasajeros ante el próximo ajuste tarifario anunciado por la Semoth y afirman que el beneficio será para los concesionarios.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Sube el precio de jitomate y cebolla</Titular>
+		<Contenido>Estos dos productos registraron aumentos en locales fijos, pues el primero pasó de 16 a 30 pesos por kilo, el segundo alcanza los 40 pesos. Los comerciantes atribuyen el alza a las intensas lluvias que afectaron cultivos y redujeron el abasto.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Canasta básica</Tema_segun_la_fuente>
+		<Sintesis>El precio del jitomate y la cebolla aumentó en Pachuca debido a las afectaciones por lluvias en cultivos y la disminución del abasto.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alma Leticia Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Prevén taxistas caída en el pasaje</Titular>
+		<Contenido>El ajuste de tarifas para taxis anunciado por la Secretaría de Movilidad y Transporte de Hidalgo (Semoth) podría reducir el número de pasajeros y beneficiará principalmente a los concesionarios, indicaron choferes de la zona metropolitana de Pachuca, quienes tienen incrementos en las cuotas diarias por el uso de las unidades. Conductores refirieron pagar cuotas diarias de 400 a 500 pesos más combustible y señalaron los costos de refacciones y baches como afectaciones adicionales.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>Choferes de taxi en Pachuca advierten que el nuevo ajuste tarifario incrementará las cuotas de los concesionarios y reducirá la afluencia de pasajeros.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez, Hugo Islas, Omar Cisneros, Felipe García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Reúne Hidalgo a guitarristas en festival</Titular>
+		<Contenido>La guitarra clásica volverá a tomar distintos escenarios de Hidalgo con la edición 18 del Festival Nacional de Guitarra Ramón Noble, que del lunes 21 al sábado 26 de septiembre reunirá a intérpretes de Guadalajara, Ciudad de México, Monterrey, Texas y nuestra entidad. Durante seis días, el encuentro ofrecerá conciertos, clases magistrales, presentaciones editoriales y actividades académicas en municipios como Tlahuelilpan, Emiliano Zapata, Real del Monte, Mineral de la Reforma y Tepeapulco.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Festival Cultural</Tema_segun_la_fuente>
+		<Sintesis>La edición 18 del Festival Nacional de Guitarra Ramón Noble reunirá a intérpretes nacionales e internacionales en diversos municipios de Hidalgo del 21 al 26 de septiembre.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Gustavo Vargas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Ramón Noble Olivares</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Ayate, en el uso agrícola y doméstico</Titular>
+		<Contenido>El ayate de ixtle es un tejido elaborado de manera artesanal por manos de mujeres y hombres que extraen la fibra de maguey de las pencas de este agave en el Valle del Mezquital. El artesano Plácido Claudio destacó que además de herramienta agrícola y ganadera, el ayate se utilizaba tradicionalmente en los hogares como cuna para arrullar a los bebés mientras las madres realizaban labores domésticas.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>15</Liga>
+		<Municipio>San Salvador</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a artesanos</Tema_segun_la_fuente>
+		<Sintesis>Artesanos del Valle del Mezquital preservan la elaboración del ayate de ixtle, usado tradicionalmente como herramienta de trabajo y cuna en los hogares.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Omar Santiago</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Plácido Claudio</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Pobladores se reúnen a limpiar ribera de los ríos</Titular>
+		<Contenido>Aproximadamente 500 pobladores de Tula participaron en una jornada simultánea de limpieza en las riberas de los ríos Rosas y Tula, recolectando basura y desyerbando áreas colindantes. La actividad fue organizada por Semarnat federal y Conagua, en coordinación con el área de Ecología de la alcaldía de Tula de Allende, con el fin de cuidar el medio ambiente y evitar focos de infección.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>15</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Saneamiento río Tula</Tema_segun_la_fuente>
+		<Sintesis>Cerca de 500 habitantes de Tula participaron en una jornada comunitaria de limpieza y deshierbe en las riberas de los ríos Rosas y Tula.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>César Martínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnat, Conagua, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Nayeli Pérez Jiménez, Ismael Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Ejecutivo destina 84 mil para limpieza de vidrios en edificios</Titular>
+		<Contenido>El gobierno del estado destinará casi 500 mil pesos para el lavado de vidrios de las fachadas del palacio de gobierno y las nuevas oficinas de las secretarías de Bienestar e Inclusión Social y de Agricultura. El Corporativo y Asociados AKRAM S.A. de C.V. será el encargado de brindar el servicio por 484 mil 120.20 pesos por un periodo de tres meses. El servicio incluirá personal capacitado en trabajos de altura y equipo especializado.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Licitaciones</Tema_segun_la_fuente>
+		<Sintesis>La Oficialía Mayor de Hidalgo adjudicó un contrato por 484 mil pesos a la empresa AKRAM para la limpieza especializada de vidrios en las fachadas del Palacio de Gobierno y dependencias estatales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor, Bienestar, Saderh</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>SSPH detiene a expolicía de Tula con armas y droga</Titular>
+		<Contenido>Elementos de la Secretaría de Seguridad Pública de Hidalgo (SSPH) lograron la detención de Brigham C.B., expolicía municipal de Tula y señalado como presunto líder de un grupo generador de violencia en la región. El sujeto fue asegurado en la avenida Sur a bordo de una camioneta Dodge Ram portando un arma de fuego corta, dos cargadores abastecidos, 460 dosis de hierba con características de marihuana y 117 dosis de cristal, por lo que fue trasladado a Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>La SSPH aprehendió en Tula a Brigham C.B., expolicía municipal identificado como generador de violencia, asegurándole un arma de fuego y centenas de dosis de enervantes.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Joselyn Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Brigham C.B.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Destinan 8.5 mdp para dos planes de movilidad</Titular>
+		<Contenido>El gobierno del estado destinó 8 millones 555 mil pesos para la elaboración del Plan Integral de Movilidad Urbana Sustentable (PIMUS) de los municipios de Huejutla e Ixmiquilpan. La empresa encargada de prestar el servicio es Modelística S.A. de C.V., la cual evaluará los patrones de movilidad, oferta de transporte, vías ciclistas y densidad poblacional de los últimos 20 años para diseñar rutas que optimicen los traslados internos.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>20</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Movilidad urbana</Tema_segun_la_fuente>
+		<Sintesis>El Gobierno de Hidalgo invierte 8.5 millones de pesos en la elaboración de los Planes Integrales de Movilidad Urbana Sustentable para Huejutla e Ixmiquilpan.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Estudio busca preservar una especie endémica de agave</Titular>
+		<Contenido>Ciencia. Investigación especializada busca preservar una especie endémica de agave en el estado de Hidalgo frente a amenazas de pérdida de hábitat.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Conservación Biodiversidad</Tema_segun_la_fuente>
+		<Sintesis>Investigadores desarrollan un proyecto para la conservación y resguardo biológico de una variedad endémica de agave en territorio hidalguense.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Planeación</Dependencia>
+		<Dependencias_mencionadas>Citnova, UAEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Padecimientos gastrointestinales 90% por agua y alimentos: SSEH</Titular>
+		<Contenido>Los alimentos contaminados están relacionados con 94.8% de los casos de Enfermedades Diarreicas Agudas reportadas por la Secretaría de Salud de Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vigilancia Epidemiológica</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Salud de Hidalgo advierte que más del 90% de los padecimientos gastrointestinales responden a la ingesta de agua o alimentos contaminados.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Copriseh</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Huejutla concentra 528 mdp en 84 obras</Titular>
+		<Contenido>Huejutla concentró una inversión de 528 millones de pesos en 84 obras de infraestructura durante los primeros cuatro años de la administración estatal.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Obras De Infraestructura</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Contraloría, Álvaro Bardales, informó sobre la inversión de 528 mdp en obras de infraestructura vial y educativa para la Huasteca hidalguense.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Contraloría</Dependencia>
+		<Dependencias_mencionadas>Contraloría, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Álvaro Bardales, Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Impulsa ITESHU conservación del agave con apoyo del Fondo Hidalgo</Titular>
+		<Contenido>El ITESHU encabeza un proyecto científico apoyado con 250 mil pesos por el Fondo Hidalgo para la conservación y manejo sustentable del Agave salmiana en zonas semiáridas.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Huichapan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Conservación Biodiversidad</Tema_segun_la_fuente>
+		<Sintesis>Investigadores del Tecnológico de Huichapan desarrollan un proyecto sustentable para el rescate y reproducción del Agave salmiana con un estímulo de 250 mil pesos otorgado por el Fondo Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, ITESHU, Planeación</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Atentan a mano armada contra hombre en el centro de la capital hidalguense</Titular>
+		<Contenido>Un hombre perdió la vida tras recibir disparos con arma de fuego en la calle Ramos Arizpe, cerca de El Parián en el centro de Pachuca. Peritos de la PGJEH recabaron nueve casquillos e iniciaron investigaciones.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Ataque Armado</Tema_segun_la_fuente>
+		<Sintesis>Un hombre fue asesinado a balazos en la zona centro de Pachuca durante la madrugada. La SSPH desplegó un operativo que permitió la detención de tres presuntos responsables.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Detienen a generador de violencia en la zona de Tula de Allende</Titular>
+		<Contenido>La Secretaría de Seguridad Pública de Hidalgo (SSPH) dio a conocer la detención de un hombre armado, en posesión de presunta droga, cuando viajaba a bordo de una camioneta Dodge RAM color azul en el municipio de Tula. De acuerdo con la información difundida por la dependencia, el hombre era líder de un grupo generador de violencia en la región Tula. Durante la revisión le fueron aseguradas un arma de fuego larga, dos cargadores abastecidos, un arma corta, un chaleco táctico, además de 560 dosis de hierba seca con características de la marihuana y 117 dosis de sustancia granulada presuntamente cristal. Por tal motivo, la persona detenida y los objetos fueron puestos a disposición del Ministerio Público.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>La SSPH detuvo en Tula a un presunto líder generador de violencia armado con un chaleco táctico, dos cargadores y más de 670 dosis de estupefacientes (marihuana y cristal).</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, MP</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Incidencia delictiva se redujo 7%: SESNSP</Titular>
+		<Contenido>La Procuraduría General de Justicia del Estado de Hidalgo (PGJEH) inició 4 mil 287 carpetas de investigación por diversos delitos cometidos durante agosto, de acuerdo con el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP). En comparación con julio, la incidencia delictiva disminuyó 7%, con mayor acumulación en delitos patrimoniales (1,567 denuncias).</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>La incidencia delictiva en Hidalgo disminuyó un 7% durante el mes de agosto con 4,287 carpetas de investigación iniciadas por la PGJEH, según datos del SESNSP.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Concentran 2 municipios la mitad de homicidios</Titular>
+		<Contenido>Tezontepec de Aldama y Tizayuca fueron los municipios con mayor cantidad de carpetas de investigación por homicidios dolosos durante agosto, acumulando el 50 por ciento de las 12 denuncias iniciadas en la entidad por la PGJEH. Ambas demarcaciones registraron tres homicidios dolosos cada una.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tezontepec de Aldama</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Homicidios</Tema_segun_la_fuente>
+		<Sintesis>Tezontepec de Aldama y Tizayuca concentraron la mitad de los homicidios dolosos registrados en Hidalgo durante el mes de agosto, con tres carpetas de investigación en cada municipio.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Raymundo S. G.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>La crisis del suicidio persiste en Tulancingo en los últimos meses</Titular>
+		<Contenido>Tulancingo suma al menos seis casos de presuntos suicidios entre enero y septiembre de 2026, incluyendo dos incidentes registrados dentro del Cereso municipal. En respuesta, el Centro de Cultura Emocional de la Familia (CCEF) del DIF Tulancingo puso en marcha talleres de prevención y primeros auxilios psicológicos dirigidos a la población penitenciaria.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Suicidio</Tema_segun_la_fuente>
+		<Sintesis>El municipio de Tulancingo contabiliza al menos seis suicidios en 2026, lo que motivó al DIF local a implementar talleres de contención y apoyo psicológico dentro del Cereso y en planteles educativos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>María Antonieta Islas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH, SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Teresa Magdiel Bazan Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Lolotla, municipio serrano con tres casos mediáticos en los últimos dos años</Titular>
+		<Contenido>En Lolotla se han registrado tres eventos de seguridad de trascendencia nacional durante la administración de María Díaz Bustos: la desaparición del niño Dorian Kaleb Chiu Arroyo en abril de 2025, el homicidio del sacerdote Román de la Cruz Hernández en la carretera Tolago-Tetlapaya y un caso de maltrato animal.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Lolotla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>El municipio de Lolotla ha sido escenario de tres hechos de alto impacto social en los últimos dos años, incluyendo la desaparición de un menor y el homicidio de un párroco.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Martha Sáenz</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>María Díaz Bustos, Dorian Kaleb Chiu Arroyo, Román de la Cruz Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Auto particular impacta colectiva en Pachuca; reportan 6 heridos leves</Titular>
+		<Contenido>Con relación al siniestro de tránsito ocurrido sobre la vialidad del bulevar el Minero a la altura de una gasolinera en Pachuca, la Semot a través del STCH informa que intervino en el percance y se auxilió a seis heridos leves.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente de Transporte Público</Tema_segun_la_fuente>
+		<Sintesis>Un auto particular impactó por alcance a una colectiva de transporte público en el bulevar El Minero en Pachuca, dejando seis personas con lesiones leves que fueron auxiliadas por Semot y Cruz Roja.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, STCH, Cruz Roja</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Bienestar atiende a migrantes y sus familias en Epazoyucan</Titular>
+		<Contenido>La Secretaría de Bienestar e Inclusión Social (Sebiso), a través de la Dirección de Atención al Migrante, llevará a Epazoyucan una jornada de atención dirigida a migrantes, familias y repatriados el martes 22 de septiembre.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Municipio>Epazoyucan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención A Migrantes</Tema_segun_la_fuente>
+		<Sintesis>Sebiso instalará un módulo itinerante en el Auditorio Municipal de Epazoyucan para brindar orientación gratuita sobre visas, pasaportes, doble nacionalidad y el programa Raíces de Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Detienen en Tulancingo a dos mujeres acusadas de secuestro exprés</Titular>
+		<Contenido>Policías de Tulancingo intervinieron a dos mujeres por falta administrativa y, al cruzar datos con la PGJEH, descubrieron que contaban con orden de aprehensión por secuestro exprés agravado.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Secuestro</Tema_segun_la_fuente>
+		<Sintesis>Personal de la PGJEH cumplimentó una mandamiento judicial contra dos mujeres en Tulancingo tras ser identificadas por mandamientos judiciales pendientes por secuestro exprés.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Un ataque a balazos provocó la detención de tres involucrados</Titular>
+		<Contenido>Sujetos armados atacaron a balazos al conductor de un vehículo en la calle Arizpe del Centro de Pachuca; elementos de seguridad desplegaron operativo y lograron la captura de tres involucrados.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Ataque Armado</Tema_segun_la_fuente>
+		<Sintesis>Ataque con arma de fuego en las inmediaciones de El Parián en Pachuca movilizó a policías municipales y estatales, logrando la aprehensión de tres presuntos agresores.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Detienen a líder criminal con armamento y droga en Tula</Titular>
+		<Contenido>Agentes de la SSPH detuvieron en Tula a un generador de violencia a bordo de una camioneta Dodge RAM, decomisándole un arma larga, arma corta, chaleco táctico y más de 670 dosis de drogas.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>Operativo de la Secretaría de Seguridad Pública de Hidalgo culminó con la captura de un presunto líder delincuencial operando en la región de Tula de Allende.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Hongos en el café</Titular>
+		<Contenido>Durante un curso de micología en el CITNOVA, la empresa HC Wellness presentó desarrollos alimentarios para incorporar extractos de hongos funcionales con bioactivos y antioxidantes al café.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Reportaje</Genero_periodistico>
+		<Tema_segun_la_fuente>Divulgación científica</Tema_segun_la_fuente>
+		<Sintesis>Investigadores y especialistas exponen en el CITNOVA la aplicación de propiedades nutricionales de hongos funcionales en bebidas de consumo cotidiano.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>30</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Planeación</Dependencia>
+		<Dependencias_mencionadas>Planeación, CITNOVA</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Obras del Tren AIFA-Pachuca cortan agua a colonias del sur</Titular>
+		<Contenido>Cerca de 30 vecinos de distintos fraccionamientos de la zona sur de Mineral de la Reforma (Tulipanes, La Colonia, Cipreses, Magisterio y Encinos) bloquearon este domingo la avenida de los Árboles, a la altura de la caseta de Tulipanes, para exigir agua potable luego de que el tandeo previsto no se cumpliera. Los habitantes señalaron que el desabasto se ha prolongado hasta por 15 días y atribuyeron parte de las afectaciones a los trabajos del Tren AIFA-Pachuca por interferencias en la infraestructura de Caasim.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Abasto de agua</Tema_segun_la_fuente>
+		<Sintesis>Vecinos del sur de Mineral de la Reforma bloquearon la avenida de los Árboles tras cumplir 15 días sin suministro de agua potable, señalando que las obras del Tren AIFA-Pachuca dañaron las redes de distribución de Caasim.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Durante 2026 van 179 contagios de Covid en Hidalgo</Titular>
+		<Contenido>Hidalgo acumula 179 casos de Covid-19 durante 2026 y se ubica en el tercer lugar nacional por contagios, de acuerdo con el reporte de la Dirección General de Epidemiología. Asimismo, la entidad ocupa el primer lugar nacional por defunciones asociadas al coronavirus con 15 fallecimientos. La secretaria de Salud de Hidalgo, Vanesa Escalante Arroyo, señaló que los padecimientos crónico-degenerativos sin control y la falta de actualización de esquemas de vacunación incrementan los riesgos.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Covid 19</Tema_segun_la_fuente>
+		<Sintesis>Con 179 contagios y 15 defunciones en 2026, Hidalgo se ubica en el primer lugar nacional en mortalidad por Covid-19. La Secretaría de Salud de Hidalgo llamó a mantener al día los esquemas de vacunación.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante Arroyo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Avanza transferencia del Nuevo Hospital General</Titular>
+		<Contenido>La Secretaría de Salud de Hidalgo prevé concretar la transferencia del Nuevo Hospital General de Pachuca al IMSS-Bienestar, informó su titular Vanesa Escalante Arroyo. Autoridades federales realizaron visitas e integran documentación técnica para que el organismo asuma la operación del inmueble que permanece sin funcionar.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>IMSS Bienestar</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Salud de Hidalgo avanza en las gestiones para transferir el Nuevo Hospital General de Pachuca al esquema IMSS-Bienestar para iniciar su equipamiento y puesta en operación.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante Arroyo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Van a demoler primaria en Tulancingo; edificarán otra</Titular>
+		<Contenido>La escuela primaria Aquiles Serdán de Tulancingo presenta graves daños estructurales, por lo que será demolida y reconstruida totalmente durante el ciclo escolar 2026-2027, según informó el titular de la SEPH, Natividad Castrejón. Se analizan alternativas para reubicar temporalmente a los alumnos en planteles cercanos o modalidades de educación a distancia.</Contenido>
+		<Fecha_de_publicacion>2026-09-21</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>Por fallas estructurales, la Secretaría de Educación Pública de Hidalgo construirá un nuevo plantel para la primaria Aquiles Serdán en Tulancingo, evaluando sedes temporales para atender al alumnado.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón</Actores_mencionados>
+	</Nota>
+</NotasRadio>
