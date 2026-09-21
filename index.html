@@ -3061,6 +3061,13 @@
           return;
         }
       }
+      const valorId = document.getElementById('id').value.trim();
+      const idValido = valorId === 'N/A' || valorId === 'Mañanera' || (valorId.includes('/') && !valorId.endsWith('/'));
+      if (!idValido) {
+        alert('Error: El ID debe ser "N/A", "Mañanera" o contener "/" sin terminar en "/".');
+        document.getElementById('id').focus();
+        return;
+      }
       const valorMedio = document.getElementById('medio').value.trim();
       const valorFirma = document.getElementById('firma').value.trim();
       if (valorFirma) {
