@@ -1270,8 +1270,10 @@
         <label for="id">ID</label>
         <div class="campo">
           <input type="text" id="id" name="id" required>
+          <button type="button" class="btn-campo" onclick="mostrarSugerencias('id','sugId')" tabindex="-1" title="Ver sugerencias"><i class="fa-solid fa-chevron-down"></i></button>
           <input type="checkbox" id="checkId" onchange="alternarBloqueo('id')" tabindex="-1">
           <label for="checkId" class="lock-label" title="Bloquear/Desbloquear"><i class="fa-solid fa-lock"></i></label>
+          <div id="sugId" class="sugerencias"></div>
         </div>
 
         <!-- ===== BOTONES ===== -->
@@ -2755,6 +2757,15 @@
 
       const canalesLista = Array.from(new Set(Object.values(medioToCanalMap).flat())).sort((a, b) => a.localeCompare(b, 'es'));
       autocompletar("canal", "sugCanal", canalesLista);
+
+      const idInput = document.getElementById('id');
+      idInput.addEventListener('input', () => {
+        if (/^\s*[nN]\s*$/.test(idInput.value)) {
+          idInput.value = 'N/A';
+          idInput.dispatchEvent(new Event('blur'));
+        }
+      });
+      autocompletar("id", "sugId", ["Mañanera"]);
 
       document.getElementById('buscador').addEventListener('input', filtrarTabla);
 
