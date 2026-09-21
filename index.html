@@ -2759,8 +2759,9 @@
       autocompletar("canal", "sugCanal", canalesLista);
 
       const idInput = document.getElementById('id');
-      idInput.addEventListener('input', () => {
-        if (/^\s*[nN]\s*$/.test(idInput.value)) {
+      idInput.addEventListener('input', event => {
+        const esInsercion = !event.inputType || event.inputType.startsWith('insert');
+        if (esInsercion && /^\s*[nN]\s*$/.test(idInput.value)) {
           idInput.value = 'N/A';
           idInput.dispatchEvent(new Event('blur'));
         }
