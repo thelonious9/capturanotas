@@ -1270,8 +1270,10 @@
         <label for="id">ID</label>
         <div class="campo">
           <input type="text" id="id" name="id" required>
+          <button type="button" class="btn-campo" onclick="mostrarSugerencias('id','sugId')" tabindex="-1" title="Ver sugerencias"><i class="fa-solid fa-chevron-down"></i></button>
           <input type="checkbox" id="checkId" onchange="alternarBloqueo('id')" tabindex="-1">
           <label for="checkId" class="lock-label" title="Bloquear/Desbloquear"><i class="fa-solid fa-lock"></i></label>
+          <div id="sugId" class="sugerencias"></div>
         </div>
 
         <!-- ===== BOTONES ===== -->
@@ -2756,6 +2758,16 @@
       const canalesLista = Array.from(new Set(Object.values(medioToCanalMap).flat())).sort((a, b) => a.localeCompare(b, 'es'));
       autocompletar("canal", "sugCanal", canalesLista);
 
+      const idInput = document.getElementById('id');
+      idInput.addEventListener('input', event => {
+        const esInsercion = !event.inputType || event.inputType.startsWith('insert');
+        if (esInsercion && /^\s*[nN]\s*$/.test(idInput.value)) {
+          idInput.value = 'N/A';
+          idInput.dispatchEvent(new Event('blur'));
+        }
+      });
+      autocompletar("id", "sugId", ["Mañanera"]);
+
       document.getElementById('buscador').addEventListener('input', filtrarTabla);
 
       document.getElementById('btnImportarNotas').addEventListener('click', () => {
@@ -3060,6 +3072,13 @@
           document.getElementById(campo.id).focus();
           return;
         }
+      }
+      const valorId = document.getElementById('id').value.trim();
+      const idValido = valorId === 'N/A' || valorId === 'Mañanera' || (valorId.includes('/') && !valorId.endsWith('/'));
+      if (!idValido) {
+        alert('Error: El ID debe ser "N/A", "Mañanera" o contener "/" sin terminar en "/".');
+        document.getElementById('id').focus();
+        return;
       }
       const valorMedio = document.getElementById('medio').value.trim();
       const valorFirma = document.getElementById('firma').value.trim();
