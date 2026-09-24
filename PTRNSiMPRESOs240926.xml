@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Nuevas tarifas de taxis ya se aplican</Titular>
+		<Contenido>Tras la publicación del acuerdo en el Periódico Oficial del Estado de Hidalgo, el aumento de 20% en las tarifas de taxis en Pachuca y Mineral de la Reforma entró en vigor ayer. De acuerdo con el tarifario, un traslado del Reloj Monumental a la Feria tiene un costo de 77 pesos.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>Entró en vigor el incremento del 20% en las tarifas de taxis para Pachuca y Mineral de la Reforma tras su publicación en el POEH, fijando el banderazo mínimo en 45 pesos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, STCH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Desmiente Ice Dreams a la feria de Pachuca</Titular>
+		<Contenido>La compañía informó que no se presentará en la Feria San Francisco Pachuca 2026 y se deslindó del espectáculo Raíces del Mundo, anunciado en las cuentas oficiales del evento. Señaló que se utilizaron fotografías de sus patinadores sin autorización, algunas alteradas con Inteligencia Artificial.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
+		<Sintesis>La empresa Ice Dreams México aclaró que no participará en la Feria San Francisco Pachuca 2026 y denunció el uso no autorizado de imágenes de sus integrantes en la promoción oficial.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo, OEEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Asesoran a jóvenes para prevenir suicidio</Titular>
+		<Contenido>La Secretaría de Salud de Hidalgo reforzó las acciones dirigidas a jóvenes para que puedan identificar conductas de riesgo y construyan redes de apoyo entre compañeros. La estrategia incluye actividades en planteles educativos, mientras que las autoridades difunden las señales de alerta y ponen a disposición la Línea de la Vida.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención del suicidio</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Salud de Hidalgo lleva a cabo talleres y capacitaciones en escuelas para prevenir el suicidio juvenil mediante la identificación oportuna de factores de riesgo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Colillas y envases, los residuos predominantes en las costas</Titular>
+		<Contenido>Millones de kilogramos de basura fueron recogidos y eliminados por voluntarios en regiones costeras de todo el mundo en 2021. De acuerdo con la organización estadounidense sin fines de lucro Ocean Conservancy, la basura en las playas y otros centros recreativos aumenta año con año.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Protección ambiental</Tema_segun_la_fuente>
+		<Sintesis>Datos de Ocean Conservancy revelan que las colillas de cigarro, envoltorios de comida y botellas de plástico representan los principales contaminantes recolectados en zonas costeras.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Tarifa de agua sube 14.08% en 3 años</Titular>
+		<Contenido>Del 2023 al 2026 la Comisión de Agua y Alcantarillado de Sistemas Intermunicipales (Caasim) ha incrementado en 14.08% el suministro de agua tipo doméstico, cuyo costo mínimo era de 35.81 pesos en 2023 a 54.93 en 2026.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Tarifa Caasim</Tema_segun_la_fuente>
+		<Sintesis>La tarifa básica de suministro doméstico de agua potable de Caasim acumula un incremento del 14.08% en tres años en los 14 municipios atendidos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Sonia Nochebuena</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Caasim, Sipdus</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Sin casos activos de barrenador</Titular>
+		<Contenido>Tras acumular mil 376 contagios de gusano barrenador en animales tras cuatro meses del primer infectado, Hidalgo dejó de figurar entre las entidades con casos activos de esta plaga, de acuerdo con el reporte más reciente del Servicio Nacional de Sanidad, Inocuidad y Calidad Agroalimentaria (Senasica).</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Gusano barrenador</Tema_segun_la_fuente>
+		<Sintesis>Senasica confirmó que Hidalgo ya no presenta casos activos de gusano barrenador en ganado tras haber registrado 1,376 contagios en meses anteriores.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alma Leticia Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Senasica, Saderh</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Por Feria se aplican operativo de transporte</Titular>
+		<Contenido>Con motivo de la Feria de San Francisco Pachuca Hidalgo 2026, la Secretaría de Movilidad y Transporte de Hidalgo (Semoth) realizará operativos especiales del jueves 24 de septiembre al domingo 18 de octubre, con el objetivo de garantizar la movilidad y un servicio de transporte accesible.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Operativo de transporte</Tema_segun_la_fuente>
+		<Sintesis>La Semot puso en marcha operativos de transporte especial y bases temporales de taxis para dar servicio nocturno continuo durante la Feria de Pachuca 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Sitmah, STCH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Cobro puede aumentar por el tráfico, choferes</Titular>
+		<Contenido>Tras la publicación del nuevo tarifario de taxis en el Periódico Oficial del Estado de Hidalgo (POEH), operadores en Pachuca y Mineral de la Reforma pidieron a los usuarios considerar el tiempo que permanecen en el tráfico y a la Secretaría de Movilidad y Transporte (Semoth) aclarar cómo será el proceso para la instalación de los taxímetros físicos.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Tarifario de taxis</Tema_segun_la_fuente>
+		<Sintesis>Taxistas de Pachuca señalaron que el tráfico vehicular genera cobros adicionales por minutos de espera y urgieron a la Semot a clarificar la transición hacia taxímetros digitales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, STCH</Dependencias_mencionadas>
+		<Actores_mencionados>Germán Carrasco</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Continúa retiro de material en la Tenango-Metepec</Titular>
+		<Contenido>Las labores de atención y supervisión vial se mantienen de manera constante sobre la carretera estatal Tenango-Metepec, previo al Arco de Bienvenida de Tenango de Doria, donde se retira material derivado de deslaves provocados por lluvias. Protección Civil mantiene monitoreo del terreno y pide extremar precauciones.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tenango de Doria</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deslaves por lluvias</Tema_segun_la_fuente>
+		<Sintesis>Autoridades y Protección Civil mantienen trabajos con maquinaria pesada en la carretera estatal Tenango-Metepec para retirar el material acumulado por derrumbes tras las recientes lluvias.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>PC</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Entra en vigor nueva tarifa de taxis; banderazo será de $45</Titular>
+		<Contenido>El Sistema de Transporte Convencional de Hidalgo publicó en el POEH la actualización de la tarifa del transporte individual (taxi) para Pachuca y Mineral de la Reforma. El banderazo ordinario será de 45 pesos más 4 pesos por kilómetro adicional, con incremento nocturno del 20%. Concesionarios tendrán 120 días para instalar taxímetros digitales.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>Entró en vigor el incremento tarifario de taxis en Pachuca y Mineral de la Reforma fijando la bajada de bandera en 45 pesos, estableciendo la obligación de implementar taxímetros digitales en 120 días.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portada</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>STCH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Hidalgo suma 269 homicidios de enero a agosto de este año</Titular>
+		<Contenido>El Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública documentó que Hidalgo acumuló 269 homicidios (131 dolosos y 138 culposos) en los primeros ocho meses de 2026. Además, se contabilizaron 6 mil 949 delitos contra la vida e integridad corporal, dos feminicidios y seis secuestros extorsivos.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>Cifras del SESNSP revelan que Hidalgo acumuló 269 homicidios y dos feminicidios en los primeros ocho meses de 2026, concentrando la mayoría de muertes culposas en percances de tránsito.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>SESNSP</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Sin alza en tres años, la Feria de Pachuca apuesta por patrocinios</Titular>
+		<Contenido>El titular de la Operadora de Eventos del Estado de Hidalgo, Marco Antonio Aranzábal Juárez, ratificó que el boleto de entrada a la Feria de San Francisco Pachuca 2026 costará 60 pesos por tercer año consecutivo. La sostenibilidad del costo se logró mediante patrocinios privados y concesión del polígono ferial por recintos.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
+		<Sintesis>La Feria de San Francisco Pachuca 2026 conservará por tercer año consecutivo la tarifa de 60 pesos en su boleto de entrada, financiada mediante esquemas de patrocinio comercial y alianzas estratégicas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>OEEH, SSPH, Cofepris, SSH, Profeco, CDHEH</Dependencias_mencionadas>
+		<Actores_mencionados>Marco Antonio Aranzábal Juárez, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Destruyen huachitúnel en comunidad de Tlaxcoapan</Titular>
+		<Contenido>El secretario de Gobierno, Guillermo Olivares Reyna, supervisó la destrucción del huachitúnel número 17 en Teocalco, municipio de Tlaxcoapan. La estructura rústica de 143 metros de longitud pasaba por debajo de carreteras y vías de ferrocarril conectando con el poliducto de Pemex. Con esto suman 16 huachitúneles inhabilitados en el sexenio.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>20</Liga>
+		<Municipio>Tlaxcoapan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Huachitúnel</Tema_segun_la_fuente>
+		<Sintesis>Autoridades estatales, federales y Pemex clausuraron un huachitúnel de 143 metros de longitud en Tlaxcoapan, sumando 16 estructuras subterráneas invalidadas durante la presente administración.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portada</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Joselyn Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Presidencia, Pemex, GN, Sedena, Ferromex, PC</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna, Román Bernal Díaz, Jaime Álvarez Solís, Juan Pablo Velázquez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Acción ambiental</Titular>
+		<Contenido>El ayuntamiento de Pachuca y Semarnath invitan al acopio de pilas y reforestación en la unidad deportiva de la colonia Carlo Rovirosa, de 9:00 a 16:00 horas. ¡Cada pila cuenta, cada acción protege!</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Boletín</Genero_periodistico>
+		<Tema_segun_la_fuente>Protección ambiental</Tema_segun_la_fuente>
+		<Sintesis>El Ayuntamiento de Pachuca y Semarnath invitan a la ciudadanía al acopio de pilas y jornadas de reforestación en la unidad deportiva de la colonia Carlo Rovirosa.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Es oficial, sube 20% tarifa inicial de taxis en la capital</Titular>
+		<Contenido>Desde ayer 23 de septiembre entró en vigor la nueva tarifa para el transporte público individual, taxi, en Pachuca y Mineral de la Reforma, de acuerdo con el acuerdo publicado por el Sistema de Transporte Convencional de Hidalgo (STCH) en el Periódico Oficial del Estado de Hidalgo. El documento establece una primera etapa de transición con un incremento de 20 por ciento respecto a la tarifa anterior. El banderazo pasó de 38.50 a 45 pesos, correspondiente a los primeros cuatro kilómetros, mientras que el costo por kilómetro adicional aumentó de tres a cuatro pesos, según se informó. Además, se estableció un plazo de 120 días hábiles, a partir del 23 de septiembre, para que los taxis se incorporen al dispositivo físico de taxímetro digital. Este sistema contempla un cobro adicional por tiempo de espera o baja velocidad: un peso por cada 150 metros recorridos en 60 segundos o cuando la unidad circule a menos de 15 kilómetros por hora. De acuerdo con el esquema, este aumento permite elevar el costo de los recorridos cuando las unidades permanecen detenidas o avanzan lentamente debido al tránsito. El STCH sostiene que la medida busca regular las demoras provocadas por congestión vial y tiempos de espera, además de modernizar el servicio. El acuerdo señala que los taxímetros deberán contar con las certificaciones correspondientes y ser instalados por proveedores aprobados por el STCH. Una vez concluido el plazo, la falta de instalación, así como la manipulación o alteración del dispositivo, será motivo de sanciones. A partir de este miércoles, los operadores también deben ajustarse al tarifario oficial, que contempla 12 destinos frecuentes y más de 80 puntos de origen en Pachuca y Mineral de la Reforma. El STCH también reforzó las obligaciones para concesionarios y conductores, entre ellas cobrar las tarifas autorizadas, obtener el tarifario, participar en programas de capacitación, mantener vigente la póliza de seguro y garantizar las condiciones físico-mecánicas de las unidades. Los operadores deberán portar en un sitio visible el tarjetón de conductor, someter las unidades a inspección, mantener libres de obstrucciones los parabrisas y ventanillas y respetar disposiciones sobre iluminación y sonido al interior de los vehículos. El acuerdo también contempla un incremento de 20 por ciento en la tarifa durante el horario nocturno, de las 00:01 a las 04:59 horas. Durante el resto del día, de las 05:00 a las 24:00 horas, se aplicará la tarifa ordinaria. El nuevo esquema también busca reducir la discrecionalidad en el cobro, ya que los operadores deberán sujetarse a las tarifas.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>Entró en vigor el incremento del 20% en la tarifa inicial de taxis para Pachuca y Mineral de la Reforma, fijando el banderazo mínimo en 45 pesos y otorgando 120 días para la instalación obligatoria de taxímetros digitales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, STCH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Descartan aumento al precio de la tortilla</Titular>
+		<Contenido>El kilo de tortilla se mantendrá en 25 pesos en el estado de Hidalgo, luego de que la Secretaría de Agricultura y Desarrollo Rural (Sader) señaló que existe suficiente maíz blanco para atender la demanda de la industria y que el reciente incremento en el precio del grano tendría un impacto limitado en el producto final. En las últimas cuatro semanas, la tonelada de maíz registró un aumento de 400 pesos, equivalente a 6 por ciento, pero, de acuerdo con las estimaciones de la dependencia, esto representa una variación aproximada de 28 centavos en el precio de un kilogramo de tortilla. En julio de 2025 fue firmado el Acuerdo Nacional Maíz-Tortilla, con el objetivo de contener incrementos en el precio del alimento. Desde entonces, el valor de la tonelada de maíz llegó a disminuir de alrededor de 6 mil 800 a 5 mil pesos en algunas regiones. Con la llegada del otoño y el inicio de la cosecha, se espera una mayor disponibilidad del grano. La Sader señaló que, al noveno mes del año, los inventarios de maíz blanco permiten cubrir la demanda de la industria, por lo que no existen condiciones para justificar un incremento en el precio de la tortilla. Un recorrido por tortillerías de la zona metropolitana de Pachuca confirmó que el precio se mantiene en 25 pesos por kilo. En algunos mercados también se conserva este costo para las tortillas hechas a mano, debido a que el ajuste en el precio del maíz aún no se refleja de manera significativa en el valor de la masa. La Sader señaló que, al noveno mes del año, los inventarios de maíz blanco permiten cubrir la demanda de la industria, por lo que no existen condiciones para justificar un incremento en el precio de la tortilla. Para finales de octubre comenzará la cosecha nacional del ciclo primavera-verano. La Sader aseguró que hay suficiente maíz blanco para cubrir la demanda de la industria y evitar un alza en el alimento.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Canasta básica</Tema_segun_la_fuente>
+		<Sintesis>La Sader descartó un alza en el precio de la tortilla en Hidalgo, confirmando que el costo se mantendrá en 25 pesos por kilogramo gracias al abasto suficiente de maíz blanco en los inventarios nacionales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miriam Avilés</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Incremento a tarifas de taxis entró en vigor</Titular>
+		<Contenido>Publican acuerdo del STCH en el POEH fijando la tarifa mínima en 45 pesos para Pachuca y Mineral de la Reforma, con la obligación de instalar taxímetros en 120 días.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>Entra en vigor el nuevo tarifario de taxis en la zona metropolitana de Pachuca estableciendo un banderazo mínimo de 45 pesos e incremento nocturno del 20%.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portada</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, STCH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Amarra Hidalgo sede de Olimpiada</Titular>
+		<Contenido>Hidalgo albergará la competencia Orgullo Nacional 2027, la contienda deportiva infantil y juvenil más importante del país, anunciaron el gobernador Menchaca y Rommel Pacheco.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Nacionales Conade</Tema_segun_la_fuente>
+		<Sintesis>Anuncian que Hidalgo será la sede principal de la Olimpiada Nacional Orgullo Nacional 2027 en coordinación entre el gobierno estatal y la Conade.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portada</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Gobernador, Inhide</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Rommel Pacheco</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Implementará la SSPH operativo en la Feria</Titular>
+		<Contenido>La SSPH desplegará un operativo de vigilancia con Policía Estatal, C5i, Bomberos y Tránsito dentro y fuera del recinto ferial San Francisco Pachuca 2026.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
+		<Sintesis>La SSPH dispondrá un operativo de seguridad permanente con patrullajes, videovigilancia del C5i y módulos de bomberos durante la Feria de San Francisco 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, C5i, Bomberos, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Violencia familiar, el delito más recurrente</Titular>
+		<Contenido>Pachuca acumuló 854 denuncias por violencia familiar de enero a julio de 2026, superando al fraude y las amenazas, señala reporte del SESNSP analizado por la UAEH.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Violencia familiar</Tema_segun_la_fuente>
+		<Sintesis>Reporte del SESNSP ubica a la violencia familiar como el delito de mayor incidencia en Pachuca durante los primeros siete meses del año con 854 carpetas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Presidencia, UAEH</Dependencias_mencionadas>
+		<Actores_mencionados>Gloria Contreras Jiménez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Prevén cambio de modelo para la Escuela de Música</Titular>
+		<Contenido>La SEPH proyecta integrar a la EMEH dentro del subsistema de universidades politécnicas-tecnológicas al sumar licenciaturas como Cinematografía y posgrados.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Oferta educativa</Tema_segun_la_fuente>
+		<Sintesis>La SEPH analiza reestructurar el modelo educativo de la Escuela de Música de Hidalgo para incorporarla al sistema de universidades politécnicas y tecnológicas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, EMEH</Dependencias_mencionadas>
+		<Actores_mencionados>Daniel Fragoso Torres</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Huachitúnel de 143 metros, destruido</Titular>
+		<Contenido>Autoridades federales y estatales destruyeron un túnel huachicolero de 143 metros de largo en Teocalco, Tlaxcoapan. Suman 17 túneles inhabilitados en 2026.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Tlaxcoapan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Huachitúnel</Tema_segun_la_fuente>
+		<Sintesis>Quedó destruido un pasadizo de 143 metros utilizado para el robo de hidrocarburo en Teocalco, Tlaxcoapan, alcanzando 17 túneles inhabilitados de junio a septiembre en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portada</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>FGR, Pemex, PGJEH, SSPH, Segobh, Ferromex</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Hidalgo será sede del Campeonato de Boccia 2026 y la Olimpiada Nacional 2027</Titular>
+		<Contenido>Hidalgo será una de las seis sedes de la Olimpiada Nacional 2027, confirmó Rommel Pacheco, director de la Comisión Nacional de Cultura Física y Deporte (Conade), durante una conferencia de prensa realizada con motivo del anuncio del Campeonato Centroamericano y del Caribe de Boccia 2026. La entidad compartirá la sede de esta justa multidisciplinaria con Coahuila, Veracruz, Tamaulipas, Oaxaca y la UNAM.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Nacionales Conade</Tema_segun_la_fuente>
+		<Sintesis>Rommel Pacheco, titular de la Conade, anunció que Hidalgo albergará la Olimpiada Nacional 2027 y el Campeonato Centroamericano y del Caribe de Boccia 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Conade, Inhide</Dependencias_mencionadas>
+		<Actores_mencionados>Rommel Pacheco, Liliana Suárez Carreón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Persiste maltrato animal en Hidalgo; judicializan 21 carpetas de investigación</Titular>
+		<Contenido>Ana Lilia Martínez Hernández, titular de la Unidad Especializada en la Investigación de Delitos en Contra de los Animales, dio a conocer a Síntesis Hidalgo que, de 81 carpetas de investigación integradas por agravios contra animales, 21 han sido judicializadas, de las cuales se han obtenido 14 sentencias condenatorias en municipios como Pachuca, Mineral de la Reforma, Tizayuca y Tula.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Maltrato animal</Tema_segun_la_fuente>
+		<Sintesis>La PGJEH ha judicializado 21 carpetas por maltrato animal en Hidalgo y logrado 14 sentencias condenatorias, reportó la Unidad Especializada.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Ana Lilia Martínez Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Destruyen túnel ligado al huachicol en Tlaxcoapan; van 17</Titular>
+		<Contenido>En la localidad de Teocalco, municipio de Tlaxcoapan, el Gabinete de Seguridad asistió a la destrucción de un túnel de 143 metros de longitud relacionado con el robo de hidrocarburo. Con este operativo suman 17 túneles inhabilitados en Hidalgo entre junio y septiembre de 2026, informó el secretario de Gobierno, Guillermo Olivares Reyna.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tlaxcoapan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Huachitúnel</Tema_segun_la_fuente>
+		<Sintesis>Autoridades estatales y federales destruyeron un huachitúnel de 143 metros en Tlaxcoapan, alcanzando 17 estructuras eliminadas en la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, FGR, Ferromex, Pemex, PGJEH, SSPH, PC</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Hidalgo reportó tres secuestros en agosto 2026</Titular>
+		<Contenido>En agosto, la PGJEH inició tres carpetas de investigación por secuestro (dos extorsivos y un exprés), cifra máxima en 29 meses según datos del SESNSP.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Secuestro</Tema_segun_la_fuente>
+		<Sintesis>La PGJEH registró tres carpetas de investigación por secuestro en agosto en Hidalgo, la cifra mensual más alta en 29 meses según el SESNSP.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Todo listo para el arranque de la feria de San Francisco 2026</Titular>
+		<Contenido>Las instalaciones de la Feria San Francisco Pachuca 2026 se encuentran preparadas para iniciar 25 días de actividades culturales, gastronómicas y espectáculos.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
+		<Sintesis>Arranca la Feria San Francisco Pachuca 2026 con espectáculos musicales, muestras artesanales y gastronomía durante 25 días de actividades.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Las denuncias por tortura se disparan en un 400 por ciento</Titular>
+		<Contenido>Las denuncias por tortura en Hidalgo aumentaron 400% en agosto al registrar cinco carpetas de investigación ante la PGJEH, situando a la entidad en el lugar 12 nacional.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Tortura</Tema_segun_la_fuente>
+		<Sintesis>Reporte del SESNSP indica que en agosto las denuncias por tortura en Hidalgo crecieron 400% con cinco querellas iniciadas ante la PGJEH.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Autoridades advierten que hay un repunte de enfermedades diarreicas</Titular>
+		<Contenido>Personal de la Jurisdicción Sanitaria 2 advirtió durante sesión del Cojuve que las enfermedades diarreicas registraron un repunte por relajamiento en medidas de higiene.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vigilancia Epidemiológica</Tema_segun_la_fuente>
+		<Sintesis>Autoridades de salud en la región Tulancingo llamaron a reforzar la higiene y lavado de manos ante el incremento de padecimientos diarreicos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>María Antonieta Islas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Emiten recomendaciones a concesionarios de FUTVEH</Titular>
+		<Contenido>El dirigente de la FUTVEH informó que emiten recomendaciones a concesionarios para mantener actualizadas las pólizas de seguro del transporte público ante operativos de la Semot.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Supervisión de Transporte</Tema_segun_la_fuente>
+		<Sintesis>Dirigencia de transportistas en Pachuca exhorta a permisionarios a vigilar la vigencia de seguros de unidades para evitar sanciones y revocaciones por parte de la Semot.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Eleno Arias Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Fue cancelado el registro de 6 proveedores y contratistas</Titular>
+		<Contenido>La Secretaría de Contraloría publicó en el POEH la cancelación del registro e inhabilitación por 5 y 6 años de dos empresas y cuatro personas físicas.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Padrón de proveedores</Tema_segun_la_fuente>
+		<Sintesis>Contraloría estatal sancionó e inhabilitó a cinco proveedores y una contratista para impedirles celebrar contratos con ayuntamientos y el gobierno de Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Contraloría</Dependencia>
+		<Dependencias_mencionadas>Contraloría, SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Maritza Yazmín Estrada Ortiz, Lizbeth Pedraza Quijada, Laura Flores Méndez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Llegarán a Hidalgo millón y medio de vacunas contra la influenza y el Covid-19</Titular>
+		<Contenido>La SSH programa la llegada y distribución de 1.5 millones de dosis de vacunas contra influenza y Covid-19 en la entidad para la campaña invernal a partir del 12 de octubre.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Campaña de vacunación</Tema_segun_la_fuente>
+		<Sintesis>Sector salud en Hidalgo prepara la aplicación de 1.5 millones de biológicos contra enfermedades respiratorias durante la temporada invernal 2026-2027.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, IMSS, ISSSTE, Pemex</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Investigan irregularidades en programa social para mujeres</Titular>
+		<Contenido>La Contraloría estatal abrió expediente de verificación física y documental en Xochiatipan ante posible entrega irregular de apoyos del programa social para mujeres.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Xochiatipan</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Auditorías</Tema_segun_la_fuente>
+		<Sintesis>Secretaría de Contraloría indaga denuncia realizada en buzón QR sobre presuntas inconsistencias en el padrón de beneficiarias de Bienestar en Xochiatipan.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Contraloría</Dependencia>
+		<Dependencias_mencionadas>Contraloría, Bienestar, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Briseyda Torres Martínez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Padres de familia de primaria exigen cambio del director y la renovación del comité</Titular>
+		<Contenido>Tutores de la primaria Leona Vicario en Tulancingo se manifestaron afuera del plantel exigiendo cuentas claras del manejo financiero de cuotas y la destitución del director.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Quejas padres de familia</Tema_segun_la_fuente>
+		<Sintesis>Manifestación de padres de familia en escuela de Tulancingo solicita la intervención inmediata de las autoridades de la SEPH para renovar la mesa directiva.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>María Antonieta Islas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Tulancingo concentra apoyos para fortalecer actividades del campo</Titular>
+		<Contenido>La Saderh entregó 8.5 mdp en apoyos agrícolas, crías de peces, huertos familiares y sistemas fotovoltaicos en beneficio de 179 productores hidalguenses.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo Al Agro</Tema_segun_la_fuente>
+		<Sintesis>Entrega regional de apoyos a productores del campo en Tulancingo busca dignificar la producción agrícola y acuícola con equipamiento e insumos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh</Dependencias_mencionadas>
+		<Actores_mencionados>Napoleón González Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Carrera del COBAEH San Ildefonso promueve salud y convivencia juvenil</Titular>
+		<Contenido>Más de 160 estudiantes de Tepeji del Río se reunieron en la carrera deportiva del Cobaeh enfocada en la activación física e integración escolar.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tepeji del Río</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Carrera atlética</Tema_segun_la_fuente>
+		<Sintesis>Jornada deportiva estudiantil en Tepeji del Río promovió hábitos saludables y valores de convivencia entre la juventud del subsistema Cobaeh.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Ayuntamiento, DIFH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Suman un total de 23 casos de gusano barrenador en Hidalgo</Titular>
+		<Contenido>De acuerdo con el Boletín Epidemiológico de la Secretaría de Salud Federal, Hidalgo registra 23 casos de gusano barrenador en humanos en lo que va de 2026, ubicándose en novena posición nacional.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Gusano barrenador</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo suma 23 casos acumulados de miasis por gusano barrenador en humanos durante 2026 sin registrar defunciones.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ana Luisa Vega</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Taxis cobrarán hasta 133 pesos desde la feria</Titular>
+		<Contenido>La Secretaría de Movilidad y Transporte publicó el tarifario oficial para traslados desde la Feria Pachuca 2026, fijando cobros de 45 a 133 pesos según el destino.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>Semot emitió el tabulador oficial de taxis para la Feria de Pachuca 2026 con tarifa mínima de 45 pesos y máxima de 133 a municipios conurbados.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Hidalgo, sede de Orgullo Nacional 2027 y del Campeonato Centroamericano de Boccia</Titular>
+		<Contenido>El gobernador Julio Menchaca y Rommel Pacheco, titular de la Conade, anunciaron que Hidalgo albergará la competencia Orgullo Nacional 2027 y el Centroamericano de Boccia 2026.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Nacionales Conade</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo fue confirmado como sede principal de la justa juvenil Orgullo Nacional 2027 y del Campeonato Centroamericano de Boccia 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Gobernador, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Entró en vigor el incremento del 20 por ciento a las tarifas del transporte en Pachuca</Titular>
+		<Contenido>Publicaron en el POEH el acuerdo que autoriza el alza de tarifa inicial de taxi a 45 pesos e inicia la transición progresiva hacia taxímetros digitales.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>Sube 20% la tarifa de taxis en Pachuca y Mineral de la Reforma con banderazo oficial de 45 pesos publicado en el POEH.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, STCH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Atrae Hidalgo más de 147 mil MDP en inversión privada</Titular>
+		<Contenido>La Unidad de Planeación y Prospectiva destacó la atracción de 147 mil 697 millones de pesos en capital privado durante la actual administración.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>Uplaph reportó una cifra acumulada superior a 147 mil mdp en inversión privada consolidada en parques industriales de la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Planeación</Dependencia>
+		<Dependencias_mencionadas>Planeación, Uplaph</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Vacunarán a más de 202 mil perros y gatos en la Semana de Reforzamiento Antirrábico</Titular>
+		<Contenido>La Secretaría de Salud de Hidalgo aplicará 202 mil dosis de vacuna antirrábica en los 84 municipios durante la jornada de reforzamiento.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vacunación Antirrábica</Tema_segun_la_fuente>
+		<Sintesis>Arrancó la Semana Nacional de vacunación antirrábica en Hidalgo para inmunizar a más de 202 mil mascotas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Padres de familia cierran escuela Leona Vicario y exigen cambio de comité</Titular>
+		<Contenido>Toman las instalaciones del plantel educativo en Tulancingo exigiendo auditoría al comité de padres y señalando presunto desvío de recursos.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Quejas padres de familia</Tema_segun_la_fuente>
+		<Sintesis>Tutores de la primaria Leona Vicario en Tulancingo protestan y cierran la escuela solicitando transparencia en las cuotas escolares.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús Riveros</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Implementa la SSPH operativo especial de vigilancia por la Feria San Francisco Pachuca 2026</Titular>
+		<Contenido>La Policía Estatal desplegará unidades de vigilancia permanente en zonas comerciales, estacionamientos y escenarios del recinto ferial.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Operativo de Seguridad</Tema_segun_la_fuente>
+		<Sintesis>SSPH activó el operativo de prevención y vialidad para resguardar a los visitantes de la Feria de San Francisco en Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, C5i</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Tuzobús modifica operación y anuncia servicio especial nocturno por Feria Pachuca 2026</Titular>
+		<Contenido>El sistema troncal permitirá paradas especiales en estaciones Vicente Segura y Juan C. Doria y dará servicio nocturno de 23:00 a 03:00 horas.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afluencia Tuzobús</Tema_segun_la_fuente>
+		<Sintesis>Tuzobús extenderá horario con rutas nocturnas de Cetram Téllez a Centro Histórico por la Feria de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Sitmah</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Sancionan a 35 personas por ofrecer servicio de taxi mediante aplicación</Titular>
+		<Contenido>La Secretaría de Movilidad y Transporte informó sobre infracciones a choferes por operar plataformas digitales no autorizadas en la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>Semot aplicó 35 sanciones durante operativos de inspección a unidades que prestaban servicio ejecutivo sin concesión.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Descubren y aseguran en Atitalaquia y Teocalco sofisticada red de túneles y tomas clandestinas</Titular>
+		<Contenido>Fuerzas de seguridad estatales y federales inhabilitaron dos excavaciones de alta tecnología conectadas a ductos de Pemex en la región Tula.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Municipio>Tlaxcoapan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Huachitúnel</Tema_segun_la_fuente>
+		<Sintesis>Autoridades inhabilitaron dos subterráneos huachicoleros en Atitalaquia y Tlaxcoapan equipados con mangueras de alta presión.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, SSPH, Pemex, FGR</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Ya es oficial: suben tarifa de los taxis en Pachuca y Mineral de la Reforma</Titular>
+		<Contenido>Entran en vigor las nuevas tarifas de transporte individual con banderazo de 45 pesos y recargo del 20% en horario nocturno.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>Semot oficializó en el periódico oficial las tarifas de taxi para Pachuca con sanciones de hasta 15 mil pesos por cobros indebidos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Garantizan transporte, así como vigilancia y servicio especial nocturno para la Feria San Francisco 2026</Titular>
+		<Contenido>SSPH y Semot desplegarán operativos coordinados con células de vigilancia y transporte nocturno de 10 pesos durante la Feria de Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
+		<Sintesis>Autoridades estatales implementarán un despliegue operativo conjunto de seguridad y movilidad para los asistentes a la Feria de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Semot, Sitmah, C5i</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Eliminan túnel de huachicol de 143 metros situado en Tlaxcoapan</Titular>
+		<Contenido>El Gabinete de Seguridad inhabilitó una excavación subterránea de 143 metros de longitud utilizada para la extracción ilícita de hidrocarburo en Teocalco.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Tlaxcoapan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Huachitúnel</Tema_segun_la_fuente>
+		<Sintesis>Destruyen túnel clandestino en Tlaxcoapan tras peritajes de la FGR en operativo conjunto de seguridad.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, SSPH, FGR</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Van a demoler primaria Aquiles Serdán en Tulancingo; edificarán otra</Titular>
+		<Contenido>La SEPH demolerá la primaria Aquiles Serdán en Tulancingo por daños estructurales y reubicará provisionalmente a la plantilla escolar.</Contenido>
+		<Fecha_de_publicacion>2026-09-24</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>Educación Pública reconstruirá totalmente la escuela primaria Aquiles Serdán evaluando alternativas de clases híbridas o presenciales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+	</Nota>
+</NotasRadio>
