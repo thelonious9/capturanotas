@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Nosocomio de mil 617 mdp, sin funcionar</Titular>
+		<Contenido>El inmueble del nuevo Hospital General de Pachuca permanece sin operación, con basura y daños visibles, mientras la Secretaría de Salud estatal indicó que está en proceso de transferencia a la federación.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>IMSS Bienestar</Tema_segun_la_fuente>
+		<Sintesis>A cuatro años de su inauguración, el nuevo Hospital General de Pachuca no ha sido recibido por el IMSS-Bienestar y continúa cerrado.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alma Leticia Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, IMSS-Bienestar</Dependencias_mencionadas>
+		<Actores_mencionados>Omar Fayad Meneses</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Feria recibió a sus primeros visitantes</Titular>
+		<Contenido>Visitantes de municipios como Zapotlán, Tetepango y Pachuca acudieron a la apertura del recinto ferial a partir de las 13:00 horas para disfrutar de las atracciones y del concierto del grupo Bronco.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
+		<Sintesis>Con la apertura de pabellones y ambiente festivo, inició la Feria San Francisco Pachuca 2026 registrando la llegada de familias desde el primer día.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo</Dependencias_mencionadas>
+		<Actores_mencionados>Casimiro Márquez Reyes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Taxis que incumplan tarifa serán sancionados</Titular>
+		<Contenido>Tras la publicación del tarifario en el POEH con un costo mínimo de 45 pesos, autoridades estatales y municipales coordinarán operativos para vigilar que los conductores respeten las tarifas oficiales.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca advirtió sanciones y la posible retirada de concesiones a taxistas que cobren tarifas superiores a las autorizadas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, SSPH, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Distribuyen recursos a empresarios</Titular>
+		<Contenido>Beneficiarios de 74 municipios recibieron 25 mil pesos cada uno para fortalecer microempresas de giros comerciales, de servicios y producción artesanal en la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a emprendedores</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca entregó 760 apoyos económicos del programa Emprendiendo paso a paso 2026 por un total de 20 millones de pesos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Sedeco, IHCE</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Carlos Henkel Escorza</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Respaldan obra de Caasim en el Ramón G. Bonfil</Titular>
+		<Contenido>A pesar de las molestias temporales por polvo y tráfico, locatarios señalaron que la obra resolverá el desabasto de agua que padecían desde hace 15 días en la colonia Santa Julia.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Infraestructura Hidráulica</Tema_segun_la_fuente>
+		<Sintesis>Comerciantes del bulevar Ramón G. Bonfil manifestaron su respaldo a los trabajos de sustitución de tubería de agua potable realizados por Caasim.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Sonia Nochebuena</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Caasim</Dependencias_mencionadas>
+		<Actores_mencionados>Eusebio Fidel Orta</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Educación analiza riesgos de IA en emociones de niños y jóvenes</Titular>
+		<Contenido>El impacto de la inteligencia artificial en las emociones de niños y docentes fue uno de los temas centrales del encuentro estatal 'Voces que transforman', organizado por la Secretaría de Educación Pública de Hidalgo para evaluar los algoritmos y la inclusión digital.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Educación socioemocional</Tema_segun_la_fuente>
+		<Sintesis>La SEPH realizó el encuentro 'Voces que transforman' para evaluar el impacto de la inteligencia artificial y los algoritmos digitales en la salud emocional de los estudiantes.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón, Xóchitl García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Buscan ampliación de capacidades para uso de la tecnología</Titular>
+		<Contenido>La inteligencia artificial y la ciberseguridad comienzan a ocupar un espacio estratégico en Hidalgo con la búsqueda de alianzas entre instituciones educativas y actores especializados. La DESCTI sostuvo un encuentro con la Embajada de Estados Unidos.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Innovación tecnológica</Tema_segun_la_fuente>
+		<Sintesis>La DESCTI sostuvo una reunión con la Embajada de Estados Unidos para fortalecer alianzas estratégicas en ciberseguridad e inteligencia artificial.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Planeación</Dependencia>
+		<Dependencias_mencionadas>Planeación, DESCTI</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Franco Segura, Andrew Chapman</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>¡Pequeños guerreros! ¿Y si una consulta a tiempo pudiera cambiar una historia?</Titular>
+		<Contenido>Dorado, informarnos sobre el cáncer infantil nos ayuda a reconocer la importancia de la atención oportuna. En septiembre, Mes Dorado, se fomenta la concienciación y consulta oportuna para salvar vidas de niños.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cáncer Infantil</Tema_segun_la_fuente>
+		<Sintesis>En el marco del Mes Dorado, autoridades de salud enfatizan la importancia de la detección oportuna y consulta médica a tiempo del cáncer infantil.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Empresas buscarán talento en Empleotón</Titular>
+		<Contenido>Personas con discapacidad, adultos mayores y mujeres que buscan reincorporarse al mercado laboral tendrán el próximo 9 de octubre una jornada de empleo con participación de más de 15 empresas en la Feria Nacional de Empleo para Grupos Vulnerables.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria De Empleo</Tema_segun_la_fuente>
+		<Sintesis>La STPSH anunció la celebración de la Feria Nacional de Empleo para Grupos Vulnerables con la participación de más de 15 empresas oferentes.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>STPSH</Dependencia>
+		<Dependencias_mencionadas>STPSH</Dependencias_mencionadas>
+		<Actores_mencionados>Oscar Javier González Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Destinan 19 mdp a emprendedores</Titular>
+		<Contenido>Para quienes tuvieron que enfrentar las afectaciones de la vaguada monzónica, el apoyo llega como una posibilidad de recuperación. El gobernador Julio Menchaca Salazar defendió la decisión de entregar recursos directamente a los beneficiarios del programa Emprendiendo paso a paso.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a emprendedores</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca entregó 760 apoyos del programa Emprendiendo Paso a Paso, destinando especial atención a personas afectadas por contingencias climáticas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Carlos Henkel Escorza, Alejandra Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Fijan tarifas de taxis en hasta $133 al salir de feria</Titular>
+		<Contenido>Salir de la Feria San Francisco Pachuca en taxi tendrá un costo de entre 45 y 133 pesos, dependiendo del destino, de acuerdo con el tarifario público emitido por la Secretaría de Movilidad y Transporte. La tarifa mínima será de 45 pesos para destinos cercanos.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Tarifario Feria Pachuca</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Movilidad fijó el tabulador de tarifas para el servicio de taxis desde las instalaciones de la Feria de San Francisco, con costos de $45 a $133 según el destino.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+		<Actores_mencionados>El Hijo del Santo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Hay más de 42 mil víctimas de delitos</Titular>
+		<Contenido>Hidalgo registró 42 mil 457 víctimas de delitos del fuero común entre enero y agosto de este año, de acuerdo con el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública. Las lesiones lideran con 8,051 casos.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>Un informe del SESNSP reporta 42,457 víctimas de delitos en Hidalgo entre enero y agosto de 2026, destacando lesiones y violencia familiar entre los más recurrentes.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>FASP reporta avances en indicadores</Titular>
+		<Contenido>El Secretariado Ejecutivo del Consejo Estatal de Seguridad Pública dio a conocer los indicadores del primer trimestre del Fondo de Aportaciones para la Seguridad Pública (FASP), con un avance de 43.8 por ciento.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>FASP</Tema_segun_la_fuente>
+		<Sintesis>El Secretariado Ejecutivo del Consejo Estatal de Seguridad Pública reportó un avance del 43.8% en los indicadores del Fondo de Aportaciones para la Seguridad Pública.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>PIBEH suma 229 policías con bachillerato</Titular>
+		<Contenido>Doscientos veintinueve elementos de la Policía Industrial Bancaria del Estado de Hidalgo concluyeron su educación media superior mediante el programa Mi Prepa Digital, permitiendo certificar a 130 trabajadores.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Capacitación policial</Tema_segun_la_fuente>
+		<Sintesis>La Policía Industrial Bancaria de Hidalgo certificó a 229 elementos en educación media superior mediante el programa Mi Prepa Digital.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PIBEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Escuelas de Huejutla se preparan para Xantolo 2026</Titular>
+		<Contenido>Las escuelas de Huejutla comenzaron a prepararse para su participación en el Xantolo 2026, con actividades que incluirán exposiciones, demostraciones de cuadrillas y manifestaciones relacionadas con el Día de Muertos.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Xantolo</Tema_segun_la_fuente>
+		<Sintesis>Planteles educativos de Huejutla iniciaron ensayos de cuadrillas de disfrazados y preparación de altares rumbo a las festividades tradicionales del Xantolo 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Hidalgo llevará su cultura a Tlaxkallan</Titular>
+		<Contenido>El son huasteco, las danzas, los carnavales y la artesanía hidalguense llegarán este viernes al Palacio de Cultura de Tlaxcala, donde Hidalgo participa como estado invitado en el Festival Tlaxcallan 2026.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Exposición cultural</Tema_segun_la_fuente>
+		<Sintesis>Más de 300 agentes culturales, danzantes y artesanos de Hidalgo participarán como estado invitado en el Festival Tlaxcallan 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Entregan 760 apoyos a emprendedores; 191 afectados por vaguada</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar realizó la entrega de 760 apoyos del programa Emprendiendo Paso a Paso 2026, de los cuales 191 fueron para afectados por la vaguada monzónica de octubre del año pasado. Carlos Henkel Escorza, titular de Sedeco, explicó que se destinaron 20 millones de pesos.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a emprendedores</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca entregó 760 apoyos de 25 mil pesos del programa Emprendiendo Paso a Paso 2026, beneficiando a emprendedores y afectados por lluvias en 23 municipios.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, IHCE, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Carlos Henkel Escorza, Carlos Martín Pérez Quijano</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Estacionamiento: $150</Titular>
+		<Contenido>La Operadora de Eventos de Hidalgo confirmó que la tarifa oficial del estacionamiento de la Feria de Pachuca es de 150 pesos, advirtiendo que no debe cobrarse en vía pública.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Tarifario Feria Pachuca</Tema_segun_la_fuente>
+		<Sintesis>La OEEH estableció una cuota fija de 150 pesos para el estacionamiento ferial y coordinará operativos viales con la Semot y policía municipal.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo, OEEH, Semot</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Tras dos años, dan fecha para fallo por triple feminicidio en Tulantepec</Titular>
+		<Contenido>Los Juzgados de Control fijaron para el 8 de octubre el fallo definitivo por el triple feminicidio de dos hermanas y una amiga ocurrido en Santiago Tulantepec en julio de 2024. Los tres imputados rechazaron declarar en la última audiencia.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Santiago Tulantepec</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>Juez emitirá sentencia el 8 de octubre por el caso de triple feminicidio en Santiago Tulantepec; familiares de las víctimas exigen la pena máxima.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, TSJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Arranca la Feria San Francisco; hoy la inauguran</Titular>
+		<Contenido>Abrió sus puertas la Feria San Francisco, al sur de la ciudad, en donde se espera que la gente acuda a los conciertos masivos, así como a los pabellones gastronómico y cultural. El recinto estará vigilado con policía estatal y municipal para seguridad de los visitantes.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>1</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
+		<Sintesis>Abrió sus puertas la Feria San Francisco Pachuca 2026 con un dispositivo de seguridad conjunta entre la policía estatal y municipal para resguardar a los asistentes.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo, SSPH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Taxistas de Pachuca ignoran nuevas tarifas</Titular>
+		<Contenido>Conductores de taxi de la zona metropolitana de Pachuca ignoran el nuevo tarifario publicado en el Periódico Oficial del Estado de Hidalgo y continúan cobrando según su propio criterio, cobrando montos de entre 70 y 150 pesos.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>Un sondeo de El Universal Hidalgo constató que choferes de taxi en Pachuca no respetan el banderazo oficial de 45 pesos publicado en el POEH y aplican tarifas arbitrarias.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Aplican el aumento en Tizayuca aunque aún no les corresponde</Titular>
+		<Contenido>Usuarios del transporte público en Tizayuca denunciaron que taxistas locales ya cobran el banderazo de 45 pesos en trayectos cortos sin contar con la autorización de la Semot, ya que el municipio pertenece a la fase III del ajuste.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Tizayuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>Pasajeros de Tizayuca señalaron cobros indebidos de 45 y 50 pesos por parte de taxistas, a pesar de que el incremento autorizado por la Semot aún no aplica en la demarcación.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Javier Quezada</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Julio Menchaca advierte de sanciones por cobros excesivos</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar advirtió que habrá medidas enérgicas y sanciones contra los taxistas que no respeten el tarifario autorizado, recordando que la falta de seguro o cobros excesivos pueden derivar en la revocación de concesiones.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca instó a la norma tarifaria en el transporte e informó que la autoridad aplicará sanciones severas a los choferes que cobren de más.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Entregaron 760 apoyos para emprendedores</Titular>
+		<Contenido>Un total de 760 personas recibieron apoyos económicos de 25 mil pesos mediante el programa Emprendiendo Paso a Paso 2026 del IHCE; 191 beneficiarios son emprendedores de 21 municipios afectados por la vaguada monzónica del año pasado.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a emprendedores</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca encabezó la entrega de 19 mdp en apoyos directos de 25 mil pesos a 760 emprendedores del estado a través del IHCE.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, IHCE, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Carlos Pérez Quijano</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Sedentarismo cognitivo, principal riesgo de la IA en las aulas, alertan</Titular>
+		<Contenido>Durante el Encuentro Estatal para la Mejora Educativa organizado por la SEPH, la especialista Cimenna Chao Rebolledo advirtió que el uso acrítico de Inteligencia Artificial generativa provoca sustitución de la lectura y sedentarismo cognitivo en alumnos.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Regulación de dispositivos digitales</Tema_segun_la_fuente>
+		<Sintesis>Especialista de la Ibero expuso en foro de la SEPH sobre los riesgos pedagógicos y socioemocionales de ceder el juicio crítico a herramientas de inteligencia artificial.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Cimenna Chao Rebolledo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Condenan a dos secuestradores a 50 años</Titular>
+		<Contenido>La UECS de la PGJEH logró sentencia condenatoria de 50 años de prisión contra dos hombres identificados como J. C. M. F. y A. S. Z. por el secuestro agravado de un comerciante de autos en Progreso de Obregón.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Progreso</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Secuestro</Tema_segun_la_fuente>
+		<Sintesis>Tribunal dictó sentencia de 50 años de cárcel y pago de reparación de daño a dos plagiarios capturados tras rescatar a una víctima en Progreso de Obregón.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, UECS</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>En Atracciones Grupo García, 'Me late subirme a los juegos' en la feria 2026</Titular>
+		<Contenido>En el marco de su 95 aniversario, Atracciones Grupo García instaló más de 20 juegos mecánicos, promociones en la tarjeta MásXMás y acceso gratuito para personas con discapacidad en la Feria San Francisco Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
+		<Sintesis>Grupo García dio a conocer las atracciones familiares y promociones especiales disponibles durante la Feria de Pachuca 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo, Otros</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Los canes con dueño causan ocho de cada 10 agresiones</Titular>
+		<Contenido>El coordinador de Zoonosis de Tulancingo, Hugo Montiel Díaz, dio a conocer durante la sesión de Vigilancia Epidemiológica que el 80% de mordeduras registradas provienen de perros que tienen propietario pero permanecen sueltos.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vigilancia Epidemiológica</Tema_segun_la_fuente>
+		<Sintesis>Autoridades sanitarias de Tulancingo alertaron que la mayoría de los ataques caninos reportados semanalmente corresponden a mascotas con dueño descuidadas en la vía pública.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Mirely Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, IMSS, ISSSTE</Dependencias_mencionadas>
+		<Actores_mencionados>Hugo Montiel Díaz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Exigen esclarecer muerte de perros</Titular>
+		<Contenido>El Comité Delegacional de Mascotas de Huejutla informó que existen dos carpetas de investigación ante la PGJEH por el envenenamiento y muerte de siete caninos en la colonia Parque de Poblamiento.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Maltrato animal</Tema_segun_la_fuente>
+		<Sintesis>Vecinos y protectores de animales en Huejutla exigieron justicia y celeridad en las denuncias penales iniciadas tras el hallazgo de perros sin vida por presunto envenenamiento.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Francisco Bautista</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento, UAEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Programa estatal beneficia a 760 emprendedores de Hidalgo</Titular>
+		<Contenido>Un total de 760 emprendedores de 74 municipios de Hidalgo recibieron apoyos de 25 mil pesos mediante el programa Emprendiendo paso a paso 2026, con una bolsa de 20 millones de pesos. El beneficio incluyó a 191 emprendedores de 21 municipios afectados por la vaguada monzónica de 2025.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a emprendedores</Tema_segun_la_fuente>
+		<Sintesis>Un total de 760 emprendedores hidalguenses recibieron apoyos de 25 mil pesos a través del programa Emprendiendo paso a paso 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Carlos Henkel Escorza</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Reforzarán cumplimiento de tarifas de taxis durante la Feria de San Francisco Pachuca</Titular>
+		<Contenido>Tras la publicación de las nuevas tarifas para el servicio de taxi en la zona metropolitana y de las tarifas especiales con motivo de la Feria de San Francisco Pachuca 2026, el gobernador Julio Menchaca anunció una vigilancia coordinada entre Semot, SSPH y municipios para garantizar su cumplimiento.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca anunció vigilancia coordinada para vigilar el cobro justo de las tarifas de taxis durante la Feria de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Gobernador, SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Dan 50 años de prisión a dos presuntos secuestradores de Progreso</Titular>
+		<Contenido>Un tribunal de enjuiciamiento dictó fallo condenatorio de 50 años de prisión contra dos sujetos (J.C.M.F. y A.S.Z.) que simularon comprar un vehículo para secuestrar al propietario de un lote de autos en Progreso de Obregón y exigir 600 mil pesos a su familia.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Progreso</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Secuestro</Tema_segun_la_fuente>
+		<Sintesis>Sentencian a 50 años de cárcel a dos secuestradores que privaron de la libertad a un comerciante de autos en Progreso.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, TSJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Cuantifican daños en 40 mil pesos en el Parque Cultural</Titular>
+		<Contenido>El vehículo que se impactó contra diversos elementos del Parque Cultural Hidalguense, tras las fiestas patrias, dejó daños estimados en 40 mil pesos, informó el gobernador Julio Menchaca Salazar. Señaló que las afectaciones serán reparadas mediante el seguro de la unidad.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Rehabilitación de espacios públicos</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca informó que los daños causados por un vehículo en el Parque Cultural Hidalguense ascienden a 40 mil pesos y serán cubiertos por el seguro del automóvil.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Impulsan recuperación de negocios en Hidalgo</Titular>
+		<Contenido>Un total de 760 personas emprendedoras de 74 municipios recibieron 25 mil pesos cada una para impulsar o fortalecer su proyecto. Del total, 191 apoyos fueron destinados a emprendedores de 21 municipios afectados por la vaguada monzónica.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a emprendedores</Tema_segun_la_fuente>
+		<Sintesis>El gobierno del estado entregó 760 apoyos económicos de 25 mil pesos a emprendedores hidalguenses, de los cuales 191 se destinaron a afectados por la vaguada monzónica.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Carlos Henkel Escorza, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Bronco enciende el arranque de la Feria</Titular>
+		<Contenido>La Feria de San Francisco Pachuca 2026 abrió sus puertas este jueves 24 de septiembre con ambiente tranquilo y presentación estelar del grupo Bronco en el Teatro del Pueblo. La inauguración oficial se llevará a cabo este viernes con la presencia del gobernador Julio Menchaca y operativo con 60 elementos de seguridad.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
+		<Sintesis>La Feria San Francisco Pachuca 2026 inició actividades con la presentación de Bronco y despliegue de seguridad municipal, previo a la inauguración oficial a cargo del gobernador Julio Menchaca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo, Gobernador, Ayuntamiento, SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Alumnos del Mexe bloquean autopista para ejercer presión</Titular>
+		<Contenido>Estudiantes de la Escuela Normal Rural "El Mexe" tomaron por segundo día consecutivo la caseta de San Alejo sobre la autopista México-Tuxpan, permitiendo el paso vehicular a cambio de aportaciones voluntarias, para exigir diálogo con la Presidencia respecto a la investigación del homicidio de un compañero y la restitución del plantel.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Protesta estudiantil</Tema_segun_la_fuente>
+		<Sintesis>Normalistas de El Mexe tomaron la caseta de San Alejo en la autopista México-Tuxpan por segundo día consecutivo para solicitar una mesa de diálogo con el Gobierno Federal.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Sheinbaum</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Van a demoler primaria en Tulancingo; edificarán otra</Titular>
+		<Contenido>La escuela primaria Aquiles Serdán de Tulancingo presenta fallas estructurales graves por lo que deberá ser demolida y reconstruida totalmente durante el ciclo escolar 2026-2027, según confirmó el secretario de Educación Pública de Hidalgo, Natividad Castrejón. Se analizan alternativas para reubicar temporalmente a los alumnos en planteles cercanos o modalidades de educación a distancia.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>La SEPH demolerá y reconstruirá la primaria Aquiles Serdán en Tulancingo debido a daños estructurales, evaluando sedes temporales para atender al alumnado durante el ciclo 2026-2027.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Retirarán concesiones a transportistas que incumplan la ley</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar advirtió que las concesiones de los transportistas que no cumplan con la ley y el esquema tarifario serán retiradas, priorizando la seguridad e integridad de los usuarios.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca advirtió que retirará concesiones a transportistas que violen la ley o abusen de las nuevas tarifas de transporte público.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Semot, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Entregó Gobierno del Estado apoyos del programa Emprendiendo Paso a Paso 2026</Titular>
+		<Contenido>Durante la entrega simbólica de 760 apoyos del programa Emprendiendo paso a paso 2026, el gobernador Julio Menchaca refrendó el compromiso de generar bienestar en los 84 municipios, entregando 25 mil pesos a cada emprendedor.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a emprendedores</Tema_segun_la_fuente>
+		<Sintesis>El Gobierno de Hidalgo entregó estímulos de 25 mil pesos a 760 personas emprendedoras, respaldando proyectos productivos y a familias afectadas por la vaguada monzónica.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Sedeco, IHCE</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Carlos Pérez Quijano</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Otorgarán 500 becas de excelencia</Titular>
+		<Contenido>El Sistema DIF Pachuca abrió la convocatoria 2026 de la Beca Municipal a la Excelencia Académica para otorgar 500 becas a estudiantes de primarias públicas de Pachuca con promedio mínimo de 9.5.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Becas</Tema_segun_la_fuente>
+		<Sintesis>El DIF Pachuca lanzó la convocatoria para la Beca Municipal a la Excelencia Académica, beneficiando a 500 alumnos de primaria pública con alto desempeño escolar.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Por un secuestro, dos hombres pasarán 50 años en la prisión</Titular>
+		<Contenido>La UECS de la PGJEH obtuvo sentencia de 50 años de prisión contra dos imputados por secuestro agravado en Progreso de Obregón tras fingir interés en comprar un vehículo en 2024.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Municipio>Progreso</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Secuestro</Tema_segun_la_fuente>
+		<Sintesis>Tribunal dictó condena de 50 años de cárcel a dos secuestradores procesados por la UECS tras privar de la libertad a un comerciante en Progreso de Obregón.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, UECS</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Se vigilará que taxis respeten las nuevas tarifas: Gobernador</Titular>
+		<Contenido>El gobernador de Hidalgo, Julio Menchaca Salazar, aseguró que habrá revisiones coordinadas entre la Semot, la SSPH y los ayuntamientos para evitar cobros no permitidos en el servicio de taxi tras el ajuste tarifario en Pachuca y Mineral de la Reforma.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca advirtió sanciones y retiro de concesiones a taxistas que realicen cobros excesivos fuera del tarifario oficial de 45 pesos por los primeros 4 km.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Semot, SSPH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Lyzbeth Robles</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Repararán los daños en el Parque Cultural Hidalguense, aseguran</Titular>
+		<Contenido>El responsable de los daños al Parque Cultural Hidalguense Ben Gurión pagó 40 mil pesos y se repararán los desperfectos, confirmó el gobernador Julio Menchaca. Explicó que se trató de un menor de edad que confundió el freno con el acelerador.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Rehabilitación de espacios públicos</Tema_segun_la_fuente>
+		<Sintesis>Un menor de edad responsable de causar destrozos vehiculares en áreas verdes del Parque Ben Gurión cubrió 40 mil pesos para reparar las afectaciones.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Estacionamiento de la feria cuesta $150</Titular>
+		<Contenido>El estacionamiento oficial de la Feria San Francisco Pachuca Hidalgo 2026 tendrá una cuota única de 150 pesos por vehículo por tiempo libre, tarifa que también aplicará en el espacio habilitado en la Plaza de Toros Vicente Segura.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Tarifario Feria Pachuca</Tema_segun_la_fuente>
+		<Sintesis>Autoridades fijaron en 150 pesos el cobro por tiempo libre en el estacionamiento oficial del recinto ferial y la Plaza de Toros durante la Feria de Pachuca 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Jorge Reyes Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Naranja subsiste entre plagas y bajos precios</Titular>
+		<Contenido>Productores citrícolas de la Huasteca hidalguense enfrentan afectaciones del 30% por la plaga del dragón amarillo (HLB) y sequías, aunado a variaciones de precios en el mercado regional.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Control de plagas</Tema_segun_la_fuente>
+		<Sintesis>La producción de más de 5 mil hectáreas de naranja en la Huasteca hidalguense enfrenta severas pérdidas por el dragón amarillo y sequía.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh</Dependencias_mencionadas>
+		<Actores_mencionados>Antíoco Aquino Leyva, Napoleón González</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Supervisarán la calidad y peso del cacao y azúcar destinados al Xantolo</Titular>
+		<Contenido>La Contraloría de Hidalgo inspeccionará el almacenamiento y distribución de 135 mil paquetes de cacao y azúcar en 22 municipios de la Huasteca para las festividades del Xantolo.</Contenido>
+		<Fecha_de_publicacion>2026-09-25</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Entrega De Cacao</Tema_segun_la_fuente>
+		<Sintesis>Inspectores estatales verificarán que los paquetes de cacao y azúcar para el Xantolo cumplan con el peso exacto de un kilo antes de entregarse a las familias.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Contraloría</Dependencia>
+		<Dependencias_mencionadas>Contraloría, Bienestar</Dependencias_mencionadas>
+		<Actores_mencionados>Briseyda Torres</Actores_mencionados>
+	</Nota>
+</NotasRadio>
