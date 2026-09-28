@@ -2,6 +2,1252 @@
 <NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Nota>
 		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Vuelca unidad operativa del Tuzobús</Titular>
+		<Contenido>Una camioneta asignada a la Unidad de Vigilancia Operativa del Sistema de Transporte Metropolitano protagonizó un percance sobre el bulevar Felipe Ángeles, a la altura de la estación Vicente Segura. El vehículo terminó volcado sobre el camellón tras salir de su trayectoria por una supuesta falla mecánica. Los dos ocupantes resultaron ilesos.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>1</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente de vehículo oficial</Tema_segun_la_fuente>
+		<Sintesis>Una camioneta de la Unidad de Vigilancia Operativa del Tuzobús volcó en el bulevar Felipe Ángeles por una falla mecánica, sin dejar personas lesionadas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Sitmah</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Supervisarán a diario juegos mecánicos en la Feria de Pachuca</Titular>
+		<Contenido>Los 40 juegos mecánicos instalados en la Feria San Francisco Pachuca Hidalgo 2026 deberán contar con un dictamen favorable de Protección Civil y serán inspeccionados diariamente antes de recibir visitantes, como parte de las medidas preventivas para reducir riesgos durante los 25 días de actividades.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil realizará inspecciones diarias a los 40 juegos mecánicos de la Feria de Pachuca para garantizar la seguridad de los asistentes.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PC, Turismo</Dependencias_mencionadas>
+		<Actores_mencionados>Román Bernal Díaz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Firma italiana arranca construcción de planta en Hidalgo</Titular>
+		<Contenido>La empresa italiana Hi-Ref S.p.A. inició la construcción de su nueva planta en Villa de Tezontepec, proyecto que representa su primera instalación productiva en México y fuera de Italia, con una inversión de 200 millones de pesos y la generación de 320 empleos directos e indirectos para fabricar sistemas de climatización de precisión.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Villa de Tezontepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>Hi-Ref S.p.A. colocó la primera piedra de su planta en Villa de Tezontepec con una inversión de 200 mdp para la producción de sistemas de refrigeración de centros de datos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Carlos Henkel Escorza, Julio Menchaca Salazar, Alberto Salmistraro, Fabio Poletto, Alejandra Castellanos García, Lorenzo Vianello</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Trabajadores del volante exigen modificar tarifas</Titular>
+		<Contenido>Taxistas independientes de Pachuca y Mineral de la Reforma pidieron participar en la definición de las tarifas de transporte y propusieron establecer un cobro mínimo de 50 pesos. Cuestionaron que la Semoth tomara decisiones sin consultar al gremio.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>Taxistas independientes de la zona metropolitana de Pachuca solicitaron ser consultados para fijar el tarifario de transporte y plantearon un cobro mínimo de 50 pesos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Leonardo Cruz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Descarta el Secretario de Gobierno conflicto religioso en Huasteca</Titular>
+		<Contenido>El secretario de Gobierno de Hidalgo, Guillermo Olivares Reyna, descartó que exista un conflicto religioso en la Huasteca tras el asesinato del sacerdote Román de la Cruz Hernández en Lolotla, e informó que la PGJEH mantiene estrecha comunicación con la Diócesis de Huejutla para esclarecer el crimen.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Lolotla</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Exigen esclarecer homicidio</Tema_segun_la_fuente>
+		<Sintesis>Guillermo Olivares Reyna rechazó tensiones religiosas en la Huasteca tras el homicidio del párroco Román de la Cruz y afirmó avances en la investigación de la PGJEH.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna, Román de la Cruz Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Van a demoler primaria en Tulancingo; edificarán otra</Titular>
+		<Contenido>La escuela primaria Aquiles Serdán de Tulancingo presenta fallas estructurales graves por lo que será demolida y reconstruida totalmente durante el ciclo escolar 2026-2027. El titular de la SEPH, Natividad Castrejón, indicó que se buscan opciones temporales para impartir clases presenciales o virtuales.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>La SEPH demolerá y reconstruirá la primaria Aquiles Serdán en Tulancingo por daños en su infraestructura, evaluando la reubicación temporal del alumnado.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Rectores de Hidalgo, entre la academia y la función pública</Titular>
+		<Contenido>Análisis sobre el perfil profesional de los rectores de instituciones de educación superior en Hidalgo, quienes se dividen entre trayectorias académicas y cargos públicos.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Perfil académico</Tema_segun_la_fuente>
+		<Sintesis>Reportaje que analiza las trayectorias de los rectores de las universidades e institutos politécnicos de la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Brenda Flores, Pablo Elías Vargas González</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Taxistas piden que banderazo sea de 50 pesos</Titular>
+		<Contenido>Choferes de taxi en Pachuca manifiestan su inconformidad con la tarifa fijada por la Semot y solicitan que el banderazo inicial sea de 50 pesos debido al tráfico y costos.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>Operadores de taxi solicitan un ajuste al banderazo tarifario a 50 pesos para compensar tiempos perdidos en el tráfico y gastos de operación.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>En ocho meses, 461 asaltos en Pachuca</Titular>
+		<Contenido>Entre enero y agosto de 2026, Pachuca acumuló 461 asaltos en negocios, transporte público y transeúntes, promediando casi dos casos diarios según el SESNSP.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>Cifras del SESNSP revelan 461 asaltos en Pachuca en los primeros ocho meses del año, siendo los comercios los más afectados con 290 denuncias.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Luis Godínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Presidencia, SESNSP</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>La violación a la intimidad sexual subió 32 por ciento</Titular>
+		<Contenido>Las denuncias por violación a la intimidad sexual en Hidalgo incrementaron un 32% durante agosto, acumulando 33 carpetas de investigación ante la PGJEH.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Violencia digital</Tema_segun_la_fuente>
+		<Sintesis>Las denuncias por delitos contra la intimidad sexual crecieron 32 por ciento en agosto en Hidalgo, encabezando Pachuca las querellas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SESNSP</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Dicen no a incremento en taxis de Atotonilco</Titular>
+		<Contenido>Taxistas de Atotonilco el Grande señalaron la dificultad de socializar y aplicar el aumento del 20% a la tarifa del pasaje entre la población local.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Atotonilco el Grande</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>Operadores de taxi de Atotonilco expresan complicaciones para aplicar la nueva tarifa autorizada por el rechazo de los usuarios.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Martha Sáenz</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Demanda colectivo revisar el caso de Martínez Cervantes</Titular>
+		<Contenido>Integrantes del Movimiento No al Basurero exigieron durante el desfile de Atitalaquia revisar la situación jurídica del activista Óscar Martínez.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Atitalaquia</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Derechos humanos</Tema_segun_la_fuente>
+		<Sintesis>Manifestantes solicitaron respeto al debido proceso y presunción de inocencia para el activista Óscar Martínez Cervantes detenido recientemente.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Magda Olguín</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Óscar Martínez Cervantes, Rodrigo Ángeles</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Taxistas de Pachuca piden tarifa mínima de 50 pesos</Titular>
+		<Contenido>Un grupo de taxistas independientes de Pachuca solicitaron que la tarifa mínima del servicio sea de 50 pesos, en lugar de los 45 pesos establecidos por la Semot, al considerar el tráfico y costos operativos.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>Conductores independientes de taxi en Pachuca pidieron valorar distancias y tiempos de recorrido para fijar un cobro mínimo de 50 pesos frente al nuevo tarifario estatal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Semarnath acopiará baterías en la Unidad Deportiva de Pachuca</Titular>
+		<Contenido>La Semarnath realizará el próximo viernes 2 de octubre una jornada de acopio de pilas usadas y reforestación en la Unidad Deportiva Municipal de Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Protección ambiental</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Medio Ambiente estatal recolectará baterías en desuso y promoverá la plantación de árboles en la Unidad Deportiva de Pachuca el 2 de octubre.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Mónica Patricia Mixtega Trejo, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Acercan servicios de salud a 9 municipios</Titular>
+		<Contenido>La Secretaría de Salud de Hidalgo informó que las brigadas médicas han acercado más de 28 mil 200 acciones de salud gratuitas en nueve municipios de la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Acaxochitlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Jornada de salud</Tema_segun_la_fuente>
+		<Sintesis>La SSH desplegó jornadas médicas itinerantes en nueve municipios hidalguenses, ofreciendo consultas de especialidad, pruebas diagnósticas y apoyos funcionales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Aumentan lesiones y corrupción de menores contra mujeres en Hidalgo</Titular>
+		<Contenido>En ocho meses, en Hidalgo incrementó la incidencia en los delitos de lesiones dolosas, culposas y corrupción de menores contra mujeres, reveló el reporte mensual del SESNSP.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>Cifras del SESNSP ubican a Hidalgo entre los estados con mayor repunte en lesiones y corrupción de menores contra mujeres de enero a agosto de 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Inició construcción de una planta de Hi-Ref, en Villa de Tezontepec</Titular>
+		<Contenido>Sedeco encabezó la colocación de la primera piedra de la planta italiana Hi-Ref en Villa de Tezontepec, con una inversión de 200 millones de pesos y 320 empleos.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Villa de Tezontepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>Inició la edificación de la primera planta de la empresa Hi-Ref en México, especializada en climatización de centros de datos en Villa de Tezontepec.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Carlos Henkel Escorza</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>En Atracciones Grupo García, "Me late subirme a los juegos"</Titular>
+		<Contenido>Atracciones Grupo García llega a la Feria San Francisco Pachuca 2026 con más de 20 atracciones mecánicas, tarjetas con saldo extra y acceso gratuito para personas con discapacidad.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
+		<Sintesis>Grupo García ofrece promociones e instalaciones accesibles para personas con discapacidad durante la Feria San Francisco Pachuca 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Incautaron 20 mil litros de hidrocarburo</Titular>
+		<Contenido>La SSPH desmanteló un predio utilizado para almacenar combustible ilegal en la localidad Santiago Tlapacoya de Pachuca, hallando 20 mil 900 litros de hidrocarburo.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Huachicol</Tema_segun_la_fuente>
+		<Sintesis>Operativo coordinado entre SSPH, PGJEH y Sedena permitió el aseguramiento de más de 20 mil litros de huachicol y contenedores en Santiago Tlapacoya.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Sedena</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>PIBEH firmó un convenio para dar educación a elementos</Titular>
+		<Contenido>La Policía Industrial Bancaria del Estado de Hidalgo firmó un convenio de colaboración con la Universidad CNCI para ofrecer licenciaturas y maestrías en línea a sus elementos.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Capacitación policial</Tema_segun_la_fuente>
+		<Sintesis>La PIBEH y la Universidad CNCI acordaron esquemas de profesionalización académica en línea para el personal policial y sus familias.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Martínez Gómez, Benjamín Arcos Hughes, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Gobernador inaugura la Feria de San Francisco 2026</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar cortó el listón inaugural de la Feria de San Francisco Pachuca Hidalgo 2026 y develó la placa tras la remodelación del Pabellón Artesanal, que contó con una inversión superior a 6 mdp y reúne a artesanos de 53 municipios.</Contenido>
+		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria de San Francisco</Tema_segun_la_fuente>
+		<Sintesis>Julio Menchaca puso en marcha la Feria de San Francisco Pachuca 2026 e inauguró las obras de rehabilitación del Pabellón Artesanal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>30</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Turismo, Bienestar, DIFH, OEEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Edda Vite Ramos, Rebeca Aladro Echeverría, Ricardo Gómez Moreno, Marco Antonio Aranzábal Juárez, Elizabeth Quintanar Gómez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Semot realiza operativos para supervisar a choferes</Titular>
+		<Contenido>La Semot inició operativos de vigilancia y supervisión en Pachuca y Mineral de la Reforma para verificar el cumplimiento del tarifario de transporte individual publicado el 23 de septiembre y las condiciones de las unidades.</Contenido>
+		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Tarifario de taxis</Tema_segun_la_fuente>
+		<Sintesis>Inspectoría del transporte supervisa la aplicación del tarifario actualizado y el estado de las unidades de taxi en la zona metropolitana de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, STCH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Crece uso de notarías entre personas de 30 a 40 años</Titular>
+		<Contenido>Pedro Luis Noble Monterrubio, presidente del Colegio de Notarios de Hidalgo, informó que hasta el 40% de los trámites testamentarios en septiembre son realizados por personas de entre 30 y 40 años, rompiendo tabúes en la planeación patrimonial.</Contenido>
+		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Trámites notariales</Tema_segun_la_fuente>
+		<Sintesis>Jóvenes de 30 a 40 años representan ya el 40% de las personas que tramitan su testamento durante el mes de septiembre en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Colegio de Notarios de Hidalgo</Dependencias_mencionadas>
+		<Actores_mencionados>Pedro Luis Noble Monterrubio</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Sedeco busca incrementar hasta 15% becas de estancias productivas</Titular>
+		<Contenido>Horacio Ríos Cano, subsecretario de Fomento Económico, señaló que la Sedeco pretende elevar entre 10 y 15% las becas de los programas Transformando con la Juventud y Tu Experiencia Transforma para el paquete fiscal 2027.</Contenido>
+		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Programa de empleo</Tema_segun_la_fuente>
+		<Sintesis>La Sedeco solicitará un aumento presupuestal para ampliar la cobertura de sus programas de becas productivas para jóvenes y adultos mayores.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, Hacienda, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Horacio Ríos Cano</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Gobierno federal destina más de 40 mdp para CBTis de Tizayuca</Titular>
+		<Contenido>Se publicó en el DOF el convenio para la ampliación y equipamiento del CBTis número 293 en Tizayuca por un monto de 40.9 millones de pesos provenientes del programa FAM Potenciado.</Contenido>
+		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tizayuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Infraestructura educativa</Tema_segun_la_fuente>
+		<Sintesis>El DOF publicó el convenio por 40.9 mdp para las obras de ampliación y equipamiento integral del plantel CBTis 293 en Tizayuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, SEP, Inhife, SICT, Inifed</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Sheinbaum</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Invitan desde Puebla al próximo Festival Internacional del Paste</Titular>
+		<Contenido>El Consejo Regulador del Patrimonio Cultural de Real del Monte presentó en Puebla la edición 18º del Festival Internacional del Paste, que se celebrará del 9 al 11 de octubre con la elaboración del paste más grande del país (250 kg).</Contenido>
+		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Mineral del Monte</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Festival Gastronómico</Tema_segun_la_fuente>
+		<Sintesis>Real del Monte promocionó la edición 18º del Festival Internacional del Paste en Puebla, destacando las actividades culturales del 9 al 11 de octubre.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo, Corepac</Dependencias_mencionadas>
+		<Actores_mencionados>Rosa María Durán Mejía</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>De la mano de su abuelo nació el amor de Raúl Guerrero por el pulque</Titular>
+		<Contenido>Perfil sobre Raúl Guerrero Bustamante, fundador de "El Beso de Mayahuel" en Huasca de Ocampo y promotor de la cultura del maguey y el pulque a través del Congreso Nacional del Maguey y el Pulque.</Contenido>
+		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Huasca de Ocampo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Reportaje</Genero_periodistico>
+		<Tema_segun_la_fuente>Perfil</Tema_segun_la_fuente>
+		<Sintesis>Semblanza sobre la trayectoria de Raúl Guerrero en la divulgación de la cultura pulquera y la creación del concepto de neopulquería en Huasca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>40</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Raúl Guerrero Bustamante</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Guitarra, voz y nuevas canciones: Erich y Daniel Quien llegan a Pachuca</Titular>
+		<Contenido>Los cantautores Erich y Daniel Quien se presentan este domingo 27 de septiembre en "Entre Caníbales" en Pachuca dentro de su gira acústica en la que interpretan sus nuevos temas.</Contenido>
+		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Evento cultural</Tema_segun_la_fuente>
+		<Sintesis>Erich y Daniel Quien traen su gira acústica e íntima a Pachuca con presentaciones este domingo en el foro Entre Caníbales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>30</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>América Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Erich, Daniel Quien</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Recomendaciones Literarias</Titular>
+		<Contenido>En el marco del Día Internacional de la Traducción se recomiendan tres de las obras literarias más traducidas en el mundo: El Principito de Antoine de Saint-Exupéry, Testamento de Taras Shevchenko y Las aventuras de Pinocho de Carlo Collodi.</Contenido>
+		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Literatura</Tema_segun_la_fuente>
+		<Sintesis>Recomendación de las tres obras literarias más traducidas a nivel mundial en el marco del Día Internacional de la Traducción.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Antoine de Saint-Exupéry, Taras Shevchenko, Carlo Collodi</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Paran obras de ampliación de la vía México-Tuxpan</Titular>
+		<Contenido>Ejidatarios de la localidad de Mimila detuvieron las obras de ampliación a cuatro carriles de la carretera México-Tuxpan a la altura del km 89.9 (tramo Pitula-San Alejo) exigiendo indemnización justa por la afectación a sus tierras agrarias.</Contenido>
+		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Manifestaciones</Tema_segun_la_fuente>
+		<Sintesis>Ejidatarios de Mimila frenaron la maquinaria de los trabajos de ampliación de la México-Tuxpan en demanda del pago de indemnizaciones por sus predios.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SICT</Dependencia>
+		<Dependencias_mencionadas>SICT, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Lorena García Cázares</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Reconocen expansión aérea de Mexicana en el AIFA</Titular>
+		<Contenido>La secretaria de Turismo de Hidalgo, Elizabeth Quintanar Gómez, asistió al Aeropuerto Internacional Felipe Ángeles (AIFA) para la incorporación de la décima aeronave Embraer 190-E2 a la flota de Mexicana. La funcionaria señaló que este hecho fortalece la conectividad aérea y abre oportunidades para el turismo regional.</Contenido>
+		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
+		<Liga>1</Liga>
+		<Municipio>Zumpango</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Conectividad Aérea</Tema_segun_la_fuente>
+		<Sintesis>La secretaria de Turismo de Hidalgo asistió a la incorporación de la décima aeronave Embraer de Mexicana en el AIFA, destacando el fortalecimiento de la conectividad y el turismo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>30</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo, Mexicana de Aviación, AIFA</Dependencias_mencionadas>
+		<Actores_mencionados>Elizabeth Quintanar Gómez, Julio Menchaca Salazar, Leobardo Ávila Bojórquez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Incrementa en hasta 20% valor de predios en la ZMP</Titular>
+		<Contenido>En el último año, el incremento en el valor por metro cuadrado de los predios en la zona metropolitana de Pachuca alcanzó porcentajes de hasta 20%, siendo las colonias con mayor alza San Cayetano y Mineral del Monte sobre el Corredor de la Montaña, de acuerdo con la séptima edición de la Guía Inmobiliaria de Coparmex.</Contenido>
+		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Sector Inmobiliario</Tema_segun_la_fuente>
+		<Sintesis>La séptima Guía Inmobiliaria de Coparmex reportó un incremento de hasta 20% en el valor por metro cuadrado de predios en la zona metropolitana de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Coparmex, Colegio de Valuadores Multidisciplinarios de Hidalgo</Dependencias_mencionadas>
+		<Actores_mencionados>Rodrigo Canseco Puente</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Hidalgo baja tasa de fecundidad entre niñas y adolescentes</Titular>
+		<Contenido>El Consejo Estatal de Población informó que Hidalgo ocupa el segundo lugar nacional en la reducción de tasas de fecundidad en menores de 10 a 14 años (-24%), y una disminución del 36% en el grupo de 15 a 19 años entre 2018 y 2023, como resultado de la Estrategia Hidalguense para la Prevención del Embarazo en Adolescentes (EHPEA).</Contenido>
+		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención de embarazo adolescente</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo se colocó en segundo lugar nacional en reducción de fecundidad adolescente en el rango de 10 a 14 años, registrando también una baja del 36% en jóvenes de 15 a 19 años.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Coespo</Dependencia>
+		<Dependencias_mencionadas>Coespo, GEPEA, SSH, SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Solo una empresa interesada en adecuar antiguo Palacio para la Escuela de Música</Titular>
+		<Contenido>La empresa RSK Edificación Especializada S.A. de C.V. presentó la única propuesta económica por 20 millones 590 mil 282 pesos en la licitación EO-SIPDUS-N129-2026 convocada por Sipdus para la adecuación del antiguo Palacio de Gobierno como nueva sede de la Escuela de Música del Estado de Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Licitaciones</Tema_segun_la_fuente>
+		<Sintesis>Con una oferta superior a los 20 mdp, RSK Edificación Especializada fue la única empresa participante en el concurso para remodelar el antiguo Palacio de Gobierno en Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, SEPH, EMEH</Dependencias_mencionadas>
+		<Actores_mencionados>Daniel Fragoso Torres</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Disminuyen los casos activos de gusano barrenador del ganado</Titular>
+		<Contenido>Los casos activos de gusano barrenador del ganado en Hidalgo disminuyeron de 97 a 30 al corte del 26 de septiembre. La entidad acumula 1,376 casos en 2026, concentrándose la mayor incidencia actual en Acatlán, Atotonilco el Grande y San Salvador.</Contenido>
+		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Sanidad Animal</Tema_segun_la_fuente>
+		<Sintesis>Reporte de Sader y Senasica revela una caída de 97 a 30 casos activos de gusano barrenador en ganado hidalguense.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Sader, Senasica</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>El Enmascarado de Plata: 109 años del nacimiento de una leyenda</Titular>
+		<Contenido>Reseña conmemorativa por los 109 años del nacimiento de Rodolfo Guzmán Huerta, El Santo, nacido el 23 de septiembre de 1917 en Tulancingo, recordando su trayectoria icónica en la lucha libre y el cine mexicano.</Contenido>
+		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Reportaje</Genero_periodistico>
+		<Tema_segun_la_fuente>Efeméride / Lucha Libre</Tema_segun_la_fuente>
+		<Sintesis>Homenaje a la leyenda de la lucha libre Rodolfo Guzmán Huerta "El Santo" al cumplirse 109 años de su natalicio en Tulancingo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>40</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Benjamín H. V.</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Rodolfo Guzmán Huerta, Jesús Lomelí, Black Shadow, Espanto I, Murciélago Velázquez, Bobby Bonales, Perro Aguayo, José G. Cruz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Tulancingo abre diálogo comunitario con Congreso Conexiones Culturales</Titular>
+		<Contenido>El Foro TAC en Tulancingo será sede el 3 de octubre de la jornada del 2º Congreso Internacional "Conexiones Culturales", que del 1 al 11 de octubre reunirá a más de 100 agentes culturales de Hidalgo, México y 10 países para abordar la gestión, activación comunitaria y formación de públicos.</Contenido>
+		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Evento Cultural</Tema_segun_la_fuente>
+		<Sintesis>Tulancingo albergará una de las sedes principales del 2º Congreso Internacional Conexiones Culturales para reflexionar sobre la gestión comunitaria y el desarrollo de recintos culturales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>30</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Baillet</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Emprendedores Culturales e Industrias Creativas A.C., Cultivarte Patrimonio Vivo A.C.</Dependencias_mencionadas>
+		<Actores_mencionados>Miguel Ángel Osorio Hernández, Tania Galindo, Gisela Gutiérrez, Beatrice Valdés, Miguel Ángel Servín Trujillo, Daniel Rivera, Isaac Ortega</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Crecen fallecimientos por covid-19; suman 16 casos</Titular>
+		<Contenido>Los reportes de la Secretaría de Salud federal muestran que entre la semana 36 y la semana 37 las defunciones acumuladas por covid-19 en Hidalgo pasaron de 15 a 16, mientras que los casos confirmados subieron de 179 a 183 con un porcentaje de positividad del 4.5%.</Contenido>
+		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
+		<Liga>20</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Covid 19</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo acumuló 16 decesos y 183 casos confirmados de covid-19 en el último reporte epidemiológico federal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>Secretaría de Salud federal, SSH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Empresa italiana invierte $200 millones para abrir planta en Hidalgo</Titular>
+		<Contenido>La empresa italiana Hi-Ref S.p.A. inició la construcción de su primera planta fuera de Italia en Villa de Tezontepec con una inversión de 200 millones de pesos y la generación de 320 nuevos empleos, especializada en climatización de precisión para centros de datos e inteligencia artificial.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Villa de Tezontepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inversión privada</Tema_segun_la_fuente>
+		<Sintesis>Hi-Ref S.p.A. colocó la primera piedra de su planta de sistemas de climatización en Villa de Tezontepec, invirtiendo 200 mdp y creando 320 empleos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, Embajada de Italia, Cámara de Comercio Italiana</Dependencias_mencionadas>
+		<Actores_mencionados>Carlos Henkel Escorza, Alberto Salmistraro, Fabio Poletto, Alejandra Castellanos García, Valentina Valente, Lorenzo Vianello</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Taxistas de Pachuca piden elevar a 50 pesos la tarifa mínima</Titular>
+		<Contenido>Operadores de taxi independientes en Pachuca manifestaron su inconformidad con el ajuste tarifario a 45 pesos e insistieron en que el cobro mínimo debe subir a 50 pesos debido a altos costos de gasolina, cuotas de alquiler y tiempos perdidos en el tráfico.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Tarifario de taxis</Tema_segun_la_fuente>
+		<Sintesis>Chóferes de taxi independientes señalan que el ajuste tarifario a 45 pesos es insuficiente y solicitan fijar en 50 pesos la tarifa mínima de arranque.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, STCH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Localizan vivas a 5 adolescentes reportadas como desaparecidas</Titular>
+		<Contenido>La Comisión de Búsqueda de Personas del Estado de Hidalgo logró la localización con vida de cinco adolescentes reportadas como desaparecidas en los últimos cuatro días, en acciones coordinadas con la Ciudad de México y el Estado de México.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Búsqueda de personas</Tema_segun_la_fuente>
+		<Sintesis>Tras operativos interinstitucionales, la CBPEH ubicó sanas y salvas a cinco menores reportadas como ausentes voluntarias por conflictos familiares.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>CBPEH, C5i</Dependencias_mencionadas>
+		<Actores_mencionados>José Francisco García Reyes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Escolaridad logra alcanzar los 10 años en promedio</Titular>
+		<Contenido>De acuerdo con los indicadores del Segundo Informe de Gobierno, la población hidalguense de 15 años y más alcanzó una escolaridad promedio de 10 años, lo que garantiza que concluyen la educación básica e ingresan al nivel medio superior.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Nivel educativo</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo eleva el promedio de escolaridad de su población a 10 años de estudio, ubicándose en el primer año de preparatoria o bachillerato.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Gobierno de Hidalgo</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Fuera de control, plaga de mosco Culex en la presa Endhó</Titular>
+		<Contenido>Ana Elsa Castillo Sea, alcaldesa de Tepetitlán, denunció que la plaga del mosco Culex volvió a salirse de control debido a que el lirio acuático cubre entre 85% y 90% de la presa Endhó y Conagua no ha enviado las máquinas cosechadoras prometidas.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Tepetitlán</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Problema ambiental</Tema_segun_la_fuente>
+		<Sintesis>La presidenta municipal de Tepetitlán advierte la presencia masiva de mosco Culex y retrasos en la llegada de barcos cosechadores de Conagua para retirar el lirio de la presa Endhó.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Joselyn Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Conagua, Semarnath, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Ana Elsa Castillo Sea, Mayela Godínez Alarcón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Azares de vuelta: la memoria hecha poema</Titular>
+		<Contenido>Reseña del libro "Azares de vuelta" de la poeta Dulce María Sardiñas Izaguirre, poemario que reúne vivencias, duelos, recuerdos de juventud y reflexiones autobiográficas escritas entre 1987 y 1990.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Reportaje</Genero_periodistico>
+		<Tema_segun_la_fuente>Reseña literaria</Tema_segun_la_fuente>
+		<Sintesis>La autora Dulce María Sardiñas comparte la bitácora emocional que compone su poemario autobiográfico Azares de vuelta.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>40</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Angélica Ruiz</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Dulce María Sardiñas Izaguirre</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Quintanar prevé alza en turismo debido a la feria</Titular>
+		<Contenido>Elizabeth Quintanar Gómez, secretaria de Turismo estatal, destacó que la Feria de San Francisco Pachuca 2026 impulsará la ocupación hotelera en la capital y municipios vecinos como Mineral de la Reforma, Mineral del Monte y Mineral del Chico.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>20</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afluencia Turística</Tema_segun_la_fuente>
+		<Sintesis>Turismo estatal proyecta alta demanda en hospedaje en el Corredor de la Montaña y Pachuca con motivo de la cartelera de espectáculos de la feria anual.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo, OEEH</Dependencias_mencionadas>
+		<Actores_mencionados>Elizabeth Quintanar Gómez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
 		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
 		<Usuario>Magda Acuña</Usuario>
 		<Titular>Saquean en el estado 2.5 toneladas de cactáceas con carácter de protección</Titular>
@@ -135,600 +1381,6 @@
 		<Tipo_de_autor>Redacción</Tipo_de_autor>
 		<Dependencia>PGJEH</Dependencia>
 		<Dependencias_mencionadas>PGJEH, FGR</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
-		<Usuario>Magda Acuña</Usuario>
-		<Titular>Inauguran la Feria San Francisco Pachuca Hidalgo 2026</Titular>
-		<Contenido>Autoridades estatales inauguraron formalmente la Feria San Francisco Pachuca Hidalgo 2026 con diversas atracciones y pabellones.</Contenido>
-		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
-		<Liga>3</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>10000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
-		<Sintesis>Autoridades estatales inauguraron formalmente la Feria San Francisco Pachuca Hidalgo 2026 con diversas atracciones y pabellones.</Sintesis>
-		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>24</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Adela Garmez</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Turismo</Dependencia>
-		<Dependencias_mencionadas>Turismo</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
-		<Usuario>Magda Acuña</Usuario>
-		<Titular>Inicia el registro para el programa Pensión Mujeres Bienestar</Titular>
-		<Contenido>Arrancó el registro para la Pensión Mujeres Bienestar en la entidad para beneficiar a adultas mayores de 60 a 64 años.</Contenido>
-		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
-		<Liga>3</Liga>
-		<Municipio>Hidalgo</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>10000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Pensión Mujeres Bienestar</Tema_segun_la_fuente>
-		<Sintesis>Arrancó el registro para la Pensión Mujeres Bienestar en la entidad para beneficiar a adultas mayores de 60 a 64 años.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>16</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Socorro Ávila</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Bienestar</Dependencia>
-		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
-		<Usuario>Magda Acuña</Usuario>
-		<Titular>Sancionarán a taxis que no respeten tarifario en la Feria</Titular>
-		<Contenido>La Semot advirtió que aplicará sanciones strictly a choferes de taxi que cobren de más durante las festividades feriales.</Contenido>
-		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
-		<Liga>4</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>10000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
-		<Sintesis>La Semot advirtió que aplicará sanciones strictly a choferes de taxi que cobren de más durante las festividades feriales.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Adela Garmez</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Semot</Dependencia>
-		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
-		<Usuario>Magda Acuña</Usuario>
-		<Titular>Atienden deslaves en la región Otomí-Tepehua tras lluvias</Titular>
-		<Contenido>Cuadrillas de protección civil y obras públicas remueven escombros por deslaves causados por lluvias en la sierra Otomí-Tepehua.</Contenido>
-		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
-		<Liga>4</Liga>
-		<Municipio>Tenango de Doria</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>10000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Deslaves por lluvias</Tema_segun_la_fuente>
-		<Sintesis>Cuadrillas de protección civil y obras públicas remueven escombros por deslaves causados por lluvias en la sierra Otomí-Tepehua.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>16</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Nathali González</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Segobh</Dependencia>
-		<Dependencias_mencionadas>Segobh</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
-		<Usuario>Magda Acuña</Usuario>
-		<Titular>Aseguran huachitúnel con conexión a toma clandestina en Atitalaquia</Titular>
-		<Contenido>Fuerzas de seguridad localizaron e inhabilitaron un huachitúnel conectado a ductos de Pemex en Atitalaquia.</Contenido>
-		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
-		<Liga>17</Liga>
-		<Municipio>Atitalaquia</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>10000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Huachitúnel</Tema_segun_la_fuente>
-		<Sintesis>Fuerzas de seguridad localizaron e inhabilitaron un huachitúnel conectado a ductos de Pemex en Atitalaquia.</Sintesis>
-		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>24</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Dulce Castillo</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Segobh</Dependencia>
-		<Dependencias_mencionadas>Segobh</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
-		<Usuario>Magda Acuña</Usuario>
-		<Titular>Hidalgo participará en el Encuentro Nacional de Arte y Cultura 2026</Titular>
-		<Contenido>Delegación cultural de Hidalgo representará al estado en el Encuentro Nacional de Arte y Cultura 2026.</Contenido>
-		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
-		<Liga>19</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>10000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Exposición cultural</Tema_segun_la_fuente>
-		<Sintesis>Delegación cultural de Hidalgo representará al estado en el Encuentro Nacional de Arte y Cultura 2026.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>16</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Redacción</Autor>
-		<Tipo_de_autor>Redacción</Tipo_de_autor>
-		<Dependencia>Cultura</Dependencia>
-		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
-		<Usuario>Magda Acuña</Usuario>
-		<Titular>Reportan saldo blanco en primeras horas del operativo de la Feria</Titular>
-		<Contenido>La Secretaría de Seguridad Pública de Hidalgo reportó saldo blanco en el inicio del despliegue operativo en el recinto ferial.</Contenido>
-		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
-		<Liga>20</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>10000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Operativo de Seguridad</Tema_segun_la_fuente>
-		<Sintesis>La Secretaría de Seguridad Pública de Hidalgo reportó saldo blanco en el inicio del despliegue operativo en el recinto ferial.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Dulce Castillo</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>SSPH</Dependencia>
-		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Inauguran la Feria San Francisco Pachuca Hidalgo 2026</Titular>
-		<Contenido>Autoridades estatales e inauguraron oficialmente la Feria San Francisco Pachuca Hidalgo 2026 con un amplio programa de actividades culturales, comerciales y de entretenimiento para toda la familia.</Contenido>
-		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
-		<Liga>2</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>15000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
-		<Sintesis>Autoridades estatales e inauguraron oficialmente la Feria San Francisco Pachuca Hidalgo 2026 con actividades culturales y de entretenimiento.</Sintesis>
-		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Veida Martínez Miranda</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Turismo</Dependencia>
-		<Dependencias_mencionadas>Turismo</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Inicia el registro para el programa Pensión Mujeres Bienestar en Hidalgo</Titular>
-		<Contenido>Arrancó en la entidad el registro de beneficiarias para el programa federal Pensión Mujeres Bienestar, destinado a otorgar apoyos económicos directos a adultas mayores de 60 a 64 años de edad.</Contenido>
-		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
-		<Liga>2</Liga>
-		<Municipio>Hidalgo</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>15000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Pensión Mujeres Bienestar</Tema_segun_la_fuente>
-		<Sintesis>Arrancó en Hidalgo el registro de beneficiarias para el programa federal Pensión Mujeres Bienestar destinado a adultas mayores.</Sintesis>
-		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Berenice Gamboa</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Bienestar</Dependencia>
-		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Sancionarán a taxis que cobren tarifas excesivas durante la Feria de Pachuca</Titular>
-		<Contenido>La Secretaría de Movilidad y Transporte advirtió sobre sanciones administrativas y posible retiro de concesiones a taxistas que alteren o incrementen injustificadamente las tarifas autorizadas hacia el recinto ferial.</Contenido>
-		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
-		<Liga>2</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>15000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
-		<Sintesis>La Semot advirtió sanciones y retiro de concesiones a transportistas que cobren tarifas excesivas durante la Feria de Pachuca.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>16</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Veida Martínez Miranda</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Semot</Dependencia>
-		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Destruyen huachitúnel de 143 metros en Tlaxcoapan; suman 17 asegurados</Titular>
-		<Contenido>Fuerzas de seguridad estatales y federales inhabilitaron un pasaje subterráneo de 143 metros de longitud que conectaba directamente con tomas clandestinas para la sustracción ilegal de combustible en Tlaxcoapan.</Contenido>
-		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
-		<Liga>3</Liga>
-		<Municipio>Tlaxcoapan</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>15000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Huachitúnel</Tema_segun_la_fuente>
-		<Sintesis>Fuerzas de seguridad inhabilitaron un túnel de 143 metros utilizado para la extracción ilegal de hidrocarburo en Tlaxcoapan.</Sintesis>
-		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Marco Cerón</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Segobh</Dependencia>
-		<Dependencias_mencionadas>Segobh, SSPH, PGJEH</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Aumentan a 23 los casos de gusano barrenador en el ganado hidalguense</Titular>
-		<Contenido>La Secretaría de Agricultura y Desarrollo Rural confirmó la detección de 23 casos activos de infestación por gusano barrenador en ganado bovino de la entidad, manteniendo controles sanitarios estrictos.</Contenido>
-		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
-		<Liga>3</Liga>
-		<Municipio>Hidalgo</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>15000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Gusano barrenador</Tema_segun_la_fuente>
-		<Sintesis>La Saderh confirmó el incremento a 23 casos detectados de gusano barrenador en ganado bovino en diversos municipios hidalguenses.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>16</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Marco Cerón</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Saderh</Dependencia>
-		<Dependencias_mencionadas>Saderh</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Reportan saldo blanco en el inicio de la Feria San Francisco Pachuca 2026</Titular>
-		<Contenido>La Secretaría de Seguridad Pública de Hidalgo informó saldo blanco durante la jornada inaugural del recinto ferial tras implementar un riguroso dispositivo de vigilancia interinstitucional.</Contenido>
-		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
-		<Liga>3</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>15000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Operativo de Seguridad</Tema_segun_la_fuente>
-		<Sintesis>La SSPH reportó saldo blanco tras la implementación de operativos de vigilancia en el arranque de la Feria de Pachuca.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>16</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Veida Martínez Miranda</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>SSPH</Dependencia>
-		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
-		<Usuario>Magda Acuña</Usuario>
-		<Titular>Investigan desvío de recursos en administración municipal anterior de Tula</Titular>
-		<Contenido>La Contraloría indaga un presunto desvío de recursos financieros cometido durante la gestión municipal anterior en Tula.</Contenido>
-		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
-		<Liga>2</Liga>
-		<Municipio>Tula</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>10000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Desvío de recursos</Tema_segun_la_fuente>
-		<Sintesis>La Contraloría indaga un presunto desvío de recursos financieros cometido durante la gestión municipal anterior en Tula.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Joselyn Sánchez</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Contraloría</Dependencia>
-		<Dependencias_mencionadas>Contraloría</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
-		<Usuario>Magda Acuña</Usuario>
-		<Titular>Plantean reforestación masiva en zonas afectadas por sequía en la Huasteca</Titular>
-		<Contenido>Ambientalistas y dependencias promueven plan de reforestación masiva en la Huasteca hidalguense para mitigar la sequía.</Contenido>
-		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
-		<Liga>3</Liga>
-		<Municipio>Huejutla</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>10000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Protección ambiental</Tema_segun_la_fuente>
-		<Sintesis>Ambientalistas y dependencias promueven plan de reforestación masiva en la Huasteca hidalguense para mitigar la sequía.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Nathali González</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Semarnath</Dependencia>
-		<Dependencias_mencionadas>Semarnath</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
-		<Usuario>Magda Acuña</Usuario>
-		<Titular>Productores de café en Otomí-Tepehua prevén buena cosecha pese a lluvias</Titular>
-		<Contenido>Cafeticultores de la región Otomí-Tepehua estiman buen rendimiento en la cosecha del ciclo actual.</Contenido>
-		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
-		<Liga>18</Liga>
-		<Municipio>Tenango de Doria</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>10000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Apoyo Al Agro</Tema_segun_la_fuente>
-		<Sintesis>Cafeticultores de la región Otomí-Tepehua estiman buen rendimiento en la cosecha del ciclo actual.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>16</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Nathali González</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Saderh</Dependencia>
-		<Dependencias_mencionadas>Saderh</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
-		<Usuario>Magda Acuña</Usuario>
-		<Titular>Presentan exposición fotográfica sobre la historia de Pachuca</Titular>
-		<Contenido>Inauguraron galería fotográfica que reúne imágenes históricas sobre la evolución urbana de la capital hidalguense.</Contenido>
-		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
-		<Liga>19</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>10000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Exposición cultural</Tema_segun_la_fuente>
-		<Sintesis>Inauguraron galería fotográfica que reúne imágenes históricas sobre la evolución urbana de la capital hidalguense.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>12</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Redacción</Autor>
-		<Tipo_de_autor>Redacción</Tipo_de_autor>
-		<Dependencia>Cultura</Dependencia>
-		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
-		<Usuario>Magda Acuña</Usuario>
-		<Titular>Desmantelan toma clandestina de hidrocarburo en Cuautepec</Titular>
-		<Contenido>Elementos estatales y federales inhabilitaron una toma clandestina en un ducto de Pemex ubicado en Cuautepec.</Contenido>
-		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
-		<Liga>20</Liga>
-		<Municipio>Cuautepec</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>10000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Combate Al Huachicol</Tema_segun_la_fuente>
-		<Sintesis>Elementos estatales y federales inhabilitaron una toma clandestina en un ducto de Pemex ubicado en Cuautepec.</Sintesis>
-		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>24</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Dulce Castillo</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>SSPH</Dependencia>
-		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Investigan presunto desvío de recursos en la administración anterior de Tula</Titular>
-		<Contenido>La Secretaría de la Contraloría abrió expedientes de investigación para esclarecer posibles inconsistencias y desvío de fondos públicos detectados en las arcas del gobierno municipal previo de Tula de Allende.</Contenido>
-		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
-		<Liga>2</Liga>
-		<Municipio>Tula</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>15000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Desvío de recursos</Tema_segun_la_fuente>
-		<Sintesis>Contraloría del estado inició auditorías e investigaciones por presuntas irregularidades financieras en la gestión previa de Tula.</Sintesis>
-		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Marco Cerón</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Contraloría</Dependencia>
-		<Dependencias_mencionadas>Contraloría, Ayuntamiento</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Plantean programa de reforestación masiva en la Huasteca hidalguense</Titular>
-		<Contenido>Autoridades de Medio Ambiente y Medio Rural impulsan la siembra masiva de árboles en municipios de la Huasteca para recuperar áreas afectadas por la deforestación y frenar los efectos de la sequía prolongada.</Contenido>
-		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
-		<Liga>2</Liga>
-		<Municipio>Huejutla</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>15000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Protección ambiental</Tema_segun_la_fuente>
-		<Sintesis>Semarnath planteó un esquema de reforestación masiva para contrarrestar la sequía y erosión en la Huasteca.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>16</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Marco Cerón</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Semarnath</Dependencia>
-		<Dependencias_mencionadas>Semarnath</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Productores de café de la región Otomí-Tepehua prevén buena producción</Titular>
-		<Contenido>Agricultores de café en la zona serrana manifestaron expectativas favorables de cosecha para el ciclo actual, beneficiados por las lluvias recientes en los municipios de la región Otomí-Tepehua.</Contenido>
-		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
-		<Liga>3</Liga>
-		<Municipio>Tenango de Doria</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>15000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Apoyo Al Agro</Tema_segun_la_fuente>
-		<Sintesis>Cafetaleros de la región Otomí-Tepehua estiman incremento en el rendimiento de sus cultivos beneficiados por las lluvias.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>16</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Berenice Gamboa</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Saderh</Dependencia>
-		<Dependencias_mencionadas>Saderh</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Desmantelan toma clandestina de combustible en municipio de Cuautepec</Titular>
-		<Contenido>Fuerzas de seguridad aseguraron una excavación e inhabilitaron una toma clandestina conectada a poliductos de Pemex en la zona rural de Cuautepec de Hinojosa, recuperando contenedores con gasolina.</Contenido>
-		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
-		<Liga>3</Liga>
-		<Municipio>Cuautepec</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>15000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Combate Al Huachicol</Tema_segun_la_fuente>
-		<Sintesis>Autoridades estatales inhabilitaron una toma clandestina conectada a ductos e incautaron contenedores con combustible en Cuautepec.</Sintesis>
-		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Marco Cerón</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>SSPH</Dependencia>
-		<Dependencias_mencionadas>SSPH, PGJEH</Dependencias_mencionadas>
 	</Nota>
 	<Nota>
 		<Canal>Impresiones locales</Canal>
@@ -979,579 +1631,6 @@
 	</Nota>
 	<Nota>
 		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
-		<Usuario>Magda Acuña</Usuario>
-		<Titular>Gobernador entrega obras de pavimentación e infraestructura hidráulica en Pachuca</Titular>
-		<Contenido>El gobernador entregó obras de pavimentación y red hidráulica para mejorar la movilidad y servicios en colonias de Pachuca.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>2</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>10000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Obras De Infraestructura</Tema_segun_la_fuente>
-		<Sintesis>El gobernador entregó obras de pavimentación y red hidráulica para mejorar la movilidad y servicios en colonias de Pachuca.</Sintesis>
-		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>24</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Adela Garmez</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Gobernador</Dependencia>
-		<Dependencias_mencionadas>Gobernador</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
-		<Usuario>Magda Acuña</Usuario>
-		<Titular>Vinculan a proceso a tres personas por narcomenudeo en Mineral de la Reforma</Titular>
-		<Contenido>La PGJEH obtuvo la vinculación a proceso de tres presuntos distribuidores de droga detenidos en cateo.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>17</Liga>
-		<Municipio>Mineral de la Reforma</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>10000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
-		<Sintesis>La PGJEH obtuvo la vinculación a proceso de tres presuntos distribuidores de droga detenidos en cateo.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Dulce Castillo</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>PGJEH</Dependencia>
-		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
-		<Usuario>Magda Acuña</Usuario>
-		<Titular>Anuncian programa cultural de las festividades del Xantolo en la Huasteca</Titular>
-		<Contenido>Presentaron la agenda de actividades culturales y de la tradición del Xantolo 2026 en municipios huastecos.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>19</Liga>
-		<Municipio>Huejutla</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>10000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Xantolo</Tema_segun_la_fuente>
-		<Sintesis>Presentaron la agenda de actividades culturales y de la tradición del Xantolo 2026 en municipios huastecos.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Nathali González</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Cultura</Dependencia>
-		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
-		<Usuario>Magda Acuña</Usuario>
-		<Titular>Recuperan dos vehículos con reporte de robo mediante arcos carreteros</Titular>
-		<Contenido>Sistemas de videovigilancia y arcos carreteros permitieron la localización y recuperación de dos autos robados.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>20</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>10000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Videovigilancia</Tema_segun_la_fuente>
-		<Sintesis>Sistemas de videovigilancia y arcos carreteros permitieron la localización y recuperación de dos autos robados.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>16</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Dulce Castillo</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>SSPH</Dependencia>
-		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Entregan obras de pavimentación e infraestructura hidráulica en Pachuca</Titular>
-		<Contenido>El Poder Ejecutivo estatal inauguró obras de pavimentación con concreto hidráulico y renovación de drenaje pluvial en colonias de Pachuca para mitigar los problemas recurrentes de encharcamientos e inundaciones.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>2</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>15000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Obras De Infraestructura</Tema_segun_la_fuente>
-		<Sintesis>El Gobernador entregó obras de pavimentación e infraestructura hidráulica para mitigar inundaciones en colonias de Pachuca.</Sintesis>
-		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>24</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Berenice Gamboa</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Gobernador</Dependencia>
-		<Dependencias_mencionadas>Gobernador, Sipdus</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Vinculan a proceso a tres probables responsables de narcomenudeo</Titular>
-		<Contenido>La Procuraduría General de Justicia del Estado de Hidalgo logró la vinculación a proceso de tres personas detenidas en posesión de narcóticos durante operativos realizados en Mineral de la Reforma.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>3</Liga>
-		<Municipio>Mineral de la Reforma</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>15000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
-		<Sintesis>PGJEH obtuvo la vinculación a proceso de tres imputados por delitos contra la salud en Mineral de la Reforma.</Sintesis>
-		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Marco Cerón</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>PGJEH</Dependencia>
-		<Dependencias_mencionadas>PGJEH, SSPH</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Presentan el programa cultural y festividades del Xantolo 2026 en la Huasteca</Titular>
-		<Contenido>La Secretaría de Cultura del gobierno estatal presentó la agenda artística, cuadrillas de disfrazados e itinerario gastronómico para la celebración de las fiestas tradicionales del Xantolo 2026 en Huejutla.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>3</Liga>
-		<Municipio>Huejutla</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>15000</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Xantolo</Tema_segun_la_fuente>
-		<Sintesis>La Secretaría de Cultura dio a conocer el programa oficial y actividades artísticas para el Xantolo 2026 en la Huasteca.</Sintesis>
-		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
-		<Posicion>Interiores</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Berenice Gamboa</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Cultura</Dependencia>
-		<Dependencias_mencionadas>Cultura, Ayuntamiento</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Taxistas de Pachuca piden tarifa mínima de 50 pesos</Titular>
-		<Contenido>Un grupo de taxistas independientes de Pachuca solicitaron que la tarifa mínima del servicio sea de 50 pesos, en lugar de los 45 pesos establecidos por la Semot, al considerar el tráfico y costos operativos.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>4</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>13262</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
-		<Sintesis>Conductores independientes de taxi en Pachuca pidieron valorar distancias y tiempos de recorrido para fijar un cobro mínimo de 50 pesos frente al nuevo tarifario estatal.</Sintesis>
-		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Ricardo Calleja</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Semot</Dependencia>
-		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Semarnath acopiará baterías en la Unidad Deportiva de Pachuca</Titular>
-		<Contenido>La Semarnath realizará el próximo viernes 2 de octubre una jornada de acopio de pilas usadas y reforestación en la Unidad Deportiva Municipal de Pachuca.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>4</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>13262</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Protección ambiental</Tema_segun_la_fuente>
-		<Sintesis>La Secretaría de Medio Ambiente estatal recolectará baterías en desuso y promoverá la plantación de árboles en la Unidad Deportiva de Pachuca el 2 de octubre.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>12</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Redacción</Autor>
-		<Tipo_de_autor>Redacción</Tipo_de_autor>
-		<Dependencia>Semarnath</Dependencia>
-		<Dependencias_mencionadas>Semarnath, Gobernador</Dependencias_mencionadas>
-		<Actores_mencionados>Mónica Patricia Mixtega Trejo, Julio Menchaca Salazar</Actores_mencionados>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Acercan servicios de salud a 9 municipios</Titular>
-		<Contenido>La Secretaría de Salud de Hidalgo informó que las brigadas médicas han acercado más de 28 mil 200 acciones de salud gratuitas en nueve municipios de la entidad.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>5</Liga>
-		<Municipio>Acaxochitlán</Municipio>
-		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>13262</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Jornada de salud</Tema_segun_la_fuente>
-		<Sintesis>La SSH desplegó jornadas médicas itinerantes en nueve municipios hidalguenses, ofreciendo consultas de especialidad, pruebas diagnósticas y apoyos funcionales.</Sintesis>
-		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Redacción</Autor>
-		<Tipo_de_autor>Redacción</Tipo_de_autor>
-		<Dependencia>SSH</Dependencia>
-		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
-		<Actores_mencionados>Vanesa Escalante</Actores_mencionados>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Aumentan lesiones y corrupción de menores contra mujeres en Hidalgo</Titular>
-		<Contenido>En ocho meses, en Hidalgo incrementó la incidencia en los delitos de lesiones dolosas, culposas y corrupción de menores contra mujeres, reveló el reporte mensual del SESNSP.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>5</Liga>
-		<Municipio>Hidalgo</Municipio>
-		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>13262</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
-		<Sintesis>Cifras del SESNSP ubican a Hidalgo entre los estados con mayor repunte en lesiones y corrupción de menores contra mujeres de enero a agosto de 2026.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>16</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Lourdes Naranjo</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>PGJEH</Dependencia>
-		<Dependencias_mencionadas>PGJEH, Presidencia</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Inició construcción de una planta de Hi-Ref, en Villa de Tezontepec</Titular>
-		<Contenido>Sedeco encabezó la colocación de la primera piedra de la planta italiana Hi-Ref en Villa de Tezontepec, con una inversión de 200 millones de pesos y 320 empleos.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>6</Liga>
-		<Municipio>Villa de Tezontepec</Municipio>
-		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>13262</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
-		<Sintesis>Inició la edificación de la primera planta de la empresa Hi-Ref en México, especializada en climatización de centros de datos en Villa de Tezontepec.</Sintesis>
-		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Redacción</Autor>
-		<Tipo_de_autor>Redacción</Tipo_de_autor>
-		<Dependencia>Sedeco</Dependencia>
-		<Dependencias_mencionadas>Sedeco</Dependencias_mencionadas>
-		<Actores_mencionados>Carlos Henkel Escorza</Actores_mencionados>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>En Atracciones Grupo García, "Me late subirme a los juegos"</Titular>
-		<Contenido>Atracciones Grupo García llega a la Feria San Francisco Pachuca 2026 con más de 20 atracciones mecánicas, tarjetas con saldo extra y acceso gratuito para personas con discapacidad.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>6</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>13262</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
-		<Sintesis>Grupo García ofrece promociones e instalaciones accesibles para personas con discapacidad durante la Feria San Francisco Pachuca 2026.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>12</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Redacción</Autor>
-		<Tipo_de_autor>Redacción</Tipo_de_autor>
-		<Dependencia>Turismo</Dependencia>
-		<Dependencias_mencionadas>Turismo</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>Incautaron 20 mil litros de hidrocarburo</Titular>
-		<Contenido>La SSPH desmanteló un predio utilizado para almacenar combustible ilegal en la localidad Santiago Tlapacoya de Pachuca, hallando 20 mil 900 litros de hidrocarburo.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>7</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>13262</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Combate Al Huachicol</Tema_segun_la_fuente>
-		<Sintesis>Operativo coordinado entre SSPH, PGJEH y Sedena permitió el aseguramiento de más de 20 mil litros de huachicol y contenedores en Santiago Tlapacoya.</Sintesis>
-		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Redacción</Autor>
-		<Tipo_de_autor>Redacción</Tipo_de_autor>
-		<Dependencia>SSPH</Dependencia>
-		<Dependencias_mencionadas>SSPH, PGJEH, Sedena</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
-		<Usuario>Sandra Sauza</Usuario>
-		<Titular>PIBEH firmó un convenio para dar educación a elementos</Titular>
-		<Contenido>La Policía Industrial Bancaria del Estado de Hidalgo firmó un convenio de colaboración con la Universidad CNCI para ofrecer licenciaturas y maestrías en línea a sus elementos.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>7</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>13262</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Capacitación policial</Tema_segun_la_fuente>
-		<Sintesis>La PIBEH y la Universidad CNCI acordaron esquemas de profesionalización académica en línea para el personal policial y sus familias.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>16</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Redacción</Autor>
-		<Tipo_de_autor>Redacción</Tipo_de_autor>
-		<Dependencia>SSPH</Dependencia>
-		<Dependencias_mencionadas>SSPH, Gobernador</Dependencias_mencionadas>
-		<Actores_mencionados>Francisco Martínez Gómez, Benjamín Arcos Hughes, Julio Menchaca Salazar</Actores_mencionados>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
-		<Usuario>Francisco Villeda</Usuario>
-		<Titular>Rectores de Hidalgo, entre la academia y la función pública</Titular>
-		<Contenido>Análisis sobre el perfil profesional de los rectores de instituciones de educación superior en Hidalgo, quienes se dividen entre trayectorias académicas y cargos públicos.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>4</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>12500</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Perfil académico</Tema_segun_la_fuente>
-		<Sintesis>Reportaje que analiza las trayectorias de los rectores de las universidades e institutos politécnicos de la entidad.</Sintesis>
-		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
-		<Posicion>Portadas</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Carmen Hernández</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>SEPH</Dependencia>
-		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
-		<Actores_mencionados>Brenda Flores, Pablo Elías Vargas González</Actores_mencionados>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
-		<Usuario>Francisco Villeda</Usuario>
-		<Titular>Taxistas piden que banderazo sea de 50 pesos</Titular>
-		<Contenido>Choferes de taxi en Pachuca manifiestan su inconformidad con la tarifa fijada por la Semot y solicitan que el banderazo inicial sea de 50 pesos debido al tráfico y costos.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>6</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>12500</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
-		<Sintesis>Operadores de taxi solicitan un ajuste al banderazo tarifario a 50 pesos para compensar tiempos perdidos en el tráfico y gastos de operación.</Sintesis>
-		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
-		<Posicion>Interior</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Jesús León</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Semot</Dependencia>
-		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
-		<Usuario>Francisco Villeda</Usuario>
-		<Titular>En ocho meses, 461 asaltos en Pachuca</Titular>
-		<Contenido>Entre enero y agosto de 2026, Pachuca acumuló 461 asaltos en negocios, transporte público y transeúntes, promediando casi dos casos diarios según el SESNSP.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>9</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>12500</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
-		<Sintesis>Cifras del SESNSP revelan 461 asaltos en Pachuca en los primeros ocho meses del año, siendo los comercios los más afectados con 290 denuncias.</Sintesis>
-		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
-		<Posicion>Interior</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Luis Godínez</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>PGJEH</Dependencia>
-		<Dependencias_mencionadas>PGJEH, Presidencia, SESNSP</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
-		<Usuario>Francisco Villeda</Usuario>
-		<Titular>La violación a la intimidad sexual subió 32 por ciento</Titular>
-		<Contenido>Las denuncias por violación a la intimidad sexual en Hidalgo incrementaron un 32% durante agosto, acumulando 33 carpetas de investigación ante la PGJEH.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>9</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>12500</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Violencia digital</Tema_segun_la_fuente>
-		<Sintesis>Las denuncias por delitos contra la intimidad sexual crecieron 32 por ciento en agosto en Hidalgo, encabezando Pachuca las querellas.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Interior</Posicion>
-		<Dimension>16</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Jesús León</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>PGJEH</Dependencia>
-		<Dependencias_mencionadas>PGJEH, SESNSP</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
-		<Usuario>Francisco Villeda</Usuario>
-		<Titular>Dicen no a incremento en taxis de Atotonilco</Titular>
-		<Contenido>Taxistas de Atotonilco el Grande señalaron la dificultad de socializar y aplicar el aumento del 20% a la tarifa del pasaje entre la población local.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>5</Liga>
-		<Municipio>Atotonilco el Grande</Municipio>
-		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>12500</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
-		<Sintesis>Operadores de taxi de Atotonilco expresan complicaciones para aplicar la nueva tarifa autorizada por el rechazo de los usuarios.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Interior</Posicion>
-		<Dimension>12</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Martha Sáenz</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Semot</Dependencia>
-		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
-		<Usuario>Francisco Villeda</Usuario>
-		<Titular>Demanda colectivo revisar el caso de Martínez Cervantes</Titular>
-		<Contenido>Integrantes del Movimiento No al Basurero exigieron durante el desfile de Atitalaquia revisar la situación jurídica del activista Óscar Martínez.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>9</Liga>
-		<Municipio>Atitalaquia</Municipio>
-		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>12500</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Derechos humanos</Tema_segun_la_fuente>
-		<Sintesis>Manifestantes solicitaron respeto al debido proceso y presunción de inocencia para el activista Óscar Martínez Cervantes detenido recientemente.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Interior</Posicion>
-		<Dimension>16</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Magda Olguín</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Segobh</Dependencia>
-		<Dependencias_mencionadas>Segobh, PGJEH</Dependencias_mencionadas>
-		<Actores_mencionados>Óscar Martínez Cervantes, Rodrigo Ángeles</Actores_mencionados>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
 		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
 		<Usuario>Claudia Ávila</Usuario>
 		<Titular>Taxistas piden nuevo aumento; usuarios exigen que se respeten las tarifas</Titular>
@@ -1685,169 +1764,353 @@
 	</Nota>
 	<Nota>
 		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
-		<Usuario>Claudia Ávila</Usuario>
-		<Titular>Vuelca unidad operativa del Tuzobús</Titular>
-		<Contenido>Una camioneta asignada a la Unidad de Vigilancia Operativa del Sistema de Transporte Metropolitano protagonizó un percance sobre el bulevar Felipe Ángeles, a la altura de la estación Vicente Segura. El vehículo terminó volcado sobre el camellón tras salir de su trayectoria por una supuesta falla mecánica. Los dos ocupantes resultaron ilesos.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>1</Liga>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Inauguran la Feria San Francisco Pachuca Hidalgo 2026</Titular>
+		<Contenido>Autoridades estatales e inauguraron oficialmente la Feria San Francisco Pachuca Hidalgo 2026 con un amplio programa de actividades culturales, comerciales y de entretenimiento para toda la familia.</Contenido>
+		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
+		<Liga>2</Liga>
 		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
 		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
 		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
 		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Accidente de vehículo oficial</Tema_segun_la_fuente>
-		<Sintesis>Una camioneta de la Unidad de Vigilancia Operativa del Tuzobús volcó en el bulevar Felipe Ángeles por una falla mecánica, sin dejar personas lesionadas.</Sintesis>
-		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
+		<Sintesis>Autoridades estatales e inauguraron oficialmente la Feria San Francisco Pachuca Hidalgo 2026 con actividades culturales y de entretenimiento.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Inicia el registro para el programa Pensión Mujeres Bienestar en Hidalgo</Titular>
+		<Contenido>Arrancó en la entidad el registro de beneficiarias para el programa federal Pensión Mujeres Bienestar, destinado a otorgar apoyos económicos directos a adultas mayores de 60 a 64 años de edad.</Contenido>
+		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Pensión Mujeres Bienestar</Tema_segun_la_fuente>
+		<Sintesis>Arrancó en Hidalgo el registro de beneficiarias para el programa federal Pensión Mujeres Bienestar destinado a adultas mayores.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Sancionarán a taxis que cobren tarifas excesivas durante la Feria de Pachuca</Titular>
+		<Contenido>La Secretaría de Movilidad y Transporte advirtió sobre sanciones administrativas y posible retiro de concesiones a taxistas que alteren o incrementen injustificadamente las tarifas autorizadas hacia el recinto ferial.</Contenido>
+		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
+		<Sintesis>La Semot advirtió sanciones y retiro de concesiones a transportistas que cobren tarifas excesivas durante la Feria de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
 		<Posicion>Portadas</Posicion>
 		<Dimension>16</Dimension>
 		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
 		<Con_fotografia>Sí</Con_fotografia>
 		<Es_replica>No</Es_replica>
-		<Autor>Redacción</Autor>
-		<Tipo_de_autor>Redacción</Tipo_de_autor>
-		<Dependencia>Semot</Dependencia>
-		<Dependencias_mencionadas>Semot, Sitmah</Dependencias_mencionadas>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
-		<Usuario>Claudia Ávila</Usuario>
-		<Titular>Supervisarán a diario juegos mecánicos en la Feria de Pachuca</Titular>
-		<Contenido>Los 40 juegos mecánicos instalados en la Feria San Francisco Pachuca Hidalgo 2026 deberán contar con un dictamen favorable de Protección Civil y serán inspeccionados diariamente antes de recibir visitantes, como parte de las medidas preventivas para reducir riesgos durante los 25 días de actividades.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>2</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>13262</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
-		<Sintesis>Protección Civil realizará inspecciones diarias a los 40 juegos mecánicos de la Feria de Pachuca para garantizar la seguridad de los asistentes.</Sintesis>
-		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
-		<Posicion>Interior</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Erick Perales</Autor>
-		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>Segobh</Dependencia>
-		<Dependencias_mencionadas>Segobh, PC, Turismo</Dependencias_mencionadas>
-		<Actores_mencionados>Román Bernal Díaz</Actores_mencionados>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
-		<Usuario>Claudia Ávila</Usuario>
-		<Titular>Firma italiana arranca construcción de planta en Hidalgo</Titular>
-		<Contenido>La empresa italiana Hi-Ref S.p.A. inició la construcción de su nueva planta en Villa de Tezontepec, proyecto que representa su primera instalación productiva en México y fuera de Italia, con una inversión de 200 millones de pesos y la generación de 320 empleos directos e indirectos para fabricar sistemas de climatización de precisión.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>3</Liga>
-		<Municipio>Villa de Tezontepec</Municipio>
-		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>13262</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
-		<Sintesis>Hi-Ref S.p.A. colocó la primera piedra de su planta en Villa de Tezontepec con una inversión de 200 mdp para la producción de sistemas de refrigeración de centros de datos.</Sintesis>
-		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
-		<Posicion>Interior</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Redacción</Autor>
-		<Tipo_de_autor>Redacción</Tipo_de_autor>
-		<Dependencia>Sedeco</Dependencia>
-		<Dependencias_mencionadas>Sedeco, Gobernador</Dependencias_mencionadas>
-		<Actores_mencionados>Carlos Henkel Escorza, Julio Menchaca Salazar, Alberto Salmistraro, Fabio Poletto, Alejandra Castellanos García, Lorenzo Vianello</Actores_mencionados>
-	</Nota>
-	<Nota>
-		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
-		<Usuario>Claudia Ávila</Usuario>
-		<Titular>Trabajadores del volante exigen modificar tarifas</Titular>
-		<Contenido>Taxistas independientes de Pachuca y Mineral de la Reforma pidieron participar en la definición de las tarifas de transporte y propusieron establecer un cobro mínimo de 50 pesos. Cuestionaron que la Semoth tomara decisiones sin consultar al gremio.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>4</Liga>
-		<Municipio>Pachuca</Municipio>
-		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
-		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>13262</Alcance_del_medio>
-		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
-		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Aumento Tarifa De Transporte</Tema_segun_la_fuente>
-		<Sintesis>Taxistas independientes de la zona metropolitana de Pachuca solicitaron ser consultados para fijar el tarifario de transporte y plantearon un cobro mínimo de 50 pesos.</Sintesis>
-		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
-		<Posicion>Interior</Posicion>
-		<Dimension>20</Dimension>
-		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>Sí</Con_fotografia>
-		<Es_replica>No</Es_replica>
-		<Autor>Erick Perales</Autor>
+		<Autor>Veida Martínez Miranda</Autor>
 		<Tipo_de_autor>Reportero</Tipo_de_autor>
 		<Dependencia>Semot</Dependencia>
 		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
-		<Actores_mencionados>Leonardo Cruz</Actores_mencionados>
 	</Nota>
 	<Nota>
 		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
-		<Usuario>Claudia Ávila</Usuario>
-		<Titular>Descarta el Secretario de Gobierno conflicto religioso en Huasteca</Titular>
-		<Contenido>El secretario de Gobierno de Hidalgo, Guillermo Olivares Reyna, descartó que exista un conflicto religioso en la Huasteca tras el asesinato del sacerdote Román de la Cruz Hernández en Lolotla, e informó que la PGJEH mantiene estrecha comunicación con la Diócesis de Huejutla para esclarecer el crimen.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>5</Liga>
-		<Municipio>Lolotla</Municipio>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Destruyen huachitúnel de 143 metros en Tlaxcoapan; suman 17 asegurados</Titular>
+		<Contenido>Fuerzas de seguridad estatales y federales inhabilitaron un pasaje subterráneo de 143 metros de longitud que conectaba directamente con tomas clandestinas para la sustracción ilegal de combustible en Tlaxcoapan.</Contenido>
+		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tlaxcoapan</Municipio>
 		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
 		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
 		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
 		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Exigen esclarecer homicidio</Tema_segun_la_fuente>
-		<Sintesis>Guillermo Olivares Reyna rechazó tensiones religiosas en la Huasteca tras el homicidio del párroco Román de la Cruz y afirmó avances en la investigación de la PGJEH.</Sintesis>
-		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
-		<Posicion>Interior</Posicion>
-		<Dimension>12</Dimension>
+		<Tema_segun_la_fuente>Huachitúnel</Tema_segun_la_fuente>
+		<Sintesis>Fuerzas de seguridad inhabilitaron un túnel de 143 metros utilizado para la extracción ilegal de hidrocarburo en Tlaxcoapan.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
 		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
-		<Con_fotografia>No</Con_fotografia>
+		<Con_fotografia>Sí</Con_fotografia>
 		<Es_replica>No</Es_replica>
-		<Autor>Redacción</Autor>
-		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
 		<Dependencia>Segobh</Dependencia>
-		<Dependencias_mencionadas>Segobh, PGJEH</Dependencias_mencionadas>
-		<Actores_mencionados>Guillermo Olivares Reyna, Román de la Cruz Hernández</Actores_mencionados>
+		<Dependencias_mencionadas>Segobh, SSPH, PGJEH</Dependencias_mencionadas>
 	</Nota>
 	<Nota>
 		<Canal>Impresiones locales</Canal>
-		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
-		<Usuario>Claudia Ávila</Usuario>
-		<Titular>Van a demoler primaria en Tulancingo; edificarán otra</Titular>
-		<Contenido>La escuela primaria Aquiles Serdán de Tulancingo presenta fallas estructurales graves por lo que será demolida y reconstruida totalmente durante el ciclo escolar 2026-2027. El titular de la SEPH, Natividad Castrejón, indicó que se buscan opciones temporales para impartir clases presenciales o virtuales.</Contenido>
-		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
-		<Liga>6</Liga>
-		<Municipio>Tulancingo</Municipio>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Aumentan a 23 los casos de gusano barrenador en el ganado hidalguense</Titular>
+		<Contenido>La Secretaría de Agricultura y Desarrollo Rural confirmó la detección de 23 casos activos de infestación por gusano barrenador en ganado bovino de la entidad, manteniendo controles sanitarios estrictos.</Contenido>
+		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
 		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
 		<Jerarquia_del_medio>1</Jerarquia_del_medio>
-		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
 		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
 		<Genero_periodistico>Noticia</Genero_periodistico>
-		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
-		<Sintesis>La SEPH demolerá y reconstruirá la primaria Aquiles Serdán en Tulancingo por daños en su infraestructura, evaluando la reubicación temporal del alumnado.</Sintesis>
-		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
-		<Posicion>Interior</Posicion>
+		<Tema_segun_la_fuente>Gusano barrenador</Tema_segun_la_fuente>
+		<Sintesis>La Saderh confirmó el incremento a 23 casos detectados de gusano barrenador en ganado bovino en diversos municipios hidalguenses.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
 		<Dimension>16</Dimension>
 		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
 		<Con_fotografia>Sí</Con_fotografia>
 		<Es_replica>No</Es_replica>
-		<Autor>Octavio Jaimes</Autor>
+		<Autor>Marco Cerón</Autor>
 		<Tipo_de_autor>Reportero</Tipo_de_autor>
-		<Dependencia>SEPH</Dependencia>
-		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
-		<Actores_mencionados>Natividad Castrejón</Actores_mencionados>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Reportan saldo blanco en el inicio de la Feria San Francisco Pachuca 2026</Titular>
+		<Contenido>La Secretaría de Seguridad Pública de Hidalgo informó saldo blanco durante la jornada inaugural del recinto ferial tras implementar un riguroso dispositivo de vigilancia interinstitucional.</Contenido>
+		<Fecha_de_publicacion>2026-09-26</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Operativo de Seguridad</Tema_segun_la_fuente>
+		<Sintesis>La SSPH reportó saldo blanco tras la implementación de operativos de vigilancia en el arranque de la Feria de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Investigan presunto desvío de recursos en la administración anterior de Tula</Titular>
+		<Contenido>La Secretaría de la Contraloría abrió expedientes de investigación para esclarecer posibles inconsistencias y desvío de fondos públicos detectados en las arcas del gobierno municipal previo de Tula de Allende.</Contenido>
+		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Desvío de recursos</Tema_segun_la_fuente>
+		<Sintesis>Contraloría del estado inició auditorías e investigaciones por presuntas irregularidades financieras en la gestión previa de Tula.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Contraloría</Dependencia>
+		<Dependencias_mencionadas>Contraloría, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Plantean programa de reforestación masiva en la Huasteca hidalguense</Titular>
+		<Contenido>Autoridades de Medio Ambiente y Medio Rural impulsan la siembra masiva de árboles en municipios de la Huasteca para recuperar áreas afectadas por la deforestación y frenar los efectos de la sequía prolongada.</Contenido>
+		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Protección ambiental</Tema_segun_la_fuente>
+		<Sintesis>Semarnath planteó un esquema de reforestación masiva para contrarrestar la sequía y erosión en la Huasteca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Productores de café de la región Otomí-Tepehua prevén buena producción</Titular>
+		<Contenido>Agricultores de café en la zona serrana manifestaron expectativas favorables de cosecha para el ciclo actual, beneficiados por las lluvias recientes en los municipios de la región Otomí-Tepehua.</Contenido>
+		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tenango de Doria</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo Al Agro</Tema_segun_la_fuente>
+		<Sintesis>Cafetaleros de la región Otomí-Tepehua estiman incremento en el rendimiento de sus cultivos beneficiados por las lluvias.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Desmantelan toma clandestina de combustible en municipio de Cuautepec</Titular>
+		<Contenido>Fuerzas de seguridad aseguraron una excavación e inhabilitaron una toma clandestina conectada a poliductos de Pemex en la zona rural de Cuautepec de Hinojosa, recuperando contenedores con gasolina.</Contenido>
+		<Fecha_de_publicacion>2026-09-27</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Cuautepec</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Huachicol</Tema_segun_la_fuente>
+		<Sintesis>Autoridades estatales inhabilitaron una toma clandestina conectada a ductos e incautaron contenedores con combustible en Cuautepec.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Entregan obras de pavimentación e infraestructura hidráulica en Pachuca</Titular>
+		<Contenido>El Poder Ejecutivo estatal inauguró obras de pavimentación con concreto hidráulico y renovación de drenaje pluvial en colonias de Pachuca para mitigar los problemas recurrentes de encharcamientos e inundaciones.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Obras De Infraestructura</Tema_segun_la_fuente>
+		<Sintesis>El Gobernador entregó obras de pavimentación e infraestructura hidráulica para mitigar inundaciones en colonias de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Sipdus</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Vinculan a proceso a tres probables responsables de narcomenudeo</Titular>
+		<Contenido>La Procuraduría General de Justicia del Estado de Hidalgo logró la vinculación a proceso de tres personas detenidas en posesión de narcóticos durante operativos realizados en Mineral de la Reforma.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>PGJEH obtuvo la vinculación a proceso de tres imputados por delitos contra la salud en Mineral de la Reforma.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Presentan el programa cultural y festividades del Xantolo 2026 en la Huasteca</Titular>
+		<Contenido>La Secretaría de Cultura del gobierno estatal presentó la agenda artística, cuadrillas de disfrazados e itinerario gastronómico para la celebración de las fiestas tradicionales del Xantolo 2026 en Huejutla.</Contenido>
+		<Fecha_de_publicacion>2026-09-28</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>15000</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Xantolo</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Cultura dio a conocer el programa oficial y actividades artísticas para el Xantolo 2026 en la Huasteca.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Ayuntamiento</Dependencias_mencionadas>
 	</Nota>
 </NotasRadio>
