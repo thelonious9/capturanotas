@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Producirá Cruz Azul cemento gris en Tula</Titular>
+		<Contenido>La planta Hidalgo de la Cooperativa La Cruz Azul en Tula de Allende inició la cuenta regresiva para recuperar la producción de cemento gris tras cinco años de suspensión de actividades.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Tipo_de_publicacion>Periódico impreso</Tipo_de_publicacion>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Impresiones>39786</Impresiones>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cruz Azul</Tema_segun_la_fuente>
+		<Sintesis>La planta de la Cooperativa La Cruz Azul en Tula reinició operaciones para producir cuatro mil 500 toneladas diarias de cemento gris.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Medio_de_origen>El Sol de Hidalgo</Medio_de_origen>
+		<Autor>Rosalía Maldonado</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Cruz Azul, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Morán Lagunes, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Producción de pulque se recupera</Titular>
+		<Contenido>El pulque mantiene un repunte económico relevante en Hidalgo al alcanzar 106 mil 984 litros obtenidos durante 2025 con ganancias de 664 mil pesos.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Tipo_de_publicacion>Periódico impreso</Tipo_de_publicacion>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Impresiones>39786</Impresiones>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Producción agrícola</Tema_segun_la_fuente>
+		<Sintesis>De acuerdo con la Sader, la producción de pulque en Hidalgo registró un máximo valor económico durante el último ciclo agrícola.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Medio_de_origen>El Sol de Hidalgo</Medio_de_origen>
+		<Autor>Alma Leticia Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Esperan en Xantolo a 80 mil visitantes</Titular>
+		<Contenido>Con una expectativa de 80 mil visitantes y una derrama económica estimada en 100 millones de pesos, Huejutla se alista para las festividades del Xantolo 2026.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Tipo_de_publicacion>Periódico impreso</Tipo_de_publicacion>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Impresiones>39786</Impresiones>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Xantolo</Tema_segun_la_fuente>
+		<Sintesis>Presentan la edición del Xantolo 2026 en Huejutla con proyección de 80 mil visitantes y derrama económica de 100 millones de pesos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Medio_de_origen>El Sol de Hidalgo</Medio_de_origen>
+		<Autor>Gustavo Vargas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>José Alfredo San Román Duval, Neyda Naranjo Baltazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Buscan mitigar la deforestación en la Huasteca</Titular>
+		<Contenido>Artesanos y pobladores de la Huasteca promovieron el programa Sembrando Vida e iniciativas de reforestación para proteger maderas autóctonas como el cedro rojo y caoba.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>14</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Tipo_de_publicacion>Periódico impreso</Tipo_de_publicacion>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Impresiones>39786</Impresiones>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deforestación</Tema_segun_la_fuente>
+		<Sintesis>Carpinteros y productores de la Huasteca impulsan acciones de reforestación de especies arbóreas nativas para combatir la tala ilegal en municipios serranos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Medio_de_origen>El Sol de Hidalgo</Medio_de_origen>
+		<Autor>Rubén Juárez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>José Alberto Hernández Salvador</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Familiares solicitan maestra de preescolar</Titular>
+		<Contenido>Padres de familia del preescolar Jesús Bravo Olivares en Tlanchinol se manifestaron para solicitar la asignación de un docente para el grupo que se encuentra sin clases.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>14</Liga>
+		<Municipio>Tlanchinol</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Tipo_de_publicacion>Periódico impreso</Tipo_de_publicacion>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Impresiones>39786</Impresiones>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Exigen docente</Tema_segun_la_fuente>
+		<Sintesis>Padres de familia de la comunidad de Temango en Tlanchinol protestaron pacíficamente ante la falta de docente en el preescolar desde el inicio del ciclo escolar.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Medio_de_origen>El Sol de Hidalgo</Medio_de_origen>
+		<Autor>Rubén Juárez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Espino Reséndiz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Siete entidades analizan Policía Metropolitana</Titular>
+		<Contenido>Ante la propuesta en la Reunión de Coordinación Interestatal de Paz y Seguridad sobre la creación de una Policía Metropolitana integrada por siete estados del centro del país (Hidalgo, Estado de México, Morelos, Tlaxcala, Puebla, Guerrero y Ciudad de México), Hidalgo analiza sumarse con sus 5 mil 625 elementos estatales.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Coordinación interestatal</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo y seis entidades del centro del país analizan la creación de una Policía Metropolitana con la participación de la Guardia Nacional para reforzar el combate a la delincuencia.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobierno</Dependencia>
+		<Dependencias_mencionadas>Gobierno, SSPH, Guardia Nacional</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Suman 62 adopciones en 4 años en Hidalgo</Titular>
+		<Contenido>Tres menores de edad fueron dados en adopción, con lo que suman 62 adopciones durante los cuatro años de la actual administración estatal, informó la presidenta del Patronato del Sistema DIF Hidalgo, Edda Vite Ramos.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Adopción De Menores</Tema_segun_la_fuente>
+		<Sintesis>El DIF Hidalgo alcanzará 62 adopciones formalizadas en cuatro años de administración tras la integración de tres menores a nuevas familias durante la segunda jornada del año.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>UECS cumple 17 años con baja en secuestros</Titular>
+		<Contenido>La Unidad Especializada en el Combate al Secuestro (UECS) de la PGJEH cumplió 17 años de operaciones, periodo en el cual 170 personas han sido sentenciadas por este delito, registrando además una disminución en las carpetas de investigación.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Secuestro</Tema_segun_la_fuente>
+		<Sintesis>La UECS de la PGJEH cumplió 17 años de operaciones logrando la sentencia de 170 personas y destacando una disminución sostenida en las investigaciones por secuestro en la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, UECS</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Caen exportaciones 18.7% durante segundo trimestre</Titular>
+		<Contenido>Hidalgo registró un descenso del 18.7% en sus ventas al exterior durante el segundo trimestre del año, ubicándose en la posición 24 a nivel nacional según el Inegi.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Impresiones>39786</Impresiones>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Exportaciones</Tema_segun_la_fuente>
+		<Sintesis>Los ingresos por exportaciones en la entidad bajaron de 811 mil a 659 mil dólares en el segundo trimestre de 2026, concentrados mayormente en la industria manufacturera.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Plantea FUTV que taxímetros cobren un peso por minuto en congestionamientos</Titular>
+		<Contenido>La FUTV solicitó autorizar el cobro por tiempo detenido e insistirá en elevar la tarifa mínima a 50 pesos, aunque el Ejecutivo descartó nuevos incrementos.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Impresiones>39786</Impresiones>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Taxímetros</Tema_segun_la_fuente>
+		<Sintesis>Choferes de taxi proponen aplicar cobro por minutos retenidos en el tráfico y preparan una nueva petición de revisión tarifaria ante la Semot.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Eleno Arias Pérez, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Inicia operaciones nuevo Centro CEB 10/2 Tizayuca</Titular>
+		<Contenido>Autoridades municipales y federales formalizaron la apertura del Centro de Estudios de Bachillerato CEB 10/2 en Ciudad Natura con 156 alumnos inscritos.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Tizayuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Impresiones>39786</Impresiones>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Oferta educativa</Tema_segun_la_fuente>
+		<Sintesis>Iniciaron las clases del bachillerato CEB 10/2 en Tizayuca para ampliar la oferta de educación pública de nivel medio superior en el municipio.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Gretchen Atilano</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Xantolo espera 80 mil visitantes en Huejutla</Titular>
+		<Contenido>Se presentó la cartelera y altar oficial de las festividades del Xantolo 2026 en Huejutla, proyectando una derrama económica de 100 mdp del 30 de octubre al 2 de noviembre.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>20</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Impresiones>39786</Impresiones>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Xantolo</Tema_segun_la_fuente>
+		<Sintesis>El municipio de Huejutla habilitará mil 800 espacios de hospedaje para recibir a 80 mil personas durante las celebraciones del Xantolo en la Huasteca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>José Alfredo San Román Duval, Neyda Naranjo Baltazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Huejutla prepara cuatro días de celebración del Xantolo</Titular>
+		<Contenido>Huejutla volverá a llenarse de música, color, máscaras, danzas, aromas y memoria del 30 de octubre al 2 de noviembre durante la celebración del Xantolo 2026, con una previsión de 80 mil visitantes y 100 mdp en derrama económica.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Tipo_de_publicacion>Periódico impreso</Tipo_de_publicacion>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Impresiones>39786</Impresiones>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Xantolo</Tema_segun_la_fuente>
+		<Sintesis>El municipio de Huejutla presentó las actividades de la celebración del Xantolo 2026 del 30 de octubre al 2 de noviembre, estimando la llegada de 80 mil visitantes.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Medio_de_origen>El Universal Hidalgo</Medio_de_origen>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Lorena Rosas</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Pide DIF Hidalgo a municipios acercar apoyos a la población en estado de vulnerabilidad</Titular>
+		<Contenido>Edda Vite Ramos encabezó la entrega de equipamiento para comedores comunitarios por 2.2 mdp en beneficio de 26 municipios.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Tipo_de_publicacion>Periódico impreso</Tipo_de_publicacion>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Impresiones>39786</Impresiones>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Espacios de alimentación</Tema_segun_la_fuente>
+		<Sintesis>La presidenta del patronato del DIFH entregó mobiliario e insumos para reequipar comedores comunitarios en 26 municipios con inversión de 2.2 mdp.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Medio_de_origen>El Universal Hidalgo</Medio_de_origen>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Visitan más de 200 personas a familiares en Estados Unidos</Titular>
+		<Contenido>El programa Raíces de Hidalgo ha beneficiado a más de 200 adultos mayores con la tramitación de visas para visitar a sus familiares migrantes en EE. UU.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Tipo_de_publicacion>Periódico impreso</Tipo_de_publicacion>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Impresiones>39786</Impresiones>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención A Migrantes</Tema_segun_la_fuente>
+		<Sintesis>A través del esquema Raíces de Hidalgo, más de 200 adultos mayores han logrado reencontrarse con familiares residentes en Estados Unidos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Medio_de_origen>El Universal Hidalgo</Medio_de_origen>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+		<Actores_mencionados>Manuel Enrique Aranda Montero</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Detienen a dos sujetos en posesión de drogas</Titular>
+		<Contenido>Agentes de la PGJEH arrestaron a dos hombres en Atitalaquia con varias dosis de marihuana y cristal, además de un arma de fuego corta.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Atitalaquia</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Tipo_de_publicacion>Periódico impreso</Tipo_de_publicacion>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Impresiones>39786</Impresiones>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>Agentes de investigación de la PGJEH detuvieron a dos personas con enervantes y un arma corta en Atitalaquia durante indagatorias de denuncias.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Medio_de_origen>El Universal Hidalgo</Medio_de_origen>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Redacción</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Van 1.5 millones de vacunas contra influenza y Covid-19</Titular>
+		<Contenido>La Secretaría de Salud de Hidalgo proyecta aplicar un millón de biológicos contra la influenza y más de 500 mil contra Covid-19 durante la temporada invernal.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Tipo_de_publicacion>Periódico impreso</Tipo_de_publicacion>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Impresiones>39786</Impresiones>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vacunación</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Salud de Hidalgo iniciará la campaña invernal de vacunación con la meta de administrar 1.5 millones de vacunas contra infecciones respiratorias.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Medio_de_origen>El Universal Hidalgo</Medio_de_origen>
+		<Autor>Ricardo Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante Arroyo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Toman por tercera ocasión una caseta</Titular>
+		<Contenido>Estudiantes de la Normal Rural El Mexe se manifestaron en la caseta de San Alejo sobre la vía México-Tuxpan exigiendo mesas de diálogo con autoridades.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Tipo_de_publicacion>Periódico impreso</Tipo_de_publicacion>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Impresiones>39786</Impresiones>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>El Mexe</Tema_segun_la_fuente>
+		<Sintesis>Normalistas de El Mexe realizaron un boteo de protesta en la caseta de Tulancingo para solicitar delimitación de predios escolares y comedor.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Medio_de_origen>El Universal Hidalgo</Medio_de_origen>
+		<Autor>Mirely Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Mirely Santos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Dota DIFH de reequipamiento a espacios de alimentación para personas vulnerables</Titular>
+		<Contenido>El Sistema DIF Hidalgo realizó la entrega de reequipamiento a Espacios de Alimentación, Encuentro y Desarrollo de 26 municipios, con una inversión de 2 millones 293 mil pesos, en beneficio de 28 mil 90 personas en situación de vulnerabilidad. La presidenta del Patronato del Sistema DIF Hidalgo, Edda Vite Ramos, informó que el objetivo es entregar mobiliario y artículos de cocina.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Espacios de alimentación</Tema_segun_la_fuente>
+		<Sintesis>El DIF Hidalgo invirtió 2.2 mdp en el reequipamiento de comedores comunitarios y escolares en 26 municipios, beneficiando a más de 28 mil personas vulnerables.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Combi pierde el control y arrolla a mujer en Pachuca</Titular>
+		<Contenido>Una unidad de transporte colectivo perdió el control y subió a la banqueta en la esquina de Julián Villagrán y Vicente Guerrero en Pachuca, arrollando a una mujer adulta mayor que resultó con lesiones de consideración y fue trasladada a la Clínica 1 del IMSS.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente de Transporte Público</Tema_segun_la_fuente>
+		<Sintesis>Una colectiva de transporte público atropelló a una adulta mayor en el centro de Pachuca tras perder el control el conductor; la víctima fue ingresada a la Clínica 1 del IMSS.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, SSPH, Cruz Roja, IMSS</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Colectiva invade la banqueta, arrolla a adulta mayor y choca</Titular>
+		<Contenido>Una colectiva de la ruta Amarilla se salió de la cinta asfáltica en la calle Julián Villagrán, colonia Centro de Pachuca, atropellando a una mujer de la tercera edad y chocando contra un negocio. La lesionada fue trasladada a un hospital.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente de Transporte Público</Tema_segun_la_fuente>
+		<Sintesis>Una colectiva de transporte público invadió la banqueta en el Centro de Pachuca, atropelló a una adulta mayor y chocó contra un comercio; el chofer fue detenido.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, SSPH, Cruz Roja</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Menchaca pide reforzar seguridad tras ingreso masivo</Titular>
+		<Contenido>Tras el ingreso masivo de personas durante la presentación de Calibre 50 en la Feria San Francisco Pachuca 2026, el gobernador Julio Menchaca solicitó a la Operadora de Eventos del Estado de Hidalgo reforzar las medidas de seguridad y llamó a la prudencia.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca pidió a la Operadora de Eventos reforzar los controles de seguridad en los accesos a la Feria de Pachuca tras el derribo de vallas registrado en un concierto.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Turismo</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Capturando Hidalgo premió con 132 mil pesos a sus artistas</Titular>
+		<Contenido>La Secretaría de Cultura de Hidalgo anunció a los ganadores del programa Capturando Hidalgo 2026, entregando 132 mil pesos a 22 obras fotográficas provenientes de 14 municipios.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a artistas</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Cultura premió 22 obras fotográficas de la convocatoria Capturando Hidalgo 2026 con una bolsa total de 132 mil pesos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Caen con narcóticos y un arma de fuego</Titular>
+		<Contenido>Agentes de la Agencia de Investigación Criminal de la PGJEH detuvieron en Atitalaquia a dos hombres identificados como C.A.G.C. y J.A.G.C. en posesión de marihuana, cristal, un arma corta y una libreta de anotaciones.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Municipio>Atitalaquia</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>Agentes de la PGJEH capturaron en Atitalaquia a dos hombres armados con dosis de marihuana y cristal presuntamente destinadas al narcomenudeo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>La SSPH llevó el programa “Ciudad Policía” a Ciudad Sahagún</Titular>
+		<Contenido>La Secretaría de Seguridad Pública de Hidalgo acercó el programa preventivo Ciudad Policía a niños del Centro de Atención Múltiple No. 6 en Ciudad Sahagún para fomentar la cultura de la legalidad y proximidad social.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Municipio>Tepeapulco</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención del delito</Tema_segun_la_fuente>
+		<Sintesis>La SSPH realizó actividades de prevención y proximidad comunitaria con alumnos del Centro de Atención Múltiple de Ciudad Sahagún.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Arrolla colectiva a una transeúnte sobre la banqueta</Titular>
+		<Contenido>Una mujer resultó lesionada de consideración tras ser atropellada por una Urvan del transporte público que perdió el control y subió a la banqueta en la calle Julián Villagrán, en Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Impresiones>39786</Impresiones>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente de Transporte Público</Tema_segun_la_fuente>
+		<Sintesis>Una combi de la ruta Amarilla arrolló a una transeúnte en el centro de Pachuca; la víctima fue trasladada a la Clínica 1 del IMSS y la unidad fue remitida al corralón.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, STCH, IMSS, Policía Municipal</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Van a demoler primaria en Tulancingo; edificarán otra</Titular>
+		<Contenido>Por severos daños estructurales en la primaria Aquiles Serdán de Tulancingo, la SEPH edificará un nuevo plantel durante el ciclo escolar 2026-2027, evaluando reubicación presencial o clases en línea.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Impresiones>39786</Impresiones>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>La SEPH reconstruirá totalmente la escuela primaria Aquiles Serdán en Tulancingo debido a fallas estructurales, buscando inmuebles alternos para no interrumpir las clases.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Lleva 76% de avance el Centro Administrativo</Titular>
+		<Contenido>A tres meses de que concluya el año, la construcción del Centro Administrativo y de Servicios para el Pueblo presenta un avance del 76%, informó Sipdus.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Complejo Gubernamental</Tema_segun_la_fuente>
+		<Sintesis>Las obras del Centro Administrativo y de Servicios para el Pueblo registraron un 76% de avance físico y se prevé su conclusión a inicios de 2027.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Gobernador, Oficialía Mayor</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Destinan 1.5 mdp para el alumbrado público en la glorieta Miguel Hidalgo</Titular>
+		<Contenido>La Sipdus adjudicó la instalación de alumbrado público en áreas peatonales de la glorieta Miguel Hidalgo por 1.55 millones de pesos.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>alumbrado público</Tema_segun_la_fuente>
+		<Sintesis>Con un presupuesto de 1.5 mdp, la Sipdus colocará 98 luminarias de acero en los pasos peatonales de la glorieta 24 Horas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Mauricio Austria Márquez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Reconstrucción de Las Torres tiene avance de 52 por ciento</Titular>
+		<Contenido>La reconstrucción con concreto hidráulico en el bulevar Las Torres registra un avance del 52% y se estima concluir en diciembre.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Rehabilitación Vial</Tema_segun_la_fuente>
+		<Sintesis>Sipdus reportó que la rehabilitación con concreto hidráulico del carril derecho del bulevar Las Torres cuenta con un 52% de avance.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>DIF Hidalgo concretará tres nuevas adopciones</Titular>
+		<Contenido>El Sistema DIF Hidalgo entregará este jueves a tres menores a sus familias adoptivas, sumando 62 integraciones en la presente administración.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Adopción De Menores</Tema_segun_la_fuente>
+		<Sintesis>La presidenta del DIFH, Edda Vite, confirmó la asignación de tres infantes a hogares adoptivos e hizo un llamado a integrar también a adolescentes.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lizania Zavala</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos, Laura Karina Ramírez Jiménez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Dan de alta al lesionado durante acto de paratletas</Titular>
+		<Contenido>Un menor lesionado accidentalmente durante un abanderamiento de atletas adaptados fue dado de alta médica tras recuperarse satisfactoriamente.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención médica</Tema_segun_la_fuente>
+		<Sintesis>Autoridades del Hospital del Niño DIF reportaron el alta sin secuelas visuales del menor accidentado en la Ciudad Deportiva de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lizania Zavala</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Exalcalde enfrenta proceso penal por un terreno vendido</Titular>
+		<Contenido>El expresidente de Omitlán, Jorge Martín Borbolla, compareció en juzgados por la enajenación irregular de un predio donado al municipio.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Omitlán</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Investigación por corrupción</Tema_segun_la_fuente>
+		<Sintesis>Inició el proceso judicial contra el exalcalde Jorge Martín Borbolla por presunto peculado en la venta de un terreno valorado en hasta 64 mdp.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Luis Godínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Jorge Martín Borbolla Calderón, Martha Belem Oliver González</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Detiene PGJEH a 2 hombres en posesión de narcóticos</Titular>
+		<Contenido>En la región Huasteca, agentes ministeriales aprehendieron a dos individuos con diversas dosis de estupefacientes preparados para venta.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Calnali</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>Elementos de la PGJEH aseguraron a dos presuntos distribuidores de droga con envoltorios de cristal y notas operativas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Dos hombres resultaron lesionados luego de un encontronazo en la México-Tampico</Titular>
+		<Contenido>Dos masculinos sufrieron heridas tras chocar sus vehículos en la carretera federal pero se negaron al traslado hospitalario.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente Vial</Tema_segun_la_fuente>
+		<Sintesis>Impacto automovilístico en la vía México-Tampico dejó dos personas policontundidas que rehusaron atención de paramédicos.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Una urvan de la ruta Amarilla aplasta a mujer</Titular>
+		<Contenido>Un transporte público invadió la banqueta en la calle Julián Villagrán de Pachuca y atropelló a una transeúnte de la tercera edad.</Contenido>
+		<Fecha_de_publicacion>2026-10-01</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente de Transporte Público</Tema_segun_la_fuente>
+		<Sintesis>Una falla mecánica provocó que una unidad de transporte colectivo arrollara a una peatona en el centro de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, SSPH</Dependencias_mencionadas>
+	</Nota>
+</NotasRadio>

@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Emmanuel Villarreal</Usuario>
+		<Titular>Buscan garantía en seguridad y respeto al voto en elección 2027</Titular>
+		<Contenido>Tras el inicio del proceso electoral federal, dirigentes de partidos políticos en Hidalgo sostuvieron una reunión de trabajo con el secretario de Gobierno, Guillermo Olivares Reyna, para acordar esquemas de seguridad y paz.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Proceso electoral</Tema_segun_la_fuente>
+		<Sintesis>Dirigentes partidistas acordaron mantener reuniones mensuales con la Secretaría de Gobierno para prevenir conflictos y garantizar un ambiente de paz en las elecciones.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Gobierno, PRD, Nueva Alianza, MC</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna, Margarita Ramos Villeda, Juana María Márquez Parrasales, Juan Ignacio Samperio Montaño</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Emmanuel Villarreal</Usuario>
+		<Titular>PGJEH, de las seis sin autonomía en el país</Titular>
+		<Contenido>El Censo Nacional de Procuración de Justicia Estatal del Inegi ubica a la Procuraduría de Hidalgo entre las seis dependencias del país que no son un órgano constitucional autónomo.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Transición a Fiscalía</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo avanza en un 80% en el proceso de transición hacia la Fiscalía General de Justicia, órgano que contará con plena autonomía constitucional.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Fernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Emmanuel Villarreal</Usuario>
+		<Titular>SEPH activa protocolo por arma en un escuela</Titular>
+		<Contenido>La Secretaría de Educación Pública de Hidalgo activó el protocolo institucional tras el hallazgo de un objeto presuntamente peligroso en la mochila de un estudiante en Huasca de Ocampo.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Huasca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Alumno Armado</Tema_segun_la_fuente>
+		<Sintesis>La SEPH implementó medidas de prevención y resguardo en una secundaria de Huasca tras detectar un objeto no permitido entre las pertenencias de un alumno.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miriam Avilés</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Emmanuel Villarreal</Usuario>
+		<Titular>Invierten 10 mil mdp en el parque industrial</Titular>
+		<Contenido>El titular de la Unidad de Planeación y Prospectiva, Miguel Ángel Tello Vargas, detalló la inversión federal para consolidar el Polo de Desarrollo Económico Reserva Zapotlán.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Zapotlán</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Parque industrial</Tema_segun_la_fuente>
+		<Sintesis>El gobierno confirmó una bolsa superior a 10 mil mdp para obras de infraestructura carretera y ferroviaria en el Parque Industrial de Zapotlán.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Planeación</Dependencia>
+		<Dependencias_mencionadas>Planeación, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Miguel Ángel Tello Vargas</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Emmanuel Villarreal</Usuario>
+		<Titular>Entregan el Premio Estatal de la Juventud 2026</Titular>
+		<Contenido>Dieciocho jóvenes hidalguenses fueron galardonados con el Premio Estatal de la Juventud 2026 en una ceremonia encabezada por el gobernador Julio Menchaca Salazar.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Premio Estatal De La Juventud</Tema_segun_la_fuente>
+		<Sintesis>El gobernador entregó reconocimientos y apoyos por más de 6.2 mdp a jóvenes destacados por su trayectoria y aportaciones sociales en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobierno</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Emmanuel Villarreal</Usuario>
+		<Titular>Priorizan apoyos para usuarias de Centros LIBRE</Titular>
+		<Contenido>Usuarias de los Centros LIBRE recibirán prioridad en la entrega de apoyos económicos del gobierno estatal, además de atención médica y jurídica gratuita del Instituto Hidalguense de las Mujeres.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo A La Mujer</Tema_segun_la_fuente>
+		<Sintesis>El gobierno del estado fortalece la atención a mujeres vulnerables otorgando preferencia a usuarias de los Centros LIBRE en los programas sociales.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Gobierno</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Emmanuel Villarreal</Usuario>
+		<Titular>Invierten 2.1 mdp en techado para Cobach</Titular>
+		<Contenido>Durante una gira de trabajo por San Felipe Orizatlán, autoridades educativas iniciaron las obras de un techado para la cancha deportiva del Cobaeh Ahuatitla.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>San Felipe Orizatlán</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Infraestructura escolar</Tema_segun_la_fuente>
+		<Sintesis>La SEPH puso en marcha obras de infraestructura escolar en planteles de educación media y básica en San Felipe Orizatlán.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Concreta DIFH tres nuevas adopciones; suman 61 en 4 años</Titular>
+		<Contenido>En los últimos cuatro años, el Sistema para el Desarrollo Integral de la Familia de Hidalgo (DIFH) ha formalizado la adopción de 61 niñas, niños y adolescentes a través del programa Puentes de Amor, incluyendo tres menores con alguna discapacidad.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Adopción De Menores</Tema_segun_la_fuente>
+		<Sintesis>El Sistema DIF Hidalgo ha formalizado 61 adopciones en cuatro años a través del programa Puentes de Amor, sumando tres nuevas familias integradas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos, Ricardo Alvizo Contreras, Laura Karina Ramírez Jiménez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Invierten 6.2 mdp en programas sociales para las juventudes</Titular>
+		<Contenido>Durante la entrega del Premio Estatal de la Juventud 2026, las autoridades informaron sobre la inversión de 6.2 millones de pesos en diversos esquemas de apoyo para jóvenes en Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Premio Estatal De La Juventud</Tema_segun_la_fuente>
+		<Sintesis>Gobierno de Hidalgo destinó 6.2 millones de pesos en programas del IHJ y entregó galardones del Premio Estatal de la Juventud 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Sebiso, IHJ, Gobierno</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Gómez Moreno, Ricardo Olvera Molina, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Cultura prepara etiqueta para garantizar autenticidad de obras</Titular>
+		<Contenido>La Secretaría de Cultura estatal diseña un sello distintivo en conjunto con la federación para certificar las piezas elaboradas manualmente por artesanos hidalguenses.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Padrón de artesanos</Tema_segun_la_fuente>
+		<Sintesis>Secretaría de Cultura de Hidalgo crea una etiqueta oficial de autenticidad para proteger el trabajo de artesanos locales frente a revendedores.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Neyda Naranjo Baltazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Van 26 personas con miasis por barrenador</Titular>
+		<Contenido>La Secretaría de Salud de Hidalgo mantiene acciones de vigilancia epidemiológica ante la presencia del gusano barrenador, el cual ha afectado a 26 personas en la entidad sin registrar defunciones. Además, atienden demandas en la presa Endhó y previenen el suicidio.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vigilancia Epidemiológica</Tema_segun_la_fuente>
+		<Sintesis>La SSH reportó 26 casos dados de alta de gusano barrenador en Hidalgo e intensificó acciones sanitarias en la presa Endhó y programas de prevención del suicidio.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Local</Posicion>
+		<Dimension>14</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Maximiliano Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Cenaprece</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante Arroyo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Reconocen a 18 jóvenes en Hidalgo</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar presidió la entrega del Premio Estatal de la Juventud 2026, con el que fueron reconocidos 18 jóvenes por su trayectoria y aportaciones en áreas académicas, científicas, culturales, de emprendimiento e inclusión social.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Premio Estatal De La Juventud</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca entregó el Premio Estatal de la Juventud 2026 a 18 jóvenes destacados y resaltó la inversión de 6.2 mdp en programas para las juventudes.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobierno, IHJ, Sebiso, Semoth, Caasim, SICT</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Luis Ricardo Olvera Molina, Flor María Bautista Álvarez, Claudia Sheinbaum</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Llevan la innovación y soluciones a Expociencias</Titular>
+		<Contenido>Estudiantes del Colegio de Estudios Científicos y Tecnológicos del Estado de Hidalgo (CECYTEH) presentaron 10 proyectos de ciencia y tecnología aplicados a problemáticas locales durante la Expociencias Hidalgo 2026.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Innovación tecnológica</Tema_segun_la_fuente>
+		<Sintesis>Alumnos del CECYTEH destacaron en la Expociencias Hidalgo 2026 al presentar 10 proyectos enfocados en resolver problemas locales mediante ciencia y tecnología.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Local</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Gustavo Vargas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, UAEH</Dependencias_mencionadas>
+		<Actores_mencionados>Daniel Cruz Campos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>DIF concreta otras tres adopciones</Titular>
+		<Contenido>Tres menores de edad iniciaron una nueva etapa de vida al integrarse legalmente a sus familias adoptivas durante el evento "Un puente de amor", encabezado por Edda Vite Ramos, presidenta del Patronato del Sistema DIF Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Adopción De Menores</Tema_segun_la_fuente>
+		<Sintesis>El Sistema DIF Hidalgo concretó la adopción de tres menores mediante el programa "Un puente de amor", alcanzando 62 adopciones durante la presente administración estatal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Local</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Gustavo Vargas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Abren registro para Bono de Discapacidad</Titular>
+		<Contenido>La Sección 15 del Sindicato Nacional de Trabajadores de la Educación (SNTE) abrió el proceso de selección para otorgar el denominado Bono de Discapacidad a trabajadores de la educación en activo o a sus hijos que viven con alguna condición especial.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a personas con discapacidad</Tema_segun_la_fuente>
+		<Sintesis>La Sección 15 del SNTE convocó a docentes en activo a registrarse para obtener el Bono de Discapacidad para trabajadores o sus hijos con alguna condición especial.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Local</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Gustavo Vargas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, SNTE, ISSSTE, IMSS, DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Said Vargas Sáenz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Verifican los que salen a otras zonas de Ixmiquilpan</Titular>
+		<Contenido>Automovilistas de Ixmiquilpan acuden a realizar la verificación vehicular en la unidad móvil de la comunidad de Dios Padre principalmente cuando requieren trasladarse a Pachuca, Tula, Querétaro o Puebla por ser un requisito obligatorio.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>12</Liga>
+		<Municipio>Ixmiquilpan</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Verificación vehicular</Tema_segun_la_fuente>
+		<Sintesis>El verificentro móvil de Ixmiquilpan atiende prioritariamente a conductores que necesitan viajar a otros municipios o estados donde la verificación es exigida.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Regional</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Omar Santiago</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath</Dependencias_mencionadas>
+		<Actores_mencionados>Luis David Alamilla Zúñiga</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Aprovechar el lirio no es la solución</Titular>
+		<Contenido>El ambientalista Carlos Álvarez Flores señaló que buscar un aprovechamiento permanente del lirio acuático en la presa Endhó es un contrasentido, pues la prioridad debe ser frenar la contaminación del agua y realizar tratamientos efectivos.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Lirio Acuático</Tema_segun_la_fuente>
+		<Sintesis>El especialista Carlos Álvarez afirmó que la prioridad en la presa Endhó debe ser eliminar la contaminación del agua en lugar de enfocarse únicamente en cosechar el lirio.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Regional</Posicion>
+		<Dimension>14</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Rosalía Maldonado</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Conagua, Citnova</Dependencias_mencionadas>
+		<Actores_mencionados>Carlos Álvarez Flores, Hugo García Reyes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Cerca de 6 toneladas de café anuales</Titular>
+		<Contenido>Productores de café de la Huasteca hidalguense cosechan alrededor de 6 mil toneladas anuales, pero enfrentan afectaciones por el cambio climático y la roya, por lo que solicitan mayor asesoría técnica y apoyos para comercializar su producto a precios justos.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>14</Liga>
+		<Municipio>Huazalingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Producción agrícola</Tema_segun_la_fuente>
+		<Sintesis>Cafetaleros de la Huasteca hidalguense pidieron asesoría comercial y apoyos para combatir la roya y lograr precios competitivos para sus cosechas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Regional</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Rubén Juárez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh, Sader</Dependencias_mencionadas>
+		<Actores_mencionados>Rosendo Hernández Castillo, Jorge Rocha Reyes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Lirio acuático se apodera de la presa Javier Rojo Gómez</Titular>
+		<Contenido>A casi dos años de que pobladores de comunidades aledañas a la presa Javier Rojo Gómez en Alfajayucan denunciaran la plaga de lirio que cubre más de 90% del embalse y genera mosco Culex, la problemática persiste sin que las autoridades municipales hayan logrado retirar la planta.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Alfajayucan</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Lirio Acuático</Tema_segun_la_fuente>
+		<Sintesis>Pobladores de Alfajayucan denunciaron que el lirio acuático cubre más de 90% de la presa Javier Rojo Gómez y genera plaga de mosco Culex sin acciones efectivas de retiro.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erika Gutiérrez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Conagua, Cenaprece</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Agustín Cruz Tovar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Estatal dejaría secretaría para competir en 2027</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar confirmó que un integrante de su gabinete estatal evalúa dejar su cargo de secretario para participar en el proceso electoral de 2027, señalando que quien busque competir debe asumir los riesgos correspondientes.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aspirantes</Tema_segun_la_fuente>
+		<Sintesis>Un secretario del gabinete del gobernador Julio Menchaca evalúa dejar su cargo para buscar una candidatura en las elecciones de 2027.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobierno</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Imputaciones aumentaron 13% en un año en la entidad</Titular>
+		<Contenido>Durante 2025, la PGJEH formuló imputación a 5 mil 302 personas, de las cuales 4 mil 791 fueron vinculadas a proceso, lo que representó un incremento del 13% respecto al año anterior, según datos del Censo Nacional de Procuración de Justicia del Inegi.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>Las imputaciones formuladas por el Ministerio Público en Hidalgo crecieron 13% en 2025 al alcanzar 5 mil 302 casos, según el Inegi.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Inegi, FGR</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Han sido adoptados en Hidalgo 3 menores con discapacidad en 4 años</Titular>
+		<Contenido>El Sistema DIF Hidalgo ha concretado 61 adopciones en los últimos cuatro años, de las cuales tres corresponden a menores con alguna discapacidad, como el caso de Elías Gabriel, de dos años y dos meses con acondroplasia, quien fue integrado a su nueva familia.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Adopción De Menores</Tema_segun_la_fuente>
+		<Sintesis>El DIF Hidalgo sumó 61 adopciones en cuatro años, entre ellas tres menores con discapacidad, restituyendo su derecho a integrarse a un hogar.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Laura Karina Ramírez Jiménez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Menchaca entregó el Premio de la Juventud</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar encabezó la entrega del Premio Estatal de la Juventud 2026 a 18 galardonados y otorgó apoyos sociales a 667 jóvenes, destacando un incremento presupuestal del 360% en programas sociales durante su administración.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Premio Estatal De La Juventud</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca reconoció a 18 galardonados del Premio Estatal de la Juventud 2026 y entregó programas sociales con inversión de 6.2 mdp.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobierno, Sebiso, IHJ</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Ricardo Gómez Moreno, Luis Ricardo Olvera Molina, Flor María Bautista Álvarez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Estudiante desarrolla dron para reforestación</Titular>
+		<Contenido>José de Jesús Rivas Ángeles, estudiante del Conalep Hidalgo, desarrolló Agrofly, un proyecto que adapta un dron para mapear terrenos y dispersar cápsulas de semillas endémicas en zonas forestales de difícil acceso afectadas por tala o incendios.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Innovación tecnológica</Tema_segun_la_fuente>
+		<Sintesis>Estudiante del Conalep Hidalgo creó Agrofly, un dron diseñado para reforestar mediante dispersión aérea de semillas en zonas boscosas de difícil acceso.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>Conalep</Dependencias_mencionadas>
+		<Actores_mencionados>José de Jesús Rivas Ángeles</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Decomisaron un arma en secundaria de Huasca</Titular>
+		<Contenido>Un arma de fuego y cartuchos fueron decomisados a un estudiante de 13 años durante un operativo de revisión en la secundaria Teodomiro Manzano en Huasca de Ocampo, provocando la activación de protocolos de la SEPH e investigaciones de autoridades.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Huasca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Alumno Armado</Tema_segun_la_fuente>
+		<Sintesis>Autoridades decomisaron un arma de fuego a un alumno de secundaria en Huasca de Ocampo; la SEPH activó protocolos de seguridad e investigación.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Transporte público suma dos accidentes</Titular>
+		<Contenido>Dos percances viales del transporte público se registraron en la región Tulancingo en menos de una semana, dejando saldo de un chofer fallecido tras sufrir un infarto al volante y tres pasajeros lesionados.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente de Transporte Público</Tema_segun_la_fuente>
+		<Sintesis>Dos accidentes de colectivas en la región Tulancingo dejaron un conductor sin vida y tres personas heridas.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Mirely Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Cruz Roja</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Hubo 2 ingresos de armas a escuelas en una semana</Titular>
+		<Contenido>Tras el caso detectado en la secundaria general Teodomiro Manzano en Huasca de Ocampo, la SEPH activó protocolos institucionales para salvaguardar a la comunidad escolar. Además, en esta semana se reportó la evacuación preventiva del Centro de Estudios de Bachillerato Prof. Rafael Ramírez en Pachuca por un incidente similar.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Huasca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Alumno Armado</Tema_segun_la_fuente>
+		<Sintesis>La SEPH activó protocolos de seguridad por el hallazgo de armas de fuego en planteles educativos de Huasca y Pachuca, exhortando a los padres de familia a supervisar los objetos de los alumnos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Alista un secretario de Hidalgo posible candidatura para 2027</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar reveló que un miembro de su gabinete le manifestó su interés por competir en el proceso electoral de 2027. El mandatario indicó que quien decida participar deberá renunciar a su cargo y comparecer ante el Congreso local, dejando en claro que no habrá posibilidad de reincorporación si no obtiene la candidatura.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aspirantes</Tema_segun_la_fuente>
+		<Sintesis>Julio Menchaca confirmó que un integrante de su gabinete evalúa postularse en 2027 y aclaró que de aceptar la contienda deberá dejar su puesto definitivamente antes de las comparecencias.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobierno, Congreso, Morena</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Edgar Orlando Ángeles Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Descarta JMS al Chico para las Casas del Bienestar</Titular>
+		<Contenido>El gobernador Julio Menchaca descartó construir Viviendas del Bienestar en la cabecera municipal de Mineral del Chico debido a la falta de espacio, sugiriendo que podrían ubicarse en localidades como La Estanzuela, Benito Juárez o Carboneras. Mencionó que la Semot, Caasim y Sipdus trabajan en las rutas y servicios requeridos para estos desarrollos.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Mineral del Chico</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Proyectos Federales</Tema_segun_la_fuente>
+		<Sintesis>Julio Menchaca aclaró que la escasez de terrenos impide edificar Casas del Bienestar en la cabecera de Mineral del Chico, por lo que se evalúa realizarlas en comunidades alejadas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Semot, Caasim, Sipdus, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Claudia Sheinbaum Pardo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>DIF estatal entrega tres niños a sus familias adoptivas</Titular>
+		<Contenido>El Sistema DIF Hidalgo celebró el evento 'Adopción, un puente de amor', en el que tres menores —entre ellos Elías Gabriel, de dos años, que vive con acondroplasia, y dos recién nacidos— se integraron legalmente a sus nuevas familias en el Centro Pilares de Pachuca. Con esta entrega, suman 61 adopciones en lo que va de la administración estatal.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Adopción De Menores</Tema_segun_la_fuente>
+		<Sintesis>El DIF Hidalgo integró a tres menores a sus familias adoptivas como parte del programa Un puente de amor, alcanzando 61 procesos de adopción concretados durante el gobierno actual.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lizania Zavala</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Suben 40 por ciento denuncias por robos</Titular>
+		<Contenido>De acuerdo con el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública, las denuncias por robo en sus diversas modalidades crecieron un 40 por ciento en Mineral del Monte entre enero y agosto de 2026, pasando de 30 carpetas en 2025 a 50 en el presente año. Asimismo, se reportó un incremento en las investigaciones por lesiones y narcomenudeo.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Mineral del Monte</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>Las carpetas de investigación por robo en Mineral del Monte aumentaron 40% durante los primeros ocho meses de 2026 en comparación con 2025, de acuerdo con cifras del SESNSP.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Martha Sáenz</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Vinculan a proceso a exalcalde de Omitlán de Juárez por peculado</Titular>
+		<Contenido>En audiencia privada celebrada en los juzgados de Pachuca, la jueza Karina Vértiz Marín vinculó a proceso al exalcalde de Omitlán de Juárez, Jorge Martín Borbolla Calderón, por el delito de peculado. Se le investiga por la venta desproporcionada de un predio municipal de 39 mil metros cuadrados en 21 millones de pesos, cuando su valor comercial oscila entre 49 y 64 millones.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Omitlán</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Investigación por corrupción</Tema_segun_la_fuente>
+		<Sintesis>El exalcalde Jorge Martín Borbolla Calderón fue vinculado a proceso por peculado tras la venta presuntamente subvaluada de un terreno municipal donado para fines de interés social.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Luis Godínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Jorge Martín Borbolla Calderón, Karina Vértiz Marín, Martha Belem Oliver González</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Cambios viales generan molestias entre habitantes y automovilistas</Titular>
+		<Contenido>Los cierres de accesos y la habilitación de rutas alternas por las obras del nuevo puente de La Romera en Tepeji del Río han provocado inconformidad entre vecinos y conductores. La obra contempla una inversión y un plazo de ejecución de 245 días para agilizar la conectividad entre Tianguistengo y El Cerrito.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Tepeji del Río</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Obras De Infraestructura</Tema_segun_la_fuente>
+		<Sintesis>Habitantes de Tepeji del Río externaron su inconformidad por los cortes a la circulación vial derivados de la edificación del nuevo puente vehicular en la zona de La Romera.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Abigail García Torres</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Ayuntamiento, INAH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Menchaca Salazar respalda a la juventud hidalguense</Titular>
+		<Contenido>Como un reconocimiento y respaldo a las y los jóvenes hidalguenses, el gobernador Julio Menchaca Salazar encabezó la entrega del Premio Estatal de la Juventud 2026 y programas sociales para 667 beneficiarios, gracias a la inversión de seis millones 200 mil pesos.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Premio Estatal De La Juventud</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca entregó el Premio Estatal de la Juventud 2026 y programas sociales en beneficio de 667 jóvenes hidalguenses con una inversión de 6.2 millones de pesos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobierno, Sebiso, IHJ</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Flor María Bautista Álvarez, Ricardo Gómez Moreno, Luis Ricardo Olvera Molina</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Funcionarios estatales analizan irse de candidatos</Titular>
+		<Contenido>Integrantes del gobierno de Hidalgo analizan dejar sus cargos para buscar una candidatura en el proceso electoral de 2027, reconoció Julio Menchaca Salazar, gobernador de Hidalgo, advirtiendo que no podrán regresar a sus puestos.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aspirantes</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca confirmó que miembros de su gabinete evalúan buscar candidaturas para 2027 y recalcó que quienes decidan competir no podrán reincorporarse a sus cargos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Morena, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Con operativo Mochila, detectan arma en Secundaria de Huasca</Titular>
+		<Contenido>Durante la implementación del Operativo Mochila en la Escuela Secundaria General Teodomiro Manzano del municipio de Huasca de Ocampo, autoridades detectaron un arma de fuego y cartuchos al interior de la mochila de un alumno.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Huasca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Alumno Armado</Tema_segun_la_fuente>
+		<Sintesis>Autoridades decomisaron un arma de fuego y cartuchos a un estudiante durante el Operativo Mochila en una secundaria de Huasca de Ocampo; la SEPH activó protocolos escolares.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Supervisan unidades de transporte público</Titular>
+		<Contenido>La Secretaría de Movilidad y Transporte de Hidalgo dio a conocer que el personal del Sistema de Transporte Convencional mantiene labores de vigilancia y supervisión en Tolcayuca, Huejutla, Tulancingo, Mineral de la Reforma y Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Supervisión de Transporte</Tema_segun_la_fuente>
+		<Sintesis>La Semot realizó operativos de inspección a unidades de transporte público en cinco municipios de Hidalgo para garantizar el cumplimiento de la Ley de Movilidad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, STCH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Motociclista pierde la vida tras una carambola en la México-Pachuca</Titular>
+		<Contenido>Una mañana mortal fue la de este jueves sobre la Autopista México-Pachuca, donde se registró una carambola a la altura de Ecatepec que dejó como saldo preliminar a un motociclista sin vida y cuantiosos daños materiales.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente Vial</Tema_segun_la_fuente>
+		<Sintesis>Un motociclista falleció tras una carambola ocurrida en el kilómetro 14 de la autopista México-Pachuca a la altura de Ecatepec, provocando severas afectaciones viales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>1 secretario de Hidalgo analiza participar en proceso electoral de 2027</Titular>
+		<Contenido>Un integrante del gabinete del gobernador Julio Menchaca Salazar analiza participar en el proceso interno de Morena rumbo a las elecciones de 2027, situación que podría derivar en su salida anticipada de la administración estatal, confirmó el mandatario. El gobernador señaló que si el funcionario decide contender deberá ajustar sus tiempos y adelantar su comparecencia ante el Congreso de Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aspirantes</Tema_segun_la_fuente>
+		<Sintesis>Un titular de secretaría del gobierno de Hidalgo analiza registrarse en la convocatoria interna de Morena rumbo a los comicios de 2027, por lo que tendría que adelantar su comparecencia ante el Congreso local y separarse de su cargo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobierno, Morena, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>16 adolescentes permanecen en proceso de adopción, a través del DIF en Hidalgo</Titular>
+		<Contenido>El programa "Puente de Amor" del Sistema DIF Hidalgo ha concretado 61 adopciones en los últimos cuatro años, mientras que 16 adolescentes permanecen en proceso sin que hasta ahora se hayan encontrado familias interesadas. La presidenta del Patronato, Edda Vite Ramos, y la procuradora Laura Karina Ramírez Jiménez explicaron que las principales dificultades se deben a situaciones de discapacidad, grupos de hermanos o edad avanzada.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Adopción De Menores</Tema_segun_la_fuente>
+		<Sintesis>El programa "Puente de Amor" del DIF Hidalgo registra 61 adopciones concluidas sin revocación; actualmente 13 familias cuentan con certificado de idoneidad y 16 adolescentes con alguna condición de discapacidad o mayor edad buscan integrarse a un hogar.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos, Laura Karina Ramírez Jiménez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Repartieron 6.2 mdp en apoyos para 667 jóvenes hidalguenses</Titular>
+		<Contenido>El gobernador Julio Menchaca encabezó la entrega del Premio Estatal de la Juventud 2026 y beneficios económicos para 667 jóvenes hidalguenses con una inversión de 6.2 millones de pesos. El secretario de Bienestar e Inclusión Social, Ricardo Gómez Moreno, detalló que se entregaron bolsas y recursos mediante programas como Jóvenes Embajadores, Transformando Emprendedores y Titúlate.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Premio Estatal De La Juventud</Tema_segun_la_fuente>
+		<Sintesis>El gobierno estatal dispersó 6.2 millones de pesos a 667 jóvenes hidalguenses mediante el Premio Estatal de la Juventud 2026 y los programas Jóvenes Embajadores, Transformando Emprendedores y Titúlate.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar, Gobierno</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Ricardo Gómez Moreno, Luis Ricardo Olvera Molina</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Van a demoler primaria en Tulancingo; edificarán otra</Titular>
+		<Contenido>La escuela primaria Aquiles Serdán de Tulancingo será demolida y reconstruida totalmente debido a graves daños estructurales. El titular de la SEPH, Natividad Castrejón, explicó que las obras abarcarán todo el ciclo escolar 2026-2027 y los alumnos tomarán clases en sedes temporales o en modalidad híbrida/virtual mientras se concluye el nuevo plantel.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>La SEPH anunció la demolición y sustitución completa de la primaria Aquiles Serdán en Tulancingo por daños estructurales, reubicando temporalmente a los alumnos para el ciclo escolar 2026-2027.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>DIFH concreta 61 adopciones en cuatro años; 16 adolescentes en espera</Titular>
+		<Contenido>El Sistema DIF Hidalgo concretó la adopción de 61 niñas, niños y adolescentes a través del programa "Puente de Amor", durante los cuatro años de la actual administración. Este jueves primero de octubre, tres menores fueron integrados a sus nuevas familias: Elías Gabriel, de dos años y dos meses con acondroplasia, y Leonel, de 21 días de nacido. La titular de la Procuraduría de Protección a Niñas, Niños, Adolescentes y la Familia, Laura Karina Ramírez Jiménez, explicó que el proceso certificado dura seis meses. Edda Vite Ramos informó que actualmente hay 16 adolescentes susceptibles de adopción pero sin familias interesadas por presentar alguna condición de discapacidad física, motriz o intelectual.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Adopción De Menores</Tema_segun_la_fuente>
+		<Sintesis>El Sistema DIF Hidalgo ha concretado la adopción de 61 menores en cuatro años mediante el programa "Puente de Amor", integrando a tres niños a nuevos hogares el 1 de octubre, mientras 16 adolescentes con discapacidad siguen en espera.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos, Laura Karina Ramírez Jiménez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Menchaca confirma que un integrante de su gabinete analiza contender en las elecciones de 2027</Titular>
+		<Contenido>Un integrante del gabinete estatal analiza participar en el proceso electoral de 2027, confirmó el gobernador de Hidalgo, Julio Menchaca Salazar. Aunque no reveló el nombre, indicó que se trata de un titular de secretaría quien deberá adelantar su comparecencia ante el Congreso local en caso de separarse de su cargo.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aspirantes</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca Salazar confirmó que un secretario de su gabinete evalúa contender en los comicios de 2027, precisando que deberá adelantar su comparecencia antes de dejar el cargo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Reconocen a 18 jóvenes con el Premio Estatal de la Juventud 2026</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar encabezó la entrega del Premio Estatal de la Juventud 2026 y programas sociales para 667 beneficiarios, con una inversión de 6.2 millones de pesos. El secretario de Bienestar e Inclusión Social, Ricardo Gómez Moreno, detalló la asignación de bolsas para el Premio Estatal de la Juventud, Jóvenes Embajadores, Transformando Emprendedores y Titúlate.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Premio Estatal De La Juventud</Tema_segun_la_fuente>
+		<Sintesis>El Ejecutivo estatal premió a 18 jóvenes hidalguenses y entregó apoyos sociales por 6.2 millones de pesos a 667 beneficiarios mediante programas de emprendimiento, titulación y liderazgo juvenil.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Ricardo Gómez Moreno, Ricardo Olvera Molina</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Tres lenguas indígenas de Hidalgo registran disminución en su número de hablantes</Titular>
+		<Contenido>Las lenguas indígenas tepehua, pame y tének registran una disminución en el número de hablantes en Hidalgo, sumando en conjunto no más de 350 usuarios, informó Prisco Manuel Gutiérrez, comisionado estatal para el Desarrollo Sostenible de los Pueblos Indígenas, atribuyendo el fenómeno a la migración y al desuso generacional.</Contenido>
+		<Fecha_de_publicacion>2026-10-02</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Preservación Lenguas Maternas</Tema_segun_la_fuente>
+		<Sintesis>El comisionado para el Desarrollo Sostenible de los Pueblos Indígenas advirtió sobre la reducción de hablantes de las lenguas tepehua, pame y tének en Hidalgo, llamando a fortalecer su transmisión en el entorno familiar.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Planeación</Dependencia>
+		<Dependencias_mencionadas>Gobierno</Dependencias_mencionadas>
+		<Actores_mencionados>Prisco Manuel Gutiérrez</Actores_mencionados>
+	</Nota>
+</NotasRadio>
