@@ -1,0 +1,1927 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Emiten alerta por lluvias en Sierra Alta y Otomí-Tepehua</Titular>
+		<Contenido>Ante el inicio de la temporada de lluvias intensas, el gobernador Julio Menchaca Salazar garantizó un monitoreo especial en la Sierra Gorda, Sierra Alta, Otomí-Tepehua y la Huasteca.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>El gobierno de Hidalgo mantiene activo el Comité de Emergencias para monitorear precipitaciones y avanzar en la reconstrucción de infraestructura carretera afectada por la vaguada monzónica.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Gobierno, Sipdus, SICT</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>A un año de la vaguada, Hidalgo en alto riesgo</Titular>
+		<Contenido>El subsecretario de Protección Civil, Román Bernal, advirtió que el 70 por ciento del territorio hidalguense corresponde a zonas serranas con vulnerabilidad, tras identificar más de 150 polígonos de riesgo.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atlas de Riesgos</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil de Hidalgo identificó más de 150 polígonos de alto riesgo por deslaves e inundaciones, e intensificó capacitaciones comunitarias y planes de evacuación preventiva.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miguel Ángel Puértolas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Gobierno</Dependencias_mencionadas>
+		<Actores_mencionados>Román Bernal</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Entre hilos, memorias y un vestido nuevo, Nxutsi espera por los muertos</Titular>
+		<Contenido>En la Casa de la Artesana de Taxadhó, la muñeca Nxutsi es vestida con textiles tradicionales en telar e ixtle para representar la cosmovisión hñähñú durante las festividades del Día de Muertos.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Patrimonio cultural</Tema_segun_la_fuente>
+		<Sintesis>Artesanas de Taxadhó promueven el comercio justo y la preservación del patrimonio textil otomí a través de la muñeca Nxutsi y talleres comunitarios de bordado e ixtle.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Equipo Milenio</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Maurilia Pérez Martín, Diego Armando Pérez Otero, Alejandra Leal</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Van por construcciones sobre ductos de Pemex</Titular>
+		<Contenido>El secretario de Gobierno, Guillermo Olivares Reyna, anunció acciones para revisar y detener las edificaciones irregulares levantadas sobre los derechos de vía de Pemex e inhabilitar infraestructuras clandestinas.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Huachicol</Tema_segun_la_fuente>
+		<Sintesis>El gobierno de Hidalgo mantendrá operativos integrales para combatir el huachicol, asegurando más de 7 millones de litros de combustible e inhabilitando 18 túneles clandestinos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miguel Ángel Puértolas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Gobierno, Pemex</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Reportan más de 31 mil casos resueltos</Titular>
+		<Contenido>De acuerdo con el Censo Nacional de Procuración de Justicia 2026 del Inegi, la PGJEH resolvió 31 mil 129 investigaciones en sede ministerial y atendió 133 mil solicitudes periciales durante 2025.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo se ubicó en el séptimo lugar nacional por resoluciones ministeriales y en noveno sitio por expedientes encauzados a mecanismos alternativos de solución de controversias.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Ángel Fernández Hasbun</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Incautan 2,700 litros de huachicol</Titular>
+		<Contenido>Elementos de la SSPH, PGJEH, Sedena y Guardia Nacional aseguraron más de 1,400 dosis de drogras, 2,700 litros de hidrocarburo y armas durante cateos en Cuautepec de Hinojosa.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Cuautepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Huachicol</Tema_segun_la_fuente>
+		<Sintesis>Un operativo interinstitucional en las localidades de Benito Juárez y Xocopa permitió detener a una persona y decomisar drogas, combustible robado, armas y ponchallantas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Equipo Milenio</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Sedena, Guardia Nacional</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>UTEC acerca industria a sus estudiantes</Titular>
+		<Contenido>La Universidad Tecnológica de Tulancingo firmó un convenio con la empresa Muciño Servicios Especializados para facilitar prácticas profesionales y capacitación industrial a alumnos de ingenierías.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Oferta educativa</Tema_segun_la_fuente>
+		<Sintesis>Estudiantes de la UTEC tendrán acceso a estadías, entrenamiento en manufactura CNC e inserción laboral tras la alianza firmada con el sector industrial.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Docente responde a acusación</Titular>
+		<Contenido>La maestra Elena Cortés Pérez fue separada de su cargo tras 40 años de servicio en una secundaria de Pachuca, luego de ser señalada por una prefecta por una supuesta agresión.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Violencia Escolar</Tema_segun_la_fuente>
+		<Sintesis>Docente de matemáticas con cuatro décadas de trayectoria en Pachuca rechazó los señalamientos en su contra tras ser separada preventivamente de sus grupos.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Elena Cortés Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Alumnos podrán retomar estudios</Titular>
+		<Contenido>El Centro de Bachillerato Tecnológico Industrial y de Servicios abrió un esquema de atención para reincorporar a estudiantes que hayan interrumpido sus estudios de educación media superior.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Oferta educativa</Tema_segun_la_fuente>
+		<Sintesis>El CBTIS brinda alternativas de reinserción escolar para jóvenes que abandonaron temporalmente las aulas, facilitando la conclusión de su bachillerato.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Destinarán 23.8 mdp a nueva sede musical</Titular>
+		<Contenido>La Secretaría de Obras Públicas adjudicó los trabajos de rehabilitación del antiguo edificio de gobierno para acondicionarlo como la nueva sede de la Escuela de Música del Estado de Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Obras De Infraestructura</Tema_segun_la_fuente>
+		<Sintesis>Con una inversión de 23.8 millones de pesos se rehabilitará un inmueble histórico abandonado en Pachuca para albergar las instalaciones de la Escuela de Música estatal.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miriam Avilés</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Sipdus</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Enfrentan procesos trabajadores del Ejecutivo por cobros irregulares</Titular>
+		<Contenido>Diversos servidores públicos del Instituto de la Función Registral, del Registro del Estado Familiar y del Instituto de la Defensoría Pública fueron señalados por presuntamente solicitar dinero de manera irregular para realizar trámites, desaparición de bienes y robo de documentos oficiales. Cinco empleados de la Defensoría fueron separados de su cargo.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Investigación por corrupción</Tema_segun_la_fuente>
+		<Sintesis>Servidores públicos del Poder Ejecutivo de Hidalgo enfrentan procesos administrativos tras detectarse cobros irregulares a usuarios y desvío de recursos en trámites oficiales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Gobierno, Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Ciro Juárez González, Celia Ramírez Godínez, José Luis Álvarez Tagle</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>En un año se reducen 40% fichas de desaparecidos o no localizados</Titular>
+		<Contenido>El titular de la Comisión de Búsqueda de Personas de Hidalgo, José Francisco García Reyes, informó que las fichas activas bajaron de más de 600 a 371 en el último año.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Personas desaparecidas</Tema_segun_la_fuente>
+		<Sintesis>La Comisión de Búsqueda de Personas de Hidalgo reportó una disminución del 40% en reportes activos de personas no localizadas tras depuración de padrones.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, CBPEH</Dependencias_mencionadas>
+		<Actores_mencionados>José Francisco García Reyes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Siete avanzan en programa de enfermería México–Alemania</Titular>
+		<Contenido>La STPSH informó que siete profesionales hidalguenses de la salud acreditaron el proceso de selección para laborar en hospitales de Alemania tras entrevistas de reclutamiento.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vinculación Laboral</Tema_segun_la_fuente>
+		<Sintesis>Siete enfermeros hidalguenses fueron seleccionados para trabajar en Alemania tras participar en la convocatoria internacional promovida por la STPSH.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>STPSH</Dependencia>
+		<Dependencias_mencionadas>STPSH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Oscar Javier González Hernández, Heike Fehlberg, Carmen Kräutner, Karla Munira Vera Maloof</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Decomisan dosis de droga y 2.7 mil litros de huachicol</Titular>
+		<Contenido>En cateos simultáneos en Cuautepec de Hinojosa, autoridades estatales y federales aseguraron más de 1,400 dosis de drogras, 2,700 litros de hidrocarburo y armas de fuego.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Cuautepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Huachicol</Tema_segun_la_fuente>
+		<Sintesis>Operativos en Cuautepec derivaron en la detención de un individuo, decomiso de mil 400 dosis de droga y aseguramiento de 2.7 mil litros de hidrocarburo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Sedena, GN</Dependencias_mencionadas>
+		<Actores_mencionados>R. R. B.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Adjudican tercera etapa de la carretera Cuautepec-Tulancingo</Titular>
+		<Contenido>Sipdus adjudicó a Grupo Puccu S.A. de C.V. el contrato por 29.1 millones de pesos para ejecutar la tercera etapa de la pavimentación hidráulica de la carretera Cuautepec-Tulancingo.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Cuautepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Licitaciones</Tema_segun_la_fuente>
+		<Sintesis>La Sipdus entregó contrato por 29.1 mdp para la tercera etapa de pavimentación con concreto hidráulico en la vía Cuautepec-Tulancingo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Hacienda</Dependencias_mencionadas>
+		<Actores_mencionados>Edgar Morales Olivares</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>A un año de la vaguada, 70% de territorio hidalguense está en alto riesgo</Titular>
+		<Contenido>A casi un año de las lluvias de octubre de 2025 provocadas por la vaguada monzónica que afectó a 28 municipios en Hidalgo, el 70% del territorio estatal se encuentra en situación de alto riesgo, informó el subsecretario de Protección Civil y Gestión de Riesgos, Román Bernal Díaz. Se prevé un incremento en los niveles de precipitación en octubre, con lluvias de entre 75 y 125 mm.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atlas de Riesgos</Tema_segun_la_fuente>
+		<Sintesis>El subsecretario de Protección Civil de Hidalgo, Román Bernal Díaz, advirtió que el 70% del territorio estatal permanece en alto riesgo tras la saturación de suelos por lluvias y pronósticos de precipitaciones intensas en octubre.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Gobierno, Protección Civil</Dependencias_mencionadas>
+		<Actores_mencionados>Román Bernal Díaz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>10 funcionarios de la Segob enfrentan procesos por malos actos en el servicio público</Titular>
+		<Contenido>Al menos 10 servidores públicos adscritos a organismos dependientes de la Secretaría de Gobierno de Hidalgo enfrentan procedimientos administrativos o penales por irregularidades como cobros indebidos, robo de documentos y desaparición de bienes. Cinco trabajadores del Instituto de Defensoría Pública fueron destituidos.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Investigación por corrupción</Tema_segun_la_fuente>
+		<Sintesis>Diez servidores públicos de la Secretaría de Gobierno de Hidalgo enfrentan procesos por cobros indebidos y robo de documentos; cinco de ellos fueron destituidos del Instituto de Defensoría Pública.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Ciro Juárez González, Celia Ramírez Godínez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Cateos en Cuautepec dejan decomiso de 2 mil 700 litros de hidrocarburo y drogas</Titular>
+		<Contenido>Elementos de seguridad realizaron dos cateos simultáneos en Cuautepec de Hinojosa (colonia Benito Juárez y localidad de Xocopa), asegurando 2 mil 700 litros de hidrocarburo, mil 486 dosis de narcóticos (marihuana y cristal), armas de fuego, ponchallantas y un detenido identificado como R. R. B.</Contenido>
+		<Fecha_de_publicacion>2026-10-03</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Cuautepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Huachicol</Tema_segun_la_fuente>
+		<Sintesis>Autoridades de seguridad decomisaron 2 mil 700 litros de hidrocarburo, drogas y armas durante dos cateos en Cuautepec de Hinojosa, logrando la detención de un implicado.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Defensa, Guardia Nacional</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Hidalgo identifica 150 zonas de riesgo por lluvia</Titular>
+		<Contenido>A casi un año de la vaguada monzónica que afectó a 28 municipios en Hidalgo, la Subsecretaría de Protección Civil y Gestión de Riesgos del estado informó que identificó 150 polígonos de riesgo ante condiciones lluviosas, situación que fue notificada a municipios y comunidades.</Contenido>
+		<Fecha_de_publicacion>2026-10-04</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atlas de Riesgos</Tema_segun_la_fuente>
+		<Sintesis>La Subsecretaría de Protección Civil de Hidalgo identificó 150 polígonos de riesgo ante lluvias en 28 municipios y coordinó planes de emergencia con autoridades locales y brigadas comunitarias.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Gobierno</Dependencias_mencionadas>
+		<Actores_mencionados>Román Bernal Díaz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Miguel Tello presenta su renuncia al gabinete estatal</Titular>
+		<Contenido>Miguel Ángel Tello Vargas presentó su renuncia como titular de la Unidad de Planeación y Prospectiva del Gobierno del Estado de Hidalgo para sumarse al trabajo territorial de Morena rumbo a la selección de coordinadores distritales.</Contenido>
+		<Fecha_de_publicacion>2026-10-04</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aspirantes</Tema_segun_la_fuente>
+		<Sintesis>Miguel Ángel Tello Vargas dejó la titularidad de la Unidad de Planeación y Prospectiva de Hidalgo para registrarse en el proceso interno de Morena por la coordinación distrital federal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Planeación</Dependencia>
+		<Dependencias_mencionadas>Planeación, Morena, Gobierno</Dependencias_mencionadas>
+		<Actores_mencionados>Miguel Ángel Tello Vargas, Julio Menchaca Salazar, Susana Ángeles Quezada</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Notarios recibían hasta cinco quejas diarias al inicio de este gobierno</Titular>
+		<Contenido>El Archivo General de Notarías de Hidalgo informó que al inicio de la administración se recibían hasta cinco quejas diarias contra fedatarios y se sancionó a cerca del 80% por desorden en sus protocolos, acumulando 515 quejas resueltas.</Contenido>
+		<Fecha_de_publicacion>2026-10-04</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Investigación por corrupción</Tema_segun_la_fuente>
+		<Sintesis>El director del Archivo General de Notarías de Hidalgo, Mario Pedro Velázquez Bárcena, reportó que se sancionó a 80% de los notarios al inicio de la administración y actualmente se mantienen cinco procesos penales o administrativos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Gobierno</Dependencias_mencionadas>
+		<Actores_mencionados>Mario Pedro Velázquez Bárcena</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Hidalgo, séptimo lugar en calidad obstétrica; alerta amarilla, en riesgo</Titular>
+		<Contenido>De acuerdo con el informe de Vigilancia Epidemiológica de la Secretaría de Salud federal, Hidalgo se ubicó en la séptima posición nacional del Índice de Calidad Obstétrica con semáforo verde, aunque en el Índice de Gravedad Obstétrica se sitúa en semáforo amarillo.</Contenido>
+		<Fecha_de_publicacion>2026-10-04</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Salud materna</Tema_segun_la_fuente>
+		<Sintesis>El informe del segundo trimestre de 2026 ubicó a Hidalgo en el séptimo lugar nacional en calidad obstétrica con 3.92 puntos, aunque registró alerta amarilla en el índice de gravedad obstétrica.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Convocan a exigir pena máxima por triple feminicidio</Titular>
+		<Contenido>Deudos y colectivos feministas convocaron a una manifestación frente a los juzgados de Tulancingo para el próximo 8 de octubre, fecha en que se emitirá el fallo judicial contra tres personas imputadas por el feminicidio de tres jóvenes en Santiago Tulantepec.</Contenido>
+		<Fecha_de_publicacion>2026-10-04</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Santiago Tulantepec</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>Familiares de las tres mujeres asesinadas en Santiago Tulantepec convocaron a la población a concentrarse el 8 de octubre en los juzgados de Tulancingo para exigir la pena máxima de 50 años contra los imputados.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Folklor mexicano tomará el Gota de Plata con festival</Titular>
+		<Contenido>La XXVIII edición del Festival Internacional del Folklor se llevará a cabo en Hidalgo del 8 al 10 de octubre con un programa nacional que incluye galas de danza y música en el Auditorio Gota de Plata de Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-10-04</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Festival Cultural</Tema_segun_la_fuente>
+		<Sintesis>El Auditorio Gota de Plata será sede de la gala principal de la XXVIII edición del Festival Internacional del Folklor con compañías de danza de Guanajuato, Tamaulipas y Tulancingo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, UAEH</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Camacho</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Hidalgo lleva su música y danza a Tamaulipas</Titular>
+		<Contenido>Hidalgo participa como estado invitado en la edición 33 del Festival Internacional en la Costa del Seno Mexicano en Tamaulipas, enviando a agrupaciones como Son de Kalunga, el Ballet Folklórico de Pachuca y una muestra fotográfica de carnavales.</Contenido>
+		<Fecha_de_publicacion>2026-10-04</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Festival Cultural</Tema_segun_la_fuente>
+		<Sintesis>Una delegación de artistas hidalguenses representa a la entidad como estado invitado en el Festival Internacional en la Costa del Seno Mexicano en Tamaulipas con presentaciones musicales, dancísticas y fotográficas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Neyda Naranjo Baltazar, Américo Villarreal Anaya</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Uber llama a registrarse para operar en Pachuca</Titular>
+		<Contenido>A pesar de las restricciones legales vigentes en la Ley de Movilidad y Transporte de Hidalgo, la plataforma Uber inició una campaña de difusión en Pachuca para el registro de nuevos conductores.</Contenido>
+		<Fecha_de_publicacion>2026-10-04</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>Uber lanzó una campaña de reclutamiento de conductores en Pachuca pese a no contar con autorización de la Semot ni existir reformas legislativas que permitan su operación.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Juan Pablo Escalante Urbán</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>En 2025, se abrieron 51 mil carpetas de investigación en la entidad; quedan 120 mil pendientes</Titular>
+		<Contenido>La Fiscalía General del Estado de Hidalgo abrió 51 mil 302 carpetas de investigación durante 2025, de acuerdo con el Censo Nacional de Procuración de Justicia Federal y Estatal (CNPJF-E) 2026 del INEGI. Sin embargo, al cierre del año quedaron 120 mil 625 casos pendientes de resolver, tanto en la etapa inicial como en la complementaria.</Contenido>
+		<Fecha_de_publicacion>2026-10-04</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>De acuerdo con el CNPJF-E 2026 del Inegi, la PGJEH abrió 51 mil 302 carpetas de investigación durante 2025, pero mantiene un acumulado de 120 mil 625 expedientes pendientes de resolver.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, FGR</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Hidalgo se ubica como el noveno estado con más expedientes de mediación y conciliación en el país</Titular>
+		<Contenido>Hidalgo se colocó en el noveno lugar nacional en expedientes de mecanismos alternativos de solución de controversias (MASC) durante 2025, luego de que la Fiscalía General del Estado inició 7 mil 58 expedientes de este tipo, de acuerdo con el INEGI.</Contenido>
+		<Fecha_de_publicacion>2026-10-04</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>La PGJEH inició 7 mil 58 expedientes de mecanismos alternativos de solución de controversias durante 2025, posicionando a Hidalgo en el noveno lugar nacional según el Inegi.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, FGR</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Hidalguenses crean aplicación para detectar riesgos psicosociales en centros de trabajo</Titular>
+		<Contenido>Docentes y estudiantes del Instituto Tecnológico Superior del Oriente del Estado de Hidalgo (ITESA) desarrollaron la aplicación "Salud Empresarial", orientada a identificar y atender riesgos psicosociales conforme a la NOM-035-STPS-2018, obteniendo reconocimiento del TecNM y registro ante INDAUTOR.</Contenido>
+		<Fecha_de_publicacion>2026-10-04</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Innovación tecnológica</Tema_segun_la_fuente>
+		<Sintesis>Investigadores y alumnos del ITESA crearon una aplicación móvil validada por la NOM-035 para evaluar factores de riesgo psicosocial en centros laborales, probada en empresas del Altiplano hidalguense.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, ITESA, TecNM, INDAUTOR</Dependencias_mencionadas>
+		<Actores_mencionados>Aline Aurora De Lucio Islas</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>La PGJEH concluyó más investigaciones de las que abrió durante 2025, según el Inegi</Titular>
+		<Contenido>De acuerdo con los resultados del Censo Nacional de Procuración de Justicia Federal y Estatal (CNPJF-E) 2026 del Inegi, la Procuraduría General de Justicia del Estado de Hidalgo abrió 51 mil 302 carpetas de investigación y registró 59 mil 536 determinaciones o conclusiones en 2025, ubicándose en el noveno lugar nacional.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>Según datos del Inegi, la Procuraduría de Hidalgo cerró 59 mil 536 carpetas de investigación en 2025 frente a 51 mil 302 abiertas, situando a la entidad en noveno lugar nacional en conclusiones.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Inegi</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Inauguran estanque acuícola en Zimapán</Titular>
+		<Contenido>En la comunidad La Cruz, Zimapán, se inauguró el estanque acuícola El Barranquito, que recibió apoyo del programa Invierte en Ti, Invierte en Hidalgo de la Sebiso, con la participación de la Dirección General de Atención al Migrante, para la cría y venta de tilapia.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Zimapán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo A Mipymes</Tema_segun_la_fuente>
+		<Sintesis>Autoridades estatales inauguraron el estanque acuícola El Barranquito en Zimapán, un proyecto impulsado por familias de migrantes y respaldado por Sebiso para la producción y comercialización de tilapia.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar, DGAM</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Gómez Moreno, Julio Campo Trejo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Dan apoyos por $6.6 millones a productores de 8 municipios</Titular>
+		<Contenido>Con una inversión de 6 millones 668 mil 284 pesos, el titular de la Saderh, Napoleón González Pérez, encabezó en Tasquillo la entrega de apoyos y equipamientos productivos en beneficio de 405 productores de ocho municipios del Valle del Mezquital.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tasquillo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Producción agrícola</Tema_segun_la_fuente>
+		<Sintesis>La Saderh entregó 6.6 millones de pesos en insumos y paquetes agrícolas y pecuarios para beneficiar a 405 productores de ocho municipios hidalguenses.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Napoleón González Pérez, Alberto Basilio González, Marisol Prieto Alendaño, Christian Buendía</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Estudiantes crean sistema para aprovechar agua de lluvia</Titular>
+		<Contenido>Convertir el agua de lluvia en una fuente de aprovechamiento para las actividades cotidianas es el propósito de un proyecto desarrollado por estudiantes del Cecyteh plantel Omitlán, quienes instalaron un sistema de Captación de Agua de Lluvia (SCALL) en su escuela.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Omitlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Captación De Agua</Tema_segun_la_fuente>
+		<Sintesis>Alumnas del Cecyteh Omitlán diseñaron un sistema de captación pluvial para sanitarios e higiene tras ganar el concurso del programa Escuelas con Agua impulsado por CEAA, Grupo Femsa y RICA.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, CEAA</Dependencias_mencionadas>
+		<Actores_mencionados>Jaqueline Rodríguez Soto, Argelia González Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Bloqueos y dos niños lesionados por deslaves, saldo de lluvias en Hidalgo</Titular>
+		<Contenido>Derivado de las constantes lluvias de las últimas horas, persisten cuatro puntos con cierre o suspensión del paso carretero en Tenango de Doria, Tepehuacán de Guerrero y Nicolás Flores, además de que dos niños sufrieron lesiones por un deslave en Chapulhuacán.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tenango de Doria</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Las precipitaciones pluviales ocasionaron cierres viales en Tepehuacán, Tenango y Nicolás Flores, además de deslaves que dejaron a dos menores lesionados en Chapulhuacán.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erika Gutiérrez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Gobierno, Protección Civil, Sipdus, SICT</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Anuncian rehabilitación del mercado municipal de Actopan</Titular>
+		<Contenido>El mercado 8 de Julio en Actopan será rehabilitado mediante el programa de Fortalecimiento de Infraestructura de Mercados Municipales de la Sedeco, contemplando obras de drenaje sanitario, red eléctrica, impermeabilización y cúpula gastronómica.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Actopan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Rehabilitación De Mercados</Tema_segun_la_fuente>
+		<Sintesis>La Sedeco destinará recursos estatales para la remodelación del mercado 8 de Julio en Actopan, beneficiando la infraestructura comercial y eléctrica del centro de abasto.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erika Gutiérrez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Un incendio en una vivienda de Tizayuca deja múltiples daños</Titular>
+		<Contenido>Elementos de la Secretaría de Seguridad Ciudadana y Bomberos de Tizayuca atendieron y sofocaron un incendio registrado en una casa deshabitada sobre el Camino Viejo-Bata en la colonia El Pedregal, el cual dejó daños materiales y quedó bajo resguardo de la PGJEH.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Tizayuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Control de incendios</Tema_segun_la_fuente>
+		<Sintesis>Cuerpos de emergencia y bomberos de Tizayuca sofocaron un incendio estructural en un inmueble en la colonia El Pedregal, sin que se registraran personas lesionadas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Javier Quezada</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Protección Civil</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Consigue PGJEH vinculación de 9 de 10 imputados</Titular>
+		<Contenido>Desempeño. La Procuraduría General de Justicia del Estado de Hidalgo formuló imputación contra 5 mil 302 personas durante 2025 y logró la vinculación a proceso de 4 mil 791 (90.3%), de acuerdo con los resultados del Censo Nacional del Inegi.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>El Inegi reportó que la PGJEH registró una efectividad de 90.3% en vinculaciones a proceso durante 2025, atendiendo 51 mil 302 carpetas de investigación y ubicándose en el noveno lugar nacional en resoluciones.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Equipo Milenio</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Inegi</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Ángel Fernández Hasbun</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Pronostica PC lluvias de hasta 150 milímetros para este lunes</Titular>
+		<Contenido>Hidalgo tendrá este lunes 5 de octubre lluvias de entre 75 y 150 milímetros principalmente en el norte del estado, de acuerdo con el pronóstico de Protección Civil, que advierte sobre precipitaciones muy fuertes e intensas.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil emitió alerta por lluvias de hasta 150 milímetros en la zona norte de Hidalgo, recomendando medidas preventivas ante posibles encharcamientos, inundaciones y crecidas de ríos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Gobierno</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Llaman a mantener la documentación importante protegida y lista para transportar</Titular>
+		<Contenido>La Subsecretaría de Protección Civil y Gestión de Riesgos emitió Semáforo amarillo ante las precipitaciones, con lo que llamó a la población a mantenerse alerta y preparada ante una posible evacuación.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención De Riesgos</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil estatal emitió Semáforo amarillo por lluvias intensas en la entidad y emitió recomendaciones a la población para proteger documentos y preparar planes de evacuación.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Gobierno</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Apoyan a más de 400 productores con 6.6 mdp</Titular>
+		<Contenido>Un total de 405 productores de ocho municipios recibieron apoyos por 6.6 millones de pesos mediante la entrega de semillas, ganado, plantas e insumos agrícolas encabezada por la Saderh en Tasquillo.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tasquillo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Producción agrícola</Tema_segun_la_fuente>
+		<Sintesis>La Saderh entregó 6.6 mdp en equipamiento e insumos agrícolas a 405 productores de ocho municipios de la región para fortalecer la producción del campo hidalguense.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh</Dependencias_mencionadas>
+		<Actores_mencionados>Napoleón González Pérez, Alberto Basilio González</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Suman 24 casos de gusano barrenador</Titular>
+		<Contenido>La Secretaría de Salud de Hidalgo informó que se mantiene en estudio clínico a dos hombres de Atotonilco el Grande y Tianguistengo por presuntos síntomas de gusano barrenador en humanos.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Atotonilco el Grande</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vigilancia Epidemiológica</Tema_segun_la_fuente>
+		<Sintesis>La SSH atiende dos posibles casos de miasis por gusano barrenador en Atotonilco el Grande y Tianguistengo, manteniendo protocolos de observación epidemiológica.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Comparten música, danza y fotografía de Hidalgo en Tamaulipas</Titular>
+		<Contenido>Artistas hidalguenses representan a la entidad en el Festival Internacional en la Costa del Seno Mexicano en Tamaulipas, destacando la participación de la agrupación Son de Kalunga y muestras de carnavales.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Festival Cultural</Tema_segun_la_fuente>
+		<Sintesis>Una delegación artística de Hidalgo participa como estado invitado en el Festival Cultural de Tamaulipas, promoviendo la música popular, tradiciones y carnavales regionales.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Buscan evitar conflictos en las consultas indígenas</Titular>
+		<Contenido>El comisionado de la CESPI, Prisco Gutiérrez, informó que se permitirá ingresar propuestas por escrito en mesas de trabajo para garantizar el desarrollo ordenado de las consultas a pueblos indígenas.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Consulta Indígena</Tema_segun_la_fuente>
+		<Sintesis>La CESPI estableció dinámicas de participación escrita en mesas de trabajo para evitar confrontaciones durante las consultas a comunidades indígenas de la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Gobierno</Dependencias_mencionadas>
+		<Actores_mencionados>Prisco Manuel Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Reutilizan agua de lluvia en CECYTEH</Titular>
+		<Contenido>Estudiantes del CECYTEH hicieron posible la instalación de un Sistema de Captación de Agua de Lluvia en el plantel Omitlán, mediante el proyecto galardonado "Educando el Futuro" para destinar el recurso pluvial a servicios sanitarios.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Omitlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Captación De Agua</Tema_segun_la_fuente>
+		<Sintesis>Alumnas del CECYTEH Omitlán desarrollaron un sistema de captación pluvial para sanitarios e higiene, obteniendo el primer lugar en el concurso estatal sobre cuidado del agua.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>CECYTEH, CEAA, Grupo FEMSA, Grupo RICA</Dependencias_mencionadas>
+		<Actores_mencionados>Jaqueline Rodríguez Soto, Argelia Elizabeth González Hernández, Edmundo Ramírez Martínez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Destinan capital al campo en Hidalgo</Titular>
+		<Contenido>Más de 6.6 millones de pesos fueron entregados en Tasquillo por el titular de Saderh, Napoleón González Pérez, para fortalecer la producción agrícola y pecuaria de 405 familias de ocho municipios.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Tasquillo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Producción agrícola</Tema_segun_la_fuente>
+		<Sintesis>La Saderh distribuyó apoyos agrícolas y pecuarios por 6.6 millones de pesos en favor de 405 productores de ocho municipios del Valle del Mezquital.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alma Leticia Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh</Dependencias_mencionadas>
+		<Actores_mencionados>Napoleón González Pérez, Alberto Basilio González, Marisol Prieto Alendaño, Christian Buendía</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Violencia y amenazas, delitos comunes</Titular>
+		<Contenido>Durante el periodo de enero a agosto de 2026, los delitos con mayor número de carpetas de investigación iniciadas en Tula fueron amenazas, violencia familiar, lesiones dolosas y daño a la propiedad.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>Registros ministeriales revelaron que las denuncias por violencia intrafamiliar, amenazas y lesiones concentraron la mayor incidencia delictiva en Tula entre enero y agosto de 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>César Martínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Protestan por el desalojo de su casa a una adulta mayor</Titular>
+		<Contenido>Vecinos de Ixmiquilpan se manifestaron frente a la alcaldía y las oficinas de la PGJEH para demandar justicia en favor de una adulta mayor que fue despojada de su vivienda mediante presuntos engaños notariales de familiares.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Ixmiquilpan</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención a adultos mayores</Tema_segun_la_fuente>
+		<Sintesis>Pobladores de Ixmiquilpan se movilizaron en respaldo a una mujer de la tercera edad que fue desalojada de su inmueble, solicitando la intervención urgente de la Procuraduría estatal.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Omar Santiago</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Asignan casi 500 millones de pesos para encauzar el Río de las Avenidas</Titular>
+		<Contenido>A partir del 14 de octubre iniciarán los trabajos para el encauzamiento del Río de las Avenidas en Mineral de la Reforma y Pachuca, adjudicándose dos tramos a Grupo Goler y Constructora Bares de la Huasteca por un monto cercano a los 500 millones de pesos, como parte de un plan integral de conectividad vial.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Obras De Infraestructura</Tema_segun_la_fuente>
+		<Sintesis>Sipdus licitó los trabajos de encauzamiento del Río de las Avenidas a Grupo Goler y Bares de la Huasteca por 499.8 mdp, con el objetivo de encauzar el cauce y posteriormente desahogar el tráfico en el bulevar Felipe Ángeles.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Trabajan para reparar puente en Tepehuacán</Titular>
+		<Contenido>Sipdus y la SICT realizan trabajos coordinados para rehabilitar el puente vehicular de la comunidad de Tamala en Tepehuacán de Guerrero, el cual resultó afectado por las recientes contingencias climatológicas.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Tepehuacán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Obras De Infraestructura</Tema_segun_la_fuente>
+		<Sintesis>Cuadrillas de Sipdus y la SICT iniciaron maniobras para restaurar el tránsito en el puente de Tamala, Tepehuacán, tras daños ocasionados por las lluvias.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Lluvias dejan 2 menores lesionados tras deslave</Titular>
+		<Contenido>Un deslave derivado de las intensas lluvias en Chapulhuacán dejó a dos menores lesionados, quienes fueron trasladados vía terrestre al Hospital del Niño DIF en Pachuca, donde se reportan estables.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Chapulhuacán</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Dos niños resultaron heridos por un desgajamiento en Chapulhuacán tras precipitaciones recientes y fueron canalizados al Hospital del Niño DIFH para su atención médica.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Michelle Ortiz</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>Gobierno, DIFH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Mascotas registran más casos de gusano barrenador que vacas</Titular>
+		<Contenido>El reporte oficial de Senasica confirmó 24 casos activos de gusano barrenador en Hidalgo, de los cuales la mitad corresponde a perros (12 casos) y nueve a ganado bovino, además de infecciones menores en otras especies.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vigilancia Epidemiológica</Tema_segun_la_fuente>
+		<Sintesis>Estadísticas del Senasica muestran que el 50% de las infecciones por gusano barrenador en Hidalgo se presentan en caninos, superando el número de casos en ganado vacuno.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>PGJEH destaca que 9 de cada 10 imputados son procesados</Titular>
+		<Contenido>Resultados del CNPJF-E 2026 del Inegi señalan que la PGJEH obtuvo una efectividad del 90.3% en vinculaciones a proceso durante 2025, tras formular imputación a 5 mil 302 personas y lograr el procesamiento de 4 mil 791.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>Datos del Inegi revelan que la fiscalía hidalguense vinculó a proceso a más de 4 mil 700 presuntos delincuentes en 2025 y alcanzó el noveno lugar nacional en conclusiones de carpetas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Lluvias provocan daños en más de 10 municipios de Hidalgo</Titular>
+		<Contenido>Las lluvias registradas durante el domingo en Hidalgo provocaron afectaciones en más de 10 municipios, particularmente en la zona norte del estado con derrumbes, deslizamientos de piedras y cierres a la circulación en caminos y carreteras. En Tepehuacán de Guerrero, se interrumpió el paso vehicular y peatonal en el cruce de Tamala, debido al incremento del nivel del agua y el colapso del pavimento, así como el corte en el puente Tlalocuil-Pletlapixca. La Sipdus y Protección Civil estatal desplegaron maquinaria para habilitar el tránsito en las zonas afectadas.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Precipitaciones pluviales ocasionaron derrumbes, deslaves y cierres carreteros en más de 10 municipios del norte de Hidalgo, movilizando a personal de Sipdus y Protección Civil para atender contingencias en Tepehuacán, Tenango de Doria y Nicolás Flores.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Gobierno</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Sancionaron al 80% de los notarios públicos en Hidalgo al inicio de administración</Titular>
+		<Contenido>El director del Archivo General de Notarías del Estado, Mario Pedro Velázquez Bárcena, informó que el 80% de los notarios públicos de Hidalgo fueron sancionados al inicio de la actual administración por desorden en sus protocolos notariales. Durante las inspecciones realizadas entre 2022 y 2023 se impusieron multas de entre 3 mil y 33 mil pesos, además de dar seguimiento a 515 quejas ciudadanas y mantener abiertas cinco carpetas de investigación penal o administrativa.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Notarías</Tema_segun_la_fuente>
+		<Sintesis>Mario Pedro Velázquez Bárcena, titular del Archivo General de Notarías, reveló que el 80% de las notarías de Hidalgo recibieron sanciones económicas por irregularidades en sus libros de protocolo al inicio del sexenio, registrando además 515 quejas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Archivo General de Notarías</Dependencias_mencionadas>
+		<Actores_mencionados>Mario Pedro Velázquez Bárcena</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Nueve de cada 10 imputados por la PGJEH fueron vinculados a proceso</Titular>
+		<Contenido>De acuerdo con los resultados del Censo Nacional de Procuración de Justicia Federal y Estatal 2026 del Inegi, la PGJEH formuló imputación contra 5 mil 302 personas en 2025 y logró la vinculación a proceso del 90.3% de ellas (4 mil 791 personas). Asimismo, la dependencia estatal se posicionó en el noveno lugar nacional tras reportar 59 mil 536 determinaciones o conclusiones de investigaciones en el mismo periodo.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>Resultados del Censo Nacional de Procuración de Justicia 2026 del Inegi ubican a Hidalgo en el noveno lugar nacional con 59 mil 536 determinaciones de carpetas de investigación y una efectividad del 90.3% en vinculaciones a proceso formuladas por la PGJEH.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Inegi</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Gabinete de Menchaca cambia al menos 13 veces en cuatro años</Titular>
+		<Contenido>Con la renuncia de Miguel Ángel Tello Vargas a la Unidad de Planeación y Prospectiva del gobierno de Hidalgo, suman por lo menos 13 cambios en el gabinete durante los más de cuatro años de la administración que encabeza Julio Menchaca. Las modificaciones dentro de la estructura política del gobernador se dieron por diversos motivos, como problemas de salud y aspiraciones políticas de funcionarios que buscaron alcaldías, diputaciones y senadurías en el pasado proceso electoral.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cambios En El Gabinete</Tema_segun_la_fuente>
+		<Sintesis>Análisis sobre las 13 modificaciones registradas en el gabinete del gobernador Julio Menchaca Salazar tras la renuncia de Miguel Ángel Tello Vargas, detallando las salidas por motivos de salud y aspiraciones políticas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobierno</Dependencia>
+		<Dependencias_mencionadas>Gobierno, Sipdus, SEPH, Sebiso, PGJEH, SRTH, Cecultah</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Miguel Ángel Tello Vargas, Alan Austria Anaya, Carlos Patricio Barra Moulain, Edmundo Pineda López, Jorge Martínez, Eduardo Iturbe Méndez, Santiago Nieto Castillo, Tania Meza Escorza, Diana Rangel Zúñiga, Neyda Naranjo Baltazar, César Aurelio Monroy Vega, Simey Olvera Bautista, Cuauhtémoc Ochoa Fernández, Ricardo Gómez Moreno, Eduardo Medécigo Rubio, Zorayda Robles Barrera, Jorge Alberto Reyes Hernández, Pipino Isidro Cuevas González, Óscar Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Reportaron en septiembre a 34 personas desaparecidas</Titular>
+		<Contenido>Un total de 34 personas fueron reportadas como desaparecidas durante septiembre en Hidalgo, de acuerdo con la plataforma de la Secretaría de Gobernación federal y la Comisión Nacional de Búsqueda. Tulancingo y Pachuca concentraron la mayor cantidad de casos con seis cada uno, mientras que se registraron 39 localizaciones con vida y un hallazgo sin signos vitales en Mixquiahuala.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Personas desaparecidas</Tema_segun_la_fuente>
+		<Sintesis>Durante septiembre se registraron 34 reportes de desaparición en Hidalgo, principalmente en Tulancingo y Pachuca, así como la localización de 39 personas con vida y un fallecido en Mixquiahuala, según datos de la CNBP.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, CBPEH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Por lluvias, se registran afectaciones en Hidalgo</Titular>
+		<Contenido>La Subsecretaría de Protección Civil estatal reportó afectaciones viales por lluvias en diversas regiones de Hidalgo, destacando un deslave en la carretera Peña Blanca-San Pablo en Tenango de Doria, desprendimientos en Eloxochitlán y Tlahuiltepa, así como derrumbes en Tlanchinol e Ixmiquilpan.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil estatal desplegó operativos de monitoreo y cuadrillas con maquinaria para retirar piedras, lodo y árboles caídos en carreteras de la Sierra y la Huasteca tras las constantes lluvias.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobierno</Dependencia>
+		<Dependencias_mencionadas>Gobierno, Segobh, Sipdus</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Pierde Hidalgo nueve mil 400 hablantes de lenguas originarias</Titular>
+		<Contenido>De acuerdo con el Censo 2020 y la Encuesta Intercensal 2025 del Inegi, Hidalgo registró una reducción de 2.6% en su población hablante de lenguas indígenas al pasar de 361 mil 462 a 352 mil 062 personas, manteniéndose no obstante en el quinto lugar nacional con 11.2% de habitantes practicantes.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Preservación Lenguas Maternas</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo perdió 9 mil 400 hablantes de lenguas indígenas entre 2020 y 2025 debido a factores de migración y cambio generacional, registrándose además 39 mil personas autoidentificadas como afromexicanas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lizania Zavala</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobierno</Dependencia>
+		<Dependencias_mencionadas>Gobierno, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Lluvias muy fuertes para la semana por frente frío</Titular>
+		<Contenido>El Servicio Meteorológico Nacional informó que el frente frío número 1 interaccionará con un canal de baja presión, provocando lluvias muy fuertes a intensas con descargas eléctricas en Hidalgo y estados vecinos durante la semana.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Conagua y Protección Civil advierten sobre un periodo de lluvias intensas y chubascos en Hidalgo ocasionados por el primer frente frío de la temporada.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ana Luisa Vega</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobierno</Dependencia>
+		<Dependencias_mencionadas>Conagua, Protección Civil</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>12 municipios afectados por las lluvias de ayer</Titular>
+		<Contenido>Un total de 12 municipios hidalguenses, incluidos Tenango de Doria, Tepehuacán, Lolotla, Chapulhuacán y Pachuca, registraron afectaciones por deslaves, derrumbes e inundaciones tras las intensas precipitaciones del domingo, desplegándose labores de auxilio vial.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil de Hidalgo desplegó cuadrillas en doce municipios para atender derrumbes y liberar tramos carreteros bloqueados por el temporal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ana Luisa Vega</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobierno</Dependencia>
+		<Dependencias_mencionadas>Protección Civil, Sipdus</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Estudiantes crean sistema para aprovechar agua de lluvia</Titular>
+		<Contenido>Alumnas del CECyTEH plantel Omitlán desarrollaron e instalaron un Sistema de Captación de Agua de Lluvia (SCALL) denominado "Educando el Futuro", ganador del concurso estatal impulsado por Fundación FEMSA, RICA y CEAA.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Municipio>Omitlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Captación De Agua</Tema_segun_la_fuente>
+		<Sintesis>Estudiantes del CECyTEH Omitlán instalaron un sistema ecológico que recolecta agua pluvial para labores sanitarias del centro escolar.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>CECyTEH, CEAA</Dependencias_mencionadas>
+		<Actores_mencionados>Jaqueline Rodríguez Soto, Argelia Elizabeth González Hernández, Edmundo Ramírez Martínez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Entregan apoyos del programa Es Por Ti</Titular>
+		<Contenido>El Sistema DIF Huejutla y el DIF Hidalgo iniciaron la distribución de paquetes alimentarios del programa "Es Por Ti", beneficiando de manera gratuita a adultos mayores y personas con discapacidad de la zona huasteca.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención a adultos mayores</Tema_segun_la_fuente>
+		<Sintesis>DIF Huejutla inició la entrega de despensas e insumos de nutrición para grupos vulnerables dentro del programa estatal Es Por Ti.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Kristel Rodríguez Flores</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>SSPH asesta duro golpe al narcomenudeo, desarticulan 3 puntos de venta de droga</Titular>
+		<Contenido>Mediante cateos ejecutados de forma simultánea en las colonias Haciendas de Tizayuca, Los Arcos y Parque de Poblamiento de Pachuca, agentes de la SSPH y PGJEH detuvieron a cuatro personas y decomisaron más de 900 dosis de narcóticos.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>Elementos policiacos estatales y militares desmantelaron tres centros de distribución de droga en Pachuca y Tizayuca, asegurando a cuatro implicados.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Defensa</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>En cateos capturan a siete y aseguran 882 dosis de presuntos narcóticos</Titular>
+		<Contenido>Agentes de la SSPH, PGJEH y el Ejército aprehendieron a siete personas —cuatro hombres y tres mujeres— y aseguraron 882 dosis de drogas en operativos simultáneos llevados a cabo en colonias de Zempoala y Tulancingo.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Municipio>Zempoala</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>Fuerzas de seguridad estatales y federales aseguraron sustancias ilícitas y detuvieron a siete probables vendedores de droga en Zempoala y Tulancingo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Defensa</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>10 servidores públicos fueron separados o enfrentan procesos por anomalías</Titular>
+		<Contenido>Al menos 10 servidores públicos de la Defensoría Pública, el Registro del Estado Familiar y el Instituto de la Función Registral de Hidalgo han sido separados de sus cargos o enfrentan procesos por cobros indebidos, robo de documentos y desaparición de bienes estatales, informaron titulares de dichas áreas.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Investigación por corrupción</Tema_segun_la_fuente>
+		<Sintesis>Diez funcionarios estatales de tres dependencias enfrentan procesos administrativos y penales por cobros indebidos, robo de expedientes y sustracción de bienes.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobierno</Dependencia>
+		<Dependencias_mencionadas>Defensoría Pública, Registro del Estado Familiar, Instituto de la Función Registral</Dependencias_mencionadas>
+		<Actores_mencionados>Ciro Juárez González, Celia Ramírez Godínez, José Luis Álvarez Tagle</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Chubascos colapsan regiones en Hidalgo</Titular>
+		<Contenido>Las lluvias de las últimas horas causaron deslaves, derrumbes y cierres viales en Tenango de Doria, Tepehuacán de Guerrero, Nicolás Flores, Ixmiquilpan, Lolotla y Chapulhuacán. En este último municipio, dos menores resultaron lesionados por un deslave y fueron trasladados al Hospital del Niño DIFH.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Lluvias provocan afectaciones carreteras y derrumbes en diversos municipios serranos de Hidalgo, dejando dos niños lesionados en Chapulhuacán.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobierno</Dependencia>
+		<Dependencias_mencionadas>Protección Civil, DIFH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Van a demoler primaria en Tulancingo; edificarán otra</Titular>
+		<Contenido>La escuela primaria Aquiles Serdán en Tulancingo presenta daños estructurales graves por lo que será demolida y reconstruida por completo durante el ciclo escolar 2026-2027, informó el titular de la SEPH, Natividad Castrejón. Se revisan sedes alternas para clases presenciales o híbridas.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>La primaria Aquiles Serdán en Tulancingo será demolida y reconstruida debido a fallas estructurales; alumnos serán reubicados temporalmente.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>PGJEH reporta mayor capacidad resolutiva</Titular>
+		<Contenido>La Procuraduría General de Justicia del Estado de Hidalgo reportó que durante 2025 concluyó 59 mil 536 carpetas de investigación frente a 51 mil 302 iniciadas, colocándose en noveno lugar nacional según el Censo Nacional de Procuración de Justicia del INEGI.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>De acuerdo con datos del INEGI 2026, la PGJEH logró resolver más carpetas de investigación de las que abrió durante el ejercicio 2025.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, INEGI</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Fernández Hasbun</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Arrollan a anciana en Carboneras; ya buscan al culpable</Titular>
+		<Contenido>Una denuncia ciudadana difundida en redes sociales solicita apoyo para identificar y localizar al conductor que atropelló a Pilar González Sánchez, una adulta mayor franelera de 80 años, cerca de San Judas en Carboneras, dejándola con fractura expuesta.</Contenido>
+		<Fecha_de_publicacion>2026-10-05</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente Vial</Tema_segun_la_fuente>
+		<Sintesis>Ciudadanos solicitan apoyo con videos para dar con el responsable de atropellar a una mujer adulta mayor franelera en Carboneras.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Pilar González Sánchez</Actores_mencionados>
+	</Nota>
+</NotasRadio>
