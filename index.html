@@ -528,6 +528,34 @@
       box-shadow: none !important;
     }
 
+
+    /* ============================================================
+       CONSULTA DE LEGISLADORES
+       ============================================================ */
+    .consulta-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:flex-start;justify-content:center;padding:6vh 16px 16px;z-index:300}
+    .consulta-overlay.open{display:flex}
+    .consulta-modal{background:var(--color-fondo-form);border:2px solid var(--color-border);border-radius:var(--radius);box-shadow:0 8px 40px var(--color-shadow);width:100%;max-width:640px;max-height:84vh;display:flex;flex-direction:column;overflow:hidden}
+    .consulta-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border-bottom:1px solid var(--color-border)}
+    .consulta-head h3{font-size:1rem;color:var(--color-primary);display:flex;align-items:center;gap:8px}
+    .consulta-close{background:none;border:none;color:var(--color-text-light);font-size:1.1rem;cursor:pointer}
+    .consulta-close:hover{color:var(--color-text)}
+    .consulta-search{padding:12px 18px 8px}
+    .consulta-search input{width:100%;padding:10px 14px;background:var(--color-fondo-pagina);border:2px solid var(--color-border);border-radius:var(--radius-sm);color:var(--color-text);font-family:inherit;font-size:.9rem}
+    .consulta-search input:focus{outline:none;border-color:var(--color-primary)}
+    .consulta-meta{padding:0 18px 8px;font-size:.72rem;color:var(--color-text-light);display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+    .consulta-acciones{display:flex;gap:6px}
+    .consulta-acciones .btn{padding:4px 10px;font-size:.72rem}
+    .consulta-list{overflow:auto;padding:0 10px 12px}
+    .consulta-item{padding:10px 12px;border-radius:var(--radius-sm);border:1px solid transparent}
+    .consulta-item:hover{background:var(--color-primary-light);border-color:var(--color-border)}
+    .consulta-nombre{font-weight:700;font-size:.9rem}
+    .consulta-detalle{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;margin-top:5px;font-size:.78rem;color:var(--color-text-light)}
+    .consulta-grupo{background:var(--color-primary-light);color:var(--color-primary);border-radius:999px;padding:1px 10px;font-weight:700}
+    .consulta-campos{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:6px 14px;margin-top:6px;font-size:.78rem}
+    .consulta-campos small{display:block;color:var(--color-text-light);font-size:.66rem;font-weight:700}
+    .consulta-hoja{margin-top:6px;font-size:.68rem;color:var(--color-primary)}
+    .consulta-vacio{padding:24px 12px;text-align:center;color:var(--color-text-light);font-size:.85rem;line-height:1.5}
+
     /* ============================================================
        DROPDOWN
        ============================================================ */
@@ -1295,6 +1323,10 @@
 
           <button type="button" class="btn btn-danger" id="btnBorrarTodo" onclick="borrarTodo()" title="Eliminar todas las notas">
             <i class="fa-solid fa-trash-can"></i> Borrar Todas
+          </button>
+
+          <button type="button" class="dropdown-btn" id="btnConsulta" title="Búsqueda general en la base de datos">
+            <i class="fa-solid fa-magnifying-glass"></i> Consulta
           </button>
 
           <!-- ===== DROPDOWN ===== -->
@@ -2679,6 +2711,116 @@
     }
 
     // ===== INICIALIZACIÓN =====
+    // ===== CONSULTA GENERAL (lee el Excel indicado en ARCHIVO_LEGISLADORES; para cambiar de archivo basta con cambiar el nombre) =====
+    const ARCHIVO_LEGISLADORES = "./BD_Grupos_Legislativos.xlsx";
+    let legisladores = [];
+
+    function normalizarBusqueda(texto) {
+      return String(texto || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+    }
+
+    function escaparConsulta(texto) {
+      return String(texto).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    }
+
+    function encontrarColumna(encabezados, patrones, porDefecto) {
+      const indice = encabezados.findIndex(h => patrones.some(p => normalizarBusqueda(h).includes(p)));
+      return indice >= 0 ? indice : porDefecto;
+    }
+
+    // Lee todas las hojas y todas las columnas tal como estén en el Excel: los encabezados de
+    // la primera fila se usan como etiquetas, así que se pueden agregar filas, columnas u hojas.
+    function parsearLegisladores(libro) {
+      const resultado = [];
+      libro.SheetNames.forEach(hoja => {
+        const filas = XLSX.utils.sheet_to_json(libro.Sheets[hoja], { header: 1, defval: "", blankrows: false, raw: false });
+        if (filas.length < 2) return;
+        const enc = filas[0].map((h, i) => String(h).trim() || `Columna ${i + 1}`);
+        filas.slice(1).forEach(fila => {
+          const campos = enc.map((etiqueta, i) => [etiqueta, String(fila[i] ?? "").trim()]).filter(c => c[1]);
+          if (campos.length) resultado.push({ campos, hoja });
+        });
+      });
+      return resultado;
+    }
+
+    async function cargarLegisladores() {
+      const res = await fetch(`${ARCHIVO_LEGISLADORES}?t=${Date.now()}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const datos = parsearLegisladores(XLSX.read(await res.arrayBuffer(), { type: "array" }));
+      if (!datos.length) throw new Error("El Excel no tiene registros");
+      legisladores = datos;
+    }
+
+    function renderConsulta() {
+      const lista = document.getElementById("consultaLista");
+      const conteo = document.getElementById("consultaConteo");
+      if (!legisladores.length) {
+        conteo.textContent = "";
+        lista.innerHTML = `<div class="consulta-vacio"><i class="fa-solid fa-triangle-exclamation"></i><br>No se pudo leer <b>${escaparConsulta(ARCHIVO_LEGISLADORES.replace("./", ""))}</b>.<br>Colócalo en la misma carpeta que esta página o usa "Cargar Excel".</div>`;
+        return;
+      }
+      const palabras = normalizarBusqueda(document.getElementById("consultaBuscar").value).split(/\s+/).filter(Boolean);
+      const visibles = legisladores.filter(r => {
+        const texto = normalizarBusqueda(r.campos.map(c => c[1]).join(" "));
+        return palabras.every(p => texto.includes(p));
+      });
+      const variasHojas = new Set(legisladores.map(r => r.hoja)).size > 1;
+      conteo.textContent = `${visibles.length} de ${legisladores.length} registros`;
+      lista.innerHTML = visibles.map(r => `
+        <div class="consulta-item">
+          <div class="consulta-nombre">${escaparConsulta(r.campos[0][1])}</div>
+          <div class="consulta-campos">
+            ${r.campos.slice(1).map(([etiqueta, valor]) => `<div><small>${escaparConsulta(etiqueta)}</small>${escaparConsulta(valor)}</div>`).join("")}
+          </div>
+          ${variasHojas ? `<div class="consulta-hoja"><i class="fa-solid fa-table-list"></i> ${escaparConsulta(r.hoja)}</div>` : ""}
+        </div>`).join("") || `<div class="consulta-vacio">Sin resultados para esa búsqueda.</div>`;
+    }
+
+    async function actualizarConsulta() {
+      document.getElementById("consultaConteo").textContent = "Cargando...";
+      try {
+        await cargarLegisladores();
+      } catch (error) {
+        console.error("Consulta de legisladores:", error);
+      }
+      renderConsulta();
+    }
+
+    function cerrarConsulta() {
+      document.getElementById("consultaOverlay").classList.remove("open");
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const overlay = document.getElementById("consultaOverlay");
+      const buscar = document.getElementById("consultaBuscar");
+      document.getElementById("btnConsulta").addEventListener("click", () => {
+        overlay.classList.add("open");
+        buscar.focus();
+        buscar.select();
+        actualizarConsulta();
+      });
+      document.getElementById("consultaCerrar").addEventListener("click", cerrarConsulta);
+      overlay.addEventListener("click", e => { if (e.target === overlay) cerrarConsulta(); });
+      document.addEventListener("keydown", e => { if (e.key === "Escape") cerrarConsulta(); });
+      buscar.addEventListener("input", renderConsulta);
+      document.getElementById("consultaActualizar").addEventListener("click", actualizarConsulta);
+      const archivo = document.getElementById("consultaArchivo");
+      document.getElementById("consultaCargar").addEventListener("click", () => archivo.click());
+      archivo.addEventListener("change", async () => {
+        const f = archivo.files[0];
+        if (!f) return;
+        try {
+          const datos = parsearLegisladores(XLSX.read(await f.arrayBuffer(), { type: "array" }));
+          if (datos.length) legisladores = datos;
+        } catch (error) {
+          console.error("Excel no válido:", error);
+        }
+        archivo.value = "";
+        renderConsulta();
+      });
+    });
+
     document.addEventListener("DOMContentLoaded", async () => {
       let orgMap, firmaMap, medioToCanalMap;
 
@@ -3135,6 +3277,28 @@
     });
   </script>
 
+
+  <!-- ===== CONSULTA DE LEGISLADORES ===== -->
+  <div class="consulta-overlay" id="consultaOverlay" role="dialog" aria-modal="true" aria-labelledby="consultaTitulo">
+    <div class="consulta-modal">
+      <div class="consulta-head">
+        <h3 id="consultaTitulo"><i class="fa-solid fa-magnifying-glass"></i> Consulta</h3>
+        <button type="button" class="consulta-close" id="consultaCerrar" aria-label="Cerrar"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="consulta-search">
+        <input type="text" id="consultaBuscar" placeholder="Buscar en toda la base de datos..." autocomplete="off">
+      </div>
+      <div class="consulta-meta">
+        <span id="consultaConteo"></span>
+        <div class="consulta-acciones">
+          <button type="button" class="btn" id="consultaActualizar" title="Volver a leer el Excel"><i class="fa-solid fa-rotate"></i> Actualizar</button>
+          <button type="button" class="btn" id="consultaCargar" title="Elegir el archivo Excel manualmente"><i class="fa-solid fa-file-excel"></i> Cargar Excel</button>
+          <input type="file" id="consultaArchivo" accept=".xlsx,.xls" hidden>
+        </div>
+      </div>
+      <div class="consulta-list" id="consultaLista"></div>
+    </div>
+  </div>
 </body>
 
 </html>

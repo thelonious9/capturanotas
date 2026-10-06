@@ -34,120 +34,69 @@
   </script>
 
   <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-      background-color: #f8f9fa;
-      color: #191c1d;
-    }
-    .card-theme {
-      background-color: #ffffff;
-      border-color: #d9c0c5;
-    }
-    .header-theme {
-      background-color: rgba(255, 255, 255, 0.92);
-      border-color: #d9c0c5;
-    }
-    .filter-control,
-    .top-control {
-      background-color: #ffffff;
-      color: #191c1d;
-      border: 1px solid #d9c0c5;
-      border-radius: 0.5rem;
-      padding: 0.45rem 0.6rem;
-      font-size: 0.7rem;
-    }
-    .kpi-card {
-      background-color: #ffffff;
-      border: 1px solid #d9c0c5;
-      border-left-width: 4px;
-      border-radius: 0.75rem;
-      padding: 1rem;
-    }
-    .kpi-card p {
-      color: #544246;
-      font-size: 0.7rem;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-    .kpi-card strong {
-      display: block;
-      color: #611232;
-      font-size: 1.8rem;
-      margin-top: 0.25rem;
-    }
-    .kpi-card small {
-      color: #544246;
-      font-size: 0.75rem;
-    }
-    .chart-card {
-      background-color: #ffffff;
-      border: 1px solid #d9c0c5;
-      border-radius: 0.75rem;
-      padding: 1.25rem;
-      box-shadow: 0 8px 18px rgba(97, 18, 50, 0.14);
-    }
-    .chart-title {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
-      margin-bottom: 1rem;
-    }
-    .chart-title h3 {
-      color: #611232;
-      font-size: 0.85rem;
-      font-weight: 700;
-    }
-    .chart-box {
-      height: 300px;
-      position: relative;
-    }
-    .chart-box.tall {
-      height: 430px;
-    }
-    .treemap-box {
-      height: 430px;
-      position: relative;
-      overflow: hidden;
-      border-radius: 0.5rem;
-      background-color: #f3f4f5;
-    }
-    .treemap-item {
-      position: absolute;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 0.4rem;
-      color: #ffffff;
-      text-align: center;
-      font-size: 0.7rem;
-      font-weight: 700;
-      line-height: 1.15;
-      border: 1px solid rgba(255, 255, 255, 0.8);
-      overflow: hidden;
-    }
-    .treemap-item span:first-child {
-      max-width: 100%;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-    .tab-button { border-bottom: 3px solid transparent; color: #544246; font-size: .75rem; font-weight: 700; padding: .65rem .9rem; }
-    .tab-button.active { border-color: #611232; color: #611232; }
-    .notes-table { border-collapse: collapse; min-width: 1250px; width: 100%; }
-    .notes-table th, .notes-table td { border-bottom: 1px solid #eadfe1; padding: .55rem .65rem; text-align: left; vertical-align: top; }
-    .notes-table th { background: #f8f3f4; color: #611232; font-size: .68rem; position: sticky; top: 0; z-index: 1; }
-    .notes-table td { font-size: .7rem; max-width: 220px; }
-    .notes-table td a { color: #611232; font-weight: 700; text-decoration: underline; }
-    .table-filter { width: 100%; margin-top: .35rem; padding: .3rem; border: 1px solid #d9c0c5; border-radius: .3rem; font-size: .65rem; font-weight: 400; }
-    .table-wrap { overflow: auto; max-height: 650px; }
-    @media (max-width: 640px) {
-      .chart-box.tall,
-      .treemap-box {
-        height: 360px;
-      }
-    }
+    :root{--vino:#611232;--vino2:#7e183b;--oro:#d4a853;--borde:#e4d3d7;--muted:#544246}
+    body{font-family:'Montserrat',sans-serif;background:#f8f9fa;color:#191c1d;-webkit-font-smoothing:antialiased}
+    :focus-visible{outline:2px solid var(--vino);outline-offset:2px}
+    .card-theme{background:#fff;border-color:var(--borde);box-shadow:0 1px 3px rgba(97,18,50,.06)}
+    .header-theme{background:rgba(255,255,255,.92);border-color:var(--borde);box-shadow:0 2px 10px rgba(97,18,50,.07)}
+    .btn{display:inline-flex;align-items:center;gap:.5rem;padding:.5rem .9rem;font-size:.75rem;font-weight:600;border-radius:.6rem;border:1px solid var(--borde);cursor:pointer;transition:background .15s,color .15s}
+    .btn-primary{background:var(--vino);border-color:var(--vino);color:#fff}
+    .btn-primary:hover{background:var(--vino2)}
+    .btn-ghost{background:#fff;color:var(--vino)}
+    .btn-ghost:hover{background:var(--vino);color:#fff}
+    .filter-control,.top-control{background:#fff;color:#191c1d;border:1px solid var(--borde);border-radius:.6rem;padding:.5rem .65rem;font-size:.72rem;width:100%;transition:border-color .15s}
+    .top-control{width:auto;padding:.3rem .5rem}
+    .filter-control:hover,.top-control:hover{border-color:var(--vino)}
+    .filter-control.is-active{border-color:var(--vino);background:#fbf3f6;font-weight:600;color:var(--vino)}
+    .filter-badge{background:var(--oro);color:#191c1d;border-radius:999px;font-size:.65rem;font-weight:800;padding:0 .4rem}
+    .kpi-card{position:relative;background:#fff;border:1px solid var(--borde);border-left:4px solid var(--accent,var(--oro));border-radius:.75rem;padding:1rem;box-shadow:0 1px 3px rgba(97,18,50,.05)}
+    .kpi-card .ico{position:absolute;top:.8rem;right:.8rem;width:2rem;height:2rem;display:grid;place-items:center;border-radius:.6rem;font-size:.85rem;color:var(--accent);background:color-mix(in srgb,var(--accent) 14%,#fff)}
+    .kpi-card p{color:var(--muted);font-size:.72rem;font-weight:600;padding-right:2.2rem}
+    .kpi-card strong{display:block;color:var(--vino);font-size:1.9rem;font-weight:800;line-height:1.1;margin:.3rem 0 .15rem}
+    .kpi-card small{color:var(--muted);font-size:.72rem}
+    .status-link{color:inherit;text-decoration:none}
+    .status-link:hover{color:var(--vino);text-decoration:underline}
+    .chart-card{background:#fff;border:1px solid var(--borde);border-radius:.75rem;padding:1.25rem;box-shadow:0 4px 14px rgba(97,18,50,.07)}
+    .chart-title{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:1rem;padding-bottom:.75rem;border-bottom:1px solid #f1e8ea}
+    .chart-title h3{color:var(--vino);font-size:.88rem;font-weight:700}
+    .chart-box{height:300px;position:relative}
+    .chart-box.tall{height:430px}
+    .treemap-box{height:430px;position:relative;overflow:hidden;border-radius:.5rem;background:#f3f4f5}
+    .treemap-item{position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:.4rem;color:#fff;text-align:center;font-size:.72rem;font-weight:700;line-height:1.2;border:2px solid #fff;overflow:hidden;transition:filter .15s}
+    .treemap-item:hover{filter:brightness(1.08)}
+    .treemap-item span{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .treemap-item span:last-child{font-weight:500;opacity:.92;font-size:.68rem}
+    .tab-button{border-bottom:3px solid transparent;color:var(--muted);font-size:.78rem;font-weight:700;padding:.75rem 1rem;display:inline-flex;align-items:center;gap:.5rem;transition:color .15s}
+    .tab-button:hover{color:var(--vino)}
+    .tab-button.active{border-color:var(--vino);color:var(--vino)}
+    .tab-count{background:#f3e7ea;color:var(--vino);border-radius:999px;font-size:.65rem;padding:.05rem .5rem}
+    .notes-table{border-collapse:collapse;width:100%;table-layout:fixed}
+    .notes-table th,.notes-table td{border-bottom:1px solid #f1e8ea;padding:.6rem .7rem;text-align:left;vertical-align:top}
+    .notes-table th{background:#f8f3f4;color:var(--vino);font-size:.68rem;position:sticky;top:0;z-index:1;box-shadow:0 1px 0 var(--borde)}
+    .notes-table td{font-size:.72rem;line-height:1.35;overflow-wrap:anywhere}
+    .notes-table th:nth-child(1){width:7%}.notes-table th:nth-child(2){width:9%}.notes-table th:nth-child(3){width:23%}
+    .notes-table th:nth-child(4){width:8%}.notes-table th:nth-child(5){width:9%}.notes-table th:nth-child(6){width:8%}
+    .notes-table th:nth-child(7){width:6%}.notes-table th:nth-child(8){width:8%}.notes-table th:nth-child(9){width:9%}
+    .notes-table th:nth-child(10){width:7%}.notes-table th:nth-child(11){width:6%}
+    .link-preview{position:fixed;z-index:100;width:320px;background:#fff;border:1px solid var(--borde);border-radius:.75rem;box-shadow:0 10px 30px rgba(97,18,50,.22);overflow:hidden;pointer-events:none;font-size:.72rem}
+    .link-preview img{width:100%;height:150px;object-fit:cover;display:block;background:#f3f4f5}
+    .lp-body{padding:.7rem .8rem}
+    .lp-title{font-weight:700;color:var(--vino);line-height:1.3;margin-bottom:.25rem}
+    .lp-desc{color:var(--muted);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:.4rem}
+    .lp-url{color:#7a6a6e;font-size:.65rem;word-break:break-all}
+    .lp-load{color:var(--muted);font-size:.65rem;margin-bottom:.3rem}
+    .notes-table tbody tr:nth-child(even){background:#fcf9fa}
+    .notes-table tbody tr:hover{background:#f6ecef}
+    .notes-table td a{color:var(--vino);font-weight:700;text-decoration:none;border-bottom:1px solid var(--oro)}
+    .notes-table td a:hover{background:#fbf0d8}
+    .badge{display:inline-block;border-radius:999px;padding:.1rem .55rem;font-size:.65rem;font-weight:700;background:#eee;color:#444}
+    .badge-positiva{background:#dff3f0;color:#17695f}
+    .badge-informativa{background:#fff1cc;color:#7a5600}
+    .badge-negativa{background:#fde2e4;color:#b3202c}
+    .table-filter{width:100%;margin-top:.35rem;padding:.35rem .4rem;border:1px solid var(--borde);border-radius:.4rem;font-size:.65rem;font-weight:400;background:#fff}
+    .table-wrap{overflow:auto;max-height:650px;border:1px solid var(--borde);border-radius:.6rem}
+    @media (max-width:1023px){.notes-table{min-width:1100px;table-layout:auto}}
+    @media (max-width:640px){.chart-box.tall,.treemap-box{height:360px}.kpi-card strong{font-size:1.6rem}}
   </style>
 </head>
 
@@ -158,15 +107,15 @@
     <div class="flex items-center gap-3">
       <i class="fa-solid fa-chart-line text-[#d4a853] text-2xl"></i>
       <div>
-        <h1 class="text-lg font-bold">Dashboard <span class="text-[#d4a853]">de Monitoreo</span></h1>
-        <p class="text-xs text-[#544246]">Tiempo real</p>
+        <h1 class="text-lg font-bold">Dashboard <span class="text-[#a57f2c]">de Monitoreo</span></h1>
+        <p class="text-xs text-[#544246]">Actualizado a las <span id="lastUpdate">--:--</span></p>
       </div>
     </div>
     <div class="flex items-center gap-3">
-      <button onclick="cargarDatos()" class="px-3 py-1.5 text-xs font-semibold rounded-lg border border-[#d9c0c5] hover:bg-[#611232] hover:text-white transition flex items-center gap-2">
+      <button onclick="cargarDatos()" class="btn btn-ghost">
         <i class="fa-solid fa-rotate-right" id="reloadIcon"></i> Actualizar
       </button>
-      <a href="index.html" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-[#611232] text-white hover:bg-[#7e183b] transition flex items-center gap-2">
+      <a href="index.html" class="btn btn-primary">
         <i class="fa-solid fa-pen-to-square"></i> Captura
       </a>
     </div>
@@ -178,37 +127,43 @@
     <p class="text-sm font-semibold">Cargando datos desde Google Sheets...</p>
   </div>
 
+  <!-- ERROR STATE -->
+  <div id="errorBox" class="hidden max-w-xl mx-auto card-theme border rounded-xl p-6 text-center">
+    <i class="fa-solid fa-triangle-exclamation text-3xl text-[#e63946] mb-3"></i>
+    <h2 class="font-bold text-[#611232] mb-1">No se pudo cargar la información</h2>
+    <p id="errorMsg" class="text-xs text-[#544246] mb-4"></p>
+    <button onclick="cargarDatos()" class="btn btn-primary"><i class="fa-solid fa-rotate-right"></i> Reintentar</button>
+  </div>
+
   <!-- DASHBOARD CONTENT -->
-  <main id="content" class="hidden space-y-6 max-w-7xl mx-auto">
+  <main id="content" class="hidden space-y-6 max-w-screen-2xl mx-auto">
     <nav class="card-theme border rounded-xl px-3 flex items-center gap-2" aria-label="Secciones">
-      <button class="tab-button active" data-tab="general">General</button>
-      <button class="tab-button" data-tab="detalle">Detalle de notas</button>
+      <button class="tab-button active" data-tab="general"><i class="fa-solid fa-chart-pie"></i> General</button>
+      <button class="tab-button" data-tab="detalle">Detalle de notas <span id="tabCount" class="tab-count">0</span></button>
     </nav>
     <section class="card-theme border p-4 rounded-xl">
       <div class="flex flex-wrap items-center gap-3">
-        <button id="filterToggle" class="px-3 py-2 text-xs rounded-lg bg-[#611232] text-white font-bold">
-          <i class="fa-solid fa-filter"></i> Filtros
-        </button>
-        <div id="filters" class="hidden flex flex-wrap items-center gap-3 w-full lg:flex">
+        <button id="filterToggle" class="btn btn-primary lg:hidden"><i class="fa-solid fa-filter"></i> Filtros <span id="filterCount" class="filter-badge hidden">0</span></button>
+        <div id="filters" class="hidden grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-3 w-full lg:grid">
           <select id="filterEstatus" class="filter-control"><option value="">Todos los estatus</option></select>
           <select id="filterMedio" class="filter-control"><option value="">Todos los medios</option></select>
           <select id="filterDependencia" class="filter-control"><option value="">Todas las dependencias</option></select>
           <select id="filterMunicipio" class="filter-control"><option value="">Todos los municipios</option></select>
           <select id="filterCanal" class="filter-control"><option value="">Todos los canales</option></select>
-          <button id="clearFilters" class="px-3 py-2 text-xs rounded-lg border border-[#d9c0c5] text-[#611232]">Restablecer</button>
+          <button id="clearFilters" class="btn btn-ghost justify-center"><i class="fa-solid fa-rotate-left"></i> Restablecer</button>
         </div>
       </div>
     </section>
 
     <div id="generalTab" class="space-y-6">
     <section class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-7 gap-4">
-      <div class="kpi-card border-[#d4a853]"><p>Total Notas</p><strong id="kpiTotal">0</strong><small>Registros filtrados</small></div>
-      <div class="kpi-card border-[#2a9d8f]"><p><a href="#" class="status-link" data-status="Positiva">Positiva</a></p><strong id="kpiPositiva">0</strong><small id="pctPositiva" class="font-bold">0%</small></div>
-      <div class="kpi-card border-[#ffb703]"><p><a href="#" class="status-link" data-status="Informativa">Informativa</a></p><strong id="kpiInformativa">0</strong><small id="pctInformativa" class="font-bold">0%</small></div>
-      <div class="kpi-card border-[#e63946]"><p><a href="#" class="status-link" data-status="Negativa">Negativa</a></p><strong id="kpiNegativa">0</strong><small id="pctNegativa" class="font-bold">0%</small></div>
-      <div class="kpi-card border-[#d4a853]"><p>Medios</p><strong id="kpiMedios">0</strong><small>Medios únicos</small></div>
-      <div class="kpi-card border-[#d4a853]"><p>Dependencias</p><strong id="kpiDependencias">0</strong><small>Dependencias únicas</small></div>
-      <div class="kpi-card border-[#d4a853]"><p>Municipios</p><strong id="kpiMunicipios">0</strong><small>Municipios únicos</small></div>
+      <div class="kpi-card" style="--accent:#a57f2c"><i class="ico fa-solid fa-newspaper"></i><p>Total de notas</p><strong id="kpiTotal">0</strong><small>Registros filtrados</small></div>
+      <div class="kpi-card" style="--accent:#2a9d8f"><i class="ico fa-solid fa-face-smile"></i><p><a href="#" class="status-link" data-status="Positiva" title="Ver notas positivas">Positiva</a></p><strong id="kpiPositiva">0</strong><small id="pctPositiva" class="font-bold">0%</small></div>
+      <div class="kpi-card" style="--accent:#e09400"><i class="ico fa-solid fa-circle-info"></i><p><a href="#" class="status-link" data-status="Informativa" title="Ver notas informativas">Informativa</a></p><strong id="kpiInformativa">0</strong><small id="pctInformativa" class="font-bold">0%</small></div>
+      <div class="kpi-card" style="--accent:#e63946"><i class="ico fa-solid fa-face-frown"></i><p><a href="#" class="status-link" data-status="Negativa" title="Ver notas negativas">Negativa</a></p><strong id="kpiNegativa">0</strong><small id="pctNegativa" class="font-bold">0%</small></div>
+      <div class="kpi-card" style="--accent:#a57f2c"><i class="ico fa-solid fa-tower-broadcast"></i><p>Medios</p><strong id="kpiMedios">0</strong><small>Medios únicos</small></div>
+      <div class="kpi-card" style="--accent:#a57f2c"><i class="ico fa-solid fa-building-columns"></i><p>Dependencias</p><strong id="kpiDependencias">0</strong><small>Dependencias únicas</small></div>
+      <div class="kpi-card" style="--accent:#a57f2c"><i class="ico fa-solid fa-location-dot"></i><p>Municipios</p><strong id="kpiMunicipios">0</strong><small>Municipios únicos</small></div>
     </section>
 
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -224,7 +179,7 @@
         <h2 class="text-base font-bold text-[#611232]">Detalle de notas</h2>
         <div class="flex flex-wrap gap-2">
           <input id="tableSearch" class="filter-control" type="search" placeholder="Buscar en cualquier campo..." aria-label="Buscar en cualquier campo">
-          <button id="exportAll" class="px-3 py-2 text-xs rounded-lg bg-[#611232] text-white font-bold"><i class="fa-solid fa-download"></i> Exportar</button>
+          <button id="exportAll" class="btn btn-primary"><i class="fa-solid fa-download"></i> Exportar</button>
         </div>
       </div>
       <div class="table-wrap"><table class="notes-table"><thead id="notesHead"></thead><tbody id="notesBody"></tbody></table></div>
@@ -283,6 +238,8 @@
     async function cargarDatos() {
       const reloadIcon = getElement("reloadIcon");
       reloadIcon?.classList.add("fa-spin");
+      getElement("errorBox")?.classList.add("hidden");
+      if (getElement("content")?.classList.contains("hidden")) getElement("loading")?.classList.remove("hidden");
       try {
         const response = await fetch(API_URL, { method: "GET", redirect: "follow" });
         if (!response.ok) throw new Error(`Error HTTP: ${response.status}`);
@@ -301,9 +258,12 @@
         renderDashboard();
         getElement("loading")?.classList.add("hidden");
         getElement("content")?.classList.remove("hidden");
+        setText("lastUpdate", new Date().toLocaleTimeString("es-MX", { hour: "2-digit", minute: "2-digit" }));
       } catch (error) {
         console.error("Detalle del error:", error);
-        alert(`No se pudo cargar la información: ${error.message}`);
+        getElement("loading")?.classList.add("hidden");
+        setText("errorMsg", error.message);
+        getElement("errorBox")?.classList.remove("hidden");
       } finally {
         reloadIcon?.classList.remove("fa-spin");
       }
@@ -381,14 +341,45 @@
         maintainAspectRatio: false,
         plugins: {
           shadow: { enabled: true },
-          legend: { labels: { color: "#191c1d", font: { size: 10 } } },
-          datalabels: { color: "#ffffff", font: { weight: "bold", size: 10 }, formatter: value => value || "" }
+          legend: { labels: { color: "#191c1d", font: { size: 11 }, usePointStyle: true, boxWidth: 8 } },
+          datalabels: { color: labelColor, font: { weight: "bold", size: 10 }, formatter: value => value || "" }
         },
         scales: {
-          x: { beginAtZero: true, stacked, ticks: { color: "#544246" }, grid: { color: "#d9c0c5" } },
-          y: { stacked, ticks: { color: "#544246" }, grid: { color: "#d9c0c5" } }
+          x: { beginAtZero: true, stacked, ticks: { color: "#544246" }, grid: { color: "#efe6e8" } },
+          y: { stacked, ticks: { color: "#544246" }, grid: { color: "#efe6e8" } }
         }
       };
+    }
+
+    const LIGHT_BG = ["#ffb703", "#ffbd2e"];
+    function labelColor(ctx) {
+      const bg = ctx.dataset.backgroundColor;
+      const color = Array.isArray(bg) ? bg[ctx.dataIndex] : bg;
+      return LIGHT_BG.includes(color) ? "#191c1d" : "#ffffff";
+    }
+
+    function dateChartOptions() {
+      const options = chartOptions();
+      options.plugins.legend.display = false;
+      options.plugins.datalabels = { align: "top", color: "#611232", font: { weight: "bold", size: 10 }, formatter: value => value || "" };
+      return options;
+    }
+
+    function parseFecha(value) {
+      const m = String(value).match(/^(\d{1,2})[\/-](\d{1,2})[\/-](\d{4})/);
+      return m ? new Date(+m[3], +m[2] - 1, +m[1]) : new Date(value);
+    }
+
+    const FILTER_IDS = ["filterEstatus", "filterMedio", "filterDependencia", "filterMunicipio", "filterCanal"];
+    function updateFilterBadge() {
+      let active = 0;
+      FILTER_IDS.forEach(id => {
+        const on = !!getElement(id)?.value;
+        getElement(id)?.classList.toggle("is-active", on);
+        if (on) active++;
+      });
+      const badge = getElement("filterCount");
+      if (badge) { badge.textContent = active; badge.classList.toggle("hidden", !active); }
     }
 
     function drawChart(id, config) {
@@ -400,6 +391,7 @@
 
     function renderDashboard() {
       const data = getFilteredData();
+      updateFilterBadge();
       const total = data.length;
       const statusCounts = Object.keys(STATUS_COLORS).reduce((result, status) => {
         result[status] = data.filter(record => record.estatus.toLowerCase() === status.toLowerCase()).length;
@@ -520,18 +512,19 @@
         tile.style.height = `${tileHeight}%`;
         tile.style.backgroundColor = colors[index % colors.length];
         tile.title = `${label}: ${value.toLocaleString("es-MX")} (${(value / total * 100).toFixed(1)}%)`;
-        tile.innerHTML = `<span>${escapeHtml(label)}</span><span>${(value / total * 100).toFixed(0)}%</span>`;
+        if (LIGHT_BG.includes(colors[index % colors.length])) tile.style.color = "#191c1d";
+        tile.innerHTML = (tileWidth < 9 || tileHeight < 9) ? "" : `<span>${escapeHtml(label)}</span><span>${(value / total * 100).toFixed(0)}% · ${value.toLocaleString("es-MX")}</span>`;
         container.appendChild(tile);
       });
     }
 
     function renderDatesChart(data) {
-      const entries = countBy(data, "fecha").sort((a, b) => new Date(a[0]) - new Date(b[0]));
+      const entries = countBy(data, "fecha").sort((a, b) => parseFecha(a[0]) - parseFecha(b[0]));
       const limited = applyLimit(entries, "topFechas");
       drawChart("chartFechas", {
         type: "line",
-        data: { labels: limited.map(entry => entry[0]), datasets: [{ label: "Notas registradas", data: limited.map(entry => entry[1]), borderColor: "#d4a853", backgroundColor: "rgba(212,168,83,.15)", fill: true, tension: .3 }] },
-        options: chartOptions()
+        data: { labels: limited.map(entry => entry[0]), datasets: [{ label: "Notas registradas", data: limited.map(entry => entry[1]), borderColor: "#d4a853", backgroundColor: "rgba(212,168,83,.15)", fill: true, tension: .3, pointRadius: 3, pointBackgroundColor: "#d4a853" }] },
+        options: dateChartOptions()
       });
     }
 
@@ -556,6 +549,7 @@
       body.innerHTML = visible.map(record => {
         const cells = NOTE_COLUMNS.map(([field]) => {
           const value = escapeHtml(noteValue(record, field));
+          if (field === "estatus" && value) return `<td><span class="badge badge-${value.toLowerCase()}">${value}</span></td>`;
           if (field !== "titular") return `<td>${value}</td>`;
           const page = noteValue(record, "pagina");
           const href = /^https?:\/\//i.test(page) ? page : "";
@@ -563,7 +557,66 @@
         }).join("");
         return `<tr>${cells}</tr>`;
       }).join("") || `<tr><td colspan="${NOTE_COLUMNS.length}" class="text-center text-[#544246]">Sin registros para mostrar</td></tr>`;
+      setText("tabCount", data.length.toLocaleString("es-MX"));
       setText("tableSummary", `${visible.length.toLocaleString("es-MX")} de ${data.length.toLocaleString("es-MX")} registros visibles`);
+    }
+
+    const previewCache = {};
+    let previewTimer;
+
+    function hideLinkPreview() {
+      clearTimeout(previewTimer);
+      getElement("linkPreview")?.classList.add("hidden");
+    }
+
+    function renderLinkPreview(card, url, meta, loading) {
+      const host = new URL(url).hostname.replace(/^www\./, "");
+      card.innerHTML = (meta?.image ? `<img src="${escapeHtml(meta.image)}" alt="" onerror="this.remove()">` : "") +
+        `<div class="lp-body">` +
+        (meta?.title ? `<div class="lp-title">${escapeHtml(meta.title)}</div>` : `<div class="lp-title">${escapeHtml(host)}</div>`) +
+        (meta?.description ? `<div class="lp-desc">${escapeHtml(meta.description)}</div>` : "") +
+        (loading ? `<div class="lp-load"><i class="fa-solid fa-circle-notch fa-spin"></i> Cargando vista previa...</div>` : "") +
+        `<div class="lp-url"><i class="fa-solid fa-link"></i> ${escapeHtml(url)}</div></div>`;
+    }
+
+    function positionLinkPreview(card, link) {
+      const rect = link.getBoundingClientRect();
+      const left = Math.max(8, Math.min(rect.left, window.innerWidth - card.offsetWidth - 8));
+      const below = rect.bottom + 8;
+      const top = below + card.offsetHeight > window.innerHeight ? Math.max(8, rect.top - card.offsetHeight - 8) : below;
+      card.style.left = `${left}px`;
+      card.style.top = `${top}px`;
+    }
+
+    async function showLinkPreview(link) {
+      const url = link.href;
+      let card = getElement("linkPreview");
+      if (!card) {
+        card = document.createElement("div");
+        card.id = "linkPreview";
+        card.className = "link-preview hidden";
+        document.body.appendChild(card);
+      }
+      card.dataset.url = url;
+      const cached = previewCache[url];
+      renderLinkPreview(card, url, cached, cached === undefined);
+      card.classList.remove("hidden");
+      positionLinkPreview(card, link);
+      if (cached !== undefined) return;
+      previewCache[url] = null;
+      try {
+        const response = await fetch(`https://api.microlink.io/?url=${encodeURIComponent(url)}`);
+        const json = await response.json();
+        if (json.status === "success") {
+          previewCache[url] = { title: json.data.title, description: json.data.description, image: json.data.image?.url };
+        }
+      } catch (error) {
+        console.warn("Sin vista previa para", url);
+      }
+      if (card.dataset.url === url && !card.classList.contains("hidden")) {
+        renderLinkPreview(card, url, previewCache[url], false);
+        positionLinkPreview(card, link);
+      }
     }
 
     function activateTab(tabName) {
@@ -600,6 +653,7 @@
     }
 
     document.addEventListener("DOMContentLoaded", () => {
+      Chart.defaults.font.family = "'Montserrat', sans-serif";
       if (typeof ChartDataLabels !== "undefined") Chart.register(ChartDataLabels);
       ["filterEstatus", "filterMedio", "filterDependencia", "filterMunicipio", "filterCanal"]
         .forEach(id => getElement(id)?.addEventListener("change", renderDashboard));
@@ -611,6 +665,18 @@
       getElement("filterToggle")?.addEventListener("click", () => getElement("filters")?.classList.toggle("hidden"));
       getElement("tableSearch")?.addEventListener("input", () => renderNotesTable(getFilteredData()));
       getElement("exportAll")?.addEventListener("click", exportDashboard);
+      const notesBody = getElement("notesBody");
+      const linkOf = event => event.target.closest?.("a[href]");
+      notesBody?.addEventListener("mouseover", event => {
+        const link = linkOf(event);
+        if (!link) return;
+        clearTimeout(previewTimer);
+        previewTimer = setTimeout(() => showLinkPreview(link), 300);
+      });
+      notesBody?.addEventListener("mouseout", event => { if (linkOf(event)) hideLinkPreview(); });
+      notesBody?.addEventListener("focusin", event => { const link = linkOf(event); if (link) showLinkPreview(link); });
+      notesBody?.addEventListener("focusout", hideLinkPreview);
+      document.querySelector(".table-wrap")?.addEventListener("scroll", hideLinkPreview);
       document.querySelectorAll(".tab-button").forEach(button => button.addEventListener("click", () => activateTab(button.dataset.tab)));
       document.querySelectorAll(".status-link").forEach(link => link.addEventListener("click", event => {
         event.preventDefault();
