@@ -1,0 +1,1719 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>La Huasteca sigue siendo vulnerable ante las lluvias</Titular>
+		<Contenido>Un año después de la vaguada monzónica de 2025, las recientes lluvias demostraron que diversos municipios de la Huasteca hidalguense como Huautla, Xochiatipan, Yahualica y Tlanchinol continúan altamente vulnerables a deslaves y colapsos de caminos.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Reportaje</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>A un año de los desastres por la vaguada de 2025, comunidades de la Huasteca vuelven a enfrentar afectaciones por las lluvias recientes ante la falta de infraestructura permanente.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>30</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Gobierno, Protección Civil, SICT</Dependencias_mencionadas>
+		<Actores_mencionados>Nicolás Reyes, Gustavo Vivanco Ostoa</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Tras las lluvias, colapsa barda de un jardín de niños en Tenango</Titular>
+		<Contenido>Un hundimiento provocado por las fuertes lluvias causó el colapso de la barda perimetral del jardín de niños Thowi en Santa María Temaxcalapa, Tenango de Doria. Autoridades educativas determinaron mantener clases a distancia.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tenango de Doria</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Caída de barda escolar</Tema_segun_la_fuente>
+		<Sintesis>El colapso de la barda perimetral en un jardín de niños de Tenango de Doria obligó a la SEPH a cambiar temporalmente a la modalidad de clases a distancia.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>María Antonieta Islas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Protección Civil, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Inician trabajos de rehabilitación en un vado en río de Xochiatipan</Titular>
+		<Contenido>Personal de Protección Civil inició labores de rellenado para recuperar el paso vehicular y peatonal en el vado sobre el río Garcés en Xochiatipan, tras el incremento del caudal registrado por las precipitaciones.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Xochiatipan</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil comenzó trabajos de rehabilitación sobre el río Garcés para restablecer la comunicación en Xochiatipan.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Protección Civil, Sipdus</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Precipitaciones causaron daños en caminos de la zona serrana</Titular>
+		<Contenido>Las lluvias provocaron cierres de caminos y socavones en municipios como Tlahuiltepa, Tepehuacán de Guerrero, Juárez Hidalgo, Tianguistengo y Xochicoatlán, donde Sipdus y autoridades locales intervinieron para despejar las vías.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tepehuacán</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Diversos municipios de la Sierra hidalguense reportaron bloqueos de caminos y socavones causados por los recientes derrumbes.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Martha Sáenz</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Ayuntamiento, Protección Civil</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Alista Sipdus obras por 500 millones en Río de las Avenidas</Titular>
+		<Contenido>Sipdus adjudicó dos licitaciones por casi 500 millones de pesos para la construcción y reforzamiento del encauzamiento del Río de las Avenidas en Mineral de la Reforma, con un plazo de ejecución de 244 días.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Obras De Infraestructura</Tema_segun_la_fuente>
+		<Sintesis>La Sipdus invertirá 500 millones de pesos en dos licitaciones para encauzar el Río de las Avenidas a la altura de Mineral de la Reforma.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>30</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Gobierno</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Nicolás Enrique Velazco Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Avanza la reconstrucción y reubicación de escuelas</Titular>
+		<Contenido>El secretario de Educación Pública de Hidalgo, Natividad Castrejón, dio a conocer que las obras de reconstrucción de planteles en Huehuetla registran 70% de avance, mientras que en Tianguistengo se proyecta la reubicación de cuatro escuelas.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>La SEPH reportó un 70% de avance en la reconstrucción de tres planteles dañados en Huehuetla y planea la reubicación de cuatro escuelas en Tianguistengo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>30</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Cobaeh</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Eficaz, vincular la CURP con los reportes de desaparición</Titular>
+		<Contenido>La Comisión de Búsqueda de Personas del Estado de Hidalgo destacó que vincular la leyenda de búsqueda en la CURP permitió dar de baja 10 reportes de personas ya localizadas, reduciendo un 42% la incidencia de expedientes activos.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Personas desaparecidas</Tema_segun_la_fuente>
+		<Sintesis>La estrategia de vinculación de la CURP con la base de datos de personas desaparecidas permitió actualizar y dar de baja 10 reportes en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Comisión de Búsqueda de Personas, Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>José Francisco García Reyes, Guillermo Olivares Reyna</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Comenzarán las obras del paso superior de la México-Pachuca</Titular>
+		<Contenido>Con una inversión de 514.9 millones de pesos, el 14 de octubre iniciará la construcción del paso superior vehicular sobre la carretera México-Pachuca a la altura de Zapotlán de Juárez.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Obras De Infraestructura</Tema_segun_la_fuente>
+		<Sintesis>La Sipdus adjudicó la construcción del paso superior vehicular sobre la México-Pachuca en Zapotlán de Juárez con un plazo de un año.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>30</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Por primera vez comparecerá el Oficial Mayor ante el Congreso local</Titular>
+		<Contenido>El Congreso del Estado citó a comparecer al titular de la Oficialía Mayor, Edgar Orlando Ángeles Pérez, el próximo 22 de octubre como parte del análisis del Cuarto Informe de Gobierno.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe De Gobierno</Tema_segun_la_fuente>
+		<Sintesis>Por primera vez en la administración, el Oficial Mayor acudirá ante el Congreso para rendir cuentas sobre adquisiciones e inversiones estatales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Luis Godínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Congreso, Oficialía Mayor, Gobierno</Dependencias_mencionadas>
+		<Actores_mencionados>Edgar Orlando Ángeles Pérez, Andrés Velázquez Vázquez, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Siguen 25 personas desaparecidas</Titular>
+		<Contenido>La Comisión de Búsqueda de Personas del Estado de Hidalgo reportó que de enero a septiembre de 2026 se registraron 371 reportes de desaparición, con una efectividad de localización del 93.2 por ciento.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Personas desaparecidas</Tema_segun_la_fuente>
+		<Sintesis>La CBPEH informó una reducción del 42% en reportes de desaparición en Hidalgo durante 2026 y una efectividad de localización del 93.2%.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, CBPEH</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna, José Francisco García Reyes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>84 Procuradurías municipales para proteger a niñas, niños y adolescentes</Titular>
+		<Contenido>El Sistema DIF Hidalgo destacó la consolidación de las 84 Procuradurías de Protección de Niñas, Niños y Adolescentes en los municipios del estado durante la entrega del informe del organismo.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuraduría municipal del menor</Tema_segun_la_fuente>
+		<Sintesis>DIF Hidalgo resaltó la operación de 84 procuradurías municipales especializadas en la atención y protección de la infancia.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Protesta personal del IMSS en Doxey</Titular>
+		<Contenido>Trabajadores de la UMF 37 y del Hospital General de Tula en Doxey se sumaron a protestas nacionales para exigir insumos, contratación de personal y mejores condiciones laborales.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tlaxcoapan</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Trabajo bajo protesta</Tema_segun_la_fuente>
+		<Sintesis>Personal médico del IMSS en Doxey colocó mantas para laborar bajo protesta demandando insumos y solución al déficit de personal.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Rosalía Maldonado</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>IMSS, SNTSS</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Uso excesivo de pantallas daña los ojos</Titular>
+		<Contenido>En el marco del Día Mundial de la Visión, el Colegio de Optometristas de Hidalgo advirtió que el uso prolongado de dispositivos electrónicos acelera el desarrollo de miopía en niñas y niños.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Promoción De La Salud</Tema_segun_la_fuente>
+		<Sintesis>Optometristas de Hidalgo recomendaron revisiones visuales periódicas y evitar pantallas en infancias para prevenir miopía y daños oculares.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Maximiliano Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>Colegio de Optometristas, OMS</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Familias de la Otomí-Tepehua dejan sus casas ante nuevas lluvias</Titular>
+		<Contenido>Pobladores de Huehuetla, San Bartolo Tutotepec y Tenango de Doria comenzaron a trasladarse de manera preventiva hacia Tulancingo y otros municipios ante el temor de quedar incomunicados o sufrir deslaves ante el incremento del río Pantepec.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Huehuetla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Habitantes de la región Otomí-Tepehua evacúan sus viviendas de forma preventiva hacia Tulancingo por el temor a nuevos desbordamientos del río Pantepec y deslaves en caminos inconclusos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Gobierno, Protección Civil</Dependencias_mencionadas>
+		<Actores_mencionados>Guadalupe Gómez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Detienen a Hijo de Fishman tras muerte de réferi en La Reforma</Titular>
+		<Contenido>El luchador profesional Hijo de Fishman fue imputado por homicidio tras aplicarle una variante prohibida de martinete al réferi Gerardo Germán Pineda de 75 años, quien falleció en el cuadrilátero durante una función en Mineral de la Reforma.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>El luchador El Hijo de Fishman fue puesto a disposición de la PGJEH tras la muerte del réferi 'El Búho' Pineda en una función en la Arena 11 de Julio.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Óscar García</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Gerardo Germán Pineda, El Hijo de Fishman</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Libera SIPDUS caminos afectados por las lluvias</Titular>
+		<Contenido>Cuadrillas y maquinaria pesada de la Sipdus desazolvaron cunetas y retiraron derrumbes de rocas y tierra en tramos carreteros de Tlanchinol, Huazalingo, Metztitlán, Tepehuacán, Pisaflores y Calnali para reabrir la circulación vial.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Personal y maquinaria de la Sipdus realizaron labores de dragado y retiro de derrumbes en vialidades de la Sierra y la Huasteca hidalguense afectadas por las precipitaciones.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Protección Civil</Dependencias_mencionadas>
+		<Actores_mencionados>None</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Suman 173 atenciones por tumor maligno de mama durante 2026</Titular>
+		<Contenido>El Sistema Nacional de Vigilancia Epidemiológica reportó que los hospitales de Hidalgo registran 173 casos atendidos por cáncer de mama en lo que va del año, de los cuales uno corresponde a un paciente masculino.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cáncer De Mama</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo contabiliza 173 atenciones médicas por cáncer de mama en 2026, una disminución comparada con las 298 registradas en el mismo periodo de 2025.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Secretaría de Salud federal</Dependencias_mencionadas>
+		<Actores_mencionados>None</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Pachuca, Tizayuca y Tulancingo concentran los robos a negocio</Titular>
+		<Contenido>Cifras del Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública revelan que Pachuca, Tizayuca y Tulancingo acumulan el 47% de los 1,295 robos a comercios registrados en Hidalgo durante los primeros ocho meses de 2026.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>El SESNSP reporta que Pachuca encabezó el robo a comercios en Hidalgo con 290 denuncias entre enero y agosto de 2026, seguido de Tizayuca con 191 y Tulancingo con 128.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>18</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SESNSP, SSPH, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>None</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>IHDEP lanza convocatoria para vender otro predio en Francisco I. Madero</Titular>
+		<Contenido>El Instituto Hidalguense para Devolver al Pueblo lo Robado emitió una licitación para subastar un terreno rústico con casa habitación de 460 m² en San Juan Tepa, con un valor de salida de 2.87 millones de pesos.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Francisco I. Madero</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Proyectos Federales</Tema_segun_la_fuente>
+		<Sintesis>El IHDEP publicó las bases para la venta en subasta de una propiedad decomisada en Francisco I. Madero valuada en 2.8 millones de pesos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Hacienda</Dependencia>
+		<Dependencias_mencionadas>IHDEP, PGJEH, Hacienda</Dependencias_mencionadas>
+		<Actores_mencionados>None</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Obra de hidalguense circulará en unas 30 mil latas de pintura</Titular>
+		<Contenido>El artista visual Giovanni M. Blancas fue seleccionado por Comex para plasmar su ilustración inspirada en 'Los Cuernudos de Calnali' y la cultura huasteca en una edición nacional de 30 mil latas de aerosol.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Calnali</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Evento Cultural</Tema_segun_la_fuente>
+		<Sintesis>El creador hidalguense Giovanni M. Blancas diseñó una edición especial de aerosoles Comex con imágenes del Xantolo y Los Cuernudos de Calnali.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Giovanni M. Blancas</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Habilitan 10 CURP de personas desaparecidas</Titular>
+		<Contenido>El comisionado de Búsqueda de Personas en Hidalgo, José Francisco García Reyes, informó que en septiembre se reactivaron 10 folios de CURP tras confirmar la localización con vida de ciudadanos que contaban con ficha activa.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Personas desaparecidas</Tema_segun_la_fuente>
+		<Sintesis>La Comisión de Búsqueda de Hidalgo reactivó las claves de CURP de 10 personas localizadas este mes, mientras continúa el rastreo de 5 desaparecidos de la vaguada de 2025.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, CBPEH, RENAPO</Dependencias_mencionadas>
+		<Actores_mencionados>José Francisco García Reyes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Deja río Garcés en Xochiatipan 33 localidades incomunicadas</Titular>
+		<Contenido>Las lluvias del fin de semana causaron el incremento del nivel del río Garcés en Xochiatipan, dejando incomunicadas a 33 comunidades; Protección Civil estatal mantiene semáforo amarillo.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Xochiatipan</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Crecida del río Garcés en Xochiatipan mantiene aisladas a 33 localidades, mientras autoridades monitorean los cauces para intervenir una vez que desciendan los niveles.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobierno</Dependencia>
+		<Dependencias_mencionadas>Gobierno, DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Román Bernal Díaz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Limpian derrumbes en 15 tramos carreteros</Titular>
+		<Contenido>Cuadrillas y maquinaria pesada de la Sipdus trabajan en la remoción de escombros, tierra y piedras acumuladas por las precipitaciones en carreteras de la Huasteca y la Sierra.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Personal de la Sipdus despliega maquinaria pesada para despejar derrumbes y restablecer el tránsito vehicular en 15 tramos carreteros afectados por las lluvias en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Hay más renuncias en proceso; Menchaca sólo confirma a Tello</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar confirmó que existen escritos de renuncia de subsecretarios en la Oficialía Mayor de cara al proceso 2027, aunque formalmente en su escritorio sólo ha recibido la de Miguel Ángel Tello.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cambios En El Gabinete</Tema_segun_la_fuente>
+		<Sintesis>Julio Menchaca confirma la existencia de cartas de renuncia de subsecretarios ante la Oficialía Mayor con miras al proceso electoral 2027, aunque únicamente ha hecho pública la salida de Miguel Ángel Tello.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Oficialía Mayor, SEPH, Planeación</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Miguel Ángel Tello Vargas, Onésimo Serrano Rodríguez, Natividad Castrejón Valdez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Avances educativos ubican a Hidalgo entre los 10 mejores</Titular>
+		<Contenido>Hidalgo se posicionó en el octavo lugar nacional en eficiencia terminal del sistema educativo global, logrando que 39 de cada 100 alumnos que ingresan a primaria concluyan sus estudios universitarios.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Oferta educativa</Tema_segun_la_fuente>
+		<Sintesis>El titular de la SEPH, Natividad Castrejón, destaca que Hidalgo se ubica entre los 10 mejores estados del país en indicadores educativos tras incrementar la eficiencia terminal en bachillerato y universidad.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miguel Ángel Puértolas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Avanza 30% atención al rezago en las carpetas de investigación</Titular>
+		<Contenido>El encargado del Despacho de la PGJEH, Francisco Fernández Hasbun, reportó una reducción significativa del rezago de carpetas de investigación, pasando de 170 mil a 120 mil expedientes pendientes.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>La Procuraduría General de Justicia del Estado de Hidalgo disminuye en 30 por ciento el rezago de carpetas de investigación acumuladas, logrando además altos porcentajes de vinculación a proceso.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, INEGI</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Ángel Fernández Hasbun</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Agreden a personal de Sitmah</Titular>
+		<Contenido>Inspectores del Sitmah fueron agredidos por un automovilista en la estación San Antonio mientras realizaban la intervención a un motociclista que invadió el carril confinado del Tuzobús.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Supervisión de servicios</Tema_segun_la_fuente>
+		<Sintesis>Personal de supervisión del transporte masivo en Pachuca sufrió agresiones físicas y verbales al intervenir a un motociclista por invadir el carril confinado del Tuzobús.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>3</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Sitmah</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Les dan 13 años de prisión por robo</Titular>
+		<Contenido>Un tribunal dictó sentencia condenatoria de más de 11 y 13 años de prisión a dos sujetos hallados culpables del robo de un vehículo de autotransporte federal de carga en Tepeji del Río.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tepeji del Río</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Robo de vehículo</Tema_segun_la_fuente>
+		<Sintesis>Dos hombres reciben condenas de hasta 13 años de prisión tras ser declarados responsables del robo de un camión de carga en Tepeji del Río.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>3</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Oficial mayor irá a comparecencia ante legisladores</Titular>
+		<Contenido>El oficial mayor Edgar Orlando Ángeles Pérez acudirá al Congreso de Hidalgo el próximo 22 de octubre para rendir cuentas sobre las acciones realizadas durante el cuarto año de gobierno.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe De Gobierno</Tema_segun_la_fuente>
+		<Sintesis>El Congreso del Estado aprueba la comparecencia del titular de la Oficialía Mayor, Edgar Orlando Ángeles Pérez, como parte de la glosa del cuarto informe gubernamental.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>3</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Edgar Orlando Ángeles Pérez, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Localización de personas en Hidalgo es 92.5% efectiva</Titular>
+		<Contenido>Durante una reunión nacional de seguridad, la Secretaría de Gobierno informó la localización de 586 personas de las 727 reportadas como no localizadas en Hidalgo en lo que va de 2026.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Personas desaparecidas</Tema_segun_la_fuente>
+		<Sintesis>La Comisión de Búsqueda de Personas de Hidalgo reporta un índice de efectividad del 92.5 por ciento en la localización de personas reportadas como desaparecidas en la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Segob</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna, Francisco García Reyes, Rosa Icela Rodríguez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Los cuernudos de Calnali llevarán el carnaval de la Huasteca hidalguense a las calles de Guanajuato</Titular>
+		<Contenido>Representantes culturales de Calnali participarán con sus trajes tradicionales en las calles de Guanajuato durante la edición 54 del Festival Internacional Cervantino.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Calnali</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Evento Cultural</Tema_segun_la_fuente>
+		<Sintesis>La tradición de Los Cuernudos de Calnali representará la cultura de la Huasteca hidalguense en la programación del Festival Internacional Cervantino en Guanajuato.</Sintesis>
+		<Jerarquia_de_la_nota>Fotonota</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>2</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>El oficial mayor comparecerá en glosa del cuarto informe</Titular>
+		<Contenido>Por primera vez en la actual administración estatal, el Oficial Mayor Édgar Orlando Ángeles Pérez comparecerá ante el Pleno del Congreso de Hidalgo el 22 de octubre tras modificaciones al calendario aprobadas por la Junta de Gobierno.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe De Gobierno</Tema_segun_la_fuente>
+		<Sintesis>El Congreso de Hidalgo aprobó incorporar al titular de la Oficialía Mayor al calendario de comparecencias del cuarto informe de gobierno para rendir cuentas sobre compras y contrataciones.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Congreso, Oficialía Mayor, Planeación</Dependencias_mencionadas>
+		<Actores_mencionados>Édgar Orlando Ángeles Pérez, Onésimo Rodrigo Serrano Rivera, Francisco Fernández Hasbun</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Aún buscan a cinco tras la vaguada</Titular>
+		<Contenido>A un año del fenómeno meteorológico de octubre de 2025, la Comisión de Búsqueda de Personas de Hidalgo mantiene operativos permanentes junto a autoridades de Veracruz para localizar a cinco pobladores de Tianguistengo.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tianguistengo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Personas desaparecidas</Tema_segun_la_fuente>
+		<Sintesis>La CBPEH mantiene activas las fichas de búsqueda y rastreos en cauces de ríos de Tianguistengo y Veracruz para dar con el paradero de cinco personas desaparecidas tras la vaguada de 2025.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, CNB</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco García Reyes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Agreden a personal del Sitmah afuera de una estación del Tuzobús</Titular>
+		<Contenido>La Semot inició una carpeta de investigación contra un sujeto ajeno a un procedimiento que agredió físicamente y arrojó agua hirviente a inspectores del Sitmah afuera de la estación San Antonio del Tuzobús.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Supervisión de servicios</Tema_segun_la_fuente>
+		<Sintesis>Inspectores de movilidad que infraccionaban a un motociclista en el carril confinado del Tuzobús fueron atacados por un individuo que les arrojó líquido hirviente.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Muere réferi El Búho; Hijo de Fishman, detenido</Titular>
+		<Contenido>El réferi Gerardo Germán Pineda falleció tras recibir un castigo prohibido durante una función de lucha libre en el deportivo 11 de Julio en Mineral de la Reforma; el luchador Hijo de Fishman fue detenido por homicidio culposo.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>Elementos de seguridad de Mineral de la Reforma detuvieron al luchador Hijo de Fishman imputado por homicidio culposo tras la muerte del réferi El Búho en la Arena 11 de Julio.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Gerardo Germán Pineda</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Cuernudos de Calnali llegarán al 54 Festival Cervantino</Titular>
+		<Contenido>La comparsa de Los Cuernudos de Calnali llevará las tradiciones de la Huasteca hidalguense a las calles de Guanajuato el próximo 11 de octubre como parte de la oferta del 54 Festival Internacional Cervantino.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Calnali</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Evento Cultural</Tema_segun_la_fuente>
+		<Sintesis>Los Cuernudos de Calnali protagonizarán un pasacalles gratuito en el Festival Internacional Cervantino difundiendo la danza y tradición del carnaval serrano.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Aumentan 38% parcelas en descanso en Hidalgo</Titular>
+		<Contenido>Resultados de la ENA del Inegi revelaron que Hidalgo contabilizó más de 52 mil hectáreas de tierra agrícola en descanso durante 2025 para la recuperación de nutrientes, un 38.1% más que en 2022.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Producción agrícola</Tema_segun_la_fuente>
+		<Sintesis>Cifras del Inegi muestran la distribución de las 498 mil hectáreas agrícolas de Hidalgo, destacando que el 75% corresponde a cultivos anuales y más de 52 mil hectáreas están en descanso.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Desmantelan un presunto punto de venta de narcóticos en Tlaxcoapan</Titular>
+		<Contenido>Mediante un cateo en un inmueble del centro de Tlaxcoapan, la SSPH, Sedena y PGJEH desmantelaron un centro de distribución de droga asegurando 279 dosis de estupefacientes, cuatro fusiles de asalto y chalecos balísticos.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Tlaxcoapan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>Operativo coordinado entre fuerzas estatales y federales en Tlaxcoapan derivó en el aseguramiento de armas de fuego de alto calibre, cartuchos y dosis de marihuana y cristal.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Sedena, PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Tras la tragedia llega la reconstrucción</Titular>
+		<Contenido>A un año de los estragos de la vaguada monzónica en Huehuetla que dejaron 700 viviendas dañadas, avanza la inversión de 511 mdp en infraestructura con la edificación del puente Zicatlán y la reparación de escuelas.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Huehuetla</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Reportaje</Genero_periodistico>
+		<Tema_segun_la_fuente>Obras De Infraestructura</Tema_segun_la_fuente>
+		<Sintesis>Reportaje especial sobre el proceso de reconstrucción en Huehuetla tras las lluvias de 2025, destacando las obras en el puente Zicatlán y la rehabilitación de planteles escolares golpeados.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salvador López</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, SICT, Conagua</Dependencias_mencionadas>
+		<Actores_mencionados>Milton Gasca, Gerardo Osorio Rosales</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Liberan carreteras que resultaron afectadas por las precipitaciones</Titular>
+		<Contenido>Personal y maquinaria pesada de la Sipdus desplegaron trabajos permanentes en 20 tramos carreteros de la Sierra y Huasteca para retirar piedras, ramas y deslaves causados por las lluvias.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>La Sipdus intervino vías estatales en Tlanchinol, Huejutla, Zimapán, Huazalingo, Calnali y Tepehuacán para reabrir la circulación vial tras derrumbes provocados por el clima.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Refuerzan detección oportuna del cáncer de mama con 4 mil mastografías</Titular>
+		<Contenido>En lo que va de 2026, hasta septiembre, en la Unidad de Especialidades Médicas de Detección y Diagnóstico de Cáncer de Mama del IMSS-Bienestar, se han realizado cerca de 4 mil mastografías como parte de las acciones de prevención. Así lo afirmó la especialista Gabriela Chávez Hernández, quien agregó que se han efectuado cerca de 800 ultrasonidos mamarios y alrededor de 60 biopsias, de las cuales 28 resultaron positivas.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cáncer De Mama</Tema_segun_la_fuente>
+		<Sintesis>Gabriela Chávez Hernández, especialista de la Unidad de Especialidades Médicas de Cáncer de Mama del IMSS-Bienestar, reportó la realización de cerca de 4 mil mastografías, 800 ultrasonidos y 60 biopsias en 2026, destacando la importancia de la detección temprana.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>IMSS-Bienestar, SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Gabriela Chávez Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Suman a oficial mayor a las comparecencias ante diputados locales</Titular>
+		<Contenido>El presidente de la Mesa Directiva del Congreso estatal, Juan Pablo Escalante, dio a conocer que el jueves 22 de octubre, a las 16:00 horas, comparecerá el oficial mayor del gobierno estatal, Orlando Ángeles Pérez, como parte del cuarto informe de gobierno del mandatario Julio Menchaca. Dicha dependencia fue incorporada mediante el comunicado CELSH/66/JG/39/2026, reprogramando la comparecencia de Onésimo Serrano Rivera para el 20 de octubre.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe De Gobierno</Tema_segun_la_fuente>
+		<Sintesis>El Congreso de Hidalgo modificó el calendario de comparecencias del cuarto informe de gobierno para sumar al oficial mayor Orlando Ángeles Pérez el 22 de octubre y reprogramar a Onésimo Serrano Rivera para el 20 de octubre.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor, Congreso, Gobierno, Planeación, Cultura, Hacienda, Turismo, Sedeco, Contraloría</Dependencias_mencionadas>
+		<Actores_mencionados>Juan Pablo Escalante, Orlando Ángeles Pérez, Onésimo Serrano Rivera, Julio Menchaca Salazar, Guillermo Olivares Reyna, Neyda Naranjo Baltazar, María Esther Ramírez Vargas, Elizabeth Quintanar Gómez, Carlos Henkel Escorza, Álvaro Bardales Ramírez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Arrestan a "El Hijo de Fishman" por presunto homicidio culposo</Titular>
+		<Contenido>Por el presunto delito de homicidio culposo fue detenido por elementos de la Policía Municipal de Mineral de la Reforma J.A.N.L., tras la muerte del árbitro identificado como “El Búho”, cuyo nombre era G.G.P., quien fue encontrado sin vida durante la madrugada de este 7 de octubre en el Centro Deportivo 11 de Julio. La persona señalada, conocida como “El Hijo de Fishman”, fue puesta a disposición del Ministerio Público de la PGJEH tras aplicar un castigo de lucha libre en el cuadrilátero.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>Elementos de la Policía Municipal de Mineral de la Reforma detuvieron al luchador El Hijo de Fishman tras la muerte del árbitro Gerardo Germán Pineda "El Búho" durante una función de lucha libre en la colonia 11 de Julio.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>El Hijo de Fishman, Gerardo Germán Pineda</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Más de 84% de la mano de obra permanente del campo en Hidalgo no tiene salario fijo</Titular>
+		<Contenido>En Hidalgo, 84.42% de la mano de obra permanente de las unidades de producción agropecuaria trabaja sin recibir una remuneración económica fija, de acuerdo con los datos más recientes de la Encuesta Nacional Agropecuaria (ENA) 2025 del INEGI. El informe detalla que el estado cuenta con 514 mil 72 personas trabajando de forma permanente en las labores del campo, pero 433 mil 999 de ellas no perciben un sueldo establecido.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Producción agrícola</Tema_segun_la_fuente>
+		<Sintesis>De acuerdo con la ENA 2025 del INEGI, 433 mil 999 trabajadores agrícolas permanentes en Hidalgo (84.42%) laboran sin un sueldo fijo, sosteniendo la actividad a través del trabajo familiar y en parcelas propias.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh, INEGI</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Agreden a inspectores de transporte masivo; les arrojan líquido hirviendo</Titular>
+		<Contenido>Personal del Sistema Integrado de Transporte Masivo de Hidalgo (Sitmah) fue agredido física y verbalmente por un particular mientras realizaba labores de supervisión y vigilancia ante la invasión del carril confinado del Tuzobús, en el exterior de la estación San Antonio, en sentido sur. Durante la intervención a un motociclista, un conductor particular se aproximó y arrojó líquido hirviendo contra los inspectores.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Supervisión de servicios</Tema_segun_la_fuente>
+		<Sintesis>Inspectores del Sitmah fueron agredidos y atacados con líquido hirviendo por un particular durante una supervisión por invasión del carril exclusivo del Tuzobús en la estación San Antonio; se inició carpeta de investigación.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Sitmah, Tuzobús</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Los cuernudos de Calnali llevarán su tradición al Festival Cervantino</Titular>
+		<Contenido>Los cuernudos de Calnali participarán el 11 de octubre en un pasacalle del 54.º Festival Internacional Cervantino en Guanajuato para difundir esta tradición festiva de la Sierra Alta y Huasteca hidalguense.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Calnali</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Evento Cultural</Tema_segun_la_fuente>
+		<Sintesis>Los cuernudos de Calnali participarán el 11 de octubre en un pasacalle del 54.° Festival Internacional Cervantino en Guanajuato para difundir la tradición festiva de la Huasteca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Incorporan al Oficial Mayor en glosa del Cuarto Informe</Titular>
+		<Contenido>El Congreso de Hidalgo incorporó al titular de la Oficialía Mayor, Edgar Orlando Ángeles Pérez, al calendario de comparecencias por el Cuarto Informe de Gobierno para el próximo 22 de octubre.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe De Gobierno</Tema_segun_la_fuente>
+		<Sintesis>El Congreso de Hidalgo incorporó al titular de la Oficialía Mayor, Edgar Orlando Ángeles Pérez, al calendario de comparecencias por el Cuarto Informe de Gobierno para el 22 de octubre.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Congreso, Oficialía Mayor, Planeación</Dependencias_mencionadas>
+		<Actores_mencionados>Edgar Orlando Ángeles Pérez, Onésimo Rodrigo Serrano Rivera, Miguel Ángel Tello Vargas</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>No hay tumbas clandestinas en sitio de exhumación</Titular>
+		<Contenido>El secretario de Gobierno, Guillermo Olivares Reyna, descartó la existencia de tumbas clandestinas tras la exhumación de dos cuerpos en La Cañada, Atotonilco de Tula, aclarando que el sitio no tenía permiso de panteón.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Atotonilco de Tula</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Gobierno, Guillermo Olivares Reyna, descartó la existencia de tumbas clandestinas tras la exhumación de dos cuerpos en La Cañada, Atotonilco de Tula.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Van a demoler primaria en Tulancingo; edificarán otra</Titular>
+		<Contenido>La SEPH anunció que la primaria Aquiles Serdán de Tulancingo será demolida y reconstruida debido a daños estructurales, por lo que los alumnos iniciarán clases presenciales en sedes temporales o en línea.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>La SEPH anunció que la primaria Aquiles Serdán de Tulancingo será demolida y reconstruida debido a daños estructurales, por lo que los alumnos iniciarán clases en sedes temporales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Este jueves dictan fallo por triple feminicidio</Titular>
+		<Contenido>Familiares de las víctimas y colectivos feministas esperan el fallo judicial contra los imputados por el triple feminicidio de Daniela, Josselyn y Guadalupe ocurrido en Santiago Tulantepec en julio de 2024.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Santiago Tulantepec</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>Familiares de las víctimas y colectivos esperan el fallo judicial en el juicio por el triple feminicidio y aborto forzado ocurrido en Santiago Tulantepec en julio de 2024.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Agreden a personal del Sitmah durante labor de supervisión</Titular>
+		<Contenido>Un particular agredió física y verbalmente a inspectores del Sitmah y les arrojó agua hirviendo mientras sancionaban a un motociclista por invadir el carril confinado del Tuzobús en la estación San Antonio.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Supervisión de servicios</Tema_segun_la_fuente>
+		<Sintesis>Un particular agredió físicamente a inspectores del Sitmah y les arrojó agua hirviendo mientras intervenían a un motociclista en el carril confinado del Tuzobús.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Tras muerte de réferi cierran El 11 de Julio</Titular>
+		<Contenido>Autoridades clausuraron parcialmente el Deportivo 11 de Julio en Mineral de la Reforma y detuvieron al luchador El Hijo de Fishman tras la muerte del réferi Gerardo Germán Pineda El Búho durante una función sin permisos.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>Autoridades clausuraron el Deportivo 11 de Julio y detuvieron al luchador El Hijo de Fishman tras el fallecimiento del réferi El Búho en Mineral de la Reforma.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Tulancinguenses disfrutaron Tour de Cine Francés</Titular>
+		<Contenido>La Cineteca Tulancingo registró más de mil espectadores durante la edición 12 del Tour de Cine Francés, duplicando la asistencia respecto a años anteriores.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cartelera cultural</Tema_segun_la_fuente>
+		<Sintesis>La Cineteca Tulancingo registró una asistencia récord de 1,048 personas durante la muestra del Tour de Cine Francés.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Mauricio Molina</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Oficial Mayor comparecerá ante la 66 Legislatura</Titular>
+		<Contenido>Edgar Orlando Ángeles Pérez, titular de la Oficialía Mayor del Poder Ejecutivo de Hidalgo, fue incorporado al calendario de comparecencias ante el Congreso del Estado con motivo de la glosa del Cuarto Informe de Gobierno y deberá presentarse el próximo 22 de octubre.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe De Gobierno</Tema_segun_la_fuente>
+		<Sintesis>Edgar Orlando Ángeles Pérez, titular de la Oficialía Mayor, comparecerá ante el Congreso local el 22 de octubre como parte de la glosa del Cuarto Informe de Gobierno.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez Cabrera</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Congreso, Oficialía Mayor, PGJEH, Planeación</Dependencias_mencionadas>
+		<Actores_mencionados>Edgar Orlando Ángeles Pérez, Francisco Ángel Fernández Hasbún, Onésimo Serrano Rivera, Guillermo Olivares Reyna</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Beneficiarán a más de 2 mil familias en Hidalgo</Titular>
+		<Contenido>El gobernador del estado, Julio Menchaca Salazar, informó que más de 2 mil familias que registraron pérdida total de sus viviendas, derivado del impacto de la vaguada monzónica en octubre del 2025, serán beneficiadas con un apoyo directo.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca Salazar anunció que más de 2 mil familias que sufrieron pérdida total de sus viviendas por la vaguada de 2025 recibirán un apoyo económico directo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ana Luisa Vega</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Claudia Sheinbaum Pardo, Miguel Ángel Tello Vargas</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Emiten resultados de la Beca para la Transformación</Titular>
+		<Contenido>Ayer se emitieron los resultados de las Becas para la Transformación en el estado de Hidalgo con un listado de 5 mil 762 registros que supuestamente corresponden cada uno a un alumno; sin embargo, el cotejo de folios arroja por lo menos 64 duplicados.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo Educativo</Tema_segun_la_fuente>
+		<Sintesis>La SEPH emitió el listado con 5,762 beneficiarios de la Beca para la Transformación en Hidalgo, detectando al menos 64 folios duplicados en el padrón.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez Cabrera</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Entregan apoyos por más de 5.8 millones de pesos</Titular>
+		<Contenido>La Secretaría de Agricultura y Desarrollo Rural de Hidalgo (Saderh) realizó la entrega de apoyos productivos con una inversión de 5 millones 862 mil 436 pesos, en beneficio de 536 familias en el municipio de Tlaxcoapan.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Municipio>Tlaxcoapan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo Al Agro</Tema_segun_la_fuente>
+		<Sintesis>La Saderh entregó apoyos agrícolas y ganaderos por 5.8 millones de pesos a 536 familias productoras del Valle del Mezquital.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh</Dependencias_mencionadas>
+		<Actores_mencionados>Napoleón González Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Logra cuautepequense medalla de bronce</Titular>
+		<Contenido>El cuautepequense Luis Ángel González Castelán nuevamente pone a Hidalgo en primeros planos deportivos, ahora durante la Paralimpiada Nacional 2026, donde ha conseguido la medalla de bronce en lanzamiento de disco.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Municipio>Cuautepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Paranacionales Conade</Tema_segun_la_fuente>
+		<Sintesis>El paratleta Luis Ángel González Castelán obtuvo la medalla de bronce en lanzamiento de disco durante la Paralimpiada Nacional 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús Riveros Martínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>Inhide</Dependencias_mencionadas>
+		<Actores_mencionados>Luis Ángel González Castelán, Alejandro Ramírez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Inhabilitan un predio de venta y distribución de narcóticos</Titular>
+		<Contenido>Elementos de la Secretaría de Seguridad Pública de Hidalgo (SSPH) desmantelaron un punto utilizado para venta y distribución de narcóticos en la colonia Centro de Tlaxcoapan, asegurando dosis de drogas y armamento.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Municipio>Tlaxcoapan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>Elementos de la SSPH y fuerzas federales desmantelaron un punto de venta de drogas en Tlaxcoapan, asegurando estupefacientes, armas y chalecos balísticos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Presidencia, PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Se tiró del puente vehicular de Viaducto Río Avenidas y murió</Titular>
+		<Contenido>Una tragedia se registró sobre el Viaducto Río de las Avenidas de Pachuca, donde un hombre por causas desconocidas se habría tirado desde un puente vehicular, siendo impactado por un auto.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente Vial</Tema_segun_la_fuente>
+		<Sintesis>Un hombre falleció tras lanzarse desde un puente vehicular en el Viaducto Río de las Avenidas en Pachuca y ser atropellado.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Hallan cadáver de desaparecido en cisterna</Titular>
+		<Contenido>Dos semanas después de ser reportado como desaparecido, el cadáver de Héctor Hugo P. P., de 44 años, fue hallado dentro de una cisterna en la comunidad de Acayuca, municipio de Zapotlán.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Municipio>Zapotlán</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Personas desaparecidas</Tema_segun_la_fuente>
+		<Sintesis>Autoridades hallaron en una cisterna de Zapotlán el cuerpo sin vida de Héctor Hugo P. P., quien contaba con ficha de búsqueda desde hace dos semanas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Apareció una mujer sin vida, en una barranca de Mixquiahuala</Titular>
+		<Contenido>En el fondo de una barranca localizada en la colonia La Peña, perteneciente al municipio de Mixquiahuala, vecinos descubrieron el cuerpo sin vida de una joven mujer en calidad de desconocida.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Municipio>Mixquiahuala</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Homicidios</Tema_segun_la_fuente>
+		<Sintesis>Vecinos de Mixquiahuala localizaron en el fondo de una barranca el cuerpo sin vida de una mujer no identificada con señas de violencia.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Capturan a Fishman por muerte del Búho</Titular>
+		<Contenido>A consecuencia de la aplicación de una riesgosa llave en el Centro Deportivo 11 de Julio de Mineral de la Reforma, falleció el réferi El Búho, por lo que fue detenido el luchador El Hijo de Fishman por homicidio culposo.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>El luchador El Hijo de Fishman fue detenido por la muerte del réferi El Búho tras aplicarle un martinete en la Arena 11 de Julio.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>SSPH capturó en Huasca, a una pareja con 45 billetes falsos</Titular>
+		<Contenido>Agentes de la Secretaría de Seguridad Pública de Hidalgo detuvieron en Huasca de Ocampo a un hombre y una mujer que presuntamente habrían realizado un pago con dinero falso en un comercio local.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Municipio>Huasca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>Agentes de la SSPH detuvieron en Huasca a una pareja que portaba 45 billetes falsos de 500 pesos tras intentar realizar una compra apócrifa.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Hidalgo cierra ganando cinco medallas en para tenis de mesa</Titular>
+		<Contenido>En disciplina de para tenis de mesa, Hidalgo concluyó su participación en la Paralimpiada Nacional CONADE 2026 con una destacada cosecha de tres medallas de oro y dos de bronce.</Contenido>
+		<Fecha_de_publicacion>2026-10-08</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Paranacionales Conade</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo conquistó tres medallas de oro y dos de bronce en la disciplina de para tenis de mesa durante la Paralimpiada Nacional 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Páginas interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>Inhide</Dependencias_mencionadas>
+		<Actores_mencionados>Héctor Iván Hernández Palacios, Aren Gil Acosta, Paulo Javier Cabrera Serna, Guadalupe Montaño Cruz, Diego Isaac Cuevas Vega</Actores_mencionados>
+	</Nota>
+</NotasRadio>
