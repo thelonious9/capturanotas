@@ -1,0 +1,1740 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Revisan plan para edificación de viviendas</Titular>
+		<Contenido>El gobernador de Hidalgo, Julio Menchaca Salazar, y la directora del Fondo de la Vivienda del ISSSTE (Fovissste), Jabnely Maldonado, sostuvieron una reunión de trabajo para revisar los proyectos habitacionales que el organismo federal prevé desarrollar en la entidad, proyectando inicialmente seis mil viviendas.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Proyectos Federales</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca sostuvo una reunión de trabajo con la titular del Fovissste para revisar la proyección inicial de 6 mil viviendas en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Fovissste, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Jabnely Maldonado</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Oponen a cambiar parque por escuela</Titular>
+		<Contenido>Habitantes del fraccionamiento Villas de Pachuca solicitaron una audiencia con el subsecretario de Educación Media Superior de Hidalgo, Daniel Fragoso Torres, para pedir la preservación de un área verde arbolada de 3 mil 300 metros cuadrados donde se proyecta edificar un telebachillerato.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Infraestructura escolar</Tema_segun_la_fuente>
+		<Sintesis>Vecinos de Villas de Pachuca rechazan la donación de un área verde comunitaria aprobada por el Ayuntamiento para la construcción de un telebachillerato y piden buscar terrenos alternativos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Maximiliano Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Daniel Fragoso Torres</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Taxímetros podrían costar mil 800 pesos</Titular>
+		<Contenido>Eleno Arias, dirigente de la FUTVEH, informó que los dispositivos de taxímetro obligatorios para taxis de Pachuca y Mineral de la Reforma tendrán un costo estimado de entre mil 600 y mil 800 pesos, y deberán estar colocados a más tardar en marzo de 2027.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Supervisión de Transporte</Tema_segun_la_fuente>
+		<Sintesis>Dirigentes del transporte público en la zona metropolitana evalúan proveedores de taxímetros digitales y mecánicos coordinándose con la Semoth para acatarse a las nuevas tarifas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, STCH</Dependencias_mencionadas>
+		<Actores_mencionados>Eleno Arias</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Exquitlán, lugar de relatos sangrientos</Titular>
+		<Contenido>Reseña de la leyenda y legado arquitectónico de la antigua Hacienda de Exquitlán o El Pomar en Tulancingo, inmueble construido a partir de 1868 que conserva relatos populares y eventos sobrenaturales.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Evento Cultural</Tema_segun_la_fuente>
+		<Sintesis>Relato histórico sobre las leyendas del hacendado Pánfilo García y la arquitectura de la ex Hacienda Exquitlán publicada en la divulgación cultural universitaria.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Fernanda Huerta</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, UAEH</Dependencias_mencionadas>
+		<Actores_mencionados>Mauricio Iván Izeta Molina</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Contemplan incinerar basura en La Cruz Azul</Titular>
+		<Contenido>La planta de Cemento Cruz Azul en Tula analiza la posibilidad de utilizar sus dos hornos industriales para el coprocesamiento e incineración de basura doméstica de los municipios de la región Tula, tras el cierre del relleno sanitario regional.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Disposición de basura</Tema_segun_la_fuente>
+		<Sintesis>Directivos de Cruz Azul confirmaron que evalúan con el gobierno estatal el coprocesamiento de residuos urbanos con tratamiento previo en sus hornos de calcinación.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Rosalía Maldonado</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Gobernador, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Mario Morán Lagunes, Julio Menchaca Salazar, Víctor Manuel Velázquez Rangel</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Familias requieren claridad en proceso</Titular>
+		<Contenido>Familiares de dos hombres procesados por presunto despojo en Ixmiquilpan solicitaron la intervención del gobernador Julio Menchaca Salazar para revisar su caso, asegurando contar con pruebas de su inocencia que el mandatario turnó a la Defensoría de Oficio.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>14</Liga>
+		<Municipio>Ixmiquilpan</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>Pobladores de Ixmiquilpan entregaron un expediente al gobernador Julio Menchaca para solicitar asesoría jurídica gratuita y la revisión de un proceso penal por presunto despojo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Omar Santiago</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Segobh, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Sin cese, la búsqueda de 5 a un año de la emergencia</Titular>
+		<Contenido>A un año de las afectaciones por la vaguada monzónica, el comisionado de Búsqueda del Estado de Hidalgo, Francisco García Reyes, aseguró que se busca con vida a las cinco personas desaparecidas tras el fenómeno en el municipio de Tianguistengo.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Tianguistengo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Personas desaparecidas</Tema_segun_la_fuente>
+		<Sintesis>El comisionado de Búsqueda de Personas de Hidalgo, Francisco García Reyes, informó que se mantiene la búsqueda con presunción de vida de cinco pobladores desaparecidos en Tianguistengo tras la vaguada de 2025, en trabajo coordinado con Veracruz.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, CBPEH</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco García Reyes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Restablecen el paso en regiones afectadas tras recientes lluvias</Titular>
+		<Contenido>Las precipitaciones de los últimos días dejaron afectaciones en carreteras y caminos de varias regiones de la entidad; sin embargo, los trabajos de maquinaria estatal y municipal han permitido recuperar el paso en distintos puntos, entre ellos el puente vado de El Hormiguero, en Tianguistengo.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Servicios de la Sipdus y ayuntamientos lograron recuperar parcialmente la circulación vehicular en tramos de Tianguistengo, Tenango de Doria y el río Garcés tras deslaves provocados por lluvias recientes.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, SICT, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Vacunación invernal arranca este lunes</Titular>
+		<Contenido>Hidalgo iniciará el 12 de octubre la campaña de vacunación de la temporada invernal, con la distribución de más de 1.5 millones de dosis contra covid-19 e influenza, informó la secretaria de Salud estatal, Vanessa Escalante Arroyo.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Campaña de vacunación</Tema_segun_la_fuente>
+		<Sintesis>La secretaria de Salud de Hidalgo, Vanessa Escalante, anunció el arranque de la campaña de vacunación invernal con más de 1.5 millones de dosis contra COVID-19 e influenza.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miguel Ángel Puértolas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, IMSS-Bienestar, IMSS, ISSSTE</Dependencias_mencionadas>
+		<Actores_mencionados>Vanessa Escalante Arroyo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Buscan frenar fugas de talento local</Titular>
+		<Contenido>Hidalgo está formando más profesionistas que nunca, pero el reto está en conseguir que tengan razones para quedarse, pues más del 70 por ciento de quienes concluyen una carrera terminan trabajando fuera del estado, reconoció el secretario de Educación Pública, Natividad Castrejón.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Oferta educativa</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Educación, Natividad Castrejón, señaló que más del 70% de los egresados universitarios en Hidalgo emigran por falta de empleo, por lo que se impulsan 61 carreras vinculadas a nuevos polos industriales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miguel Ángel Puértolas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Avances educativos ubican a Hidalgo entre los 10 mejores</Titular>
+		<Contenido>Cuatro de cada 10 alumnos que ingresan a primaria tienen hoy la posibilidad de llegar a concluir una carrera universitaria, de acuerdo con los indicadores presentados por la SEPH, lo que colocó a la entidad en el octavo lugar nacional en eficiencia terminal global del sistema educativo.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Oferta educativa</Tema_segun_la_fuente>
+		<Sintesis>Indicadores de la SEPH posicionan a Hidalgo en el octavo lugar nacional en eficiencia terminal global del sistema educativo, alcanzando 100% en primaria y avances en secundaria y universidad.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miguel Ángel Puértolas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Gobierno</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Avanza 30% atención al rezago en las carpetas de investigación</Titular>
+		<Contenido>El encargado del Despacho de la Procuraduría General de Justicia del Estado de Hidalgo (PGJEH), Francisco Ángel Fernández Hasbun, señaló que se tiene un avance de alrededor del 30 por ciento en cuanto al rezago de carpetas de investigación, pasando de 170 mil a 120 mil expedientes.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>El encargado de despacho de la PGJEH, Francisco Ángel Fernández Hasbun, reportó una reducción del 30% en el rezago de carpetas de investigación, disminuyendo de 170 mil a 120 mil expedientes.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Inegi</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Ángel Fernández Hasbun</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Investigación por tumbas en La Cañada</Titular>
+		<Contenido>El secretario de Gobierno de Hidalgo, Guillermo Olivares Reyna, calificó como tumbas clandestinas las dos sepulturas localizadas en la comunidad de La Cañada, en Atotonilco de Tula, por lo que la PGJEH inició una carpeta de investigación tras la denuncia del ayuntamiento.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Atotonilco de Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Gobierno, Guillermo Olivares Reyna, calificó como clandestinas dos tumbas en La Cañada, Atotonilco de Tula, dando paso a investigaciones de la PGJEH tras denuncia municipal.</Sintesis>
+		<Jerarquia_de_la_nota>Módulo</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>4</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Desmantelan punto de venta de drogas</Titular>
+		<Contenido>Un cateo realizado en un inmueble de la colonia Centro de Tlaxcoapan permitió asegurar 279 dosis de presuntas drogas, armas de fuego, cartuchos, cargadores y equipo táctico en operativo coordinado de la SSPH, Sedena y PGJEH.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tlaxcoapan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>En un operativo conjunto de la SSPH, Sedena y PGJEH se cateó un inmueble en Tlaxcoapan, asegurando 279 dosis de estupefacientes, armas de fuego y equipo táctico.</Sintesis>
+		<Jerarquia_de_la_nota>Módulo</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>4</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Dan último adiós a réferi El Búho en Pachuca</Titular>
+		<Contenido>Familiares, amigos y compañeros de la lucha libre dieron el último adiós a Gerardo Germán Pineda, El Búho, quien fue sepultado en el panteón municipal de Pachuca tras fallecer durante una función; la Arena Vanguardia fue clausurada y el luchador Hijo de Fishman detenido.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>Familiares y gremio luchístico despidieron en el panteón municipal de Pachuca al réferi Gerardo Germán Pineda El Búho, mientras autoridades indagan las omisiones y responsabilidades tras su fallecimiento.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Gerardo Germán Pineda</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Feria de Pachuca ofrece espectáculos por 60 pesos</Titular>
+		<Contenido>Por 60 pesos, los visitantes de la Feria de San Francisco Pachuca Hidalgo 2026 pueden acceder a espectáculos y atracciones como Vie de Cirque e ilusionismo sobre hielo instalado en el Lienzo Charro.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria Pachuca</Tema_segun_la_fuente>
+		<Sintesis>La Feria de San Francisco Pachuca Hidalgo 2026 ofrece a los visitantes acceso a espectáculos internacionales como Vie de Cirque e ilusionismo sobre hielo con el costo de la entrada general.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>3</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo, Gobierno</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Localización de personas en Hidalgo es 92.5% efectiva</Titular>
+		<Contenido>La Secretaría de Gobierno del estado reportó a la Secretaría de Gobernación federal un porcentaje de localización de personas desaparecidas del 92.5 por ciento en lo que va del 2026, con 586 personas localizadas de 727 registradas.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Personas desaparecidas</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Gobierno, Guillermo Olivares Reyna, y el comisionado de Búsqueda reportaron ante Segob federal la localización de 586 personas en Hidalgo durante 2026, con 92.5% de efectividad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, CBPEH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna, Rosa Icela Rodríguez, Francisco García Reyes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Contemplan incinerar basura en La Cruz Azul</Titular>
+		<Contenido>Una vez que la planta Hidalgo de La Cruz Azul retomó la producción de cemento, existe la posibilidad de utilizar sus hornos para el coprocesamiento de una parte de la basura doméstica que generan municipios de la región Tula.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Disposición de basura</Tema_segun_la_fuente>
+		<Sintesis>La gerencia de la planta Cruz Azul en Tula analiza utilizar sus hornos para el coprocesamiento de basura doméstica regional tras el cierre del relleno sanitario de Tula de Allende.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Rosalía Maldonado</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Gobierno</Dependencias_mencionadas>
+		<Actores_mencionados>Mario Morán Lagunes, Julio Menchaca Salazar, Víctor Manuel Velázquez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Familias requieren claridad en proceso</Titular>
+		<Contenido>Familiares de dos personas detenidas en el Cereso de Pachuca por presunto despojo en Ixmiquilpan entregaron al gobernador Julio Menchaca Salazar una carpeta con información para demostrar su inocencia, siendo canalizados ante la Defensoría de Oficio.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>14</Liga>
+		<Municipio>Ixmiquilpan</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>Familiares de detenidos por despojo en Ixmiquilpan entregaron un expediente al gobernador Julio Menchaca Salazar, quien canalizó el caso a la Defensoría de Oficio estatal para su atención.</Sintesis>
+		<Jerarquia_de_la_nota>Módulo</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Omar Santiago</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Defensoría de Oficio</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Segob ofrece acompañar diálogo en sindicato del IMSS; niega retenciones</Titular>
+		<Contenido>La Secretaría de Gobernación (Segob) refrendó su disposición a acompañar el diálogo entre la base trabajadora del Instituto Mexicano del Seguro Social (IMSS) y la dirigencia de su sindicato, y pidió a las partes dar continuidad a la mesa instalada luego de que un grupo se retirara para bloquear Paseo de la Reforma.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Trabajo bajo protesta</Tema_segun_la_fuente>
+		<Sintesis>Segob refrendó disposición para acompañar diálogo entre trabajadores del IMSS y su dirigencia sindical, desmintiendo retenciones a integrantes del gremio.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, IMSS</Dependencias_mencionadas>
+		<Actores_mencionados>Rosa Icela Rodríguez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>La CNB indagará en Nayarit presunto hallazgo de cuerpos</Titular>
+		<Contenido>La Comisión Nacional de Búsqueda envió un equipo a Nayarit para verificar el hallazgo reportado por la Fiscalía estatal en un sitio señalado como un presunto campo de exterminio, por instrucción de la presidenta Claudia Sheinbaum.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Personas desaparecidas</Tema_segun_la_fuente>
+		<Sintesis>Comisión Nacional de Búsqueda envió equipo a Nayarit para verificar el hallazgo de un presunto campo de exterminio tras reporte de fiscalía.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, CBPEH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Sheinbaum Pardo, Rosa Icela Rodríguez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Concentran cuatro municipios más casos de delitos sexuales</Titular>
+		<Contenido>De enero a agosto de 2026, Pachuca, Tizayuca, Mineral de la Reforma y Tulancingo concentraron el mayor número de presuntos delitos contra la libertad y seguridad sexual en Hidalgo. Pachuca encabezó con 293 casos, seguida de Tizayuca con 140, La Reforma con 129 y Tulancingo con 114.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Delitos de género</Tema_segun_la_fuente>
+		<Sintesis>Pachuca, Tizayuca, Mineral de la Reforma y Tulancingo acumularon la mayor incidencia de delitos sexuales en Hidalgo entre enero y agosto de 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Condena ataque a presidenta municipal</Titular>
+		<Contenido>El dirigente estatal de Morena, Marco Antonio Rico Mercado, condenó la irrupción violenta ocurrida en la oficina de la alcaldesa de Atotonilco de Tula, Yocelyn Tovar, donde manifestantes rompieron la puerta mientras ella se encontraba con sus dos hijas menores de edad.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Atotonilco de Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>Marco Antonio Rico condenó la irrupción violenta en la oficina de la presidenta municipal de Atotonilco de Tula, Yocelyn Tovar.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>Morena, Ayuntamiento, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Marco Antonio Rico Mercado, Yocelyn Tovar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Cae sacerdote prófugo desde 2018 acusado de abuso sexual infantil</Titular>
+		<Contenido>Jorge N, sacerdote de 60 años prófugo desde 2018, fue detenido en Córdoba, Veracruz, mediante una orden de aprehensión de Hidalgo por el delito de abuso sexual agravado contra dos menores de edad en Atotonilco el Grande.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Atotonilco el Grande</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>Autoridades ministeriales aprehendieron en Veracruz a sacerdote prófugo desde 2018 por abuso sexual agravado de dos menores en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Jorge N, Luis Carlos Gutiérrez Espinoza</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Voluntariado internacional trabajará en conservación del patrimonio histórico</Titular>
+		<Contenido>Hidalgo recibirá por primera vez a un voluntariado internacional para participar en labores de conservación del patrimonio histórico, incluyendo el acueducto del Padre Tembleque en Zempoala, informó la secretaria de Cultura, Neyda Naranjo Baltazar.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Zempoala</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Evento Cultural</Tema_segun_la_fuente>
+		<Sintesis>Secretaría de Cultura confirmó la llegada de un voluntariado internacional para restaurar el acueducto del Padre Tembleque y otros espacios patrimoniales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>18</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Neyda Naranjo Baltazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Hidalgo acumula 112 suicidios en 9 meses</Titular>
+		<Contenido>En nueve meses, en Hidalgo se registraron 112 suicidios, cifra que representa 70.4 por ciento de los casos reportados durante todo 2025; además, 213 personas intentaron quitarse la vida.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Salud Mental</Tema_segun_la_fuente>
+		<Sintesis>En los primeros nueve meses de 2026 se registraron 112 suicidios y 213 intentos en Hidalgo, de acuerdo con reportes de las secretarías de Salud estatal y federal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Fortalecen detección de cardiopatías en los recién nacidos</Titular>
+		<Contenido>La Secretaría de Salud de Hidalgo puso en marcha la Jornada de Supervisión, Seguimiento y Fortalecimiento del Tamiz Neonatal Cardíaco en las jurisdicciones sanitarias de la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Promoción De La Salud</Tema_segun_la_fuente>
+		<Sintesis>La SSH puso en marcha la Jornada de Supervisión y Fortalecimiento del Tamiz Neonatal Cardíaco en las jurisdicciones sanitarias para identificar cardiopatías congénitas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante Arroyo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Se forman horas por medicinas; IMSS no las tiene</Titular>
+		<Contenido>Derechohabientes enfrentan escasez de fármacos en la Clínica 1 del IMSS en Pachuca, donde deben hacer largas filas para recibir respuestas de falta de existencia.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Abasto De Medicamentos</Tema_segun_la_fuente>
+		<Sintesis>Derechohabientes de la Clínica 1 del IMSS en Pachuca reportan largas filas y falta de medicamentos esenciales como metformina y sitagliptina.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, IMSS</Dependencias_mencionadas>
+		<Actores_mencionados>María Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Localizan mediante la CURP a 10 desaparecidos</Titular>
+		<Contenido>Durante septiembre, la Comisión de Búsqueda de Personas del Estado de Hidalgo detectó a 10 personas que contaban con reporte de desaparición mediante la leyenda incorporada en su CURP.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Personas desaparecidas</Tema_segun_la_fuente>
+		<Sintesis>La Comisión de Búsqueda de Personas del Estado de Hidalgo detectó y localizó a 10 personas con reporte de desaparición gracias a la leyenda integrada en su CURP.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, CBPEH</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco García Reyes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Tumbas encontradas en localidad de Atotonilco de Tula son clandestinas</Titular>
+		<Contenido>Las dos sepulturas ubicadas en un predio de la comunidad La Cañada, en Atotonilco de Tula, fueron consideradas tumbas clandestinas debido a que el sitio no contaba con autorización.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Atotonilco de Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Gobierno, Guillermo Olivares, señaló que las dos sepulturas exhumadas en La Cañada eran clandestinas al carecer de autorización oficial como panteón.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Desmantelan tres puntos de venta de drogas</Titular>
+		<Contenido>La Secretaría de Seguridad Pública de Hidalgo desmanteló tres predios presuntamente utilizados para la venta y distribución de posibles narcóticos en Huasca de Ocampo y Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Huasca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>La SSPH, en coordinación con la PGJEH y Defensa, aseguró 3 mil 790 dosis de narcóticos y detuvo a tres personas en operativo en Huasca de Ocampo y Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Saderh entrega apoyos a 316 familias de 5 demarcaciones</Titular>
+		<Contenido>La Secretaría de Agricultura y Desarrollo Rural de Hidalgo destinó un millón 996 mil 739 pesos para fortalecer las actividades productivas de 316 familias de la Sierra y Huasteca.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pacula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo Al Agro</Tema_segun_la_fuente>
+		<Sintesis>La Saderh destinó 1.9 millones de pesos en equipamiento avícola, huertos familiares y plantas productivas para familias de Pacula, Jacala, Nicolás Flores, Pisaflores y La Misión.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Dan el último adiós a El Búho</Titular>
+		<Contenido>Entre música, aplausos y recuerdos, se llevó a cabo el sepelio de El Búho en el panteón municipal de Pachuca, tras su fallecimiento durante una función de lucha libre.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>Familiares, amigos y compañeros de la lucha libre despidieron e inhumaron en el panteón municipal de Pachuca al réferi Gerardo Germán Pineda, El Búho.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Gerardo Germán Pineda</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Aumentan 38% parcelas en descanso en Hidalgo</Titular>
+		<Contenido>Hidalgo registró 498 mil 45 hectáreas de superficie agrícola durante 2025, de las cuales más de 52 mil hectáreas se encontraban en descanso, según datos de la Encuesta Nacional Agropecuaria.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Producción agrícola</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo registró más de 52 mil hectáreas de superficie agrícola en descanso durante 2025 para recuperar nutrientes, lo que representa un aumento de 38.1% respecto a 2022.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Desmantelan un presunto punto de venta de narcóticos en Tlaxcoapan</Titular>
+		<Contenido>Elementos de la Secretaría de Seguridad Pública de Hidalgo desmantelaron un punto presuntamente utilizado para la venta y distribución de narcóticos mediante un cateo en Tlaxcoapan.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Tlaxcoapan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>Elementos de la SSPH, Sedena y PGJEH aseguraron 279 dosis de drogas, cuatro fusiles de asalto y tres armas cortas durante un cateo en la colonia Centro de Tlaxcoapan.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Huehuetla vuelve a florecer</Titular>
+		<Contenido>A un año de la inundación provocada por la vaguada monzónica, pobladores de Huehuetla se han levantado del golpe económico y social mediante apoyos productivos y obras de infraestructura.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Huehuetla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Reportaje</Genero_periodistico>
+		<Tema_segun_la_fuente>Obras De Infraestructura</Tema_segun_la_fuente>
+		<Sintesis>A un año de la vaguada monzónica, pobladores de Huehuetla han retomado sus actividades económicas y comunitarias mientras avanza la construcción del puente Zicatlán.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salvador López</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Milca Patricia Escamilla, Gloria Cruz Martínez, Anita Tolentino Romero, Gerardo Osorio Rosales</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Perfilan fallo por un triple feminicidio</Titular>
+		<Contenido>Se retomó la audiencia de juicio oral por el triple feminicidio ocurrido el 30 de julio de 2024 en Santiago Tulantepec, donde familiares exigieron condena máxima para los tres imputados.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Santiago Tulantepec</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>En los Juzgados Penales de Tulancingo se reanudó la audiencia de juicio oral por el triple feminicidio en Santiago Tulantepec, donde la fiscalía solicitó condena máxima.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Mirely Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Mónica Sepúlveda</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Aprovechan una calle cerrada y oscuridad para intentar asaltar</Titular>
+		<Contenido>Un vecino del barrio El Pedregal denunció un intento de asalto durante la noche en la calle Francisco Villa, en Tizayuca, donde la falta de alumbrado favoreció la agresión.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Tizayuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>Un vecino del barrio El Pedregal en Tizayuca denunció un intento de asalto sobre la calle Francisco Villa, atribuido a la falta de alumbrado por obras de pavimentación.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Javier Quezada</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Padres piden docente y apertura de un aula</Titular>
+		<Contenido>Padres de familia de la Telesecundaria 759 en el barrio San Miguel, Ixmiquilpan, se manifestaron para pedir la apertura de un aula y la asignación de un docente.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Ixmiquilpan</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Infraestructura escolar</Tema_segun_la_fuente>
+		<Sintesis>Padres de familia de la Telesecundaria 759 en Ixmiquilpan se manifestaron para exigir a la SEPH la asignación de un docente y la apertura de un grupo adicional para primer grado.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erika Gutiérrez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Dan último adiós a Gerardo Germán Pineda, “El Búho” en Pachuca</Titular>
+		<Contenido>Familiares, amigos y compañeros de la lucha libre despidieron en el panteón municipal de Pachuca al réferi Gerardo Germán Pineda, "El Búho", quien falleció tras un castigo aplicado durante una función realizada en Mineral de la Reforma.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>Familiares y miembros del gremio luchístico despidieron al réferi Gerardo Germán Pineda en el panteón municipal de Pachuca, tras su fallecimiento derivado de un castigo aplicado durante un combate en Mineral de la Reforma.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Gerardo Germán Pineda, Santiago Jesús Castillo Moreno, El Hijo de Fishman</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Orden ministerial derivó en exhumación de cuerpos en presuntas tumbas clandestinas en Atotonilco</Titular>
+		<Contenido>La Presidencia Municipal de Atotonilco de Tula aclaró que la exhumación de dos cuerpos en el predio La Cañada del Pozo Uno obedeció a un ordenamiento ministerial de la PGJEH; en tanto, el secretario de Gobierno, Guillermo Olivares Reyna, confirmó que se atendió una denuncia por sepulturas no autorizadas.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Atotonilco de Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuración de Justicia</Tema_segun_la_fuente>
+		<Sintesis>La alcaldía de Atotonilco de Tula y el secretario de Gobierno, Guillermo Olivares Reyna, informaron que la exhumación de dos cuerpos en el predio La Cañada obedeció a un ordenamiento ministerial por inhumaciones en espacios no autorizados.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PGJEH, Copriseh, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>A un año de la vaguada monzónica, sigue la búsqueda de cinco personas</Titular>
+		<Contenido>A un año de las afectaciones por la vaguada monzónica en Hidalgo, la Comisión de Búsqueda de Personas del Estado de Hidalgo (CBPEH) mantiene activas las fichas de localización de cinco personas desaparecidas en Tianguistengo, trabajando en coordinación con autoridades de Veracruz.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Tianguistengo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Personas desaparecidas</Tema_segun_la_fuente>
+		<Sintesis>La Comisión de Búsqueda de Personas del Estado de Hidalgo mantiene activas las fichas de localización para cinco personas desaparecidas tras la vaguada monzónica en Tianguistengo, realizando labores coordinadas con Veracruz.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, CBPEH</Dependencias_mencionadas>
+		<Actores_mencionados>José Francisco García Reyes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>CURP con alerta de desaparición ayudó a localizar a 10 hidalguenses</Titular>
+		<Contenido>El titular de la CBPEH, José Francisco García Reyes, informó que la leyenda de búsqueda incorporada a la CURP permitió detectar a 10 personas reportadas como desaparecidas en Hidalgo, en su mayoría por ausencias voluntarias.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Personas desaparecidas</Tema_segun_la_fuente>
+		<Sintesis>La incorporación de la leyenda de búsqueda en la CURP facilitó la localización de 10 personas reportadas como desaparecidas en Hidalgo durante 2026, según informó la Comisión de Búsqueda de Personas del Estado.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, CBPEH, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>José Francisco García Reyes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Desmantela Policía Estatal tres predios donde hallaron 4 mil dosis de droga</Titular>
+		<Contenido>La Secretaría de Seguridad Pública de Hidalgo detuvo a tres personas y aseguró tres inmuebles en Pachuca y Huasca de Ocampo, decomisando más de 3 mil 700 dosis de marihuana y cristal, cartuchos útiles y vehículos.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>La SSPH desmanteló tres predios utilizados para la venta de droga en Pachuca y Huasca de Ocampo, logrando la detención de tres personas y el aseguramiento de cerca de 4 mil dosis de estupefacientes.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Antonio Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Investigación será publicada en revista internacional</Titular>
+		<Contenido>La investigación científica desarrollada en el laboratorio de Óptica de la Universidad de Tulancingo (UTEC) fue aprobada para su publicación en la Editorial OPTICA, referente global en óptica aplicada, fotónica y metrología. El estudio desarrolla y valida experimentalmente técnicas de interferometría para mediciones de alta sensibilidad.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Investigación académica</Tema_segun_la_fuente>
+		<Sintesis>Un estudio científico del laboratorio de Óptica de la UTEC sobre técnicas de interferometría fue aprobado para su publicación en la revista internacional Editorial OPTICA.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, UTEC</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Invitan a realizarse la mastografía</Titular>
+		<Contenido>El Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado (ISSSTE) Hidalgo invitó a derechohabientes y población en general a participar en la Campaña Gratuita de Mastografías durante octubre en la Clínica de Medicina Familiar con Especialidades de Pachuca, en un horario de 07:00 a 13:00 horas.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cáncer De Mama</Tema_segun_la_fuente>
+		<Sintesis>El ISSSTE Hidalgo puso en marcha una campaña gratuita de mastografías durante todo el mes de octubre en la Clínica de Medicina Familiar de Pachuca para promover la detección temprana del cáncer de mama.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, ISSSTE</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Restablecen parcialmente circulación en carreteras</Titular>
+		<Contenido>El secretario de Infraestructura Pública y Desarrollo Urbano Sostenible (SIPDUS), Alejandro Sánchez García, informó que se logró restablecer la circulación parcial en carreteras afectadas por lluvias en Juárez Hidalgo, Tianguistengo, Huazalingo e Ixmiquilpan tras el despliegue de maquinaria y cuadrillas.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>La SIPDUS desplegó maquinaria pesada y personal para liberar carreteras y tramos rurales afectados por deslaves e inundaciones en diversos municipios de las regiones Sierra y Huasteca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez Cabrera</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Agentes de SSPH desmantelan 3 puntos de venta de droga en Pachuca y Huasca de Ocampo</Titular>
+		<Contenido>Como resultado de investigaciones operativas en coordinación con la PGJEH y la SEDENA, elementos de la Secretaría de Seguridad Pública de Hidalgo desmantelaron tres inmuebles usados para el narcomenudeo en Huasca y Pachuca, asegurando casi 4 mil dosis de droga y deteniendo a 3 personas.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>La SSPH aseguró 3 mil 790 dosis de mariguana y cristal, vehículos y municiones tras catear tres narcotienditas en operativos en Pachuca y Huasca de Ocampo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Llama Olivares a escuchar las indicaciones de Protección Civil</Titular>
+		<Contenido>El secretario de Gobierno de Hidalgo, Guillermo Olivares Reyna, llamó a la ciudadanía a atender las recomendaciones de Protección Civil, luego de confirmarse el hallazgo sin vida de Honorio Chávez Hernández, quien fue arrastrado por la corriente en San Bartolo Tutotepec.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>San Bartolo Tutotepec</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención De Riesgos</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Gobierno Guillermo Olivares exhortó a actuar con prudencia ante ríos crecidos tras el deceso de un hombre arrastrado por la corriente.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Sección Hidalgo</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, CEAV</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna, Honorio Chávez Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Proponen 6 mdp para rehabilitar el pisal</Titular>
+		<Contenido>El mantenimiento del pisal Homenaje a la Mujer del Mundo, obra de Byron Gálvez ubicada en el Parque Cultural Hidalguense, requerirá una inversión de 6 millones de pesos mediante la licitación emitida por la Sipdus.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Obras De Infraestructura</Tema_segun_la_fuente>
+		<Sintesis>Sipdus licitó trabajos de rehabilitación para el pisal Homenaje a la Mujer del Mundo en Pachuca con una inversión prevista de 6 millones de pesos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Sección Hidalgo</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, OEEH</Dependencias_mencionadas>
+		<Actores_mencionados>Byron Gálvez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Registran siete carpetas por narcomenudeo en Tezontepec</Titular>
+		<Contenido>El narcomenudeo se colocó como el delito con mayor número de carpetas de investigación iniciadas en Villa de Tezontepec durante agosto, registrando siete expedientes ante el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Villa de Tezontepec</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>En Villa de Tezontepec se iniciaron siete carpetas por narcomenudeo durante agosto, acumulando un total de 24 denuncias por diversos delitos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Sección Hidalgo</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Sexoservicio, actividad con riesgos y sacrificios</Titular>
+		<Contenido>Largas jornadas, desgaste físico y discriminación social forman parte del panorama que enfrentan las personas dedicadas al trabajo sexual en Pachuca y la zona metropolitana, donde testimonios destacan que acudieron a esta actividad por necesidad económica.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Reportaje</Genero_periodistico>
+		<Tema_segun_la_fuente>Salud sexual</Tema_segun_la_fuente>
+		<Sintesis>Reportaje sobre las condiciones económicas, laborales y sociales que enfrentan las mujeres dedicadas al sexoservicio en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Sección Hidalgo</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lizania Zavala</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Luis Ángel Tenorio Cruz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Promocionan el Xantolo 2026 en Ciudad de México</Titular>
+		<Contenido>La maqueta del centro ceremonial del Xantolo 2026 fue presentada en el Museo Nacional de Culturas Populares en la Ciudad de México por la secretaria de Cultura de Hidalgo, Neyda Naranjo, con el objetivo de atraer visitantes al festejo en Huejutla.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Evento Cultural</Tema_segun_la_fuente>
+		<Sintesis>Autoridades de Cultura de Hidalgo presentaron en CDMX la propuesta gráfica y escénica del centro ceremonial del Xantolo 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Sección Hidalgo</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lizania Zavala</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Neyda Naranjo Baltazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Caen toneladas de piedra sobre la vía Olotla-Tlamamala</Titular>
+		<Contenido>Un derrumbe de gran magnitud mantiene bloqueada la carretera Olotla-Tlamamala en Tlanchinol, donde cuadrillas municipales de Tlanchinol y Huazalingo, junto con personal de Sipdus, realizan labores para retirar rocas.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Tlanchinol</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Deslave de rocas de gran volumen interrumpió la circulación sobre la carretera Olotla-Tlamamala; Sipdus y ayuntamientos trabajan en su remoción.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Sección Regiones</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Pobladores de Tlahuelompa piden apoyo para camino</Titular>
+		<Contenido>Habitantes de Tlahuelompa, en el municipio de Zacualtipán, solicitaron apoyo urgente de maquinaria para reparar el camino que conduce a Tizapán, el cual quedó incomunicado desde hace un mes a causa de las lluvias.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Zacualtipán</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Carretera En Mal Estado</Tema_segun_la_fuente>
+		<Sintesis>Vecinos de Tlahuelompa urgieron la intervención de autoridades para rehabilitar la vía Tlahuelompa-Tizapán, intransitable para vehículos tras deslaves.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Sección Regiones</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Martha Sáenz</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Alumno de Cobaeh participará en Paralimpiada Nacional</Titular>
+		<Contenido>Raúl Emiliano León García, estudiante del Cobaeh plantel Téllez, fue seleccionado para integrar la delegación hidalguense que competirá en para atletismo dentro de la Paralimpiada Nacional CONADE 2026.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Justa Deportiva</Tema_segun_la_fuente>
+		<Sintesis>Estudiante hidalguense de bachillerato participará en lanzamiento de jabalina adaptado en los juegos nacionales CONADE 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Sección Politic's</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Cobaeh</Dependencias_mencionadas>
+		<Actores_mencionados>Raúl Emiliano León García, Rubén López Valdez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Declaran culpables a tres feminicidas</Titular>
+		<Contenido>Luego de más de siete horas de audiencia, un tribunal dictó fallo condenatorio contra los tres acusados por el triple feminicidio ocurrido el 30 de julio de 2024 en Santiago Tulantepec, Hidalgo. La resolución llegó tras los alegatos de clausura del Ministerio Público, la asesoría jurídica de las víctimas y la defensa de los imputados.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Santiago Tulantepec</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>Un tribunal dictó fallo condenatorio contra tres hombres acusados por el triple feminicidio de tres mujeres ocurrido en Santiago Tulantepec en julio de 2024.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Tribunal</Dependencias_mencionadas>
+		<Actores_mencionados>Omar N</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Cultura se deslinda de litigio por inmueble de FAHC</Titular>
+		<Contenido>La Secretaría de Cultura de Hidalgo se mantendrá al margen del litigio por el inmueble que ocupa la Fundación Arturo Herrera Cabañas (FAHC), en el Centro de Pachuca, hasta que exista una resolución judicial, informó su titular, Neyda Naranjo Baltazar.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Patrimonio cultural</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Cultura de Hidalgo precisó que el proceso de rescisión del comodato del inmueble de la Fundación Arturo Herrera Cabañas en Pachuca es llevado por la Coordinación Jurídica estatal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Coordinación Jurídica</Dependencias_mencionadas>
+		<Actores_mencionados>Neyda Naranjo Baltazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Hallan a 346 personas de 371 reportes</Titular>
+		<Contenido>Hidalgo registró la localización de 346 personas de 371 reportes de desaparición iniciados entre enero y septiembre de 2026, lo que representa una efectividad de 93.26 por ciento, informó la Comisión de Búsqueda de Personas del Estado durante la Tercera Sesión Ordinaria del Sistema de Búsqueda.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Personas desaparecidas</Tema_segun_la_fuente>
+		<Sintesis>La Comisión de Búsqueda de Personas del Estado de Hidalgo reportó la localización de 346 personas entre enero y septiembre de 2026, alcanzando una efectividad del 93.26%.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, CBPEH</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna, José Francisco García Reyes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Encuentran en Hidalgo a chihuahuense desaparecido</Titular>
+		<Contenido>Un hombre originario de Chihuahua, con ficha de búsqueda activa desde el 17 de agosto, fue localizado en Mineral del Chico mediante el sistema de alertamiento, informó José Francisco García Reyes, titular de la Comisión de Búsqueda de Personas del Estado de Hidalgo (CBPEH).</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Mineral del Chico</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Personas desaparecidas</Tema_segun_la_fuente>
+		<Sintesis>Gracias al sistema de alertamiento de la CBPEH, un hombre originario de Chihuahua reportado como desaparecido desde agosto fue localizado en Mineral del Chico.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, CBPEH</Dependencias_mencionadas>
+		<Actores_mencionados>José Francisco García Reyes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Hidalgo presenta el Xantolo 2026 en Ciudad de México</Titular>
+		<Contenido>Con una muestra de su simbolismo, memoria histórica y tradiciones, el gobierno de Hidalgo presentó en el Museo Nacional de Culturas Populares, en la Ciudad de México, parte de la propuesta cultural que Huejutla prepara para celebrar el Xantolo 2026.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Evento Cultural</Tema_segun_la_fuente>
+		<Sintesis>Autoridades de Hidalgo promocionaron en el Museo Nacional de Culturas Populares de la CDMX la maqueta e historia del escenario ceremonial que albergará el Xantolo 2026 en Huejutla.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Erick Perales</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Van a demoler primaria en Tulancingo; edificarán otra</Titular>
+		<Contenido>La escuela primaria Aquiles Serdán, de Tulancingo, deberá ser demolida y reconstruida, proceso que podría extenderse durante todo el ciclo escolar 2026-2027, informó el titular de la Secretaría de Educación Pública de Hidalgo (SEPH), Natividad Castrejón.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>Debido a fallas de infraestructura, la escuela primaria Aquiles Serdán en Tulancingo será demolida y sustituida por un nuevo plantel, trasladando temporalmente a los alumnos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Agreden a personal del Sitmah durante labor de supervisión</Titular>
+		<Contenido>Un particular agredió física y verbalmente a servidores públicos del Sistema Integrado de Transporte Masivo de Hidalgo (Sitmah), mientras realizaban labores de supervisión en el exterior de la estación San Antonio, en sentido sur.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Supervisión de servicios</Tema_segun_la_fuente>
+		<Sintesis>Inspectores del Sitmah fueron agredidos físicamente y atacados con agua hirviendo por un sujeto mientras intervenían a un motociclista en la estación San Antonio del Tuzobús.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Sitmah</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Tras muerte de réferi cierran El 11 de Julio</Titular>
+		<Contenido>Autoridades clausuraron un centro polideportivo en Mineral de la Reforma por carecer de permisos y medidas de emergencia, tras el fallecimiento de 'El Búho' por golpes recibidos en una función.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>La alcaldía de Mineral de la Reforma clausuró la Arena 11 de Julio por operar sin permisos ni ambulancia durante la función en la que murió el réferi Gerardo Germán Pineda.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento, Protección Civil</Dependencias_mencionadas>
+		<Actores_mencionados>Hijo de Fishman, Gerardo Germán Pineda</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Dan último adiós a referee Búho en Pachuca</Titular>
+		<Contenido>Entre aplausos, muestras de cariño y el acompañamiento de familiares, amigos y compañeros del pancracio, este jueves despidieron a Gerardo Germán Pineda, conocido como 'El Búho', réferi que murió al término de una función de lucha libre en Mineral de la Reforma.</Contenido>
+		<Fecha_de_publicacion>2026-10-09</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>Familiares y gremio luchístico despidieron y sepultaron en el Panteón Municipal de Pachuca a Gerardo Germán Pineda, réferi fallecido en un combate deportivo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Gerardo Germán Pineda, El Hijo del Santo</Actores_mencionados>
+	</Nota>
+</NotasRadio>
