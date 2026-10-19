@@ -1,0 +1,1735 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Maquillaje de fantasía puede provocar daños</Titular>
+		<Contenido>Adquirir maquillaje de fantasía de bajo precio o de dudosa procedencia puede representar riesgos para la salud de la piel y los ojos, advirtió la especialista Fernanda Abreu, quien señaló que estos productos pueden ocasionar alergias, infecciones e irritación ocular severa durante la temporada de festejos.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención De Enfermedades</Tema_segun_la_fuente>
+		<Sintesis>Especialistas de salud advirtieron que el uso de maquillaje de fantasía sin certificación o caducado genera alergias, afecciones cutáneas e irritaciones oculares en la población.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Fernanda Huerta</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Fernanda Abreu</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Hallan autogobierno en 8 Ceresos de la entidad</Titular>
+		<Contenido>El Diagnóstico Nacional de Supervisión Penitenciaria 2025 de la CNDH reveló que ocho de los 13 Ceresos de Hidalgo presentan condiciones de autogobierno o cogobierno por parte de internos, además de sobrepoblación, hacinamiento y fallas en la atención médica, asignando a la entidad una nota reprobatoria de 4.50.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Anomalías Ceresos</Tema_segun_la_fuente>
+		<Sintesis>Un informe de la CNDH reprobó los centros penitenciarios de Hidalgo con 4.5 al detectar autogobierno interno en ocho Ceresos y hacinamiento en 11 de ellos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, CNDH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Difícil movilidad para personas ciegas</Titular>
+		<Contenido>Miembros de la agrupación Ciegos Fundación de Hidalgo (Cifunhi) realizaron un recorrido por el centro de Pachuca y estaciones del Tuzobús para visibilizar los obstáculos que enfrentan diariamente, como banquetas destruidas, mercancías en la vía pública y guías podotáctiles en mal estado.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Movilidad incluyente</Tema_segun_la_fuente>
+		<Sintesis>Integrantes de Cifunhi denunciaron deficiencias en la infraestructura vial y en el sistema Tuzobús que dificultan el tránsito seguro de personas con discapacidad visual en la capital.</Sintesis>
+		<Jerarquia_de_la_nota>Subcabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Anuncia Edda Vite 150 mdp para nutrición</Titular>
+		<Contenido>Al presentar su Cuarto Informe de Actividades al frente del Patronato del Sistema DIF Hidalgo, Edda Vite Ramos destacó una inversión de 150 millones de pesos para programas de alimentación escolar, la apertura de procuradurías de protección a la infancia y los avances en materia de adopciones y salud comunitaria.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe De Gobierno</Tema_segun_la_fuente>
+		<Sintesis>Edda Vite Ramos rindiá su cuarto informe al frente del DIFH, resaltando la asignación de 150 mdp para desayunos escolares y el fortalecimiento de la asistencia social en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Subcabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Eduardo de la Vega</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Condonarán 100% en pago de reemplacamiento</Titular>
+		<Contenido>La Secretaría de Hacienda de Hidalgo anunció que condonará el 100% del costo del trámite de reemplacamiento a propietarios de vehículos particulares con placas emitidas en 2018 que mantengan sus pagos al corriente en tenencia y refrendo durante la recta final del ejercicio fiscal.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reemplacamiento</Tema_segun_la_fuente>
+		<Sintesis>Hacienda estatal aplicará un descuento del 100% en el costo de las placas a contribuyentes cumplidos que deban actualizar la sustitución del canje de 2018.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Hacienda</Dependencia>
+		<Dependencias_mencionadas>Hacienda</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Prevén reubicar al Cereso de Pachuca</Titular>
+		<Contenido>Ante las condiciones de sobrepoblación e infraestructura obsoleta, el gobierno estatal proyecta la reubicación del Centro de Reinserción Social de Pachuca a un terreno que cumpla con los estándares de seguridad y respeto a los derechos humanos de la población penitenciaria.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reinserción social</Tema_segun_la_fuente>
+		<Sintesis>Las autoridades contemplan la reubicación del penal de Pachuca para mitigar el hacinamiento y modernizar las instalaciones de custodia estatal.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Insuficiente, la propuesta de aumento salarial al IMSS</Titular>
+		<Contenido>Tras el triunfo del 'No' con más del 91% de los votos en la consulta salarial realizada en Hidalgo, el IMSS y el SNTSS entablarán nuevas mesas de negociación a nivel central para fijar un incremento al salario tabular acorde con las exigencias del personal de salud.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Trabajo bajo protesta</Tema_segun_la_fuente>
+		<Sintesis>El rechazo abrumador del personal sindicalizado del IMSS en la consulta salarial obligó a reabrir las negociaciones entre el instituto y la representación gremial.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Maximiliano Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Comparece titular de Seguridad Pública</Titular>
+		<Contenido>Al comparecer ante el Congreso local por el IV Informe de Gobierno, el titular de la SSPH, Salvador Cruz Neri, resaltó la certificación del personal policial, la inversión en videovigilancia y el fortalecimiento de las estrategias operativas en coordinación con municipios.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe De Gobierno</Tema_segun_la_fuente>
+		<Sintesis>Salvador Cruz Neri presentó avances en materia de seguridad, profesionalización del Mando Coordinado y reducción de delitos durante su comparecencia legislativa.</Sintesis>
+		<Jerarquia_de_la_nota>Subcabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Gustavo Vargas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Resaltan apoyos y atención al campo</Titular>
+		<Contenido>Durante su comparecencia ante diputados, el titular de la Saderh expuso la entrega de apoyos tecnológicos a productores pecuarios, acciones de sanidad agrícola e indemnizaciones entregadas a campesinos afectados por fenómenos meteorológicos.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe De Gobierno</Tema_segun_la_fuente>
+		<Sintesis>La Saderh informó ante la LXVI Legislatura los avances en programas de fomento agropecuario e inversión directa para más de tres mil criadores en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alma Leticia Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh, Congreso</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Saderh reporta 100% de apoyos entregados por vaguada de 2025</Titular>
+		<Contenido>Durante su comparecencia ante el Congreso de Hidalgo, el titular de Saderh, Napoleón González Pérez, informó la entrega total de 140 mdp en subsidios a productores agrícolas y pecuarios perjudicados por contingencias climatológicas en 28 municipios.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Agricultura estatal concluyó la distribución de fondos de indemnización en beneficio de 55 mil hectáreas afectadas por lluvias y sequías.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Napoleón González Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Cebaderos defienden precio pactado</Titular>
+		<Contenido>Productores agrícolas del Altiplano hidalguense integraron la Unión de Cebaderos para comercializar directamente 3 mil toneladas de grano con Grupo Modelo al precio fijado de 7 mil 500 pesos por tonelada, erradicando intermediarios.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Apan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo Al Agro</Tema_segun_la_fuente>
+		<Sintesis>Pequeños cebaderos de la región Altiplano conformaron una asociación civil respaldada por la Saderh para vender su cosecha a precios razonables.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh</Dependencias_mencionadas>
+		<Actores_mencionados>Napoleón González Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Impulsan declaración de protección para el maguey</Titular>
+		<Contenido>La Secretaría de Agricultura estatal y la Secretaría de Economía gestionaron la declaración de protección de identificación geográfica para el maguey con la finalidad de resguardar el patrimonio pulquero y combatir plagas en las plantaciones.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Breve</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo Al Agro</Tema_segun_la_fuente>
+		<Sintesis>Autoridades estatales avanzan en la protección legal y fitozoosanitaria del maguey para rescatar la producción pulquera tradicional.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>4</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh, Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Napoleón González Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>IHE reúne 5 mil 932 ejemplares en el cuarto Kilómetro del Libro</Titular>
+		<Contenido>El Instituto Hidalguense de Educación recolectó 5 mil 932 libros impresos durante la cuarta edición de la campaña Kilómetro del Libro, donación que se destinará a equipar acervos en bibliotecas de primarias rurales e indígenas de la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Impulso A La Educación</Tema_segun_la_fuente>
+		<Sintesis>El programa de fomento a la lectura del IHE entregará miles de volúmenes literarios e instructivos en escuelas públicas de comunidades vulnerables.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Natividad Castrejón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>DIFH anuncia nuevos proyectos para recta final de administración</Titular>
+		<Contenido>La presidenta del Patronato del Sistema DIF Hidalgo, Edda Vite Ramos, rindió su cuarto informe de labores destacando la inversión en la nueva Casa Cuna, la remodelación de la Casa del Niño y la ampliación de cobertura alimentaria a más de 190 mil alumnos.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe De Gobierno</Tema_segun_la_fuente>
+		<Sintesis>El Sistema DIF estatal proyecta nuevos centros asistenciales e infraestructura en Ixmiquilpan y Pachuca al presentar balance de sus logros institucionales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>14</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH, TSJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Cruz Neri: disminuyen los objetivos prioritarios; uno capturado en Tula</Titular>
+		<Contenido>Durante su comparecencia ante el Congreso de Hidalgo, el secretario de Seguridad Pública, Salvador Cruz Neri, informó la disminución de objetivos prioritarios delictivos de 121 a 10 y confirmó la reciente detención en Tula del presunto brazo derecho de El H.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Estrategia de seguridad</Tema_segun_la_fuente>
+		<Sintesis>La SSPH reportó progresos sustanciales en el combate a generadores de violencia en Tula y anunció la quinta licitación para el terreno del nuevo Cereso.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Robo a casa habitación, el más frecuente</Titular>
+		<Contenido>La Secretaría de Seguridad Pública municipal y el C2 de Mineral de la Reforma informaron que durante septiembre se registraron 31 robos en la demarcación, de los cuales 12 correspondieron a domicilios particulares y seis a comercios.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>Estadísticas del C2 revelan el desglose de hurtos en fraccionamientos como Paseos de Chavarría y Colinas de Plata durante el último mes.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Anabel Serrano Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Cae presunto jefe de plaza en Tula; operaba para El H</Titular>
+		<Contenido>La Procuraduría General de Justicia de Hidalgo detuvo en Tula a Pedro A.A., alias El Perico, presunto jefe de plaza del Cártel de Santa Rosa de Lima. Asimismo, el procurador Francisco Fernández Hasbun confirmó la identificación de tres de los cinco cuerpos localizados en una fosa clandestina en Atotonilco de Tula.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>La PGJEH detuvo en Tula a un presunto líder criminal del Cártel de Santa Rosa de Lima e identificó a tres víctimas encontradas en una fosa clandestina.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miguel Ángel Puértolas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Fernández Hasbun</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Caso de violencia vicaria termina en una sentencia</Titular>
+		<Contenido>El Tribunal Unitario de Enjuiciamiento de Tulancingo dictó la primera sentencia condenatoria por violencia vicaria en Hidalgo contra un funcionario de Conafor, proceso iniciado a partir de las Mesas de Acercamiento atendidas por la Secretaría de Gobierno.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Violencia Vicaria</Tema_segun_la_fuente>
+		<Sintesis>Poder Judicial dictó la primera sentencia por violencia vicaria en Hidalgo, caso impulsado tras la atención prestada por la Secretaría de Gobierno.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Luis Alberto M. N., Yeli Virginia N.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Aseguramiento de hidrocarburo, de 7 millones de litros en 4 años</Titular>
+		<Contenido>En su comparecencia ante el Congreso local, el secretario de Seguridad Pública, Salvador Cruz Neri, destacó el decomiso de 7 millones de litros de combustible robado en cuatro años y la reducción de la percepción de inseguridad en la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe De Gobierno</Tema_segun_la_fuente>
+		<Sintesis>El titular de la SSPH compareció ante diputados locales resaltando el decomiso de 7 millones de litros de huachicol y la disminución de delitos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miriam Avilés</Autor>
+		<Tipo_de_autor>Reportera</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>DIFH va por más apoyos antes de concluir sexenio</Titular>
+		<Contenido>La presidenta del Patronato del DIF Hidalgo, Edda Vite Ramos, presentó los logros de su gestión y anunció la construcción de la nueva Casa Cuna, dos centros de atención infantil y la ampliación del programa alimentario a 190 mil estudiantes.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe De Gobierno</Tema_segun_la_fuente>
+		<Sintesis>Edda Vite Ramos presentó el IV informe de actividades del DIFH destacando la ampliación de programas de asistencia alimentaria e infraestructura infantil.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Contraloría detecta 400 fallas en obras públicas</Titular>
+		<Contenido>El contralor estatal, Álvaro Bardales, informó ante el Congreso del Estado que se presentaron 50 denuncias por irregularidades en obras públicas y se canceló el registro a cerca de 7 mil proveedores y contratistas anomalos.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Hidalgo Honesto</Tema_segun_la_fuente>
+		<Sintesis>Álvaro Bardales compareció ante el Congreso informando la detección de 400 fallas en obras públicas y la inhabilitación de miles de empresas proveedoras.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miguel Ángel Puértolas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Contraloría</Dependencia>
+		<Dependencias_mencionadas>Contraloría, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Álvaro Bardales Ramírez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Simplificarán trámites en Hidalgo</Titular>
+		<Contenido>Onésimo Serrano Rivera, titular de la Unidad de Planeación, anunció que Hidalgo se sumó al Plan Nacional para homologar y digitalizar 400 trámites estatales y municipales.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Simplificación de trámites</Tema_segun_la_fuente>
+		<Sintesis>La Unidad de Planeación de Hidalgo impulsará un modelo unificado para simplificar y digitalizar 400 trámites gubernamentales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Planeación</Dependencia>
+		<Dependencias_mencionadas>Planeación</Dependencias_mencionadas>
+		<Actores_mencionados>Onésimo Serrano Rivera</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Recolectan 5 mil 932 libros para las escuelas</Titular>
+		<Contenido>La SEPH logró reunir casi 6 mil volúmenes mediante la jornada del Kilómetro del Libro para destinarlos al acervo de bibliotecas escolares públicas en comunidades con alta vulnerabilidad.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Impulso A La Educación</Tema_segun_la_fuente>
+		<Sintesis>La SEPH recolectó cerca de 6 mil libros durante la colecta Kilómetro del Libro para donarlos a escuelas de comunidades alejadas.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Hidalgo recibe muestra de arte latinoamericano</Titular>
+		<Contenido>La Secretaría de Cultura de Hidalgo abre este viernes en el Centro de las Artes de Pachuca la exposición gratuita de muralismo latinoamericano elaborada por los artistas María Eggers Lan y Armando Dilon.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Breve</Genero_periodistico>
+		<Tema_segun_la_fuente>Evento Cultural</Tema_segun_la_fuente>
+		<Sintesis>Secretaría de Cultura inaugura una galería de muralismo latinoamericano de entrada libre en las instalaciones del Centro de las Artes de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>María Eggers Lan, Armando Damián Dilon</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Apoyan a miles por pérdidas agrícolas</Titular>
+		<Contenido>El secretario de Agricultura, Napoleón González Pérez, informó ante diputados que se entregaron 143 millones de pesos a 48 mil productores afectados por desastres naturales y 40 millones contra el gusano barrenador.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Breve</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo por catástrofes agropecuarias</Tema_segun_la_fuente>
+		<Sintesis>Saderh ejerció 143 mdp en apoyos a campesinos con pérdidas de cultivos por contingencias climáticas y plagas.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Napoleón González Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>ICATHI capacita a habitantes de Huejutla en barbería</Titular>
+		<Contenido>Veintidós habitantes de Huejutla comenzaron un curso de capacitación gratuita de 100 horas en barbería impartido por el ICATHI para fomentar la apertura de micronegocios.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Breve</Genero_periodistico>
+		<Tema_segun_la_fuente>Oferta de empleo</Tema_segun_la_fuente>
+		<Sintesis>Pobladores de Huejutla iniciaron capacitaciones laborales en barbería impulsadas por la STPSH a través del ICATHI.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>STPSH</Dependencia>
+		<Dependencias_mencionadas>STPSH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Policías estatales alcanzan 96.9% de certificación</Titular>
+		<Contenido>La Secretaría de Seguridad Pública de Hidalgo reportó que el 96.9% del personal policial estatal cuenta con el Certificado Único Policial (CUP) vigente.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Breve</Genero_periodistico>
+		<Tema_segun_la_fuente>Certificación policial</Tema_segun_la_fuente>
+		<Sintesis>La SSPH alcanzó una tasa del 96.9% de agentes estatales certificados mediante la evaluación de controles de confianza CUP.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>SSPH indaga retiro de protesta en bulevar</Titular>
+		<Contenido>El comisario Salvador Cruz Neri informó que la SSPH abrió un expediente de investigación interna tras la intervención policial para liberar la circulación en el bulevar Felipe Ángeles.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Breve</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención A Manifestantes</Tema_segun_la_fuente>
+		<Sintesis>La SSPH inició indagatorias internas para esclarecer el retiro del bloqueo vial protagonizado por trabajadores del IMSS en Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interiores</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Han decomisado 7 millones de litros de hidrocarburo</Titular>
+		<Contenido>Hidalgo aseguró 7 millones 17 mil 74 litros de hidrocarburo durante los últimos cuatro años, informó Salvador Cruz Neri, secretario de Seguridad Pública estatal, durante su comparecencia ante el Congreso local. El funcionario estatal detalló que, en coordinación con autoridades federales, aseguraron mil 508 vehículos, entre tanques y camionetas, además de 391 personas detenidas relacionadas con ese delito y 11 túneles utilizados para el robo de combustible localizados en Cuautepec de Hinojosa.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Huachicol</Tema_segun_la_fuente>
+		<Sintesis>Salvador Cruz Neri, secretario de Seguridad Pública, informó en comparecencia que en cuatro años se aseguraron más de 7 millones de litros de hidrocarburo, 1,508 vehículos y se detuvieron a 391 personas.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Vaguada monzónica dañó 27 mil hectáreas agrícolas en Hidalgo</Titular>
+		<Contenido>La vaguada monzónica del año pasado afectó casi 27 mil hectáreas agrícolas en Hidalgo, para las cuales el gobierno del estado destinó 80 millones de pesos extraordinarios para 28 municipios, informó el titular de la Saderh, Napoleón González Pérez, durante su comparecencia.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo por catástrofes agropecuarias</Tema_segun_la_fuente>
+		<Sintesis>Napoleón González Pérez informó en el Congreso sobre la asignación de 80 mdp para atender daños agrícolas por la vaguada monzónica y reportó 1,475 casos de gusano barrenador.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Napoleón González Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Anuncian dos centros de atención y tres bodegas</Titular>
+		<Contenido>La nueva Casa Cuna y la remodelación de la Casa del Niño y del Adolescente entrarán en funcionamiento este año, anunció Edda Vite Ramos, presidenta del DIFH, durante su informe de actividades, en el que estuvo acompañada por su esposo, el gobernador Julio Menchaca.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe DIFH</Tema_segun_la_fuente>
+		<Sintesis>Edda Vite Ramos presentó los avances del DIFH, destacando la próxima apertura de Casa Cuna, la remodelación de centros asistenciales y la ampliación de cobertura alimentaria.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos, Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Detienen en Tula a un presunto operador del H</Titular>
+		<Contenido>Fue detenido por elementos de la PGJEH un hombre identificado como P. A. A., ubicado como el brazo derecho de H. A. M. M., alias El H, en la localidad Xochitlán de las Flores, municipio de Tula de Allende, asegurándole sustancias ilícitas y un arma de fuego.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>Agentes de la PGJEH aprehendieron en Tula de Allende a P.A.A., presunto operador clave de El H, decomisándole droga y un arma corta.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>P. A. A., H. A. M. M.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>UTHH obtiene primer lugar en ExpoCiencias Hidalgo 2026</Titular>
+		<Contenido>La Universidad Tecnológica de la Huasteca Hidalguense obtuvo el primer lugar en ExpoCiencias Hidalgo 2026 con el proyecto E-TUBEX, vehículo eléctrico tubular, consiguiendo su pase a ExpoCiencias Internacional 2027 en Kuwait.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>ExpoCiencias</Tema_segun_la_fuente>
+		<Sintesis>Alumnos de la UTHH ganaron la edición XVII de ExpoCiencias Hidalgo con un prototipo de auto eléctrico y representarán a México en Kuwait.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Actores_mencionados>Carlos Gael Hernández Cerecedo, Iván Rubio Chávez, Lucino Eduardo Téllez García, Arturo Elfego Meneses Flores</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Hidalgo, entre estados con más producción audiovisual</Titular>
+		<Contenido>Hidalgo se encuentra entre los cuatro estados con mayor actividad fílmica en el país. La plataforma Netflix confirmó una nueva producción en Acaxochitlán para este fin de semana, informó Elizabeth Quintanar Gómez, titular de Turismo.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Municipio>Acaxochitlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Impulso Al Turismo</Tema_segun_la_fuente>
+		<Sintesis>Elizabeth Quintanar Gómez destacó el posicionamiento de Hidalgo en la industria audiovisual nacional y confirmó nuevos rodajes de Netflix en la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Actores_mencionados>Elizabeth Quintanar Gómez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Hallan restos entre dos demarcaciones</Titular>
+		<Contenido>Restos humanos pertenecientes a un hombre fueron localizados en una obra en inmediaciones del Cedis de Villa de Tezontepec, en los límites con Zapotlán de Juárez. La zona fue resguardada por oficiales y turnada a la PGJEH.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Municipio>Villa de Tezontepec</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Localización De Restos</Tema_segun_la_fuente>
+		<Sintesis>Hallan restos humanos en estado de descomposición en una obra en los límites entre Villa de Tezontepec y Zapotlán de Juárez; la PGJEH investiga.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>24</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Javier Quezada</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>EDDA VITE ANUNCIA EN 4TO INFORME OBRAS DE INFRAESTRUCTURA Y AMPLIACIÓN DE COBERTURA ALIMENTARIA</Titular>
+		<Contenido>Durante su cuarto informe de actividades, la presidenta del Sistema DIF Hidalgo, Edda Vite Ramos, anunció obras de infraestructura y la ampliación de la cobertura alimentaria en beneficio de niñas, niños y adolescentes en situación de vulnerabilidad. Informó la puesta en funcionamiento de la nueva Casa Cuna, la remodelación del Centro de Atención al Niño y al Adolescente, un nuevo taller de ortesis y prótesis, y tres bodegas de resguardo.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>1</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe DIFH</Tema_segun_la_fuente>
+		<Sintesis>La presidenta del DIF Hidalgo, Edda Vite Ramos, presentó su cuarto informe destacando la apertura de la Casa Cuna, remodelaciones en centros de atención, infraestructura en Ixmiquilpan y la ampliación del programa alimentario de 150 mil a 190 mil beneficiarios.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Detienen a presunto aliado de líder huachicolero en Tula</Titular>
+		<Contenido>Agentes adscritos a la Procuraduría General de Justicia del Estado de Hidalgo (PGJEH) detuvieron en la localidad de Xochitlán de las Flores a P.A.A., presunto brazo derecho de "El H", considerado líder huachicolero en la región de Tula. Al detenido le aseguraron dosis de cocaína, mariguana, un arma de fuego corta y cuatro cargadores abastecidos.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>1</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>La PGJEH aprehendió en Tula a P.A.A., presunto operador clave de "El H", asegurándole narcóticos, un arma de fuego y cargadores.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>P.A.A., El H</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Comparece secretario de Seguridad ante diputados; aborda sobrepoblación penitenciaria</Titular>
+		<Contenido>El secretario de Seguridad Pública de Hidalgo, Salvador Cruz Neri, compareció ante la 66 Legislatura local como parte del cuarto informe de gobierno del mandatario Julio Menchaca. Detalló que la población penitenciaria en el estado asciende a 6 mil 562 personas en 12 centros, registrando un incremento de más del 37% en 4 años. Destacó el aseguramiento de 26 mil 536 personas y la detención de 109 objetivos prioritarios.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>Durante su comparecencia ante el Congreso local, Salvador Cruz Neri reportó avances en prevención del delito, detención de objetivos prioritarios y la reducción de la sobrepoblación penitenciaria en Hidalgo mediante nuevos módulos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri, Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Lidera Hidalgo a nivel nacional en producción agropecuaria y acuícola</Titular>
+		<Contenido>El titular de la Secretaría de Agricultura y Desarrollo Rural (Saderh), Napoleón González Pérez, destacó durante su comparecencia ante la 66 Legislatura local que Hidalgo ocupa el primer lugar nacional en producción de lana y el segundo en carne ovina y pescado entre estados sin litoral. Resaltó inversiones por más de 200 millones de pesos en equipamiento ganadero, mejoramiento genético y respaldo acuícola.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>En su comparecencia ante el Congreso de Hidalgo, el titular de Saderh, Napoleón González Pérez, informó que el estado encabeza la producción nacional de lana y ocupa el segundo lugar en carne ovina y acuacultura continental.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Napoleón González Pérez, Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Reúnen 5 mil 932 libros para fortalecer bibliotecas</Titular>
+		<Contenido>La Secretaría de Educación Pública de Hidalgo (SEPH), a través de la Dirección de Programas Curriculares y del Programa Estatal de Lectura y Escritura Hidalgo, reunió 5 mil 932 libros durante la cuarta edición del Kilómetro del Libro, iniciativa que busca fomentar el hábito de la lectura entre niñas, niños y jóvenes.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Impulso A La Educación</Tema_segun_la_fuente>
+		<Sintesis>La SEPH reunió 5 mil 932 libros durante la cuarta edición del Kilómetro del Libro para fortalecer las bibliotecas de escuelas públicas de Educación Básica.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Presenta Edda Vite balance de cuatro años al frente del DIF Hidalgo</Titular>
+		<Contenido>Edda Vite Ramos, presidenta del Patronato del Sistema para el Desarrollo Integral de la Familia en Hidalgo (DIFH), presentó su Cuarto Informe de Actividades, en el que expuso los resultados de cuatro años de gestión en materia de asistencia social, atención a grupos prioritarios y coordinación institucional.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe DIFH</Tema_segun_la_fuente>
+		<Sintesis>Edda Vite Ramos presentó el Cuarto Informe de Actividades del DIF Hidalgo, destacando avances en salud mental, apoyos alimentarios, infraestructura educativa y protección a la infancia.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH, TSJEH, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite, Rocío García Pérez, Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Detecta diputada repetición de datos en informe de la Saderh</Titular>
+		<Contenido>La diputada local por el PAN, Claudia Lilia Luna Islas, detectó repetición de datos en el informe del titular de la Saderh, Napoleón González Pérez, durante su comparecencia en el Congreso del Estado como parte de la glosa del cuarto informe de gobierno.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>Durante la comparecencia de Napoleón González Pérez, la diputada Claudia Lilia Luna cuestionó la supuesta duplicidad de acciones en el informe de la Saderh.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ana Luisa Vega</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Lilia Luna, Napoleón González, Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>En Tula atrapan a “P” “A” “A”; sería brazo derecho de “El H”</Titular>
+		<Contenido>Agentes de la Agencia de Investigación Criminal detuvieron en Xochitlán de las Flores, municipio de Tula de Allende, a Pedro A. A., alias El Perico, presunto jefe de plaza del Cártel Santa Rosa de Lima y brazo derecho de El H.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>Autoridades estatales detuvieron en Tula a Pedro A. A., objetivo prioritario vinculado a delitos de narcotráfico y portación de armas de fuego.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri, Luis Cruz Mera</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Con coordinación capturan a uno por robo</Titular>
+		<Contenido>Elementos de la Secretaría de Seguridad Pública de Hidalgo detuvieron a un individuo identificado como J.N.B. en la caseta de Santa María Ajoloapan tras una persecución que inició en Pachuca por el robo de un tractocamión y dos plataformas.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>La SSPH logró recuperar un tractocamión robado en Pachuca y detener al presunto responsable tras un operativo coordinado sobre el Arco Norte.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>En Hidalgo; más de 26 mil detenidos y 7 millones de litros de combustible incautados</Titular>
+		<Contenido>Durante su comparecencia ante el Congreso local, el secretario de Seguridad Pública estatal, Salvador Cruz Neri, informó sobre la detención de 26 mil 536 personas y el aseguramiento de más de 7 millones de litros de huachicol en cuatro años de gestión.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>El titular de la SSPH compareció ante el Congreso destacando avances en combate al huachicol, ciberseguridad, certificación policial y atención de emergencias.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Instituto Estatal del Deporte de Hidalgo, con 20 deportistas por el Premio Estatal del Deporte</Titular>
+		<Contenido>El Instituto Estatal del Deporte de Hidalgo (IEDH) dio a conocer a los 20 atletas nominados para obtener el Premio Estatal del Deporte 2026 en disciplinas como para danza, karate, ajedrez, ciclismo y artes marciales mixtas.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Premio Estatal del Deporte</Tema_segun_la_fuente>
+		<Sintesis>El IEDH presentó la lista de deportistas y entrenadores postulados para la edición 2026 del Premio Estatal del Deporte.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Restan dos cadáveres por identificar en Atotonilco</Titular>
+		<Contenido>La Procuraduría General de Justicia del Estado de Hidalgo (PGJEH) confirmó la identidad de tres de cinco cuerpos hallados en una fosa clandestina en Atotonilco de Tula; dos víctimas ya fueron entregadas a sus familiares, mientras los peritajes forenses continúan para identificar a los dos restantes.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Atotonilco de Tula</Municipio>
+		<Sentimiento_de_la_fuente>Muy negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Localización De Restos</Tema_segun_la_fuente>
+		<Sintesis>La PGJEH identificó a tres de las cinco personas localizadas en una fosa clandestina en Atotonilco de Tula, entregando dos cuerpos a sus familiares mientras continúan los peritajes.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>18</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH, CBPEH</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Fernández Hasbun, Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Persisten 76 casos activos de gusano barrenador: Saderh</Titular>
+		<Contenido>Durante su comparecencia ante el Congreso local, el titular de la Secretaría de Agricultura y Desarrollo Rural de Hidalgo (Saderh), Napoleón González Pérez, informó que en la entidad se mantienen 76 casos activos de gusano barrenador y destacó que el presupuesto estatal para el campo creció 214 % respecto a 2022.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>En su comparecencia ante el Congreso, el titular de Saderh, Napoleón González, reportó 76 casos activos de gusano barrenador y un incremento presupuestal a 721 mdp para el sector agrícola.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh, Congreso, Senasica</Dependencias_mencionadas>
+		<Actores_mencionados>Napoleón González Pérez, Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Sobrepoblación penitenciaria con niveles críticos en Hidalgo</Titular>
+		<Contenido>El secretario de Seguridad Pública estatal, Salvador Cruz Neri, informó en su comparecencia ante el Congreso local que analizan cinco predios para construir un nuevo Cereso con una inversión de 90 millones de pesos, debido a que la población penitenciaria aumentó 37.13 % en los últimos cuatro años alcanzando 6 mil 562 presidiarios.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>Durante su comparecencia, el titular de la SSPH, Salvador Cruz Neri, expuso la crisis por sobrepoblación en las prisiones de Hidalgo y el plan para invertir 90 mdp en un nuevo Cereso.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Congreso, CDHEH, CNDH</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri, Mónica Leanett Reyes Martínez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Defiende Salvador Neri a mando agresor</Titular>
+		<Contenido>El titular de la SSPH, Salvador Cruz Neri, defendió en su comparecencia al subsecretario de Operación Policial, Julio César Meléndez Coria, por la presunta agresión a un adulto mayor manifestante en el desalojo del IMSS, asegurando que el mando fue insultado y que la unidad de Asuntos Internos analizará las grabaciones.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Abuso Policiaco</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Seguridad Pública estatal defendió la actuación del subsecretario Julio César Meléndez tras acusaciones de agresión a un manifestante durante el desalojo en bulevar Felipe Ángeles.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Congreso, IMSS</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri, Julio César Meléndez Coria, Claudia Lilia Luna Islas</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Edda Vite rinde cuarto informe al frente del DIFH</Titular>
+		<Contenido>Edda Vite Ramos, presidenta del Patronato del Sistema DIF Hidalgo, presentó su cuarto Informe de Actividades destacando resultados en salud mental, entrega de despensas durante contingencias, becas educativas, obras para centros CAIC y el logro de adopción para 61 menores de edad.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe DIFH</Tema_segun_la_fuente>
+		<Sintesis>Edda Vite Ramos presentó el 4to Informe del DIF Hidalgo, resaltando avances en salud mental, apoyo alimentario a más de 190 mil estudiantes y adopción de 61 niños y adolescentes.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH, SNDIF, SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos, Julio Menchaca, Rocío García Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Van a demoler primaria en Tulancingo; edificarán otra</Titular>
+		<Contenido>El titular de la SEPH, Natividad Castrejón, informó que la escuela primaria Aquiles Serdán en Tulancingo presenta fallas estructurales graves, por lo que será demolida y reconstruida totalmente durante el ciclo escolar 2026-2027, planteando alternativas de reubicación o clases a distancia para el alumnado.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>La SEPH anunció la reconstrucción total de la primaria Aquiles Serdán en Tulancingo por fallas estructurales, proceso que tomará cerca de un ciclo escolar.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Detienen en Tula al presunto brazo derecho de "El H"</Titular>
+		<Contenido>Agentes de la Agencia de Investigación Criminal de la PGJEH aprehendieron en Xochitlán de las Flores, municipio de Tula de Allende, a P. A. A., presunto brazo derecho del líder criminal "El H", en posesión de sustancia con características de cocaína, mariguana, un arma de fuego corta y cuatro cargadores.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>La PGJEH aprehendió en Tula a un objetivo prioritario señalado como generador de violencia y presunto operador del grupo delictivo de "El H".</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, AIC</Dependencias_mencionadas>
+		<Actores_mencionados>P. A. A., El Perico, El H</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Señalamientos no ameritan separación de subsecretarios</Titular>
+		<Contenido>El secretario de Seguridad Pública de Hidalgo, Salvador Cruz Neri, aseguró durante su comparecencia ante el Congreso local que los señalamientos contra Israel Zaragoza y Julio César Meléndez no ameritan su separación del cargo, pues no existen pruebas contundentes.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>Salvador Cruz Neri afirmó que los señalamientos contra dos subsecretarios de la SSPH no ameritan su destitución e informó que Asuntos Internos mantiene carpetas de investigación.</Sintesis>
+		<Jerarquia_de_la_nota>Principal</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Luis Godínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri, Israel Zaragoza, Julio César Meléndez, Claudia Luna</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Cruz Neri admite que familiares suyos trabajan en la dependencia</Titular>
+		<Contenido>El titular de la SSPH, Salvador Cruz Neri, confirmó que familiares suyos laboran en la dependencia a su cargo, pero aclaró que ingresaron antes de su llegada a la administración estatal.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Nepotismo</Tema_segun_la_fuente>
+		<Sintesis>Salvador Cruz Neri reconoció que familiares suyos laboran en la Secretaría de Seguridad Pública de Hidalgo, asegurando que ingresaron en administraciones anteriores.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Han sido detenidos 111 objetivos prioritarios en Hidalgo: SSPH</Titular>
+		<Contenido>Durante su comparecencia en el Congreso local, el titular de la SSPH, Salvador Cruz Neri, reportó la detención de 111 objetivos prioritarios en la entidad, así como el aseguramiento de vehículos, combustible y dosis de droga.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>Salvador Cruz Neri informó ante el Congreso local sobre la captura de 111 objetivos prioritarios en Hidalgo y los avances en el combate al robo de hidrocarburo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Luis Godínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri, Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Confirman destitución del director de El Mexe</Titular>
+		<Contenido>La Secretaría de Educación Pública de Hidalgo confirmó la remoción de Armando Quintanar Trejo como director general de la Escuela Normal Rural El Mexe, omitiendo los motivos de la decisión.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Destitución</Tema_segun_la_fuente>
+		<Sintesis>La SEPH confirmó la destitución de Armando Quintanar Trejo al frente de la Escuela Normal Rural El Mexe tras versiones sobre presuntas agresiones.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Armando Quintanar Trejo, Yeimy Yadira Solís</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Es el gusano barrenador, un desafío de hasta 10 años</Titular>
+		<Contenido>El titular de Saderh, Napoleón González Pérez, advirtió en su comparecencia ante el Congreso que la plaga del gusano barrenador podría permanecer entre 8 y 10 años en Hidalgo, registrando acumulados 1,475 casos.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>Napoleón González Pérez informó en el Congreso local que el combate al gusano barrenador representa un desafío de largo plazo para la ganadería hidalguense.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>18</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Luis Godínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Saderh</Dependencia>
+		<Dependencias_mencionadas>Saderh, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Napoleón González Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Ampliará el DIFH atención infantil y alimentaria: Vite</Titular>
+		<Contenido>Durante su cuarto informe de actividades, Edda Vite Ramos, presidenta del Patronato del Sistema DIF Hidalgo, anunció la construcción de dos centros de atención infantil, talleres, bodegas y la apertura de la nueva Casa Cuna.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe DIFH</Tema_segun_la_fuente>
+		<Sintesis>Edda Vite Ramos presentó el cuarto informe de actividades del DIF Hidalgo destacando inversiones en infraestructura infantil, salud y asistencia social.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lizania Zavala</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Edda Vite Ramos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Se destinarán 150 mdp para la nutrición de estudiantes</Titular>
+		<Contenido>El director general del DIF Hidalgo, Ricardo Enrique Alvizo Contreras, anunció que se invertirán 150 millones de pesos para ampliar la cobertura de programas alimentarios a más de 190 mil estudiantes en 14 municipios prioritarios.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe DIFH</Tema_segun_la_fuente>
+		<Sintesis>El DIF Hidalgo destinará 150 millones de pesos a programas de nutrición escolar para atender a más de 190 mil alumnos con prioridad en escuelas indígenas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lizania Zavala</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Enrique Alvizo Contreras</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Disminuye la trituración de lirio en la presa Endhó</Titular>
+		<Contenido>La organización PBJ Nextlalpan Cultural reportó que la trituración de lirio acuático en la presa Endhó bajó a 21 hectáreas semanales debido a la densidad de la biomasa y fallas mecánicas en la maquinaria.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Presa Endhó</Tema_segun_la_fuente>
+		<Sintesis>Las labores de limpieza en la presa Endhó disminuyeron debido a capas compactadas de lirio acuático y retrasos en la llegada de nueva maquinaria de Conagua.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Magda Olguín</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Conagua, Pemex</Dependencias_mencionadas>
+		<Actores_mencionados>nan</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Repuntaron más del 100% dos delitos en Molango</Titular>
+		<Contenido>De acuerdo con datos del SESNSP, las investigaciones por fraude y violencia familiar registraron incrementos del 125% y 140% en Molango de Escamilla durante los primeros ocho meses de 2026.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Molango</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>El municipio de Molango registró un alza superior al 100 por ciento en denuncias por fraude y violencia familiar en lo que va del año 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Martha Sáenz</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>SESNSP</Dependencias_mencionadas>
+		<Actores_mencionados>nan</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>IHE reúne casi 6 mil libros para escuelas</Titular>
+		<Contenido>El Instituto Hidalguense de Educación recolectó 5,932 libros durante la cuarta edición del Kilómetro del Libro, los cuales serán distribuidos en escuelas públicas de Educación Básica en zonas vulnerables.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Impulso A La Educación</Tema_segun_la_fuente>
+		<Sintesis>El IHE recolectó cerca de 6 mil libros mediante la iniciativa Kilómetro del Libro para equipar bibliotecas escolares en comunidades marginadas de Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, IHE</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Natividad Castrejón Valdez, Elena Poniatowska</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Choque deja dos policías heridos en madrugada</Titular>
+		<Contenido>Dos oficiales de la Secretaría de Seguridad Pública de Hidalgo resultaron lesionados al colisionar su patrulla contra la estructura de un puente vehicular sobre el bulevar Bonfil en Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>11</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente de patrulla</Tema_segun_la_fuente>
+		<Sintesis>Un accidente vial en el bulevar Bonfil de Pachuca dejó como saldo dos elementos de la Policía estatal lesionados y el cierre de la vialidad por varias horas.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Saúl Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>nan</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Explosión en un Cendi deja a una mujer herida</Titular>
+		<Contenido>La explosión de una olla exprés en el área de cocina del Centro de Desarrollo Infantil No. 1 María García Vallejo Septién en Pachuca provocó heridas a una trabajadora y crisis nerviosa a otra.</Contenido>
+		<Fecha_de_publicacion>2026-10-16</Fecha_de_publicacion>
+		<Liga>11</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención médica</Tema_segun_la_fuente>
+		<Sintesis>Una detonación accidental por falla en una olla exprés dentro de un Cendi en Pachuca movilizó al cuerpo de Bomberos y dejó una empleada hospitalizada.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Saúl Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Bomberos</Dependencias_mencionadas>
+		<Actores_mencionados>nan</Actores_mencionados>
+	</Nota>
+</NotasRadio>
