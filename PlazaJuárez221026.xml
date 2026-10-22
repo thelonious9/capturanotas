@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Buscan impulsar el programa Vivienda para el Bienestar</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar participó en la reunión encabezada por la presidenta Claudia Sheinbaum Pardo, en Palacio Nacional, donde se evaluaron los avances del programa Vivienda para el Bienestar.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Plan Nacional De Vivienda</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca asistió a Palacio Nacional para evaluar con la presidenta Claudia Sheinbaum la proyección de 66,500 viviendas para la entidad dentro del programa Vivienda para el Bienestar.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Claudia Sheinbaum Pardo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Reportan 67 multas por invadir el carril exclusivo del Tuzobús</Titular>
+		<Contenido>La titular de la Secretaría de Movilidad y Transporte de Hidalgo (Semot), Lyzbeth Robles Gutiérrez, compareció ante diputados de la LXVI Legislatura del Congreso local, donde informó la aplicación de 67 infracciones por invasión del carril exclusivo del Tuzobús.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deficiencias Tuzobús</Tema_segun_la_fuente>
+		<Sintesis>En comparecencia ante el Congreso local, la titular de la Semot informó sobre la aplicación de 67 multas por invadir el carril exclusivo del Tuzobús e incorporación de 140 nuevas unidades.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Recupera Hidalgo 435 inmuebles de uso irregular</Titular>
+		<Contenido>Álvaro Bardales Ramírez, titular de la Secretaría de Contraloría de Hidalgo, informó que durante la actual administración se han recuperado 435 inmuebles con un valor superior a mil 267 millones de pesos.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Recuperación Del Patrimonio</Tema_segun_la_fuente>
+		<Sintesis>El contralor estatal Álvaro Bardales reportó la recuperación de 435 inmuebles públicos valuados en más de 1,267 millones de pesos que se encontraban en condiciones irregulares o donaciones revocadas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Contraloría</Dependencia>
+		<Dependencias_mencionadas>Contraloría, DIFH, TSJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Álvaro Bardales Ramírez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Sebiso, la secretaría más alejada de los diputados</Titular>
+		<Contenido>En la comparecencia del titular de la Secretaría de Bienestar e Inclusión Social (Sebiso), Ricardo Gómez Moreno, los diputados del Congreso de Hidalgo coincidieron en señalar que es una de las dependencias más alejadas de la casa del pueblo.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Programas Del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>Diputados locales señalaron falta de cercanía por parte del titular de la Sebiso durante su comparecencia y remarcaron la importancia de blindar los padrones de apoyos ante las elecciones.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ana Luisa Vega</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Gómez Moreno, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>En operativo conjunto rescatan a mujer privada de la libertad</Titular>
+		<Contenido>La Comisión de Búsqueda de Personas del Estado de Hidalgo (CBPH), en coordinación con la UECS, localizó con vida en Acaxochitlán a una mujer reportada como desaparecida y privada de la libertad.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Acaxochitlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Secuestro</Tema_segun_la_fuente>
+		<Sintesis>Autoridades de la CBPH y la UECS localizaron con vida en Acaxochitlán a una mujer que contaba con ficha de búsqueda y se encontraba presuntamente privada de la libertad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Segobh</Dependencias_mencionadas>
+	</Nota>
+</NotasRadio>
