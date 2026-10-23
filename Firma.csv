@@ -1,5 +1,4 @@
-﻿Medio,Firma
-Central MX web,Redacción
+Medio,Firma
 ¡Órale! Magacín,Carlos Sevilla
 ¡Órale! Magacín,Editorial
 ¡Órale! Magacín,Keila Rodríguez
@@ -11,11 +10,10 @@ Central MX web,Redacción
 24 Horas,Dolores Colín
 24 Horas,José Ureña
 24 Horas,Maricarmen Cortés
-24 Horas web,Redacción
+24 Horas Web,Redacción
+88.9 Noticias,Alejandro Vilallvazo
 88.9 Noticias,Iñaki Manero
 88.9 Noticias,Jaquelin Servín
-88.9 Noticias,Alejandro Vilallvazo
-88.9 Noticias web,Alán Servín
 A tiempo Hidalgo,Redacción
 ABC Noticias,Redacción
 Acceso Noticias,Redacción
@@ -24,41 +22,36 @@ Acción,Editorial
 Aci De Hidalgo,Héctor Herrera
 Aci De Hidalgo,Redacción
 ACI México,Héctor Herrera
-Acir 92.5 Fm,Eulalio Larrieta
-Acir 92.5 Fm,Radioescucha
 Acrópolis,Alan Jiménez
 Acrópolis,Redacción
 Acrópolis,Gerardo Ávila
 ADN 40,Alejandra Molina
 ADN 40,Alejandro Brofft
-ADN 40,Brenda Peña
 ADN 40,Claudia Echeverry
-ADN 40,Daniel De Rosas
+ADN 40,Francisco Reyes
+ADN 40,Hannia Novell
 ADN 40,Hernán Hochstrasser
 ADN 40,Javier Risco
 ADN 40,José Luis Mora
 ADN 40,Juan Manuel Jiménez
-ADN 40,Juan Pablo De Leo
-ADN 40,Leonardo Herrera
-ADN 40,Mara Durón
-ADN 40,Nina Andrade
-ADN 40,Otoniel Martínez
-ADN 40,Tania Gómez
-ADN 40,Valentina Rodríguez
-ADN 40,Viridiana Hernández
-ADN 40,Yunue Cuevas
-ADN 40,Francisco Reyes
-ADN 40,Hannia Novell
+ADN 40,Juan Pablo de Leo
 ADN 40,Leonardo Curzio
+ADN 40,Leonardo Herrera
 ADN 40,Luciana Wainer
 ADN 40,Lucy Bravo
 ADN 40,Manuel López San Martín
+ADN 40,Mara Durón
 ADN 40,Ricardo Raphael
 ADN 40,Romina Ramos
 ADN 40,Sarahi Uribe
+ADN 40,Tania Gómez
 ADN 40,Vaiteare Mateos
+ADN 40,Valentina Rodríguez
+ADN 40,Viridiana Hernández
+ADN 40,Yunue Cuevas
 ADN 40,Juan Lecanda
 ADN 40,Max Espejel
+ADN 40,Brenda Peña
 ADN 40,Carlos Trillo
 ADN 40,Marcela Lecuona
 ADN 40,Jorge Zarza
@@ -74,13 +67,12 @@ Aires de Hidalgo,Redacción
 Airosa Pachuca,Redacción
 Al Día Noticias,En La Mira
 Al Día Noticias,Erick Perales
-Al Día Noticias,Karen Aicitel Lira
 Al Día Noticias,Octavio Jaimes
 Al Día Noticias,Redacción
 Al Día Noticias,Cris Huerta
 Al Día Noticias,Filiberto Monter
 Al Día Noticias,Karen Aicitel
-Al Día Noticias web,Redacción
+Al Día Noticias Web,Redacción
 Al Día Noticias web,Cris Huerta
 Al Día Noticias web,Erick Perales
 Al Día Noticias web,Filiberto Monter
@@ -88,10 +80,10 @@ Al Momento,Redacción
 Al Momento Hidalgo,Redacción
 Alas,Aída Suárez
 Alas,Redacción
-Alas web,Redacción
+Alas Web,Redacción
 Alcaldes de México,Martha Paloma
 Alcaldes de México,Isaías Ocampo
-Alcaldes De México web,Redacción
+Alcaldes De México Web,Redacción
 Alcoholímetro Pachuca,Redacción
 Alerta Altiplano,Redacción
 Alerta Pachuca,Redacción
@@ -101,9 +93,12 @@ Altavoz Digital,Redacción
 Amaneciendo,Itzel G. Bandala
 Amaneciendo,Redacción
 Amexi,Paloma Pérez
-Amhgo Media,Sandra Salazar
+Infomedia Digital,Astillas
+Infomedia Digital,Fernando Pérez
+Infomedia Digital,Redacción
+Infomedia Digital,Sandra Salazar
 AMX Noticias,Carmen Gudiño
-AMX Noticias,Marisol Ordóñez
+AMX Noticias,Marisol Ordoñez
 ANI Noticias,Redacción
 Animal Político,Redacción
 Antena Informativa De Hidalgo,Redacción
@@ -115,12 +110,11 @@ Argón México,Juan Lozano
 Argón México,Lucero Lozano
 Aristegui Noticias,Redacción
 Arroba Hidalgo,Redacción
-Avanzando,Redacción
 Avanzando,Joel Sánchez
-Avanzando web,Joel Sánchez
-Avanzando web,Redacción
+Avanzando,Redacción
+Avanzando Web,Joel Sánchez
+Avanzando Web,Redacción
 Averiguación,Redacción
-Azteca Noticias,América López
 Azteca Noticias,Leonardo Herrera
 Azteca Noticias,Redacción
 Azteca Noticias,Daniel Rivera
@@ -135,13 +129,6 @@ Cambio 21,Rafael Medina
 Campo Hidalgo,Redacción
 Campus MX,Redacción
 Canal 12 Huejutla,Redacción
-Canal 12 Huejutla,Selene Ortega
-Canal 12 Huejutla,Taide Salazar
-Canal Del Pueblo,Aldo Falcón
-Canal Del Pueblo,Andrés Torres
-Canal Del Pueblo,Andrés Torres Y Alberto Gonzálezz
-Canal Del Pueblo,Milton Cortés
-Canal Del Pueblo,Radioescucha
 Canal del Pueblo,Uriel Ramírez
 Canal del Pueblo,Citlalli Velazco
 Canal del Pueblo,Mara Olvera
@@ -167,19 +154,20 @@ Central Hidalgo,Ignacio García
 Central Hidalgo,Redacción
 Central Hidalgo,Isaac Vidal
 Central Hidalgo,Jorge Guzmán
+Central Mx,El Correo De Las Brujas
+Central Mx,Fernando Hidalgo
+Central Mx,Redacción
 Central MX,Alberto Skewes
 Central MX,Claudia Martínez
-Central MX,El Correo De Las Brujas
 Central MX,El Muro del (Des) Honor
-Central MX,Fernando Hidalgo
 Central MX,Osvaldo Aréchiga
-Central MX,Redacción
+Central Mx web,Redacción
 Central MX web,Alberto Skewes
-Central MX web,Fernando Hidalgo
 Central MX web,Osvaldo Aréchiga
+Central MX web,Fernando Hidalgo
 Central News,Redacción
 Círculo Político,Redacción
-Cn Hidalgo TV,Redacción
+Cn Hidalgo Tv,Redacción
 Código Hidalgo,Francisco Hernández
 Código Hidalgo,Redacción
 Código Hidalgo,Armando Lorenzo
@@ -188,8 +176,8 @@ Cofilm Producciones,Luis Corella
 Cofilm Producciones,Magaly Blancas
 Cofilm Producciones,Paloma Pérez
 Cofilm Producciones,Redacción
-Cofilm Producciones,Fernando Corella
-Con Tinta y Papel,Redacción
+Cofilm producciones,Fernando Corella
+Con Tinta Y Papel,Redacción
 Con tinta y papel,Luis Antonio López
 Conectados IM,Redacción
 Contexto,Redacción
@@ -201,81 +189,79 @@ Criterio,Abigail García Torres
 Criterio,Alejandro Velázquez
 Criterio,Ana Karen Juárez
 Criterio,Ángel Flores Reyes
-Criterio,Aunard de la Rocha
-Criterio,Berenice Estrada
 Criterio,Bertha Alfaro
-Criterio,Blancas
-Criterio,Carlos Cisneros
-Criterio,Carlos García
 Criterio,Carmen Hernández
-Criterio,David Colmenares
 Criterio,Edson Martínez
 Criterio,Enrique Olmos
-Criterio,Federico Escamilla
-Criterio,Fortino Moedano
 Criterio,Giovanny Flores
 Criterio,Guillermo Corrales
 Criterio,Jesús León
 Criterio,Jorge Valverde Islas
 Criterio,José Raquel Badillo
-Criterio,Kevin Bretón
 Criterio,Lizania Zavala
 Criterio,Luis Godínez
-Criterio,Luy
 Criterio,Magda Olguín
 Criterio,Marco Moreno
 Criterio,María Antonieta Islas
-Criterio,María Luisa Pérez Perusquía
 Criterio,Martha Sáenz
-Criterio,Miguel Ángel Martínez
 Criterio,Redacción
-Criterio,Rizieri Plascencia
-Criterio,Rodrigo Morales
 Criterio,Salomón Hernández
 Criterio,Sara Elizondo
 Criterio,Saúl Hernández
 Criterio,Se Dice…
-Criterio,Sonia Rueda
+Criterio,Aunard de la Rocha
+Criterio,Berenice Estrada
+Criterio,Blancas
+Criterio,Carlos Cisneros
+Criterio,Carlos García
+Criterio,Federico Escamilla
+Criterio,Fortino Moedano
+Criterio,Luy
+Criterio,María Luisa Pérez Perusquía
+Criterio,Miguel Ángel Martínez
 Criterio,Yesenia Huerta
 Criterio,Yuvenil Torres
-Criterio web,Abigail García Torres
-Criterio web,Alejandro Velázquez
+Criterio,Kevin Bretón
+Criterio,Sonia Rueda
+Criterio,Rodrigo Morales
+Criterio,David Colmenares
+Criterio,Rizieri Plascencia
+Criterio Web,Alejandro Velázquez
+Criterio Web,Carmen Hernández
+Criterio Web,Jesús León
+Criterio Web,Luis Godínez
+Criterio Web,Magda Olguín
+Criterio Web,María Antonieta Islas
+Criterio Web,Redacción
+Criterio Web,Saúl Hernández
+Criterio Web,Se Dice… Plus
 Criterio web,Carlos Cisneros
 Criterio web,Carlos García
-Criterio web,Carmen Hernández
-Criterio web,Enrique Olmos
 Criterio web,Federico Escamilla
-Criterio web,Jesús León
-Criterio web,Jorge Valverde Islas
 Criterio web,Lizania Zavala
-Criterio web,Luis Godínez
-Criterio web,Magda Olguín
-Criterio web,María Antonieta Islas
 Criterio web,Martha Sáenz
 Criterio web,Miguel Ángel Martínez
-Criterio web,Redacción
-Criterio web,Rizieri Plascencia
 Criterio web,Salomón Hernández
 Criterio web,Sara Elizondo
-Criterio web,Saúl Hernández
-Criterio web,Se Dice… Plus
 Criterio web,Yesenia Huerta
+Criterio web,Enrique Olmos
+Criterio web,Rizieri Plascencia
+Criterio web,Jorge Valverde Islas
+Criterio web,Abigail García Torres
 Croma Multimedios,Redacción
 Crónica,Redacción
+Crónica Web,Jesús Sánchez
 Crónica web,Aura Mejía
-Crónica web,Jesús Sánchez
 Crónica web,Gerardo Mayoral
-Crónica web,Giovanna Morales
 Cuartel informativo,Redacción
-Cumbres de Hidalgo,Redacción
+Cumbres De Hidalgo,Redacción
 Cumbres de Hidalgo,Ángel Flores
 Cumbres de Hidalgo,Luis Roberto Flores
 Cumbres de Hidalgo,Maura Vianey Esparza
-Cumbres de Hidalgo web,Redacción
+Cumbres De Hidalgo Web,Redacción
 Cursor En La Noticia,Redacción
 De Pachuca Soy,Redacción
 Debate web,Aline Ordaz
-Debate web,Miriam Arvizu
 Denuncia Gallito,Redacción
 Denuncia Todo Hidalgo,Redacción
 Desde Abajo,Luis Alberto Rodríguez
@@ -284,7 +270,7 @@ Desde La Redacción,Redacción
 Diario Basta!,César Muñoz
 Diario Basta!,Óscar Reyes
 Diario Basta!,Redacción
-Diario Basta! web,Redacción
+Diario Basta! Web,Redacción
 Diario de las Huastecas,Redacción
 Diario de México,Redacción
 Diario de México web,Redacción
@@ -294,7 +280,7 @@ Diario Minero,Redacción
 Diario Noti7,Redacción
 Digital Journal,Redacción
 Dinámico Informativo,Redacción
-Dinámico Informativo web,Redacción
+Dinámico Informativo Web,Redacción
 Divergente Mx,Redacción
 Dónde Hay Feria,Redacción
 Dos de Hidalgo,Jorge Luis Bautista
@@ -330,50 +316,47 @@ El Cardinal,Redacción
 El Cardinal,El Cardinalito
 El Chapucero,Redacción
 El Cuarto Poder,Redacción
-El Diario de Hidalgo,Redacción
-El Diario de Hidalgo,Emiliano Cabañas
+El Diario De Hidalgo,Redacción
+El diario de Hidalgo,Emiliano Cabañas
 El Economista,Esmeralda Lozano
 El Economista,Redacción
 El Economista,Alejandro de la Rosa
 El Economista,Rodrigo Rosales
 El Economista,Rolando Ramos
 El Economista,Arturo Rojas
+El Economista Web,Miguel González Compeán
+El Economista Web,Redacción
 El Economista web,Gobierno de Hidalgo
-El Economista web,Miguel González Compeán
-El Economista web,Redacción
 El Financiero,Héctor Usla
 El Financiero,Confidencial
 El Financiero,De Jefes
 El Financiero,Lourdes Mendoza
 El Financiero,Óscar Mario Beteta
 El Financiero,Jassiel Valdemar
-El Financiero TV,Andrea Estrada
 El Financiero TV,Sandra González Rull
-El Financiero TV,Sandra González
-El Financiero web,Ángel García
 El Financiero web,Redacción
 El Gráfico,Dinorath Mota
 El Gráfico,Redacción
-El Heraldo de México,Angélica Velasco
-El Heraldo de México,Carlos Navarro
-El Heraldo de México,Carolina Viggiano
-El Heraldo de México,Cuauhtémoc Ochoa
+El Heraldo De México,Carlos Navarro
+El Heraldo De México,Redacción
+El Heraldo De México,Sacapuntas Metropolitano
+El Heraldo De México,Verónica Reynold
+El Heraldo de México,Cuauhtémo Ochoa
 El Heraldo de México,Darío Celis
 El Heraldo de México,"El bueno, el malo, el feo"
-El Heraldo de México,Jaime Núñez
 El Heraldo de México,José Ignacio García
-El Heraldo de México,Miguel Tello
-El Heraldo de México,Redacción
-El Heraldo de México,Rubén Moreira
 El Heraldo de México,Sacapuntas
-El Heraldo de México,Sacapuntas Metropolitano
 El Heraldo de México,Sofía García
-El Heraldo de México,Verónica Reynold
 El Heraldo de México,Víctor Sánchez Baños
+El Heraldo de México,Angélica Velasco
+El Heraldo de México,Jaime Núñez
+El Heraldo de México,Miguel Ángel Tello
+El Heraldo de México,Carolina Viggiano
+El Heraldo de México,Rubén Moreira
 El Heraldo Digital,Matías Domínguez
 El Heraldo Digital,Raúl Mendoza
-El Heraldo Digital,José Ignacio García
-El Heraldo Digital,Jason Zaleta
+El Heraldo digital,Ignacio García
+El Heraldo digital,Jason Zaleta
 El Hidalgo digital,Mavaz Vega
 El Hidalgo digital,Redacción
 El Hidalguense Digital,Redacción
@@ -385,13 +368,13 @@ El informador de Hidalgo,Redacción
 El Informante,Redacción
 El Informativo,Redacción
 El Informativo estatal,Redacción
-El Informativo estatal web,Redacción
+El Informativo estatal web,Redaccións
 El Informativo Online,Redacción
 El Institucional,Redacción
 El Metropolitano Noticias,Redacción
 El Mundo Hidalgo,Jair Velázquez
 El Mundo Hidalgo,Redacción
-El Nuevo Gráfico de Hidalgo,Redacción
+El Nuevo Gráfico De Hidalgo,Redacción
 El Nuevo Gráfico de Hidalgo,Aída Gálvez
 El Nuevo Gráfico de Hidalgo web,Redacción
 El Origen,Fernando Alfonso
@@ -421,7 +404,6 @@ El Sol de Hidalgo,Gustavo Vargas
 El Sol de Hidalgo,Héctor Santoy
 El Sol de Hidalgo,Luis Carlos León
 El Sol de Hidalgo,Marco Antonio Mendoza
-El Sol de Hidalgo,Mauricio Baños
 El Sol de Hidalgo,Maximiliano Pérez
 El Sol de Hidalgo,Octavio Jaimes
 El Sol de Hidalgo,Omar Santiago
@@ -434,13 +416,13 @@ El Sol de Hidalgo,Andrés Velázquez
 El Sol de Hidalgo,Asael Hernández
 El Sol de Hidalgo,Karen Aicitel Lira
 El Sol de Hidalgo,Lizbeth Ordaz
+El Sol de Hidalgo,Mauricio Baños
 El Sol de Hidalgo,Dora Olvera
-El Sol De Hidalgo web,Blanca Soriano
-El Sol De Hidalgo web,Gustavo Vargas
-El Sol De Hidalgo web,Maximiliano Pérez
-El Sol De Hidalgo web,Rosalía Maldonado
-El Sol De Hidalgo web,Sonia Nochebuena
-El Sol De Hidalgo web,Susana Hernández
+El Sol De Hidalgo Web,Blanca Soriano
+El Sol De Hidalgo Web,Gustavo Vargas
+El Sol De Hidalgo Web,Maximiliano Pérez
+El Sol De Hidalgo Web,Rosalía Maldonado
+El Sol De Hidalgo Web,Sonia Nochebuena
 El Sol de Hidalgo web,Alma Leticia Sánchez
 El Sol de Hidalgo web,César Martínez
 El Sol de Hidalgo web,Daniel Román Montes
@@ -502,7 +484,6 @@ El tiempo de Hidalgo,Redacción
 El trámite,Redacción
 El Trámite,Editorial
 El Universal,Dinorath Mota
-El Universal,Luis Carlos Rodríguez
 El Universal,Manuel Feregrino
 El Universal,Redacción
 El Universal,Kiosko
@@ -516,7 +497,6 @@ El Universal Hidalgo,Lourdes Naranjo
 El Universal Hidalgo,Mirely Santos
 El Universal Hidalgo,Redacción
 El Universal Hidalgo,Ricardo Calleja
-El Universal Hidalgo,Salvador López
 El Universal Hidalgo,Víctor Valera
 El Universal Hidalgo,Aída Suárez
 El Universal Hidalgo,Alejandro Velázquez
@@ -530,24 +510,25 @@ El Universal Hidalgo,Grisel Lira
 El Universal Hidalgo,Miriam Avilés
 El Universal Hidalgo,Brenda Jasso
 El Universal Hidalgo,Ricardo Sánchez
-El Universal Hidalgo web,Javier Quezada
-El Universal Hidalgo web,Lorena Rosas
-El Universal Hidalgo web,Lourdes Naranjo
-El Universal Hidalgo web,Redacción
-El Universal Hidalgo web,Ricardo Calleja
-El Universal Hidalgo web,Víctor Valera
+El Universal Hidalgo,Salvador López
+El Universal Hidalgo Web,Javier Quezada
+El Universal Hidalgo Web,Lorena Rosas
+El Universal Hidalgo Web,Lourdes Naranjo
+El Universal Hidalgo Web,Redacción
+El Universal Hidalgo Web,Ricardo Calleja
+El Universal Hidalgo Web,Víctor Valera
 El Universal Hidalgo web,Ariana Reséndiz
 El Universal Hidalgo web,Cinthya Carbajal
 El Universal Hidalgo web,Erika Gutiérrez
 El Universal Hidalgo web,Francisco Bautista
 El Universal Hidalgo web,Grisel Lira
 El Universal Hidalgo web,Miriam Avilés
-El Universal Hidalgo web,Mirely Santos
+El Universal Hidalgo Web,Mirely Santos
 El Universal Hidalgo web,Ricardo Sánchez
 El Universal Hidalgo web,Salvador López
-El Universal web,Dinorath Mota
+El Universal Web,Dinorath Mota
+El Universal Web,Redacción
 El Universal web,Omar Moreno
-El Universal web,Redacción
 El Universal web,Sharon Mercado
 El Vigía Hidalgo,Redacción
 El Wara Wara,Redacción
@@ -564,10 +545,10 @@ Enfoque Hidalgo,Redacción
 Enfoque Hidalgo,Benjamín Hernández
 Enfoque Hidalguense,Martín Rangel
 Enfoque hidalguense,Redacción
-Enfoque Noticias,Mario González
-Enfoque Noticias,Verónica Jiménez
 Enfoque Noticias,Alicia Salgado
+Enfoque Noticias,Mario González
 Enfoque Noticias,Poncho Gutiérrez
+Enfoque Noticias,Verónica Jiménez
 Enfoque Noticias web,Verónica Jiménez
 Enlace en Hidalgo,Redacción
 Enlace en Hidalgo web,Redacción
@@ -605,8 +586,8 @@ Excélsior,Aurora Zepeda Rojas
 Excélsior,Arturo Páramo
 Excélsior,Paolette Hernández
 Excélsior,Mario Luis Fuentes
-Excélsior web,Emmanuel Rincón
-Excélsior web,Porfirio Escandón
+Excélsior Web,Emmanuel Rincón
+Excélsior Web,Porfirio Escandón
 Excélsior web,Atalo Mata
 Excélsior web,David Vicenteño
 Excélsior web,Raúl Flores
@@ -624,33 +605,30 @@ Florentino Peralta,Redacción
 Focus Hidalgo,Redacción
 Forbes México web,Miguel Tello
 Foro 21 Hidalgo,Redacción
+Foro TV,Octavio Luna
 Foro TV,Ana Lucía Ordoñana
-Foro TV,Arantza Ocampo
 Foro TV,Bertha Alfaro
-Foro TV,Carlos Hurtado
+Foro TV,Daniela Baeza
 Foro TV,Eduardo Salazar
 Foro TV,Enrique Campos
+Foro TV,Erik Camacho
+Foro TV,Esteban Arce
 Foro TV,Fernanda Calderón
+Foro TV,Florencia de Rodas
+Foro TV,Gina Holguín
 Foro TV,Humberto Blizzard
 Foro TV,José Luis Arévalo
 Foro TV,Julio Patán
-Foro TV,Julio Silva
 Foro TV,Karla Iberia Sánchez
+Foro TV,Leo Zuckerman
 Foro TV,Mariana Hernández
-Foro TV,Natalia Sánchez
 Foro TV,Noelia Jiménez
-Foro TV,Redacción
+Foro TV,Raymundo Riva Palacio
 Foro TV,Said Ochoa
 Foro TV,Santos Mondragón
 Foro TV,Yoselin Sánchez
-Foro TV,Octavio Luna
-Foro TV,Daniela Baeza
-Foro TV,Erik Camacho
-Foro TV,Esteban Arce
-Foro TV,Florencia de Rodas
-Foro TV,Gina Holguín
-Foro TV,Leo Zuckerman
-Foro TV,Raymundo Riva Palacio
+Foro TV,Arantza Ocampo
+Foro TV,Julio Silva
 Foro TV,Javier Martínez
 Fractales,Redacción
 Futuro informativo,Redacción
@@ -666,8 +644,6 @@ Henryformativo De Hidalgo,Redacción
 Heraldo Hidalgo,Eder Martínez
 Heraldo Hidalgo,Karen Cardelas
 Heraldo Hidalgo,Arantxa González
-Heraldo Radio,Guadalupe Juárez
-Heraldo Radio,Sergio Sarmiento
 Heraldo Radio,Adriana Delgado
 Heraldo Radio,Heriberto Vázquez
 Heraldo Radio,Javier Alatorre
@@ -678,16 +654,15 @@ Heraldo Radio,Manuel Zamacona
 Heraldo Radio,Mario Maldonado
 Heraldo Radio,Óscar Mario Beteta
 Heraldo Radio,Selene Flores
-Heraldo Radio,José Ignacio García
+Heraldo Radio,Sergio Sarmiento
+Heraldo Radio,Ignacio García
 Heraldo Televisión,Blanca Becerril
 Heraldo Televisión,Dario Celís
-Heraldo Televisión,Hector Jiménez Landín
+Heraldo Televisión,Ignacio García
+Heraldo Televisión,Javier Solórzano
 Heraldo Televisión,Lupita Juárez
 Heraldo Televisión,Mario Maldonado
-Heraldo Televisión,Redacción
 Heraldo Televisión,Sofía García
-Heraldo Televisión,José Ignacio García
-Heraldo Televisión,Javier Solórzano
 Heraldo Televisión,Héctor Jiménez Landín
 Heraldo Televisión,Alejandro Cacho
 Heraldo Televisión,Nahima Choura
@@ -730,25 +705,23 @@ Hora 25,Paloma Pérez
 Hoy Mero,Redacción
 Huastecas News,Redacción
 Íconos Multimedia,Redacción
-Imagen Radio,Francisco Zea
-Imagen Radio,Pascal Beltrán Del Río
 Imagen radio,Darío Celis
 Imagen radio,David Vicenteño
 Imagen radio,Esteban Arce
+Imagen radio,Francisco Zea
 Imagen radio,Pascal Beltán del Río
 Imagen radio,Yuriria Sieraa
-Imagen Radio web,Enrique Sánchez
+Imagen Radio Web,Enrique Sánchez
 Imagen radio web,Frentes políticos
 Imagen radio web,Porfirio Escandón
 Imagen TV,Crystal Mendivil
+Imagen TV,Enrique Sánchez
 Imagen TV,Francisco Zea
 Imagen TV,Ignacio Lozano
-Imagen TV,Marlene Stahl
-Imagen TV,Nacho Lozano
-Imagen TV,Nuria Gil
-Imagen TV,Paola Rojas
-Imagen TV,Enrique Sánchez
 Imagen TV,Mónica Noguera
+Imagen TV,Paola Rojas
+Imagen TV,Marlene Stahl
+Imagen TV,Nuria Gil
 Imagen TV,Brisseida Moya
 Impacto Informativo Global,Redacción
 Info Heme,Redacción
@@ -773,16 +746,15 @@ Info Libre,Yazmín Salazar
 Info Libre Manteleta,Francisco Hernández
 Info Libre manteleta,Carlos Sevilla
 Info Libre manteleta,Redacción
-Infobae,Andrés García
-Infobae,Jaqueline Viedma
 Infobae,Redacción
 Infobae,Anayeli Tapia
+Infobae,Jaqueline Viedma
 Infocentro Hidalgo,Redacción
 Infomedia Digital,Astillas
-Infomedia Digital,Fernando Pérez
 Infomedia Digital,Redacción
-Infomedia Digital,Sandra Salazar
 Infomedia Digital,José Luis Rico
+Infomedia Digital,Sandra Salazar
+Infomedia Digital,Fernando Pérez
 Información 2.0,Redacción
 Informante De Hidalgo,Redacción
 Informativo de Hidalgo,Redacción
@@ -793,9 +765,9 @@ JMS radio,Redacción
 JMS radio kiss,Redacción
 Julio Astillero,Redacción
 Justicia Viral Altiplano,Redacción
-Ke Buena 106.7 Fm,David Cárdenas
 Ke Buena web,Redacción
 La borrega negra,Redacción
+La Crónica web,Giovanna Morales
 La Era De Hidalgo,Redacción
 La Espina,Ignacio González
 La Espina,Redacción
@@ -837,26 +809,27 @@ La Jornada Hidalgo,Enrique Rivas Paniagua
 La Jornada Hidalgo,Raúl Arroyo
 La Jornada Hidalgo,Ricardo Castillo
 La Jornada Hidalgo,Zasid Quizamán
-La Jornada Hidalgo web,Adela Garmez
-La Jornada Hidalgo web,América Castillo
-La Jornada Hidalgo web,César Ruiz
-La Jornada Hidalgo web,Cronómetro
-La Jornada Hidalgo web,Dulce Castillo
-La Jornada Hidalgo web,Joselyn Sánchez
-La Jornada Hidalgo web,Michelle Ortiz
-La Jornada Hidalgo web,Redacción
-La Jornada Hidalgo web,Ricardo Castillo
-La Jornada Hidalgo web,Socorro Ávila
-La Jornada Hidalgo web,Yeralín Bonilla
-La Jornada Hidalgo web,Zasid Quizamán
+La Jornada Hidalgo Web,Adela Garmez
+La Jornada Hidalgo Web,América Castillo
+La Jornada Hidalgo Web,César Ruiz
+La Jornada Hidalgo Web,Cronómetro
+La Jornada Hidalgo Web,Dulce Castillo
+La Jornada Hidalgo Web,Joselyn Sánchez
+La Jornada Hidalgo Web,Michelle Ortiz
+La Jornada Hidalgo Web,Redacción
+La Jornada Hidalgo Web,Ricardo Castillo
+La Jornada Hidalgo Web,Socorro Ávila
+La Jornada Hidalgo Web,Yeralín Bonilla
+La Jornada Hidalgo Web,Zasid Quizamán
 La Jornada Hidalgo web,Alexander Mendoza
 La Jornada Hidalgo web,Antonio Bautista
 La Jornada Hidalgo web,Nathali González
 La Jornada Hidalgo web,Jorge González Correa
 La Jornada Hidalgo web,Oscar García
-La Jornada Hidalgo web,Miguel Tello
-La Jornada web,Joselyn Sánchez
-La Jornada web,Redacción
+La Jornada Hidalgo web,Miguel Ángel Tello
+La Jornada Web,Joselyn Sánchez
+La Jornada Web,Redacción
+La Jornada web,Jocelyn Sánchez
 La mañana de Tula,Redacción
 La Neta,Redacción
 La Nota Hidalguense,Redacción
@@ -867,14 +840,12 @@ La Opinión de Hidalgo,Ángel Fernández
 La Opinión de Hidalgo,Eduardo Sánchez
 La Opinión de Hidalgo,Siomara Villarreal
 La Opinión de Hidalgo,Santiago Hernández
-La Poderosa Tuxpan 93.1 Fm,Liz Argüelles
 La Política Me Da Risa,Redacción
 La Política Me Da Risa,Yazmín Alessandrini
 La política online,Redacción
 La Prensa,Alberto Aguilar
 La Prensa,Maximiliano Pérez
 La Prensa,Red compartida
-La Razón,Berenice Luna
 La Razón,Claudia Arellano
 La Razón,Redacción
 La Razón,Julio Pilotzi
@@ -883,7 +854,7 @@ La Razón,Yulia Bonilla
 La Razón,Alan Gallegos
 La Razón,Elizabeth Hernández
 La Razón Huejutla,Redacción
-La Razón web,Redacción
+La Razón Web,Redacción
 La Razón web,Arturo Meléndez
 La Razón web,Claudia Arellano
 La Razón web,Mariana Salazar
@@ -891,30 +862,29 @@ La Razón web,César Huerta
 La Región,Redacción
 La Región,Gabriela Tovar
 La Región,Luy
-La Región web,Redacción
+La Región Web,Redacción
 La Silla Rota Hidalgo,Cristian Estefes
 La Silla Rota Hidalgo,El Centinela
 La Silla Rota Hidalgo,Emily Morales
 La Silla Rota Hidalgo,Jessica Manilla
-La Silla Rota Hidalgo,Juan Ramírez
 La Silla Rota Hidalgo,Lenguas Viperinas
 La Silla Rota Hidalgo,Michelle Guadarrama
-La Silla Rota Hidalgo,Miguel Ángel Islas
 La Silla Rota Hidalgo,Redacción
 La Silla Rota Hidalgo,Verónica Ángeles
+La Silla Rota Hidalgo,Juan Ramírez
 La Silla Rota Hidalgo,Julieta Gutiérrez
 La Silla Rota Hidalgo,Susana Jiménez
 La Silla Rota Hidalgo,Zadquiel Torres
 La Silla Rota Hidalgo,Miguel Ángel Martínez
+La Silla Rota Hidalgo,Miguel Ángel Islas
 La Tertulia,Redacción
 La Tuza Metiche,Redacción
 La Verdad Hidalgo,Redacción
 La Verdad Hidalgo,Miguel Alburquerque
 La Verdad Impresa,Redacción
-La Voz Acatlán,Redacción
 LatinUS,Redacción
 LatinUS,Cecilia Salamanca
-LatinUS,Carlos Loret De Mola
+LatinUS,Carlos Loret
 Libre Albedrío Gaonews,Redacción
 Libre expresión Tula,Redacción
 Libre Expression Del Estado De Hidalgo,Redacción
@@ -947,7 +917,6 @@ Mexico Now,Redacción
 Mexiquense TV,Abadiel Martínez
 Mf La Noticia Al Instante,Redacción
 MF la noticia al instante,Tras bambalinas
-Miled 97.1 Fm,María Antonieta Islas
 Milenio,Guadalupe Trejo
 Milenio,Redacción
 Milenio,Trascendió
@@ -967,7 +936,7 @@ Milenio Hidalgo,Lizbeth Ordaz
 Milenio Hidalgo,Lol Canul
 Milenio Hidalgo,Manuel Aranda
 Milenio Hidalgo,Miguel Ángel Puértolas
-Milenio Hidalgo,Miguel Tello
+Milenio Hidalgo,Miguel Ángel Tello
 Milenio Hidalgo,Miriam Avilés
 Milenio Hidalgo,Redacción
 Milenio Hidalgo,Sarkis Mikel Jeitani
@@ -980,53 +949,49 @@ Milenio Hidalgo,Citnova
 Milenio Hidalgo,Guadalupe Trejo
 Milenio Hidalgo,Víctor Valera
 Milenio Hidalgo,Aarón García
-Milenio Hidalgo,Miguel Ángel Tello
-Milenio TV,Adrian Hernández
-Milenio TV,Ady Cabriales
 Milenio TV,Alejandro Domínguez
+Milenio TV,Alma Paola Wong
 Milenio TV,Carlos Zúñiga
+Milenio TV,Cecilia Salamanca
 Milenio TV,Dany Martín
 Milenio TV,Elisa Alanís
 Milenio TV,Fernando Robles
 Milenio TV,Guadalupe Trejo
 Milenio TV,Héctor Zamarrón
-Milenio TV,Jorge Martínez
-Milenio TV,Luis Carlos Ortiz
-Milenio TV,Norma García
-Milenio TV,Pamela Villanueva
-Milenio TV,Paola Barquet
-Milenio TV,Pedro Gamboa
-Milenio TV,Redacción
-Milenio TV,Ricardo Solaback
-Milenio TV,Rodrigo Rico
-Milenio TV,Tania Díaz
-Milenio TV,Wendy Salazar
-Milenio TV,Alma Paola Wong
-Milenio TV,Cecilia Salamanca
 Milenio TV,Jaime Núñez
 Milenio TV,Joel Valdez
 Milenio TV,Josué Becerra
 Milenio TV,Liliana Sosa
+Milenio TV,Luis Carlos Ortiz
 Milenio TV,Magda González
+Milenio TV,Norma García
 Milenio TV,Pamela Longoria
+Milenio TV,Pamela Villanueva
+Milenio TV,Paola Barquet
+Milenio TV,Pedro Gamboa
 Milenio TV,Roberto López
+Milenio TV,Rodrigo Rico
 Milenio TV,Samuel Cuervo
 Milenio TV,Selene Flores
+Milenio TV,Tania Díaz
 Milenio TV,Víctor González
 Milenio TV,Víctor Hugo Michel
 Milenio TV,Víctor Martínez
+Milenio TV,Wendy Salazar
 Milenio TV,Zelenny Ibarra
 Milenio TV,Gerardo Buque Lárraga
 Milenio TV,Alejandro Reyes
 Milenio TV,Sandra González
 Milenio TV,Francisco Villeda
+Milenio TV,Ady Cabriales
+Milenio TV,Ricardo Solaback
 Milenio TV,Natalia Sánchez
-Milenio web,Alejandro Reyes
-Milenio web,Guadalupe Trejo
-Milenio web,Miguel Ángel Puértolas
-Milenio web,Miriam Avilés
-Milenio web,Redacción
-Milenio web,Teodoro Santos
+Milenio Web,Alejandro Reyes
+Milenio Web,Guadalupe Trejo
+Milenio Web,Miguel Ángel Puértolas
+Milenio Web,Miriam Avilés
+Milenio Web,Redacción
+Milenio Web,Teodoro Santos
 Milenio web,Francisco Villeda
 Milenio web,Víctor Valera
 MilenioTV,Minelly Atayde
@@ -1037,9 +1002,7 @@ Mujeres en el poder,Diego Valadés
 Mujeres en el poder,Leonardo Valadez
 Mundo Ejecutivo,Redacción
 MVS,Sheila Amador
-MVS Noticias,Circe Vargón
 MVS Noticias,Redacción
-Mvs Radio,Juan Manuel Jiménez
 MVS Radio,Ana Francisca Vega
 MVS Radio,Luis Cárdenas
 MVS Radio,Manuel López San Martín
@@ -1047,11 +1010,10 @@ MVS Radio,Pamela Cerdeira
 Mx Noticias,Redacción
 MX Noticias,Alfonso Segovia
 N+,Redacción
-Nación 321,Ángel García
 Nación 321,Redacción
 Nadia Mejía,Nadia Mejía
 News Hidalgo,Redacción
-Nodo TV,Andrea Meneses
+Nodo Tv,Andrea Meneses
 Nodo TV,Aarón Oviedo
 Nodo TV,Abraham Meneses
 Nodo TV,David Rojo
@@ -1070,13 +1032,8 @@ NotiRed Hidalgo,Alejandra Piña
 NotiRed Hidalgo,Jaime Corella
 NotiRed Hidalgo,Zendejas Castro
 NotiRed Hidalgo,Redacción
-Nq 90.1 Fm,Irving Sánchez
-Nq 90.1 Fm,Jesús Riveros
-Nq 90.1 Fm,José Luis Lima
-Nq 90.1 Fm,Juan Carlos Santamaría
-Nq 90.1 Fm,Radioescucha
-NQ radio web,Redacción
 NQ radio web,Jesús Riveros
+NQ radio web,Redacción
 Nueva Imagen De Hidalgo,Francisco Villeda
 Nueva Imagen De Hidalgo,Marisol Martínez
 Nueva Imagen De Hidalgo,Marlene Godínez
@@ -1091,7 +1048,6 @@ Nuevo Gráfico,Julio Gálvez
 Nuevo Gráfico,Redacción
 Omnia,Redacción
 On Spot,Redacción
-Once Digital,Rubén Fieytal Nez
 Once Digital,Redacción
 Origen y destino,Redacción
 Ovaciones,Redacción
@@ -1104,7 +1060,7 @@ Pachuca Digital,Redacción
 Pachuca en el Olvido,Redacción
 Pachuca Informa,Redacción
 Pachuca La NotiAirosa,Redacción
-Pachuca TV,Redacción
+Pachuca Tv,Redacción
 Pachuca Vive,Redacción
 Pachuca Vive,Iván Samuel DL
 Panorama Hidalgo,Redacción
@@ -1112,11 +1068,11 @@ Paradigma,Redacción
 Paradigma Digital,Redacción
 Pensador Hidalguense,Redacción
 Pensador Hidalguense,Daniel Rodríguez
-Pensador Hidalguense web,Redacción
+Pensador Hidalguense Web,Redacción
 Periódico Expediente,Redacción
 Planeta Noticias,Redacción
 Planeta Noticias,Víctor Cruz Aldana
-Plaza Juárez,Ilsa Rodríguez
+Plaza  Juárez,Ilsa Rodríguez
 Plaza Juárez,Abel Ricardo Flores
 Plaza Juárez,Ana Luisa Vega
 Plaza Juárez,Dese Por Enterado
@@ -1129,13 +1085,13 @@ Plaza Juárez,Oscar Raúl Pérez
 Plaza Juárez,Redacción
 Plaza Juárez,Tic-Tac
 Plaza Juárez,Mariana Peralta
-Plaza Juárez web,Redacción
+Plaza Juárez Web,Redacción
 Plaza Juárez web,Oscar Raúl Pérez
 Plétora Lex,Redacción
 Plétora Lex,Diego Sosa
 Plétora Lex,Verónica Ángeles
-Plétora Lex web,Judith Ferrer
-Plétora Lex web,Redacción
+Plétora Lex Web,Judith Ferrer
+Plétora Lex Web,Redacción
 Plétora Lex web,Diego Sosa
 Plétora Lex web,Verónica Ángeles
 Plétora Lex web,Víctor Valera
@@ -1177,17 +1133,17 @@ Quadratín México,Alejandro Gálvez
 Qué Pachuca,Redacción
 Radar político,Joel Sánchez
 Radar político,Redacción
-Radio Fórmula,Enrique Acevedo
-Radio Fórmula,Jaime Núñez
-Radio Fórmula,Juan Becerra
 Radio Fórmula,Azucena Uresti
 Radio Fórmula,Ciro Gómez Leyva
 Radio Fórmula,Danielle Dithurbide
 Radio Fórmula,Eduardo Ruiz Healy
+Radio Fórmula,Enrique Acevedo
+Radio Fórmula,Jaime Núñez
 Radio Fórmula,Javier Risco
 Radio Fórmula,Joaquín López Dóriga
 Radio Fórmula,José Cárdenas
 Radio Fórmula,José Yuste
+Radio Fórmula,Juan Becerra
 Radio Fórmula,Juan Manuel de Anda
 Radio Fórmula,Juan Pablo Pérez
 Radio Fórmula,Leonardo Curzio
@@ -1196,8 +1152,6 @@ Radio Fórmula,Maricarmen Cortés
 Radio Fórmula,Michelle Rivera
 Radio Fórmula web,Redacción
 Radio Fórmula web,Roberto Estrada
-Radio Lobo 96.7 Fm,Gina Lorenzo
-Radio Lobo 96.7 Fm,Liz Argüelles
 Ranchuca,Redacción
 Razonez,Redacción
 RDM Radio,Redacción
@@ -1209,19 +1163,17 @@ Red Hidalgo,Eduardo Sánchez
 Red Hidalgo,Jair Velázquez
 Red Hidalgo,Néstor Ramírez
 Red Hidalgo,Redacción
-Reforma,Benito Jiménez
-Reforma,Claudia Salazar
 Reforma,Charlene Domínguez
-Reforma,Jorge Ricardo
 Reforma,Mayolo López
 Reforma,Redacción
 Reforma,Staff
+Reforma,Benito Jiménez
 Reforma,Claudia Guerrero
 Reforma,Fray Bartolomé
 Reforma,Natalia Vitela
 Reforma,Víctor Osorio
-Reforma web,Mayolo López
-Reforma web,Redacción
+Reforma Web,Mayolo López
+Reforma Web,Redacción
 Reforma web,Benito Jiménez
 Reforma web,Claudia Guerrero
 Regeneradoz,Redacción
@@ -1237,11 +1189,8 @@ Reporte Índigo,Redacción
 Reporte Índigo,Redes de Poder
 Reporte Índigo,Luis Herrera
 Reporte Índigo web,Redacción
-Reporte Índigo web,Rodrigo Pacheco
-Reporte Índigo web,Solorza González Gilberto
 Reporte Oportuno Noticias,Redacción
 Reporte Pachuca,Redacción
-República Ene,Paulina Ovando
 República Ene,Redacción
 República ENE,Karla García
 Revista De Frente,Redacción
@@ -1256,7 +1205,7 @@ Revista Vía Libre,Redacción
 Revista Vía Libre,Carlos Camacho
 Revista Vía Libre,Miriam Camacho
 Revista Vía Libre,Arturo González
-Revista Vía Libre web,Carlos Camacho
+Revista Vía Libre Web,Carlos Camacho
 Revista Vía Libre web,Miriam Camacho
 Revista Vía Libre web,Redacción
 Rumbos,Redacción
@@ -1274,7 +1223,7 @@ Ruta web,Redacción
 Ruta web,Dinorath Mota
 Ruta web,Sandra Pérez
 Sanfe Radio,Redacción
-Satélite TV,Redacción
+Satélite Tv,Redacción
 Satélite TV,Arturo Mejía Espinosa
 Sdp Noticias,Karen Gabriel Vázquez
 Sdp Noticias,Martha Torres
@@ -1296,9 +1245,9 @@ Síntesis,Redacción
 Síntesis,Veida Martínez Miranda
 Síntesis,Fernando Muñoz
 Síntesis,Yolitzi Olguin
-Síntesis web,Marco Cerón
-Síntesis web,Redacción
-Síntesis web,Veida Martínez Miranda
+Síntesis Web,Marco Cerón
+Síntesis Web,Redacción
+Síntesis Web,Veida Martínez Miranda
 Síntesis web,Fernando Muñoz
 Síntesis web,Georgina Obregón
 Síntesis web,Yolitzi Olguin
@@ -1314,33 +1263,29 @@ Subrayado,Ivonne Pérez
 Subrayado Magazine,Enrique Gutiérrez
 Suma Noticias,Redacción
 Suma Rotativa,Redacción
-Suma TV,Montserrat Valencia
 Suma TV,Redacción
+Suma TV,Montserrat Valencia
 Suma TV,Alberto Ángeles
 Suma TV,Fernanda Colín
-Súper Stéreo 100.5 Fm,Christian García
-Súper Stéreo 100.5 Fm,Jesús González
-Súper Stéreo 100.5 Fm,Radioescucha
-Súper Stéreo 100.5 Fm,Rodolfo López
 Super Stereo Miled Hidalgo,Redacción
-Super Stereo web,Redacción
+Super Stereo Web,Redacción
 Tele Urban web,Juan Ortega
-Telediario,Ana Balderas
 Telediario,Ana Laura Alanís
 Telediario,Carlos Jiménez
 Telediario,Carlos Zúñiga
 Telediario,David Medrano
 Telediario,Fernanda Tapia
-Telediario,Joel Valdez
-Telediario,Liliana Sosa
 Telediario,Guadalupe Trejo
 Telediario,Isa Ross
 Telediario,Jaime Núñez
+Telediario,Joel Valdez
+Telediario,Liliana Sosa
 Telediario,Monserrat Contreras
 Telediario,Norma García
 Telediario,Paola Barquet
 Telediario,Rodrigo Rico
 Telediario,Rubén Carreón
+Telediario,Ana Balderas
 Telediario,José Luis Arévalo
 Telediario,Ramón Ramírez
 Telediario,Ricardo Solaback
@@ -1348,28 +1293,23 @@ Telediario,Sandra Sandoval
 Telediario web,Guadalupe Trejo
 Telediario web,Redacción
 Telediario web,Wendy Salazar
-Telefórmula,Azucena Uresti
 Telefórmula,Ciro Gómez Leyva
-Telefórmula,Joaquín López Dóriga
-Telefórmula,José Cárdenas
-Telefórmula,Manuel Feregrino
-Telefórmula,Michelle Rivera
 Telefórmula,Eduardo Ruiz-Healy
 Telefórmula,Joaquín López-Dóriga
 Telefórmula,José Antonio Ezquerra
+Telefórmula,Jóse Cárdenas
 Telefórmula,Juan Pablo Pérez
 Telefórmula,Leonardo Curzio
+Telefórmula,Manuel Feregrino
 Telefórmula,Susana Sáenz
 Telefórmula,Wendy Salazar
 Telefórmula,Juan Becerra
 Televisa,Bertha Alfaro
 Televisa,Carlos Hurtado
-Televisa,Conductor
 Televisa,Danielle Dithurbide
+Televisa,Eduardo Salazar
 Televisa,Enrique Acevedo
 Televisa,Enrique Campos
-Televisa,José Luis Arévalo
-Televisa,Eduardo Salazar
 The Element,Redacción
 Tiempo Express,Redacción
 Tiempo Express,Luis Roberto Flores
@@ -1393,38 +1333,33 @@ TV Azteca,Leo Arriaga
 TV Azteca,Leonardo Herrera
 TV Azteca,Lucy Bravo
 TV Azteca,Otoniel Martínez
-TV Azteca,Redacción
 TV Azteca,Roberto Ruiz
-TV Azteca,Vaiteare Mateos
+TV Azteca,Vaitiare Mateos
 TV Azteca,Viridiana Hernández
+TV Azteca,Redacción
 TV Azteca Hidalgo,Gustavo Vargas
 TV Azteca Hidalgo,Leonardo Herrera
 TV Azteca Hidalgo,Daniela Valdenegro
 TV Cable hidalguense Canal 6,Redacción
-TV Del Mezquital,Oscar Reséndiz
-TV Del Mezquital,Redacción
+TV del Mezquital,Redacción
+TV del Mezquital,Oscar Reséndiz
 TV Región Hidalgo,Redacción
-Ultra 102.9 Fm,Abner Yáñez
-Ultra 102.9 Fm,Daniel Martínez
-Ultra 102.9 Fm,Izza Hernández
-Ultra 102.9 Fm,Jessenia Romero
-Ultra 102.9 Fm,Radioescucha
 Ultra Noticias,Daniel Martínez
 Ultra Noticias,Izza Hernández
 Uno más uno web,Redacción
-Uno TV,J. L. Márquez
-Uno TV,Redacción
+Uno Tv,J. L. Márquez
+Uno Tv,Redacción
 Uno TV,Jennifer Turrubiartes
 Uno TV,Lidia Rivera
 Uno TV,Luis Érick Ramírez
 Uno TV,Sergio
 Ve Noticias Hidalgo,Redacción
 Verdad y Hechos,Redacción
-Veta Hidalgo,Maricela Cisneros
-Veta Hidalgo,Redacción
 Veta Hidalgo,Maricela C
+Veta Hidalgo,Redacción
+Veta Hidalgo,Maricela Cisneros
 Vía Libre,Alberto Witvrun
-Vía Libre,José Ángel Bautista
+Vía Libre,Ángel Bautista
 Vía Libre,Erick Morales
 Vía Libre,Jesús Castillo
 Vía Libre,Jocelyn Andrade
@@ -1433,8 +1368,6 @@ Vía Libre,Redacción
 Vía Libre,Manuel Castellanos
 Vía Libre,Miguel Ángel Martínez
 Vía Libre,Lauro Campos
-Vía Libre,Ángel Bautista
-Vía Libre Meridiano,Arturo G. Alanis
 Vía Libre Meridiano,Erick Morales
 Vía Libre Meridiano,Jesús Castillo
 Vía Libre Meridiano,Alberto Witvrun
@@ -1444,32 +1377,33 @@ Vía Libre Meridiano,Juan Manuel Pérez
 Vía Libre Meridiano,Manuel Castellanos
 Vía Libre Meridiano,Miguel Ángel Martínez
 Vía Libre Meridiano,Jocelyn Andrade
+Vía Libre Meridiano,Arturo G. Alanis
 Villa T. Informa,Redacción
 Visión Huasteca,Redacción
-Vocales Radio web,Redacción
-Vocales Radio web,Alberto González
-Vocales Radio web,Andrés Torres
-Vocales Radio web,David Tenorio
-Vocales Radio web,El AEIOU
+Vocales Radio Web,Redacción
+Vocales radio web,Alberto González
+Vocales radio web,Andrés Torres
+Vocales radio web,David Tenorio
+Vocales radio web,El AEIOU
 Voces Hidalgo,Alberto Garrido
 Voces Hidalgo,Carlos Pérez Andalón
 Voces Hidalgo,Redacción
 Voz del Pueblo Hidalguense,Redacción
-W Radio,Carlos Loret De Mola
-W Radio,Gabriela Warkentin
+W Radio,Carlos Loret de Mola
 W Radio,Enrique Hernández Alcázar
+W Radio,Gabriela Warkentin
 W Radio,José Ignacio García
-W Radio web,José Ignacio García
+W Radio web,Ignacio García
 Wakeup radio,Redacción
 Xpectro FM,Víctor Hugo Arteaga
-Zagazine,Ángel Hernández
 Zagazine,Ximena Soto
 Zagazine,Abril Delgado
+Zagazine,Ángel Hernández
 Zagazine,Fabián González
 Zagazine,Redacción
 Zócalo virtual,Redacción
 Zócalo web,Redacción
-Zucesos de Las Huastecas,Redacción
+Zucesos De Las Huastecas,Redacción
 Zucesos de las Huastecas,A Contrapunto
 Zunoticia,Ángel Osiris Castillo
 Zunoticia,Enedino Hernández
@@ -1482,3 +1416,4 @@ Zunoticia,Karen Rivera
 Zunoticia,Salvador Altamirano
 Zunoticia,Jorge Sánchez
 Zunoticia web,Redacción
+La Jornada Hidalgo web,Cronómetro

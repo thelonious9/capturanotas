@@ -1529,12 +1529,16 @@
       }
     }
 
+    function normalizarClave(valor) {
+      return valor.trim().toLocaleLowerCase('es');
+    }
+
     function findKeyCaseInsensitive(map, value) {
       if (!value) return null;
       if (Object.prototype.hasOwnProperty.call(map, value)) return value;
-      const lowerValue = value.toLowerCase();
+      const lowerValue = normalizarClave(value);
       for (const key in map) {
-        if (key.toLowerCase() === lowerValue) {
+        if (normalizarClave(key) === lowerValue) {
           return key;
         }
       }
@@ -1588,6 +1592,26 @@
       const mapArrays = {};
       claves.forEach(k => mapArrays[k] = Array.from(map[k]).sort((a, b) => a.localeCompare(b, 'es')));
       return { claves, map: mapArrays };
+    }
+
+    function normalizarMapaPorClaves(map, clavesCanonicas) {
+      const valoresPorClave = new Map();
+      Object.keys(map).forEach(clave => {
+        const claveNormalizada = normalizarClave(clave);
+        if (!valoresPorClave.has(claveNormalizada)) {
+          valoresPorClave.set(claveNormalizada, new Set());
+        }
+        map[clave].forEach(valor => valoresPorClave.get(claveNormalizada).add(valor));
+      });
+
+      const mapaNormalizado = {};
+      clavesCanonicas.forEach(clave => {
+        const valores = valoresPorClave.get(normalizarClave(clave));
+        mapaNormalizado[clave] = valores
+          ? Array.from(valores).sort((a, b) => a.localeCompare(b, 'es'))
+          : [];
+      });
+      return mapaNormalizado;
     }
 
     async function cargarLista(url, listaKey) {
@@ -1742,6 +1766,18 @@
       } else if (!canalInput.value) {
         canalInput.value = '';
         localStorage.removeItem('canal');
+      }
+    }
+
+    function actualizarFirmasDelMedio(medio, firmaMap) {
+      const firmas = medio ? firmaMap[medio] || [] : [];
+      const campoFirma = document.getElementById('firma');
+      const firmaActual = campoFirma.value.trim();
+      autocompletar("firma", "sugFirma", firmas);
+      if (firmas.length === 1) {
+        campoFirma.value = firmas[0];
+      } else if (!firmas.some(firma => normalizarClave(firma) === normalizarClave(firmaActual))) {
+        campoFirma.value = '';
       }
     }
 
@@ -2831,21 +2867,19 @@
         autocompletar("organismo", "sugOrg", orgMap[dep] || []);
       });
 
-      const firmaData = await cargarMapa(urls.firmas);
-      firmaMap = firmaData.map;
-      listasParaValidar.firmas = firmaMap;
-
       const canalData = await cargarMapa(urls.medios);
       medioToCanalMap = canalData.map;
+
+      const firmaData = await cargarMapa(urls.firmas);
+      firmaMap = normalizarMapaPorClaves(firmaData.map, canalData.claves);
+      listasParaValidar.firmas = firmaMap;
 
       listasParaValidar.dependencias = depData.claves;
       listasParaValidar.medios = canalData.claves;
 
       autocompletar("medio", "sugMedio", canalData.claves, medio => {
         setCanalFromMedio(medio, medioToCanalMap);
-        const firmas = firmaMap[medio] || [];
-        autocompletar("firma", "sugFirma", firmas);
-        if (firmas.length === 1) document.getElementById("firma").value = firmas[0];
+        actualizarFirmasDelMedio(medio, firmaMap);
       });
 
       const listaUsuarios = await cargarLista(urls.usuarios, 'usuarios');
@@ -2861,26 +2895,10 @@
 
       document.getElementById("medio").addEventListener("blur", (e) => {
         const val = e.target.value.trim();
-        const firmaKey = findKeyCaseInsensitive(firmaMap, val);
-        if (firmaKey) {
-          e.target.value = firmaKey;
-          setCanalFromMedio(firmaKey, medioToCanalMap);
-          const firmas = firmaMap[firmaKey] || [];
-          autocompletar("firma", "sugFirma", firmas);
-          if (firmas.length === 1) document.getElementById("firma").value = firmas[0];
-        } else {
-          const canalKey = findKeyCaseInsensitive(medioToCanalMap, val);
-          if (canalKey) {
-            e.target.value = canalKey;
-            setCanalFromMedio(canalKey, medioToCanalMap);
-            autocompletar("firma", "sugFirma", []);
-            document.getElementById("firma").value = '';
-          } else {
-            e.target.value = val;
-            setCanalFromMedio(val, medioToCanalMap);
-            autocompletar("firma", "sugFirma", []);
-          }
-        }
+        const medioCanonico = findKeyCaseInsensitive(medioToCanalMap, val);
+        e.target.value = medioCanonico || val;
+        setCanalFromMedio(e.target.value, medioToCanalMap);
+        actualizarFirmasDelMedio(medioCanonico, firmaMap);
       });
 
       autocompletar("organismo", "sugOrg", []);
@@ -3210,7 +3228,10 @@
       ];
       for (const campo of camposAValidar) {
         const valorInput = document.getElementById(campo.id).value.trim();
-        if (valorInput && !campo.lista.includes(valorInput)) {
+        const esValido = campo.id === 'medio'
+          ? campo.lista.some(valor => normalizarClave(valor) === normalizarClave(valorInput))
+          : campo.lista.includes(valorInput);
+        if (valorInput && !esValido) {
           alert(`Error: El valor "${valorInput}" en el campo ${campo.nombre} no es válido.`);
           document.getElementById(campo.id).focus();
           return;
