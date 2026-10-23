@@ -1531,6 +1531,7 @@
 
     function findKeyCaseInsensitive(map, value) {
       if (!value) return null;
+      if (Object.prototype.hasOwnProperty.call(map, value)) return value;
       const lowerValue = value.toLowerCase();
       for (const key in map) {
         if (key.toLowerCase() === lowerValue) {
