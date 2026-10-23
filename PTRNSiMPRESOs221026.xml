@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Hidalgo llevará el Xantolo a Berlín</Titular>
+		<Contenido>Un altar tradicional de Xantolo de la Huasteca hidalguense con aromas de copal, chocolate y tamales será presentado en la Embajada de México en Berlín, Alemania, como parte del programa Día de Muertos in Berlin.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Xantolo</Tema_segun_la_fuente>
+		<Sintesis>Un altar tradicional de Xantolo de la Huasteca hidalguense será presentado en la Embajada de México en Berlín, Alemania, acompañado de exposiciones fotográficas y artesanías, para difundir las tradiciones estatales en Europa.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Gustavo Vargas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Neyda Naranjo Baltazar, Julio Menchaca Salazar, Francisco Quiroga Fernández, Luis Eduardo Bautista Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Evalúan avances de Vivienda del Bienestar</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar participó en la reunión encabezada por la presidenta Claudia Sheinbaum Pardo en Palacio Nacional, donde se evaluaron los avances del programa Vivienda para el Bienestar que contempla 66 mil 500 viviendas para Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Plan Nacional De Vivienda</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca Salazar asistió a Palacio Nacional a la reunión con la presidenta Claudia Sheinbaum para evaluar el programa Vivienda para el Bienestar, el cual contempla la construcción de 66 mil 500 viviendas en la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Claudia Sheinbaum Pardo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Industria del vestido se reúne en Hidalgo</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar inauguró el Congreso Nacional de Moda y Vestido 2026 en el Auditorio Gota de Plata de Pachuca, reuniendo a 200 empresarios textiles para abordar la capacitación, competitividad y desafíos del ramo.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reunión Con Empresarios</Tema_segun_la_fuente>
+		<Sintesis>Con la asistencia de 200 empresarios de todo el país, se inauguró en Pachuca el Congreso Nacional de Moda y Vestido 2026, destacando que Hidalgo ocupa el cuarto lugar nacional en producción de prendas de vestir.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, José Pablo Maauad, Guillermo Vera Rodríguez, Juan Alberto Porras, Rafael Torre Lamuño</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Crea máscaras basadas en películas y leyendas</Titular>
+		<Contenido>El artesano Mario García "Mario Macabre" elabora de manera artesanal máscaras de terror inspiradas en películas y leyendas regionales a través de su proyecto Panic Máscara Studio.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a artesanos</Tema_segun_la_fuente>
+		<Sintesis>Mario García diseña artesanalmente máscaras inspiradas en cine de terror y mitos regionales, comercializando sus creaciones para coleccionistas y eventos temáticos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Omar Santiago</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Mario García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Pobladores exigen detalles sobre obra</Titular>
+		<Contenido>Habitantes de la Calzada Melchor Ocampo en Tula exigieron transparencia y la entrega del proyecto ejecutivo y calendarios de obra en la rehabilitación de la calle.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Transparencia</Tema_segun_la_fuente>
+		<Sintesis>Vecinos de Tula de Allende solicitaron la intervención de la contraloría social y el desglose de presupuestos en la obra vial de la Calzada Melchor Ocampo ante el incumplimiento de reuniones por autoridades municipales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>César Martínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Ayuntamiento, Contraloría</Dependencias_mencionadas>
+		<Actores_mencionados>Héctor Estrada</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Sancionan a 50 unidades de transporte</Titular>
+		<Contenido>La Secretaría de Movilidad y Transporte de Hidalgo aplicó multas a 50 vehículos por operar de forma irregular mediante plataformas digitales como Uber, Didi e Indrive en ocho municipios.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Supervisión de Transporte</Tema_segun_la_fuente>
+		<Sintesis>La titular de la Semoth, Lyzbeth Robles Gutiérrez, compareció ante el Congreso local e informó la imposición de sanciones por más de 4.3 mdp a vehículos no autorizados de aplicaciones móviles.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, STCH, Sitmah, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez, José Antonio Pérez Sánchez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Destinan 400 mdp a programa de bienestar</Titular>
+		<Contenido>El titular de Sebiso, Ricardo Gómez Moreno, destacó en su comparecencia ante el Congreso que durante el gobierno de Julio Menchaca se triplicaron los programas sociales en Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Programas Del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>Sebiso reportó un presupuesto de 400 mdp orientado a beneficiar a 38 mil personas y resaltó la reducción de la pobreza extrema en la entidad de acuerdo con mediciones del Inegi.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alma Leticia Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar, Congreso, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Gómez Moreno, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Exigen atender contaminación en manantial</Titular>
+		<Contenido>Vecinos del Valle del Mezquital denunciaron ante la CAASVAM posibles filtraciones de aguas negras en el manantial Cerro Colorado que surte de agua a 300 mil personas en cinco municipios.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Tezontepec de Aldama</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Contaminación de acuíferos</Tema_segun_la_fuente>
+		<Sintesis>El Frente en Defensa de los Manantiales exigió a las autoridades del agua estudios de laboratorio e inspecciones ambientales sobre el manantial Cerro Colorado en Tezontepec de Aldama.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Rosalía Maldonado</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Fernando Quijano Mota, León Peña Barquera, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Gobernador participa en cónclave sobre vivienda</Titular>
+		<Contenido>En compañía de alcaldes hidalguenses, el gobernador Julio Menchaca Salazar participó en una reunión encabezada por la presidenta Claudia Sheinbaum Pardo, en Palacio Nacional, donde se evaluaron los avances del programa Vivienda para el Bienestar y se acordó fortalecer la coordinación entre los tres órdenes de gobierno para agilizar su implementación. Como parte de esta estrategia nacional, que contempla la construcción de 1.8 millones de viviendas, para Hidalgo se proyectan 66 mil 500 en municipios como San Agustín Tlaxiaca, Mineral de la Reforma, Tepeapulco, Tepeji del Río, Zempoala, Actopan y Tulancingo de Bravo, con el objetivo de ampliar el acceso de las familias hidalguenses a una vivienda digna.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>1</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Plan Nacional De Vivienda</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca asistió a la reunión con la presidenta Claudia Sheinbaum para evaluar avances del programa Vivienda para el Bienestar, contemplando 66,500 viviendas para Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Claudia Sheinbaum Pardo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Detecta Semoth operación de cinco plataformas digitales de transporte</Titular>
+		<Contenido>La Secretaría de Movilidad ha aplicado hasta 50 multas por la prestación del servicio a aplicaciones como InDriver, Pronto, Cabify, DiDi y BlaBlaCar, con sanciones equivalentes a 750 veces el valor de la UMA. En su comparecencia ante el Congreso del Estado, la titular Lizbeth Robles Gutiérrez informó que, de septiembre del año pasado a septiembre de este año, se han aplicado mil 166 sanciones en general. Además, se han aplicado hasta 157 mil 208 pesos en multas a transporte particular por invadir el carril confinado del Tuzobús.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Supervisión de Transporte</Tema_segun_la_fuente>
+		<Sintesis>La titular de la Semoth, Lizbeth Robles, informó en comparecencia la aplicación de 50 sanciones a vehículos de plataformas digitales no autorizadas y multas por invadir el carril del Tuzobús.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Congreso, Sitmah</Dependencias_mencionadas>
+		<Actores_mencionados>Lizbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Viable, elevar programas sociales de Hidalgo a rango constitucional: Gómez</Titular>
+		<Contenido>El titular de la Secretaría de Bienestar e Inclusión Social (Sebiso), Ricardo Gómez Moreno, consideró la viabilidad de elevar a rango constitucional los programas sociales estatales, con el objetivo de evitar que puedan ser modificados o eliminados en futuras administraciones y contar con un padrón único de beneficiarios. Durante su comparecencia ante el Congreso del estado, fue cuestionado por la diputada Cynthia Citlali Delgado Mendoza.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Programas Del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>En su comparecencia, el titular de Sebiso, Ricardo Gómez Moreno, planteó la viabilidad de elevar los programas sociales estatales a rango constitucional.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Gómez Moreno, Cynthia Citlali Delgado Mendoza</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Asignan 74 mdp para remodelar las oficinas del Centro Minero</Titular>
+		<Contenido>La Secretaría de Infraestructura Pública y Desarrollo Urbano Sostenible (SIPDUS), destinará 74 millones 991 mil 835.54 pesos para la rehabilitación y adecuación de áreas de atención a la ciudadanía en el Centro Minero de Pachuca. La persona física Hugo Cornejo Hernández iniciará labores el 23 de octubre. Se trasladarán el Instituto de la Función Registral, Registro Estatal Familiar y Archivo de Notarías.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Remodelación de instalaciones</Tema_segun_la_fuente>
+		<Sintesis>La SIPDUS invertirá casi 75 millones de pesos en la rehabilitación del Centro Minero de Pachuca para albergar oficinas del Registro Registral, Familiar y Notarías.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Oficialía Mayor</Dependencias_mencionadas>
+		<Actores_mencionados>Hugo Cornejo Hernández, Edgar Orlando Ángeles Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Cerro del Zopilote carece de un plan de protección</Titular>
+		<Contenido>El ayuntamiento de Mineral de la Reforma, encabezado por el alcalde Eduardo Medécigo Rubio, mantiene en revisión el proceso de aprobación de su Programa de Ordenamiento Ecológico Local (POEL), a fin de atender observaciones ambientales sobre el Cerro del Zopilote. La titular de Semarnath, Mónica Patricia Mixtega Trejo, solicitó restituir la vocación de protección.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Ordenamiento ecológico</Tema_segun_la_fuente>
+		<Sintesis>La Semarnath y el ayuntamiento de Mineral de la Reforma revisan el POEL para proteger el Cerro del Zopilote como área de conservación ambiental.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Eduardo Medécigo Rubio, Mónica Patricia Mixtega Trejo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Sin multa a transporte, pese a irregularidades</Titular>
+		<Contenido>Pese al registro de mil 386 infracciones al transporte público, la secretaria de Movilidad y Transporte, Lyzbeth Robles Gutiérrez, informó que no se han aplicado multas ni retiro de concesiones a los operadores.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Supervisión de Transporte</Tema_segun_la_fuente>
+		<Sintesis>La secretaria de Movilidad y Transporte, Lyzbeth Robles Gutiérrez, descartó la imposición de multas o cancelación de concesiones a transportistas pese a mil 386 infracciones, señalando que las quejas están en sustanciación.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Detecta Semot operación de cinco plataformas digitales de transporte</Titular>
+		<Contenido>La Semot ha sancionado a 50 personas por ofrecer servicio de transporte público a través de aplicaciones móviles como InDrive, Cabify, Blablacar y Uber sin la concesión estatal requerida.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Movilidad y Transporte aplicó 50 multas de entre 500 y 750 UMAs a conductores que prestaban servicio público a través de aplicaciones digitales de forma no regulada.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Recauda Semot más de 157 mil por invasión al carril exclusivo</Titular>
+		<Contenido>Por concepto de multas por invasión del carril confinado del Tuzobús, el gobierno estatal recaudó 157 mil 208 pesos aplicados a 67 automovilistas entre el 16 de agosto y el 21 de octubre.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deficiencias Tuzobús</Tema_segun_la_fuente>
+		<Sintesis>Durante su comparecencia ante la LXVI Legislatura, la titular de la Semot reportó la recaudación de más de 157 mil pesos derivados de sanciones por invasión del carril exclusivo del Tuzobús.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Blindaje a programas sociales requiere reforma constitucional</Titular>
+		<Contenido>Durante su comparecencia ante el Congreso del estado, el titular de la Sebiso, Ricardo Gómez Moreno, planteó la viabilidad de elevar los programas sociales a rango constitucional.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Programas Del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Bienestar e Inclusión Social, Ricardo Gómez Moreno, consideró oportuno promover una reforma constitucional local para elevar los 12 programas sociales del estado a rango constitucional.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Gómez Moreno</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Cámara del Vestido condena contrabando</Titular>
+		<Contenido>Representantes de la Canaive y Canaintex se pronunciaron contra el contrabando de ropa de paca y robos en carreteras durante la inauguración del Congreso Nacional Moda y Vestido 2026.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reunión Con Empresarios</Tema_segun_la_fuente>
+		<Sintesis>Dirigentes de la industria textil y del vestido hicieron un llamado urgente a frenar el contrabando y el robo de carga en carreteras al señalar que debilitan la cadena productiva y generan competencia desleal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miriam Avilés</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>José Pablo Maahuad Pontón, Rafael Torre Lamuño</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Tala ilegal amenaza bosques de Hidalgo</Titular>
+		<Contenido>La Profepa reportó mayor incidencia de tala clandestina en municipios como Tenango de Doria, Acaxochitlán y Singuilucan; en agosto se detuvo a ocho personas en Tenango de Doria.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tenango de Doria</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Tala clandestina</Tema_segun_la_fuente>
+		<Sintesis>Autoridades ambientales y de seguridad reforzaron acciones contra la tala ilegal en regiones forestales de Hidalgo tras registrarse 110 carpetas por delitos ambientales de enero a septiembre de 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Ampliarán el Cereso de Pachuca</Titular>
+		<Contenido>El gobierno de Hidalgo invertirá 4.95 mdp en la construcción de dos galeras en el Cereso de Pachuca para atender la sobrepoblación del 63.15% en el centro penitenciario.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Construcción de Cereso</Tema_segun_la_fuente>
+		<Sintesis>La Sipdus publicó la licitación para construir dos nuevas galeras en el Cereso de Pachuca con un presupuesto de 4.9 millones de pesos para mitigar el hacinamiento penitenciario.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Analizan tres predios para relleno sanitario</Titular>
+		<Contenido>La titular de Semarnath, Mónica Mixtega Trejo, informó en comparecencia que analizan tres propuestas de terrenos para instalar el nuevo relleno sanitario de la región de Tula.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Relleno Sanitario</Tema_segun_la_fuente>
+		<Sintesis>La secretaria Mónica Mixtega informó ante el Congreso estatal que se evalúa una terna de terrenos para establecer el relleno sanitario definitivo para los municipios de la zona de Tula.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Francisco Villeda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Mónica Mixtega Trejo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Llevan el Xantolo a Berlín</Titular>
+		<Contenido>El Gobierno de Hidalgo instalará un altar tradicional de Xantolo en la Embajada de México en Berlín, Alemania, para mostrar cómo se celebra el Día de Muertos en la Huasteca hidalguense.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>1</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Xantolo</Tema_segun_la_fuente>
+		<Sintesis>El Gobierno de Hidalgo instalará un altar tradicional de Xantolo en la Embajada de México en Berlín para promover las tradiciones del Día de Muertos de la Huasteca hidalguense.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>4</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Gobierno</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Operadores, con culpa en 76 por ciento de los accidentes del Tuzobús</Titular>
+		<Contenido>El Sitmah informó que de los 286 accidentes del Tuzobús reportados en el último año, el 76% fueron por responsabilidad directa de los operadores o compartida con automovilistas particulares.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente Tuzobús</Tema_segun_la_fuente>
+		<Sintesis>El titular del Sitmah reportó 286 siniestros viales del Tuzobús en un año, atribuyendo responsabilidad parcial o total a los operadores en el 76% de los casos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Sitmah</Dependencias_mencionadas>
+		<Actores_mencionados>Humberto Cabrera Román</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Funcionan de forma ilícita 6 plataformas de transporte</Titular>
+		<Contenido>La Semot detectó la operación irregular de seis plataformas digitales de transporte (Uber, inDrive, DiDi, Cabify, Pronto, BlaBlaCar), remitiendo 129 vehículos al corralón e imponiendo 50 multas.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>La Semot informó sobre operativos contra seis plataformas de transporte por aplicación que brindan servicio no autorizado, aplicando multas por más de 4.3 mdp.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, STCH</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez, José Antonio Pérez Sánchez, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Contrabando presiona al sector textil: empresarios</Titular>
+		<Contenido>Líderes de la Canaive y Canaintex denunciaron los estragos del contrabando, la informalidad y la inseguridad carretera durante la inauguración del Congreso Nacional Moda y Vestido 2026 en Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reunión Con Empresarios</Tema_segun_la_fuente>
+		<Sintesis>Empresarios del sector textil exigieron rediseñar la estrategia contra el contrabando durante la apertura del Congreso Nacional Moda y Vestido encabezado por el gobernador Julio Menchaca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, José Pablo Maauad Pontón, Rafael Torre Lamuño</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Desarrollan un robot para el cuidado de los cultivos con IA</Titular>
+		<Contenido>El Iteshu desarrolla un prototipo de robot autónomo con visión e inteligencia artificial para detectar plagas en campo e invernaderos, con apoyo financiero del Citnova.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Huichapan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Agrotecnología</Tema_segun_la_fuente>
+		<Sintesis>Docentes y alumnos del Iteshu diseñan un robot agrícola financiado por Citnova para la detección oportuna de plagas mediante visión artificial.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Citnova, Planeación</Dependencias_mencionadas>
+		<Actores_mencionados>Luis Felipe Serna Hernández, Leslie Esmeralda Jiménez Ramírez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Gobernador y ediles se reúnen con Sheinbaum</Titular>
+		<Contenido>El gobernador Julio Menchaca y alcaldes de 13 municipios se reunieron con la presidenta Claudia Sheinbaum en Palacio Nacional para dar seguimiento a los programas de Vivienda del Bienestar e IMSS-Bienestar.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Plan Nacional De Vivienda</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca y presidentes municipales evaluaron con la presidenta Claudia Sheinbaum el avance en la edificación de 31,500 viviendas en la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Claudia Sheinbaum Pardo, Jorge Alberto Reyes Hernández, Jensen Oropeza</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Garantiza Sebiso blindaje a esquemas sociales rumbo a las elecciones 2027</Titular>
+		<Contenido>En su comparecencia ante el Congreso local, el titular de la Sebiso, Ricardo Gómez Moreno, aseguró que se implementarán controles para evitar el uso político de los padrones de beneficiarios en 2027.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Programas Del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>En su comparecencia ante el Congreso, el titular de la Sebiso garantizó mecanismos institucionales para evitar la manipulación de apoyos sociales durante los comicios de 2027.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Gómez Moreno</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Transporte metropolitano suma 157 mil pesos en multas; reportan 99% de eficiencia</Titular>
+		<Contenido>La Secretaría de Movilidad y Transporte de Hidalgo (Semoth) ha impuesto multas por un total de 157 mil 208 pesos a conductores que invadieron el carril confinado del Sistema de Transporte Metropolitano, antes Tuzobús, informó su titular, Lyzbeth Robles Gutiérrez, durante su comparecencia ante el Congreso estatal. Las sanciones comenzaron a aplicarse el 16 de agosto y han afectado a 67 personas. Asimismo, se reportó un incremento de 24% en los viajes del sistema tras la renovación de unidades, alcanzando casi 93 mil usuarios diarios.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Supervisión de Transporte</Tema_segun_la_fuente>
+		<Sintesis>La Semoth recaudó 157 mil pesos en sanciones a 67 conductores por invadir el carril confinado del Tuzobús, destacando además un aumento del 24% en usuarios del transporte metropolitano.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Semoth sancionó 50 unidades de transporte por plataformas digitales</Titular>
+		<Contenido>La Secretaría de Movilidad y Transporte de Hidalgo (Semoth) sancionó a 50 vehículos que ofrecían servicio de transporte mediante aplicaciones digitales y redes sociales sin contar con una concesión, informó Lyzbeth Robles Gutiérrez durante su comparecencia ante la LXVI Legislatura. Entre septiembre de 2025 y septiembre de 2026 se registraron mil 166 sanciones en total y se remitieron 129 vehículos al corralón por irregularidades operativas de plataformas como inDrive, Pronto, DiDi, Cabify y BlaBlaCar.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>La Semoth multó a 50 unidades y remitió 129 vehículos al depósito por brindar servicio ilegal a través de aplicaciones de transporte en municipios como Pachuca y Mineral de la Reforma.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez, Avelino Tovar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Licitan ampliación del Cereso de Pachuca con dos galeras</Titular>
+		<Contenido>La Secretaría de Infraestructura Pública y Desarrollo Urbano Sostenible (Sipdus) emitió la licitación pública EO SIPDUS-N173-2026 para la ampliación y mejoramiento del Cereso de Pachuca mediante la construcción de dos galeras (una de un nivel y otra de dos niveles) con una inversión estimada de 4.95 millones de pesos. Los trabajos tendrán un plazo de ejecución de 91 días naturales, iniciando el 30 de noviembre de 2026, para atender el hacinamiento en el reclusorio que alberga a tres mil 64 personas.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Construcción de Cereso</Tema_segun_la_fuente>
+		<Sintesis>La Sipdus convocó a licitación pública para construir dos galeras en el Cereso de Pachuca con una inversión de 4.95 mdp y un periodo de ejecución de 91 días.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Aplica Semot 50 multas contra aplicaciones de transporte en Hidalgo</Titular>
+		<Contenido>Tras detectar la oferta de servicios de transporte público en redes sociales sin concesión, la Secretaría de Movilidad y Transporte (Semot) aplicó 50 infracciones y remitió 129 unidades al depósito vehicular.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>La titular de la Semot, Lyzbeth Robles, informó ante el Congreso local sobre la aplicación de 50 multas a vehículos que operaban de forma irregular mediante aplicaciones digitales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez, Avelino Tovar Iglesia</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Plantean consulta ciudadana para permitir operación de plataformas</Titular>
+		<Contenido>La secretaria de Movilidad y Transporte de Hidalgo no descartó realizar una consulta ciudadana para definir la autorización de plataformas digitales de transporte como Uber en la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>La titular de la Semot planteó la posibilidad de realizar una consulta pública para analizar la autorización de operaciones de plataformas digitales de transporte.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Misael Salinas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Inauguran Congreso Nacional Moda y Vestido 2026 en Hidalgo</Titular>
+		<Contenido>Con la participación de alrededor de 200 representantes de la industria textil, el gobernador Julio Menchaca inauguró el Congreso Nacional Moda y Vestido 2026 enfocado en innovación y economía circular.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reunión Con Empresarios</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca Salazar inauguró el Congreso Nacional Moda y Vestido 2026 para impulsar la competitividad, sostenibilidad e innovación del sector textil en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lizania Zavala</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobierno</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Buscan que los programas de la Sebisoh se hagan constitucionales</Titular>
+		<Contenido>En comparecencia ante el Congreso local, el titular de la Sebiso manifestó su disposición de impulsar la elevación a rango constitucional de los 12 programas sociales del estado.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Programas Del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Bienestar e Inclusión Social se mostró a favor de reformar la Constitución de Hidalgo para garantizar el blindaje y permanencia de los programas sociales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Gómez Moreno, Cynthia Citlali Delgado Mendoza</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Analizan ampliar horario del Sistema de Transporte Metropolitano</Titular>
+		<Contenido>El Sitmah realizará estudios y pruebas operativas entre noviembre y diciembre para determinar la factibilidad de extender el servicio nocturno del Tuzobús hasta las 3:00 horas.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Ampliación Tuzobús</Tema_segun_la_fuente>
+		<Sintesis>El titular del Sitmah anunció la realización de pruebas para ampliar el horario nocturno del Tuzobús, medida con la que coincidió el gobernador Julio Menchaca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Saúl Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Sitmah, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Humberto Román Cabrera, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Destinan 1.5 mdp para el traslado de restos y las repatriaciones</Titular>
+		<Contenido>La Sebiso aplicó un millón y medio de pesos durante 2026 para financiar 91 apoyos de retorno y 80 traslados de restos mortuorios de hidalguenses fallecidos en el extranjero.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención A Migrantes</Tema_segun_la_fuente>
+		<Sintesis>El titular de la Sebiso detalló la inversión de 1.5 mdp en programas de apoyo para la repatriación de migrantes hidalguenses y el traslado de sus restos a sus comunidades de origen.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Gómez Moreno, Manuel Aranda Montero</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Suben a nueve las muertes maternas en Hidalgo en 2026</Titular>
+		<Contenido>El estado de Hidalgo acumula nueve defunciones maternas en lo que va del año, superando los seis casos registrados al cierre de 2025 de acuerdo con reportes de la SSa.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Muerte Materna</Tema_segun_la_fuente>
+		<Sintesis>Informes de la Secretaría de Salud federal indicaron que la cifra de fallecimientos maternos en Hidalgo aumentó a nueve casos durante el periodo de vigilancia epidemiológica de 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, IMSS-Bienestar</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>El Instituto de la Juventud pasa de 5 a 970 programas</Titular>
+		<Contenido>El titular del Instituto Hidalguense de la Juventud destacó la consolidación institucional del organismo, administrando 970 esquemas de apoyo que benefician directamente a miles de jóvenes.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención a jóvenes</Tema_segun_la_fuente>
+		<Sintesis>El director del IHJ afirmó que el organismo dejó atrás asignaciones por compromisos políticos y fortaleció su cobertura al pasar de 5 a 970 programas orientados a la juventud.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Olvera Molina</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Inician obras para poner en marcha el pozo El Pedregal</Titular>
+		<Contenido>Con la instalación de 370 metros de tubería, iniciaron las obras de equipamiento del pozo El Pedregal que beneficiará a más de 9 mil habitantes en tres colonias de Cuautepec.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Cuautepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Abasto de agua</Tema_segun_la_fuente>
+		<Sintesis>Autoridades municipales y la Capasch pusieron en marcha la instalación de tuberías para activar el pozo El Pedregal en Cuautepec de Hinojosa tras dos décadas inactivo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>María Antonieta Islas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Conagua, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Jorge Hernández Araus</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>IHE presenta libro para preservar el náhuatl</Titular>
+		<Contenido>El Instituto Hidalguense de Educación, a través del CELCI, presentó en Huejutla la publicación Tlahtolli tlen amo kiwika ahakatl para promover la enseñanza y preservación del náhuatl.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Preservación Lenguas Maternas</Tema_segun_la_fuente>
+		<Sintesis>El IHE presentó en el Tecnológico de Huejutla un libro recopilatorio de textos en lengua náhuatl para impulsar la educación intercultural y fortalecer la escritura indígena.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Multas a transporte irregular superan 4.3 mdp en Hidalgo</Titular>
+		<Contenido>Las 50 boletas de infracción aplicadas a conductores que ofrecen transporte mediante aplicaciones digitales o redes sociales en Hidalgo representan multas por hasta 4.3 mdp, al considerar la sanción máxima de 750 UMA por caso.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>La Semot aplicó 50 infracciones por hasta 4.3 mdp a vehículos que ofrecían servicio ilegal mediante plataformas digitales como InDrive, Cabify, Pronto, BlaBlaCar y Uber.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Pondrán candados a los programas sociales durante las elecciones</Titular>
+		<Contenido>El titular de la Secretaría de Bienestar e Inclusión Social, Ricardo Gómez Moreno, advirtió que el proceso electoral de 2027 obligará a suspender actividades durante las campañas para evitar el uso partidista de los apoyos.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Programas Del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>En comparecencia ante el Congreso, el titular de la Sebiso, Ricardo Gómez Moreno, anunció la suspensión y vigilancia de apoyos sociales durante las campañas electorales de 2027.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Tuzobús involucrado en casi 290 siniestros</Titular>
+		<Contenido>Durante el periodo del IV Informe de Gobierno, el Sistema Integrado de Transporte Masivo de Hidalgo registró 286 siniestros, de los cuales 111 fueron atribuidos a las unidades y en 69 se determinó que no tuvieron responsabilidad.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente Tuzobús</Tema_segun_la_fuente>
+		<Sintesis>El Sistema Integrado de Transporte Masivo de Hidalgo registró 286 siniestros viales en un año, mientras la Semot destacó la renovación de 140 unidades del sistema.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Hidalgo revisa proyectos claves con la Federación</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar participó en reuniones encabezadas por la presidenta Claudia Sheinbaum en Palacio Nacional para revisar la meta de construir 66 mil 500 viviendas en Hidalgo y la modernización del IMSS-Bienestar.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Plan Nacional De Vivienda</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca Salazar sostuvo reuniones en Palacio Nacional con la presidenta Claudia Sheinbaum para evaluar la meta de 66,500 viviendas en Hidalgo y el avance del IMSS-Bienestar.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Van a demoler primaria en Tulancingo; edificarán otra</Titular>
+		<Contenido>La escuela primaria Aquiles Serdán de Tulancingo deberá ser demolida y reconstruida totalmente por presentar daños estructurales, proceso que podría extenderse durante todo el ciclo escolar 2026-2027.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Infraestructura escolar</Tema_segun_la_fuente>
+		<Sintesis>El titular de la SEPH, Natividad Castrejón, anunció que la escuela primaria Aquiles Serdán en Tulancingo será demolida y reconstruida totalmente debido a daños en su estructura.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>En defensa de feminicida pide sentencia mínima</Titular>
+		<Contenido>El abogado defensor de Omar N., señalado por el feminicidio de tres mujeres en Tulancingo, solicitó la pena mínima argumentando su edad, mientras madres de las víctimas rindieron testimonio sobre los daños y deudas enfrentados.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Sentencia Feminicida</Tema_segun_la_fuente>
+		<Sintesis>Durante la audiencia de individualización de sanciones por un triple feminicidio en Tulancingo, la defensa del imputado solicitó la pena mínima mientras las madres de las víctimas relataron el impacto del crimen.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Nombran a Pilcuatla Pueblo con Cultura y Tradición, en Hidalgo</Titular>
+		<Contenido>Pilcuatla, localidad de Tlanchinol, recibió la denominación Pueblo con Cultura y Tradición durante su fiesta patronal en honor a San Lucas, con la presencia de la secretaria de Cultura, Neyda Naranjo Baltazar.</Contenido>
+		<Fecha_de_publicacion>2026-10-22</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tlanchinol</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Patrimonio cultural</Tema_segun_la_fuente>
+		<Sintesis>La localidad de Pilcuatla, en Tlanchinol, recibió el distintivo de Pueblo con Cultura y Tradición por parte de la Secretaría de Cultura estatal durante las festividades de San Lucas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+	</Nota>
+</NotasRadio>

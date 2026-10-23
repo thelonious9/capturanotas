@@ -1,0 +1,2976 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Advierten sanciones por operación de Uber</Titular>
+		<Contenido>Ante los mensajes de Uber que anunciaron su llegada a Pachuca y la posibilidad de consultar rutas y tarifas, el gobernador de Hidalgo, Julio Menchaca Salazar, advirtió que la plataforma opera fuera de la legalidad, debido a que la legislación estatal no contempla esta modalidad de transporte. La Semoth recordó que prestar el servicio público requiere una concesión.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca advirtió que la plataforma Uber opera fuera de la legalidad en Pachuca al no estar contemplada en la legislación estatal, por lo que prestadores del servicio podrían enfrentar sanciones administrativas e investigaciones legales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Semot, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Inauguran nuevo Centro de Datos</Titular>
+		<Contenido>Con una inversión superior a los 500 millones de pesos, el gobernador Julio Menchaca inauguró ayer el nuevo Centro de Datos e Inteligencia Artificial de Hidalgo, así como áreas administrativas de Innovación Gubernamental, siendo este espacio único en su tipo en México y América Latina.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inteligencia Artificial</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca inauguró el Centro de Datos e Inteligencia Artificial de Hidalgo con una inversión superior a 500 mdp, consolidando la gobernanza digital e interconectando a más de 50 dependencias.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Frente frío deja daños en siete municipios</Titular>
+		<Contenido>El frente frío número 2 dejó siete deslaves, 13 incidentes por caída de árboles, ramas y rocas en carreteras, y cuatro daños en accesos y puentes de Hidalgo, informó Román Bernal, titular de Protección Civil estatal.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deslaves por lluvias</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil estatal reportó 24 afectaciones en municipios de la Sierra por el frente frío número 2, incluyendo siete deslaves, cierres carreteros y cuatro personas lesionadas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Maximiliano Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Román Bernal</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Cierre de El Géiser impacta en economía local</Titular>
+		<Contenido>El cierre del balneario El Géiser de Tecozautla ha afectado las fuentes de empleo y la economía de pobladores de la región, informó el presidente de la Asociación de Balnearios del estado, José Luis Castro.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Tecozautla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afluencia Turística</Tema_segun_la_fuente>
+		<Sintesis>El parque acuático El Géiser en Tecozautla cumplió tres semanas cerrado tras la disminución en el flujo de vapor y agua termal derivado de sismos en el Pacífico, afectando empleos y el comercio regional.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Omar Santiago</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo</Dependencias_mencionadas>
+		<Actores_mencionados>José Luis Castro Gómez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Destina DIFH 28.5 mdp a la atención infantil</Titular>
+		<Contenido>El Sistema para el Desarrollo Integral de la Familia (DIF) Hidalgo destinó 28.5 millones de pesos para fortalecer la infraestructura de atención infantil, con la construcción y ampliación de Centros de Atención Infantil (CAI), informó su director, Ricardo Alvizo Contreras.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Infraestructura escolar</Tema_segun_la_fuente>
+		<Sintesis>El DIFH invirtió 28.5 mdp para la edificación y mejora de Centros de Atención Infantil en Pachuca, brindando alimentos y educación inicial a más de 1,800 menores diariamente.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Maximiliano Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Alvizo Contreras</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Habrá sanciones a Uber si opera sin regulación</Titular>
+		<Contenido>Luego de que Uber notificara a usuarios sobre su llegada a Pachuca, el gobernador Julio Menchaca advirtió que la empresa opera fuera de la legalidad y podría enfrentar consecuencias legales. La Semoth reiteró que prestar servicio público requiere concesión.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>El Gobierno de Hidalgo y la Semoth advirtieron multas de hasta 87 mil pesos e investigaciones ministeriales por la operación no autorizada de Uber en la zona metropolitana de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Semot, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Sugieren recortar gastos para ahorrar</Titular>
+		<Contenido>Tratar de evitar los gastos innecesarios, economizar en productos y servicios y reducir lo que no es indispensable, son algunas de las sugerencias que comparten ciudadanos ante los bajos salarios que se pagan en Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Bajos salarios</Tema_segun_la_fuente>
+		<Sintesis>Ciudadanos hidalguenses comparten hábitos de ahorro e inversión para sobrellevar el costo de vida con el salario promedio formal de 14 mil 500 pesos en la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Sonia Nochebuena</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Inauguran Centro de Datos de Hidalgo</Titular>
+		<Contenido>El gobernador Julio Menchaca inauguró el Centro de Datos e Inteligencia Artificial del estado de Hidalgo, las instalaciones de Innovación Gubernamental y el mantenimiento al aeropuerto Juan Guillermo Villasana en Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inteligencia Artificial</Tema_segun_la_fuente>
+		<Sintesis>Con una inversión de 500 mdp, Hidalgo puso en marcha el primer Centro de Datos con Inteligencia Artificial de América Latina para conectar 50 dependencias; además invirtió 60 mdp en rehabilitar el aeropuerto de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Édgar Orlando Ángeles Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Hidalgo, en cuarto lugar en industria del vestido</Titular>
+		<Contenido>La producción de corsetería, uniformes y mezclilla mantiene a Hidalgo en el cuarto lugar nacional en la industria del vestido, sustentada en cuatro corredores especializados y en cerca de 40 mil empleos formales, informó Canaive.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Generación De Empleo</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo se posiciona como la cuarta potencia nacional textil con 40 mil empleos formales y será sede del Congreso Nacional de Moda y Vestido 2026 en octubre.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Sonia Nochebuena</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Juan Pablo Maauad Pontón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Advierte Protección Civil por lluvias y frío</Titular>
+		<Contenido>La Subsecretaría de Protección Civil y Gestión de Riesgos de Hidalgo alertó sobre el riesgo de deslaves y crecidas de ríos durante el último trimestre del año. El subsecretario Román Bernal detalló afectaciones en Juárez Hidalgo, Tlanchinol y Zacualtipán.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deslaves por lluvias</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil de Hidalgo exhortó a activar refugios y precauciones ante el pronóstico de seis frentes fríos que provocarán precipitaciones y deslaves en zonas serranas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Maximiliano Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Sipdus</Dependencias_mencionadas>
+		<Actores_mencionados>Román Bernal</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Inició registro para pensiones Bienestar</Titular>
+		<Contenido>Inició el registro para recibir las pensiones del Bienestar en Hidalgo para personas de 65 años y más, así como mujeres de 60 a 64 años. La jornada permanecerá abierta hasta el 25 de octubre en los 84 municipios, informó Abraham Mendoza Zenteno.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Pensión Del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>Delegación del Bienestar en Hidalgo prevé incorporar a 7 mil nuevos beneficiarios a los programas de adultos mayores y Mujeres Bienestar durante la jornada de registro de octubre.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alma Leticia Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+		<Actores_mencionados>Abraham Mendoza Zenteno</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Destacan la atención por lluvias en comparecencia</Titular>
+		<Contenido>La reconstrucción de caminos y puentes dañados por la vaguada monzónica de 2025 concentró la comparecencia del secretario de Infraestructura Pública, Alejandro Sánchez García, ante el Congreso local, informando una inversión en obra pública superior a los 25 mil mdp.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>El titular de Sipdus, Alejandro Sánchez García, presentó ante el Congreso de Hidalgo los avances del 60% en la reconstrucción de infraestructura vial y puentes afectados por contingencias climáticas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Gustavo Vargas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Hidalgo enfrenta retos ambientales</Titular>
+		<Contenido>Hidalgo enfrenta retos ambientales desde el tratamiento de aguas y basureros a cielo abierto hasta la calidad del aire, informó durante su comparecencia la secretaria de Medio Ambiente, Mónica Mixtega Trejo, destacando la necesidad de coordinación interinstitucional.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>Durante su comparecencia ante el Congreso, la titular de Semarnath, Mónica Mixtega, expuso el estado operativo de plantas tratadoras de agua, la atención a la presa Endhó y las sanciones a tiraderos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Gustavo Vargas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Congreso, Pemex, CFE</Dependencias_mencionadas>
+		<Actores_mencionados>Mónica Mixtega Trejo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Cierre de El Géiser afecta la economía</Titular>
+		<Contenido>El parque acuático El Géiser en Tecozautla permanece cerrado al público desde finales de septiembre por la disminución en el flujo de vapor y agua de su géiser principal, afectando empleos directos e indirectos en la región.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Tecozautla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afluencia Turística</Tema_segun_la_fuente>
+		<Sintesis>La Asociación de Balnearios de Hidalgo informó que el cierre geológico de El Géiser ya es del conocimiento de las autoridades federales y estatales para evaluar alternativas de reactivación.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Omar Santiago</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo</Dependencias_mencionadas>
+		<Actores_mencionados>José Luis Castro Gómez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Judo gana lugares para Gimnasiada y Panamericano</Titular>
+		<Contenido>La delegación de judo de Hidalgo obtuvo 13 medallas en el Torneo Nacional Daniel F. Hernández en Querétaro, asegurando pases para la Gimnasiada Mundial en Brasil y el Campeonato Panamericano en Cancún.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>16</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Justa Deportiva</Tema_segun_la_fuente>
+		<Sintesis>Atletas hidalguenses de judo como Sofía Pelcastre, Silvia Cruz, Emilio Ramírez y Óscar Sosa lograron clasificarse a torneos internacionales tras su destacada actuación en la justa nacional.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Héctor Santoy</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Inhide</Dependencias_mencionadas>
+		<Actores_mencionados>Verónica González Pastén, Sofía Pelcastre Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Uriel Gómeztagle realiza preparación en España</Titular>
+		<Contenido>El taekwondoín hidalguense Uriel Gómeztagle realiza una concentración en España junto a selecciones nacionales como parte de su preparación para el selectivo rumbo a los Juegos Panamericanos.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>16</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Justa Deportiva</Tema_segun_la_fuente>
+		<Sintesis>El atleta de alto rendimiento Uriel Gómeztagle y su entrenador Julio Gómeztagle se alistan en Europa de cara al Grand Slam y al proceso clasificatorio de la Olimpiada Nacional.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Héctor Santoy</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Inhide</Dependencias_mencionadas>
+		<Actores_mencionados>Uriel Gómeztagle, Julio Gómeztagle</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Urquiza y Arizmendi, sorprendidos</Titular>
+		<Contenido>El piloto Fernando Urquiza y el navegante Sebastián Arizmendi elogiaron la sinuosidad y los paisajes de las carreteras de Hidalgo durante el desarrollo de la cuarta etapa de la Carrera Panamericana.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>16</Liga>
+		<Municipio>Zimapán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Justa Deportiva</Tema_segun_la_fuente>
+		<Sintesis>Competidores de la Carrera Panamericana destacaron la calidez del público hidalguense y la exigencia técnica del tramo carretero entre Huichapan, Tasquillo y la presa de Zimapán.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Luis Carlos León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo</Dependencias_mencionadas>
+		<Actores_mencionados>Fernando Urquiza, Sebastián Arizmendi</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Hidalgo vibra con los motores</Titular>
+		<Contenido>Por segundo año consecutivo, los autos clásicos de la Carrera Panamericana recorrieron municipios de Hidalgo durante su cuarta etapa, despertando el entusiasmo de aficionados en Tasquillo, Nopala y Zimapán.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>16</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Justa Deportiva</Tema_segun_la_fuente>
+		<Sintesis>La mítica Carrera Panamericana cruzó territorio hidalguense en su trayecto de Puebla hacia Querétaro, llevando pruebas de velocidad a la Sierra Gorda y congregando a cientos de espectadores.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Luis Carlos León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Estiman dos años de vida útil a relleno sanitario de El Huixmí</Titular>
+		<Contenido>La permanencia del vertedero dependerá del volumen de residuos que ingrese; actualmente recibe cerca de 600 toneladas diarias procedentes de Pachuca y municipios conurbados.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Relleno Sanitario</Tema_segun_la_fuente>
+		<Sintesis>La titular de Semarnath, Mónica Mixtega, advirtió durante su comparecencia que al relleno sanitario de El Huixmí le quedan dos años de vida útil ante la recepción de 600 toneladas diarias de basura.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath</Dependencias_mencionadas>
+		<Actores_mencionados>Mónica Patricia Mixtega Trejo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Habrá sanciones para empresa y conductores de aplicación: gobernador</Titular>
+		<Contenido>Usuarios reportaron que Uber inició ayer operaciones en Pachuca. El gobernador Julio Menchaca advirtió que la plataforma opera en la ilegalidad al no estar modificada la legislación estatal, mientras Semoth señaló que el transporte público requiere concesión.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca advirtió sanciones legales y administrativas contra Uber y sus conductores por operar de forma no autorizada en Pachuca sin contar con una concesión estatal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Mueren dos trabajadores en la mina de Loreto</Titular>
+		<Contenido>Dos trabajadores murieron la tarde de ayer tras quedar atrapados bajo una acumulación de material en la mina de Loreto, en Pachuca. El accidente movilizó a Bomberos del Estado, Protección Civil estatal y municipal y policías.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Muerte de empleado</Tema_segun_la_fuente>
+		<Sintesis>Un derrumbe de material en la mina de Loreto, en Pachuca, causó la muerte de dos mineros y provocó el despliegue de cuerpos de rescate de Protección Civil y Bomberos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, SSPH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>SIPDUS proyecta carriles adicionales para el Tuzobús</Titular>
+		<Contenido>Para mitigar los severos congestionamientos viales en los accesos del sur de Pachuca, la SIPDUS prevé una inversión de 200 millones de pesos proyectada para 2027, destinada a construir dos tramos de carriles adicionales para el Tuzobús sobre el bulevar Felipe Ángeles.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reingeniería del Tuzobús</Tema_segun_la_fuente>
+		<Sintesis>El secretario Alejandro Sánchez García informó que Sipdus invertirá 200 mdp en 2027 para habilitar carriles adicionales exclusivos para el Tuzobús en el bulevar Felipe Ángeles y agilizar el tránsito.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Semot, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García, Marlen Yareni Trejo Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Habrá sanciones para concesionarios y conductores de Uber, advierte gobernador</Titular>
+		<Contenido>Ante los mensajes de Uber que anunciaron su llegada a Pachuca, el gobernador Julio Menchaca advirtió que la plataforma opera fuera de la legalidad y que empresa y conductores podrían enfrentar consecuencias administrativas y legales.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca y la Semoth advirtieron que Uber no cuenta con concesión para operar en Pachuca y respaldaron inspecciones para sancionar el transporte irregular.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Reconstrucción por vaguada registra 58% de avance: Sánchez</Titular>
+		<Contenido>Durante su comparecencia ante el Congreso, el titular de Sipdus, Alejandro Sánchez García, detalló que la reconstrucción de infraestructura dañada por la vaguada monzónica lleva un avance del 58%, con una bolsa de 2,164 mdp para 213 obras.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>El secretario Alejandro Sánchez expuso ante el Congreso local los avances en 213 obras carreteras y puentes en 28 municipios afectados por desastres naturales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Estiman dos años de vida útil a relleno sanitario de El Huixmí</Titular>
+		<Contenido>El relleno sanitario de El Huixmí dispone de una vida útil estimada de dos años en sus dos celdas operativas, informó la titular de Semarnath, Mónica Patricia Mixtega Trejo, durante su comparecencia ante el Congreso local.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Relleno Sanitario</Tema_segun_la_fuente>
+		<Sintesis>Mónica Mixtega expuso ante diputados la saturación de El Huixmí y urgió a actualizar el ordenamiento ecológico municipal para autorizar nuevos polígonos de disposición de residuos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Congreso, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Mónica Patricia Mixtega Trejo, Tania Meza Escorza</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Esperan trasplante, 35 pacientes en la entidad</Titular>
+		<Contenido>En Hidalgo, 35 pacientes se encuentran en lista de espera para un trasplante (24 de riñón y 11 de córnea), informó Carlos Francisco Ávila Zúñiga, director del Centro Estatal de Trasplantes de Órganos y Tejidos.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Trasplante de órganos</Tema_segun_la_fuente>
+		<Sintesis>El Centro Estatal de Trasplantes destacó que Hidalgo mantiene una tasa de donación de 15.2 por millón de habitantes, triplicando la media nacional y consolidando traslados aéreos de órganos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Carlos Francisco Ávila Zúñiga</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Gobernador inaugura centro de datos y procesamiento de IA</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar inauguró el Centro de Datos e Inteligencia Artificial de Hidalgo, con una inversión superior a 505 mdp, así como trabajos de mantenimiento en el aeropuerto Juan Guillermo Villasana.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inteligencia Artificial</Tema_segun_la_fuente>
+		<Sintesis>Julio Menchaca puso en marcha un complejo de almacenamiento de datos e inteligencia artificial único en Latinoamérica para conectar dependencias de gobierno e impulsar la innovación digital.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Édgar Orlando Ángeles Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Asesinan a trabajador de la SEPH Tulancingo</Titular>
+		<Contenido>La SEPH confirmó el fallecimiento de un trabajador adscrito a Servicios Regionales de Tulancingo, Gustavo Hernández Ortega, quien fue atacado a balazos al exterior de las oficinas educativas en la colonia Plan de Ayala.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Homicidios</Tema_segun_la_fuente>
+		<Sintesis>Un empleado administrativo de la SEPH perdió la vida tras ser agredido con arma de fuego frente a las oficinas de Servicios Regionales en Tulancingo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, PGJEH, SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Gustavo Hernández Ortega, José Rubén Hernández Ortega, Jorge Márquez Alvarado</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Mueren dos trabajadores en accidente en la mina de Loreto</Titular>
+		<Contenido>Dos trabajadores murieron tras quedar atrapados bajo una acumulación de material proveniente de tolvas en la mina de Loreto, en Pachuca. Atendieron Bomberos, Protección Civil y policías. La STPSH ofreció acompañamiento laboral.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Muerte de empleado</Tema_segun_la_fuente>
+		<Sintesis>Dos obreros perdieron la vida en un accidente dentro de la mina San Juan de Loreto en Pachuca; la STPSH ofreció orientación legal y acompañamiento a los deudos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>América Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, STPSH, SSPH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Pilcuatla recibe nombramiento como Pueblo con Cultura y Tradición</Titular>
+		<Contenido>La localidad de Pilcuatla, Tlanchinol, recibió la denominación de Pueblo con Cultura y Tradición durante la fiesta patronal de San Lucas. La secretaria Neyda Naranjo Baltazar y el alcalde Gabino Hernández Vite encabezaron el evento.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Tlanchinol</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Patrimonio cultural</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Cultura distinguió a la comunidad de Pilcuatla en Tlanchinol como Pueblo con Cultura y Tradición para preservar las costumbres del Xantolo en la Sierra Alta.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Neyda Naranjo Baltazar, Gabino Hernández Vite, Silvano Lechuga Modesto, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>A un año de la vaguada reportan 58% de avance en reconstrucción</Titular>
+		<Contenido>Tras las lluvias provocadas por la vaguada monzónica de octubre de 2025, la reconstrucción de la infraestructura pública dañada en Hidalgo registra un avance físico de 58%, con 45 de las 213 obras previstas concluidas, mientras que alrededor de 4 mil kilómetros de carreteras estatales y caminos rurales siguen con daños, reconoció el titular de la Secretaría de Infraestructura Pública, Alejandro Sánchez García. Se han ejecutado mil 813 millones de pesos, equivalentes a 83.78 por ciento del presupuesto disponible para los trabajos.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>El titular de Sipdus, Alejandro Sánchez García, informó ante el Congreso local que la reconstrucción tras la vaguada monzónica lleva un 58% de avance físico en Hidalgo, con 45 obras concluidas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Contaminación en Endhó: Reconoce Semarnath que solución será a largo plazo</Titular>
+		<Contenido>Las problemáticas de contaminación de lirio acuático en la presa Endhó, así como la disposición final de basura en la región de Tula y la zona metropolitana de Pachuca carecen de una solución real y un plazo para su ejecución, reconoció durante su comparecencia ante el Congreso la secretaria de Medio Ambiente y Recursos Naturales, Mónica Mixtega Trejo.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Presa Endhó</Tema_segun_la_fuente>
+		<Sintesis>La titular de Semarnath, Mónica Mixtega, reconoció ante el Congreso local que la plaga de lirio acuático en la presa Endhó y la disposición de basura no tienen una solución inmediata.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Congreso, Conagua</Dependencias_mencionadas>
+		<Actores_mencionados>Mónica Patricia Mixtega Trejo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Uber no tiene permiso: Advierte gobernador de sanciones a plataformas</Titular>
+		<Contenido>El gobernador de Hidalgo, Julio Menchaca Salazar, advirtió que conductores y responsables de la plataforma Uber podrían enfrentar sanciones si comienzan a ofrecer servicios de transporte sin autorización, al señalar que la legislación estatal vigente no contempla esta modalidad y que operar sin permiso constituiría una falta o delito como la prestación irregular del servicio público o fraude.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca advirtió que la plataforma Uber opera fuera de la legalidad en Hidalgo y que la prestación del servicio sin concesión derivará en sanciones legales para la empresa y los conductores.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miriam Avilés</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Semot, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Cada hora hay una denuncia por violencia en la familia</Titular>
+		<Contenido>Por violencia familiar, cada hora se inicia una carpeta de investigación, mientras que por incumplimiento de obligaciones de asistencia familiar se abre una cada cinco horas y media, en promedio. Entre enero y septiembre de 2026, ambos delitos acumularon 7 mil 456 expedientes, de acuerdo con los registros de incidencia delictiva.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Violencia familiar</Tema_segun_la_fuente>
+		<Sintesis>Registros de incidencia delictiva revelan que en Hidalgo se inicia en promedio una carpeta de investigación por violencia familiar cada hora, acumulando más de 7 mil expedientes.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miguel Ángel Puértolas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Procuradurías del menor: Solo 37 de 84 municipios han instalado la oficina</Titular>
+		<Contenido>A seis meses de que entraron en vigor las reformas para la creación de las Procuradurías Municipales de Protección de Niñas, Niños y Adolescentes, 47 municipios no han atendido las disposiciones de la ley tras las reformas del pasado 14 de abril, informó el director del Sistema DIF Hidalgo, Ricardo Alvizo Contreras.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuraduría municipal del menor</Tema_segun_la_fuente>
+		<Sintesis>El DIFH informó que solo 37 de los 84 municipios de Hidalgo han instalado su Procuraduría Municipal de Protección de Niñas, Niños y Adolescentes.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Alvizo Contreras</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Tragedia: Mueren dos mineros tras quedar sepultados</Titular>
+		<Contenido>Dos trabajadores murieron al quedar atrapados bajo una acumulación de material en la mina de Loreto, en Pachuca, presuntamente tras la descarga de dos tolvas mientras realizaban sus labores. La Secretaría del Trabajo estatal precisó que, por el giro del centro laboral y las circunstancias del accidente, la atención corresponde a las autoridades federales.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Muerte de empleado</Tema_segun_la_fuente>
+		<Sintesis>Un desprendimiento de material en la mina de Loreto en Pachuca causó el fallecimiento de dos trabajadores; la STPSH ofreció orientación jurídica a los deudos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, STPSH, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Violencia familiar pone a Hidalgo en el sitio 12 nacional</Titular>
+		<Contenido>Casi cada hora se inicia una carpeta de investigación por violencia familiar en Hidalgo, mientras que por incumplimiento de obligaciones de asistencia familiar se abre una cada cinco horas y media, en promedio. Entre enero y septiembre de 2026, ambos delitos acumularon 7 mil 456 expedientes.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Violencia familiar</Tema_segun_la_fuente>
+		<Sintesis>La incidencia delictiva de enero a septiembre de 2026 ubica a Hidalgo en el lugar 12 nacional por violencia familiar con 6,250 investigaciones.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miguel Ángel Puértolas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Material atrapa a mineros en San Juan y mueren dos</Titular>
+		<Contenido>Dos trabajadores quedaron atrapados bajo una acumulación de material en la mina San Juan de Loreto en Pachuca, luego de que presuntamente cayera sobre ellos material descargado por dos tolvas. La STPSH estatal informó que brindará asesoría a los familiares.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Muerte de empleado</Tema_segun_la_fuente>
+		<Sintesis>Dos obreros perdieron la vida sepultados por tolvas de material en la mina San Juan en Loreto, Pachuca; la Secretaría del Trabajo estatal dispuso asesoría laboral.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, STPSH, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Solo 37 municipios han instalado Procuradurías del Menor: DIFH</Titular>
+		<Contenido>A seis meses de las reformas a la Ley de los Derechos de Niñas, Niños y Adolescentes, solo 37 de los 84 municipios de Hidalgo han conformado su Procuraduría Municipal de Protección, 22 están en proceso de implementación y 25 no las han puesto en marcha.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuraduría municipal del menor</Tema_segun_la_fuente>
+		<Sintesis>El director del DIF Hidalgo, Ricardo Alvizo, reveló que 47 municipios aún no operan su Procuraduría Municipal de Protección a Menores.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Alvizo Contreras</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>A un año de la vaguada, reconstrucción va al 58%</Titular>
+		<Contenido>El avance físico de las 213 obras públicas para reparar los daños provocados por la vaguada monzónica de 2025 es del 58%, informó el secretario de Sipdus, Alejandro Sánchez García, en comparecencia ante el Congreso local.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>En su comparecencia ante el Congreso, el titular de Sipdus, Alejandro Sánchez, reportó un avance del 58% en las obras de infraestructura tras la vaguada monzónica.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Tasa estatal de donación es de 15.2 en un millón</Titular>
+		<Contenido>Hidalgo destaca como referente nacional en donación de órganos con una tasa de 15.2 donantes por millón de habitantes, el triple del promedio del país, informó Francisco Ávila Zúñiga, director del Centro Estatal de Trasplantes de la SSH.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Trasplante de órganos</Tema_segun_la_fuente>
+		<Sintesis>El Centro Estatal de Trasplantes de la SSH reportó que Hidalgo registra una tasa de donación de órganos tres veces superior a la media nacional.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Carlos Francisco Ávila Zúñiga</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Falta solución contra plaga en Endhó</Titular>
+		<Contenido>La secretaria de Medio Ambiente, Mónica Mixtega Trejo, reconoció durante su comparecencia legislativa que la plaga de lirio acuático que cubre el 67% de la presa Endhó carece de una solución definitiva inmediata.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Presa Endhó</Tema_segun_la_fuente>
+		<Sintesis>Durante su comparecencia, la titular de Semarnath expuso las limitaciones para erradicar el lirio acuático en la presa Endhó.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Congreso, Conagua</Dependencias_mencionadas>
+		<Actores_mencionados>Mónica Patricia Mixtega Trejo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Sin permiso, Uber podría recibir sanción</Titular>
+		<Contenido>El gobernador Julio Menchaca advirtió que Uber carece de autorización legal para operar en Hidalgo y que tanto la empresa como los conductores que presten el servicio sin concesión incurrirían en irregularidades sancionables.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca reiteró que Uber opera fuera de la ley en Hidalgo y que la Semoth aplicará sanciones a la prestación del servicio sin concesión.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miriam Avilés</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Semot, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Solicitan apoyo para crear centro de enseñanza del náhuatl en Pilcuatla</Titular>
+		<Contenido>Pobladores de la comunidad de Pilcuatla, en Tlanchinol, solicitaron apoyo institucional a las autoridades para establecer un centro de enseñanza de la lengua náhuatl, ante la disminución de su uso entre las niñas, niños y jóvenes.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tlanchinol</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Preservación Lenguas Maternas</Tema_segun_la_fuente>
+		<Sintesis>Habitantes de Pilcuatla, Tlanchinol, promovieron la creación de un espacio educativo dedicado a la enseñanza y preservación del náhuatl.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Muere empleado afuera de la SEPH</Titular>
+		<Contenido>Un trabajador adscrito a Servicios Regionales de Tulancingo falleció la mañana del lunes al exterior de las oficinas de esa subdirección. La SEPH confirmó el deceso, expresó sus condolencias y señaló que colaborará con las investigaciones.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Homicidios</Tema_segun_la_fuente>
+		<Sintesis>Un servidor público de la SEPH perdió la vida al exterior de la Subdirección de Servicios Regionales en Tulancingo; la SEPH ofreció acompañamiento.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Reportan daños en 13 municipios</Titular>
+		<Contenido>El paso del Frente Frío número 2 provocó 24 afectaciones en 13 municipios de Hidalgo durante el fin de semana, incluyendo siete derrumbes mayores y 13 obstrucciones de caminos, informó Protección Civil estatal.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deslaves por lluvias</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil estatal reportó derrumbes y cierres carreteros en 13 municipios hidalguenses como consecuencia de las precipitaciones por el frente frío número 2.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Román Bernal Díaz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Nuevo centro digital reforzará seguridad de datos</Titular>
+		<Contenido>Con una inversión estatal propia de 505.2 millones de pesos, el gobierno de Hidalgo entregó el nuevo centro de datos y procesamiento de inteligencia artificial destinado a resguardar la información gubernamental e interconectar a las instituciones.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inteligencia Artificial</Tema_segun_la_fuente>
+		<Sintesis>El Gobierno del Estado entregó la nueva infraestructura del Centro de Datos e Inteligencia Artificial para fortalecer la ciberseguridad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Abre gobernador mega centro de datos; invierten $505 millones</Titular>
+		<Contenido>El gobernador Julio Menchaca inauguró el Centro de Datos estatal, infraestructura tecnológica que requirió una inversión de 505 millones de pesos para su construcción y equipamiento, con el objetivo de concentrar sistemas, proteger información y mejorar servicios.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inteligencia Artificial</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca inauguró el nuevo Centro de Datos e Inteligencia Artificial de Hidalgo, con una inversión de 505 mdp para resguardar la información de los tres Poderes del Estado y los 84 municipios.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Oficialía Mayor</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Tragedia en la mina: Mueren aplastados</Titular>
+		<Contenido>El desprendimiento de una tolva en la mina Real del Monte, en San Juan Pachuca, terminó con la vida de dos mineros, de 25 y 45 años. La Procuraduría estatal informó que realizarán las indagatorias para esclarecer el caso.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Muerte de empleado</Tema_segun_la_fuente>
+		<Sintesis>Dos mineros de 25 y 45 años fallecieron tras el desprendimiento de una tolva en la mina Real del Monte en San Juan, Pachuca; la PGJEH inició las investigaciones correspondientes.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Uber comienza operaciones... y gobierno alista sanciones</Titular>
+		<Contenido>Ante el inicio en Pachuca de la plataforma de transporte por aplicación, el gobernador Julio Menchaca advirtió que la empresa está en ilegalidad. El gobernador afirmó que conductores y la empresa asumirán responsabilidades.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca advirtió que Uber opera de forma ilegal en Pachuca y que tanto la empresa como los conductores enfrentarán sanciones administrativas y legales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Semarnath: Ejecutan 13 proyectos ambientales</Titular>
+		<Contenido>La Secretaría de Medio Ambiente y Recursos Naturales de Hidalgo ejecuta 13 proyectos de inversión ambiental por un monto total de 74.3 millones de pesos.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>Durante su comparecencia ante el Congreso, la titular de Semarnath informó la ejecución de 13 proyectos ambientales por 74.3 mdp, incluyendo la compra de trituradoras y reforestación.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Mónica Patricia Mixtega Trejo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Fe y tradición: Ritual xantolero desempolva las máscaras</Titular>
+		<Contenido>Habitantes y cuadrillas de huapangueros y danzantes inician las festividades del Xantolo en la región con la elaboración de máscaras tradicionales y ceremonias de fe.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Xantolo</Tema_segun_la_fuente>
+		<Sintesis>Inician las actividades tradicionales y elaboración de máscaras para las festividades del Xantolo en la entidad hidalguense.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Francisco Bautista</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Reconstrucción por vaguada al 21%, reporta Infraestructura</Titular>
+		<Contenido>A un año de las afectaciones provocadas por la vaguada monzónica en 28 municipios, 45 de las 213 obras de reconstrucción ya concluyeron, con una inversión de 491 mdp.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Sipdus reportó un avance del 21% en obras concluidas de reconstrucción tras la vaguada monzónica de 2025 en 28 municipios de Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Invierten 505 mdp en un Centro de Datos</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar inauguró el nuevo Centro de Datos estatal, infraestructura tecnológica que requirió una inversión de 505 millones 235 mil pesos para concentrar sistemas, proteger información y mejorar servicios digitales de la administración pública. Además, se remodeló el aeropuerto Juan Guillermo Villasana.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inteligencia Artificial</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca inauguró el Centro de Datos estatal y de inteligencia artificial en Pachuca con una inversión de 505 mdp para interconectar dependencias públicas y resguardar datos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Oficialía Mayor</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Édgar Orlando Ángeles Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Rehabilitación del bulevar Las Torres, lista en diciembre</Titular>
+		<Contenido>La reconstrucción del bulevar Las Torres concluirá en diciembre con una inversión de 289.5 mdp y una vida útil de 30 años; sin embargo, no resolverá por completo el tráfico por los trabajos del tren AIFA-Pachuca y puentes proyectados, informó Alejandro Sánchez García, titular de Sipdus.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Infraestructura vial</Tema_segun_la_fuente>
+		<Sintesis>La Sipdus informó que la reconstrucción del bulevar Las Torres concluirá en diciembre con una inversión de 289.5 mdp, aunque persistirá tráfico por las obras del tren AIFA-Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Sedena</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Ampliarán los carriles del Tuzobús por $200 millones</Titular>
+		<Contenido>Para aminorar el tráfico en la zona sur de Pachuca, Sipdus ampliará los carriles del Tuzobús con una inversión de 200 mdp en dos puntos críticos (PGJEH y Las Torres). Asimismo, Oficialía Mayor licitará en noviembre la rehabilitación de las 36 estaciones del Tuzobús.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reingeniería del Tuzobús</Tema_segun_la_fuente>
+		<Sintesis>Sipdus proyecta invertir 200 mdp en 2027 para construir carriles adicionales del Tuzobús sobre el bulevar Felipe Ángeles; además, Oficialía Mayor licitará la remodelación de 36 estaciones.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Oficialía Mayor, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García, Édgar Orlando Ángeles Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Uber llegó a Pachuca; advierten ilegalidad</Titular>
+		<Contenido>Uber comenzó a permitir la solicitud de viajes en Pachuca y Tizayuca con descuentos de hasta 90%; sin embargo, el gobernador Julio Menchaca advirtió que la plataforma opera en la ilegalidad por no estar modificada la ley estatal y que empresa y conductores asumirán responsabilidades.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca advirtió sanciones administrativas e investigaciones legales por la operación de Uber en Pachuca al no estar contemplada en la legislación hidalguense.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Semot, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Operadores de la plataforma prevén tener "mucho jale"</Titular>
+		<Contenido>Conductores de Uber iniciaron viajes en Pachuca ofreciendo descuentos de hasta 90%. Por su parte, la Secretaría de Movilidad y Transporte estatal (Semot) emitió un comunicado advirtiendo que procederá conforme a derecho ante la prestación de transporte sin autorización.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>Usuarios en Pachuca reportaron la disponibilidad de viajes en la app de Uber, mientras la Semot advirtió procedimientos legales contra los conductores por prestar servicio sin concesión.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Semarnath ejecuta 13 proyectos ambientales por 74 millones de pesos</Titular>
+		<Contenido>La Secretaría de Medio Ambiente y Recursos Naturales de Hidalgo ejecuta 13 proyectos de inversión ambiental por 74.3 mdp (adquisición de trituradoras, lanchas, viveros, monitoreo y saneamiento de El Chico). Durante su comparecencia, Mónica Mixtega informó además la donación de 4.5 millones de plantas y 56 multas aplicadas.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>Mónica Patricia Mixtega expuso ante el Congreso de Hidalgo los avances de la Semarnath, destacando una inversión de 74.3 mdp en 13 proyectos ambientales y sanciones a tiraderos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Mónica Patricia Mixtega Trejo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Registro para Beca Rita Cetina, próxima semana</Titular>
+		<Contenido>Del 26 de octubre al 6 de noviembre se realizará el registro en línea para las Becas Rita Cetina de nivel primaria y secundaria en Hidalgo, informó el coordinador estatal de becas, Itzaé Valdez Soto, destacando que el ciclo anterior cerró con 399 mil beneficiarios.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Beca Rita Cetina</Tema_segun_la_fuente>
+		<Sintesis>La Coordinación de Becas para el Bienestar en Hidalgo anunció que la inscripción en línea para la Beca Rita Cetina iniciará la próxima semana para educación básica.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+		<Actores_mencionados>Itzaé Valdez Soto</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Personas en situación de calle reciben apoyos sociales</Titular>
+		<Contenido>En Hidalgo, alrededor de 10 personas en situación de calle y adultos mayores reclusos en Ceresos reciben la pensión para adultos mayores, informó la Delegación de Programas para el Bienestar, anunciando la jornada de incorporación del 19 al 25 de octubre.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Pensión Del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>La Delegación del Bienestar en Hidalgo realiza la jornada de incorporación a las pensiones de Adultos Mayores y Mujeres Bienestar, incluyendo visitas domiciliarias y atención a personas vulnerables.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Frente frío provocó derrumbes y daños en puentes de Hidalgo</Titular>
+		<Contenido>El frente frío número 2 dejó 24 afectaciones en Hidalgo (7 derrumbes mayores, 13 obstrucciones por árboles y rocas, y 4 daños en puentes), además de 4 personas lesionadas, informó el subsecretario de Protección Civil, Román Bernal Díaz.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deslaves por lluvias</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil estatal reportó 24 incidentes y cuatro heridos en municipios serranos de Hidalgo a causa de derrumbes y lluvias ocasionadas por el frente frío número 2.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Víctor Valera</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Román Bernal Díaz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Mueren dos mineros tras caída de tolva</Titular>
+		<Contenido>Dos mineros de 25 y 45 años fallecieron sepultados por una tolva de material en la mina Real del Monte en San Juan, Pachuca. La PGJEH inició indagatorias y la STPSH dio intervención a las autoridades laborales federales.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Muerte de empleado</Tema_segun_la_fuente>
+		<Sintesis>Un desprendimiento de tolva en la mina Real del Monte cobró la vida de dos mineros en Pachuca; la PGJEH aperturó carpetas de investigación y la STPSH remitió el caso a la federación.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, STPSH, Segobh</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Recorre subestación de CFE</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar recorrió las instalaciones de la subestación Hidalgo de la CFE, infraestructura del Programa de Desarrollo Eléctrico que suministra energía a la Zona Metropolitana de Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Energía para el Bienestar</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca supervisó la subestación Hidalgo de la CFE para constatar la capacidad de suministro eléctrico en la zona metropolitana de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, CFE</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Concluyen 21% de obras tras vaguada de 2025</Titular>
+		<Contenido>A un año de la vaguada monzónica, Sipdus ha concluido 45 de 213 obras de reconstrucción (21%) con 491 mdp invertidos; actualmente 82 obras están en ejecución (38%), 55 en contratación y 31 en validación, sumando un avance físico global del 58%, según informó Alejandro Sánchez García ante el Congreso.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>Durante su comparecencia ante el Congreso, el titular de Sipdus detalló que la reconstrucción por la vaguada monzónica cuenta con un 58% de avance físico global en 213 proyectos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Congreso, Hacienda</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Asesinaron a un trabajador de la SEPH en Tulancingo</Titular>
+		<Contenido>Un trabajador de Servicios Regionales de la SEPH (identificado como G. H. O.) fue asesinado a disparos al exterior de las oficinas educativas en Tulancingo. La SEPH confirmó el deceso y brinda acompañamiento mientras la PGJEH realiza las investigaciones.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Homicidios</Tema_segun_la_fuente>
+		<Sintesis>Un empleado de la SEPH falleció tras ser atacado a balazos en Tulancingo; la SEPH condenó los hechos y colabora con la PGJEH en las pesquisas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Javier Quezada</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Obras tras la vaguada monzónica registran 58% de avance: SIPDUS</Titular>
+		<Contenido>A un año de la vaguada monzónica, la Secretaría de Infraestructura Pública y Desarrollo Urbano Sostenible (SIPDUS) reporta un avance físico del 58 por ciento en las obras para atender los daños, informó su titular, Alejandro Sánchez García, durante su comparecencia ante el Congreso del estado. Detalló que 45 obras fueron concluidas (491 MDP), 82 en ejecución (868 MDP), 55 en contratación (454 MDP) y 31 en validación (348 MDP), sumando 2 mil 164 MDP para 213 obras.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>El titular de Sipdus, Alejandro Sánchez García, informó ante el Congreso local que la reconstrucción tras la vaguada monzónica registra un 58% de avance físico en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Congreso, Hacienda</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García, Esther Ramírez Vargas</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Inauguran centro de datos con IA y rehabilitación de aeropuerto</Titular>
+		<Contenido>El gobernador de Hidalgo, Julio Menchaca Salazar, inauguró el nuevo Centro de Datos y Procesamiento de Inteligencia Artificial del Gobierno del Estado, que contó con una inversión superior a los 505 millones de pesos, presentado como el primero de su tipo en el país y América Latina. También constató la rehabilitación y modernización del Aeropuerto Nacional Ingeniero Juan Guillermo Villasana, en Pachuca, con 60 millones de pesos.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inteligencia Artificial</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca inauguró el Centro de Datos e Inteligencia Artificial de Hidalgo con una inversión de 505 mdp y constató la remodelación del aeropuerto de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Hidalgo, referente nacional en donación de órganos</Titular>
+		<Contenido>El director del Centro Estatal de Trasplantes de Órganos, Tejidos y Células de Seres Humanos, Carlos Francisco Ávila Zúñiga, destacó el trabajo realizado por la ambulancia aérea y reportó que Hidalgo se ha posicionado como referente nacional con 15.2 donantes por millón de habitantes (tres veces el promedio nacional). Se han concretado 175 donaciones y la procuración de 493 órganos y tejidos. Actualmente hay 35 pacientes en lista de espera en la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Trasplante de órganos</Tema_segun_la_fuente>
+		<Sintesis>El Centro Estatal de Trasplantes reportó que Hidalgo destaca a nivel nacional con una tasa de 15.2 donantes de órganos por millón de habitantes, triplicando la media del país.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Carlos Francisco Ávila Zúñiga</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Recuperan tractocamión robado y detienen a un hombre en Emiliano Zapata</Titular>
+		<Contenido>Elementos de la Secretaría de Seguridad Pública del estado (SSPH) recuperaron un tractocamión robado mediante asalto y detuvieron a un hombre de 32 años originario de Tlaxcala (J. L. L. D. B.) que intentó huir en un automóvil Mercedes-Benz en el municipio de Emiliano Zapata. Al momento de su detención se le aseguraron 21 dosis de mariguana y 19 de cristal.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Emiliano Zapata</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Recuperación De Vehículos Robados</Tema_segun_la_fuente>
+		<Sintesis>Elementos de la SSPH recuperaron un tractocamión robado con violencia y detuvieron al presunto responsable en posesión de estupefacientes en Emiliano Zapata.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, GN, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>J. L. L. D. B.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Menchaca advierte sanciones contra Uber por operar sin autorización en Pachuca</Titular>
+		<Contenido>A raíz de que en la aplicación de Uber se comenzó a ofrecer servicio en Pachuca, el gobernador Julio Menchaca Salazar advirtió que podrían aplicarse sanciones a la empresa o a los conductores por operar de forma ilegal, al no estar modificada la ley estatal. Señaló que podrían contemplarse delitos como fraude o prestación irregular del servicio público.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca advirtió sanciones administrativas e investigaciones penales contra Uber por operar de forma no autorizada en Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Semot, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Proyectan nuevo carril del Tuzobús; invertirán hasta 200 MDP</Titular>
+		<Contenido>La Secretaría de Infraestructura Pública y Desarrollo Urbano Sostenible (SIPDUS) proyecta destinar 200 millones de pesos a la construcción de un nuevo carril del Tuzobús en el bulevar Felipe Ángeles de Pachuca, aprovechando el camellón central. Se intervendrán dos tramos: frente a la Procuraduría (80 MDP) y avenida Las Torres (120 MDP), según informó Alejandro Sánchez García tras su comparecencia.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reingeniería del Tuzobús</Tema_segun_la_fuente>
+		<Sintesis>La Sipdus proyecta invertir 200 mdp para construir un carril exclusivo adicional del Tuzobús sobre el bulevar Felipe Ángeles para agilizar el tráfico en Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Congreso, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Dos trabajadores mueren sepultados durante maniobras en la Mina San Juan</Titular>
+		<Contenido>Dos trabajadores de la Mina San Juan fallecieron sepultados bajo toneladas de material durante maniobras de trasvase entre dos tolvas en Pachuca. Las víctimas fueron identificadas como A. J. C. H. (25 años) y R. A. H. (45 años). Sedena acudió para aplicar el Plan DN-III-E, Protección Civil de Pachuca prestó auxilio, y la STPSH dio intervención a autoridades federales, mientras la PGJEH iniciará las indagatorias.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Muerte de empleado</Tema_segun_la_fuente>
+		<Sintesis>Dos obreros de 25 y 45 años perdieron la vida sepultados por una caída de material en la Mina San Juan en Pachuca; autoridades laborales e investigadoras intervienen.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, STPSH, Sedena, PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>A. J. C. H., R. A. H.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Asesinan a empleado de la SEPH cerca de oficinas regionales en Tulancingo</Titular>
+		<Contenido>Un trabajador adscrito a Servicios Regionales de Tulancingo de la SEPH, Gustavo "N", fue asesinado por un sujeto armado a bordo de una bicicleta que le disparó en el pecho la mañana del lunes afuera de las instalaciones en Tulancingo. La SSPH acordonó la zona, la PGJEH inició las investigaciones y la SEPH confirmó los hechos brindando acompañamiento a la familia.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Homicidios</Tema_segun_la_fuente>
+		<Sintesis>Un empleado administrativo de la SEPH fue privado de la vida tras recibir un disparo de arma de fuego al exterior de las oficinas de Servicios Regionales en Tulancingo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, SSPH, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Gustavo "N"</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Advierte Menchaca que la operación de Uber en Hidalgo es ilegal</Titular>
+		<Contenido>El gobernador Julio Menchaca advirtió que la operación de la plataforma Uber en Pachuca es ilegal por no contar con una concesión estatal y adelantó posibles sanciones legales y administrativas por parte del MP y Semoth.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca advirtió que la operación de Uber en Pachuca es ilegal por no contar con concesión y que la empresa y conductores enfrentarán consecuencias legales y administrativas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Saúl Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Semot, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Sin disponibilidad de conductores de aplicación en Pachuca de Soto</Titular>
+		<Contenido>Pese al anuncio del inicio de operaciones de Uber en Pachuca, pruebas realizadas en la aplicación mostraron que aunque se calculaban tarifas, no había unidades disponibles para concretar los viajes.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>Pese al anuncio de la llegada de Uber a Pachuca, pruebas realizadas en la aplicación mostraron que no había conductores disponibles para realizar los viajes solicitados.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>No se debe impedir entrada de la plataforma a la entidad: abogado</Titular>
+		<Contenido>El abogado Jorge Gálvez Bautista opinó que Uber ofrece un servicio privado de arrendamiento de vehículos y no un servicio público, por lo que el Estado no debería impedir su operación en la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>El jurista Jorge Gálvez opinó que Uber ofrece un servicio privado de arrendamiento de vehículos y que el Estado no debería impedir el libre mercado ni su entrada a la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Yuvenil Torres</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Jorge Gálvez Bautista, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Proyectan nuevo carril en 2 bulevares y puente para otro</Titular>
+		<Contenido>Debido a las complicaciones de movilidad en la zona sur de Pachuca, la Sipdus proyecta en 2027 la ampliación de un carril exclusivo sobre el camellón del bulevar Felipe Ángeles e intervenciones en el bulevar Las Torres con una inversión de 200 mdp.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reingeniería del Tuzobús</Tema_segun_la_fuente>
+		<Sintesis>Para agilizar el tráfico en el sur de Pachuca, Sipdus proyecta en 2027 ampliar un carril exclusivo en el camellón del bulevar Felipe Ángeles e invertir 200 mdp en obras viales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Congreso, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García, Marlene Trejo Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Sipdus pagó los daños que causó rejilla a 15 vehículos</Titular>
+		<Contenido>La Sipdus se hizo cargo de los daños por 20 mil pesos causados a 15 vehículos por una rejilla pluvial deteriorada en el viaducto Río de las Avenidas, informó el titular Alejandro Sánchez García.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Infraestructura vial</Tema_segun_la_fuente>
+		<Sintesis>El titular de Sipdus, Alejandro Sánchez, informó que la dependencia cubrió 20 mil pesos por reparaciones a 15 vehículos dañados por una rejilla pluvial deteriorada en el viaducto Río de las Avenidas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Luis Godínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García, David Chávez Ruiz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Semarnath aplica 56 multas y suspende siete actividades</Titular>
+		<Contenido>Durante su comparecencia ante el Congreso local, la titular de Semarnath, Mónica Mixtega Trejo, informó la aplicación de 56 multas ambientales por más de 1.4 mdp y siete suspensiones de actividades, además de balances en verificación vehicular y tratamiento de aguas.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>Durante su comparecencia ante el Congreso, la secretaria Mónica Mixtega informó la aplicación de 56 multas ambientales por 1.4 mdp, 7 suspensiones y avances en verificación vehicular y tratamiento de aguas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Luis Godínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Congreso, Pemex, CFE</Dependencias_mencionadas>
+		<Actores_mencionados>Mónica Patricia Mixtega Trejo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Mueren dos trabajadores tras quedar sepultados dentro la mina de San Juan</Titular>
+		<Contenido>Dos obreros de 25 y 45 años fallecieron atrapados bajo toneladas de material descargado de dos tolvas en la mina San Juan en Pachuca; la STPSH dio intervención a autoridades laborales federales.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Muerte de empleado</Tema_segun_la_fuente>
+		<Sintesis>Dos obreros de 25 y 45 años perdieron la vida al quedar sepultados por material descargado de dos tolvas en la mina San Juan en Pachuca; la STPSH ofreció apoyo a las familias.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Saúl Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>STPSH, PGJEH, Segobh</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Comenzó el juicio oral por el feminicidio de Araceli Cuevas</Titular>
+		<Contenido>Inició la etapa de juicio oral contra J. V. G., acusado del feminicidio de Araceli Cuevas, ocurrido en marzo de 2023. Familiares de la víctima se manifestaron frente a juzgados penales de Pachuca para exigir justicia.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Investigación por feminicidio</Tema_segun_la_fuente>
+		<Sintesis>Familiares de Araceli Cuevas acudieron a los juzgados penales de Pachuca en el inicio de la etapa de juicio oral contra su expareja J. V. G., exigiendo justicia tras tres años y siete meses de su fallecimiento.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, TSJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Araceli Cuevas, J. V. G.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Frente frío 2 provocó 24 afectaciones en el territorio estatal: PC Sierra</Titular>
+		<Contenido>El subsecretario de Protección Civil, Román Bernal Díaz, informó que el frente frío número 2 causó 24 incidencias en Hidalgo, principalmente 7 derrumbes mayores y 13 caminos bloqueados en zonas serranas.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>11</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deslaves por lluvias</Tema_segun_la_fuente>
+		<Sintesis>El paso del frente frío número 2 dejó 24 afectaciones en municipios serranos de Hidalgo, incluyendo 7 derrumbes mayores, 13 caminos obstruidos y 4 daños en puentes y accesos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lizania Zavala</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Román Bernal Díaz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Lluvias han dejado un saldo de cuatro personas lesionadas</Titular>
+		<Contenido>Protección Civil de Hidalgo reportó que las recientes precipitaciones dejaron cuatro personas lesionadas en la entidad, incluyendo dos menores de edad en Chapulhuacán y dos adultos en Huazalingo.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>11</Liga>
+		<Municipio>Chapulhuacán</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil de Hidalgo reportó un saldo oficial de cuatro personas lesionadas por derrumbes y contingencias provocadas por las lluvias en municipios como Chapulhuacán y Huazalingo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lizania Zavala</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Román Bernal Díaz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>El 75% de las consultas, por enfermedades respiratorias</Titular>
+		<Contenido>El director del DIFH, Ricardo Alvizo Contreras, detalló que el 75% de las consultas especializadas en el Hospital del Niño DIF se atienden por padecimientos respiratorios previo al periodo invernal.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>12</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vigilancia Epidemiológica</Tema_segun_la_fuente>
+		<Sintesis>El director del DIF Hidalgo, Ricardo Alvizo, informó que las afecciones respiratorias concentran el 75% de las consultas especializadas en el Hospital del Niño DIF previo a la temporada invernal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lizania Zavala</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH, SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Enrique Alvizo Contreras</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Ante continuidad de las lluvias, prevén habilitar los refugios temporales</Titular>
+		<Contenido>Protección Civil de Huejutla cuenta con 11 inmuebles preparados como refugios temporales urbanos y rurales para resguardar a habitantes en riesgo por inundaciones o deslaves.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>12</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil de Huejutla tiene identificados 11 espacios urbanos y rurales como refugios temporales preventivos para resguardar a la población ante el pronóstico de lluvias continuas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Héctor Gómez Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>El paso por el puente vado del río Garcés permanece inundado</Titular>
+		<Contenido>Pobladores de comunidades de Xochiatipan cruzan a pie el puente vado del río Garcés, que continúa cubierto por agua lodosa e interrumpe el tránsito vehicular por tercer día consecutivo.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>12</Liga>
+		<Municipio>Xochiatipan</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>Por tercer día consecutivo, el paso vehicular en el puente vado del río Garcés en Xochiatipan continúa cubierto por corriente de agua, obligando a los habitantes a cruzar a pie.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>“Está fuera de lugar”: Gober responde al PT</Titular>
+		<Contenido>El gobernador Julio Menchaca calificó como temerarias las acusaciones de persecución política formuladas por la dirigencia del PT, sosteniendo que las investigaciones de la PGJEH combaten la corrupción sin distingo partidista.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comunicación gubernamental</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca calificó como "temerarios y fuera de lugar" los señalamientos del PT sobre una supuesta persecución política, afirmando que las acciones de la PGJEH combaten la corrupción sin distingo partidista.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Saúl Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Segobh, PGJEH, PT</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Guillermo Olivares Reyna, Javier Vázquez Calixto, Edgar Hernández Dañu, Miguel Ángel López Hernández, Diana Marroquín Bayardo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Cobaeh fortalece acciones de salud mental entre estudiantes</Titular>
+		<Contenido>El Cobaeh realiza talleres de orientación y actividades psicopedagógicas del Programa de Desarrollo Socioemocional para acompañar a los estudiantes y reforzar la prevención en salud mental.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>16</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Salud Mental</Tema_segun_la_fuente>
+		<Sintesis>El Colegio de Bachilleres del Estado de Hidalgo realiza actividades académicas y talleres del Programa de Desarrollo Socioemocional para atender la salud mental de los estudiantes.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Rubén López Valdez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Julio Menchaca recorrió la subestación de la CFE</Titular>
+		<Contenido>En compañía de personal de la Comisión Federal de Electricidad (CFE), el gobernador Julio Menchaca Salazar recorrió las instalaciones de la subestación Hidalgo de CFE, un espacio que forma parte del Programa de Desarrollo del Sistema Eléctrico Nacional 2021-2035 y da suministro a la Zona Metropolitana de Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Suministro de energía</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca Salazar recorrió la subestación Hidalgo de la CFE, la cual forma parte del Programa de Desarrollo Eléctrico Nacional y abastece a la Zona Metropolitana de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, CFE</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Entregan nuevo Centro de Datos y remodelación del aeropuerto</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar entregó el nuevo Centro de Datos estatal, con una inversión superior a 505 mdp, y la remodelación del Aeropuerto Nacional Juan Guillermo Villasana en Pachuca con una erogación de 60 mdp.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inteligencia Artificial</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca inauguró el Centro de Datos e Inteligencia Artificial de Hidalgo con inversión de 505 mdp y constató la rehabilitación del aeropuerto de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Oficialía Mayor</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Édgar Orlando Ángeles Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>En donación de órganos, Hidalgo es referente nacional</Titular>
+		<Contenido>El director del Centro Estatal de Trasplante de Órganos y Tejidos de la SSH, Francisco Ávila Zúñiga, aseveró que Hidalgo es referente nacional con una tasa de donación de 15.2 por millón de habitantes, triplicando la media del país.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Trasplante de órganos</Tema_segun_la_fuente>
+		<Sintesis>El Centro Estatal de Trasplantes de la SSH destacó que Hidalgo tiene una tasa de donación de órganos tres veces superior al promedio nacional y resaltó la reactivación de traslados aéreos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ana Luisa Vega</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Ávila Zúñiga</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Supera Hidalgo los 25 mmdp en infraestructura pública</Titular>
+		<Contenido>Durante su comparecencia ante el Congreso local, el titular de la Sipdus, Alejandro Sánchez García, informó que durante el periodo de gobierno de Julio Menchaca se han invertido más de 25 mil millones de pesos en obra pública, carreteras e infraestructura hidráulica.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Comparecencias</Tema_segun_la_fuente>
+		<Sintesis>En su comparecencia ante el Congreso de Hidalgo, el titular de Sipdus, Alejandro Sánchez, detalló inversiones por más de 25 mil mdp en infraestructura vial, agua y espacios públicos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Aproximadamente dos años de vida útil de El Huixmi</Titular>
+		<Contenido>Durante su comparecencia en el Congreso local, la titular de Semarnath, Mónica Mixtega Trejo, calculó que al relleno sanitario de El Huixmi le quedan aproximadamente dos años de vida útil ante la recepción de desechos de 16 municipios.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Relleno Sanitario</Tema_segun_la_fuente>
+		<Sintesis>Durante su comparecencia, la secretaria Mónica Mixtega estimó en dos años la vida útil restante de las dos celdas del relleno sanitario de El Huixmi.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ana Luisa Vega</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Congreso, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Mónica Patricia Mixtega Trejo, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Asesinan a un trabajador de la SEPH en su propia oficina</Titular>
+		<Contenido>Un trabajador de Servicios Regionales de la SEPH en Tulancingo, G. H. O. (61 años), fue asesinado a disparos por un sujeto en bicicleta en la colonia Plan de Ayala; la SEPH colabora con la PGJEH en las investigaciones.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Homicidios</Tema_segun_la_fuente>
+		<Sintesis>Un empleado administrativo de la SEPH perdió la vida tras recibir varios disparos de arma de fuego al exterior de las oficinas de Servicios Regionales en Tulancingo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús Riveros</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, PGJEH, SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>G. H. O.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Arrancones ilegales dejan a una mujer gravemente herida</Titular>
+		<Contenido>Una joven resultó gravemente herida durante arrancones clandestinos entre dos vehículos en Ciudad Sahagún, Tepeapulco; el conductor fue detenido por la Policía Estatal y trasladado ante la autoridad.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tepeapulco</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente Vial</Tema_segun_la_fuente>
+		<Sintesis>Una joven integrante del comité organizador resultó gravemente herida tras ser arrollada durante arrancones de autos clandestinos en Ciudad Sahagún, Tepeapulco.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Abel Ricardo Flores</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>C. L.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Un total de 24 afectaciones por frente frío número 2</Titular>
+		<Contenido>El subsecretario de Protección Civil, Román Bernal Díaz, informó 24 afectaciones en Hidalgo, destacando 7 derrumbes en zonas serranas, 13 caídas de árboles y 4 afectaciones en accesos.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deslaves por lluvias</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil estatal reportó 24 incidencias por el frente frío número 2, principalmente derrumbes y cierres de caminos en municipios de la Sierra hidalguense.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ana Luisa Vega</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Román Bernal Díaz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Ejecutan a un sujeto y lo tiran a orillas de una zanja de riego</Titular>
+		<Contenido>Un hombre no identificado fue hallado muerto a balazos a la orilla de una zanja de riego sobre el camino entre Huitel y Achichilco, en Tezontepec de Aldama; la PGJEH inició las diligencias periciales.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tezontepec de Aldama</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Homicidios</Tema_segun_la_fuente>
+		<Sintesis>El cuerpo de un hombre con impactos de arma de fuego fue localizado junto a una zanja de riego en Tezontepec de Aldama; peritos de la PGJEH acudieron al levantamiento.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Mueren dos trabajadores tras quedar sepultados dentro la mina de San Juan</Titular>
+		<Contenido>Dos obreros perdieron la vida sepultados bajo material desprendido de dos tolvas en la mina San Juan en Pachuca; Bomberos y Protección Civil realizaron el rescate y la STPSH dio aviso a la autoridad laboral federal.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Muerte de empleado</Tema_segun_la_fuente>
+		<Sintesis>Un accidente por desprendimiento de material en la mina San Juan en Pachuca dejó dos mineros muertos; la STPSH ofreció apoyo legal a sus familiares.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, STPSH, PGJEH, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Policía Estatal recupera tracto robado y atora al asaltante</Titular>
+		<Contenido>Elementos de la SSPH recuperaron un tractocamión robado por asalto en Emiliano Zapata y detuvieron al presunto responsable J. L. L. D. B. (32 años) en posesión de dosis de mariguana y cristal.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Emiliano Zapata</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Recuperación De Vehículos Robados</Tema_segun_la_fuente>
+		<Sintesis>Agentes de la SSPH recuperaron un tractocamión robado con violencia y capturaron al presunto asaltante en posesión de estupefacientes en Emiliano Zapata.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, GN, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>J. L. L. D. B.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Surge confrontación entre Uber y gobierno estatal</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar advirtió que Uber opera de forma ilegal en Pachuca al no contar con concesión estatal y que la empresa y conductores enfrentarán las consecuencias jurídicas; Semoth anunció sanciones administrativas.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>12</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca y la Semoth advirtieron que la operación de Uber en Pachuca carece de autorización legal y que se aplicarán sanciones a quienes presten el servicio.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Semot, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Habrá sanciones a quien conduzca Uber en Hidalgo</Titular>
+		<Contenido>El gobernador Julio Menchaca advirtió que los conductores de aplicaciones que operen sin autorización asumirán consecuencias legales, pues la normativa estatal exige una concesión para prestar el servicio.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca advirtió que los conductores de aplicaciones digitales que operen sin autorización en Hidalgo enfrentarán procedimientos administrativos y sanciones legales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Ante tráfico ampliarán los carriles del Tuzobús</Titular>
+		<Contenido>Invertirán 200 mdp en tramos viales adicionales para agilizar la circulación al sur de Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reingeniería del Tuzobús</Tema_segun_la_fuente>
+		<Sintesis>El gobierno de Hidalgo destinará 200 mdp en 2027 para habilitar carriles adicionales del Tuzobús sobre el bulevar Felipe Ángeles y descongestionar el tráfico vehicular.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Inicia operaciones nuevo Centro de Datos estatal</Titular>
+		<Contenido>Con una inversión de 505 mdp, esta unidad resguardará información gubernamental e interconectará dependencias.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inteligencia Artificial</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca entregó el nuevo Centro de Datos e Inteligencia Artificial de Hidalgo para resguardar la información pública y brindar servicios digitales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Oficialía Mayor</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Fallecen dos mineros en Hacienda de Beneficio en Pachuca</Titular>
+		<Contenido>La espera afuera de la mina se convirtió en horas de incertidumbre para las familias de dos trabajadores que murieron sepultados por material en Loreto, Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Muerte de empleado</Tema_segun_la_fuente>
+		<Sintesis>Dos trabajadores mineros de 25 y 45 años fallecieron sepultados por una tolva de material en la mina de Loreto en Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PGJEH, Sedena</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Operar Uber sin permiso tendrá consecuencias</Titular>
+		<Contenido>Julio Menchaca advirtió a conductores de la aplicación que operen sin concesión en Hidalgo enfrentarán consecuencias legales; Semoth reiteró que el servicio requiere autorización.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca advirtió que prestar servicio de Uber sin concesión en Pachuca es ilegal y derivará en procedimientos administrativos y penales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Semot, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Anuncian tercer carril para reducir tráfico</Titular>
+		<Contenido>El gobierno invertirá 200 mdp en 2027 para ampliar infraestructura vial sobre el bulevar Felipe Ángeles y Las Torres habilitando un carril del Tuzobús sobre el camellón central.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reingeniería del Tuzobús</Tema_segun_la_fuente>
+		<Sintesis>La Sipdus proyecta invertir 200 mdp en 2027 para construir un carril exclusivo del Tuzobús sobre el camellón del bulevar Felipe Ángeles y agilizar el tránsito.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Congreso, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García, Marlén Yareni Trejo Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Ponen en operación Centro de Datos en aeropuerto Villasana</Titular>
+		<Contenido>Hidalgo moderniza su infraestructura con el nuevo Centro de Datos ($505 mdp) y la remodelación del Aeropuerto Nacional Juan Guillermo Villasana ($60 mdp), afirmó el gobernador Julio Menchaca Salazar.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inteligencia Artificial</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca entregó el Centro de Datos e Inteligencia Artificial de Hidalgo y constató los trabajos de rehabilitación en el aeropuerto de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Oficialía Mayor</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Édgar Orlando Ángeles Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Evalúan tres terrenos para basurero en Tula</Titular>
+		<Contenido>La Secretaría de Medio Ambiente y Recursos Naturales de Hidalgo (Semarnath) recibió tres propuestas de terrenos para instalar rellenos sanitarios en la región de Tula, ante el cierre de Siete Mezquites.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Relleno Sanitario</Tema_segun_la_fuente>
+		<Sintesis>Semarnath analiza tres opciones de predios para la construcción de un relleno sanitario en Tula, señalando que ninguno dispone de permisos vigentes.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Congreso, Pemex</Dependencias_mencionadas>
+		<Actores_mencionados>Mónica Patricia Mixtega Trejo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Van a demoler primaria en Tulancingo; edificarán otra</Titular>
+		<Contenido>La SEPH anunció que las obras tardarán aproximadamente un ciclo escolar, por lo que los estudiantes de la escuela Aquiles Serdán serán reubicados o tomarán clases en línea mientras se edifica un nuevo plantel.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>Por fallas en su estructura, la SEPH reconstruirá en su totalidad la primaria Aquiles Serdán en Tulancingo, evaluando sedes temporales para atender al alumnado.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Pachuca cobra la vida de 2 mineros</Titular>
+		<Contenido>Dos trabajadores, de 25 y 45 años, murieron sepultados por material que cayó de una tolva en la Hacienda de Beneficio de Loreto, en Pachuca, durante un accidente registrado este lunes.</Contenido>
+		<Fecha_de_publicacion>2026-10-20</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Muerte de empleado</Tema_segun_la_fuente>
+		<Sintesis>Dos obreros de 25 y 45 años fallecieron tras quedar sepultados por una carga de material de una tolva en la mina de Loreto en Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PGJEH, STPSH, Sedena</Dependencias_mencionadas>
+	</Nota>
+</NotasRadio>
