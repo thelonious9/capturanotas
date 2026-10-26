@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Evalúan el desarrollo de 29 planes de inversión en seguridad</Titular>
+		<Contenido>El gobierno de Hidalgo y el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP) revisaron los avances de 29 proyectos de inversión fiscal 2026 para fortalecer la seguridad pública, procuración de justicia (PGJEH) y el sistema penitenciario en la entidad, en coordinación con la Secretaría de Gobierno encabezada por Guillermo Olivares Reyna.</Contenido>
+		<Fecha_de_publicacion>2026-10-24</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Consejo Estatal de Seguridad</Tema_segun_la_fuente>
+		<Sintesis>Autoridades estatales y federales evaluaron 29 proyectos de inversión en seguridad y procuración de justicia para el ejercicio fiscal 2026 en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PGJEH, Presidencia, TSJEH, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Diana Belén Elizalde Franco, Marcela Figueroa Franco, Julio Menchaca Salazar, Guillermo Olivares Reyna</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Tren, viviendas y polo aumentarán tráfico vehicular México-Pachuca</Titular>
+		<Contenido>La ejecución de proyectos federales como el Polo de Desarrollo en Zapotlán, Viviendas del Bienestar y el Tren Interurbano Buenavista-AIFA-Pachuca tendrán un impacto de al menos 6 mil automóviles diarios adicionales en la carretera México-Pachuca, informó el secretario Alejandro Sánchez García.</Contenido>
+		<Fecha_de_publicacion>2026-10-24</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Zapotlán</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Movilidad urbana</Tema_segun_la_fuente>
+		<Sintesis>Sipdus estimó un incremento de 6 mil vehículos diarios en la carretera México-Pachuca e inició la edificación de un puente vehicular en Zapotlán.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>40</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Invertir en estadio no busca un mayor ingreso: oficial mayor</Titular>
+		<Contenido>La inversión estatal de 5.9 mdp en el estacionamiento del Estadio Hidalgo busca dar mantenimiento en iluminación, señalética y casetas, no incrementar tarifas, aclaró el oficial mayor Edgar Orlando Ángeles Pérez.</Contenido>
+		<Fecha_de_publicacion>2026-10-24</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Estacionamiento estadio</Tema_segun_la_fuente>
+		<Sintesis>Oficialía Mayor aclaró que los 5.9 mdp destinados al estacionamiento del Estadio Hidalgo atenderán servicios de iluminación y señalética.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor, Sipdus</Dependencias_mencionadas>
+		<Actores_mencionados>Edgar Orlando Ángeles Pérez, Helier Ricardo Aquino Flores</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>En 9 meses abren 685 carpetas y vinculan a 78 por corrupción</Titular>
+		<Contenido>Hidalgo ocupa el quinto lugar nacional con 685 investigaciones abiertas contra servidores públicos. El procurador Francisco Fernández Hasbun reportó 282 vinculaciones a proceso en cuatro años, incluyendo a 46 exalcaldes.</Contenido>
+		<Fecha_de_publicacion>2026-10-24</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Delitos servidores públicos</Tema_segun_la_fuente>
+		<Sintesis>La PGJEH suma 685 carpetas de investigación contra servidores públicos y la vinculación a proceso de 46 expresidentes municipales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>30</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miguel Ángel Puértolas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Fernández Hasbun</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Presentan nuevos polos a sector empresarial</Titular>
+		<Contenido>Sedeco presentó ante la Concanaco Servytur tres desarrollos industriales: Podecobi Reserva Zapotlán, Central Park 57 en Tepeji y Parque Industrial Tepeapulco, proyectando inversiones por 147 mil mdp.</Contenido>
+		<Fecha_de_publicacion>2026-10-24</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>Sedeco expuso tres nuevos polos de desarrollo industrial ante la Concanaco Servytur para consolidar inversiones privadas en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Octavio de la Torre Stéffano</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Zimapán se anota el primer lugar en justa gastronómica</Titular>
+		<Contenido>El DIF municipal de Zimapán ganó el primer lugar en la Muestra Gastronómica Estatal por el Día Mundial de la Alimentación efectuada en Pachuca con la participación de 19 municipios.</Contenido>
+		<Fecha_de_publicacion>2026-10-24</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Zimapán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Muestra gastronómica</Tema_segun_la_fuente>
+		<Sintesis>El DIF de Zimapán obtuvo el primer lugar en la Muestra Gastronómica Estatal por la calidad y tradición de sus preparaciones culinarias.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Amelia Contreras Franco, Verónica Reséndiz, Jaritzzy Martínez, Hermilo Trejo Rangel</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>ITESHU desarrolla un robot autónomo con inteligencia artificial</Titular>
+		<Contenido>El ITESHU diseñó un robot autónomo con inteligencia artificial capaz de detectar plagas, enfermedades y maleza en cultivos agrícolas.</Contenido>
+		<Fecha_de_publicacion>2026-10-24</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Huichapan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Investigación académica</Tema_segun_la_fuente>
+		<Sintesis>Investigadores del ITESHU crearon un prototipo de robot agrícola con inteligencia artificial para la identificación temprana de plagas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>4</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Gestionan protección a Cerro Colorado</Titular>
+		<Contenido>Defensores del manantial Cerro Colorado en Tezontepec de Aldama acordaron con la Comisión de Agua del Mezquital acciones conjuntas para prevenir riesgos por contaminación.</Contenido>
+		<Fecha_de_publicacion>2026-10-24</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tezontepec de Aldama</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Protección ambiental</Tema_segun_la_fuente>
+		<Sintesis>Comités comunitarios y autoridades de la Comisión de Agua del Mezquital acordaron proteger el manantial Cerro Colorado para beneficio de 300 mil habitantes.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>4</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Renuncia familiar de Secretaria de Cultura tras señalamientos de nepotismo</Titular>
+		<Contenido>Una familiar de la secretaria de Cultura de Hidalgo, Neyda Naranjo Baltazar, dejó su cargo como particular tras señalamientos de presunto nepotismo, confirmó el titular de la Oficialía Mayor, Edgar Orlando Ángeles Pérez. El caso derivó de cuestionamientos de la diputada Tania Meza Escorza y originó una indagatoria de la Contraloría estatal.</Contenido>
+		<Fecha_de_publicacion>2026-10-24</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Nepotismo</Tema_segun_la_fuente>
+		<Sintesis>Arely Mendoza Baltazar, familiar de la secretaria de Cultura Neyda Naranjo, renunció a su cargo tras señalamientos de nepotismo confirmados por el oficial mayor Edgar Orlando Ángeles y la investigación de la Contraloría.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor, Cultura, Contraloría, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Neyda Naranjo Baltazar, Edgar Orlando Ángeles Pérez, Arely Mendoza Baltazar, Tania Meza Escorza, Álvaro Bardales Ramírez, Gabriela Morales Ríos, Sergio Baños Rubio</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Logra PGJEH nueve sentencias por feminicidio de hasta 50 años</Titular>
+		<Contenido>Francisco Fernández Hasbun, titular de la PGJEH, informó sobre la obtención de nueve sentencias condenatorias por feminicidio con penas de hasta 50 años de prisión, además de una condena por desaparición agravada de 56 años y la primera sentencia por violencia vicaria dictada a un funcionario público.</Contenido>
+		<Fecha_de_publicacion>2026-10-24</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>La PGJEH logró nueve sentencias condenatorias por feminicidio, una condena de 56 años por desaparición agravada y la primera sentencia histórica por violencia vicaria contra un funcionario público.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Fernández Hasbun</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Crece interés de jóvenes por hacer testamento como un acto de responsabilidad familiar</Titular>
+		<Contenido>Pedro Luis Noble Monterrubio, presidente del Colegio de Notarios de Hidalgo, destacó que personas de 30 a 40 años recurren cada vez más al testamento como planeación patrimonial. La meta anual es superar los dos mil testamentos durante la campaña de descuentos en honorarios notariales.</Contenido>
+		<Fecha_de_publicacion>2026-10-24</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Testamento</Tema_segun_la_fuente>
+		<Sintesis>El Colegio de Notarios de Hidalgo promueve la cultura del testamento entre jóvenes de 30 a 40 años, ofreciendo descuentos en honorarios durante octubre con la meta de superar dos mil trámites.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Pedro Luis Noble Monterrubio</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Frío extremo en Estados Unidos, entre causas de muerte de hidalguenses repatriados</Titular>
+		<Contenido>Manuel Aranda Montero, director de Atención al Migrante de la Sebiso, informó sobre la repatriación de 65 cuerpos de migrantes hidalguenses fallecidos en EE. UU., señalando que las bajas temperaturas invernales incrementan las muertes por causas naturales.</Contenido>
+		<Fecha_de_publicacion>2026-10-24</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención A Migrantes</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Bienestar estatal ha apoyado la repatriación gratuita de 65 cuerpos de migrantes hidalguenses fallecidos en EE. UU., previendo un aumento de casos por el frío invernal.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+		<Actores_mencionados>Manuel Aranda Montero</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Se descarrila tren en la localidad de San José Atlán, Huichapan</Titular>
+		<Contenido>Ayer se reportó el descarrilamiento de un tren en la localidad de San José Atlán, municipio de Huichapan, informó la Subsecretaría de Protección Civil y Gestión de Riesgos de Hidalgo. De acuerdo con la información proporcionada por personal municipal, no se reportaban personas lesionadas ni riesgos adicionales derivados del incidente.</Contenido>
+		<Fecha_de_publicacion>2026-10-25</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Huichapan</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Descarrilamiento De Tren</Tema_segun_la_fuente>
+		<Sintesis>Se reportó el descarrilamiento de un tren en la localidad de San José Atlán, Huichapan, sin que se registraran personas lesionadas ni riesgos adicionales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Sebiso lleva programas sociales a la región Otomí Tepehua</Titular>
+		<Contenido>Como parte de las acciones para atender a la población de zonas prioritarias, la Secretaría de Bienestar e Inclusión Social (Sebiso) realizó entregas de apoyos de programas sociales e inició la distribución de kits del programa Xantolo 2026 en municipios de la región Otomí-Tepehua.</Contenido>
+		<Fecha_de_publicacion>2026-10-25</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Tenango de Doria</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Programas Del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>La Sebiso entregó apoyos de programas sociales y kits del programa Xantolo 2026 a familias en situación de pobreza en Tenango de Doria, San Bartolo Tutotepec y Huehuetla.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Gómez Moreno</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Más de 700 mil personas visitan la Feria de San Francisco 2026</Titular>
+		<Contenido>La Feria de San Francisco Pachuca 2026 terminó sin incidentes mayores tras recibir a más de 700 mil personas durante sus días de actividad, informó el gobernador Julio Menchaca Salazar durante la reunión semanal del Gabinete de Seguridad de Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-10-25</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria de San Francisco</Tema_segun_la_fuente>
+		<Sintesis>La Feria de San Francisco Pachuca 2026 concluyó de forma blanca tras recibir a más de 700 mil personas y contar con un despliegue operativo de 250 elementos de seguridad diarios.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Benjamín H. V.</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Gabinete de Seguridad, SSPH, Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>SSPH desmantela dos puntos de venta de droga; 8 detenidos</Titular>
+		<Contenido>Como resultado de labores de inteligencia operativa y coordinación interinstitucional, la Secretaría de Seguridad Pública de Hidalgo (SSPH) informó que desmanteló dos puntos de venta y distribución de droga en los municipios de Pachuca y Cardonal, deteniendo a ocho personas.</Contenido>
+		<Fecha_de_publicacion>2026-10-25</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cateo</Tema_segun_la_fuente>
+		<Sintesis>La SSPH, en operativo conjunto con PGJEH, Defensa y Guardia Nacional, desmanteló dos puntos de venta de droga y detuvo a ocho personas en Pachuca y Cardonal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Feria San Francisco 2026 dejó más de 6.6 mdp en ventas artesanales</Titular>
+		<Contenido>La participación de artesanos y productores en la Feria San Francisco Pachuca 2026 generó ventas por 6.6 millones de pesos, un incremento del 9.9% respecto a 2025, según informó la Sebiso.</Contenido>
+		<Fecha_de_publicacion>2026-10-25</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria de San Francisco</Tema_segun_la_fuente>
+		<Sintesis>La Sebiso reportó que las ventas en el pabellón artesanal de la Feria San Francisco 2026 superaron los 6.6 mdp con la participación de 139 artesanos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Caen dos puntos de venta de droga; detienen a ocho</Titular>
+		<Contenido>La SSPH desmanteló dos puntos de venta de droga en Pachuca y Cardonal, asegurando 836 dosis de sustancias ilícitas y deteniendo a ocho personas en operativos coordinados con la PGJEH, Defensa y Guardia Nacional.</Contenido>
+		<Fecha_de_publicacion>2026-10-25</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cateo</Tema_segun_la_fuente>
+		<Sintesis>Operativos conjuntos de la SSPH, PGJEH, Defensa y Guardia Nacional permitieron la detención de ocho personas y el aseguramiento de droga en Pachuca y Cardonal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>J. C. M. G.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Vendieron artesanos 6.6 mdp en la feria</Titular>
+		<Contenido>Expositores del Pabellón Artesanal y Gastronómico en la Feria Pachuca 2026 registraron una derrama económica de 6.6 millones de pesos, superando las cifras del año anterior.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Pabellón artesanal</Tema_segun_la_fuente>
+		<Sintesis>La Sebiso reportó un incremento del 9.9% en la venta de productos artesanales durante las festividades de la capital hidalguense.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alma Leticia Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+		<Actores_mencionados>Nora Aidhe Luciano Martínez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Si no pasan la verificación hay otra oportunidad</Titular>
+		<Contenido>Los automovilistas que rechacen la prueba de emisiones en los verificentros de la Semarnath cuentan con un segundo intento gratuito tras reparar fallas mecánicas.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Verificación vehicular</Tema_segun_la_fuente>
+		<Sintesis>La Semarnath recordó los procedimientos y sanciones vigentes para el cumplimiento del programa obligatorio de verificación ambiental.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Capacitan a elementos de emergencias</Titular>
+		<Contenido>Representantes de corporaciones de auxilio de 12 estados y 41 municipios se reunieron en Pachuca para participar en talleres de gestión de riesgos y protección civil.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Capacitación PC</Tema_segun_la_fuente>
+		<Sintesis>El Congreso Internacional de Operaciones de Emergencias ofreció actualización técnica a cuerpos de rescate en el Incap México.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Fernanda Huerta</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Crean figuras de espíritus de cultura Hñähñu</Titular>
+		<Contenido>El profesor bilingüe Juan Carlos Simón elaboró esculturas en madera de mezquite inspiradas en la cosmovisión hñähñu sobre los seres espirituales del Día de Muertos.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Ixmiquilpan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Evento Cultural</Tema_segun_la_fuente>
+		<Sintesis>Promotor de Maguey Blanco presentó obras artesanales que reflejan las tradiciones e historia oral de las comunidades del Mezquital.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Omar Santiago</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Juan Carlos Simón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Montan la exposición El color de mis raíces</Titular>
+		<Contenido>Los pintores Eva Hinojosa y Luis Estrella inauguraron una muestra plástica gratuita en Ixmiquilpan para promover la riqueza gastronómica y cultural de la región.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Ixmiquilpan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Exposición cultural</Tema_segun_la_fuente>
+		<Sintesis>Artistas del Valle del Mezquital exhiben más de 20 lienzos dedicados a las tradiciones locales en el Paseo de las Flores.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Omar Santiago</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Eva Hinojosa Basurto, Luis Estrella</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Revisan protocolo de denuncias a docentes</Titular>
+		<Contenido>La SEPH alista un protocolo para evaluar denuncias contra docentes por presunta violencia escolar o abusos, garantizando el principio de presunción de inocencia.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Denuncias contra docentes</Tema_segun_la_fuente>
+		<Sintesis>La SEPH alista un protocolo para atender denuncias contra docentes por violencia o abuso escolar, resguardando la presunción de inocencia.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Anuncian el cierre de un vado en Xochiatipan debido a reparaciones</Titular>
+		<Contenido>Protección Civil de Xochiatipan emitió un comunicado sobre la suspensión intermitente del tránsito en el vado de la cabecera municipal por trabajos de mantenimiento.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Xochiatipan</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Rehabilitación Vial</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil de Xochiatipan anunció el cierre intermitente del vado principal por obras de mantenimiento.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Francisco Bautista</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>SEPH evaluará programas de educación inclusiva</Titular>
+		<Contenido>La Secretaría de Educación Pública de Hidalgo llevará a cabo una evaluación integral del desempeño de los programas PAPPEMS y PFSEE orientados a estudiantes con discapacidad en escuelas públicas de la entidad durante el ejercicio 2025.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Oferta educativa</Tema_segun_la_fuente>
+		<Sintesis>La SEPH evaluará los programas de educación inclusiva para estudiantes con discapacidad para medir sus resultados e instrumentos de desempeño.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Oficialía Mayor</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>IHE premia el talento estudiantil en concurso De mi Voz al Canto</Titular>
+		<Contenido>El Instituto Hidalguense de Educación realizó la cuarta edición del Concurso de Canto Infantil y Juvenil De mi Voz al Canto, reconociendo el talento musical de estudiantes de nivel preescolar, primaria y secundaria de varios municipios.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Evento Cultural</Tema_segun_la_fuente>
+		<Sintesis>El IHE premió a estudiantes de educación básica de diversos municipios ganadores de la cuarta edición del concurso de canto infantil y juvenil.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Nancy Adriana León Vite, Virginia Hurtado Salinas, Julio Menchaca Salazar, Martín Pérez Sierra, Allison Thaily Lara Ávila, Evan Santino Vite Morales, Leonardo Israel Cisneros Montalvo, José de Jesús Vite Castro, Renata Badillo Arteaga, Odalys Jenice Monroy Ávila, Diego Zaid Ponce Vázquez, Dafne Araceli Castañeda Reyes, Omner Suriel Salazar Sánchez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Suman 30 casos de gusano barrenador en humanos</Titular>
+		<Contenido>La Secretaría de Salud de Hidalgo confirmó 30 casos de miasis por gusano barrenador en personas en diversos municipios del estado, en tanto que el Senasica reportó mil 483 casos acumulados en ganado y animales, con 71 focos activos.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Huautla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vigilancia Epidemiológica</Tema_segun_la_fuente>
+		<Sintesis>Salud confirma 30 casos de gusano barrenador en humanos en Hidalgo, mientras que Senasica registra 71 casos activos en ganado.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Deportan en siete meses a 3 mil 400 hidalguenses</Titular>
+		<Contenido>Un total de 3 mil 474 personas hidalguenses fueron retornadas de Estados Unidos entre enero y julio de este año; la cuarta parte de los casos corresponde a originarios de Ixmiquilpan, Pachuca y Tulancingo, según datos del INM.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Ixmiquilpan</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Repatriación</Tema_segun_la_fuente>
+		<Sintesis>Datos del INM revelan que 3 mil 474 hidalguenses han sido repatriados de EE. UU. de enero a julio, concentrándose principalmente en tres municipios.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Conservan arbolado</Titular>
+		<Contenido>Personal técnico de Semarnath realizó visita fitosanitaria en Tenango de Doria para evaluar condiciones de palmeras con deterioro visible.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Tenango de Doria</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Protección ambiental</Tema_segun_la_fuente>
+		<Sintesis>Semarnath evalúa salud fitosanitaria de palmeras en Tenango de Doria para prevenir plagas y afectaciones.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Artesanos registraron ventas por 6.6 mdp</Titular>
+		<Contenido>Artesanos y expositores en la Feria de San Francisco Pachuca 2026 alcanzaron ventas por 6.6 millones de pesos, un aumento de 9.9% respecto a 2025.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Pabellón artesanal</Tema_segun_la_fuente>
+		<Sintesis>Sebiso reporta derrama de 6.6 millones de pesos generada por artesanos e Hidalgo durante la Feria San Francisco 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Hidalgo busca ampliar la difusión de sus expresiones artísticas en Europa</Titular>
+		<Contenido>Gobierno de Hidalgo busca alianzas en Alemania para promover y difundir artesanías y patrimonio cultural en países europeos.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Impulso a la cultura</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo establece proyectos de colaboración con Alemania para proyectar la cultura y artesanías hidalguenses en Europa.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>4</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Declaran el Día Estatal de la Salud Mental</Titular>
+		<Contenido>Gobernador Julio Menchaca Salazar emite decreto en el POEH para institucionalizar el 10 de octubre como Día Estatal de la Salud Mental.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Salud Mental</Tema_segun_la_fuente>
+		<Sintesis>Gobernador Julio Menchaca promulga decreto que establece formalmente el 10 de octubre como Día Estatal de la Salud Mental.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>4</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Rescatan tradición de rayuela en Atotonilco</Titular>
+		<Contenido>Museo Comunitario Atotonilli inaugura exposición fotográfica sobre el tradicional juego de la rayuela en Atotonilco de Tula.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Atotonilco de Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Exposición cultural</Tema_segun_la_fuente>
+		<Sintesis>Inauguran en Atotonilco de Tula exposición fotográfica para rescatar y valorar el juego tradicional de la rayuela.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>4</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Marisol Santiago López</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Invierte Semot 42 mdp en transporte</Titular>
+		<Contenido>Secretaría de Movilidad y Transporte destina 42 millones de pesos a planeación y modernización del transporte público en Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Modernización transporte público</Tema_segun_la_fuente>
+		<Sintesis>Semot invierte 42 millones de pesos en estudios de modernización y actualización tecnológica del transporte en la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>4</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Hay 112 empresas de seguridad privada en Hidalgo</Titular>
+		<Contenido>SSPH reporta el registro de 112 empresas reguladas de seguridad privada operando en el estado de Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Estrategia de seguridad</Tema_segun_la_fuente>
+		<Sintesis>Secretaría de Seguridad Pública estatal reporta padrón de 112 empresas autorizadas de seguridad privada en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>4</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Reportan 30 casos de barrenador en humanos</Titular>
+		<Contenido>Secretaría de Salud de Hidalgo confirma que la cifra de personas contagiadas por miasis de gusano barrenador ascendió a 30 casos en 23 municipios.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vigilancia Epidemiológica</Tema_segun_la_fuente>
+		<Sintesis>Aumenta a 30 el número de casos confirmados de gusano barrenador en humanos en Hidalgo según la Secretaría de Salud estatal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Cruza Sebiso padrones de beneficiarios; detecta 2 mil 359 casos duplicados</Titular>
+		<Contenido>Con el fin de evitar la duplicidad en la entrega de recursos públicos, un total de 2 mil 359 personas no recibieron un apoyo adicional de programas sociales, debido a que ya contaban con beneficios de otras dependencias estatales, informó el titular de la Secretaría de Bienestar e Inclusión Social (Sebiso), Ricardo Gómez Moreno.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Programas Del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Bienestar e Inclusión Social detectó y evitó 2,359 casos de duplicidad en apoyos sociales tras realizar un cruce de padrones con otras secretarías del gobierno estatal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar, Sedeco, STPSH, Saderh</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Gómez Moreno</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Reduce 32% el rezago de carpetas de investigación: Fernández Hasbun</Titular>
+		<Contenido>El titular del despacho de la Procuraduría General de Justicia del estado (PGJEH), Francisco Fernández Hasbun, dio a conocer que, desde que asumió la administración de la institución, en enero de 2024, se redujo el rezago de carpetas de investigación en un 32 por ciento.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>PROCURACIÓN DE JUSTICIA</Tema_segun_la_fuente>
+		<Sintesis>El encargado del despacho de la PGJEH, Francisco Fernández Hasbun, informó que desde enero de 2024 la institución logró reducir un 32% el rezago de carpetas de investigación, pasando de más de 177 mil a poco más de 120 mil carpetas en trámite.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Presidencia, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Fernández Hasbun, Marco Mendoza Bustamante</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Designan a Enrique Padilla delegado estatal de Bomberos México durante congreso internacional</Titular>
+		<Contenido>Durante el Segundo Congreso Internacional Operaciones 360, se fortaleció el intercambio de conocimientos entre instituciones dedicadas a salvaguardar la vida e integridad de las personas. En dicho congreso se anunció que Enrique Padilla Hernández fue designado delegado en Hidalgo de la Junta Nacional de Bomberos México.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Capacitación PC</Tema_segun_la_fuente>
+		<Sintesis>En el marco del Segundo Congreso Internacional Operaciones 360 celebrado con la participación de más de 400 especialistas de 12 estados y 41 municipios, Enrique Padilla Hernández fue designado delegado estatal en Hidalgo de la Junta Nacional de Bomberos México.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Ayuntamiento, SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Enrique Padilla Hernández, Eduardo Trejo Lino, Jorge Reyes Hernández, Juan Manuel López Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Lleva Natividad Castrejón orientación socioemocional a padres de familia</Titular>
+		<Contenido>Natividad Castrejón Valdez, titular de la Secretaría de Educación Pública estatal (SEPH), impartió una conferencia magistral en planteles de Educación Básica de Mixquiahuala y municipios circunvecinos, la cual fue denominada “El papel de los padres en la formación de los hijos”.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Mixquiahuala</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Oferta educativa</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Educación Pública de Hidalgo, Natividad Castrejón Valdez, ofreció la conferencia "El papel de los padres en la formación de los hijos" a familias en Mixquiahuala, destacando el trabajo de la Dirección General de Acompañamiento Socioemocional y Educativo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Gobernador, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez, Julio Menchaca Salazar, Miguel Ángel Peña Flores</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Incrementan la cobertura en saneamiento de aguas residuales</Titular>
+		<Contenido>Hidalgo alcanzó una cobertura estatal del 32 por ciento en saneamiento de aguas residuales, luego de que en los últimos cuatro años se construyeron y rehabilitaron 37 Plantas de Tratamiento de Aguas Residuales (PTAR) en 20 municipios, informó Alejandro Sánchez García, titular de la SIPDUS.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aguas residuales</Tema_segun_la_fuente>
+		<Sintesis>Alejandro Sánchez García, titular de Sipdus, reportó un incremento del 19% en la cobertura de saneamiento de aguas residuales en Hidalgo tras construir y rehabilitar 37 PTAR en 20 municipios.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez Cabrera</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Inhabilitan 2 puntos de narcomenudeo y detienen a 8 en Hidalgo</Titular>
+		<Contenido>Mediante labores de inteligencia operativa y coordinación entre la SSPH, PGJEH, Defensa y Guardia Nacional, se desmantelaron dos puntos de venta de droga en Pachuca y El Cardonal, deteniendo a ocho personas y asegurando 836 dosis de marihuana y cristal.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cateo</Tema_segun_la_fuente>
+		<Sintesis>Operativo conjunto de la SSPH, PGJEH, Defensa y Guardia Nacional desmanteló dos centros de distribución de droga en Pachuca y Cardonal, arrestando a ocho personas y decomisando 836 dosis de estupefacientes.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>J. C. M. G.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Tragedia en Mixquiahuala cobra tres vidas</Titular>
+		<Contenido>Un choque y atropellamiento provocado por un automóvil Camaro conducido a exceso de velocidad y presuntamente bajo efectos del alcohol por Kevin de la Fuente dejó un saldo de tres personas muertas (dos mujeres y un hombre) al impactar una motocicleta en Mixquiahuala.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Mixquiahuala</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente Vial</Tema_segun_la_fuente>
+		<Sintesis>Tres personas perdieron la vida en Mixquiahuala tras ser embestidas por un automóvil deportivo conducido a exceso de velocidad por un sujeto bajo los efectos del alcohol.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Kevin de la Fuente</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Hallan 2 cadáveres putrefactos, hombre atado de pies y manos</Titular>
+		<Contenido>Vecinos hallaron dos cuerpos en avanzado estado de descomposición a un costado de la carretera Tula-Actopan, en el municipio de Francisco I. Madero. El masculino estaba atado de pies y manos, mientras que la mujer fue identificada por familiares.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Francisco I. Madero</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Homicidios</Tema_segun_la_fuente>
+		<Sintesis>Autoridades acordonaron un predio en Francisco I. Madero tras el hallazgo de dos cadáveres en descomposición a un costado de la carretera Tula-Actopan, dando inicio a las investigaciones de la PGJEH.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>El doble feminicidio de Chiapas fue por venganza</Titular>
+		<Contenido>El fiscal general de Chiapas, Jorge Luis Llaven, confirmó que el doble feminicidio de una menor y su abuela en Ostuacán obedeció a una venganza personal. Pobladores lincharon a uno de los sospechosos tras extraerlo de las celdas municipales.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Chiapas</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>La Fiscalía de Chiapas informó que el homicidio de una menor y su abuela en Ostuacán fue por venganza; en tanto, pobladores enardecidos lincharon a uno de los probables responsables tras sacarlo de la cárcel local.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Agencia EFE</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Jorge Luis Llaven</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Hidalgo campeón nacional del Mundial Mujeres Libres 2026</Titular>
+		<Contenido>La selección de Atitalaquia, representando a Hidalgo, se coronó campeona del torneo Mundial de Mujeres Libres 2026 al golear 7-3 a Veracruz en la gran final disputada en las instalaciones de la FMF en Toluca.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Atitalaquia</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Justa Deportiva</Tema_segun_la_fuente>
+		<Sintesis>El equipo representativo de Atitalaquia le dio el título nacional a Hidalgo tras vencer 7-3 a Veracruz en la final del torneo Mundial de Mujeres Libres 2026 en Toluca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Inhide, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Conflictos y fallas técnicas frenan rellenos en Hidalgo</Titular>
+		<Contenido>De las 22 solicitudes para la ampliación de celdas, rellenos sanitarios y sitios de disposición final de residuos que ha recibido la Semarnath entre 2023 y 2026, únicamente tres han sido aprobadas (13.6%), debido a fallas técnicas, predios inviables y oposición social.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Relleno Sanitario</Tema_segun_la_fuente>
+		<Sintesis>Semarnath aprobó solo tres de 22 solicitudes para ampliar o construir rellenos sanitarios en Hidalgo entre 2023 y 2026, debido a inconsistencias técnicas y oposición social.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Continúa la investigación por asesinato de Bahena</Titular>
+		<Contenido>A un año del homicidio del presidente municipal de Pisaflores, Miguel Bahena Solórzano, la PGJEH confirmó que los presuntos autores material e intelectual están detenidos y la causa penal continúa en etapa intermedia.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pisaflores</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Homicidios</Tema_segun_la_fuente>
+		<Sintesis>La PGJEH confirmó que se encuentran detenidos los autores material e intelectual del asesinato del exalcalde de Pisaflores, Miguel Bahena, al cumplirse un año del crimen.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Luis Godínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Miguel Bahena Solórzano</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Temperaturas bajo cero, en los últimos cinco años Tulancingo</Titular>
+		<Contenido>Registros de la estación meteorológica de Bomberos y Protección Civil de Tulancingo revelan que la temperatura más baja registrada fue de -1.6°C en enero de 2025. Autoridades locales y de salud reforzaron llamados a la vacunación y prevención de intoxicación por monóxido.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Bajas temperaturas</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil de Tulancingo presentó el histórico de temperaturas gélidas de los últimos cinco años y recomendó aplicarse las vacunas contra la influenza y Covid-19.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>María Antonieta Islas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, SSH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Aprueba ayuntamiento predio para perforar un pozo en Singuilucan</Titular>
+		<Contenido>El Cabildo de Singuilucan aprobó por mayoría donar un predio de 600 metros cuadrados en la colonia Las Fuentes a la Caasim para la perforación de un nuevo pozo de agua potable.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Singuilucan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Perforación de pozo</Tema_segun_la_fuente>
+		<Sintesis>El ayuntamiento de Singuilucan autorizó la donación de un terreno a la Caasim para la construcción de un pozo de agua potable en la colonia Las Fuentes.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>María Antonieta Islas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Yazmín Dávila López, Francisco Rómulo Martínez Ramírez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Aumentan en Molango las denuncias por fraude</Titular>
+		<Contenido>De enero a septiembre de 2026, las investigaciones por fraude, amenazas y violencia familiar registraron un incremento en Molango de Escamilla respecto al mismo periodo del año anterior, según datos del SESNSP.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Molango</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>Las denuncias por fraude, amenazas y violencia familiar en Molango de Escamilla mostraron un aumento durante los primeros nueve meses de 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Martha Sáenz</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Abren carpeta por feminicidio; el tercero del presente año</Titular>
+		<Contenido>La PGJEH inició una carpeta de investigación por feminicidio perpetrado con arma de fuego en Pachuca durante septiembre; se trata del tercer caso de este delito registrado en la entidad en 2026.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>La PGJEH investiga un feminicidio cometido con arma de fuego en Pachuca en septiembre, sumando tres carpetas por este delito en el estado en 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Adela Cruz, Dulce María</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Licitan obra para galeras del Cereso de Pachuca</Titular>
+		<Contenido>La Sipdus emitió dos licitaciones públicas (N173-2026 y N172-2026) para los trabajos de mejoramiento y ampliación de dos galeras en el Cereso de San Bartolo, en Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Licitaciones</Tema_segun_la_fuente>
+		<Sintesis>La Sipdus publicó licitaciones públicas para ejecutar obras de mantenimiento y ampliación en dos galeras del Cereso de San Bartolo en Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Hay 685 combis del transporte público sin placas en orden</Titular>
+		<Contenido>Unas 685 unidades del transporte público convencional en Hidalgo circulan con placas de la administración anterior, debido a que sus propietarios no concluyeron el proceso de regularización, informó la titular de la Secretaría de Movilidad y Transporte (Semot), Lyzbeth Robles Gutiérrez.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Regularización De Vehículos Turísticos</Tema_segun_la_fuente>
+		<Sintesis>Alrededor de 685 combis del transporte público en Hidalgo circulan con placas vencidas, por lo que la Semot analiza un mecanismo para regularizar a los concesionarios pendientes.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, Hacienda, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Lyzbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Recauda Hidalgo 3.4 MDP por estacionamiento del Huracán</Titular>
+		<Contenido>La operación directa del estacionamiento del Estadio Hidalgo ha generado 3 millones 453 mil 200 pesos para el Gobierno estatal durante la administración de Julio Menchaca Salazar, informó el Oficial Mayor, Orlando Ángeles Pérez, en su comparecencia ante el Congreso local.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Estacionamiento estadio</Tema_segun_la_fuente>
+		<Sintesis>La administración directa del estacionamiento del Estadio Hidalgo ha captado más de 3.4 mdp para el gobierno estatal durante la gestión de Julio Menchaca, reportó la Oficialía Mayor.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Orlando Ángeles Pérez, Julio Menchaca Salazar, Orquídea Larragoiti Osorio, Miguel Ángel Osorio Chong, Francisco Olvera Ruiz, Omar Fayad Meneses</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Hidalgo registra nueve condenas a feminicidas</Titular>
+		<Contenido>La Procuraduría General de Justicia del Estado de Hidalgo (PGJEH) obtuvo nueve sentencias condenatorias por feminicidio, con penas de hasta 50 años de prisión, informó su encargado del despacho Francisco Ángel Fernández Hasbun, durante su comparecencia ante el Congreso local.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Sentencia Feminicida</Tema_segun_la_fuente>
+		<Sintesis>Durante su comparecencia ante el Congreso local, el encargado del despacho de la PGJEH reportó la obtención de nueve condenas por feminicidio con penas de hasta 50 años.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Ángel Fernández Hasbun</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Brilla la tradición del Xantolo en Alemania</Titular>
+		<Contenido>Por primera vez el gobierno de Hidalgo, a través de la Secretaría de Cultura instaló un altar tradicional en Berlín, para compartir con el público europeo las expresiones culturales y tradiciones del estado dentro del programa Día de Muertos in Berlin.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Xantolo</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Cultura de Hidalgo instaló un altar tradicional del Xantolo en Berlín, Alemania, promoviendo el patrimonio cultural hidalguense en el extranjero.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Presidencia, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Neyda Naranjo Baltazar, Julio Menchaca Salazar, Francisco Quiroga Fernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Un año bajo tierra, uno de los cuerpos de fosa clandestina</Titular>
+		<Contenido>A casi dos semanas del hallazgo de cinco cuerpos en una fosa clandestina de Atotonilco de Tula, la Procuraduría General de Justicia de Hidalgo (PGJH) confirmó que uno de los restos tenía alrededor de un año de antigüedad y que tres víctimas aún no han sido restituidas a sus familiares.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Atotonilco de Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Fosa clandestina</Tema_segun_la_fuente>
+		<Sintesis>La PGJEH confirmó que uno de los cinco cadáveres localizados en una fosa clandestina en Atotonilco de Tula tenía un año de antigüedad, logrando además la identificación de dos víctimas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Yazmín García Escobar, Diego A. G., Ana Karen E. G.</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Van a demoler primaria en Tulancingo; edificarán otra</Titular>
+		<Contenido>La escuela primaria Aquiles Serdán, de Tulancingo, deberá ser demolida y reconstruida, proceso que podría extenderse durante todo el ciclo escolar 2026-2027, informó el titular de la Secretaría de Educación Pública de Hidalgo (SEPH), Natividad Castrejón.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>Debido a fallas en su estructura, la SEPH edificará un nuevo plantel para la primaria Aquiles Serdán en Tulancingo, analizando sedes alternativas para las actividades escolares.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Hidalgo conquistó el Mundial Mujeres Libres edición 2026</Titular>
+		<Contenido>La selección femenil de Hidalgo, originaria de Atitalaquia, conquistó el Campeonato Nacional del Mundial Mujeres Libres 2026, tras vencer 7-3 a Veracruz en la gran final, disputada en las instalaciones de la Federación Mexicana de Futbol (FMF), en Toluca, Estado de México.</Contenido>
+		<Fecha_de_publicacion>2026-10-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Atitalaquia</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Justa Deportiva</Tema_segun_la_fuente>
+		<Sintesis>La selección femenil de Atitalaquia representando a Hidalgo se coronó campeona nacional del torneo Mundial Mujeres Libres 2026 tras vencer 7-3 a Veracruz en la final.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Gobernador, Segobh, IHM, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Claudia Sheinbaum Pardo, Laura Itzel Castillo</Actores_mencionados>
+	</Nota>
+</NotasRadio>
