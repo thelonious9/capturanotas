@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Tejocote alcanza los 70 pesos por kilo</Titular>
+		<Contenido>Guadalupe Hinojosa eliminó el tejocote de los ingredientes para elaborar el ponche en esta temporada invernal debido al elevado precio que llega a los 70 pesos el kilo en algunos mercados de Pachuca. Comerciantes señalaron que el alza se debe al clima y afectaciones en cosechas.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Canasta básica</Tema_segun_la_fuente>
+		<Sintesis>Compradores y comerciantes de Pachuca ajustan la preparación del ponche ante el incremento del tejocote a 70 pesos el kilo y la manzana amarilla a 70 pesos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alma Leticia Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Guadalupe Hinojosa</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Ferias, el evento cultural favorito</Titular>
+		<Contenido>Seis de cada 10 personas en México prefieren ir a una feria artesanal o gastronómica como actividad cultural, seguidas por el cine y los conciertos, de acuerdo con el Módulo sobre Eventos Culturales Seleccionados (Modelcult) 2025 del Inegi.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feria tradicional</Tema_segun_la_fuente>
+		<Sintesis>Según datos del Inegi, el 61.7% de la población prefiere asistir a ferias artesanales o gastronómicas como su principal opción cultural.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Inegi</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Complicado aplicar Hoy No Circula: Menchaca</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar refirió que sería complicado implementar el programa Hoy No Circula en la zona metropolitana de Pachuca; en su lugar, se priorizará el fortalecimiento del transporte público Tuzobús y obras de infraestructura vial. Además, informó sobre el avance de 200 viviendas del Bienestar.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Movilidad urbana</Tema_segun_la_fuente>
+		<Sintesis>Julio Menchaca descartó aplicar el Hoy No Circula en Pachuca y se enfocará en fortalecer el transporte público y proyectos de infraestructura vial.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Semot, Tuzobús, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca, Claudia Sheinbaum</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Gobernador entrega 85 apoyos del PECDA</Titular>
+		<Contenido>El gobernador Julio Menchaca entregó 85 apoyos del Programa de Estímulo a la Creación y Desarrollo Artístico (PECDA) Hidalgo 2026, con una inversión de 6.86 millones de pesos para beneficiar a creadores e iniciativas culturales de 33 municipios.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a artistas</Tema_segun_la_fuente>
+		<Sintesis>Julio Menchaca otorgó 85 estímulos del PECDA 2026 por más de 6.8 millones de pesos para fortalecer proyectos artísticos e independientes en la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Cultura, PECDA</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca, Neyda Naranjo Baltazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Piden se garantice servicio de agua</Titular>
+		<Contenido>Vecinos de las colonias Infonavit Venta Prieta y Venta Prieta prevén que las obras de remodelación en el bulevar Felipe Ángeles concluyan en febrero de 2027, por lo que solicitan garantizar el suministro continuo de agua potable tras haber sufrido suspensiones.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Abasto De Agua</Tema_segun_la_fuente>
+		<Sintesis>Habitantes de Venta Prieta piden a las autoridades garantizar el abasto de agua potable durante los trabajos de remodelación en el bulevar Felipe Ángeles.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Sonia Nochebuena</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Caasim, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Patricia Vázquez, Gael Ortiz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Mototaxis son opción ante la falta de rutas</Titular>
+		<Contenido>Usuarios de las colonias 20 de Noviembre, La Condesa y Ave del Paraíso optan por viajar en mototaxis desde el bulevar Minero ante la escasez de combis. La Semoth recordó que esta modalidad es ilegal y no está permitida por la Ley de Movilidad.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deficiencias transporte público</Tema_segun_la_fuente>
+		<Sintesis>Pasajeros recurren a mototaxis por falta de colectivas en Pachuca, mientras la Semoth reitera que el servicio carece de permisos y es ilegal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot, SSPH, SEDENA, GN, PGJEH, Tuzobús</Dependencias_mencionadas>
+		<Actores_mencionados>Susana Romero, Eleuterio Cruz, Bernardo Méndez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Denuncias por corridas de toros en 4 municipios</Titular>
+		<Contenido>Animal Heroes y PETA interpusieron denuncias ante Proespa por la realización de corridas de toros sin reglamento taurino en San Salvador, Tlaxcoapan, Tepeapulco y Huichapan, advirtiendo violaciones a la ley de protección animal.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>San Salvador</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Maltrato animal</Tema_segun_la_fuente>
+		<Sintesis>Organizaciones animalistas denunciaron ante Proespa eventos taurinos en cuatro municipios por carecer de reglamentos actualizados.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Maximiliano Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Proespa, Semarnath, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Jerónimo Sánchez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Pachuca recibe campeonato de hockey en línea</Titular>
+		<Contenido>La pista de la Ciudad Deportiva de Alto Rendimiento albergará la Primera Copa Hidalgo In Line Hockey el 31 de octubre y 1 de noviembre, convocando a 150 jugadores de IMSS, IPN, Puebla, CDMX e Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deportes</Tema_segun_la_fuente>
+		<Sintesis>Alrededor de 150 atletas participarán en el primer torneo de hockey en línea en la nueva pista del Alto Rendimiento en Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Héctor Santoy</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>Inhide, SEPH, IMSS, IPN</Dependencias_mencionadas>
+		<Actores_mencionados>Alfredo Peña</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Esperan hasta 200 arqueros en Hidalgo</Titular>
+		<Contenido>El Abierto AHTA Bajo Techo 2026 reunirá entre 150 y 200 competidores de tiro con arco del 13 al 15 de noviembre en Mineral de la Reforma, confirmando la asistencia del arquero olímpico Javier Rojas.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Impulso al deporte</Tema_segun_la_fuente>
+		<Sintesis>Mineral de la Reforma será sede del torneo de tiro con arco bajo techo, esperando la asistencia de figuras nacionales y selecciones estatales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Héctor Santoy</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>Inhide, SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Oldair Zamora Nava, Javier Rojas, Ivana Palacios, Diego Campo, Matías Grande</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Gobernador ve inviable aplicar el Hoy No Circula</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar aseguró que no sería viable implementar en la entidad el programa Hoy No Circula para atender la problemática de tránsito vehicular, sobre todo al sur de Pachuca. Al concluir su participación en la entrega de apoyos al sector artístico y cultural, el mandatario expresó que se trabaja en otras alternativas para atender el tema, como ampliar las vialidades. Asimismo, adelantó la gira de trabajo de la presidenta Claudia Sheinbaum Pardo por Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Nota</Genero_periodistico>
+		<Tema_segun_la_fuente>Movilidad urbana</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca descartó aplicar el programa Hoy No Circula en Pachuca y señaló que se trabajará en la ampliación de vialidades y el fortalecimiento del transporte público.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Semot, Presidencia, Sitmah</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca, Claudia Sheinbaum</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Destinan 6.8 mdp para apoyos artísticos y culturales; crece 60%</Titular>
+		<Contenido>Entre el gobierno del estado y la Federación, este año fueron entregados 6 millones 860 mil pesos en apoyos a la comunidad artística y cultural, lo que representó un incremento de 60% con respecto al año pasado. Durante la entrega de apoyos del programa Fortalecimiento Artístico y Cultural 2026, Neyda Naranjo, secretaria de Cultura estatal, explicó que en el PECDA 2026 se respaldó a 85 proyectos. El gobernador Julio Menchaca Salazar informó que durante su administración la Secretaría de Cultura ha tenido un aumento presupuestal de 150%.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Nota</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a artistas</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Cultura estatal y el Gobierno Federal destinaron 6.8 millones de pesos para beneficiar a 120 creadores artísticos a través del programa PECDA 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Neyda Naranjo, José Luis Paredes Pacho, Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Impulsa IHE la formación en valores con Semilleros de la Honestidad</Titular>
+		<Contenido>Inicia en Hidalgo el programa Semilleros de la Honestidad, dirigido a estudiantes de tercer grado de preescolar, con actividades lúdicas, cuentos y canciones para fomentar valores desde la infancia. El programa arrancó en el Jardín de Niños Hontoria, de Pachuca, e impulsado por la Secretaría Anticorrupción y la SEP federal.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Boletín</Genero_periodistico>
+		<Tema_segun_la_fuente>Fortalecimiento de valores</Tema_segun_la_fuente>
+		<Sintesis>El IHE puso en marcha el programa Semilleros de la Honestidad en preescolares de la entidad para promover la cultura de la transparencia y los valores en la niñez.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>Sí</Es_replica>
+		<Medio_de_origen>Comunicado gubernamental</Medio_de_origen>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>IHE, SEPH, Contraloría, DIFH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Nancy Adriana León Vite, Alejandro Encinas Nájera, Julio Menchaca, Jorge Reyes Hernández, Álvaro Martín Bardales Ramírez, Antuan Monzalvo Jacinto, Verónica Guadalupe Meza Escudero</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Denuncian a cuatro municipios por corridas de toros sin reglamento</Titular>
+		<Contenido>Asociaciones protectoras de animales presentaron denuncias ante Proespa contra los municipios de Tlahuelilpan, Huichapan, Tlaxcoapan y San Salvador por autorizar corridas de toros sin contar con un reglamento taurino actualizado, lo que contraviene la ley de protección animal.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>San Salvador</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Nota</Genero_periodistico>
+		<Tema_segun_la_fuente>Maltrato animal</Tema_segun_la_fuente>
+		<Sintesis>Organizaciones animalistas denunciaron ante Proespa a cuatro ayuntamientos hidalguenses por permitir festejos taurinos sin contar con normatividad interna de protección animal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Proespa, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Paola Monterrubio, Jerónimo Sánchez, Gabriel Ochoa</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Visita de Claudia incluirá entrega de 200 viviendas</Titular>
+		<Contenido>Durante su visita a Hidalgo este 29 y 30 de octubre, la presidenta Claudia Sheinbaum Pardo entregará apoyos a familias damnificadas por lluvias e inaugurará las primeras 200 Viviendas del Bienestar, además de firmar el fideicomiso para el Polo de Desarrollo en Zapotlán.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Zapotlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Nota</Genero_periodistico>
+		<Tema_segun_la_fuente>Plan Nacional De Vivienda</Tema_segun_la_fuente>
+		<Sintesis>La presidenta Claudia Sheinbaum entregará 200 Viviendas del Bienestar, firmará el fideicomiso del Polo de Desarrollo en Zapotlán y otorgará apoyos a damnificados durante su gira por Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Presidencia, Conavi, Infonavit</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Sheinbaum, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Difunden campaña informativa sobre la regulación de celulares</Titular>
+		<Contenido>Ante la entrada en vigor del decreto federal que regula el uso de pantallas y celulares en escuelas básicas, la SEPH difunde una campaña con cápsulas y spots para socializar la medida que se homologará en la entidad en 2027.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Nota</Genero_periodistico>
+		<Tema_segun_la_fuente>Manejo De Redes Sociales</Tema_segun_la_fuente>
+		<Sintesis>La SEPH realiza una campaña informativa sobre el decreto que regula el uso pedagógico de celulares en escuelas de nivel básico, previa a la homologación de la ley en 2027.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miriam Avilés</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>En 14 municipios, mayor incidencia de narcomenudeo</Titular>
+		<Contenido>Hidalgo registró mil 36 carpetas de investigación por narcomenudeo de enero a septiembre de 2026 en 61 municipios, concentrándose la mayor cantidad de indagatorias en Pachuca, Mineral de la Reforma, Tulancingo y Tizayuca.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Nota</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate Al Narcomenudeo</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo rebasó las mil carpetas de investigación por narcomenudeo en nueve meses, siendo Pachuca, Mineral de la Reforma, Tulancingo y Tizayuca los municipios con mayor incidencia.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SNSP, Poder Judicial</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>"Hoy No Circula" es inviable: JMS</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar consideró inviable y muy complicado implementar el programa de restricción vehicular Hoy No Circula en la Zona Metropolitana de Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Nota</Genero_periodistico>
+		<Tema_segun_la_fuente>Movilidad urbana</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca desestimó la implementación del Hoy No Circula en Pachuca y se pronunció por buscar alternativas de movilidad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Denuncian a las corridas de toros sin reglamento</Titular>
+		<Contenido>Organizaciones defensoras de animales interpusieron una denuncia ante PROPESPA contra eventos taurinos realizados en municipios hidalguenses que no cuentan con un Reglamento Taurino.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Nota</Genero_periodistico>
+		<Tema_segun_la_fuente>Maltrato animal</Tema_segun_la_fuente>
+		<Sintesis>Animalistas iniciaron procedimientos ante Proespa por la realización de festejos taurinos en municipios sin normativa taurina actualizada.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Proespa</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Se reúne secretaria de Cultura con directivos de Humboldt Forum</Titular>
+		<Contenido>La secretaria de Cultura Neyda Naranjo sostuvo un encuentro con curadores y directivos del Humboldt Forum para explorar vías de cooperación en la conservación del patrimonio cultural.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>12500</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Nota</Genero_periodistico>
+		<Tema_segun_la_fuente>Conservación del Patrimonio Cultural</Tema_segun_la_fuente>
+		<Sintesis>La titular de Cultura en Hidalgo explora alianzas con el Humboldt Forum para impulsar la conservación del patrimonio cultural de la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>4</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Neyda Naranjo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Anuncian denuncias vs. fraccionadores</Titular>
+		<Contenido>El gobierno de Hidalgo presentó acciones penales contra desarrolladores inmobiliarios que incumplieron disposiciones relacionadas con la construcción de fraccionamientos, informó el gobernador Julio Menchaca Salazar. Sostuvo que las irregularidades no se limitan a Pachuca y que algunos desarrolladores venden las viviendas y posteriormente desaparecen.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Desarrollo Urbano</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca informó sobre el inicio de acciones penales contra desarrolladores inmobiliarios por vender viviendas en fraccionamientos sin concluir los trámites de municipalización.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Segobh, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>El gobernador descarta la aplicación de Hoy No Circula</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar rechazó la posibilidad de implementar el programa Hoy No Circula como una alternativa para disminuir el tráfico vehicular en la zona metropolitana de Pachuca. Señaló que su administración trabaja en proyectos viales y en el fortalecimiento del transporte público colectivo como el Tuzobús.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Movilidad urbana</Tema_segun_la_fuente>
+		<Sintesis>Julio Menchaca descartó aplicar el Hoy No Circula en Pachuca y se pronunció por fortalecer el transporte público, señalando incrementos en los usuarios del Tuzobús y proyectos viales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Semot, Inegi</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>DIF municipal solventó observaciones de la ASEH por 3,883</Titular>
+		<Contenido>Tanya Zúñiga Meneses, directora del DIF de Ixmiquilpan, informó que solventaron 83 mil 883 pesos durante la etapa de informe preliminar de la Cuenta Pública 2025 ante la ASEH, quedando un pliego de observaciones por aclarar de 206 mil pesos.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Ixmiquilpan</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Observaciones ASEH</Tema_segun_la_fuente>
+		<Sintesis>El DIF municipal de Ixmiquilpan solventó 83 mil pesos ante la ASEH sobre la Cuenta Pública 2025 y mantiene en revisión técnica cuatro pliegos restantes por 206 mil pesos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erika Gutiérrez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH, ASEH</Dependencias_mencionadas>
+		<Actores_mencionados>Tanya Zúñiga Meneses</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Operan apps de transporte de pasajeros en Tizayuca</Titular>
+		<Contenido>Usuarios de transporte en Tizayuca indicaron que las aplicaciones BlaBlaCar y Pronto operan en el municipio. La SSC municipal indicó no tener reporte oficial de las plataformas y el ayuntamiento recordó que el transporte es tema estatal.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Tizayuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>Usuarios de Tizayuca reportan la operación de las aplicaciones BlaBlaCar y Pronto, mientras que las autoridades municipales negaron tener reportes y recordaron que la movilidad es competencia estatal.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Javier Quezada</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Ayuntamiento, SSC, Semot</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Descarta Menchaca implementar el Hoy No Circula para disminuir el tráfico</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar descartó la posibilidad de implementar el programa Hoy No Circula como medida para disminuir el tráfico en Pachuca, al considerar que lo ve muy complicado. Señaló que se han implementado alternativas para mejorar la movilidad, como modificaciones viales en las inmediaciones del CASP, acuerdos con el Tecnológico de Monterrey y obras en el encauzamiento del Río de las Avenidas.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Movilidad urbana</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca rechazó implementar el esquema Hoy No Circula en la Zona Metropolitana de Pachuca y apostará por proyectos viales, infraestructura en el Río de las Avenidas y el fortalecimiento del transporte colectivo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Semot, Semarnath, CASP, Tuzobús</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Lizbeth Robles Gutiérrez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Entrega gobierno estatal 85 apoyos del PECDA 2026</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar encabezó la entrega de apoyos a 85 proyectos seleccionados del Programa de Estímulo a la Creación y Desarrollo Artístico (PECDA), así como el reconocimiento de 35 iniciativas del Programa para la Transformación Artística y Cultural. Destacó que el presupuesto cultural ha aumentado un 150% en su administración.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a artistas</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca entregó 85 apoyos del PECDA 2026 e incentivos para la transformación artística por más de 6.8 millones de pesos, beneficiando a creadores de 33 municipios hidalguenses.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Cultura, PECDA</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, José Luis Paredes Pacho</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Más de mil 300 participantes desfilarán por Pachuca en la Fiesta de las Almas</Titular>
+		<Contenido>Un total de mil 333 participantes y 25 carros alegóricos integrarán el desfile Fiesta de las Almas, que recorrerá 3.4 kilómetros por el centro de Pachuca este viernes 30 de octubre. Contará con contingentes de 20 municipios representando comparsas de Xantolo, catrinas y expresiones de Día de Muertos.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Día De Muertos</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Cultura organiza el desfile Fiesta de las Almas en el centro de Pachuca con más de 1,300 participantes y comparsas tradicionales de Xantolo procedentes de la Huasteca y la Sierra.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Cecultah, Escuela de Música del Estado</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Exhortan a fortalecer medidas de higiene para evitar enfermedades</Titular>
+		<Contenido>En el marco de las festividades de día de muertos y el Xantolo, la Secretaría de Salud de Hidalgo (SSH) exhortó a la población a fortalecer las medidas de higiene y autocuidado para prevenir las Enfermedades Diarreicas Agudas (EDA’s). De acuerdo con la coordinadora estatal de Enfermedades Diarreicas Agudas, Nancy Cerón Delgado, entre las principales recomendaciones se encuentran el lavado de manos con agua y jabón antes de preparar o consumir alimentos, así como antes y después de utilizar el sanitario. Asimismo, la titular de la SSH, Vanesa Escalante Arroyo, enfatizó sobre el cuidado que debe tenerse con la salud de niñas y niños, personas adultas mayores y quienes se encuentren en condiciones de vulnerabilidad.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención De Enfermedades</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Salud de Hidalgo recomendó reforzar las medidas de higiene, lavado de manos y consumo de agua potable durante las festividades de Día de Muertos y Xantolo para evitar enfermedades diarreicas agudas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Nancy Cerón Delgado, Vanesa Escalante Arroyo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>PECDA beneficia a personas creadoras de 33 municipios</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar entregó apoyos a 85 proyectos seleccionados del Programa de Estímulo a la Creación y Desarrollo Artístico (PECDA), así como el reconocimiento de 35 iniciativas del Programa para la Transformación Artística y Cultural. El mandatario recordó que, durante mucho tiempo, la cultura y el deporte fueron relegados, por lo que, desde el inicio de su administración, el presupuesto destinado al ámbito cultural aumentó un 150 por ciento. José Luis Paredes Pacho y la secretaria de Cultura, Neyda Naranjo Baltazar, destacaron la descentralización cultural.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a artistas</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca entregó apoyos del PECDA a 85 proyectos artísticos y 35 iniciativas culturales, destacando un incremento presupuestal del 150% en cultura durante su gestión.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Cultura, PECDA</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, José Luis Paredes Pacho, Neyda Naranjo Baltazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Impulsan la formación docente con prácticas ambientales</Titular>
+		<Contenido>La Universidad Pedagógica Nacional (UPN) Hidalgo, Unidad 131, y la Escuela Normal Superior Pública del Estado de Hidalgo (ENSUPEH) realizaron una práctica académica conjunta para fortalecer la formación docente a través del estudio de la biodiversidad y el diseño de proyectos de intervención educativa para el cuidado del medio ambiente. Participaron 48 estudiantes de la Licenciatura en Intervención Educativa de la UPN y 81 de Enseñanza y Aprendizaje de la Biología de la ENSUPEH.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Educación Ambiental</Tema_segun_la_fuente>
+		<Sintesis>Estudiantes de la UPN Hidalgo y la ENSUPEH desarrollaron una jornada de estudio de biodiversidad y monitoreo ambiental para diseñar proyectos de intervención educativa.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez Cabrera</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>UPN, ENSUPEH, SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Olga Vanessa Cuatepotzo Jiménez, Belina del Consuelo Dávila Casillas</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Apuesta JMS por transporte público para mejorar movilidad</Titular>
+		<Contenido>Julio Menchaca Salazar, gobernador de Hidalgo, destacó la necesidad de fortalecer el transporte público como una alternativa para mejorar la movilidad en Pachuca y su zona metropolitana, ante el incremento del número de vehículos particulares que circulan por estas vialidades. Explicó que actualmente existen estudios que demuestran que gran parte de los automóviles particulares son utilizados únicamente por una o dos personas, situación que contribuye a los problemas de tránsito. Asimismo, adelantó proyectos viales con el Tec de Monterrey y Centro Minero.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Movilidad urbana</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca subrayó que fortalecer el transporte colectivo es la vía principal para reducir el congestionamiento vial en Pachuca y adelantó proyectos viales conjuntos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez Cabrera</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Semot, Tuzobús</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Aseguraron 29 mil litros de combustible y capturan a hombre</Titular>
+		<Contenido>Derivado de la intervención de un conductor involucrado en un accidente sobre el bulevar Juárez, en el centro de Zempoala, elementos de la Secretaría de Seguridad Pública de Hidalgo (SSPH) detectaron, durante una revisión, que transportaba alrededor de 29 mil litros de combustible cuya procedencia legal no pudo acreditar, debido a que presentó documentación apócrifa. El sujeto fue detenido y puesto a disposición del Ministerio Público.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Zempoala</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate al huachicol</Tema_segun_la_fuente>
+		<Sintesis>Policías estatales detuvieron en Zempoala al chofer de un tráiler accidentado que trasladaba 29 mil litros de gasolina sin poder acreditar la procedencia legal del hidrocarburo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, MP</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Realizan otra jornada de búsqueda de un hombre desaparecido</Titular>
+		<Contenido>Una búsqueda individualizada para localizar a un hombre identificado con las iniciales R. G. L. se llevó a cabo en la localidad de El Gorrión, perteneciente al municipio de Ajacuba. Durante las acciones participaron la Comisión de Búsqueda de Personas del Estado de Hidalgo, la Comisión Nacional de Búsqueda, elementos de la Policía Municipal y los familiares de la persona reportada como desaparecida.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Ajacuba</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Búsqueda de personas</Tema_segun_la_fuente>
+		<Sintesis>La CBPH, la CNB y corporaciones locales desplegaron un operativo de búsqueda en la comunidad de El Gorrión, Ajacuba, para dar con el paradero de un hombre desaparecido.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>CBPEH, CNB, Policía Municipal</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Aplican casi 8 mdp a proyectos culturales</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar entregó apoyos a 85 proyectos seleccionados del Programa de Estímulo a la Creación y Desarrollo Artístico (PECDA) e impulsó 35 iniciativas del Programa para la Transformación Artística y Cultural, sumando una inversión de 6.86 millones de pesos en beneficio de creadores de 33 municipios.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a artistas</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo destinó 6.86 millones de pesos al PECDA para apoyar 85 proyectos de personas creadoras en 33 municipios, además de reconocer 35 iniciativas del Programa para la Transformación Artística.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Cultura, PECDA</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, José Luis Paredes Pacho, Teresa Hernández Hernández, Neyda Naranjo Baltazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Taxistas proyectan lanzar aplicación para igualar a Uber</Titular>
+		<Contenido>La Federación de Uniones de Trabajadores del Volante del Estado de Hidalgo (FUTVEH) prepara una aplicación propia para que usuarios soliciten taxis concesionados, ante la posible expansión de Uber en la entidad. Eleno Arias Pérez informó que la propuesta se presentará en noviembre a la Semot para su análisis.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>La FUTVEH prevé presentar en noviembre su propuesta de aplicación móvil para taxis concesionados en Pachuca para competir con plataformas digitales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Eleno Arias Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Gobierno descarta aplicar programa Hoy No Circula</Titular>
+		<Contenido>El gobernador de Hidalgo, Julio Menchaca Salazar, descartó aplicar el programa Hoy No Circula para reducir el tráfico vehicular en Pachuca, al señalar que su administración trabaja en alternativas como modificaciones viales en el Río de las Avenidas y el Centro Minero, así como en el fortalecimiento del transporte colectivo.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Movilidad urbana</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca desestimó implementar la restricción vehicular Hoy No Circula en Pachuca y se enfocará en proyectos de infraestructura vial y mejoras al transporte público.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Semot, Semarnath, Tuzobús</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Lyzbeth Robles Gutiérrez, Mónica Patricia Mixtega Trejo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Van a demoler primaria en Tulancingo; edificarán otra</Titular>
+		<Contenido>La escuela primaria Aquiles Serdán de Tulancingo presenta fallas estructurales graves, por lo que será demolida y reconstruida totalmente. El titular de la SEPH, Natividad Castrejón, indicó que las obras durarán un ciclo escolar y los alumnos iniciarán clases mientras se define una sede temporal.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>La SEPH edificará un nuevo plantel para la primaria Aquiles Serdán en Tulancingo tras detectar daños estructurales, evaluando sedes temporales para atender al alumnado.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Activistas piden evitar corridas sanguinarias</Titular>
+		<Contenido>Integrantes de Animal Heroes, PETA Latino y la Asociación Hidalguense para la Protección de los Animales cuestionaron los permisos municipales otorgados para corridas de toros en Doxey, Tlahuelilpan, Caxuxi y Huichapan sin contar con reglamentos vigentes, denunciándolos ante Proespa y proponiendo tauromaquia sin sangre como alternativa.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Maltrato animal</Tema_segun_la_fuente>
+		<Sintesis>Organizaciones animalistas denunciaron corridas de toros en cuatro localidades hidalguenses ante Proespa por carecer de reglamentos actualizados y solicitaron taurismo sin violencia.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Proespa, Ayuntamientos</Dependencias_mencionadas>
+		<Actores_mencionados>Paola Monterrubio</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Pipa de Zempoala iba cargada con huachicol</Titular>
+		<Contenido>Un accidente sobre el bulevar Juárez en el centro de Zempoala permitió a elementos de la SSPH detectar una pipa con 29 mil litros de gasolina ilegal. El chofer presentó documentación apócrifa y fue detenido y puesto a disposición del Ministerio Público.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Zempoala</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate al huachicol</Tema_segun_la_fuente>
+		<Sintesis>La SSPH aseguró una pipa con 29 mil litros de combustible robado y detuvo a un hombre tras la inclinación accidental del remolque en Zempoala.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, MP</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Van en Hidalgo contra desarrolladores de fraccionamientos, asegura gobernador</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar informó que se iniciaron acciones penales contra desarrolladores de fraccionamientos por incumplir requisitos, situación que ha frenado la municipalización de colonias en Pachuca y la Zona Metropolitana.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Desarrollo Urbano</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca Salazar informó sobre acciones penales iniciadas contra desarrolladores inmobiliarios que vendieron viviendas sin concluir la municipalización en Pachuca y la zona metropolitana.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Descarta Menchaca Hoy No Circula en Pachuca</Titular>
+		<Contenido>Luego de que la secretaria de Movilidad y Transporte (Semot), Lyzbeth Robles Gutiérrez, planteó la posibilidad de implementar el programa Hoy No Circula como alternativa para disminuir el congestionamiento vial en Pachuca, el gobernador de Hidalgo, Julio Menchaca Salazar, rechazó esta medida, al considerar que sería complicado ponerla en marcha.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Movilidad urbana</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca rechazó implementar el programa Hoy No Circula en Pachuca y se pronunció por buscar alternativas de infraestructura vial y mejorar el transporte público.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Semot, Semarnath, CASP, Tuzobús</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Lyzbeth Robles Gutiérrez, Mónica Patricia Mixtega Trejo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>SSPH asegura 29 mil litros de hidrocarburo</Titular>
+		<Contenido>Elementos de la Secretaría de Seguridad Pública de Hidalgo detuvieron a un hombre y aseguraron un tractocamión con 29 mil litros de gasolina ilegal en el bulevar Juárez, en el centro de Zempoala, luego de que el conductor sufriera un accidente vial.</Contenido>
+		<Fecha_de_publicacion>2026-10-29</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Zempoala</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Combate al huachicol</Tema_segun_la_fuente>
+		<Sintesis>Elementos de la SSPH detuvieron a un hombre y aseguraron un tractocamión con 29 mil litros de gasolina ilegal tras un accidente vial en Zempoala.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, FGR</Dependencias_mencionadas>
+	</Nota>
+</NotasRadio>
