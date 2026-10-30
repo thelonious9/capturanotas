@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Hidalgo lidera en crecimiento económico</Titular>
+		<Contenido>La entidad se posicionó en crecimiento económico anual en México con un 8.5% en el segundo trimestre de 2026, impulsado principalmente por las actividades secundarias, que comprenden los sectores como la industria manufacturera, la construcción, la minería y la generación de energía. Sin embargo, su crecimiento trimestral del 2.1% fue menor al de San Luis Potosí y Veracruz.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Crecimiento Económico</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo encabezó el crecimiento económico anual en México con un aumento de 8.5% en el segundo trimestre de 2026, impulsado principalmente por las actividades secundarias.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Luis Carlos León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, Inegi</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Inauguran el Polo del Bienestar en Zapotlán</Titular>
+		<Contenido>La presidenta Claudia Sheinbaum y el gobernador Julio Menchaca iniciaron ayer una gira de trabajo por Hidalgo, donde arrancaron las obras del Polo de Desarrollo Económico para el Bienestar Reserva Zapotlán; inauguraron el primer Centro de Distribución robótico de Mercado Libre y una planta de Laboratorios Carnot, proyectos que representan inversiones millonarias para la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Zapotlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Polos del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>Claudia Sheinbaum y Julio Menchaca arrancaron las obras del Podecobi Reserva Zapotlán e inauguraron un Cedis de Mercado Libre y la planta de Laboratorios Carnot.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Presidencia, Gobernador, Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Sheinbaum, Julio Menchaca, Marcelo Ebrard</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>El viaje del Mictlán al olvido</Titular>
+		<Contenido>Para los antiguos mexicas, no todas las personas iban al mismo lugar después de morir; el destino dependía de las circunstancias de la muerte. Quienes morían por causas comunes se dirigían al Mictlán, el lugar de los muertos, atravesando un largo recorrido de nueve niveles antes de alcanzar el olvido.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Reportaje</Genero_periodistico>
+		<Tema_segun_la_fuente>Día De Muertos</Tema_segun_la_fuente>
+		<Sintesis>Reseña sobre la cosmovisión mexica y los nueve niveles del Mictlán que las almas debían cruzar para llegar al descanso.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Rosalía Maldonado</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>INAH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>De vender pan en carritos a abrir una nueva sucursal</Titular>
+		<Contenido>La panadería y restaurante La Tartine renovó su carta para combinar platillos emblemáticos de Francia y México, con una propuesta de ingredientes naturales y precios accesibles. El negocio comenzó en 2018 y anunció la próxima apertura de un nuevo punto de venta en Construplaza.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Reportaje</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a emprendedores</Tema_segun_la_fuente>
+		<Sintesis>El restaurante La Tartine renovó su carta gastronómica franco-mexicana y anunció la apertura de una nueva sucursal en Construplaza.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Fernanda Huerta</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Actores_mencionados>Ana Laura, Antoine</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Inauguran polo de desarrollo económico</Titular>
+		<Contenido>La presidenta Claudia Sheinbaum y el gobernador Julio Menchaca arrancaron las obras del Polo de Desarrollo Económico para el Bienestar Reserva Zapotlán, e inauguraron el Cedis de Mercado Libre y una planta de Laboratorios Carnot con inversión superior a 10 mil mdp.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Zapotlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Polos del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>Gira presidencial y gubernamental por Hidalgo concreta proyectos industriales millonarios y empleos en Zapotlán y Villa de Tezontepec.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Presidencia, Gobernador, Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Sheinbaum, Julio Menchaca, Marcelo Ebrard, Carlos Henkel, David Geisen, Guy Jean Savoir García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Lidera Hidalgo en crecimiento económico</Titular>
+		<Contenido>Hidalgo registró un crecimiento anual de 8.5% en su actividad económica durante el segundo trimestre de 2026, la variación más alta entre las 32 entidades federativas según el ITAEE del Inegi, impulsado por un alza de 19.1% en las actividades secundarias.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Crecimiento Económico</Tema_segun_la_fuente>
+		<Sintesis>Cifras del Inegi colocan a Hidalgo a la cabeza del crecimiento económico nacional con 8.5% anual en el segundo trimestre de 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Maximiliano Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Inegi, Sedeco</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Divisan puma en Los Mármoles</Titular>
+		<Contenido>Un puma juvenil saludable fue captado mediante cámaras de fototrampeo en el Parque Nacional Los Mármoles por brigadas comunitarias de vigilancia. Con este registro se confirman las seis especies de felinos silvestres de México en Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Zimapán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Avistamiento de especies</Tema_segun_la_fuente>
+		<Sintesis>Cámaras trampa captaron un puma juvenil en el Parque Nacional Los Mármoles, acreditando la presencia de los seis felinos silvestres del país en la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alma Leticia Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Lanzan app para mujeres</Titular>
+		<Contenido>En Hidalgo opera la aplicación móvil No más Violencia Hidalgo, cuyo objetivo es agilizar la reacción de seguridad al oprimir el botón de emergencia conectado directamente al C5i e integrar números de confianza y el 911.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Violencia digital</Tema_segun_la_fuente>
+		<Sintesis>La plataforma móvil No más Violencia Hidalgo ofrece un botón de pánico enlazado al C5i para brindar auxilio inmediato a mujeres en peligro.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Sonia Nochebuena</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, SSPH, C5i, IHM</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>El Géiser cumple un mes cerrado</Titular>
+		<Contenido>El parque turístico El Géiser en Tecozautla cumple un mes cerrado al público por una disminución de vapor y aguas sulfurosas derivada de sismos. La Asociación de Balnearios solicitó al gobernador Julio Menchaca intervención e inversión pública para reactivar la economía.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>14</Liga>
+		<Municipio>Tecozautla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Géiser</Tema_segun_la_fuente>
+		<Sintesis>Prestadores de servicios de Tecozautla urgieron apoyo gubernamental ante las pérdidas económicas generadas por el cierre de El Géiser.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Omar Santiago</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo, Gobierno</Dependencias_mencionadas>
+		<Actores_mencionados>Crescenciano Montiel Ibarra, Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Invitan a exposición, Nahuales la medicina del futuro</Titular>
+		<Contenido>A partir del 30 de octubre se exhibirá de manera gratuita en la Sala Histórica Quetzalcóatl de Tula la muestra Nahuales la medicina del futuro de Macario Sierra Zúñiga, recopilando arte visual sobre medicina tradicional mexicana, cosmovisiones y plantas curativas.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>15</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Exposición Artística</Tema_segun_la_fuente>
+		<Sintesis>La Sala Histórica Quetzalcóatl de Tula albergará durante un mes la exposición gratuita de arte visual ancestral Nahuales la medicina del futuro.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>César Aguilar</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Macario Sierra Zúñiga, María de Jesús Ramírez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Impulsan nuevos negocios</Titular>
+		<Contenido>La joven emprendedora de Tula, Ingrid Hernández Cruz, destacó los retos de planeación, administración, ubicación céntrica y selección de platillos con sazón tradicional para poner en marcha nuevos restaurantes accesibles.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>15</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a emprendedores</Tema_segun_la_fuente>
+		<Sintesis>Emprendedores de Tula comparten experiencias sobre la coordinación de recursos y oferta gastronómica tradicional para el crecimiento comercial.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>César Aguilar</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Actores_mencionados>Ingrid Hernández Cruz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Inauguran Distribuidor Vial Santa Ana Chiautempan</Titular>
+		<Contenido>El gobierno federal inauguró el Distribuidor Vial Santa Ana Chiautempan en Tlaxcala, obra de 663 millones de pesos que busca agilizar la circulación en el corredor carretero Puebla-Apizaco, por donde transitan 54 mil vehículos diarios.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Tlaxcala</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Infraestructura vial</Tema_segun_la_fuente>
+		<Sintesis>Autoridades entregaron la infraestructura del distribuidor vial Santa Ana Chiautempan con inversión federal de 663 mdp.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Gobierno federal</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Podecobi pondrá a Hidalgo en la punta del crecimiento: Ebrard</Titular>
+		<Contenido>Se dio el banderazo de inicio a los trabajos del Polo de Desarrollo Económico para el Bienestar (Podecobi) Reserva Zapotlán, un espacio de 910 hectáreas a cargo de la empresa Dewa con una inversión superior a los 10 mil 100 mdp. Marcelo Ebrard resaltó el crecimiento económico de 8.5% registrado en la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Zapotlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Polos del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>Iniciaron los trabajos del Podecobi Reserva Zapotlán con inversión de 10 mil 100 mdp; el gobierno federal destacó que Hidalgo es líder en crecimiento económico nacional.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Presidencia, Gobernador, Sedeco, Inegi</Dependencias_mencionadas>
+		<Actores_mencionados>Marcelo Ebrard, Julio Menchaca, German Ahumada</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Mercado Libre inaugura primer centro de distribución robótico</Titular>
+		<Contenido>Mercado Libre puso en marcha en Hidalgo el primer centro de distribución robótico en México, el cual contará con 240 robots autónomos inicialmente. La empresa ha invertido más de 600 mdd en el estado desde 2024 y generado 4 mil 600 empleos directos.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Villa de Tezontepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>La presidenta Claudia Sheinbaum y el gobernador Julio Menchaca atestiguaron la puesta en marcha del primer Cedis robótico de Mercado Libre en la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Presidencia, Gobernador, Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>David Geisen, Claudia Sheinbaum, Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Abren Carnot Laboratorio</Titular>
+		<Contenido>La presidenta Claudia Sheinbaum concluyó su primer día de gira por Hidalgo con la inauguración de Laboratorios Carnot en el parque industrial Platah, proyecto con inversión inicial de 2,400 mdp para la producción farmacéutica.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Villa de Tezontepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Anuncio de inversiones</Tema_segun_la_fuente>
+		<Sintesis>Quedó inaugurada la nueva planta de Laboratorios Carnot en Platah con una inversión total estimada de 3,500 mdp para fortalecer la industria farmacéutica.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Presidencia, Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Sheinbaum, Guy Jean Savoir García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Edificarán 74 dormitorios para contingencias</Titular>
+		<Contenido>A un año de la vaguada monzónica, la Comisión Estatal de Vivienda (Cevi) edificará 74 cuartos dormitorios para contingencias en Tenango de Doria, San Bartolo Tutotepec, Huehuetla, Tlanchinol, Tianguistengo y Yahualica.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Tenango de Doria</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Mejora de vivienda</Tema_segun_la_fuente>
+		<Sintesis>La Cevi construirá 74 cuartos dormitorios de emergencia en seis municipios afectados por desastres naturales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, CEVI</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Con más de 10 mil mdp, inicia edificación del Polo Zapotlán</Titular>
+		<Contenido>En su visita a Hidalgo, el secretario de Economía federal Marcelo Ebrard Casaubón dio el banderazo inicial de las obras para edificar el Polo de Desarrollo Económico para el Bienestar Reserva Zapotlán, proyecto con más de 910 hectáreas e inversión de 10 mil 106 millones de pesos.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Zapotlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Polos del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>Marcelo Ebrard encabezó el inicio de obras del Polo de Desarrollo Económico Reserva Zapotlán con inversión de 10 mil 106 mdp para fortalecer la infraestructura industrial de la región.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, Presidencia, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Marcelo Ebrard, Claudia Sheinbaum, Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Quiere Hidalgo polos en Tula y en Tepeapulco</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar entregó al secretario de Economía Marcelo Ebrard un expediente para evaluar la instalación de un Polo de Bienestar en Ciudad Sahagún, Tepeapulco, y solicitó considerar un desarrollo adicional en Tula.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tepeapulco</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Polos del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca gestionó ante la Secretaría de Economía la creación de dos nuevos Polos de Bienestar en Ciudad Sahagún y Tula para aprovechar las reservas territoriales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca, Marcelo Ebrard</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Capacitan en prevención de adicciones</Titular>
+		<Contenido>El Instituto Hidalguense de Educación realizó el encuentro de formación El oficio de acompañar para capacitar a psicólogos escolares en detección de adicciones y convivencia escolar.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención De Adicciones</Tema_segun_la_fuente>
+		<Sintesis>El IHE capacitó a equipos regionales de psicología educativa para prevenir adicciones y fortalecer la salud socioemocional de las comunidades escolares.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>IHE, SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>N/A</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Presidenta Sheinbaum destaca el crecimiento económico de Hidalgo</Titular>
+		<Contenido>Claudia Sheinbaum y Julio Menchaca inauguraron la planta Carnot, el Cedis robótico de Mercado Libre y las obras del Polo Reserva Zapotlán, resaltando el 8.5% de alza económica estatal.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Zapotlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Crecimiento Económico</Tema_segun_la_fuente>
+		<Sintesis>Gira de la presidenta Claudia Sheinbaum con el gobernador Julio Menchaca impulsa proyectos industriales estratégicos y certifica el liderazgo económico de Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ricardo Calleja</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Presidencia, Gobernador, Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Sheinbaum, Julio Menchaca Salazar, Marcelo Ebrard</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Capacitan a los equipos regionales de psicología</Titular>
+		<Contenido>La SEPH llevó a cabo la jornada de capacitación El Oficio de Acompañar para dotar de herramientas emocionales e incluyentes a psicólogos del sistema educativo.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención De Adicciones</Tema_segun_la_fuente>
+		<Sintesis>La SEPH instruyó a personal de psicología en estrategias de convivencia escolar, regulación emocional y prevención de adicciones.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Vacunación contra la influenza, con avance de 6.8 por ciento</Titular>
+		<Contenido>La SSH informó que a 15 días de iniciar la campaña invernal se han administrado 68 mil dosis contra la influenza y 27 mil contra el Covid-19 en la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vacunación</Tema_segun_la_fuente>
+		<Sintesis>Salud estatal registra un avance de 6.8% en la aplicación de biológicos invernales contra influenza y Covid-19.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Piden donar sangre para menor quemada en Huasca</Titular>
+		<Contenido>Familiares de la estudiante Zaira solicitan con urgencia 10 donadores de sangre tras resultar lesionada por fuego durante una festividad escolar en Huasca de Ocampo.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Huasca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Donación de sangre</Tema_segun_la_fuente>
+		<Sintesis>Llaman a la solidaridad ciudadana para conseguir donadores de sangre en favor de una alumna hospitalizada por quemaduras.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Cinthya Carbajal</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Zaira</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Inauguran Sheinbaum y Menchaca primer centro robótico de Mercado Libre</Titular>
+		<Contenido>La presidenta de México, Claudia Sheinbaum Pardo, y el gobernador Julio Menchaca Salazar, encabezaron la inauguración del primer Centro de Distribución Robótico de Mercado Libre en el país, proyecto que opera con 240 robots y prevé generar cerca de 4 mil 700 empleos directos.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>1</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>Claudia Sheinbaum y Julio Menchaca inauguraron el primer Centro de Distribución Robótico de Mercado Libre en México, ubicado en Hidalgo, con una inversión acumulada de 600 mdd.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Presidencia, Gobernador, Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Sheinbaum, Julio Menchaca, David Geisen</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Arrancan obras del Podecobi reserva Zapotlán; Menchaca propone dos más</Titular>
+		<Contenido>Con la presencia de Marcelo Ebrard, secretario de Economía federal, dieron inicio los trabajos del Podecobi Reserva Zapotlán, donde el gobernador Julio Menchaca entregó propuestas para instalar dos polos más en Ciudad Sahagún y Tula.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Zapotlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Polos del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>Arrancaron las obras del Polo del Bienestar Reserva Zapotlán con la participación de Marcelo Ebrard; el gobernador Julio Menchaca gestionó dos polos adicionales en Tepeapulco y Tula.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Marcelo Ebrard, Julio Menchaca, Carlos Henkel Escorza</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Impulsan desarrollo de mujeres artesanas de la región Otomí-Tepehua</Titular>
+		<Contenido>El municipio de Tenango de Doria fue sede de la entrega de apoyos del programa Crédito a la Palabra para mujeres indígenas y afromexicanas artesanas, esquema que busca fortalecer la economía de más de 300 creadoras con una inversión cercana a los 7 millones de pesos.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Tenango de Doria</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a artesanos</Tema_segun_la_fuente>
+		<Sintesis>Entregaron apoyos del programa Crédito a la Palabra a más de 300 mujeres artesanas en Tenango de Doria por alrededor de 7 mdp.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Gómez Moreno, Claudia Sheinbaum Pardo, Julio Menchaca Salazar, Martha López Patricio, Cristina Hernández Bautista, Adán García Zamora, Evelin Leonel Cruz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>La Semarnath invita a reciclar elementos de los altares</Titular>
+		<Contenido>En el marco de los festejos de Día de Muertos, la Secretaría de Medio Ambiente y Recursos Naturales de Hidalgo (Semarnath) recomendó separar residuos, reutilizar materiales y reducir basura tras concluir las festividades.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Campaña de reciclaje</Tema_segun_la_fuente>
+		<Sintesis>La Semarnath exhortó a la ciudadanía a reciclar y separar de manera responsable los materiales utilizados en los altares de Día de Muertos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Ana Luisa Vega</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Supervisa IHM talleres de autoempleo para mujeres</Titular>
+		<Contenido>Katya Gabriela Hernández Pérez, titular del Instituto Hidalguense de las Mujeres (IHM), supervisó capacitaciones de chocolatería, repostería, piñatas y estética en Mixquiahuala para impulsar el desarrollo económico femenino.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Mixquiahuala</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Capacitación Para El Trabajo</Tema_segun_la_fuente>
+		<Sintesis>La titular del IHM realizó una gira por Mixquiahuala para supervisar capacitaciones de autoempleo e impulsar la autonomía económica de las mujeres.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, IHM, Presidencia, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Katya Gabriela Hernández Pérez, Claudia Sheinbaum, Julio Menchaca, Guillermo Olivares Reyna</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Reconoce Sheinbaum la capacidad de atracción de inversiones de Hidalgo</Titular>
+		<Contenido>La presidenta Claudia Sheinbaum y el gobernador Julio Menchaca encabezaron la inauguración de la primera etapa de Laboratorios Carnot y del Cedis robótico de Mercado Libre en el Parque Industrial Platah.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Villa de Tezontepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>Autoridades federales y estatales inauguraron complejos logísticos y farmacéuticos en el Parque Industrial Platah con inversiones millonarias.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Presidencia, Gobernador, Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Sheinbaum Pardo, Julio Menchaca Salazar, Marcelo Ebrard Casaubón, David Geisen, Guy Jean Savoir</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Brutal accidente en el bulevar Nuevo Hidalgo cobra una vida</Titular>
+		<Contenido>Un choque de gran impacto entre una camioneta y un automóvil Nissan Tsuru dejó una persona fallecida y severos daños materiales a la altura de Quinta Bonita en Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente Vial</Tema_segun_la_fuente>
+		<Sintesis>Un aparatoso choque entre dos vehículos a la altura de Quinta Bonita causó la muerte de una persona en el bulevar Nuevo Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Muere motociclista; no portaba casco</Titular>
+		<Contenido>Un motociclista que circulaba sin equipo de protección falleció en el hospital tras sufrir un derrape y quedar gravemente herido en la comunidad de El Tablón, Ixmiquilpan.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Ixmiquilpan</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente Vial</Tema_segun_la_fuente>
+		<Sintesis>Un hombre perdió la vida a causa de un accidente en motocicleta registrado sobre la carretera de la comunidad de El Tablón.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Tuzobús modificará rutas tras cierre vial por desfile</Titular>
+		<Contenido>El desfile Fiesta de las Almas 2026 provocará cierres viales y modificaciones temporales en el servicio del Tuzobús este viernes 30 de octubre. La actividad comenzará a las 17:00 horas en el Centro Cultural El Ferrocarril y avanzará por avenida Juárez, glorieta Insurgentes, avenida Revolución, calle Allende y Matamoros, hasta llegar a plaza Independencia. El Tuzobús aplicará un recorte operativo en la Ruta Troncal en tres fases, dejando fuera de servicio temporalmente ocho estaciones.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Ordenamiento vial</Tema_segun_la_fuente>
+		<Sintesis>El desfile Fiesta de las Almas 2026 generará cierres viales en el centro de Pachuca y recortes temporales en la ruta troncal del Tuzobús a partir de las 16:30 horas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Inaugura Sheinbaum CEDIS automatizado de Mercado Libre</Titular>
+		<Contenido>Mercado Libre inauguró en Villa de Tezontepec el primer Centro de Distribución (CEDIS) robótico de México, ubicado en el Parque Industrial PLATAH. La presidenta Claudia Sheinbaum encabezó la apertura de esta instalación de más de 100 mil metros cuadrados, que opera actualmente con 240 robots con meta de superar los mil ejemplares. La inversión acumulada de la empresa supera los 600 millones de dólares y genera 4 mil 700 empleos directos en Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Villa de Tezontepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>La presidenta Claudia Sheinbaum encabezó la inauguración del primer CEDIS robótico de Mercado Libre en México, ubicado en el Parque Industrial PLATAH en Villa de Tezontepec.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Presidencia, Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Sheinbaum, Marcelo Ebrard</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Da inicio la primera etapa del Polo de Desarrollo en Zapotlán</Titular>
+		<Contenido>Hidalgo inició la construcción del Polo de Desarrollo Económico para el Bienestar (Podecobi) Reserva Zapotlán, proyecto de 10 mil 106 millones de pesos que generará 5 mil empleos directos en una superficie de 910 hectáreas. Durante el evento, el secretario de Economía federal Marcelo Ebrard destacó que Hidalgo lidera el crecimiento económico nacional con un 8.5% anual en el segundo trimestre de 2026. Asimismo, el gobernador Julio Menchaca entregó propuestas para sumar dos polos en Ciudad Sahagún y Tula.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Zapotlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Polos del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>Arrancaron las obras del Polo de Desarrollo Económico Reserva Zapotlán con una inversión de 10 mil 106 mdp; el gobernador Julio Menchaca propuso dos polos adicionales para Sahagún y Tula.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Presidencia, Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca, Marcelo Ebrard, Carlos Henkel Escorza</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Carnot abre planta en complejo PLATAH</Titular>
+		<Contenido>La presidenta Claudia Sheinbaum y el gobernador Julio Menchaca inauguraron la planta de Carnot Laboratorios al interior del complejo PLATAH en Villa de Tezontepec. La obra contempla una inversión proyectada de 3 mil 500 millones de pesos y la producción de 35 millones de productos anuales. Sheinbaum destacó que la apertura se enmarca en el Plan México para impulsar la industria farmacéutica nacional y reducir las importaciones.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Villa de Tezontepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Anuncio de inversiones</Tema_segun_la_fuente>
+		<Sintesis>Carnot Laboratorios abrió la primera etapa de su planta farmacéutica en PLATAH con una inversión total de 3,500 mdp, generando 600 empleos directos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Presidencia, Sedeco, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Sheinbaum, Julio Menchaca, Iván Zavala, Marcelo Ebrard</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Van a demoler primaria en Tulancingo; edificarán otra</Titular>
+		<Contenido>La escuela primaria Aquiles Serdán de Tulancingo presenta fallas estructurales graves y deberá ser demolida y reconstruida totalmente durante el ciclo escolar 2026-2027, anunció Natividad Castrejón, titular de la SEPH. La secretaría revisará alternativas en septiembre e iniciará las obras en octubre, analizando opciones de reubicación presencial o modalidades virtuales mientras se lleva a cabo la edificación del nuevo plantel.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>Por daños en su estructura, la escuela primaria Aquiles Serdán en Tulancingo será demolida y reconstruida por la SEPH durante el ciclo escolar actual.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Estudiante sufre quemaduras en actividad escolar</Titular>
+		<Contenido>Una alumna de segundo grado de la secundaria Teodomiro Manzano, en Huasca de Ocampo, sufrió quemaduras de primero y segundo grado luego de que su atuendo confeccionado con hojas de tamal se incendiara durante una actividad de Día de Muertos. La menor recibe atención médica en un hospital de la Ciudad de México, mientras la SEPH anunció que revisará los hechos para deslindar responsabilidades.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Huasca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente</Tema_segun_la_fuente>
+		<Sintesis>Una estudiante de secundaria en Huasca resultó lesionada con quemaduras tras incendiarse su vestuario en un evento escolar; familiares solicitaron apoyo para los gastos médicos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Protección Civil</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Inician construcción del Polo del Bienestar que generaría 5 mil empleos</Titular>
+		<Contenido>Iniciaron los trabajos del Polo de Desarrollo Económico para el Bienestar Reserva Zapotlán, proyecto ejecutado por la empresa Dewa con una inversión de 10 mil 106 millones de pesos en cinco fases. El gobernador Julio Menchaca Salazar gestionó además la creación de dos nuevos polos en Ciudad Sahagún y Tula de Allende.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Municipio>Zapotlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Polos del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>Arrancaron las obras del Polo del Bienestar Reserva Zapotlán con inversión de 10 mil 106 mdp; el gobernador Julio Menchaca gestionó dos polos adicionales para Sahagún y Tula.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Sedeco, Presidencia, Inegi</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Carlos Henkel Escorza, Marcelo Ebrard</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Mercado Libre inaugura centro de distribución</Titular>
+		<Contenido>Mercado Libre inauguró su primer centro de distribución robótico en México, ubicado en el Parque Industrial Platah en Villa de Tezontepec, en un evento encabezado por la presidenta Claudia Sheinbaum y el gobernador Julio Menchaca. La nave operará con 240 robots iniciales e inversión superior a 600 mdd.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Municipio>Villa de Tezontepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>Mercado Libre puso en marcha su primer centro de distribución robótico en México, ubicado en el Parque Industrial Platah en Villa de Tezontepec.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Presidencia, Gobernador, Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Sheinbaum Pardo, Julio Menchaca Salazar, David Geisen, Marcelo Ebrard Casaubon</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Capacitación socioemocional escolar en Hidalgo</Titular>
+		<Contenido>El Instituto Hidalguense de Educación desarrolló durante tres días la capacitación estatal “El oficio de acompañar” para fortalecer a los equipos regionales de psicología educativa en convivencia, inclusión, manejo emocional y prevención de adicciones.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención De Adicciones</Tema_segun_la_fuente>
+		<Sintesis>El Instituto Hidalguense de Educación capacitó a sus equipos regionales de psicología en convivencia, regulación emocional e inclusión escolar.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, IHE, Gobernador, ISSSTE</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez, Julio Menchaca Salazar, Erick Alfonso Quijano Crespo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Tepehuacán recibe apoyos para familias y productores</Titular>
+		<Contenido>Autoridades estatales y municipales entregaron más de 600 tarjetas de los programas Madres Trabajadoras y Bienestar y Desarrollo en Tepehuacán de Guerrero, además de novillas y borregos por parte de la Saderh para fortalecer la producción del campo.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tepehuacán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo A La Mujer</Tema_segun_la_fuente>
+		<Sintesis>Entregaron más de 600 tarjetas de programas sociales y ganado ovino y bovino a familias y productores de Tepehuacán de Guerrero.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar, Saderh, Gobernador, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Martínez Enríquez, Julio Menchaca Salazar, Ricardo Gómez Moreno, Napoleón González Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Tetepango y Semarnat trazan ruta ambiental</Titular>
+		<Contenido>El presidente municipal de Tetepango, Enrique Adrián Estrada Corres, se reunió con autoridades de la Semarnat para acordar esquemas de trabajo conjunto en materia de ordenamiento territorial, normatividad ambiental y protección de recursos naturales.</Contenido>
+		<Fecha_de_publicacion>2026-10-30</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tetepango</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Ordenamiento Territorial</Tema_segun_la_fuente>
+		<Sintesis>Autoridades municipales de Tetepango se reunieron con funcionarios ambientales para dar seguimiento al ordenamiento territorial y protección de recursos naturales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Ayuntamiento, Semarnath, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Enrique Adrián Estrada Corres</Actores_mencionados>
+	</Nota>
+</NotasRadio>
