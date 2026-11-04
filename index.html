@@ -1642,7 +1642,7 @@
     }
 
     function marcarCamposSelectos(nota) {
-      ['medio', 'firma', 'dependencia', 'organismo', 'estatus', 'municipio'].forEach(id => {
+      ['usuario', 'genero', 'medio', 'firma', 'dependencia', 'organismo', 'estatus', 'municipio'].forEach(id => {
         if (nota && nota[id]) {
           document.getElementById(id).value = nota[id];
           marcarSeleccionValida(id);
@@ -2914,6 +2914,7 @@
 
       const listaUsuarios = await cargarLista(urls.usuarios, 'usuarios');
       autocompletar("usuario", "sugUsuario", listaUsuarios);
+      document.getElementById("usuario").addEventListener("blur", () => marcarSeleccionValida('usuario'));
 
       document.getElementById("dependencia").addEventListener("blur", (e) => {
         const val = e.target.value.trim();
@@ -2943,6 +2944,7 @@
 
       const generosList = await cargarLista(urls.generos, 'generos');
       autocompletar("genero", "sugGenero", generosList);
+      document.getElementById("genero").addEventListener("blur", () => marcarSeleccionValida('genero'));
       const estatusList = await cargarLista(urls.estatus, 'estatus');
       autocompletar("estatus", "sugEstatus", estatusList);
       const temasList = await cargarLista(urls.temas);
@@ -3255,6 +3257,8 @@
     document.querySelector("form").addEventListener("submit", e => {
       e.preventDefault();
       const camposAValidar = [
+        { id: 'usuario', nombre: 'Usuario' },
+        { id: 'genero', nombre: 'Género' },
         { id: 'medio', nombre: 'Medio' },
         { id: 'firma', nombre: 'Firma', opcional: true },
         { id: 'dependencia', nombre: 'Dependencia' },
