@@ -1629,13 +1629,38 @@
       return Array.from(new Set(list)).sort((a, b) => a.localeCompare(b, 'es'));
     }
 
+    function valorCanonicoEnLista(campo, valor) {
+      const lista = JSON.parse(campo.dataset.lista || '[]');
+      return lista.find(item => normalizarClave(item) === normalizarClave(valor)) || null;
+    }
+
+    function marcarSeleccionValida(idCampo) {
+      const campo = document.getElementById(idCampo);
+      const valorCanonico = valorCanonicoEnLista(campo, campo.value.trim());
+      campo.dataset.valorSeleccionado = valorCanonico || '';
+      return Boolean(valorCanonico);
+    }
+
+    function marcarCamposSelectos(nota) {
+      ['medio', 'firma', 'dependencia', 'organismo', 'estatus', 'municipio'].forEach(id => {
+        if (nota && nota[id]) {
+          document.getElementById(id).value = nota[id];
+          marcarSeleccionValida(id);
+        } else {
+          document.getElementById(id).dataset.valorSeleccionado = '';
+        }
+      });
+    }
+
     function autocompletar(idCampo, idSugerencias, lista, callback) {
       const campo = document.getElementById(idCampo);
       const contenedor = document.getElementById(idSugerencias);
       campo.dataset.lista = JSON.stringify(lista);
+      campo.dataset.valorSeleccionado = '';
       let indice = -1;
 
       campo.addEventListener("input", () => {
+        campo.dataset.valorSeleccionado = '';
         const valor = campo.value.toLowerCase().trim();
         contenedor.innerHTML = "";
         indice = -1;
@@ -1649,6 +1674,7 @@
           div.dataset.index = i;
           div.onclick = () => {
             campo.value = s;
+            campo.dataset.valorSeleccionado = s;
             contenedor.innerHTML = "";
             contenedor.style.display = 'none';
             if (callback) callback(s);
@@ -1664,6 +1690,7 @@
           e.preventDefault();
           const valorSeleccionado = items[0].textContent;
           campo.value = valorSeleccionado;
+          campo.dataset.valorSeleccionado = valorSeleccionado;
           contenedor.innerHTML = "";
           contenedor.style.display = 'none';
           if (callback) callback(valorSeleccionado);
@@ -1695,6 +1722,7 @@
           e.preventDefault();
           if (indice >= 0 && items[indice]) {
             campo.value = items[indice].textContent;
+            campo.dataset.valorSeleccionado = items[indice].textContent;
             contenedor.innerHTML = "";
             contenedor.style.display = 'none';
             if (callback) callback(campo.value);
@@ -1921,6 +1949,7 @@
       camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
         document.getElementById(id).value = nota[id];
       });
+      marcarCamposSelectos(nota);
       resetearEstadoEdicion();
       document.getElementById("dependencia").dispatchEvent(new Event('blur'));
       document.getElementById("medio").dispatchEvent(new Event('blur'));
@@ -2060,6 +2089,7 @@
       camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
         document.getElementById(id).value = nota[id];
       });
+      marcarCamposSelectos(nota);
       resetearEstadoEdicion();
       document.getElementById("dependencia").dispatchEvent(new Event('blur'));
       document.getElementById("medio").dispatchEvent(new Event('blur'));
@@ -2891,6 +2921,8 @@
         if (key) { e.target.value = key;
           autocompletar("organismo", "sugOrg", orgMap[key] || []); } else { e.target.value = val;
           autocompletar("organismo", "sugOrg", []); }
+        marcarSeleccionValida('organismo');
+        marcarSeleccionValida('dependencia');
       });
 
       document.getElementById("medio").addEventListener("blur", (e) => {
@@ -2899,6 +2931,8 @@
         e.target.value = medioCanonico || val;
         setCanalFromMedio(e.target.value, medioToCanalMap);
         actualizarFirmasDelMedio(medioCanonico, firmaMap);
+        marcarSeleccionValida('medio');
+        marcarSeleccionValida('firma');
       });
 
       autocompletar("organismo", "sugOrg", []);
@@ -3163,6 +3197,7 @@
           camposDeDatos.filter(c => c !== 'ordenCaptura').forEach(id => {
             document.getElementById(id).value = registroDuplicado[id] || '';
           });
+          marcarCamposSelectos(registroDuplicado);
           resetearEstadoEdicion();
           document.getElementById("dependencia").dispatchEvent(new Event('blur'));
           document.getElementById("medio").dispatchEvent(new Event('blur'));
@@ -3220,20 +3255,22 @@
     document.querySelector("form").addEventListener("submit", e => {
       e.preventDefault();
       const camposAValidar = [
-        { id: 'medio', lista: listasParaValidar.medios, nombre: 'Medio' },
-        { id: 'dependencia', lista: listasParaValidar.dependencias, nombre: 'Dependencia' },
-        { id: 'genero', lista: listasParaValidar.generos, nombre: 'Género' },
-        { id: 'estatus', lista: listasParaValidar.estatus, nombre: 'Estatus' },
-        { id: 'municipio', lista: listasParaValidar.municipios, nombre: 'Municipio' }
+        { id: 'medio', nombre: 'Medio' },
+        { id: 'firma', nombre: 'Firma', opcional: true },
+        { id: 'dependencia', nombre: 'Dependencia' },
+        { id: 'organismo', nombre: 'Organismo' },
+        { id: 'estatus', nombre: 'Estatus' },
+        { id: 'municipio', nombre: 'Municipio' }
       ];
       for (const campo of camposAValidar) {
-        const valorInput = document.getElementById(campo.id).value.trim();
-        const esValido = campo.id === 'medio'
-          ? campo.lista.some(valor => normalizarClave(valor) === normalizarClave(valorInput))
-          : campo.lista.includes(valorInput);
-        if (valorInput && !esValido) {
-          alert(`Error: El valor "${valorInput}" en el campo ${campo.nombre} no es válido.`);
-          document.getElementById(campo.id).focus();
+        const input = document.getElementById(campo.id);
+        const valorInput = input.value.trim();
+        if (!valorInput && campo.opcional) continue;
+        const valorSeleccionado = input.dataset.valorSeleccionado || '';
+        const seleccionValida = valorSeleccionado && normalizarClave(valorSeleccionado) === normalizarClave(valorInput);
+        if (!seleccionValida) {
+          alert(`Error: Seleccione un valor de la lista desplegable para el campo ${campo.nombre}.`);
+          input.focus();
           return;
         }
       }
