@@ -1656,6 +1656,9 @@
       const campo = document.getElementById(idCampo);
       const contenedor = document.getElementById(idSugerencias);
       campo.dataset.lista = JSON.stringify(lista);
+      campo._listaAutocomplete = lista;
+      if (campo.dataset.autocompletarInicializado === 'true') return;
+      campo.dataset.autocompletarInicializado = 'true';
       campo.dataset.valorSeleccionado = '';
       let indice = -1;
 
@@ -1666,7 +1669,7 @@
         indice = -1;
         contenedor.style.display = 'none';
         if (!valor) return;
-        const sugerencias = lista.filter(item => item.toLowerCase().includes(valor));
+        const sugerencias = campo._listaAutocomplete.filter(item => item.toLowerCase().includes(valor));
         sugerencias.forEach((s, i) => {
           const div = document.createElement("div");
           div.textContent = s;
@@ -1781,16 +1784,24 @@
     function setCanalFromMedio(medioValue, map) {
       const canalInput = document.getElementById('canal');
       const checkCanal = document.getElementById('checkCanal');
+      const bloqueoAutomatico = canalInput.dataset.bloqueoAutomaticoCanal === 'true';
+      if (campoEstaBloqueado('canal') && !bloqueoAutomatico) return;
       const key = findKeyCaseInsensitive(map, medioValue);
       let suggestedCanal = '';
       if (key && map[key].length > 0) {
         suggestedCanal = map[key][0];
       }
       if (suggestedCanal) {
+        if (campoEstaBloqueado('canal') && bloqueoAutomatico) {
+          checkCanal.checked = false;
+          canalInput.dataset.bloqueoAutomaticoCanal = 'false';
+          alternarBloqueo('canal');
+        }
         canalInput.value = suggestedCanal;
         localStorage.setItem('canal', suggestedCanal);
         checkCanal.checked = true;
         alternarBloqueo('canal');
+        canalInput.dataset.bloqueoAutomaticoCanal = 'true';
       } else if (!canalInput.value) {
         canalInput.value = '';
         localStorage.removeItem('canal');
@@ -1802,11 +1813,21 @@
       const campoFirma = document.getElementById('firma');
       const firmaActual = campoFirma.value.trim();
       autocompletar("firma", "sugFirma", firmas);
+      if (campoEstaBloqueado('firma')) {
+        marcarSeleccionValida('firma');
+        return;
+      }
       if (firmas.length === 1) {
         campoFirma.value = firmas[0];
       } else if (!firmas.some(firma => normalizarClave(firma) === normalizarClave(firmaActual))) {
         campoFirma.value = '';
       }
+      marcarSeleccionValida('firma');
+    }
+
+    function campoEstaBloqueado(idCampo) {
+      const check = document.getElementById(`check${idCampo.charAt(0).toUpperCase() + idCampo.slice(1)}`);
+      return Boolean(check && check.checked);
     }
 
     function ajustarAlturaTitular() {
@@ -2046,6 +2067,7 @@
       const checkbox = document.getElementById(checkboxId);
       campo.readOnly = checkbox.checked;
       campo.classList.toggle("bloqueado", checkbox.checked);
+      if (idCampo === 'canal') campo.dataset.bloqueoAutomaticoCanal = 'false';
       localStorage.setItem(`bloqueado_${idCampo}`, checkbox.checked);
       if (checkbox.checked) {
         localStorage.setItem(idCampo, campo.value);
@@ -2954,6 +2976,10 @@
 
       const canalesLista = Array.from(new Set(Object.values(medioToCanalMap).flat())).sort((a, b) => a.localeCompare(b, 'es'));
       autocompletar("canal", "sugCanal", canalesLista);
+      ['usuario', 'genero', 'medio', 'firma', 'dependencia', 'organismo', 'estatus', 'municipio'].forEach(id => {
+        const campo = document.getElementById(id);
+        if (campo.value.trim() && campo.dataset.lista) marcarSeleccionValida(id);
+      });
 
       const idInput = document.getElementById('id');
       idInput.addEventListener('input', event => {
@@ -3031,7 +3057,10 @@
       // ===== PERSISTENCIA =====
       CAMPOS_CON_BLOQUEO.forEach(id => {
         const campo = document.getElementById(id);
-        if (localStorage.getItem(id)) campo.value = localStorage.getItem(id);
+        if (localStorage.getItem(id)) {
+          campo.value = localStorage.getItem(id);
+          if (campo._listaAutocomplete || campo.dataset.lista) marcarSeleccionValida(id);
+        }
         campo.addEventListener("input", () => localStorage.setItem(id, campo.value));
         const chk = document.getElementById(`check${id.charAt(0).toUpperCase() + id.slice(1)}`);
         if (chk) {
