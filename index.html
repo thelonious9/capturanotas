@@ -1772,9 +1772,10 @@
         div.dataset.index = i;
         div.onclick = () => {
           campo.value = s;
+          marcarSeleccionValida(idCampo);
           contenedor.innerHTML = "";
           contenedor.style.display = 'none';
-          document.getElementById(idCampo).dispatchEvent(new Event('blur'));
+          campo.dispatchEvent(new Event('blur'));
         };
         contenedor.appendChild(div);
       });
