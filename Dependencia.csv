@@ -146,9 +146,9 @@ Gobierno,Gobierno
 Hacienda,IHDEP
 Delegación,Delegación
 Delegación,Titular
-OCSAD,OCSAD
 OCSAD,Titular
 OCSAD,Extitular
+OCSAD,OCSAD
 Despacho,Despacho
 Despacho,Titular
 IEEH,IEEH
@@ -168,6 +168,7 @@ Presidencia,Sedena
 Presidencia,Sedatu
 Presidencia,Gobernación
 Presidencia,Salud
+Presidencia,Seguridad Ciudadana
 Presidencia,INAH
 Presidencia,Medio ambiente
 Presidencia,IMPI
@@ -202,14 +203,9 @@ PES,PES
 MC,MC
 MC,Titular
 Semarnath,Simaeh
-Planeación,COEMERE
+Segobh,Repuve
+Aspirantes,Viggiano
+Planeación,Extitular
 PAZ,PAZ
 PAZ,Titular
-Somos México,Somos México
-Somos México,Titular
-Somos México,Titular
-Presidencia,IMSS-Bienestar
-Segobh,Repuve
-Planeación,Extitular
-PRI,Viggiano
-Presidencia,SESNSP
+INE,INE
