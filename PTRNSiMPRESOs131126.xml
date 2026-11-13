@@ -1,0 +1,1612 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Anuncian inversión brasileña en Hidalgo</Titular>
+		<Contenido>El Grupo WEG, empresa brasileña especializada en la fabricación de equipos eléctricos, invertirá 250 millones de dólares en la construcción de una nueva planta en Hidalgo, como parte de un proyecto que se desarrollará de 2026 a 2030. El anuncio fue realizado por el secretario de Economía, Marcelo Ebrard, quien destacó que esta inversión refleja la confianza de la compañía en el crecimiento económico de México. La presidenta Claudia Sheinbaum señaló que el proyecto fortalecerá la producción nacional de generadores, alternadores y transformadores para la CFE.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>1</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>Grupo WEG invertirá 250 MDD en Hidalgo para construir una planta de equipos eléctricos que generará 2,000 empleos directos y 4,000 indirectos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Laura Arana</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, CFE</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Sheinbaum, Marcelo Ebrard, Daniel Godinho</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Salud descarta casos de Coxsackie en Actopan</Titular>
+		<Contenido>Ante publicaciones en redes sociales sobre posibles casos de virus Coxsackie en escuelas de Actopan, autoridades de la Secretaría de Salud de Hidalgo (SSH) indicaron que una comitiva acudió a la primaria "Marie Curie" y descartó un brote de la enfermedad, manteniendo coordinación con la SEPH para reforzar medidas preventivas.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Actopan</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención De Enfermedades</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Salud de Hidalgo descartó un brote de virus Coxsackie en una escuela primaria de Actopan y coordinó acciones preventivas con la SEPH.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Fernanda Huerta</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Darán crédito para arreglo en El Géiser</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar informó que NAFIN otorgará un crédito de 1.8 millones de pesos al parque acuático El Géiser en Ixmiquilpan para resolver la obstrucción del conducto de vapor y agua termal, tras reunirse con la directora de la CFE, Emilia Calleja, y representantes del balneario durante su gira por el Valle del Mezquital.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Ixmiquilpan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Géiser</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca anunció un crédito de 1.8 MDP de NAFIN para solucionar la obstrucción de vapor en El Géiser y entregó apoyos agrícolas en Ixmiquilpan.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Omar Santiago</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, CFE</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca, Emilia Calleja</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>El Buen Fin impulsa ventas en comercios</Titular>
+		<Contenido>La décima quinta edición de El Buen Fin impulsa las ventas en comercios formales y tradicionales de Pachuca y del estado de Hidalgo, estimando una derrama económica superior a los mil 600 millones de pesos en la entidad, según Procentro Pachuca y Canaco Servytur.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Buen Fin</Tema_segun_la_fuente>
+		<Sintesis>Comerciantes de Pachuca e Hidalgo prevén recuperar ventas con una derrama económica de 1,600 MDP durante la décimo quinta edición de El Buen Fin.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Sonia Nochebuena y Fernanda Huerta</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Canaco Servytur</Dependencias_mencionadas>
+		<Actores_mencionados>Ramiro Gutiérrez Barranco, José Antonio Serrano</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Fuera del Mando Coordinado cuatro municipios</Titular>
+		<Contenido>Cuatro de los 84 municipios de Hidalgo (Chilcuautla, Huautla, Tepetitlán y Lolotla) se mantienen fuera del esquema de Mando Coordinado, lo que limita la capacidad de respuesta policial, según informó la Subsecretaría de Operación Policial de la SSPH.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Estatal</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Mando Coordinado</Tema_segun_la_fuente>
+		<Sintesis>La SSPH informó que Chilcuautla, Huautla, Tepetitlán y Lolotla no forman parte del Mando Coordinado, afectando el combate al narcomenudeo y huachicol.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, C5i</Dependencias_mencionadas>
+		<Actores_mencionados>Julio César Meléndez Coria</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Llama la SSH a prevenir casos de neumonía</Titular>
+		<Contenido>La Secretaría de Salud de Hidalgo (SSH) exhortó a la población a reforzar las medidas de prevención contra la neumonía durante la temporada invernal, tras contabilizar dos mil 119 casos en la entidad en lo que va de 2026.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Estatal</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Campaña de vacunación</Tema_segun_la_fuente>
+		<Sintesis>La SSH reportó 2,119 casos de neumonía en Hidalgo en 2026 y recomendó vacunarse para proteger a sectores vulnerables durante el invierno.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Maximiliano Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Cynthia Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Accidente en la México-Querétaro genera desorden vial</Titular>
+		<Contenido>Un choque entre tres autobuses y un tráiler en el kilómetro 49 de la autopista México-Querétaro en Coyotepec dejó 27 lesionados, trasladados a Tepeji del Río y Tula. El gobernador Julio Menchaca dio instrucciones para brindar seguimiento médico y acompañamiento a los afectados.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Tepeji del Río</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente</Tema_segun_la_fuente>
+		<Sintesis>Un choque múltiple entre tres autobuses y un tráiler en la autopista México-Querétaro provocó 27 heridos, siendo trasladados a hospitales de Tepeji y Tula.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alan Jiménez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Gobernador, Guardia Nacional</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Estudiantes demandan solución por terrenos</Titular>
+		<Contenido>Alumnos de la Universidad Politécnica de la Energía (UPE) en Tula retiraron bloqueos en la carretera Cruz Azul-Bomintzhá tras acordar mesas de diálogo con Emanuel Flores Bermúdez, director de Educación Superior de Hidalgo, respecto al litigio por predios universitarios.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>PROTESTA ESTUDIANTIL</Tema_segun_la_fuente>
+		<Sintesis>Estudiantes de la UPE levantaron bloqueos carreteros tras acordar mesas de diálogo con autoridades de la SEPH sobre la situación jurídica de sus terrenos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Rosalía Maldonado y César Martínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Emanuel Flores Bermúdez, Brenda Flores</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>La empresa investigada por presunta corrupción fue contratada por la SEP para este material</Titular>
+		<Contenido>La empresa Gráficas Corona J.E., investigada por la ASF por presunta corrupción en el INE, obtuvo contratos con Conaliteg y la SEP por más de 37 millones de pesos para imprimir casi dos millones de libros de texto para preescolar.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Nacional</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Libros de texto</Tema_segun_la_fuente>
+		<Sintesis>Conaliteg contrató a Gráficas Corona J.E. por 37 MDP para imprimir libros de preescolar, pese a investigaciones de la ASF por presunta corrupción.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Rafael García</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEP, INE</Dependencias_mencionadas>
+		<Actores_mencionados>Guadalupe Taddei, Claudia Sheinbaum</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Empresa brasileña llegará a Hidalgo con inversión de 250 mdd</Titular>
+		<Contenido>El secretario de Economía, Marcelo Ebrard Casaubón, informó que la empresa brasileña Weg instalará una planta en Hidalgo, lo que representará una inversión de 250 millones de dólares y la generación de 2 mil empleos directos y 4 mil indirectos. Durante la conferencia de prensa matutina de la presidenta Claudia Sheinbaum Pardo, el secretario detalló que la inversión se aplicará hasta 2030 para la fabricación de generadores y transformadores. Por su parte, el gobernador Julio Menchaca Salazar destacó que la compañía contemplaba instalarse en EU, pero tras gestiones intensas se ofrecieron todas las facilidades para consolidar su llegada a Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Nota</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>Grupo WEG invertirá 250 millones de dólares en Hidalgo para construir una planta de equipos eléctricos, generando 2 mil empleos directos y 4 mil indirectos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Marcelo Ebrard, Claudia Sheinbaum, Julio Menchaca, Daniel Godinho</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Descarta CMIC integrarse a obra del Tren AIFA-Pachuca por avance del proyecto</Titular>
+		<Contenido>Empresas afiliadas a la Cámara Mexicana de la Industria de la Construcción (CMIC) delegación Hidalgo ya no podrán sumarse a la construcción del tren AIFA-Pachuca debido a lo avanzado del proyecto, refirió el presidente Germán Ramón Carrillo Téllez; sin embargo, buscarán la certificación de 15 empresas para vincularlas al desarrollo del Polo de Desarrollo Económico y Bienestar de Zapotlán.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Zapotlán</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Nota</Genero_periodistico>
+		<Tema_segun_la_fuente>Tren AIFA</Tema_segun_la_fuente>
+		<Sintesis>La CMIC Hidalgo descartó participar en las obras finales del Tren AIFA-Pachuca, pero buscará certificar a 15 constructoras para vincularlas al Polo de Zapotlán.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Germán Ramón Carrillo Téllez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Reportan 30 lesionados por accidente en la vía México-Querétaro</Titular>
+		<Contenido>El accidente vial registrado la mañana de ayer sobre la autopista México-Querétaro, a la altura de Coyotepec, Estado de México, en el que estuvieron implicados estudiantes y personal de una escuela privada del municipio de Atitalaquia, dejó 30 heridos, confirmaron autoridades. Mediante una tarjeta informativa, la SEPH externó su solidaridad con la comunidad del Centro Educativo School House Safari. Por instrucciones del gobernador Julio Menchaca Salazar, autoridades de salud y Protección Civil mantienen seguimiento en hospitales de Tula y Tepeji.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Atitalaquia</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Nota</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente autobús</Tema_segun_la_fuente>
+		<Sintesis>Un choque múltiple y volcadura en la autopista México-Querétaro dejó 30 estudiantes y docentes de Atitalaquia heridos, auxiliados por Protección Civil y cuerpos de emergencia.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Joselyn Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, SEPH, SSPH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Ángel Barañano Guerrero, Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>XIX Festival del Pulque ofrecerá más de 100 sabores de curados</Titular>
+		<Contenido>La comunidad de Ocampo, en Atotonilco de Tula, recibirá el 21 y 22 de noviembre la XIX edición del Festival del Pulque, con una oferta que superará los 100 sabores de curados y una agenda de música, talleres, cocina tradicional y actividades para las infancias. El encuentro reunirá a más de 50 productores y artesanos locales para rescatar la cultura magueyera.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Atotonilco de Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Nota</Genero_periodistico>
+		<Tema_segun_la_fuente>Festival Gastronómico</Tema_segun_la_fuente>
+		<Sintesis>La comunidad de Ocampo en Atotonilco de Tula realizará el XIX Festival del Pulque el 21 y 22 de noviembre con más de 100 variedades de curados y pabellón artesanal.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Evitan más de $19 millones en extorsiones telefónicas</Titular>
+		<Contenido>Hidalgo ocupa el primer lugar nacional en reducción de llamadas de extorsión concretadas, aseguró el secretario de Seguridad Pública estatal, Salvador Cruz Neri, durante un recorrido informativo por las instalaciones del C5i. De enero a noviembre de 2026 se registraron 3 mil 600 llamadas de extorsión, logrando evitar que 3 mil 400 se concretaran y salvaguardando más de 19 millones de pesos.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>20</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Nota</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención de Extorsión</Tema_segun_la_fuente>
+		<Sintesis>La SSPH reportó que Hidalgo encabeza la reducción de extorsiones telefónicas en el país, evitando el pago de más de 19 millones de pesos mediante denuncias al 089 y monitoreo del C5i.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri, Fernando Bautista, Verónica Morales, Israel Zaragoza</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Anuncios de la IP en Hidalgo suman $69 mil millones</Titular>
+		<Contenido>La inversión privada anunciada en Hidalgo alcanzó los 69 mil 34 millones de pesos entre el 1 de enero y el 12 de noviembre de 2026. El monto integra los dos paquetes presentados por la Secretaría de Desarrollo Económico, la planta farmacéutica de Solar International Core Canada y la nueva fábrica de equipos eléctricos de WEG, anunciada este 12 de noviembre.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>Entre enero y noviembre de 2026, las inversiones privadas anunciadas en Hidalgo alcanzaron los 69 mil 34 millones de pesos a través de proyectos industriales, farmacéuticos y tecnológicos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Miguel Ángel Puértolas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Chocan autobuses con alumnos de Atitalaquia; 27 lesionados</Titular>
+		<Contenido>Un choque múltiple registrado en la autopista México-Querétaro, a la altura de Coyotepec, dejó 27 personas lesionadas, entre ellas alumnos, docentes y padres de familia del colegio School House Safari de Atitalaquia. Las autoridades estatales y cuerpos de emergencia auxiliaron a los heridos y los trasladaron a hospitales de Tepeji del Río, Tula y Tultitlán.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Atitalaquia</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente autobús</Tema_segun_la_fuente>
+		<Sintesis>Un accidente vial en la autopista México-Querétaro dejó 27 lesionados pertenecientes a un colegio de Atitalaquia; autoridades hidalguenses dieron seguimiento médico en hospitales de la región.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>C. Medellín y A. Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PC, SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>En ocho de los 12 Ceresos y en el área femenil del penal de Pachuca no hay doctor</Titular>
+		<Contenido>Los penales de Hidalgo acumulan 16 fallecimientos de internos entre 2020 y noviembre de 2026. Además, el Informe Anual 2025 de la CDHEH reveló que ocho Ceresos de la entidad y el área femenil de Pachuca carecen de médico adscrito en sus consultorios para atender a la población penitenciaria.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deficiencias Ceresos</Tema_segun_la_fuente>
+		<Sintesis>La CDHEH documentó que ocho penales de Hidalgo y el área femenil de Pachuca no cuentan con personal médico adscrito, en un contexto de 16 decesos registrados en los últimos seis años.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, CDHEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Necesario, combatir sobrecupo en Ceresos</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar reconoció la urgencia de ampliar la infraestructura penitenciaria con un nuevo Cereso y contratar más custodios para abatir el sobrecupo y atender las observaciones del Diagnóstico Nacional de la CNDH. Por su parte, la diputada Mónica Leanett Reyes coincidió en que la solución de fondo radica en aumentar los espacios carcelarios.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Ampliación Cereso</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca planteó la necesidad de construir un nuevo Cereso y abatir el déficit de custodios para solucionar el hacinamiento e inseguridad en los penales estatales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, SSPH, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca, Mónica Leanett Reyes Martínez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Alertan por convocatorias apócrifas</Titular>
+		<Contenido>El Instituto Hidalguense de las Mujeres (IHM) desmintió ofertas de empleo fraudulentas en redes sociales que emplean apócrifamente el nombre de los Centros LIBRE y la Secretaría de las Mujeres federal, exhortando a consultar únicamente los canales oficiales.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Alerta de Fraude</Tema_segun_la_fuente>
+		<Sintesis>El Instituto Hidalguense de las Mujeres alertó sobre falsas convocatorias laborales difundidas en redes sociales e instó a verificar las vacantes en portales institucionales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, IHM</Dependencias_mencionadas>
+		<Actores_mencionados>Katya Gabriela Hernández Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Bloquean carretera por conflicto en UPE</Titular>
+		<Contenido>Alumnos de la Universidad Politécnica de la Energía (UPE) realizaron un bloqueo en la carretera Bominthzá-Cruz Azul para protestar contra la pérdida de instalaciones universitarias, falta de laboratorios y opacidad en el manejo presupuestal.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>PROTESTA ESTUDIANTIL</Tema_segun_la_fuente>
+		<Sintesis>Estudiantes de la UPE bloquearon la carretera Bominthzá-Cruz Azul como medida de presión para exigir transparencia e infraestructura educativa adecuada.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, UPE</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Delimitarán y protegerán 14 Áreas Naturales Protegidas</Titular>
+		<Contenido>Con un presupuesto de 1.37 millones de pesos, la Semarnath ejecutará acciones de delimitación física y esquemas de protección ambiental en 14 Áreas Naturales Protegidas de Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Área Natural Protegida</Tema_segun_la_fuente>
+		<Sintesis>Invierten 1.3 millones de pesos para reforzar los trabajos de deslinde y conservación en 14 reservas ecológicas de Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>4</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Usuario>Magda Acuña</Usuario>
+		<Titular>Programan 94 cirugías gratuitas para habitantes de 37 municipios</Titular>
+		<Contenido>Autoridades estatales del sector salud abrieron una jornada médica especializada para realizar 94 cirugías reconstructivas y oftalmológicas sin costo a beneficiarios de 37 municipios hidalguenses.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Jornada de cirugías</Tema_segun_la_fuente>
+		<Sintesis>Benefician a pobladores de 37 municipios con un programa gratuito de cirugías especializadas y reconstructivas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>4</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>WEG invertirá 250 millones de dólares en la entidad</Titular>
+		<Contenido>La empresa brasileña WEG destinará 250 millones de dólares de 2026 a 2030 para construir una nueva planta de equipos eléctricos estratégicos para centros de datos e inteligencia artificial en Hidalgo, generando 2 mil empleos directos y 4 mil indirectos.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>Grupo WEG construirá una planta en Hidalgo con una inversión de 250 mdd para producir infraestructura eléctrica de alta tecnología para centros de datos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Marcelo Ebrard, Daniel Marteleto Godinho</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Julio Menchaca Salazar anunció 10 proyectos nuevos para Ixmiquilpan</Titular>
+		<Contenido>Durante las Rutas de la Transformación en Ixmiquilpan, el gobernador Julio Menchaca Salazar entregó obras de agua potable, caminos y apoyos agrícolas, sociales y artesanales, acumulando 367 mdp invertidos en el municipio.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Ixmiquilpan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Boletín</Genero_periodistico>
+		<Tema_segun_la_fuente>Entrega De Apoyos</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca encabezó una jornada de trabajo en Ixmiquilpan donde anunció 10 proyectos hídricos y entregó apoyos al campo, artesanos y programas sociales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>Sí</Es_replica>
+		<Medio_de_origen>Comunicado gubernamental</Medio_de_origen>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Bienestar, Saderh, DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca, Ricardo Gómez Moreno, Alejandro Sánchez García, Napoleón González Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Titular de SSPH se reunió con los 80 mandos</Titular>
+		<Contenido>Salvador Cruz Neri encabezó una reunión de trabajo con los 80 mandos coordinados municipales y 27 delegados estatales para coordinar operativos y dar seguimiento a estrategias de seguridad.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Estrategia de seguridad</Tema_segun_la_fuente>
+		<Sintesis>La SSPH sostuvo una sesión de trabajo con mandos policiales para coordinar operativos de prevención delictiva en las distintas regiones del estado.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>La SSH exhortó a prevenir la neumonía en periodo invernal</Titular>
+		<Contenido>La Secretaría de Salud de Hidalgo recomendó reforzar las medidas de prevención contra la neumonía ante la temporada invernal, tras contabilizar 2 mil 119 casos acumulados este año.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Boletín</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención De Enfermedades</Tema_segun_la_fuente>
+		<Sintesis>Autoridades sanitarias de Hidalgo llamaron a cuidar la salud de niños y adultos mayores ante el riesgo de enfermedades respiratorias durante el invierno.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>Sí</Es_replica>
+		<Medio_de_origen>Comunicado gubernamental</Medio_de_origen>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Cynthia Pérez Campos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Evitan extorsiones por 19 mdp en Hidalgo</Titular>
+		<Contenido>Mediante intervenciones de la línea 089 y el C5i, la Secretaría de Seguridad Pública evitó pérdidas por 19 millones de pesos al frustrar 3 mil 400 llamadas de extorsión telefónica en la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención de Extorsión</Tema_segun_la_fuente>
+		<Sintesis>La SSPH logró bloquear miles de intentos de extorsión telefónica en Hidalgo mediante el uso de tecnología y la participación ciudadana.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Víctor Valera</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, C5i, Pemex</Dependencias_mencionadas>
+		<Actores_mencionados>Fernando Bautista</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Expansión industrial y contaminación afecta el cultivo del maguey</Titular>
+		<Contenido>Organizadores del 19 Festival del Pulque Ocampo alertaron que la industrialización y contaminación ambiental en Atotonilco de Tula han propiciado el deterioro de las plantaciones de maguey en la zona.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Atotonilco de Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Festival Cultural</Tema_segun_la_fuente>
+		<Sintesis>El Festival del Pulque en Ocampo busca concientizar sobre el rescate del maguey y la preservación del trabajo tlachiquero amenazado por el avance industrial.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Marisol López Santiago</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Reportan 30 heridos en accidente múltiple</Titular>
+		<Contenido>Un tráiler chocó contra tres autobuses que trasladaban a 117 integrantes de una escuela particular de Atitalaquia sobre la autopista México-Querétaro, provocando 30 personas lesionadas trasladadas a hospitales de Tepeji y Tula.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Atitalaquia</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente autobús</Tema_segun_la_fuente>
+		<Sintesis>Un accidente vial en la autopista México-Querétaro dejó saldo de 30 personas lesionadas, entre ellas 14 menores de edad de una excursión escolar hidalguense.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo y Erika Gutiérrez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PC, SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Estudiantes protestan por supuesto desalojo</Titular>
+		<Contenido>Alumnos de la Universidad Politécnica de la Energía (UPE) bloquearon la carretera Tula-Bomintzhá exigiendo transparencia y atención al conflicto legal sobre el terreno del plantel perdido por la SEPH.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>PROTESTA ESTUDIANTIL</Tema_segun_la_fuente>
+		<Sintesis>Estudiantes universitarios protestaron en Tula por la disputas de terrenos que afectan la infraestructura de la Universidad Politécnica de la Energía.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Brenda Flores Alarcón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Empresa brasileña WEG invertirá 250 millones de dólares en Hidalgo</Titular>
+		<Contenido>La empresa brasileña WEG anunció la instalación de una nueva planta en Hidalgo, con una inversión de 250 millones de dólares, que permitirá ampliar su capacidad industrial y generar 2 mil empleos directos y 4 mil indirectos. El vicepresidente global de Sostenibilidad y Relaciones Institucionales de Grupo WEG, Daniel Godinho, señaló que la transformación impulsada por la digitalización y la inteligencia artificial requiere infraestructura energética confiable, eficiente y robusta. En este sentido, destacó la importancia de fortalecer la fabricación de generadores, transformadores, motores eléctricos, sistemas de distribución eléctrica y soluciones de automatización para centros de datos, además de atender las necesidades del sector energético nacional. "La decisión de realizar esta nueva inversión refleja nuestra confianza en México y nuestra convicción de que el país tiene una gran oportunidad para seguir fortaleciendo su papel frente a la revolución tecnológica". Actualmente, WEG cuenta con más de 50 mil colaboradores en el mundo, distribuidos en 69 plantas industriales ubicadas en 18 países, además de tener presencia comercial en más de 135 mercados. En México, la compañía lleva más de 25 años de operaciones y cuenta con 6 mil colaboradores, 400 ingenieros, cuatro parques industriales y una red de más de 500 distribuidores. En los últimos años ha invertido alrededor de 400 millones de dólares en el país, donde atiende a más de 2 mil clientes y exporta sus productos a más de 30 mercados. Godinho señaló que se prevé un crecimiento exponencial de los centros de datos, lo que incrementará la demanda de infraestructura eléctrica; nueva inversión permitirá atender tanto las necesidades del mercado nacional y América del Norte.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>La empresa brasileña WEG invertirá 250 millones de dólares en una nueva planta en Hidalgo para la fabricación de equipos eléctricos, generando 2 mil empleos directos y 4 mil indirectos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Daniel Godinho</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Excursión escolar de niños termina en choque y volcadura; hospitalizan a 24 personas</Titular>
+		<Contenido>Un total de 24 personas, de las cuales la mayoría son alumnos de preescolar, fueron hospitalizadas derivado de un accidente vial ocurrido la mañana de este jueves, tras el choque entre un tráiler y dos autobuses turísticos en los que viajaban, cuando transitaban sobre la carretera México Querétaro y se dirigían a una excursión al Papalote Museo del Niño, de la Ciudad de México. La Secretaría de Educación Pública de Hidalgo (SEPH) informó que los alumnos son del centro educativo particular "School House Safari", de Atitalaquia, por lo que 14 fueron enviados al Hospital IMSS Ordinario de Tula y 10 al Hospital de Pemex, sin que se reportaran heridos de gravedad. De acuerdo con los primeros reportes, los hechos ocurrieron en Coyotepec, Estado de México, donde el conductor del tráiler, presuntamente iba a exceso de velocidad, embistió a un autobús y provocó la volcadura de otro. Al lugar llegaron cuerpos de emergencia del estado vecino, así como de la Guardia Nacional, quienes ayudaron a salir a los infantes de las unidades y los paramédicos les brindaron los primeros auxilios o facilitaron los traslados a los nosocomios. Mediante uno de los videos que circulan en redes sociales, se observó que los pasajeros del autobús volcado eran sacados por las ventilas del techo de la unidad por personal de Protección Civil y algunas personas que se encontraban en el sitio. Durante varias horas permaneció cerrada la autopista con dirección a la Ciudad de México.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Atitalaquia</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente autobús</Tema_segun_la_fuente>
+		<Sintesis>Un choque múltiple en la autopista México-Querétaro dejó 24 personas hospitalizadas, entre ellas niños de un preescolar de Atitalaquia que iban de excursión a la Ciudad de México.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Antonio Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>SEPH, Segobh</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Julio Menchaca anuncia 10 nuevos proyectos para Ixmiquilpan</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar llevó una nueva jornada de las Rutas de la Transformación en Ixmiquilpan, municipio que visita por octava vez durante su administración. En dicho municipio la administración estatal registra una inversión acumulada de 367 millones de pesos para el desarrollo de 70 obras, como la rehabilitación de la carretera paso por Ixmiquilpan, la Unidad Deportiva, el circuito Dios Padre y diversos sistemas de agua potable; a lo cual se suman 10 proyectos anunciados durante esta gira de trabajo. Se trata de diversas acciones de desinfección de agua, la terminación del sistema de agua potable de la localidad de Panales, la construcción de la red de distribución de agua potable en El Espino y de la línea de distribución en El Dexthi Alberto; además de las pavimentaciones hidráulicas y asfálticas en el camino al panteón de El Tephé, del circuito El Mezquital y del camino Los Pinos-Panales, así como en las localidades de Panales, La Estación y El Defay, detalló Alejandro Sánchez García, secretario de infraestructura Pública y Desarrollo Urbano Sostenible. En total 767 personas de Ixmiquilpan, Cardonal, Chilcuautla y Santiago de Anaya recibieron tarjetas de los programas "Apoyo para el Bienestar y el Desarrollo" y "Bienestar de Madres Trabajadoras".</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Ixmiquilpan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Entrega De Apoyos</Tema_segun_la_fuente>
+		<Sintesis>Durante su octava visita a Ixmiquilpan en las Rutas de la Transformación, el gobernador Julio Menchaca anunció 10 nuevos proyectos de infraestructura hídrica y vial, además de la entrega de apoyos sociales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Bienestar</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca, Alejandro Sánchez García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Usuario>Sandra Sauza</Usuario>
+		<Titular>Jóvenes mantienen vigente el consumo de libros físicos; novelas encabezan preferencias</Titular>
+		<Contenido>En el marco del Día Nacional del Libro, que se conmemora este 12 de noviembre en México, los jóvenes representan uno de los principales sectores de consumidores de libros físicos en las librerías de la capital hidalguense, donde las novelas figuran entre los géneros más solicitados, de acuerdo con un sondeo realizado por Síntesis Hidalgo. Los encargados de Plaza del Libro Trillas y Mayahuel señalaron que el interés por adquirir ejemplares también alcanza a los niños, quienes incluso toman la iniciativa de acudir con sus padres a estos negocios para comprar libros. En cuanto al comportamiento comercial, los responsables de estas librerías reportaron un balance favorable en sus ventas durante lo que va de 2026. Sin embargo, el panorama presenta diferencias entre establecimientos, pues Librero en Andanzas que se ubica cercano a plaza Juárez registró una disminución de hasta 25% en la comercialización de ejemplares. Al hablar sobre los cambios en los hábitos de consumo, los entrevistados reconocieron la influencia de la digitalización en las formas de acceder a los contenidos; no obstante, destacaron que todavía hay lectores que preferieren comprar libros impresos y acudir directamente a estos establecimientos. Por lo anterior, los encargados subrayaron la importancia de mantener las acciones de fomento a la lectura.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Día del Libro</Tema_segun_la_fuente>
+		<Sintesis>En el Día Nacional del Libro, librerías de Pachuca reportan que jóvenes y niños mantienen la demanda de libros impresos, principalmente novelas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>En cuatro años, se han destinado 165 mdp para Zimapán</Titular>
+		<Contenido>Como parte de las Rutas de la Transformación, el gobernador Julio Menchaca Salazar visitó por quinta ocasión el municipio de Zimapán, donde refrendó su compromiso con el bienestar de las familias hidalguenses mediante la entrega de apoyos sociales, el fortalecimiento de la infraestructura pública y el anuncio de nuevas obras. En ese sentido, encabezó la entrega de 567 apoyos de los programas “Apoyo para el Bienestar y el Desarrollo” y “Bienestar de Madres Trabajadoras”, con una inversión de 5 millones 670 mil pesos, en beneficio de habitantes de Zimapán, Nicolás Flores, Pacula y Tasquillo. Juan Roberto Lazcano Trejo, subsecretario de Inclusión y Desarrollo, detalló que con estas entregas se concluye el operativo de la Secretaría de Bienestar e Inclusión Social que contempló la distribución de 5 mil tarjetas a las personas beneficiarias de ambos programas este 2026, para la transferencia directa de 500 millones de pesos. Respecto a infraestructura, el mandatario estatal destacó que, durante su administración, se han destinado más de 165 millones de pesos a obras y acciones en Zimapán, entre ellas la rehabilitación de redes de agua potable, el mejoramiento de caminos, la construcción del techado del mercado Morelos y la planta purificadora del pozo Muhí.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Municipio>Zimapán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Ruta de la Transformación</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca Salazar visitó Zimapán para encabezar la entrega de apoyos de programas sociales y anunciar obras de infraestructura hidráulica y carretera acumulando 165 mdp invertidos en el municipio.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Bienestar</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Juan Roberto Lazcano Trejo, Hermilo Trejo Rangel</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Emiten recomendaciones contra la neumonía</Titular>
+		<Contenido>En el marco del día mundial contra la neumonía, la Secretaría de Salud de Hidalgo (SSH) informó que en lo que va del 2026, se han registrado un total de 2 mil 119 casos de esta enfermedad en la entidad. Al respecto Cynthia Pérez Campos, coordinadora estatal de enfermedades cardio metabólicas y enfermedades respiratorias crónicas detalló, entre los principales síntomas: fiebre, escalofríos, tos, dificultad para respirar y dolor en el pecho. Precisó que en niñas y niños se debe prestar especial atención al hundimiento de las costillas al respirar, aleteo nasal o coloración azulada en labios y dedos. Señaló que, para prevenir esta enfermedad, se recomienda el lavado frecuente de manos, cubrirse con el antebrazo al toser o estornudar, mantener ventilados los espacios. Asimismo exhortó a mantener completos los esquemas de vacunación contra neumococo, influenza y COVID-19.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención De Enfermedades</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Salud de Hidalgo reportó 2,119 casos de neumonía en 2026 y emitió recomendaciones preventivas de higiene y esquemas de vacunación.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Cynthia Pérez Campos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Acercan Mesas de Atención a habitantes</Titular>
+		<Contenido>La Secretaría de Gobierno de Hidalgo llevó a Jacala de Ledezma las Mesas de Acercamiento de Bienestar y Paz para que las y los habitantes de la Sierra Gorda hidalguense tomaran la palabra y expusieran los asuntos que requieren atención en sus comunidades. El secretario de Gobierno, Guillermo Olivares Reyna, escuchó los planteamientos de vecinas y vecinos de Jacala de Ledezma, La Misión y Chapulhuacán en una jornada en la cual también estuvieron presentes la presidenta municipal de Jacala, Kendra Martínez Sánchez, y el alcalde de La Misión, Ibsan Israel Villeda Villeda. Personal de la Secretaría de Gobierno registró las peticiones para darle seguimiento.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Municipio>Jacala</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención a la ciudadanía</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Gobierno, Guillermo Olivares Reyna, encabezó las Mesas de Acercamiento en Jacala para recibir solicitudes de comunidades de la Sierra Gorda.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Guillermo Olivares Reyna, Kendra Martínez Sánchez, Ibsan Israel Villeda Villeda</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Afinan estrategias de seguridad, con 80 Mandos Coordinados</Titular>
+		<Contenido>Una importante reunión sostuvo la titularidad de la Secretaría de Seguridad Pública de Hidalgo (SSPH), para fortalecer las acciones que permitan lograr mejores resultados en el combate a la delincuencia, con el objetivo de brindar a la ciudadanía de toda la entidad un ambiente de paz y cordialidad. Tocó al comisario general Salvador Cruz Neri, encabezar la reunión de trabajo con los titulares de los 80 Mandos Coordinados del estado, así como los 27 delegados de la Policía Estatal.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Mando Coordinado</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Seguridad Pública estatal encabezó una sesión evaluativa con jefes policiales para ajustar dispositivos de prevención del delito.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Festival del Pulque Ocampo celebrará 19 años de tradición</Titular>
+		<Contenido>Con la participación de 50 expositores, más de 60 artesanas y artesanos, así como diez talleres relacionados con el maguey, el Festival del Pulque Ocampo celebrará su 19 edición los días 21 y 22 de noviembre, en el municipio de Atotonilco de Tula. El encuentro, que se realizará a la par de la fiesta patronal en honor a Cristo Rey, promueve las tradiciones, el arte y la cultura de una localidad donde habitan expertos tlachiqueros que mantienen vivo el legado histórico de esta bebida.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Municipio>Atotonilco de Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Festival Cultural</Tema_segun_la_fuente>
+		<Sintesis>Presentan el programa de la decimonovena edición del Festival del Pulque Ocampo en Atotonilco de Tula con muestras gastronómicas y talleres artesanales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Marisol López Santiago, Gabriela García Méndez, Jesús Jaimes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Empresa brasileña WEG invertirá 250 mdd en Hidalgo para impulsar la IA</Titular>
+		<Contenido>La multinacional brasileña WEG invertirá 250 millones de dólares en México hasta 2030 para ampliar su capacidad de fabricación de equipos eléctricos destinados a centros de datos e infraestructura para inteligencia artificial (IA), anunció este jueves el secretario de Economía, Marcelo Ebrard. La inversión contempla la construcción de una nueva planta en Atotonilco de Tula, Hidalgo, que permitirá crear 2 mil empleos directos y unos 4 mil indirectos.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Municipio>Atotonilco de Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>Grupo WEG edificará un complejo industrial en Atotonilco de Tula destinado a la manufactura de componentes eléctricos para centros de cómputo e inteligencia artificial.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Marcelo Ebrard, Daniel Godinho, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Excursión termina con 30 heridos sobre México-Querétaro</Titular>
+		<Contenido>Un choque entre un tractocamión y tres autobuses turísticos en la carretera México-Querétaro dejó 30 personas lesionadas de una escuela particular de Atitalaquia, de los cuales 24 fueron trasladados a hospitales de Tepeji del Río y Tula.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Atitalaquia</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente autobús</Tema_segun_la_fuente>
+		<Sintesis>Choque de tráiler contra autobuses turísticos dejó 30 personas lesionadas de un colegio de Atitalaquia, requiriendo el traslado hospitalario de 24 víctimas en Tepeji del Río y Tula.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Cuatro municipios desincorporados de Mando Coordinado</Titular>
+		<Contenido>Aunque el Mando Coordinado opera en 80 de los 84 municipios de Hidalgo, Chilcuautla, Huautla, Lolotla y Tepetitlán permanecen desincorporados por decisión de sus alcaldes, informó el secretario Salvador Cruz Neri.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Mando Coordinado</Tema_segun_la_fuente>
+		<Sintesis>La SSPH reportó que cuatro municipios se mantienen al margen del esquema de Mando Coordinado policial, el cual opera en 80 demarcaciones de la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Invertirá firma brasileña en nueva planta en Hidalgo</Titular>
+		<Contenido>La empresa brasileña WEG destinará 250 millones de dólares para la construcción de una nueva planta industrial en Hidalgo entre 2027 y 2030, proyecto que generará 2 mil empleos directos y 4 mil indirectos para fabricar equipos destinados a centros de datos e IA.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>Grupo WEG construirá una planta de equipos eléctricos en Hidalgo con una inversión de 250 mdd para abastecer al sector industrial, centros de datos e inteligencia artificial.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Sheinbaum, Marcelo Ebrard, Daniel Godinho</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Van a demoler primaria en Tulancingo; edificarán otra</Titular>
+		<Contenido>Por presentar daños estructurales severos, la primaria Aquiles Serdán de Tulancingo será demolida y reconstruida totalmente durante el ciclo escolar 2026-2027, según informó el titular de la SEPH, Natividad Castrejón.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Educación Pública de Hidalgo reconstruirá el inmueble de la primaria Aquiles Serdán tras detectarse fallas estructurales, implementando opciones temporales de aprendizaje.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>Acuerda CFE modernizar red eléctrica en Hidalgo</Titular>
+		<Contenido>El gobierno estatal y la CFE acordaron una inversión conjunta de 780 millones de pesos para desarrollar 10 proyectos de infraestructura eléctrica entre 2026 y 2029, modernizando transformadores y ampliando subestaciones.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Infraestructura eléctrica</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo y la CFE destinarán 780 mdp a 10 obras estratégicas de electrificación e infraestructura energética para atender el crecimiento industrial y poblacional.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca, Emilia Calleja Alor</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Usuario>Claudia Ávila</Usuario>
+		<Titular>A través del 089 evitan más de 3 mil extorsiones</Titular>
+		<Contenido>La atención a reportes de la línea de denuncia anónima 089 permitió evitar pérdidas por 19 millones de pesos en Hidalgo al frenar 3 mil 400 intentos de extorsión telefónica durante el año.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención de Extorsión</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Seguridad Pública de Hidalgo informó que se evitaron despojos económicos por 19 mdp mediante la intervención oportuna del canal 089.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Fernando Bautista, Silvia Vázquez, Verónica Morales</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Accidente carretero deja 30 lesionados</Titular>
+		<Contenido>Derivado del accidente ocurrido en la autopista México-Querétaro (Coyotepec), que involucró autobuses con 117 integrantes del preescolar School House Safari de Atitalaquia, la SEPH informó que 30 personas resultaron lesionadas (14 en el IMSS de Tula y 10 en Pemex Tula), sin que se reporten heridos de gravedad.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Atitalaquia</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente autobús</Tema_segun_la_fuente>
+		<Sintesis>Un accidente en la autopista México-Querétaro que involucró a dos autobuses con alumnos del preescolar School House Safari de Atitalaquia dejó 30 personas lesionadas trasladadas a hospitales de Tula. La SEPH descartó heridos de gravedad.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Magda Olguín</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, IMSS, Pemex</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>WEG invertirá 250 millones de dólares en la entidad</Titular>
+		<Contenido>La empresa brasileña WEG anunció una inversión de 250 millones de dólares en Hidalgo para ampliar su capacidad industrial entre 2027 y 2030, generando 2 mil empleos directos y 4 mil indirectos para fabricar equipos destinados a centros de datos e inteligencia artificial.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atracción De Inversiones</Tema_segun_la_fuente>
+		<Sintesis>La compañía brasileña WEG destinará 250 millones de dólares a una nueva planta de equipos eléctricos en Hidalgo para atender la demanda de centros de datos e IA, generando 6 mil empleos directos e indirectos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lizania Zavala</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, CFE</Dependencias_mencionadas>
+		<Actores_mencionados>Claudia Sheinbaum, Marcelo Ebrard, Daniel Marteleto Godinho, Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Hay 4 municipios fuera del Mando Coordinado</Titular>
+		<Contenido>La Secretaría de Seguridad Pública de Hidalgo informó que Huautla, Lolotla, Tepetitlán y Chilcuautla no se han integrado al esquema del Mando Coordinado, aunque reciben apoyo preventivo y de inteligencia de la policía estatal.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Mando Coordinado</Tema_segun_la_fuente>
+		<Sintesis>La SSPH dio a conocer que 80 de los 84 municipios hidalguenses están incorporados al Mando Coordinado, mientras que cuatro alcaldías han optado por mantenerse al margen.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri, Julio César Meléndez Coria</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Inhibe SSPH la entrega de $19 millones por extorsiones</Titular>
+		<Contenido>La Secretaría de Seguridad Pública de Hidalgo evitó que 19 millones de pesos fueran pagados a extorsionadores telefónicos en 2026 mediante la intervención de la línea 089 del C5i, la cual ha recibido 56 mil llamadas.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención de Extorsión</Tema_segun_la_fuente>
+		<Sintesis>Mediante la atención oportuna del 089, la SSPH impidió pérdidas por 19 millones de pesos al frenar 3 mil 400 intentos de extorsión en el estado durante el presente año.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Fernando Bautista</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Usuarios exponen carencias en el Hospital de Cinta Larga</Titular>
+		<Contenido>Pobladores evidenciaron desabasto de insumos, falta de agua potable y déficit de 24 enfermeras y 14 médicos en el Hospital Integral de Cinta Larga en Mixquiahuala, solicitando la intervención del IMSS Bienestar.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Mixquiahuala</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deficiencias Centro de Salud</Tema_segun_la_fuente>
+		<Sintesis>Vecinos y usuarios del Hospital de Cinta Larga en Mixquiahuala denunciaron la escasez de agua, desabasto de medicamentos y falta de personal de salud, exigiendo atención a autoridades del IMSS Bienestar.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Magda Olguín</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Fernando Quijano Mota, Felipe Arreola Torres</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Metztitlán participa en 3 categorías de turismo</Titular>
+		<Contenido>El Pueblo Mágico de Metztitlán fue nominado en tres categorías de los Galardones a la Innovación Turística Hidalgo Innova: Orgullo Histórico-Cultural (Convento de los Santos Reyes), Turismo con Rostro Comunitario (Olotla) e Inmersión a la Naturaleza (Manantiales Kinjua).</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Metztitlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Impulso Al Turismo</Tema_segun_la_fuente>
+		<Sintesis>Metztitlán compite en tres categorías de los reconocimientos estatales a la innovación turística promovidos por la Secretaría de Turismo de Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Martha Sáenz</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Celebrarán el Festival del Pulque de Ocampo</Titular>
+		<Contenido>La comunidad de Ocampo en Atotonilco de Tula albergará la 19ª edición del Festival del Pulque los días 21 y 22 de noviembre, contando con 50 expositores pulqueros, pabellón gastronómico y actividades culturales.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Atotonilco de Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Festival Cultural</Tema_segun_la_fuente>
+		<Sintesis>Atotonilco de Tula alista la 19ª edición del Festival del Pulque Ocampo con más de 100 sabores de curados, oferta gastronómica, artesanías y talleres ambientales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Saúl Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Marisol López Santiago, Jesús Jaimes, Gabriela García Méndez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Denuncian presunto acoso en primaria</Titular>
+		<Contenido>La primaria Moisés Sáenz en Tula de Allende suspendió clases de manera indefinida tras denunciarse actos de acoso e intimidación que ponen en riesgo la seguridad del personal docente y administrativo.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>cierre de escuela</Tema_segun_la_fuente>
+		<Sintesis>La primaria Moisés Sáenz de Tula suspendió sus actividades escolares en resguardo del personal educativo ante presuntos actos de acoso e intimidación.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Magda Olguín</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Justino Sánchez Estrada</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>La UPE continuará operando pese al desacuerdo legal por sus terrenos</Titular>
+		<Contenido>Alumnos de la Universidad Politécnica de la Energía en Tula bloquearon la carretera Tula-Bomintzhá por la incertidumbre jurídica de sus terrenos. La SEPH garantizó que las clases continuarán y se instalará una mesa de seguimiento.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>PROTESTA ESTUDIANTIL</Tema_segun_la_fuente>
+		<Sintesis>Estudiantes de la Universidad Politécnica de la Energía bloquearon vialidades en Tula para exigir solución al conflicto de donación de sus predios; autoridades educativas acordaron mesas de trabajo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Magda Olguín</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Manuel Flores</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Reconoce SEPH retrasos en reconstrucción de escuelas</Titular>
+		<Contenido>Natividad Castrejón, titular de la SEPH, admitió retrasos en la reconstrucción de planteles dañados por las lluvias de 2025 en Tianguistengo y Huehuetla, pero aseguró que las obras están por concluirse.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>El secretario de Educación de Hidalgo afirmó que avanza la reconstrucción de escuelas en la Sierra y Huasteca tras la contingencia por lluvias, superando demoras por reubicación de poblados.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>María Antonieta Islas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Señalan atrasos en los peritajes topográficos</Titular>
+		<Contenido>El abogado Óscar Esquivel Vera acusó demoras en la atención de peritajes topográficos por parte de Servicios Periciales de la PGJEH en la región Huasteca, afectando el avance de investigaciones por despojo.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Anomalías</Tema_segun_la_fuente>
+		<Sintesis>Litigantes de Huejutla reprocharon dilación en los trabajos periciales de la PGJEH, señalando que la falta de personal especializado frena la resolución de expedientes penales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Óscar Esquivel Vera</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Usuario>Francisco Villeda</Usuario>
+		<Titular>Buscan a una estudiante en el Río Salado</Titular>
+		<Contenido>Elementos de Policía Municipal y Protección Civil desplegaron un operativo en Tlaxcoapan tras reportarse que una estudiante menor de edad ingresó a las aguas del Río Salado.</Contenido>
+		<Fecha_de_publicacion>2026-11-13</Fecha_de_publicacion>
+		<Liga>11</Liga>
+		<Municipio>Tlaxcoapan</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención de emergencias</Tema_segun_la_fuente>
+		<Sintesis>Cuerpos de seguridad y rescate activaron labores de búsqueda en Tlaxcoapan para ubicar a una alumna reportada en el cauce del Río Salado.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Magda Olguín</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, SSPH</Dependencias_mencionadas>
+	</Nota>
+</NotasRadio>
