@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Restaurará la Federación las casas dañadas</Titular>
+		<Contenido>Tras las denuncias de vecinos de Las Águilas en Mineral de la Reforma por daños en al menos 15 viviendas, calles y drenajes por las obras del Tren Interurbano AIFA-Pachuca, el gobernador Julio Menchaca Salazar informó que el gobierno federal atenderá las afectaciones.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Tren AIFA</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca Salazar afirmó que el proyecto del Tren AIFA-Pachuca cuenta con una partida federal para reparar las viviendas y drenajes dañados en Mineral de la Reforma.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>30</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>SCT</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, América Patricia Pérez Beltrán</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>No habrá cabalgata para fiestas decembrinas</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar descartó la realización de la tradicional cabalgata navideña y anunció que las actividades decembrinas se concentrarán en el Parque Cultural Hidalguense con un circo contratado.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cartelera De Eventos</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca anunció que este año no se realizará la cabalgata navideña y que los festejos se concentrarán en el Parque Cultural Hidalguense.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Exhiben arte local en Palacio de Gobierno</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar y Edda Vite Ramos inauguraron la exposición colectiva Configuraciones Intervención Gráfica 4.2 en el edificio de gobierno, donde 82 piezas de 13 creadores se exhibirán hasta mayo de 2027.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Exposición Artística</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca y la presidenta del DIFH Edda Vite inauguraron la muestra pictórica Configuraciones 4.2 con 82 piezas de artistas hidalguenses.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>DIFH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Edda Vite Ramos, Vatri Vatena Cortes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Ubican a presunto homicida de policías</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar informó que las investigaciones por el homicidio de agentes policiales en Tepehuacán de Guerrero presentan avances y que la SSPH logró ubicar y detener a uno de los presuntos responsables.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Tepehuacán</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Homicidio de Policía</Tema_segun_la_fuente>
+		<Sintesis>Autoridades estatales detuvieron a un presunto implicado en el asesinato de policías en Tepehuacán de Guerrero, según informó el gobernador Julio Menchaca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>SSPH, Gabinete de Seguridad</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Aún no opera DiDi Mobility en Pachuca</Titular>
+		<Contenido>La empresa DiDi todavía no ofrece servicio de transporte mediante aplicación en Pachuca, aunque su plataforma ya muestra un mensaje que invita a los usuarios a mantenerse atentos a su posible llegada.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>A pesar de notificaciones en su aplicación móvil, DiDi Mobility aún no sostiene negociaciones formales para operar transporte de pasajeros en Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Fernanda Huerta</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Semot</Dependencias_mencionadas>
+		<Actores_mencionados>Vicente Roqueñí</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Sube el precio del jitomate y tomate verde</Titular>
+		<Contenido>Los precios del jitomate y tomate verde aumentaron a 40 pesos el kilo en el tianguis de Tula por las recientes heladas, afectando el presupuesto de las familias.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Canasta básica</Tema_segun_la_fuente>
+		<Sintesis>Comerciantes y amas de casa de Tula reportaron un incremento sustancial en el kilo de jitomate y tomate verde debido a las heladas de la época.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>César Martínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco</Dependencias_mencionadas>
+		<Actores_mencionados>Yazmín Guadalupe Lazo, Joana Hernández Jiménez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Tutores cierran primaria por supuesto conflicto de acoso</Titular>
+		<Contenido>Padres de familia de la primaria Guadalupe Victoria en Molango cerraron las instalaciones acusando difamación contra docentes y acoso escolar hacia alumnos.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>14</Liga>
+		<Municipio>Molango</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>cierre de escuela</Tema_segun_la_fuente>
+		<Sintesis>Padres de familia en Molango se manifestaron y bloquearon el acceso al plantel educativo exigiendo la mediación inmediata del área jurídica de la SEPH.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Rubén Juárez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Gerardo Flores, Lilia Dimas Velazco</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Grupo delictivo pagó bloqueo en Santa Fe</Titular>
+		<Contenido>La secretaria de Gobernación Rosa Icela Rodríguez confirmó que un grupo delictivo financió las protestas y bloqueos viales en Santa Fe, CDMX.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Bloqueo Carretero</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Gobernación y la FGR investigan el financiamiento criminal detrás de los bloqueos viales registrados en la zona de Santa Fe.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Maleny Navarro</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, FGR</Dependencias_mencionadas>
+		<Actores_mencionados>Rosa Icela Rodríguez, Lenin Canchola</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Presentan reestructuración de Talleres Gráficos</Titular>
+		<Contenido>El gobierno de México reestructurará Talleres Gráficos de México para convertirlo en una imprenta nacional con mayor capacidad de producción, transparencia y rendición de cuentas, mediante un decreto que prevé cambios administrativos, controles sobre proveedores y auditorías anuales ante la ASF. La secretaria de Gobernación, Rosa Icela Rodríguez, presentó el plan, que incluye el nombramiento de Viridiana Gabriela Yáñez Rivas como nueva titular y la ampliación de la Junta de Gobierno.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Transparencia</Tema_segun_la_fuente>
+		<Sintesis>La secretaria de Gobernación, Rosa Icela Rodríguez, presentó el plan para reestructurar Talleres Gráficos de México y convertirlo en una imprenta nacional con mayor transparencia y controles administrativos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Mauricio Bautista</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Rosa Icela Rodríguez, Viridiana Gabriela Yáñez Rivas</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>México y Estados Unidos abordan flujos migratorios</Titular>
+		<Contenido>La titular de Gobernación sostuvo una reunión con el embajador de EU, Ronald Johnson, en la que acordaron mantener y fortalecer la cooperación bilateral para gestionar los flujos migratorios. Rodríguez informó que, en el encuentro, celebrado el martes, también abordaron el tema de las caravanas que ingresan por Chiapas y reiteró que ninguna de las 24 registradas durante la actual administración ha llegado a la frontera y que hay una reducción de 96% en los cruces.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Migración</Tema_segun_la_fuente>
+		<Sintesis>La secretaria de Gobernación, Rosa Icela Rodríguez, se reunió con el embajador de EU, Ronald Johnson, para reforzar la cooperación en la gestión de flujos migratorios y caravanas.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Rosa Icela Rodríguez, Ronald Johnson</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Alistan Operativo Paisano para temporada de fin de año</Titular>
+		<Contenido>Con el objetivo de atender a los connacionales que regresan al país durante la temporada de fin de año, el gobierno de México prepara el Operativo Paisano. Rodríguez adelantó que solicitará al INM presentar los detalles sobre los centros de atención y los servicios disponibles. En el caso de los repatriados, explicó que el programa prevé alimentación, alojamiento temporal, traslados a las comunidades de origen y una tarjeta con 2 mil pesos para apoyar el regreso a sus hogares.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a Migrantes</Tema_segun_la_fuente>
+		<Sintesis>El gobierno de México prepara el Operativo Paisano para atender a connacionales en el fin de año, ofreciendo asistencia, albergue y apoyo económico a repatriados.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Rosa Icela Rodríguez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Investiga Gobernación financiamiento criminal</Titular>
+		<Contenido>La Segob investiga el presunto financiamiento de una manifestación en Santa Fe por personas vinculadas con un grupo delictivo, cuyos participantes habrían recibido dinero para realizar bloqueos en protesta por las condiciones de un centro penitenciario. Rodríguez confirmó que las autoridades tienen conocimiento de estos hechos y advirtió que no se permitirá utilizar el derecho a la libre manifestación como mecanismo de presión financiado por criminales.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Bloqueo Carretero</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Gobernación investiga el pago a manifestantes por parte de grupos delictivos para bloquear avenidas en Santa Fe en protesta por un penal.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Rosa Icela Rodríguez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Injusta, distribución de prerrogativas a partidos, declara gobernador</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar consideró que es injusta la fórmula que se utiliza para determinar el presupuesto que deben recibir los partidos políticos cada año, pues señaló que hay institutos que no cuentan con representación en el Congreso ni en los municipios y reciben “una enorme cantidad de dinero”. Dijo que la Secretaría de Hacienda del estado realizará una solicitud al Legislativo local para adecuar dicha situación, ya que, consideró, es un exceso de dinero el que se usa en prerrogativas de los partidos, aunado a lo que reciben los partidos con registro nacional por parte de los comités ejecutivos. Puntualizó que lo que se busca es que se aplique una fórmula más conveniente y que no cuesten tanto los procesos electorales. De acuerdo con las proyecciones del IEEH sobre financiamiento público para los partidos políticos, el próximo año los institutos políticos con registro únicamente local, como el Partido Nueva Alianza Hidalgo (Panalh), recibiría 52 millones 630 mil 631.12 millones de pesos. El PRDH recibiría 33 millones 504 mil 508.81 pesos, el PAN 7 millones 681 mil 919.12 pesos, MC 9 millones 688 mil 250.03 pesos, el PVEM 9 millones 782 mil 542.34 pesos, el PRI 10 millones 170 mil 188.52 pesos, el PT y Morena 24 millones 177 mil 835.65 pesos.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prerrogativas</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca calificó de injusta la fórmula de financiamiento a partidos políticos en Hidalgo y anunció que se buscará reformar el esquema presupuestal ante el Congreso.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Hacienda, Congreso, IEEH, Panalh, PRD, PAN, MC, PVEM, PRI, PT, Morena</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Hay un detenido confeso por ataque a edil de Tepehuacán</Titular>
+		<Contenido>Julio Menchaca aseguró que las familias de los dos policías fallecidos no quedarán en el desamparo. Hay órdenes de aprehensión contra tres personas presuntamente involucradas en el atentado al alcalde de Tepehuacán de Guerrero, Francisco Martínez, reveló el mandatario. Ya fue detenida una persona que confesó haber participado en los hechos, informó el gobernador Julio Menchaca Salazar. No obstante, existen órdenes de aprehensión contra tres personas presuntamente involucradas en el atentado, por lo que la Procuraduría General de Justicia del Estado de Hidalgo (PGJEH) deberá presentar a los responsables ante las autoridades correspondientes. Asimismo, explicó que desde el primer momento se actuó de manera inmediata en el caso, pues se dio seguimiento al vehículo que se utilizó para perpetrar los hechos. Reiteró que el alcalde no solicitó ningún tipo de protección tras los hechos y negó que el ataque haya estado relacionado con algún grupo delictivo.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tepehuacán</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Ataque Armado</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca confirmó la detención de un implicado y tres órdenes de aprehensión por el ataque armado contra el alcalde de Tepehuacán de Guerrero que dejó dos policías muertos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, PGJEH, SSPH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca, Francisco Martínez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Semarnath considera inviable abrir camino en Rancho Santa Elena</Titular>
+		<Contenido>La apertura de un camino dentro de Rancho Santa Elena podría afectar el área destinada voluntariamente a la conservación, señaló Mónica Patricia Mixtega Trejo, titular de la Secretaría de Medio Ambiente y Recursos Naturales de Hidalgo (Semarnath), por lo que debe revisarse conforme a las autorizaciones y planes de manejo correspondientes. La funcionaria explicó que el sitio, en Huasca, comprende más de 800 hectáreas colindantes con el ejido Santo Domingo y que la propuesta busca trazar una ruta por el rancho para llegar a otra parte de los terrenos ejidales. Indicó que la opinión de la Secretaría es que no debería afectarse internamente un área destinada a la conservación y puntualizó que el conflicto se plantea entre particulares.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Huasca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Protección ambiental</Tema_segun_la_fuente>
+		<Sintesis>La titular de Semarnath, Mónica Mixtega, advirtió que la apertura de un camino en Rancho Santa Elena, Huasca, afectaría un área natural protegida y precisó que se trata de un conflicto entre particulares.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath</Dependencias_mencionadas>
+		<Actores_mencionados>Mónica Patricia Mixtega Trejo, Javier Ibarreche</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Destaca Samantha Esparza cifra histórica de 2 millones de acciones en La Reforma</Titular>
+		<Contenido>La presidenta honorífica del Patronato del Sistema DIF de Mineral de la Reforma, Samantha Esparza Hernández, rindió su segundo Informe de Resultados, en el que destacó los grandes cambios que ha presentado esta institución en beneficio de quienes más lo necesitan. Ante el alcalde Eduardo Medécigo Rubio y las y los integrantes del Patronato del DIF municipal, Samantha Esparza destacó que el organismo dejó de ser una instancia en el abandono. Resaltó la cifra histórica de 2 millones 292 mil 519 acciones y apoyos entregados de manera directa.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Asistencia social</Tema_segun_la_fuente>
+		<Sintesis>Samantha Esparza, presidenta del DIF Mineral de la Reforma, presentó su segundo Informe de Resultados destacando más de 2.2 millones de apoyos sociales entregados.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Samantha Esparza Hernández, Eduardo Medécigo Rubio, Edda Vite</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Exposiciones en Palacio logran la venta de 55 obras</Titular>
+		<Contenido>En lo que va de la actual administración estatal, 78 jóvenes han sido considerados para exponer su arte en las oficinas del Palacio de Gobierno, en donde, de las 500 piezas exhibidas, 55 fueron vendidas entre 600 pesos y hasta 40 mil pesos, informó el gobernador Julio Menchaca Salazar. Durante la inauguración de la exposición Configuraciones. Exposición colectiva Intervención Gráfica 4.2, el mandatario precisó que se abrió la sede del Ejecutivo estatal para que los artistas hidalguenses tuvieran un espacio público como galería permanente. Afirmó que para el presupuesto de 2027 se tiene contemplado un monto superior a los 187 millones de pesos para la Secretaría de Cultura.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Exposición Artística</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca inauguró la exposición "Configuraciones 4.2" en Palacio de Gobierno y destacó la venta de 55 obras de jóvenes creadores, así como un presupuesto de 187 mdp para Cultura en 2027.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca, Fernando Olvera Juárez, Ruth García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Alistan operativo contra venta ilegal de pirotecnia</Titular>
+		<Contenido>La Dirección de Protección Civil de Pachuca realizará operativos sorpresa para prevenir la venta de pirotecnia durante la temporada Guadalupe-Reyes, informó su titular Enrique Padilla Hernández. Las acciones se llevarán a cabo en coordinación con Seguridad Pública y la Guardia Nacional en distintos puntos de la capital hidalguense. El funcionario no precisó la fecha de inicio ni los lugares para evitar alertar a comerciantes. El operativo se suma a una propuesta presentada en el Cabildo por los regidores Arlan Cruz Olvera y Carlos García Monzalvo.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Decomiso de pirotecnia</Tema_segun_la_fuente>
+		<Sintesis>Protección Civil de Pachuca desplegará operativos sorpresa junto con Seguridad Pública y Guardia Nacional para decomisar y evitar el comercio ilegal de pirotecnia en la temporada navideña.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Ayuntamiento, Segobh, SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Enrique Padilla Hernández, Arlan Cruz Olvera, Carlos García Monzalvo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Va Menchaca por reducción de presupuesto a los partidos</Titular>
+		<Contenido>"Una barbaridad y un exceso" es el costo que representa para Hidalgo el financiamiento público de los partidos políticos, afirmó el gobernador Julio Menchaca Salazar, quien anunció que promoverá una reforma para modificar la fórmula de cálculo de las prerrogativas y reducir los recursos destinados a las 12 fuerzas políticas.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Financiamiento a Partidos</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca anunció que impulsará una iniciativa ante el Congreso local para reducir el financiamiento público que reciben los partidos políticos en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Congreso, IEEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Por el atentado en Tepehuacán, un detenido confeso y van por tres más</Titular>
+		<Contenido>La investigación respecto al atentado en contra del presidente municipal de Tepehuacán de Guerrero, que dejó dos policías fallecidos, derivó en la detención de un implicado confeso y la emisión de tres órdenes de aprehensión más, informó el gobernador Julio Menchaca Salazar.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tepehuacán</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atentado</Tema_segun_la_fuente>
+		<Sintesis>Autoridades estatales lograron la captura de un presunto participante en el ataque contra el alcalde de Tepehuacán de Guerrero y avanzan en la búsqueda de tres involucrados más.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, SSPH, PGJEH, Gabinete de Seguridad, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Reporta DIF más de 2.2 mdp en apoyos</Titular>
+		<Contenido>Más de 2 millones 292 mil acciones y apoyos entregados directamente a la población reportó el Sistema Municipal DIF de Mineral de la Reforma durante el segundo informe de gestión de Samantha Esparza Hernández como presidenta honorífica.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe DIFH</Tema_segun_la_fuente>
+		<Sintesis>La titular del DIF Mineral de la Reforma rinde su segundo informe de resultados destacando la atención directa a sectores vulnerables en siete ejes de trabajo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Samantha Esparza Hernández, Eduardo Medécigo Rubio, Edda Vite</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>SEPH desconocía detención de docentes</Titular>
+		<Contenido>La detención judicial de una directora y una maestra de un preescolar en Tulancingo no fue informada previamente a la Secretaría de Educación Pública de Hidalgo, pero la dependencia mantiene seguimiento con tutores y directivos, informó Natividad Castrejón Valdez.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Denuncias contra docentes</Tema_segun_la_fuente>
+		<Sintesis>El titular de la SEPH señaló que la dependencia dio seguimiento al proceso de dos docentes detenidas en Tulancingo tras enterarse por la vía pública.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Carece de CUP 3.81% de policías estatales</Titular>
+		<Contenido>De acuerdo con el Centro Estatal de Evaluación y Control de Confianza, del total de elementos de la Secretaría de Seguridad Pública de Hidalgo, solo el 3.81% no cuenta con el Certificado Único Policial (CUP), reportando un 96.19% de cobertura vigente.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Control de confianza</Tema_segun_la_fuente>
+		<Sintesis>El 96.19% de los efectivos de la Policía Estatal de Hidalgo cuenta con su certificación policial aprobada y vigente conforme a la normativa oficial.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Segobh</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Visibiliza experiencia femenina por medio de sus fotografías</Titular>
+		<Contenido>La fotógrafa hidalguense Tania Monroy aborda temas como la violencia contra las mujeres y la dismorfia corporal a través de sus proyectos visuales Aliadas combatiendo la violencia, 26% y Habitar el cambio.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Exposición cultural</Tema_segun_la_fuente>
+		<Sintesis>La fotógrafa Tania Monroy desarrolla proyectos visuales que visibilizan la violencia de género, la dismorfia corporal y las vivencias de las mujeres en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Cinthya Carbajal</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Tania Monroy</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Gestionan 270 mdp para aguinaldo de docentes</Titular>
+		<Contenido>El titular de la SEPH, Natividad Castrejón Valdez, informó que se gestionan ante la Secretaría de Hacienda federal 270 millones de pesos para aguinaldos de maestros homologados y bonos a jubilados.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Aguinaldos</Tema_segun_la_fuente>
+		<Sintesis>La SEPH realiza gestiones ante el gobierno federal para obtener 270 mdp destinados al pago de aguinaldos a docentes homologados y bonos a jubilados.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Hacienda</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez, Daniel Fragoso Torres</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Inauguran exposición con 82 creaciones de artesanos hidalguenses</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar encabezó la inauguración de la exposición colectiva Configuraciones, intervención gráfica 4.2 en Palacio de Gobierno, reuniendo 82 obras de 13 creadores hidalguenses.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Exposición Artística</Tema_segun_la_fuente>
+		<Sintesis>Se inauguró la sexta muestra gráfica en el Palacio de Gobierno de Hidalgo con 82 obras visuales elaboradas por 13 artistas locales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Ruth García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Hay un detenido por ataque armado a casa de alcalde</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar confirmó la detención de un implicado confeso y la emisión de tres órdenes de aprehensión por el ataque armado a la vivienda del alcalde de Tepehuacán de Guerrero, Francisco Martínez Enríquez.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tepehuacán</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atentado</Tema_segun_la_fuente>
+		<Sintesis>Autoridades estatales reportaron la detención de un sospechoso confeso y el rastreo de tres involucrados más tras el atentado en Tepehuacán de Guerrero.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, SSPH, PGJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Francisco Martínez Enríquez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Reinstalan Sistema Institucional de Archivos</Titular>
+		<Contenido>La titular de la Secretaría de Salud de Hidalgo, Vanesa Escalante Arroyo, encabezó la reinstalación del Sistema Institucional de Archivos y del Grupo Interdisciplinario de la SSH para cumplir con la Ley de Archivos.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Rendición de cuentas</Tema_segun_la_fuente>
+		<Sintesis>La SSH reinstaló su Sistema Institucional de Archivos para fortalecer la conservación documental y la gestión administrativa de los servicios de salud.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Contraloría</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante Arroyo, María Guadalupe Rincón Villafaña</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>SEPH fortalece vinculación con iniciativa privada de la entidad</Titular>
+		<Contenido>El titular de la SEPH, Natividad Castrejón Valdez, sostuvo una reunión con integrantes del Consejo Coordinador Empresarial de Hidalgo en Tizayuca para alinear la formación académica con las necesidades del sector productivo.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tizayuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vinculación académica</Tema_segun_la_fuente>
+		<Sintesis>Autoridades de la SEPH y del CCEH se reunieron en Tizayuca para desarrollar esquemas de vinculación entre universidades y empresas locales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez, Daniel Fragoso Torres, Jorge González Corona, Gretchen Atilano Moreno</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Hidalgo, sin cabalgatas de Reyes Magos en 2027</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar anunció que en 2027 no se realizarán las tradicionales cabalgatas de Reyes Magos por su elevado costo de más de 36 mdp, concentrando los eventos decembrinos en el Parque Cultural Hidalguense.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cabalgata de Reyes</Tema_segun_la_fuente>
+		<Sintesis>El gobierno estatal descartó la realización de desfiles de Reyes Magos en 2027 por altos costos y mudará las celebraciones al Parque Cultural Hidalguense.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lorena Rosas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Oficialía Mayor, Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Hidalgo respalda ejes de la Estrategia Nacional de Seguridad</Titular>
+		<Contenido>El titular de la SSPH, Salvador Cruz Neri, participó en la Conferencia Nacional de Secretarías de Seguridad Pública en la Ciudad de México, refrendando la coordinación con la federación y el respaldo a los ejes de seguridad.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Estrategia de seguridad</Tema_segun_la_fuente>
+		<Sintesis>La SSPH refrendó su compromiso de mantener operativos y tareas de inteligencia coordinadas dentro de la Estrategia Nacional de Seguridad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Presidencia, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri, Omar García Harfuch, Claudia Sheinbaum Pardo, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Resistencia impide controlar al dengue</Titular>
+		<Contenido>El Comité Jurisdiccional de Vigilancia Epidemiológica alertó que la negativa de algunos habitantes a permitir la fumigación y eliminar criaderos ha dificultado el control del brote de dengue en Huehuetla, que acumula 46 casos.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Huehuetla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Dengue</Tema_segun_la_fuente>
+		<Sintesis>Autoridades sanitarias llamaron a la población de Huehuetla a colaborar con el personal de vectores para contener los brotes de dengue en la región.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Mirely Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Alberto Zúñiga Tolentino</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Hay un detenido y tres órdenes de aprehensión por ataque armado en Tepehuacán</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar informó que ya hay un detenido "confeso", así como tres órdenes de aprehensión contra los presuntos implicados en el ataque armado perpetrado contra la vivienda del presidente municipal de Tepehuacán de Guerrero, Francisco Martínez Enríquez, que dejó dos policías sin vida.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Tepehuacán</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atentado</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca informó que hay un detenido confeso y tres órdenes de aprehensión tras el ataque a la vivienda del alcalde de Tepehuacán, descartando nexos con el crimen organizado.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, SSPH, Gabinete de Seguridad, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca, Francisco Martínez Enríquez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Destinan 23.8 mdp para construcción de galeras en el Cereso de Pachuca</Titular>
+		<Contenido>La Secretaría de Infraestructura y Desarrollo Urbano Sostenible (Sipdus) destinará 23 millones 852 mil 257 pesos a la construcción de dos galeras en el Centro de Reinserción Social (Cereso) de Pachuca para reducir la sobrepoblación del 63.3%.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Construcción de Cereso</Tema_segun_la_fuente>
+		<Sintesis>La Sipdus invertirá 23.8 millones de pesos en la construcción de dos galeras en el Cereso de Pachuca para mitigar el hacinamiento penitenciario.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>SEPH buscará comprar terreno de la UPE en Tula</Titular>
+		<Contenido>El secretario de Educación Pública de Hidalgo, Natividad Castrejón Valdez, señaló que buscarán un nuevo acuerdo para comprar el terreno donde construyeron el tercer edificio de la Universidad Politécnica de la Energía (UPE), en Tula de Allende.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Conflicto por predio</Tema_segun_la_fuente>
+		<Sintesis>El titular de la SEPH, Natividad Castrejón, buscará negociar la compra del terreno de la Universidad Politécnica de la Energía en Tula tras el conflicto legal que mantiene desocupados los laboratorios.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Estudiante actopense busca conquistar escenarios científicos internacionales con proyecto ambiental</Titular>
+		<Contenido>Xocoyotzin Ángeles Mejía, estudiante del Colegio de Bachilleres del estado (Cobaeh) plantel Actopan, logró obtener tres acreditaciones para participar en competencias científicas internacionales en 2027 gracias a su proyecto "Malva", un biopolímero biodegradable para sustituir plásticos.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Actopan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Contaminación ambiental</Tema_segun_la_fuente>
+		<Sintesis>Xocoyotzin Ángeles Mejía, estudiante del Cobaeh Actopan, obtuvo tres acreditaciones internacionales para presentar su proyecto "Malva", un biopolímero biodegradable diseñado para sustituir el plástico.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Xocoyotzin Ángeles Mejía</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Antigua estación de Apulco abre como espacio cultural; invierten más de 1.5 mdp</Titular>
+		<Contenido>La antigua estación de ferrocarril de Apulco, en el municipio de Metepec, inició una nueva etapa como recinto cultural tras una rehabilitación que requirió una inversión superior a un millón y medio de pesos por la Secretaría de Cultura de Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Metepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Centro cultural</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Cultura inauguró el centro cultural en la antigua estación ferroviaria de Apulco, Metepec, tras una inversión superior a 1.5 mdp para la preservación del patrimonio histórico.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>No habrá cabalgatas por ser muy caras: JMS</Titular>
+		<Contenido>Por segundo año consecutivo no habrá cabalgatas de Reyes Magos debido a su alto costo, adelantó el gobernador Julio Menchaca Salazar, quien anticipó que las actividades decembrinas se concentrarán en el Parque Cultural Hidalguense.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cabalgata de Reyes</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca descartó la realización de cabalgatas de Reyes Magos por representar un gasto elevado, y anunció la instalación de un circo y actividades en el Parque Cultural Hidalguense.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Oficialía Mayor, PIBEH</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Hay detenidos y tres órdenes de aprehensión por ataque armado en Tepehuacán</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar informó que existe un detenido confeso y tres órdenes de aprehensión contra los presuntos implicados en el ataque armado a la casa del alcalde de Tepehuacán de Guerrero, donde murieron dos policías.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tepehuacán</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atentado</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca confirmó la aprehensión de un sospechoso confeso y el seguimiento a tres órdenes más por el atentado contra la vivienda del alcalde de Tepehuacán de Guerrero.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, SSPH, PGJEH, Gabinete de Seguridad</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar, Francisco Martínez Enríquez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Destinan 23.8 millones de pesos para galeras en el Cereso de Pachuca</Titular>
+		<Contenido>La Secretaría de Infraestructura y Desarrollo Urbano Sostenible destinará 23 millones 852 mil pesos a la construcción de dos nuevas galeras en el Cereso de Pachuca, recinto penal que registra sobrepoblación del 63.31%.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Construcción de Cereso</Tema_segun_la_fuente>
+		<Sintesis>La Sipdus adjudicó obras por 23.8 mdp para edificar dos galeras en el Cereso de Pachuca con el objetivo de ampliar la capacidad del penal y atender la sobrepoblación.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>SEPH buscará comprar terreno de la UPE en Tula</Titular>
+		<Contenido>El secretario de Educación Pública de Hidalgo, Natividad Castrejón Valdez, señaló que buscarán un nuevo acuerdo para comprar el terreno donde construyeron el tercer edificio de la Universidad Politécnica de la Energía en Tula de Allende.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Conflicto por predio</Tema_segun_la_fuente>
+		<Sintesis>Tras agotarse las vías legales sobre la propiedad del terreno de los laboratorios de la UPE en Tula, la SEPH buscará negociar la compra del inmueble con la legítima dueña para proteger a la comunidad universitaria.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Contraloría, UPE</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez, Daniel Fragoso Torres</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Detecta SSH 28 casos de diabetes en menores</Titular>
+		<Contenido>Aunado a los más de 8 mil nuevos casos detectados de diabetes tipo dos en la entidad, la Secretaría de Salud de Hidalgo también registró 28 detecciones de diabetes tipo uno en infancias y adolescentes.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención De Enfermedades</Tema_segun_la_fuente>
+		<Sintesis>La SSH reportó la detección de 28 nuevos diagnósticos de diabetes mellitus tipo uno en infantes y jóvenes en Hidalgo, además del incremento de casos de tipo dos en la población.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Por baja afluencia, los balnearios no dieron descuentos en el Buen Fin 2026</Titular>
+		<Contenido>La situación financiera de los centros acuáticos ha sido crítica desde 2025, indicó el dirigente de la asociación, explicando que la baja afluencia impidió otorgar descuentos en el Buen Fin.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Ixmiquilpan</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Buen Fin</Tema_segun_la_fuente>
+		<Sintesis>Empresarios del sector acuático en Hidalgo reportaron que no fue posible sumarse con promociones al Buen Fin 2026 ante la disminución en la llegada de turistas durante los últimos ejercicios.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Preocupa a padres la propagación del virus Coxsackie en kínder de Huejutla</Titular>
+		<Contenido>La resistencia a desinfectar y la falta de información ha complicado el control del virus Coxsackie en un jardín de niños de Huejutla, donde se reportan varios menores con síntomas.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Prevención De Enfermedades</Tema_segun_la_fuente>
+		<Sintesis>Familias de un preescolar en Huejutla urgieron la intervención de las autoridades de salud y educación para desinfectar aulas y frenar el brote del virus Coxsackie en el alumnado.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Realizan cambios directivos en dos primarias de Huejutla</Titular>
+		<Contenido>La Escuela Primaria Benito Juárez, ubicada en la colonia Centro de Huejutla, tiene nuevo director como parte de los movimientos de personal docente realizados en la zona escolar.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Nombramientos</Tema_segun_la_fuente>
+		<Sintesis>Autoridades educativas en Huejutla concretaron ajustes directivos en dos planteles de educación primaria como parte de los procesos de adscripción y organización escolar.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>José Carlos Meyer</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Exalcalde esquiva la prisión preventiva</Titular>
+		<Contenido>El exalcalde M.Á.L.H. cumple 34 días en huelga de hambre como protesta por los procedimientos penales que enfrenta, manteniéndose en resguardo médico.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tlaxcoapan</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención Exalcalde</Tema_segun_la_fuente>
+		<Sintesis>El expresidente municipal de Tlaxcoapan compareció en audiencia remota desde reclusión mientras sostiene una huelga de hambre por el proceso judicial que se le sigue.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, TSJEH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Manuel Ángel López Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Santiago Tulantepec y Cuautepec, rezagados en esterilización canina</Titular>
+		<Contenido>De los 11 municipios que atiende la Jurisdicción Sanitaria 2, Santiago Tulantepec y Cuautepec de Hinojosa registran los porcentajes más bajos de cumplimiento en sus metas de esterilización.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Campaña de esterilización</Tema_segun_la_fuente>
+		<Sintesis>Reporte del Cojuve señaló que mientras Singuilucan y Tulancingo superaron sus metas de cirugías caninas y felinas, Santiago Tulantepec y Cuautepec se mantienen por debajo del 50%.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>María Antonieta Islas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Adultos mayores, a aprender</Titular>
+		<Contenido>Personas adultas mayores de Santiago Tulantepec participaron en la conferencia Aprender a aprender, impartida por el psicólogo Andrés Quintero en el auditorio del DIF municipal.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Santiago Tulantepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención a adultos mayores</Tema_segun_la_fuente>
+		<Sintesis>El sistema DIF de Santiago Tulantepec organizó una conferencia de desarrollo personal para adultos mayores como parte de sus estrategias de envejecimiento activo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Yanet Fernández, Andrés Quintero</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Inauguran la Intervención Gráfica 4.2 “Configuraciones”</Titular>
+		<Contenido>Por sexta ocasión, el edificio del gobierno de Hidalgo abrió sus puertas al arte con la Intervención Gráfica 4.2 "Configuraciones", inaugurada por el gobernador Julio Menchaca Salazar junto a 13 creadoras y creadores locales.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Exposición Artística</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca inauguró la exposición colectiva Configuraciones 4.2 en Palacio de Gobierno, destacando la exhibición y venta de obras de artistas locales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Van contra gasto “excesivo” de partidos políticos</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar consideró excesivo el financiamiento público a partidos políticos y anunció que la Secretaría de Hacienda estatal solicitará al Congreso revisar la fórmula de distribución.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Financiamiento a Partidos</Tema_segun_la_fuente>
+		<Sintesis>El gobernador Julio Menchaca calificó como injusta la fórmula actual de prerrogativas a partidos y buscará promover una reforma presupuestal ante el Congreso local.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez Cabrera</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Hacienda, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Descarta gobierno estatal, cabalgata de Día de Reyes</Titular>
+		<Contenido>El gobernador Julio Menchaca Salazar informó que este año no se realizará la tradicional cabalgata de Reyes Magos debido a su elevado costo, priorizando festejos en el Centro Cultural Hidalguense.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cabalgata de Reyes</Tema_segun_la_fuente>
+		<Sintesis>Julio Menchaca descartó la cabalgata navideña por motivos presupuestales y anunció que las actividades familiares se concentrarán en el Parque Cultural Hidalguense.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez Cabrera</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Gobernador, Oficialía Mayor</Dependencias_mencionadas>
+		<Actores_mencionados>Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Presentó Samantha Esparza su Segundo Informe de actividades</Titular>
+		<Contenido>La presidenta honorífica del Patronato del Sistema DIF de Mineral de la Reforma, Samantha Esparza Hernández, rindió su Segundo Informe de Resultados ante el alcalde Eduardo Medécigo.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Informe DIFH</Tema_segun_la_fuente>
+		<Sintesis>Samantha Esparza destacó la entrega directa de más de 2.2 millones de apoyos sociales durante su segundo año al frente del DIF Municipal de Mineral de la Reforma.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Samantha Esparza Hernández, Eduardo Medécigo Rubio, Edda Vite</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Presa Endhó recibe atención contra el lirio acuático</Titular>
+		<Contenido>La titular de Semarnath, Mónica Mixtega Trejo, informó sobre el avance en el control de lirio acuático en la presa Endhó, acumulando 1,925 hectáreas atendidas mediante trituración.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tepetitlán</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Control lirio acuático</Tema_segun_la_fuente>
+		<Sintesis>Semarnath mantiene operativos permanentes para liberar de lirio la presa Endhó y contempla una inversión de 23.6 MDP para adquirir nueva maquinaria.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez Cabrera</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath</Dependencias_mencionadas>
+		<Actores_mencionados>Mónica Mixtega Trejo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Hidalgo respalda 4 ejes de Estrategia Nacional de Seguridad</Titular>
+		<Contenido>El titular de la Secretaría de Seguridad Pública de Hidalgo, Salvador Cruz Neri, participó en la XXXII Asamblea Plenaria de la Conferencia Nacional de Secretarías de Seguridad Pública.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Estrategia de seguridad</Tema_segun_la_fuente>
+		<Sintesis>Salvador Cruz Neri ratificó el compromiso de Hidalgo con la estrategia federal de seguridad encabezada por Omar García Harfuch y Claudia Sheinbaum.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>15</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Salvador Cruz Neri, Omar García Harfuch, Claudia Sheinbaum Pardo, Julio Menchaca</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Con cumbre regional, buscarán atender el flujo de migrantes</Titular>
+		<Contenido>La secretaria de Gobernación, Rosa Icela Rodríguez, informó sobre la propuesta de convocar a una cumbre de autoridades migratorias entre México y Estados Unidos.</Contenido>
+		<Fecha_de_publicacion>2026-11-19</Fecha_de_publicacion>
+		<Liga>14</Liga>
+		<Municipio>CDMX</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención A Migrantes</Tema_segun_la_fuente>
+		<Sintesis>Rosa Icela Rodríguez planteó la realización de una reunión multinacional con el embajador Ronald Johnson para coordinar la política migratoria regional.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Agencia EFE</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Rosa Icela Rodríguez, Ronald Johnson, Claudia Sheinbaum</Actores_mencionados>
+	</Nota>
+</NotasRadio>
