@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Denuncian subregistro de feminicidios</Titular>
+		<Contenido>En el marco del Día Internacional de la Eliminación de la Violencia contra la Mujer (25N), activistas de Seiinac y colectivas denunciaron que en ocho meses de 2026 han ocurrido 58 muertes violentas de mujeres en Hidalgo, pero solo dos han sido clasificadas como feminicidio, exigiendo a la PGJEH reinstalar el Observatorio de Género.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>Colectivas feministas denunciaron que de 58 muertes violentas de mujeres en Hidalgo solo dos se clasificaron como feminicidio, solicitando abrir el Observatorio de Género de la PGJEH.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Sonia Nochebuena y Daniela Ayotitla</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Segobh, SSPH</Dependencias_mencionadas>
+		<Actores_mencionados>Morrigan, Martina Garrido Reyes</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Obras alargan tiempos de traslado, acusan</Titular>
+		<Contenido>Los trabajos de reencarpetamiento asfáltico en la avenida Benito Juárez en San Juan Tilcuautla, San Agustín Tlaxiaca, han complicado la movilidad de estudiantes del ICSa UAEH y usuarios del transporte público, obligando a caminatas nocturnas por falta de alumbrado.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>San Agustín Tlaxiaca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Vialidad en mal estado</Tema_segun_la_fuente>
+		<Sintesis>Habitantes y estudiantes de San Agustín Tlaxiaca señalaron afectaciones de movilidad y seguridad por las obras de repavimentación en la avenida Benito Juárez.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Blanca Soriano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Ayuntamiento, UAEH</Dependencias_mencionadas>
+		<Actores_mencionados>Maximiliano Moro</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Repartidores piden acceso a crédito viable</Titular>
+		<Contenido>Ante la posibilidad de que DiDi instale una ensambladora de motocicletas en Hidalgo, repartidores de plataformas en Pachuca solicitaron esquemas de financiamiento accesibles, arrendamiento con opción a compra y facilidades de mantenimiento para laborar.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apps de transporte</Tema_segun_la_fuente>
+		<Sintesis>Repartidores de aplicación en Pachuca plantearon la necesidad de contar con créditos y esquemas de arrendamiento de motocicletas si se concreta la planta de DiDi.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Sonia Nochebuena</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sedeco</Dependencia>
+		<Dependencias_mencionadas>Sedeco, STPSH</Dependencias_mencionadas>
+		<Actores_mencionados>José de Jesús Chávez, Elías García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Opciones de balnearios ante cierre de El Géiser</Titular>
+		<Contenido>Debido al cierre temporal del balneario El Géiser por obstrucción del pozo geotérmico, Tecozautla ofrece alternativas de aguas termales como Las Camelinas, Gandho, Agua Linda y El Pañhú para los visitantes en la temporada invernal.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Tecozautla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Impulso Al Turismo</Tema_segun_la_fuente>
+		<Sintesis>El Pueblo Mágico de Tecozautla promociona cuatro balnearios de aguas termales como alternativas turísticas tras el cierre temporal del complejo El Géiser.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Omar Santiago</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Guantes de Oro 2026 tendrá formato inédito</Titular>
+		<Contenido>El Torneo de Invitación Guantes de Oro 2026 se llevará a cabo durante tres días consecutivos del 4 al 6 de diciembre en el Centro Internacional de Alto Rendimiento Centauros Pachuca, Mineral de la Reforma, como fogueo para la Olimpiada Nacional 2027.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>15</Liga>
+		<Municipio>Mineral de la Reforma</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Olimpiada Nacional</Tema_segun_la_fuente>
+		<Sintesis>El torneo pugilístico Guantes de Oro 2026 se disputará por primera vez en un formato concentrado de tres días para preparar a boxeadores rumbo al estatal.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Dulce García gana el oro</Titular>
+		<Contenido>La hidalguense Dulce María García Juárez se proclamó campeona del Centroamericano y del Caribe de Boccia 2026 en la categoría BC3 individual tras ganar 6-1 a la representante de Estados Unidos. Óscar Pérez Rojas del Inhide encabezó la premiación.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>15</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deporte adaptado</Tema_segun_la_fuente>
+		<Sintesis>Dulce María García logró la medalla de oro en boccia individual en el Centroamericano y del Caribe 2026 celebrado en Hidalgo, asegurando su clasificación.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Héctor Santoy</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Dulce María García Juárez, Martha Leticia Juárez García, Óscar Pérez Rojas</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Asaltan a transportistas hasta con terminales bancarias: Coparmex</Titular>
+		<Contenido>El presidente de la Confederación Patronal de la República Mexicana (Coparmex) Hidalgo, Luis Fernando Garrido Ramírez, alertó sobre una nueva modalidad de asalto a transportistas y empresarios que circulan por carreteras federales, mediante la cual los delincuentes obligan a sus víctimas a realizar transferencias bancarias desde sus dispositivos móviles. Ante esta situación, el dirigente empresarial anunció que solicitará incorporarse a las Mesas de Seguridad en las que participan autoridades estatales, federales y representantes del Arco Norte.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Agresión a transportistas</Tema_segun_la_fuente>
+		<Sintesis>Coparmex Hidalgo alertó sobre asaltos a transportistas en los que delincuentes los obligan a realizar transferencias bancarias, por lo que solicitará incorporarse a las Mesas de Seguridad con la Secretaría de Gobierno.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, SSPH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Luis Fernando Garrido Ramírez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Instalarán cinco arcos para vigilar el tránsito vehicular</Titular>
+		<Contenido>El gobierno estatal instalará cinco nuevos puntos de monitoreo vehicular tipo arco en distintos puntos de la entidad como parte de las estrategias de vigilancia y seguimiento vehicular impulsadas por el Secretariado Ejecutivo del Consejo Estatal de Seguridad Pública. De acuerdo con la licitación emitida por la Oficialía Mayor, el proyecto prevé la fabricación, instalación y puesta en operación de los nuevos arcos, además de servicios de mantenimiento para el C5i y el Repuve.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Videovigilancia</Tema_segun_la_fuente>
+		<Sintesis>La Oficialía Mayor licitó la fabricación e instalación de cinco arcos de monitoreo vehicular con cámaras LPR y mantenimiento a la red del C5i y Repuve.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Adela Garmez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Oficialía Mayor</Dependencia>
+		<Dependencias_mencionadas>Oficialía Mayor, Segobh, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Diputada local petista denuncia abuso sexual de un dirigente de su partido</Titular>
+		<Contenido>La diputada local del Partido del Trabajo (PT), Orquídea Larragoiti Osorio, denunció públicamente haber sido víctima de presunto abuso sexual por parte de un dirigente nacional de su partido que también ocupa una diputación federal, por lo que anunció el inicio de acciones legales ante la Subprocuraduría de Delitos de Género de la PGJEH. Horas después, el diputado federal Francisco Javier Vázquez Calixto acusó al secretario de Gobierno, Guillermo Olivares Reyna, de persecución política.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Muy negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Abuso Sexual</Tema_segun_la_fuente>
+		<Sintesis>La diputada local Orquídea Larragoiti denunció haber sido víctima de abuso sexual por un dirigente de su partido, mientras que el diputado Francisco Javier Vázquez Calixto acusó al secretario de Gobierno de persecución política.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Socorro Ávila</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Congreso, PGJEH, PT</Dependencias_mencionadas>
+		<Actores_mencionados>Orquídea Larragoiti Osorio, Francisco Javier Vázquez Calixto, Guillermo Olivares Reyna, Francisco Javier Téllez Sánchez, Mónica Reyes Martínez, Yarabi González Martínez, Diana Rangel Zúñiga, Guadalupe Cruz Montaño</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>SEPH realiza capacitación en fonética para mejorar la enseñanza del inglés</Titular>
+		<Contenido>Con el objetivo de fortalecer las competencias lingüísticas y pedagógicas del personal encargado de apoyar la enseñanza del idioma inglés en escuelas públicas de Educación Básica, la Secretaría de Educación Pública de Hidalgo (SEPH), a través del PRONIH, realizó una jornada de capacitación en fonética para 82 asesoras y asesores.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Capacitación docente</Tema_segun_la_fuente>
+		<Sintesis>La SEPH capacitó a 82 asesores de inglés en fonética y pronunciación para mejorar la enseñanza del idioma en escuelas públicas de Educación Básica.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Pide Seiinac revisar investigación de muertes violentas de mujeres</Titular>
+		<Contenido>En el marco del Día Internacional de la Eliminación de la Violencia contra las Mujeres (25N), la asociación civil Servicios de Inclusión Integral y Derechos Humanos (Seiinac) exhortó a las autoridades de procuración de justicia en Hidalgo a revisar los criterios de investigación de las muertes violentas de mujeres, al advertir que el bajo registro oficial de feminicidios podría obedecer a una inadecuada tipificación penal.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>Seiinac exigió a la PGJEH revisar la clasificación de muertes violentas de mujeres en Hidalgo ante el subregistro de feminicidios.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo y Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Mariana García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Marchan en Tulancingo contra la violencia de género</Titular>
+		<Contenido>Con la participación de familiares de víctimas de feminicidio, colectivas feministas y estudiantes se llevó a cabo en Tulancingo una marcha para exigir justicia y acciones efectivas contra la violencia de género en la región. La colectiva Mujeres del Tule recriminó al ayuntamiento el retiro de lonas del kiosco del centro y alumnas de la UAEH exigieron el esclarecimiento del feminicidio de Adriana, estudiante del ICAp.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Marcha 25N</Tema_segun_la_fuente>
+		<Sintesis>Colectivas feministas y familiares de víctimas marcharon en Tulancingo por el 25N exigiendo justicia por feminicidios y denunciando el retiro de lonas de protesta.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo y Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>Ayuntamiento, PGJEH, UAEH</Dependencias_mencionadas>
+		<Actores_mencionados>Adriana</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Hidalgo, sexto en atenciones médicas por violencia familiar</Titular>
+		<Contenido>Hidalgo se ubicó en el sexto lugar nacional por número de atenciones médicas relacionadas con casos de violencia intrafamiliar al registrar 2 mil 329 casos hasta la semana epidemiológica 44 de 2026, de acuerdo con cifras del Sistema Nacional de Vigilancia Epidemiológica (Sinave) de la Secretaría de Salud federal. Del total de registros, 1,999 correspondieron a mujeres (85.8%).</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>17</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Violencia familiar</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo se posicionó en el sexto lugar nacional por atenciones médicas derivadas de violencia familiar, acumulando 2,329 casos en lo que va de 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Invertirán 1.2 millones de pesos en Atlas de Riesgos para Epazoyucan</Titular>
+		<Contenido>El municipio de Epazoyucan contará por primera vez con un Atlas de Riesgos, herramienta que permitirá identificar peligros naturales y antropogénicos, orientar el crecimiento urbano y prevenir asentamientos en zonas vulnerables. La elaboración del documento tendrá una inversión de 1.2 millones de pesos con apoyo del gobierno estatal, informó el alcalde Carlos Montaño Rodríguez.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Epazoyucan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atlas de Riesgos</Tema_segun_la_fuente>
+		<Sintesis>Epazoyucan invertirá 1.2 millones de pesos en la elaboración de su Atlas de Riesgos para prevenir inundaciones y regular el desarrollo urbano.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Ayuntamiento, Segobh</Dependencias_mencionadas>
+		<Actores_mencionados>Carlos Montaño Rodríguez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Santos deja la dirección regional de la Secretaría de Gobierno en Tulancingo</Titular>
+		<Contenido>Rogelio Santos Hernández anunció su renuncia definitiva al cargo de director regional de la Secretaría de Gobierno en el distrito de Tulancingo, con el propósito de participar en el proceso interno de Morena rumbo a una candidatura para la diputación local. Explicó que la oficina permanecerá sin titular mientras el secretario de Gobierno, Guillermo Olivares Reyna, determina quién asumirá el cargo.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Renuncia</Tema_segun_la_fuente>
+		<Sintesis>Rogelio Santos Hernández renunció a la dirección regional de la Secretaría de Gobierno en Tulancingo para buscar la candidatura de Morena a diputado local.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Morena</Dependencias_mencionadas>
+		<Actores_mencionados>Rogelio Santos Hernández, Guillermo Olivares Reyna</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Astronomía y cultura se reunirán en Huapalcalco</Titular>
+		<Contenido>La zona arqueológica de Huapalcalco, en Tulancingo, abrirá sus puertas el próximo 28 de noviembre para recibir la edición 2026 de Noche de las Estrellas y Fuego Nuevo, un encuentro de divulgación científica y cultural que ofrecerá acceso gratuito a todas sus actividades y la instalación de más de 20 telescopios.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Noche de estrellas</Tema_segun_la_fuente>
+		<Sintesis>La zona arqueológica de Huapalcalco albergará el evento gratuito Noche de las Estrellas y Fuego Nuevo para promover la divulgación científica y el patrimonio cultural.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Presidencia, Ayuntamiento, Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Germán Templos</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Dulce María conquista el oro y apunta a Lima 2027</Titular>
+		<Contenido>Dulce María García Juárez, originaria de Tecozautla, ganó el oro en la categoría BC3 del Campeonato Centroamericano y del Caribe de Boccia 2026, celebrado en Pachuca. Venció 6-1 a la estadunidense Sara Gaver, tras superar una semifinal cerrada. La medalla podría abrirle el camino a Lima 2027.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>1</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deporte adaptado</Tema_segun_la_fuente>
+		<Sintesis>Dulce María García Juárez se proclamó campeona en la categoría BC3 del Campeonato Centroamericano y del Caribe de Boccia 2026 en Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Dulce María García Juárez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Los delitos de alto impacto acumulan 5 mil 664 carpetas</Titular>
+		<Contenido>De las 44 mil 733 carpetas de investigación iniciadas en Hidalgo entre enero y octubre de este año, más de 5 mil son por delitos de alto impacto, de acuerdo con el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública. La Procuraduría de Justicia del estado reportó 5 mil 664 carpetas por homicidio doloso, feminicidio, lesiones dolosas, secuestro y extorsión.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>En Hidalgo se han registrado más de 5 mil carpetas por delitos de alto impacto de enero a octubre de 2026, encabezadas por lesiones dolosas y robo de vehículos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Balacera en Huejutla deja un detenido y un lesionado</Titular>
+		<Contenido>Una persona lesionada y otra detenida es el saldo preliminar de una balacera registrada la mañana de este miércoles en la calle Zacatecas, en la zona centro del municipio de Huejutla, cerca del Reloj Municipal. Reportes indican que ocurrió durante una discusión entre trabajadores del transporte público.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>Una balacera en el centro de Huejutla dejó una persona herida y un detenido tras la intervención de elementos policiales y taxistas locales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Refrenda MP compromiso para eliminar la violencia</Titular>
+		<Contenido>La reducción de las brechas de desigualdad para las mujeres sigue siendo un reto importante para todos los niveles de gobierno, por lo que el gobierno del estado debe garantizar las acciones necesarias para atender a las víctimas de delitos y violencia en mayor riesgo de vulnerabilidad, aseguró la fiscal de la Subprocuraduría Especializada de la PGJEH, María Concepción Hernández Aragón.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Erradicación Violencia De Género</Tema_segun_la_fuente>
+		<Sintesis>La Subprocuraduría Especializada de la PGJEH refrendó su compromiso de aplicar herramientas jurídicas para atender la violencia contra las mujeres en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Teodoro Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>María Concepción Hernández Aragón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Llevan foro cultural a la Sierra Otomí-Tepehua</Titular>
+		<Contenido>La riqueza cultural de la Sierra Otomí-Tepehua puede convertirse en una oportunidad de desarrollo económico y social si se vincula con la innovación y las herramientas digitales, planteó el secretario de Educación Pública de Hidalgo, Natividad Castrejón Valdez, durante el cuarto foro Saber-nos Hidalgo en Tenango de Doria.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tenango de Doria</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Evento Cultural</Tema_segun_la_fuente>
+		<Sintesis>La SEPH llevó a cabo el cuarto foro Saber-nos Hidalgo en la Sierra Otomí-Tepehua para impulsar la cultura y vincular el talento local con herramientas digitales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Advierten sobre violencia vicaria</Titular>
+		<Contenido>De acuerdo con la titular del Centro de Justicia para Mujeres, Isabel Sepúlveda Montaño, en las mesas de acercamiento de Bienestar y Paz que se realizan en los municipios se está visualizando la violencia vicaria como un daño altamente destructivo contra las mujeres.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Violencia Vicaria</Tema_segun_la_fuente>
+		<Sintesis>El Centro de Justicia para Mujeres advirtió sobre la gravedad de la violencia vicaria detectada durante las mesas de atención ciudadana en los municipios.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, CJMH</Dependencias_mencionadas>
+		<Actores_mencionados>Isabel Sepúlveda Montaño</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Impulsan acciones contra la violencia en 41 municipios</Titular>
+		<Contenido>Con actividades en 41 municipios, el gobierno de Hidalgo puso en marcha los 16 Días de Activismo con la campaña Mujeres Libres, que busca fortalecer la igualdad sustantiva y acercar a más mujeres los servicios especializados de atención y protección, impulsada por la Secretaría de Gobierno y el IHM.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Erradicación Violencia De Género</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Gobierno y el Instituto Hidalguense de las Mujeres iniciaron en 41 municipios los 16 Días de Activismo con la campaña Mujeres Libres.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, IHM</Dependencias_mencionadas>
+		<Actores_mencionados>Katya Gabriela Hernández Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Entrega SSH 42 apoyos funcionales en Actopan</Titular>
+		<Contenido>En Actopan, la Secretaría de Salud de Hidalgo (SSH) entregó 42 apoyos funcionales a habitantes con discapacidad o limitaciones motrices, como sillas de ruedas, andaderas y auxiliares auditivos. La secretaria Vanesa Escalante señaló que los apoyos responden a la instrucción del gobernador Julio Menchaca Salazar.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Actopan</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyo a personas con discapacidad</Tema_segun_la_fuente>
+		<Sintesis>La SSH entregó 42 auxiliares funcionales y sillas de ruedas en Actopan para favorecer la movilidad y rehabilitación de personas con discapacidad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH</Dependencias_mencionadas>
+		<Actores_mencionados>Vanesa Escalante Arroyo, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Hidalgo, entre los 10 primeros lugares en delitos contra mujeres en el país: SESNSP</Titular>
+		<Contenido>De acuerdo con el informe mensual del Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública, Hidalgo se ubica entre los diez primeros lugares nacionales en delitos contra mujeres como secuestro, violencia familiar y lesiones dolosas. En diez meses acumulo 6 mil 922 carpetas por violencia familiar y 767 por violación.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>Informes del SESNSP señalan que Hidalgo se ubica entre las diez entidades con mayor incidencia en delitos cometidos contra mujeres, registrando un aumento en violencia familiar y agresiones sexuales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Reporta Seiinac 58 muertes violentas en ocho meses</Titular>
+		<Contenido>Servicios de Inclusión Integral y Derechos Humanos A.C. (Seiinac) alertó que entre enero y agosto de este año se registraron 58 muertes violentas de mujeres en Hidalgo, de las cuales únicamente dos fueron clasificadas como feminicidios. Exigieron investigar todos los homicidios de mujeres con perspectiva de género.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>Activistas de Seiinac realizaron una jornada de intervención en la Antimonumenta de Pachuca para señalar un subregistro en casos de feminicidios en la entidad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Lourdes Naranjo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Mariana García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Promueven un turismo más competitivo e incluyente</Titular>
+		<Contenido>La secretaria de Turismo de Hidalgo, Elizabeth Quintanar Gómez, sostuvo una reunión con la Asociación de Hoteles y Moteles para impulsar una agenda de trabajo conjunta, mejorar la promoción turística e integrar al sector gastronómico a la campaña Regala Hidalgo.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Impulso Al Turismo</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Turismo estatal coordinó acciones con la Asociación de Hoteles y Moteles para fortalecer la competitividad del sector y promover ferias y promociones de fin de año.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo</Dependencias_mencionadas>
+		<Actores_mencionados>Elizabeth Quintanar Gómez, Roxana Vargas, Fernanda Ibarra Percastre, Sandra Camacho</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Balacera en el centro de Huejutla deja un lesionado y un detenido</Titular>
+		<Contenido>Una discusión entre choferes de transporte público culminó en una balacera sobre la calle Zacatecas en el centro de Huejutla. Elementos policiales detuvieron a un sospechoso mientras un herido fue trasladado al hospital.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>Un tiroteo originado por un pleito entre transportistas en el centro de Huejutla causó pánico, con saldo de un herido por bala y un sujeto detenido.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Francisco Bautista</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Renunció el director de Gobernación en Tulancingo</Titular>
+		<Contenido>Rogelio Santos Hernández anunció su renuncia definitiva al cargo de director general de Gobernación en Tulancingo para participar en la contienda interna de Morena por la coordinación distrital local.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Renuncia</Tema_segun_la_fuente>
+		<Sintesis>Rogelio Santos Hernández dejó la Dirección General de Gobernación de la región Tulancingo para inscribirse en la convocatoria interna de Morena rumbo a las elecciones locales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Mirely Santos</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Morena</Dependencias_mencionadas>
+		<Actores_mencionados>Rogelio Santos Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Sebiso entrega apoyos al 96% de sus beneficiarios en Hidalgo</Titular>
+		<Contenido>La Secretaría de Bienestar e Inclusión Social (Sebiso) ha entregado recursos económicos al 96 por ciento de su padrón de beneficiarios en Hidalgo y prevé completar los depósitos pendientes durante diciembre, informó su titular, Ricardo Gómez Moreno. El funcionario detalló que los cuatro bimestres de los programas Bienestar y Desarrollo y Madres Trabajadoras, correspondientes a la primera ventanilla, ya cuentan con sus respectivos depósitos. Lo mismo ocurre con quienes recibieron su tarjeta bancaria en octubre, como parte de la segunda ventanilla. En el programa Bienestar de Personas Cuidadoras, la dependencia completó la entrega de los apoyos durante octubre y noviembre. Este beneficio consiste en un pago único de 10 mil pesos, mientras que el programa Bienestar de Personas Artesanas registra un avance del 90 por ciento en la dispersión de recursos. Gómez Moreno explicó que los depósitos pendientes corresponden principalmente a personas que recogieron su tarjeta en noviembre, debido a que no acudieron durante la primera convocatoria para recibirla. Por ello, pidió a quienes recibieron su tarjeta en octubre revisar sus cuentas bancarias para verificar que los recursos hayan llegado correctamente. En caso de extravío del plástico o pérdida de la contraseña, señaló que pueden solicitar asistencia a la empresa bancaria mediante los números telefónicos incluidos en la documentación que recibieron junto con su tarjeta.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Programas Del Bienestar</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Bienestar e Inclusión Social (Sebiso) ha entregado apoyos económicos al 96% de sus beneficiarios en Hidalgo y prevé completar los depósitos pendientes durante diciembre, según informó su titular Ricardo Gómez Moreno.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Gómez Moreno</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Proyecta Hidalgo más ingresos por hospedaje; va por regulación de Airbnb</Titular>
+		<Contenido>La titular de la Secretaría de Turismo del estado (Secturh), Elizabeth Quintanar Gómez, señaló que la dependencia busca cerrar el 2026 con una recaudación de Impuesto Sobre Hospedaje (ISH) mayor a 22 millones de pesos, es decir, una cifra mayor a la de 2025. De acuerdo con Quintanar Gómez, la subsecretaría de Hacienda estatal destacó que todavía falta contabilizar el último trimestre, periodo que contempla actividades turísticas como Xantolo, la Feria de Pachuca y las celebraciones navideñas, por lo cual confía en que se rebase dicha cifra. Detalló que se registraron 14 millones de pesos en 2022, mientras que en 2025 se recaudaron 22 millones 454 mil 840 pesos; al cierre del primer trimestre del 2026, ya se habían reportado 18 millones de pesos. "Los hoteles están creyendo en nosotros porque ven la promoción, ven el esfuerzo que hace el estado y están llegando turistas; ese es un reflejo de tener turistas, es una cifra que ayuda mucho para ver cómo está la ocupación hotelera", señaló la funcionaria estatal. En el marco de la recaudación de más impuestos, la titular de Secturh adelantó que el día jueves 26 de noviembre sostendrá una reunión en Tamaulipas con su homóloga federal, Josefina Rodríguez Zamora, con quien tratará asuntos relacionados con la regulación del sistema de alojamiento ARB&amp;B. La dependencia estatal estimó que, si se regularan alrededor de mil alojamientos de Airbnb, con una tarifa promedio de mil 500 pesos por estancia, podrían recaudarse hasta cuatro millones de pesos adicionales por concepto del impuesto al hospedaje.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Impulso Al Turismo</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Turismo de Hidalgo proyecta superar los 22 millones de pesos en recaudación del Impuesto Sobre Hospedaje en 2026 y busca regular las plataformas de alojamiento tipo Airbnb para incrementar los ingresos estatales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Antonio Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo, Hacienda</Dependencias_mencionadas>
+		<Actores_mencionados>Elizabeth Quintanar Gómez, Josefina Rodríguez Zamora</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Hidalguense gana medalla de oro en el Campeonato Centroamericano de Boccia</Titular>
+		<Contenido>La seleccionada nacional Dulce María García Juárez conquistó la medalla de oro en la categoría BC3 individual femenino dentro del Campeonato Centroamericano y del Caribe de Boccia 2026, celebrado en Pachuca, tras imponerse 6-1 a la representante de Estados Unidos en la final. Acompañada por su asistente de canaleta, Martha Leticia Juárez García, la paratleta hidalguense completó una actuación destacada en la fase de grupos y semifinales antes de disputar el título. "Pusimos todo nuestro esfuerzo, luchamos para que así fuera y hoy se cumplió. Aquí está, está aquí en Hidalgo el oro", expresó la madre de Dulce María. Óscar "El Conejo" Pérez, director del INHIDE, destacó que el esfuerzo del gobierno de Hidalgo ha permitido contar con espacios dignos para albergar competencias de alto nivel, como el Campeonato Centroamericano y del Caribe de Boccia 2026.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deporte adaptado</Tema_segun_la_fuente>
+		<Sintesis>La paratleta hidalguense Dulce María García Juárez obtuvo la medalla de oro en la categoría BC3 del Campeonato Centroamericano y del Caribe de Boccia 2026 en Pachuca tras vencer 6-1 a la representante de Estados Unidos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Marco Antonio Cerón</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Dulce María García Juárez, Martha Leticia Juárez García, Óscar Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>25N: continúa la violencia contra las mujeres, pero cae el registro de feminicidios</Titular>
+		<Contenido>En el marco del Día Internacional de la Eliminación de la Violencia contra la Mujer, este 25 de noviembre, Pachuca no fue escenario de una marcha, pero sí de un posicionamiento público en el que integrantes de Servicios de Inclusión Integral y Derechos Humanos A.C. (SEIINAC) alzaron la voz para denunciar las condiciones de violencia que enfrentan las mujeres y señalar deficiencias en la actuación de las instituciones. Desde la antimonumenta, la organización expuso que uno de los principales problemas se encuentra en la investigación y clasificación de las muertes violentas de mujeres, pues los registros oficiales de 2026 muestran una reducción en los casos reconocidos como feminicidio. De acuerdo con los datos presentados por SEIINAC, entre 2016 y 2025 Hidalgo registró entre 15 y 22 feminicidios por año, mientras que entre 12 y 28 de cada 100 muertes violentas de mujeres recibían esta clasificación. Sin embargo, para agosto de 2026, las cifras oficiales contabilizaron únicamente dos feminicidios de 58 asesinatos violentos de mujeres. En contraste, la membrana institucional de SEIINAC documentó 28 muertes violentas de mujeres hasta noviembre de este año. De ellas, diez cuentan con un protocolo de feminicidio iniciado y 18 aparecen registradas como accidentes, intoxicaciones, ahogamientos, lesiones por arma de fuego, quemaduras o causas desconocidas. Mariana García, presidenta del Consejo Directivo de SEIINAC, manifestó su preocupación ante estas cifras, no porque ya no exista violencia sino en que las muertes violentas de mujeres no se investiguen ni clasifiquen como feminicidios cuando corresponde, situación que podría evidenciar deficiencias en la integración de las carpetas de investigación. La organización informó que actualmente acompaña entre cinco y seis casos de violencia contra las mujeres, relacionados con distintas modalidades, entre ellas la digital y la vicaria. Durante el posicionamiento también se expusieron cifras del Registro Nacional de Incidencia Delictiva del Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública, con corte al 31 de julio de 2026. En ese periodo, Hidalgo registró cinco mil 583 víctimas de violencia familiar, de las cuales cuatro mil 178 fueron mujeres. Asimismo, contabilizó 521 mujeres víctimas de violación, 470 de abuso sexual, 210 de violación a la intimidad sexual y 132 de hostigamiento sexual. Entre las víctimas de estas agresiones, 396 tenían entre 13 y 17 años. Ante este panorama, SEIINAC exigió que las investigaciones se realicen con perspectiva de género y debida diligencia, así como la clasificación de los homicidios de mujeres como feminicidio cuando corresponda y sanciones contra la negligencia, la revictimización y la impunidad. También demandó un sistema estatal de información sobre desapariciones de mujeres y niñas, atención y seguimiento a los casos de violencia familiar, protección para víctimas de violencia vicaria y protocolos para investigar las agresiones sexuales. La organización también cuestionó que las actividades institucionales por el 25N se concentren en acciones simbólicas, como pintar espacios y tomar fotografías, en lugar de traducirse en medidas concretas de prevención, atención y acceso a la justicia.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>En el marco del 25N, la organización SEIINAC realizó un posicionamiento en Pachuca para denunciar deficiencias e inconsistencias en las investigaciones oficiales de muertes violentas de mujeres, señalando un subregistro de feminicidios.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Mariana García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Achaca el PT persecución política por caso de Kitty</Titular>
+		<Contenido>El diputado federal del PT, Francisco Javier Vázquez Calixto, denunció persecución política por parte del secretario de Gobierno de Hidalgo, Guillermo Olivares Reyna, tras la acusación por presunto abuso sexual.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Persecución política</Tema_segun_la_fuente>
+		<Sintesis>El dirigente y diputado del PT, Francisco Javier Vázquez Calixto, acusó persecución política en Hidalgo tras ser señalado de abuso sexual.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, PT</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Javier Vázquez Calixto, Guillermo Olivares Reyna, Orquídea Larragoiti, Edgar Hernández Dañú</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Hidalgo suma 36 delitos electorales en este año</Titular>
+		<Contenido>A un mes del inicio formal del proceso electoral local, se registran 36 denuncias penales por delitos electorales en Hidalgo con corte a octubre según el SESNSP.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Delitos Electorales</Tema_segun_la_fuente>
+		<Sintesis>En Hidalgo se han acumulado 36 carpetas de investigación por posibles delitos electorales a un mes del inicio del proceso electoral.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Destinan casi 8 millones de pesos a las oficinas de Policía Bancaria</Titular>
+		<Contenido>La Sipdus adjudicó por 7.9 mdp la construcción de oficinas administrativas para la Policía Industrial Bancaria (PIBEH) en la colonia Santa Julia de Pachuca.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Obras De Infraestructura</Tema_segun_la_fuente>
+		<Sintesis>La Sipdus invertirá 7.9 mdp en la segunda etapa de construcción de las oficinas administrativas de la Policía Industrial Bancaria.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Sipdus</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Crecen robos a casa habitación en un mes</Titular>
+		<Contenido>Las denuncias por robo a casa habitación ante la PGJEH aumentaron 26.9 por ciento entre septiembre y octubre, sumando mil 348 denuncias en los primeros diez meses del año según el SESNSP.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>Las denuncias por robo a casa habitación en Hidalgo aumentaron un 26.9% en octubre, concentrándose la mayor incidencia en Pachuca, Tizayuca y Mineral de la Reforma.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Congreso</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Obras federales deben concluir en febrero 2027</Titular>
+		<Contenido>Alejandro Sánchez García, titular de Sipdus, anticipó que en febrero de 2027 deberán concluirse todas las obras ejecutadas con recursos provenientes del gobierno federal.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Obras De Infraestructura</Tema_segun_la_fuente>
+		<Sintesis>El titular de Sipdus informó que para febrero de 2027 deberán quedar concluidas las obras que se ejecutan con recursos federales en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Jesús León</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>Sipdus, Congreso</Dependencias_mencionadas>
+		<Actores_mencionados>Alejandro Sánchez García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Cuestiona Seiinac cifras de los feminicidios en Hidalgo</Titular>
+		<Contenido>En el marco del 25N, la asociación Seiinac lamentó que las autoridades solo clasifiquen como feminicidios 2 de las 58 muertes violentas de mujeres registradas en Hidalgo hasta agosto.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>La asociación Seiinac exigió investigar todas las muertes violentas de mujeres con perspectiva de género tras acusar subregistro de feminicidios.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Carmen Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Violencia de género en Tula: víctimas sufren impunidad y maltrato al denunciar</Titular>
+		<Contenido>Zaira López Rodríguez, presidenta de la ANAD Hidalgo, denunció que las mujeres víctimas de violencia en Tula enfrentan traslados de 3 horas y maltrato por personal ministerial.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Violencia de Género</Tema_segun_la_fuente>
+		<Sintesis>La ANAD en Hidalgo advirtió sobre deficiencias institucionales, traslados prolongados y revictimización para mujeres que denuncian en Tula.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Magda Olguín</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Zaira López Rodríguez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Atienden 16 casos de feminicidio en Hidalgo</Titular>
+		<Contenido>La Defensoría Pública Federal atiende 16 casos de feminicidio en Hidalgo. En Tulancingo, colectivas marchan para exigir justicia por el feminicidio de Adriana Maricruz Núñez Jottar.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>Defensoría Pública atiende 16 asuntos de feminicidio en Hidalgo mientras colectivas en Tulancingo reclaman justicia por la estudiante asesinada.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>María Antonieta Islas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, UAEH</Dependencias_mencionadas>
+		<Actores_mencionados>Monserrat Sandoval Delgadillo, Adriana Maricruz Núñez Jottar, Morrigan Flores</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Renuncia Rogelio Santos; buscará coordinación distrital de Morena</Titular>
+		<Contenido>Rogelio Santos Hernández renunció a la Dirección General de Gobierno región Tulancingo para participar en el proceso interno de selección de candidaturas de Morena.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Renuncia</Tema_segun_la_fuente>
+		<Sintesis>Rogelio Santos Hernández dejó la Dirección General de Gobierno en la región Tulancingo para competir por la coordinación distrital de Morena.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>María Antonieta Islas</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Morena</Dependencias_mencionadas>
+		<Actores_mencionados>Rogelio Santos Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>El Trío Aurora Hidalguense llevará su música a la UTSH</Titular>
+		<Contenido>Integrantes del Trío Aurora Hidalguense acuerdan con autoridades de la Universidad Tecnológica de la Sierra Hidalguense en Zacualtipán proyectos culturales y difusión musical.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Zacualtipán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Evento Cultural</Tema_segun_la_fuente>
+		<Sintesis>El Trío Aurora Hidalguense estableció alianza con la UTSH para promover la música huasteca y las tradiciones regionales.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Martha Sáenz</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Raúl Gilberto Gómez Villegas</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Rinde protesta procuraduría infantil</Titular>
+		<Contenido>La presidenta municipal de Metztitlán, Susana Rivera Cano, encabeza la toma de protesta de la Procuraduría Municipal de Protección de Niñas, Niños y Adolescentes junto a la procuradora estatal.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Metztitlán</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Procuraduría Municipal del Menor</Tema_segun_la_fuente>
+		<Sintesis>Instalan formalmente la Procuraduría Municipal de Protección de Niñas, Niños y Adolescentes en Metztitlán para garantizar sus derechos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>6</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>DIFH</Dependencia>
+		<Dependencias_mencionadas>DIFH, Ayuntamiento</Dependencias_mencionadas>
+		<Actores_mencionados>Susana Rivera Cano, Laura Karina Ramírez Jiménez, Alan Ventura Reyes López</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>COBAEH y ASF-K de México firman importante convenio</Titular>
+		<Contenido>El COBAEH y la empresa ASF-K de México firmaron un convenio de colaboración para fortalecer la vinculación académica y las prácticas profesionales de los estudiantes.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tepeapulco</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Convenio De Colaboración</Tema_segun_la_fuente>
+		<Sintesis>COBAEH firmó un acuerdo con la empresa ASF-K para ampliar las oportunidades de formación e inserción laboral de alumnos.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Abel Ricardo Flores</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, COBAEH</Dependencias_mencionadas>
+		<Actores_mencionados>Rubén López Valdez, Ricardo Atitlán Sánchez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Balacera en Huejutla; frustran presunto levantón, un detenido</Titular>
+		<Contenido>Una persecución policial en el centro de Huejutla derivó en balacera, dejando un herido y un detenido, presuntamente tras evitar el levantón de un joven.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>Operativo policial en el centro de Huejutla dejó un herido y un taxista detenido tras una persecución y balacera.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH, Guardia Nacional, Cruz Roja</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Aseguraron 68 mil litros de hidrocarburo</Titular>
+		<Contenido>La SSPH aseguró un tractocamión con dos autotanques que transportaban 68 mil litros de hidrocarburo de procedencia presuntamente ilegal en Zempoala.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Zempoala</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>ROBO DE HIDROCARBURO</Tema_segun_la_fuente>
+		<Sintesis>Agentes de la SSPH decomisaron 68 mil litros de combustible ilegal y detuvieron al conductor de un autotanque en Zempoala.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Vinculan a cuatro implicados en el crimen de dos policías de Tepehuacán</Titular>
+		<Contenido>Cuatro hombres fueron vinculados a proceso por homicidio calificado agravado en contra de dos policías municipales atacados en la casa del alcalde de Tepehuacán.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Tepehuacán</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Homicidio de Policía</Tema_segun_la_fuente>
+		<Sintesis>Jueza dictó prisión preventiva y vinculó a proceso a cuatro sujetos por el asesinato de dos oficiales en Tepehuacán de Guerrero.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Martínez Enríquez, Janett Montiel Mendoza, Samuel Flores Santiago, Alfredo Bautista Ortiz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Robó en un comercio, lo detienen, pero resultó con orden de aprehensión</Titular>
+		<Contenido>Policías municipales de Pachuca detuvieron a un sujeto por sustraer celulares en una tienda del Centro, descubriendo que contaba con orden de aprehensión por violencia familiar.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Detención</Tema_segun_la_fuente>
+		<Sintesis>La Policía de Pachuca arrestó a un hombre por robo de celulares en la colonia Centro que tenía una orden de aprehensión vigente.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSPH</Dependencia>
+		<Dependencias_mencionadas>SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Dulce María García Juárez campeona centroamericana de boccia</Titular>
+		<Contenido>La hidalguense Dulce María García Juárez ganó la medalla de oro en la categoría BC3 del Campeonato Centroamericano y del Caribe de Boccia 2026.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Deporte adaptado</Tema_segun_la_fuente>
+		<Sintesis>Dulce María García se proclamó campeona en boccia tras vencer 6-1 a Estados Unidos en la final celebrada en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, INHIDE</Dependencias_mencionadas>
+		<Actores_mencionados>Dulce María García Juárez, Óscar Pérez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Activistas exigen justicia por víctimas de violencia</Titular>
+		<Contenido>Colectivas feministas y familiares de víctimas se pronunciaron en Pachuca y Tulancingo en el marco del #25N para exigir justicia por feminicidios y cuestionar que de 58 muertes violentas de mujeres registradas en Hidalgo hasta agosto de 2026, solo dos fueron investigadas como feminicidios.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>Colectivas feministas se manifestaron en Pachuca y Tulancingo demandando reclasificar muertes violentas de mujeres como feminicidios y exigir sentencias severas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, UAEH, CEAVIF</Dependencias_mencionadas>
+		<Actores_mencionados>Balbina Garrido, Mónica Sepúlveda, Mariana García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Van a demoler primaria en Tulancingo; edificarán otra</Titular>
+		<Contenido>La Secretaría de Educación Pública de Hidalgo (SEPH) anunció la demolición y reconstrucción total de la escuela primaria Aquiles Serdán en Tulancingo debido a fallas estructurales. Las obras se extenderán durante el ciclo escolar 2026-2027, por lo que los alumnos serán reubicados o tomarán clases virtuales e híbridas.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>La SEPH demolerá y reconstruirá la primaria Aquiles Serdán en Tulancingo por daños estructurales, reubicando temporalmente a su alumnado.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Octavio Jaimes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Prevén poner impuesto para Airbnb en Hidalgo</Titular>
+		<Contenido>La Secretaría de Turismo de Hidalgo (Secturh) busca impulsar un esquema de contribución para regular el hospedaje mediante plataformas digitales como Airbnb, estimando que más de mil alojamientos podrían generar hasta 4 millones de pesos adicionales mediante el impuesto del 2.5%.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Airbnb</Tema_segun_la_fuente>
+		<Sintesis>Secturh busca aplicar el impuesto sobre hospedaje a más de mil alojamientos de Airbnb en Hidalgo, estimando recaudar 4 mdp adicionales.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>16</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo, Hacienda</Dependencias_mencionadas>
+		<Actores_mencionados>Elizabeth Quintanar Gómez, Yoshio Cancino Vega, Josefina Rodríguez Zamora</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Buscan hoteles mayor difusión fuera de Hidalgo</Titular>
+		<Contenido>La titular de Secturh, Elizabeth Quintanar Gómez, encabezó la Asamblea de la Asociación de Hoteles y Moteles del Estado de Hidalgo para acordar estrategias de promoción turística en ferias nacionales e internacionales y sensibilización en atención a personas con discapacidad visual.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Impulso Al Turismo</Tema_segun_la_fuente>
+		<Sintesis>Secturh y la Asociación de Hoteles y Moteles coordinan proyectos de promoción turística nacional e inclusión para personas con discapacidad visual.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Turismo</Dependencia>
+		<Dependencias_mencionadas>Turismo</Dependencias_mencionadas>
+		<Actores_mencionados>Elizabeth Quintanar Gómez, Roxana Vargas, Evelin Ríos, Javier Ordoña Ortega, Fernanda Ibarra Percastre</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Tepehuacán: vinculan a proceso a cuatro por asesinato de 2 policías</Titular>
+		<Contenido>La jueza de control Janett Montiel Mendoza vinculó a proceso y fijó un plazo de 100 días de investigación complementaria contra cuatro hombres por homicidio calificado de dos policías municipales en Acoxcatlán durante el ataque armado a la vivienda del alcalde Francisco Martínez Enríquez.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Tepehuacán</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Homicidio de Policía</Tema_segun_la_fuente>
+		<Sintesis>Cuatro sujetos fueron vinculados a proceso por el homicidio de dos policías municipales de Tepehuacán durante el ataque a la casa del alcalde.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Ayuntamiento, Guardia Nacional</Dependencias_mencionadas>
+		<Actores_mencionados>Francisco Martínez Enríquez, Janett Montiel Mendoza, Samuel Flores Santiago, Alfredo Bautista Ortiz</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>Acerca Hidalgo trámites de doble nacionalidad a familias migrantes</Titular>
+		<Contenido>La Dirección General del Registro del Estado Familiar (DGREF) y la Dirección de Atención al Migrante de Sebiso instalaron un módulo informativo en Atotonilco de Tula dentro del operativo 'Heroínas y Héroes Paisanos 2026' para facilitar trámites de doble nacionalidad a hijas e hijos de migrantes.</Contenido>
+		<Fecha_de_publicacion>2026-11-26</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Atotonilco de Tula</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Doble nacionalidad</Tema_segun_la_fuente>
+		<Sintesis>La DGREF y Sebiso brindaron orientación y trámites de doble nacionalidad a familias de migrantes hidalguenses en Atotonilco de Tula.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Bienestar, INM</Dependencias_mencionadas>
+		<Actores_mencionados>Celia Ramírez Godínez</Actores_mencionados>
+	</Nota>
+</NotasRadio>

@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Combate al lirio se notará en 6 meses</Titular>
+		<Contenido>La cantidad de esta planta puede duplicarse cada 16 días, por lo que los esfuerzos en la Presa Endhó son insuficientes, reconoce la secretaria de Medio Ambiente de Hidalgo, Mónica Mixtega Trejo. Se prevé contar con ocho trituradoras estatales y cuatro federales.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>1</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Lirio Acuático</Tema_segun_la_fuente>
+		<Sintesis>Semarnath informó que el retiro de lirio en la presa Endhó requiere más trituradoras y sus resultados se observarán en 4 a 6 meses.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alma Leticia Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath</Dependencias_mencionadas>
+		<Actores_mencionados>Mónica Mixtega Trejo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Tardará hasta 6 meses para ver resultados</Titular>
+		<Contenido>Los resultados de las acciones para retirar el lirio acuático de la presa Endhó y reducir la proliferación del mosquito podrían comenzar a observarse en un periodo de cuatro a seis meses, debido a que la planta duplica su crecimiento cada 16 días y la maquinaria disponible actualmente resulta insuficiente para atender su expansión, informó la titular de la Secretaría de Medio Ambiente y Recursos Naturales de Hidalgo (Semarnath), Mónica Mixtega Trejo.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Lirio Acuático</Tema_segun_la_fuente>
+		<Sintesis>Semarnath incorporará ocho máquinas trituradoras y cuatro federales para controlar la plaga de lirio acuático en la presa Endhó.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alma Leticia Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath</Dependencias_mencionadas>
+		<Actores_mencionados>Mónica Mixtega Trejo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Lanzan plataforma para conocer biodiversidad</Titular>
+		<Contenido>Hidalgo alberga tres mil 961 especies de distintos grupos biológicos, pese a representar apenas 1.1% del territorio nacional y para conocer dónde habitan, cómo se distribuyen y qué amenazas enfrentan, la Secretaría del Medio Ambiente y Recursos Naturales en Hidalgo (Semarnath) presentó el Sistema Estatal de Biodiversidad, una plataforma digital que permitirá consultar la riqueza natural de la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Conservación Biodiversidad</Tema_segun_la_fuente>
+		<Sintesis>Semarnath y Coesbioh pusieron en marcha el Sistema Estatal de Biodiversidad para consultar datos de cerca de 4 mil especies registradas en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alma Leticia Sánchez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath, Coesbioh, Planeación, Conabio</Dependencias_mencionadas>
+		<Actores_mencionados>Erika Ortigoza Vázquez, Mónica Mixtega Trejo</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Verifican vehículos con engomado azul</Titular>
+		<Contenido>En diciembre de 2026, según el calendario de la Secretaría de Medio Ambiente y Recursos Naturales de Hidalgo (Semarnath), deben verificar los vehículos con engomado azul y placas con terminación 9 y 0. Tendrán como fecha límite hasta el 31 de diciembre. Los costos van de 255 pesos a 1,432 pesos.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Verificación vehicular</Tema_segun_la_fuente>
+		<Sintesis>Semarnath informó que durante diciembre corresponde verificar a vehículos con engomado azul y terminación de placa 9 y 0.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Víctor Serrano</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Impulsan la regularización de pirotecnia en Huautla</Titular>
+		<Contenido>Un grupo de 12 artesanos dedicados a la elaboración de pirotecnia de la comunidad de Banderas, en el municipio de Huautla, se reunió con el subsecretario de Gobierno en la Huasteca, Ignacio Primitivo Nava Navarrete, a quien solicitaron contar con un espacio adecuado y seguro para desarrollar su actividad y regularizar permisos ante la Sedena.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>13</Liga>
+		<Municipio>Huautla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Pirotecnia</Tema_segun_la_fuente>
+		<Sintesis>Artesanos pirotécnicos de Huautla iniciaron gestiones con la Subsecretaría de Gobierno en la Huasteca para obtener un terreno regulado por Sedena.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Rubén Juárez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Sedena</Dependencias_mencionadas>
+		<Actores_mencionados>Ignacio Primitivo Nava Navarrete</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Sol de Hidalgo</Medio_o_cuenta>
+		<Titular>Convocan al Segundo Festival de Muralismo</Titular>
+		<Contenido>El Colectivo Gusano de Maguey informó que en la comunidad de Santa María Amajac, municipio de San Salvador, se llevará a cabo el Segundo Festival de Muralismo del 3 al 16 de febrero de 2026 con la técnica de esculto-esgrafiado sobre tradiciones del Valle del Mezquital, con la participación de 30 artistas internacionales y nacionales.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>14</Liga>
+		<Municipio>San Salvador</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Muralismo</Tema_segun_la_fuente>
+		<Sintesis>San Salvador albergará el Segundo Festival de Muralismo con la técnica esculto-esgrafiado y artistas de 10 países.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Omar Santiago</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Colectivo Gusano de Maguey</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Apelarán sentencia contra autor intelectual del triple feminicidio en Tulantepec</Titular>
+		<Contenido>La familia de las tres jóvenes asesinadas en Santiago Tulantepec impugnará la condena de 40 años dictada contra Omar N, al considerar que debe imponerse una sanción mayor equiparable a la de los autores materiales.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Santiago Tulantepec</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Proceso Por Feminicidio</Tema_segun_la_fuente>
+		<Sintesis>Familiares de las víctimas del triple feminicidio en Santiago Tulantepec interpondrán un recurso de apelación contra la condena impuesta al partícipe inductor por juzgarla insuficiente.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Nathali González</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, TSJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Balbina Garrido, Omar N, Ricardo N, Diana N</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Reconoce UPH talento estudiantil; impulsa la innovación en la Huasteca</Titular>
+		<Contenido>Alumnos de la Universidad Politécnica de Huejutla fueron premiados por proyectos de estadía enfocados en el desarrollo tecnológico y social, en el marco del 14 aniversario de la institución.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>18</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Impulso a la educación</Tema_segun_la_fuente>
+		<Sintesis>La UPH galardonó la creatividad e innovación de su comunidad estudiantil y anunció la realización del foro Saber-nos Hidalgo para fortalecer el desarrollo regional.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>José Eugenio Segura Marroquín, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresiones locales</Canal>
+		<Medio_o_cuenta>La Jornada Hidalgo</Medio_o_cuenta>
+		<Titular>Exponen obras por los 125 años del Baile de los 41 en Pachuca</Titular>
+		<Contenido>El Exconvento de San Francisco en Pachuca alberga la muestra colectiva "41+1: 125 años del Baile de los 41", integrando 18 piezas de arte contemporáneo e histórico sobre la memoria de la diversidad sexual.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>19</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Exposición Artística</Tema_segun_la_fuente>
+		<Sintesis>El Cecultah inauguró una muestra artística en el auditorio Salvador Toscano que conmemora los 125 años del histórico hecho del Baile de los 41 mediante grabados y fotografías.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Dulce Castillo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Cultura</Dependencia>
+		<Dependencias_mencionadas>Cultura</Dependencias_mencionadas>
+		<Actores_mencionados>Carlos Genaro Cruz Hernández</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Huachicol, robo y violencia familiar encabezan delitos</Titular>
+		<Contenido>El robo de combustible a los ductos de Petróleos Mexicanos, la violencia familiar y el robo son los delitos más denunciados ante la Agencia del Ministerio Público Federal y la PGJEH en los últimos 10 meses.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>Hidalgo acumula más de 50 mil carpetas de investigación en los últimos 10 meses; el huachicol, el robo y la violencia familiar destacan como los delitos más denunciados.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH, Pemex</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>En Arco Norte, 300 accidentes por mes; velocidad, un factor</Titular>
+		<Contenido>El tramo del kilómetro 117 de la autopista Arco Norte registra percances casi a diario, acumulando cerca de 300 incidentes mensuales atribuidos al exceso de velocidad y condiciones climatológicas.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente Carretero</Tema_segun_la_fuente>
+		<Sintesis>La autopista Arco Norte registra alrededor de 300 incidentes y 11 accidentes mensuales con lesionados, siendo la velocidad e imprudencia los principales factores.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Alejandro Reyes</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>SICT, Guardia Nacional</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Zarco, Roberto Arturo Pola Cabrera</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Además de robo, transportistas enfrentan burocracia y cobros</Titular>
+		<Contenido>Transportistas de Carga en Hidalgo enfrentan trámites y cobros que pueden prolongar hasta un año la recuperación de camiones robados y localizados.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Agresión a transportistas</Tema_segun_la_fuente>
+		<Sintesis>Canacar solicitó agilizar denuncias y revisar cobros de corralones ante demoras de hasta un año para recuperar unidades robadas en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Equipo Milenio</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Canacar, SICT, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Noé Paredes Meza, Pablo Olvera</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Estabilizan terrenos en la carretera Moxthe-Cieneguilla</Titular>
+		<Contenido>En la carretera Moxthe-Cieneguilla, en Cardonal, la SICT construye muros de contención como parte de la reconstrucción por los daños de las lluvias de octubre de 2025.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Cardonal</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Afectaciones Por Lluvias</Tema_segun_la_fuente>
+		<Sintesis>La SICT construye muros de contención en Cardonal para reparar afectaciones en la infraestructura carretera provocadas por las lluvias.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>4</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Sipdus</Dependencia>
+		<Dependencias_mencionadas>SICT</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Primaria Alemán capta agua de lluvia</Titular>
+		<Contenido>La primaria Presidente Alemán en Pachuca incorporó un sistema de captación pluvial para atender necesidades de higiene y sanitarios ante la escasez del suministro público.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Captación de agua</Tema_segun_la_fuente>
+		<Sintesis>Inauguran sistema pluvial en escuela de Pachuca para mitigar desabasto de agua, beneficiando a la comunidad escolar.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Eloy Martínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Patricia González</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Destinan 2.9 mdp en beneficios al campo</Titular>
+		<Contenido>Un total de 348 productores de 11 municipios recibieron apoyos agropecuarios por más de 2.9 millones de pesos en Villa de Tezontepec, encabezados por Saderh en representación del gobernador Julio Menchaca Salazar.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Villa de Tezontepec</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Entrega De Apoyos</Tema_segun_la_fuente>
+		<Sintesis>Entregan equipamiento e insumos agrícolas a productoras y productores de 11 municipios para fortalecer la economía rural en Hidalgo.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Gobernador</Dependencia>
+		<Dependencias_mencionadas>Saderh, Gobernador</Dependencias_mencionadas>
+		<Actores_mencionados>Napoleón González Pérez, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Dan 96% de apoyos a beneficiarios</Titular>
+		<Contenido>Ricardo Gómez Moreno, titular de Sebiso, reportó que el 96% de los beneficiarios de programas sociales como Bienestar y Desarrollo y Madres Trabajadoras han recibido sus apoyos.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Cobertura de apoyos sociales</Tema_segun_la_fuente>
+		<Sintesis>Sebiso ha entregado recursos a casi la totalidad de su padrón de programas sociales y completará los depósitos pendientes en diciembre.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>8</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Gómez Moreno</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Milenio Hidalgo</Medio_o_cuenta>
+		<Titular>Migrantes envían mil 650 mdd a familias</Titular>
+		<Contenido>Abraham Mendoza, delegado de Bienestar en Hidalgo, informó que la entidad recibe aproximadamente mil 650 millones de dólares en remesas enviadas por migrantes desde EE.UU.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Remesas</Tema_segun_la_fuente>
+		<Sintesis>Remesas enviadas por hidalguenses en Estados Unidos equivalen al 2.8 por ciento del total nacional que ingresa al país.</Sintesis>
+		<Jerarquia_de_la_nota>Breve</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>4</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+		<Actores_mencionados>Abraham Mendoza</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Comienza la entrega de apoyos funcionales</Titular>
+		<Contenido>La Secretaría de Salud de Hidalgo (SSH) inició en Progreso de Obregón la entrega de 81 ayudas funcionales como parte de una estrategia estatal que contempla distribuir 898 dispositivos en 52 municipios para personas con discapacidad o vulnerabilidad social.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Progreso</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Apoyos funcionales</Tema_segun_la_fuente>
+		<Sintesis>La Secretaría de Salud de Hidalgo inició en Progreso de Obregón la entrega regional de 898 ayudas funcionales para habitantes vulnerables de 52 municipios.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SSH</Dependencia>
+		<Dependencias_mencionadas>SSH, DIFH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Recertificaron al Centro de Justicia para Mujeres estatal</Titular>
+		<Contenido>El Centro de Justicia para Mujeres del Estado de Hidalgo (CJMH) obtuvo la recertificación 2026 en el Sistema de Integridad Institucional tras acreditar el cumplimiento de estándares orientados a garantizar una atención digna y especializada con perspectiva de género.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>6</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Atención A Víctimas</Tema_segun_la_fuente>
+		<Sintesis>El CJMH recibió la recertificación 2026 en el Sistema de Integridad Institucional por sus estándares de atención con perspectiva de género a mujeres víctimas de violencia.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, CJMH, Secretaría de las Mujeres</Dependencias_mencionadas>
+		<Actores_mencionados>Isabel Sepúlveda Montaño, Ingrid Gómez Saracíbar, Marcela Figueroa Franco</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>El Universal Hidalgo</Medio_o_cuenta>
+		<Titular>Padres exigen docente para grupo de primaria en Tizayuca</Titular>
+		<Contenido>Padres de familia de la primaria Felipe Ángeles en Nuevo Tizayuca se manifestaron frente a las instalaciones para exigir a la SEPH la asignación inmediata de un maestro para un grupo de primer grado que acumula seis semanas sin clases.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>10</Liga>
+		<Municipio>Tizayuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Exigen docente</Tema_segun_la_fuente>
+		<Sintesis>Tutores de la primaria Felipe Ángeles en Tizayuca se manifestaron para solicitar a la SEPH el nombramiento de un docente tras seis semanas sin clases.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Javier Quezada</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Nancy Eisela García Sánchez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Ante robos y burocracia propone CANACAR crear Fiscalía Especializada en Atención al Transporte</Titular>
+		<Contenido>Josué Caballero Juárez, gerente de la Cámara Nacional del Autotransporte de Carga (Canacar) en Hidalgo, propuso la creación de una Fiscalía Especializada en Atención al Transporte durante una mesa de trabajo interestatal con la concesionaria IDEAL del Arco Norte, ante la incidencia de robos a transportistas y las trabas burocráticas que enfrentan para recuperar sus unidades víctimas de ilícitos. Caballero Juárez señaló que actualmente los casos relacionados con transportistas son atendidos por distintas áreas de la Procuraduría, lo que obliga a los representantes legales a realizar varios trámites que dificultan y retrasan la liberación de unidades retenidas como parte de las investigaciones.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Agresión a transportistas</Tema_segun_la_fuente>
+		<Sintesis>La Canacar propuso en Hidalgo crear una Fiscalía Especializada en Atención al Transporte para agilizar las investigaciones por robos a transportistas y reducir la burocracia en la devolución de unidades.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Canacar</Dependencias_mencionadas>
+		<Actores_mencionados>Josué Caballero Juárez</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Síntesis</Medio_o_cuenta>
+		<Titular>Entregarán 15 mil 300 cobijas en 48 municipios por temporada invernal</Titular>
+		<Contenido>Las bajas temperaturas en distintas regiones de Hidalgo llevarán a la distribución de 15 mil 300 cobijas en 48 municipios, como parte del Programa Invernal 2026. La Secretaría de Bienestar e Inclusión Social (Sebiso) destinará los apoyos principalmente a adultos mayores y personas en situación vulnerable. Las primeras entregas se realizaron en comunidades de Acaxochitlán, Atlapexco, Tlanchinol, Molango, Metztitlán y Tianguistengo, además de Huazalingo y Huejutla.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Entrega De Apoyos</Tema_segun_la_fuente>
+		<Sintesis>La Sebiso puso en marcha el Programa Invernal 2026 con la entrega de 15 mil 300 cobijas en 48 municipios vulnerables de Hidalgo para afrontar el descenso de temperaturas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Berenice Gamboa</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Bienestar</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Tormenta invernal traerá lluvias y descenso de temperaturas</Titular>
+		<Contenido>La primera tormenta invernal de la temporada y el ingreso de una masa de aire ártico provocarán lluvias y un marcado descenso de temperaturas en Hidalgo, por lo que Protección Civil exhortó a la población a extremar precauciones. Se esperan mínimas de cero a cinco grados en zonas serranas con posibilidad de heladas, así como precipitaciones en Pachuca, Mineral de la Reforma, Tulancingo, Tizayuca y Tula de Allende.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Bajas temperaturas</Tema_segun_la_fuente>
+		<Sintesis>La primera tormenta invernal y una masa de aire ártico generarán bajas temperaturas, heladas y lluvias en diversas regiones de Hidalgo, por lo que autoridades emitieron recomendaciones de protección.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Oscar Raúl Pérez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Presidencia</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Brutal choque cobra la vida de hombre y una mujer está grave</Titular>
+		<Contenido>Un automóvil Volkswagen Vento chocó a alta velocidad contra la fachada de un comercio en la carretera México-Pachuca, a la altura de San Antonio el Desmonte, dejando un hombre fallecido y una mujer herida de gravedad.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente Carretero</Tema_segun_la_fuente>
+		<Sintesis>Un choque nocturno sobre la carretera México-Pachuca provocó la muerte de un automovilista y lesiones severas a su acompañante al estrellarse contra un local comercial.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>10</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Plaza Juárez</Medio_o_cuenta>
+		<Titular>Temor y desconcierto de vecinos por movilización policíaca en Huejutla</Titular>
+		<Contenido>Un despliegue de fuerzas federales, estatales y municipales sitió el municipio de Huejutla tras una persecución y balacera en el centro, realizando cateos, asegurando inmuebles y decomisando armas, vehículos y droga vinculados a un grupo criminal.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Operativo de Seguridad</Tema_segun_la_fuente>
+		<Sintesis>Fuerzas de seguridad mantuvieron un operativo masivo en Huejutla con cateos e incautaciones contra una célula delictiva tras enfrentamientos registrados en la zona centro.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, SSPH, Presidencia</Dependencias_mencionadas>
+		<Actores_mencionados>Luis Cruz Mera</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Proponen fiscalía que atienda delitos vs transportistas</Titular>
+		<Contenido>Debido a los trámites burocráticos que enfrentan tras ser víctimas de robos y asaltos, la Canacar solicitó la creación de una fiscalía especializada en investigar delitos contra este gremio. Josué Caballero Juárez, gerente de Canacar en Hidalgo, expuso que los casos son atendidos por distintas áreas de la Procuraduría, lo que retrasa la liberación de unidades hasta por un año.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Agresión a transportistas</Tema_segun_la_fuente>
+		<Sintesis>La Canacar solicitó la creación de una fiscalía especializada en investigar delitos contra transportistas para agilizar los trámites burocráticos y la recuperación de unidades robadas.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Veida Martínez Miranda</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Canacar</Dependencias_mencionadas>
+		<Actores_mencionados>Josué Caballero Juárez, Noé Paredes Meza</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Canacar alerta por patrullas clonadas para cometer robos</Titular>
+		<Contenido>Josué Caballero, gerente de Canacar, denunció la detección de al menos tres patrullas clonadas utilizadas para asaltar a transportistas de carga en las vías de la entidad.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Inseguridad Carretera</Tema_segun_la_fuente>
+		<Sintesis>La Canacar alertó sobre la presencia de patrullas falsas adquiridas en subastas oficiales para cometer asaltos a transportistas en carreteras.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>No</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Luis Godínez</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>Canacar, PGJEH</Dependencias_mencionadas>
+		<Actores_mencionados>Josué Caballero</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Incrementan denuncias por robo en Zacualtipán</Titular>
+		<Contenido>Según el SESNSP, las carpetas de investigación por distintas modalidades de robo en Zacualtipán aumentaron de 36 a 41 casos en el periodo de 10 meses, destacando el robo a casa habitación y a negocio.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Zacualtipán</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Incidencia Delictiva</Tema_segun_la_fuente>
+		<Sintesis>Las denuncias por robo en Zacualtipán registraron un alza de 13.8% al acumular 41 carpetas de investigación entre enero y octubre de 2026.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Martha Sáenz</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Aseguran inmuebles y automóviles durante operativo en Huejutla</Titular>
+		<Contenido>Fuerzas federales, estatales y municipales ejecutaron revisiones y cateos en colonias de Huejutla, logrando el resguardo de viviendas y automóviles involucrados en investigaciones criminales.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Operativo de Seguridad</Tema_segun_la_fuente>
+		<Sintesis>Un operativo conjunto de cuatro corporaciones de seguridad derivó en el aseguramiento de al menos dos casas y diez vehículos en Huejutla.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, GN, Sedena, SSPH, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Docente gana premio internacional Global Teacher Award 2026</Titular>
+		<Contenido>El doctor Jesús Castañeda Rivera fue galardonado por AKS Education Awards en Nueva Delhi por su trayectoria de 20 años en la enseñanza de las matemáticas y la divulgación científica.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Premio internacional</Tema_segun_la_fuente>
+		<Sintesis>El investigador Jesús Castañeda Rivera de la Escuela Normal De las Huastecas obtuvo el Global Teacher Award 2026 otorgado en la India.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Salomón Hernández</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Jesús Castañeda Rivera</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Instalan sistema de captación de agua de lluvia en Pachuca</Titular>
+		<Contenido>El Centro Escolar Presidente Alemán de Pachuca incorporó un sistema de captación de agua con cisterna de 5 mil litros implementado por Isla Urbana para mitigar la escasez hídrica.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Captación de agua</Tema_segun_la_fuente>
+		<Sintesis>Fundación Coca-Cola y Grupo Rica inauguraron un sistema de captación pluvial en el Centro Escolar Presidente Alemán de Pachuca.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Sara Elizondo</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Nancy Leo Porras, Alison Ramírez Cabrera, Emilio Becerril, Hugo Rojas Silva, Antonio Guillén Rivera</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Preocupa destino del lirio retirado de la presa Endhó</Titular>
+		<Contenido>Pobladores de Tula externaron preocupación por el acopio de lirio a cielo abierto en terrenos de cultivo, citando estudios que advierten presencia de plomo y níquel en las raíces de la planta.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>7</Liga>
+		<Municipio>Tula</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Lirio Acuático</Tema_segun_la_fuente>
+		<Sintesis>Ribereños de la presa Endhó exigieron garantizar el tratamiento adecuado del lirio acuático extraído para evitar contaminar campos agrícolas con metales pesados.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Magda Olguín</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semarnath</Dependencia>
+		<Dependencias_mencionadas>Semarnath</Dependencias_mencionadas>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Compiten 348 proyectos de ingenio</Titular>
+		<Contenido>Natividad Castrejón Valdez inauguró el certamen académico donde 885 alumnos presentan prototipos y experimentos científicos con premios económicos para los mejores proyectos.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>8</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>PREMIO CIENCIA Y TECNOLOGÍA</Tema_segun_la_fuente>
+		<Sintesis>Estudiantes de nivel medio superior y superior participan en el 26 Concurso de Creatividad e Ingenio realizado en El Rehilete.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón Valdez, Daniel Fragoso Torres, Jerusalem Kuri del Campo, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Criterio</Medio_o_cuenta>
+		<Titular>Entrega TecNM proyecto a Tlaxiaca</Titular>
+		<Contenido>A través de la gestión del Indemun, estudiantes y docentes del TecNM entregaron estudios técnicos al gobierno municipal de San Agustín Tlaxiaca para mejorar los servicios públicos locales.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>9</Liga>
+		<Municipio>San Agustín Tlaxiaca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Capacitación municipios</Tema_segun_la_fuente>
+		<Sintesis>El TecNM Pachuca presentó al ayuntamiento de San Agustín Tlaxiaca un proyecto de desarrollo urbano para la comunidad de El Durazno.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Segobh</Dependencia>
+		<Dependencias_mencionadas>Segobh, Ayuntamiento</Dependencias_mencionadas>
+	</Nota>
+</NotasRadio>
