@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NotasRadio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>GRUPO RICA LLEGA A 50 CAPTADORES PLUVIALES</Titular>
+		<Contenido>Como parte del programa Escuelas con Agua, la embotelladora de la Industria Mexicana Coca-Cola inauguró en la primaria Presidente Alemán de Pachuca un recolector de lluvia, alcanzando 50 sistemas instalados en Hidalgo, Morelos y Puebla.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>2</Liga>
+		<Municipio>Pachuca</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Captación de agua</Tema_segun_la_fuente>
+		<Sintesis>Grupo RICA inauguró en la escuela primaria Presidente Alemán de Pachuca su sistema de captación de agua pluvial número 50, beneficiando el acceso al recurso para la comunidad escolar dentro del programa Escuelas con Agua.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH, Ayuntamiento de Pachuca</Dependencias_mencionadas>
+		<Actores_mencionados>Miguel Guizado, Jorge Reyes, Nancy Leo, Hugo Rojas, Emilio Becerril</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>KILÓMETRO 117, FOCO ROJO DE ACCIDENTES EN EL ARCO NORTE</Titular>
+		<Contenido>El kilómetro 117 de la autopista Arco Norte registra hasta dos accidentes graves y 11 percances con personas lesionadas al mes debido a pendientes, carga pesada y neblina en la zona de Atitalaquia y Tula. Autoridades de la Guardia Nacional y la SICT proponen tratamientos al pavimento y alertadores laterales.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Accidente Carretero</Tema_segun_la_fuente>
+		<Sintesis>La Guardia Nacional y la SICT identificaron el kilómetro 117 de la autopista Arco Norte como tramo de alto riesgo por frecuentes accidentes y choques provocados por pendientes, carga pesada y neblina.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>SICT, Guardia Nacional</Dependencias_mencionadas>
+		<Actores_mencionados>Roberto Arturo Pola Cabrera, Santiago Córdoba García, Ricardo Zarco</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>PONEN TRABAS EN AUTOPISTA PARA LIBERAR CAMIONES</Titular>
+		<Contenido>Transportistas de Canacar en Hidalgo denunciaron trabas burocráticas y cobros excesivos de hasta 500 mil pesos en depósitos para recuperar camiones robados, así como la presencia de vehículos dados de baja que simulan ser patrullas en el Arco Norte.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>3</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Agresión a transportistas</Tema_segun_la_fuente>
+		<Sintesis>La Canacar alertó sobre demoras de hasta un año y cobros excesivos en corralones para recuperar camiones de carga robados en el Arco Norte, solicitando agilizar la tramitación burocrática y mayor seguridad.</Sintesis>
+		<Jerarquia_de_la_nota>Secundaria</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>Semot</Dependencia>
+		<Dependencias_mencionadas>Canacar, PGJEH, SICT</Dependencias_mencionadas>
+		<Actores_mencionados>Josué Caballero Juárez, Santiago Córdoba García</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>LLEGARÁN COBIJAS A 48 MUNICIPIOS DE HIDALGO</Titular>
+		<Contenido>El gobierno de Hidalgo puso en marcha el Programa Invernal 2026 para entregar gratuitamente 15 mil 300 cobijas en 48 municipios con temperaturas gélidas, dando prioridad a adultos mayores y personas vulnerables mediante la Sebiso.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>4</Liga>
+		<Municipio>Hidalgo</Municipio>
+		<Sentimiento_de_la_fuente>Positivo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Entrega De Apoyos</Tema_segun_la_fuente>
+		<Sintesis>El gobierno estatal inició la distribución de 15 mil 300 cobijas del Programa Invernal 2026 en 48 municipios hidalguenses para proteger del frío a población vulnerable y adultos mayores.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>20</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>Bienestar</Dependencia>
+		<Dependencias_mencionadas>Sebiso, Gobierno de Hidalgo</Dependencias_mencionadas>
+		<Actores_mencionados>Ricardo Gómez Moreno, Julio Menchaca Salazar</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>VAN A DEMOLER PRIMARIA EN TULANCINGO; EDIFICARÁN OTRA</Titular>
+		<Contenido>La SEPH informó que la primaria Aquiles Serdán en Tulancingo presenta daños estructurales por lo que será demolida y reconstruida en un proceso que durará un ciclo escolar, reubicando alumnos a clases presenciales o en modalidad híbrida/en línea.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Tulancingo</Municipio>
+		<Sentimiento_de_la_fuente>Neutro</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Reconstrucción de escuela</Tema_segun_la_fuente>
+		<Sintesis>La SEPH demolerá y reconstruirá el edificio de la escuela primaria Aquiles Serdán en Tulancingo por daños estructurales, reubicando temporalmente a los estudiantes durante el ciclo escolar.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Interior</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Erick Perales</Autor>
+		<Tipo_de_autor>Reportero</Tipo_de_autor>
+		<Dependencia>SEPH</Dependencia>
+		<Dependencias_mencionadas>SEPH</Dependencias_mencionadas>
+		<Actores_mencionados>Natividad Castrejón</Actores_mencionados>
+	</Nota>
+	<Nota>
+		<Canal>Impresos locales</Canal>
+		<Medio_o_cuenta>Al Día Noticias</Medio_o_cuenta>
+		<Titular>LADRÓN HUASTECO SUSTRAJO 500 MIL PESOS DE FINANCIERA</Titular>
+		<Contenido>Cámaras de videovigilancia captaron el robo de medio millón de pesos cometido por un sujeto durante la madrugada del martes en la financiera Soluciones y Servicios Financieros, en la zona centro de Huejutla de Reyes.</Contenido>
+		<Fecha_de_publicacion>2026-11-27</Fecha_de_publicacion>
+		<Liga>5</Liga>
+		<Municipio>Huejutla</Municipio>
+		<Sentimiento_de_la_fuente>Negativo</Sentimiento_de_la_fuente>
+		<Jerarquia_del_medio>1</Jerarquia_del_medio>
+		<Alcance_del_medio>13262</Alcance_del_medio>
+		<Unidad_del_alcance>Tiraje</Unidad_del_alcance>
+		<Genero_periodistico>Noticia</Genero_periodistico>
+		<Tema_segun_la_fuente>Robo A Establecimiento</Tema_segun_la_fuente>
+		<Sintesis>Un delincuente sustrajo 500 mil pesos de una empresa financiera en el centro de Huejutla de Reyes, quedando registrado en cámaras de seguridad mientras las autoridades investigan los hechos.</Sintesis>
+		<Jerarquia_de_la_nota>Cabeza</Jerarquia_de_la_nota>
+		<Posicion>Portadas</Posicion>
+		<Dimension>12</Dimension>
+		<Unidad_de_la_dimension>Módulos</Unidad_de_la_dimension>
+		<Con_fotografia>Sí</Con_fotografia>
+		<Es_replica>No</Es_replica>
+		<Autor>Redacción</Autor>
+		<Tipo_de_autor>Redacción</Tipo_de_autor>
+		<Dependencia>PGJEH</Dependencia>
+		<Dependencias_mencionadas>PGJEH, Policía Municipal</Dependencias_mencionadas>
+	</Nota>
+</NotasRadio>
